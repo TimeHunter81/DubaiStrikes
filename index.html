@@ -486,7 +486,7 @@
 
   // ─── RENDER ────────────────────────────────────────────────────────────
   function getSelectedCutoff() {
-    if (windowHours === 0) return Infinity; // ALL
+    if (windowHours >= sliderMax) return Infinity; // ALL
     return Date.now() - windowHours * 3600000;
   }
 
@@ -581,7 +581,9 @@
     const slider = document.getElementById('timeline-slider');
     slider.min = 1;
     slider.max = sliderMax;
-    slider.value = sliderMax; // leftmost = ALL (max value = ALL when inverted)
+    slider.value = 1; // leftmost (min) = ALL
+
+    windowHours = sliderMax; // show all by default
 
     // Left end label = ALL, right end label = 1h
     document.querySelector('#timeline-ends span:first-child').textContent = 'All';
@@ -590,10 +592,8 @@
 
     slider.addEventListener('input', () => {
       const raw = parseInt(slider.value);
-      // Invert: raw=max → windowHours=0 (ALL), raw=1 → windowHours=sliderMax-1 (~all but one)
-      // Actually: left(max)=ALL, right(1)=1h last
-      // windowHours = sliderMax - raw + 1 when raw < sliderMax, else 0
-      windowHours = (raw >= sliderMax) ? 0 : (sliderMax - raw + 1);
+      // raw=1 (left) → ALL, raw=sliderMax (right) → 1h
+      windowHours = sliderMax - raw + 1;
       document.getElementById('timeline-value').textContent = windowLabel(windowHours);
       renderEvents();
       renderLocations();
