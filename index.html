@@ -123,9 +123,12 @@
 
     /* ── FILTERS ── */
     #filters {
-      padding: 8px 14px;
-      display: flex; gap: 4px; flex-wrap: wrap;
+      padding: 6px 14px 8px;
+      display: flex; flex-direction: column; gap: 5px;
       flex-shrink: 0;
+    }
+    #filters-type, #filters-conf {
+      display: flex; gap: 4px; flex-wrap: wrap; align-items: center;
     }
     .filter-btn {
       padding: 3px 8px; border-radius: 20px;
@@ -141,6 +144,13 @@
       box-shadow: 0 0 8px rgba(79,158,255,0.12), inset 0 0 8px rgba(79,158,255,0.04);
     }
     .filter-sep { width: 1px; background: rgba(255,255,255,0.06); margin: 2px 2px; flex-shrink: 0; }
+    #tz-toggle {
+      background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.08);
+      color: #4a5a72; font-size: 10px; border-radius: 8px; padding: 1px 7px;
+      cursor: pointer; font-family: inherit; transition: all 0.15s; white-space: nowrap;
+    }
+    #tz-toggle:hover { border-color: rgba(79,158,255,0.3); color: #7eb8ff; }
+    #tz-toggle.active { background: rgba(79,158,255,0.1); border-color: rgba(79,158,255,0.4); color: #7eb8ff; }
 
     /* ── MY LOCATIONS ── */
     #locations-section { flex-shrink: 0; }
@@ -410,7 +420,10 @@
     <div id="timeline-section">
       <div id="timeline-top">
         <span id="timeline-label">Timeline</span>
-        <span id="timeline-value">Now</span>
+        <div style="display:flex;align-items:center;gap:6px">
+          <span id="timeline-value">All</span>
+          <button id="tz-toggle" onclick="toggleTZ()" title="Switch timezone">🕐 Local</button>
+        </div>
       </div>
       <input type="range" id="timeline-slider" min="0" step="1" />
       <div id="timeline-ends">
@@ -422,15 +435,17 @@
     <div class="section-divider"></div>
     <!-- FILTERS -->
     <div id="filters">
-      <button class="filter-btn active" data-type="all">All</button>
-      <button class="filter-btn" data-type="interception">🛡 Intercept</button>
-      <button class="filter-btn" data-type="impact_major">💥 Major</button>
-      <button class="filter-btn" data-type="impact_minor">🔸 Debris</button>
-      <button class="filter-btn" data-type="security_alert">🚨 Alert</button>
-      <div class="filter-sep"></div>
-      <button class="filter-btn active" data-conf="all">All</button>
-      <button class="filter-btn" data-conf="confirmed">✅ Confirmed</button>
-      <button class="filter-btn" data-conf="suspected">❓ Suspected</button>
+      <div id="filters-type">
+        <button class="filter-btn active" data-type="all">All</button>
+        <button class="filter-btn" data-type="interception">🛡 Intercept</button>
+        <button class="filter-btn" data-type="impact_major">💥 Major</button>
+        <button class="filter-btn" data-type="impact_minor">🔸 Debris</button>
+        <button class="filter-btn" data-type="security_alert">🚨 Alert</button>
+      </div>
+      <div id="filters-conf" style="display:none">
+        <button class="filter-btn active" data-conf="confirmed">✅ Confirmed</button>
+        <button class="filter-btn active" data-conf="suspected">❓ Suspected</button>
+      </div>
     </div>
 
     <div class="section-divider"></div>
@@ -519,6 +534,32 @@
   }
 
   // ─── RELATIVE TIME ─────────────────────────────────────────────────────
+  // ─── TIMEZONE ─────────────────────────────────────────────────────────
+  let tzMode = 'local'; // 'local' | 'dubai'
+
+  function toggleTZ() {
+    tzMode = tzMode === 'local' ? 'dubai' : 'local';
+    const btn = document.getElementById('tz-toggle');
+    btn.textContent = tzMode === 'dubai' ? '🕐 Dubai' : '🕐 Local';
+    btn.classList.toggle('active', tzMode === 'dubai');
+    // Re-render all relative times
+    document.getElementById('events-list').querySelectorAll('.event-time').forEach(el => {
+      const card = el.closest('[data-datetime]');
+      if (card) el.innerHTML = `<span class="rel">${relTime(card.dataset.datetime)}</span>`;
+    });
+  }
+
+  function fmtAbs(then) {
+    const tz = tzMode === 'dubai' ? 'Asia/Dubai' : undefined; // undefined = browser local
+    const fmt = new Intl.DateTimeFormat('en-GB', {
+      weekday: 'short', day: 'numeric', month: 'short',
+      hour: '2-digit', minute: '2-digit', hour12: false,
+      ...(tz ? { timeZone: tz } : {}),
+    });
+    const tzLabel = tzMode === 'dubai' ? ' Dubai' : '';
+    return fmt.format(then) + tzLabel;
+  }
+
   function relTime(isoStr) {
     if (!isoStr) return '';
     const then = new Date(isoStr);
@@ -526,27 +567,18 @@
     const ms   = now - then;
     const min  = Math.floor(ms / 60000);
     const h    = Math.floor(ms / 3600000);
-    const days = ['Sun','Mon','Tue','Wed','Thu','Fri','Sat'];
-    const months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
-    const t    = then.toISOString().slice(11,16);
-    const d    = then.getUTCDate();
-    const mon  = months[then.getUTCMonth()];
 
-    if (min < 60)  return `${min}m ago`;
-    if (h < 24)    return `${h}h ago`;
+    // day diff in UTC (timezone-neutral boundary)
+    const todayUTC   = new Date(Date.UTC(now.getUTCFullYear(),  now.getUTCMonth(),  now.getUTCDate()));
+    const thenDayUTC = new Date(Date.UTC(then.getUTCFullYear(), then.getUTCMonth(), then.getUTCDate()));
+    const dayDiff    = Math.round((todayUTC - thenDayUTC) / 86400000);
 
-    // Was it calendar-yesterday (in UTC)?
-    const todayUTC     = new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate()));
-    const thenDayUTC   = new Date(Date.UTC(then.getUTCFullYear(), then.getUTCMonth(), then.getUTCDate()));
-    const dayDiff      = Math.round((todayUTC - thenDayUTC) / 86400000);
+    const abs = fmtAbs(then);
 
-    if (dayDiff === 1) return `Yesterday · ${t} UTC`;
-
-    // 2–6 days ago: "Mon 2 Mar · 20:30 UTC" — day name + numeric date = unambiguous
-    if (dayDiff < 7)  return `${days[then.getUTCDay()]} ${d} ${mon} · ${t} UTC`;
-
-    // Older: "28 Feb · 22:00 UTC"
-    return `${d} ${mon} · ${t} UTC`;
+    if (min < 60)   return `${min}m ago`;
+    if (dayDiff === 0) return `${h}h ago · ${abs}`;
+    if (dayDiff === 1) return `1 day ago · ${abs}`;
+    return `${dayDiff} days ago · ${abs}`;
   }
 
   // Format for slider display
@@ -658,9 +690,8 @@
 
     const filtered = allEvents.filter(e => {
       const tOk = filterType === 'all' || e.type === filterType;
-      const cOk = filterConf === 'all'
-        || (filterConf === 'confirmed' && e.confirmed === true)
-        || (filterConf === 'suspected' && e.confirmed === false);
+      const cOk = (filterShowConfirmed && e.confirmed === true)
+        || (filterShowSuspected && e.confirmed === false);
       const dt = e.datetime ? new Date(e.datetime).getTime() : 0;
       const timeOk = dt <= cutoff;
       return tOk && cOk && timeOk;
@@ -688,7 +719,7 @@
         ? `<span class="badge badge-approx">📍 ${e.location || 'Area'}</span>` : '';
       const clickAttr = isPrecise(e)
         ? `onclick="flyTo(${e.lat},${e.lon})"` : '';
-      return `<div class="event-card${!isPrecise(e) ? ' event-card-approx' : ''}" data-type="${e.type||''}" ${clickAttr}>
+      return `<div class="event-card${!isPrecise(e) ? ' event-card-approx' : ''}" data-type="${e.type||''}" data-datetime="${e.datetime||''}" ${clickAttr}>
         <div class="event-badges">
           ${tm.label ? `<span class="badge ${tm.cls}">${tm.label}</span>` : ''}
           <span class="badge ${confClass}">${confLabel}</span>
@@ -720,6 +751,11 @@
   }
 
   function flyTo(lat, lon) { map.flyTo([lat, lon], 12, { duration: 0.8 }); }
+
+  function updateConfFilters() {
+    const hasSuspected = allEvents.some(e => !e.confirmed);
+    document.getElementById('filters-conf').style.display = hasSuspected ? 'flex' : 'none';
+  }
 
   function updateStatus(events) {
     const badge = document.getElementById('status-badge');
@@ -790,8 +826,20 @@
   });
   document.querySelectorAll('[data-conf]').forEach(btn => {
     btn.addEventListener('click', () => {
-      document.querySelectorAll('[data-conf]').forEach(b => b.classList.remove('active'));
-      btn.classList.add('active'); filterConf = btn.dataset.conf; renderEvents();
+      const conf = btn.dataset.conf;
+      // Toggle independent; prevent both off
+      if (conf === 'confirmed') {
+        const next = !filterShowConfirmed;
+        if (!next && !filterShowSuspected) return; // would hide everything
+        filterShowConfirmed = next;
+      } else {
+        const next = !filterShowSuspected;
+        if (!next && !filterShowConfirmed) return;
+        filterShowSuspected = next;
+      }
+      document.querySelector('[data-conf="confirmed"]').classList.toggle('active', filterShowConfirmed);
+      document.querySelector('[data-conf="suspected"]').classList.toggle('active', filterShowSuspected);
+      renderEvents();
     });
   });
 
