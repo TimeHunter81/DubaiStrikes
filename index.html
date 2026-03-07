@@ -12,7 +12,7 @@
     #map { flex: 1; }
 
     #sidebar {
-      width: 360px;
+      width: 380px;
       background: #161b22;
       border-left: 1px solid #30363d;
       display: flex;
@@ -20,250 +20,484 @@
       overflow: hidden;
     }
 
+    /* HEADER */
     #header {
-      padding: 16px;
+      padding: 14px 16px;
       border-bottom: 1px solid #30363d;
       background: #0d1117;
     }
-
-    #header h1 { font-size: 16px; font-weight: 600; letter-spacing: 0.5px; }
-    #header .subtitle { font-size: 12px; color: #8b949e; margin-top: 4px; }
-
+    #header h1 { font-size: 15px; font-weight: 600; letter-spacing: 0.5px; }
+    #header .subtitle { font-size: 11px; color: #8b949e; margin-top: 3px; }
     #status-badge {
-      display: inline-flex;
-      align-items: center;
-      gap: 6px;
-      padding: 4px 10px;
-      border-radius: 12px;
-      font-size: 12px;
-      font-weight: 600;
-      margin-top: 10px;
+      display: inline-flex; align-items: center; gap: 6px;
+      padding: 3px 10px; border-radius: 12px; font-size: 11px; font-weight: 600; margin-top: 8px;
     }
-    .status-clear { background: #1a3a2a; color: #3fb950; border: 1px solid #238636; }
+    .status-clear   { background: #1a3a2a; color: #3fb950; border: 1px solid #238636; }
     .status-warning { background: #3a2a0a; color: #d29922; border: 1px solid #9e6a03; }
-    .status-alert { background: #3a0f0f; color: #f85149; border: 1px solid #b91c1c; }
+    .status-alert   { background: #3a0f0f; color: #f85149; border: 1px solid #b91c1c; }
 
+    /* FILTERS */
     #filters {
-      padding: 10px 16px;
+      padding: 8px 12px;
       border-bottom: 1px solid #30363d;
       display: flex;
-      gap: 6px;
+      gap: 4px;
       flex-wrap: wrap;
     }
-
     .filter-btn {
-      padding: 3px 10px;
-      border-radius: 10px;
-      border: 1px solid #30363d;
-      background: transparent;
-      color: #8b949e;
-      font-size: 11px;
-      cursor: pointer;
-      transition: all 0.15s;
+      padding: 2px 8px; border-radius: 10px; border: 1px solid #30363d;
+      background: transparent; color: #8b949e; font-size: 10px; cursor: pointer; transition: all 0.15s;
     }
     .filter-btn.active { color: #e6edf3; border-color: #58a6ff; background: #1c2d4a; }
-    .filter-btn:hover { border-color: #58a6ff; }
+    .filter-btn:hover  { border-color: #58a6ff; }
+    .filter-sep { width: 1px; background: #30363d; margin: 2px 0; }
 
-    #events-list {
-      flex: 1;
-      overflow-y: auto;
-      padding: 8px 0;
+    /* MY LOCATIONS */
+    #locations-section {
+      border-bottom: 1px solid #30363d;
+      font-size: 12px;
     }
+    #locations-header {
+      padding: 8px 12px;
+      display: flex; align-items: center; justify-content: space-between;
+      cursor: pointer; user-select: none;
+      color: #8b949e;
+      font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px;
+    }
+    #locations-header:hover { background: #1c2128; }
+    #locations-header .toggle { font-size: 10px; }
+    #locations-body { padding: 0 12px 10px; display: none; }
+    #locations-body.open { display: block; }
+
+    #loc-input-row { display: flex; gap: 6px; margin-bottom: 8px; }
+    #loc-input {
+      flex: 1; background: #0d1117; border: 1px solid #30363d; border-radius: 6px;
+      color: #e6edf3; padding: 4px 8px; font-size: 11px; outline: none;
+    }
+    #loc-input:focus { border-color: #58a6ff; }
+    #loc-add-btn {
+      background: #1c2d4a; border: 1px solid #58a6ff; color: #58a6ff;
+      border-radius: 6px; padding: 4px 10px; font-size: 11px; cursor: pointer;
+    }
+    #loc-add-btn:hover { background: #2d4a6e; }
+    #loc-add-btn:disabled { opacity: 0.4; cursor: default; }
+
+    #loc-list { display: flex; flex-direction: column; gap: 4px; }
+    .loc-item {
+      display: flex; align-items: flex-start; gap: 6px;
+      background: #0d1117; border: 1px solid #21262d; border-radius: 6px; padding: 6px 8px;
+    }
+    .loc-dot { width: 8px; height: 8px; border-radius: 50%; background: #3fb950; margin-top: 3px; flex-shrink: 0; }
+    .loc-info { flex: 1; min-width: 0; }
+    .loc-name { font-size: 11px; font-weight: 500; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .loc-dist { font-size: 10px; color: #8b949e; margin-top: 2px; }
+    .loc-remove { color: #6e7681; font-size: 12px; cursor: pointer; padding: 0 2px; flex-shrink: 0; }
+    .loc-remove:hover { color: #f85149; }
+
+    #loc-share-row { margin-top: 8px; }
+    #loc-share-btn {
+      width: 100%; background: transparent; border: 1px solid #30363d; color: #8b949e;
+      border-radius: 6px; padding: 4px 0; font-size: 11px; cursor: pointer;
+    }
+    #loc-share-btn:hover { border-color: #58a6ff; color: #58a6ff; }
+    #loc-status { font-size: 10px; color: #3fb950; margin-top: 4px; display: none; text-align: center; }
+
+    /* EVENTS */
+    #events-list { flex: 1; overflow-y: auto; padding: 6px 0; }
 
     .event-card {
-      padding: 12px 16px;
-      border-bottom: 1px solid #21262d;
-      cursor: pointer;
-      transition: background 0.1s;
+      padding: 10px 14px; border-bottom: 1px solid #21262d;
+      cursor: pointer; transition: background 0.1s;
     }
     .event-card:hover { background: #1c2128; }
 
-    .event-card .conf {
-      display: inline-flex;
-      align-items: center;
-      gap: 4px;
-      font-size: 10px;
-      font-weight: 600;
-      text-transform: uppercase;
-      letter-spacing: 0.5px;
-      margin-bottom: 6px;
+    .event-badges { display: flex; gap: 4px; margin-bottom: 5px; align-items: center; flex-wrap: wrap; }
+
+    .badge {
+      display: inline-flex; align-items: center; gap: 3px;
+      padding: 1px 6px; border-radius: 4px; font-size: 9px; font-weight: 700;
+      text-transform: uppercase; letter-spacing: 0.5px;
     }
-    .conf-high { color: #3fb950; }
-    .conf-medium { color: #d29922; }
-    .conf-low { color: #f85149; }
+    .badge-interception { background: #1c2d4a; color: #58a6ff; border: 1px solid #1f4a7a; }
+    .badge-impact_minor { background: #3a2a0a; color: #d29922; border: 1px solid #7a4e00; }
+    .badge-impact_major { background: #3a0f0f; color: #f85149; border: 1px solid #7a1c1c; }
+    .badge-security_alert { background: #2a1a3a; color: #a371f7; border: 1px solid #5a3a8a; }
+    .badge-confirmed   { background: transparent; color: #3fb950; border: 1px solid #238636; }
+    .badge-suspected   { background: transparent; color: #8b949e; border: 1px dashed #555; }
+
+    .conf-high       { color: #3fb950; }
+    .conf-medium     { color: #d29922; }
+    .conf-low        { color: #f85149; }
     .conf-unverified { color: #8b949e; }
 
-    .event-card .title { font-size: 13px; font-weight: 500; margin-bottom: 4px; line-height: 1.4; }
-    .event-card .meta { font-size: 11px; color: #8b949e; }
-    .event-card .sources { margin-top: 6px; display: flex; gap: 4px; flex-wrap: wrap; }
-    .event-card .src-tag {
-      padding: 1px 6px;
-      border-radius: 4px;
-      font-size: 10px;
-      background: #21262d;
-      color: #58a6ff;
-      text-decoration: none;
+    .event-title { font-size: 12px; font-weight: 500; margin-bottom: 3px; line-height: 1.4; }
+    .event-meta  { font-size: 10px; color: #8b949e; }
+    .event-sources { margin-top: 5px; display: flex; gap: 3px; flex-wrap: wrap; }
+    .src-tag {
+      padding: 1px 5px; border-radius: 3px; font-size: 9px;
+      background: #21262d; color: #58a6ff; text-decoration: none;
     }
-    .event-card .src-tag:hover { background: #1c2d4a; }
+    .src-tag:hover { background: #1c2d4a; }
 
-    #empty-state {
-      padding: 40px 16px;
-      text-align: center;
-      color: #8b949e;
-      font-size: 13px;
-    }
+    #empty-state { padding: 40px 16px; text-align: center; color: #8b949e; font-size: 12px; }
 
+    /* FOOTER */
     #footer {
-      padding: 10px 16px;
-      border-top: 1px solid #30363d;
-      font-size: 11px;
-      color: #6e7681;
+      padding: 8px 14px; border-top: 1px solid #30363d;
+      font-size: 10px; color: #6e7681; display: flex; justify-content: space-between; align-items: center;
     }
 
-    /* Map dark tiles */
-    .leaflet-tile { filter: brightness(0.7) invert(1) contrast(3) hue-rotate(200deg) saturate(0.3) brightness(0.7); }
-    .leaflet-container { background: #0d1117; }
+    /* MARKER STYLES */
+    .cm { border-radius: 50%; border: 2px solid rgba(255,255,255,0.4); }
+    .cm-interception { background: #58a6ff; width: 14px; height: 14px; }
+    .cm-impact_minor { background: #d29922; width: 11px; height: 11px; }
+    .cm-impact_major { background: #f85149; width: 16px; height: 16px; box-shadow: 0 0 10px rgba(248,81,73,0.6); }
+    .cm-security_alert { background: #a371f7; width: 12px; height: 12px; }
+    .cm-suspected { border-style: dashed; opacity: 0.75; }
+    .cm-loc { background: #3fb950; width: 10px; height: 10px; border: 2px solid #fff; }
 
-    /* Custom markers */
-    .marker-high { background: #3fb950; }
-    .marker-medium { background: #d29922; }
-    .marker-low { background: #f85149; }
-    .marker-unverified { background: #6e7681; }
-
-    .custom-marker {
-      width: 12px;
-      height: 12px;
-      border-radius: 50%;
-      border: 2px solid rgba(255,255,255,0.3);
-      box-shadow: 0 0 8px rgba(0,0,0,0.5);
-    }
+    /* SCROLLBAR */
+    #events-list::-webkit-scrollbar { width: 4px; }
+    #events-list::-webkit-scrollbar-track { background: transparent; }
+    #events-list::-webkit-scrollbar-thumb { background: #30363d; border-radius: 2px; }
   </style>
 </head>
 <body>
   <div id="map"></div>
   <div id="sidebar">
+
+    <!-- HEADER -->
     <div id="header">
       <h1>🇦🇪 Dubai Strike Monitor</h1>
-      <div class="subtitle">Aggregated security events — UAE</div>
+      <div class="subtitle">Security events — UAE · Iranian strikes 2026</div>
       <div id="status-badge" class="status-clear">✅ Clear</div>
     </div>
+
+    <!-- FILTERS -->
     <div id="filters">
+      <button class="filter-btn active" data-type="all">All</button>
+      <button class="filter-btn" data-type="interception">🛡 Interception</button>
+      <button class="filter-btn" data-type="impact_major">💥 Major impact</button>
+      <button class="filter-btn" data-type="impact_minor">🔸 Debris</button>
+      <button class="filter-btn" data-type="security_alert">🚨 Alert</button>
+      <div class="filter-sep"></div>
       <button class="filter-btn active" data-conf="all">All</button>
-      <button class="filter-btn" data-conf="high">🟢 High</button>
-      <button class="filter-btn" data-conf="medium">🟡 Medium</button>
-      <button class="filter-btn" data-conf="low">🔴 Low</button>
-      <button class="filter-btn" data-conf="unverified">⬜ Unverified</button>
+      <button class="filter-btn" data-conf="confirmed">✅ Confirmed</button>
+      <button class="filter-btn" data-conf="suspected">❓ Suspected</button>
     </div>
+
+    <!-- MY LOCATIONS -->
+    <div id="locations-section">
+      <div id="locations-header" onclick="toggleLocations()">
+        <span>📍 My locations <span id="loc-count"></span></span>
+        <span class="toggle" id="loc-toggle">▼</span>
+      </div>
+      <div id="locations-body">
+        <div id="loc-input-row">
+          <input id="loc-input" type="text" placeholder="Address or place name…" maxlength="100"
+            onkeydown="if(event.key==='Enter') addLocation()" />
+          <button id="loc-add-btn" onclick="addLocation()">Add</button>
+        </div>
+        <div id="loc-list"></div>
+        <div id="loc-share-row">
+          <button id="loc-share-btn" onclick="shareURL()">🔗 Copy shareable link</button>
+          <div id="loc-status">Copied!</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- EVENTS LIST -->
     <div id="events-list">
-      <div id="empty-state">No events reported.<br>Last updated: <span id="last-updated">—</span></div>
+      <div id="empty-state">No events · Last updated: <span id="last-updated">—</span></div>
     </div>
+
+    <!-- FOOTER -->
     <div id="footer">
-      Data: GDELT + wire sources · Updates every 12h · <a href="https://github.com/TimeHunter81/DubaiStrikes" style="color:#58a6ff">GitHub</a>
+      <span>GDELT + wire sources · ~12h lag</span>
+      <a href="https://github.com/TimeHunter81/DubaiStrikes" style="color:#58a6ff" target="_blank">GitHub</a>
     </div>
   </div>
 
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   <script>
-    // Map init
-    const map = L.map('map', { zoomControl: false }).setView([25.2048, 55.2708], 9);
-    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-      attribution: '© OpenStreetMap'
-    }).addTo(map);
-    L.control.zoom({ position: 'bottomright' }).addTo(map);
+  // ─── MAP INIT (CartoDB Dark Matter — English labels) ───────────────────
+  const map = L.map('map', { zoomControl: false }).setView([25.15, 55.2], 9);
+  L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+    attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors © <a href="https://carto.com/attributions">CARTO</a>',
+    subdomains: 'abcd',
+    maxZoom: 19
+  }).addTo(map);
+  L.control.zoom({ position: 'bottomright' }).addTo(map);
 
-    const confColors = { high: '#3fb950', medium: '#d29922', low: '#f85149', unverified: '#6e7681' };
-    const confLabels = { high: '🟢 High', medium: '🟡 Medium', low: '🔴 Low', unverified: '⬜ Unverified' };
+  // ─── CONSTANTS ─────────────────────────────────────────────────────────
+  const TYPE_META = {
+    interception:   { label: '🛡 Interception',  cls: 'badge-interception',   markerCls: 'cm-interception' },
+    impact_minor:   { label: '🔸 Debris',         cls: 'badge-impact_minor',   markerCls: 'cm-impact_minor' },
+    impact_major:   { label: '💥 Major impact',   cls: 'badge-impact_major',   markerCls: 'cm-impact_major' },
+    security_alert: { label: '🚨 Security alert', cls: 'badge-security_alert', markerCls: 'cm-security_alert' },
+  };
 
-    let allEvents = [];
-    let activeFilter = 'all';
-    let markers = [];
+  // ─── STATE ─────────────────────────────────────────────────────────────
+  let allEvents   = [];
+  let userLocs    = [];   // [{name, lat, lon, marker}]
+  let eventMarkers= [];
+  let filterType  = 'all';
+  let filterConf  = 'all';
+  let locOpen     = false;
 
-    function makeIcon(conf) {
-      return L.divIcon({
-        className: '',
-        html: `<div class="custom-marker" style="background:${confColors[conf] || '#6e7681'}"></div>`,
-        iconSize: [12, 12],
-        iconAnchor: [6, 6]
-      });
-    }
+  // ─── HAVERSINE ─────────────────────────────────────────────────────────
+  function haversine(lat1, lon1, lat2, lon2) {
+    const R = 6371, dLat = (lat2-lat1)*Math.PI/180, dLon = (lon2-lon1)*Math.PI/180;
+    const a = Math.sin(dLat/2)**2 + Math.cos(lat1*Math.PI/180)*Math.cos(lat2*Math.PI/180)*Math.sin(dLon/2)**2;
+    return R * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
+  }
 
-    function renderEvents(events) {
-      const list = document.getElementById('events-list');
-      const empty = document.getElementById('empty-state');
-      markers.forEach(m => map.removeLayer(m));
-      markers = [];
+  function nearestEvent(lat, lon) {
+    let best = null, bestD = Infinity;
+    allEvents.forEach(e => {
+      if (!e.lat || !e.lon) return;
+      const d = haversine(lat, lon, e.lat, e.lon);
+      if (d < bestD) { bestD = d; best = e; }
+    });
+    return best ? { event: best, km: bestD } : null;
+  }
 
-      const filtered = activeFilter === 'all' ? events : events.filter(e => e.confidence === activeFilter);
+  // ─── MARKERS ───────────────────────────────────────────────────────────
+  function makeEventIcon(type, confirmed) {
+    const meta = TYPE_META[type] || TYPE_META['impact_major'];
+    const suspected = !confirmed;
+    return L.divIcon({
+      className: '',
+      html: `<div class="cm ${meta.markerCls}${suspected?' cm-suspected':''}"></div>`,
+      iconSize: [18, 18],
+      iconAnchor: [9, 9]
+    });
+  }
 
-      if (filtered.length === 0) {
-        list.innerHTML = '';
-        list.appendChild(empty);
-        empty.style.display = 'block';
-        return;
-      }
-      empty.style.display = 'none';
+  function makeLocIcon() {
+    return L.divIcon({
+      className: '',
+      html: `<div class="cm cm-loc"></div>`,
+      iconSize: [14, 14],
+      iconAnchor: [7, 7]
+    });
+  }
 
-      list.innerHTML = filtered.map((e, i) => `
-        <div class="event-card" data-idx="${i}" onclick="flyTo(${e.lat || 25.2}, ${e.lon || 55.27})">
-          <div class="conf conf-${e.confidence}">${confLabels[e.confidence] || e.confidence}</div>
-          <div class="title">${e.title}</div>
-          <div class="meta">${e.date} · ${e.location || 'UAE'}</div>
-          <div class="sources">${(e.sources || []).map(s => `<a class="src-tag" href="${s.url}" target="_blank">${s.domain}</a>`).join('')}</div>
-        </div>
-      `).join('');
+  // ─── RENDER EVENTS ─────────────────────────────────────────────────────
+  function renderEvents() {
+    eventMarkers.forEach(m => map.removeLayer(m));
+    eventMarkers = [];
 
-      filtered.forEach(e => {
-        if (e.lat && e.lon) {
-          const m = L.marker([e.lat, e.lon], { icon: makeIcon(e.confidence) })
-            .addTo(map)
-            .bindPopup(`<b>${e.title}</b><br>${e.date}`);
-          markers.push(m);
-        }
-      });
-    }
-
-    function flyTo(lat, lon) {
-      map.flyTo([lat, lon], 11, { duration: 1 });
-    }
-
-    function updateStatus(events) {
-      const badge = document.getElementById('status-badge');
-      const hasAlert = events.some(e => e.confidence === 'high' || e.confidence === 'medium');
-      const hasHigh = events.some(e => e.confidence === 'high');
-      if (hasHigh) {
-        badge.className = 'status-alert';
-        badge.textContent = '🚨 Alert';
-      } else if (hasAlert) {
-        badge.className = 'status-warning';
-        badge.textContent = '⚠️ Warning';
-      } else {
-        badge.className = 'status-clear';
-        badge.textContent = '✅ Clear';
-      }
-    }
-
-    // Filter buttons
-    document.querySelectorAll('.filter-btn').forEach(btn => {
-      btn.addEventListener('click', () => {
-        document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
-        btn.classList.add('active');
-        activeFilter = btn.dataset.conf;
-        renderEvents(allEvents);
-      });
+    const filtered = allEvents.filter(e => {
+      const tOk = filterType === 'all' || e.type === filterType;
+      const cOk = filterConf === 'all'
+        || (filterConf === 'confirmed' && e.confirmed === true)
+        || (filterConf === 'suspected' && e.confirmed === false);
+      return tOk && cOk;
     });
 
-    // Load data
-    fetch('data.json?_=' + Date.now())
-      .then(r => r.json())
-      .then(data => {
-        allEvents = data.events || [];
-        document.getElementById('last-updated').textContent = data.last_updated || '—';
-        updateStatus(allEvents);
-        renderEvents(allEvents);
-      })
-      .catch(() => {
-        document.getElementById('last-updated').textContent = 'error loading data';
-      });
+    const list = document.getElementById('events-list');
+
+    if (filtered.length === 0) {
+      list.innerHTML = '<div id="empty-state">No events match filters · Last updated: ' +
+        (allEvents._lastUpdated || '—') + '</div>';
+      return;
+    }
+
+    list.innerHTML = filtered.map((e, i) => {
+      const tm = TYPE_META[e.type] || {};
+      const confClass = e.confirmed ? 'badge-confirmed' : 'badge-suspected';
+      const confLabel = e.confirmed ? '✅ Confirmed' : '❓ Suspected';
+      const srcs = (e.sources || []).map(s =>
+        `<a class="src-tag" href="${s.url}" target="_blank">${s.domain}</a>`
+      ).join('');
+      return `<div class="event-card" onclick="flyTo(${e.lat||25.2},${e.lon||55.27})">
+        <div class="event-badges">
+          ${tm.label ? `<span class="badge ${tm.cls}">${tm.label}</span>` : ''}
+          <span class="badge ${confClass}">${confLabel}</span>
+        </div>
+        <div class="event-title">${e.title}</div>
+        <div class="event-meta">${e.date} · ${e.location || 'UAE'}</div>
+        ${srcs ? `<div class="event-sources">${srcs}</div>` : ''}
+      </div>`;
+    }).join('');
+
+    filtered.forEach(e => {
+      if (!e.lat || !e.lon) return;
+      const m = L.marker([e.lat, e.lon], { icon: makeEventIcon(e.type, e.confirmed) })
+        .addTo(map)
+        .bindPopup(`<b>${e.title}</b><br>${e.date} · ${e.confirmed ? 'Confirmed' : 'Suspected'}`);
+      eventMarkers.push(m);
+    });
+  }
+
+  function flyTo(lat, lon) { map.flyTo([lat, lon], 12, { duration: 1 }); }
+
+  function updateStatus(events) {
+    const badge = document.getElementById('status-badge');
+    const hasMajor = events.some(e => e.type === 'impact_major' && e.confirmed);
+    const hasMinor = events.some(e => ['impact_minor','security_alert'].includes(e.type));
+    if (hasMajor) {
+      badge.className = 'status-badge status-alert'; badge.textContent = '🚨 Alert';
+    } else if (hasMinor) {
+      badge.className = 'status-badge status-warning'; badge.textContent = '⚠️ Warning';
+    } else {
+      badge.className = 'status-badge status-clear'; badge.textContent = '✅ Clear';
+    }
+  }
+
+  // ─── FILTER BUTTONS ────────────────────────────────────────────────────
+  document.querySelectorAll('[data-type]').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('[data-type]').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      filterType = btn.dataset.type;
+      renderEvents();
+    });
+  });
+  document.querySelectorAll('[data-conf]').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('[data-conf]').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      filterConf = btn.dataset.conf;
+      renderEvents();
+    });
+  });
+
+  // ─── MY LOCATIONS ──────────────────────────────────────────────────────
+  function toggleLocations() {
+    locOpen = !locOpen;
+    document.getElementById('locations-body').classList.toggle('open', locOpen);
+    document.getElementById('loc-toggle').textContent = locOpen ? '▲' : '▼';
+  }
+
+  async function addLocation() {
+    if (userLocs.length >= 5) { alert('Max 5 locations'); return; }
+    const input = document.getElementById('loc-input');
+    const name = input.value.trim();
+    if (!name) return;
+
+    const btn = document.getElementById('loc-add-btn');
+    btn.disabled = true; btn.textContent = '…';
+
+    try {
+      const r = await fetch(
+        `https://nominatim.openstreetmap.org/search?q=${encodeURIComponent(name)}&format=json&limit=1`,
+        { headers: { 'Accept-Language': 'en' } }
+      );
+      const data = await r.json();
+      if (!data.length) { alert('Location not found'); return; }
+      const { lat, lon, display_name } = data[0];
+      const shortName = display_name.split(',').slice(0,2).join(',').trim();
+      pushLocation({ name: shortName, lat: parseFloat(lat), lon: parseFloat(lon) });
+      input.value = '';
+      syncURL();
+      saveLocations();
+    } catch(e) {
+      alert('Geocoding failed');
+    } finally {
+      btn.disabled = false; btn.textContent = 'Add';
+    }
+  }
+
+  function pushLocation(loc) {
+    const m = L.marker([loc.lat, loc.lon], { icon: makeLocIcon() })
+      .addTo(map)
+      .bindPopup(`<b>${loc.name}</b>`);
+    userLocs.push({ ...loc, marker: m });
+    renderLocations();
+  }
+
+  function removeLocation(i) {
+    map.removeLayer(userLocs[i].marker);
+    userLocs.splice(i, 1);
+    renderLocations();
+    syncURL();
+    saveLocations();
+  }
+
+  function renderLocations() {
+    const cnt = userLocs.length;
+    document.getElementById('loc-count').textContent = cnt ? `(${cnt}/5)` : '';
+    const list = document.getElementById('loc-list');
+    list.innerHTML = userLocs.map((loc, i) => {
+      const near = nearestEvent(loc.lat, loc.lon);
+      const distStr = near
+        ? `${near.km.toFixed(0)} km from: ${near.event.title.substring(0,50)}…`
+        : 'No nearby events';
+      return `<div class="loc-item">
+        <div class="loc-dot"></div>
+        <div class="loc-info">
+          <div class="loc-name">${loc.name}</div>
+          <div class="loc-dist">${distStr}</div>
+        </div>
+        <span class="loc-remove" onclick="removeLocation(${i})">✕</span>
+      </div>`;
+    }).join('');
+  }
+
+  // ─── URL SYNC ──────────────────────────────────────────────────────────
+  // Format: ?locs=Name1~lat1~lon1|Name2~lat2~lon2
+  function syncURL() {
+    const url = new URL(window.location.href);
+    if (userLocs.length) {
+      url.searchParams.set('locs', userLocs.map(l => `${encodeURIComponent(l.name)}~${l.lat}~${l.lon}`).join('|'));
+    } else {
+      url.searchParams.delete('locs');
+    }
+    window.history.replaceState({}, '', url.toString());
+  }
+
+  function loadFromURL() {
+    const url = new URL(window.location.href);
+    const locs = url.searchParams.get('locs');
+    if (!locs) return;
+    locs.split('|').forEach(entry => {
+      const [name, lat, lon] = entry.split('~');
+      if (name && lat && lon) {
+        pushLocation({ name: decodeURIComponent(name), lat: parseFloat(lat), lon: parseFloat(lon) });
+      }
+    });
+    if (userLocs.length) { locOpen = true; document.getElementById('locations-body').classList.add('open'); document.getElementById('loc-toggle').textContent = '▲'; }
+  }
+
+  function saveLocations() {
+    localStorage.setItem('dsm_locs', JSON.stringify(userLocs.map(l => ({ name: l.name, lat: l.lat, lon: l.lon }))));
+  }
+
+  function loadFromStorage() {
+    if (userLocs.length) return; // URL took priority
+    try {
+      const saved = JSON.parse(localStorage.getItem('dsm_locs') || '[]');
+      saved.forEach(loc => pushLocation(loc));
+    } catch(e) {}
+  }
+
+  function shareURL() {
+    syncURL();
+    navigator.clipboard.writeText(window.location.href).then(() => {
+      const s = document.getElementById('loc-status');
+      s.style.display = 'block';
+      setTimeout(() => { s.style.display = 'none'; }, 2000);
+    });
+  }
+
+  // ─── LOAD DATA ─────────────────────────────────────────────────────────
+  fetch('data.json?_=' + Date.now())
+    .then(r => r.json())
+    .then(data => {
+      allEvents = data.events || [];
+      allEvents._lastUpdated = data.last_updated;
+      document.getElementById('last-updated').textContent = data.last_updated || '—';
+      updateStatus(allEvents);
+      loadFromURL();
+      loadFromStorage();
+      renderEvents();
+      renderLocations();
+    })
+    .catch(() => {
+      document.getElementById('last-updated').textContent = 'error loading data';
+    });
   </script>
 </body>
 </html>

@@ -9,6 +9,8 @@
       "location": "UAE",
       "lat": 24.5,
       "lon": 54.5,
+      "type": "interception",
+      "confirmed": true,
       "confidence": "high",
       "sources": [
         {"url": "https://www.hindustantimes.com/world-news/dubai-abu-dhabi-uae-war-news-live-updates-us-iran-israel-attack-flight-status-missile-alert-explosion-strikes-qatar-101772845653054.html", "domain": "hindustantimes.com", "tier": "wire"},
@@ -17,11 +19,13 @@
     },
     {
       "id": "b2c3d4e5f6a1",
-      "title": "IRGC drone attack on Al Dhafra Air Base, UAE",
+      "title": "IRGC drone attack on Al Dhafra Air Base — explosions reported",
       "date": "2026-03-07",
       "location": "Al Dhafra Air Base",
       "lat": 24.2481,
       "lon": 54.5476,
+      "type": "impact_major",
+      "confirmed": true,
       "confidence": "high",
       "sources": [
         {"url": "https://www.aljazeera.com/news/2026/3/7/iranian-missiles-intercepted-over-saudi-jordan-drones-launched-at-qatar", "domain": "aljazeera.com", "tier": "wire"}
@@ -34,6 +38,8 @@
       "location": "Abu Dhabi",
       "lat": 24.4539,
       "lon": 54.3773,
+      "type": "security_alert",
+      "confirmed": true,
       "confidence": "high",
       "sources": [
         {"url": "https://ae.usembassy.gov/security-alert-u-s-mission-to-the-uae-march-3-2026/", "domain": "ae.usembassy.gov", "tier": "official"},
@@ -42,11 +48,13 @@
     },
     {
       "id": "d4e5f6a1b2c3",
-      "title": "UAE closes airspace and embassy in Tehran following Iranian strikes",
+      "title": "UAE closes airspace and withdraws diplomats from Tehran",
       "date": "2026-03-02",
       "location": "UAE",
-      "lat": 24.5,
-      "lon": 54.5,
+      "lat": 25.0,
+      "lon": 55.1,
+      "type": "security_alert",
+      "confirmed": true,
       "confidence": "high",
       "sources": [
         {"url": "https://www.timesofisrael.com/dubais-carefully-built-image-as-a-sun-filled-safe-haven-shattered-by-iranian-strikes/", "domain": "timesofisrael.com", "tier": "wire"},
@@ -55,11 +63,13 @@
     },
     {
       "id": "e5f6a1b2c3d4",
-      "title": "Dubai International Airport (Terminal 3) struck — 4 staff injured, evacuation",
+      "title": "Dubai International Airport Terminal 3 struck — 4 staff injured, evacuation",
       "date": "2026-03-01",
       "location": "Dubai International Airport",
       "lat": 25.2532,
       "lon": 55.3657,
+      "type": "impact_major",
+      "confirmed": true,
       "confidence": "high",
       "sources": [
         {"url": "https://www.euronews.com/2026/03/01/iranian-strikes-hit-dubai-and-abu-dhabi-damaging-airport-terminals-and-the-burj-al-arab", "domain": "euronews.com", "tier": "wire"},
@@ -69,11 +79,13 @@
     },
     {
       "id": "f6a1b2c3d4e5",
-      "title": "Shahed drone strikes near Fairmont The Palm Hotel, Palm Jumeirah — 4 injured",
+      "title": "Shahed drone strike near Fairmont The Palm Hotel, Palm Jumeirah — 4 injured",
       "date": "2026-03-01",
       "location": "Palm Jumeirah",
       "lat": 25.1124,
       "lon": 55.1390,
+      "type": "impact_major",
+      "confirmed": true,
       "confidence": "high",
       "sources": [
         {"url": "https://en.wikipedia.org/wiki/2026_Iranian_strikes_on_the_United_Arab_Emirates", "domain": "en.wikipedia.org", "tier": "wire"},
@@ -82,11 +94,13 @@
     },
     {
       "id": "a2b3c4d5e6f7",
-      "title": "Iranian missile fragments hit Burj Al Arab — structural damage reported",
+      "title": "Iranian missile fragments hit Burj Al Arab — structural damage",
       "date": "2026-03-01",
       "location": "Burj Al Arab",
       "lat": 25.1412,
       "lon": 55.1853,
+      "type": "impact_minor",
+      "confirmed": true,
       "confidence": "high",
       "sources": [
         {"url": "https://www.euronews.com/2026/03/01/iranian-strikes-hit-dubai-and-abu-dhabi-damaging-airport-terminals-and-the-burj-al-arab", "domain": "euronews.com", "tier": "wire"},
@@ -95,11 +109,13 @@
     },
     {
       "id": "b3c4d5e6f7a2",
-      "title": "Fire at Jebel Ali Port — attributed to debris from aerial interception of Iranian attack",
+      "title": "Fire at Jebel Ali Port — attributed to aerial interception debris",
       "date": "2026-03-01",
       "location": "Jebel Ali Port",
       "lat": 25.0153,
       "lon": 55.0613,
+      "type": "impact_minor",
+      "confirmed": true,
       "confidence": "high",
       "sources": [
         {"url": "https://en.wikipedia.org/wiki/2026_Iranian_strikes_on_the_United_Arab_Emirates", "domain": "en.wikipedia.org", "tier": "wire"}
@@ -107,11 +123,13 @@
     },
     {
       "id": "c4d5e6f7a2b3",
-      "title": "French naval base Camp de la Paix near Zayed Port struck by drones",
+      "title": "French naval base Camp de la Paix (Zayed Port) struck by drones",
       "date": "2026-03-01",
       "location": "Zayed Port, Abu Dhabi",
       "lat": 24.4830,
       "lon": 54.3320,
+      "type": "impact_major",
+      "confirmed": true,
       "confidence": "high",
       "sources": [
         {"url": "https://en.wikipedia.org/wiki/2026_Iranian_strikes_on_the_United_Arab_Emirates", "domain": "en.wikipedia.org", "tier": "wire"}
@@ -119,11 +137,13 @@
     },
     {
       "id": "d5e6f7a2b3c4",
-      "title": "Al Minhad Air Base (UAE/RAF/ADF) struck by Iranian drones",
+      "title": "Al Minhad Air Base (UAE/RAF/Australian HQ) struck by Iranian drones",
       "date": "2026-02-28",
       "location": "Al Minhad Air Base",
       "lat": 25.0268,
       "lon": 55.3661,
+      "type": "impact_major",
+      "confirmed": true,
       "confidence": "high",
       "sources": [
         {"url": "https://en.wikipedia.org/wiki/2026_Iranian_strikes_on_the_United_Arab_Emirates", "domain": "en.wikipedia.org", "tier": "wire"}
@@ -131,11 +151,13 @@
     },
     {
       "id": "e6f7a2b3c4d5",
-      "title": "Debris from intercepts falls near Zayed International Airport — 1 killed, 7 injured",
+      "title": "Interception debris falls near Zayed International Airport — 1 killed, 7 injured",
       "date": "2026-02-28",
       "location": "Zayed International Airport, Abu Dhabi",
       "lat": 24.4330,
       "lon": 54.6511,
+      "type": "impact_minor",
+      "confirmed": true,
       "confidence": "high",
       "sources": [
         {"url": "https://en.wikipedia.org/wiki/2026_Iranian_strikes_on_the_United_Arab_Emirates", "domain": "en.wikipedia.org", "tier": "wire"},
@@ -149,6 +171,8 @@
       "location": "Al Dhafra Air Base",
       "lat": 24.2481,
       "lon": 54.5476,
+      "type": "impact_major",
+      "confirmed": true,
       "confidence": "high",
       "sources": [
         {"url": "https://en.wikipedia.org/wiki/2026_Iranian_strikes_on_the_United_Arab_Emirates", "domain": "en.wikipedia.org", "tier": "wire"},
