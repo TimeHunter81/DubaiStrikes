@@ -376,6 +376,16 @@
     document.getElementById('hamburger').innerHTML = expanded
       ? `<svg viewBox="0 0 24 24" fill="none" stroke="#e6edf3" stroke-width="2" stroke-linecap="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>`
       : `<svg viewBox="0 0 24 24" fill="none" stroke="#e6edf3" stroke-width="2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>`;
+    // Disable map interaction when sheet is open (prevents scroll-through)
+    if (expanded) {
+      map.dragging.disable();
+      map.touchZoom.disable();
+      map.scrollWheelZoom.disable();
+    } else {
+      map.dragging.enable();
+      map.touchZoom.enable();
+      map.scrollWheelZoom.enable();
+    }
     setTimeout(() => map.invalidateSize(), 270);
   }
 
@@ -476,8 +486,8 @@
 
   // ─── RENDER ────────────────────────────────────────────────────────────
   function getSelectedCutoff() {
-    if (sliderVal >= sliderMax) return Infinity;
-    return conflictStart + sliderVal * 3600000;
+    if (windowHours === 0) return Infinity; // ALL
+    return Date.now() - windowHours * 3600000;
   }
 
   function renderEvents() {
@@ -550,22 +560,41 @@
   }
 
   // ─── TIMELINE SLIDER ───────────────────────────────────────────────────
+  // windowHours = how many hours back from now to show
+  // Slider: left=max(ALL), right=1h — we invert the raw slider value
+  let windowHours = 0; // 0 = ALL
+
+  function windowLabel(h) {
+    if (h === 0 || h >= sliderMax) return 'All';
+    if (h >= 48)  return `Last ${Math.round(h/24)}d`;
+    if (h >= 24)  return 'Last 24h';
+    if (h >= 1)   return `Last ${h}h`;
+    return '1h';
+  }
+
   function initSlider(conflictStartISO) {
     conflictStart = new Date(conflictStartISO).getTime();
     const now = Date.now();
     sliderMax = Math.ceil((now - conflictStart) / 3600000);
-    sliderVal = sliderMax; // default: show all
+    windowHours = 0; // default: show all
 
     const slider = document.getElementById('timeline-slider');
-    slider.min = 0;
+    slider.min = 1;
     slider.max = sliderMax;
-    slider.value = sliderMax;
+    slider.value = sliderMax; // leftmost = ALL (max value = ALL when inverted)
+
+    // Left end label = ALL, right end label = 1h
+    document.querySelector('#timeline-ends span:first-child').textContent = 'All';
+    document.querySelector('#timeline-ends span:last-child').textContent = '1h';
+    document.getElementById('timeline-value').textContent = 'All';
 
     slider.addEventListener('input', () => {
-      sliderVal = parseInt(slider.value);
-      const isNow = (sliderVal >= sliderMax);
-      const ts = conflictStart + sliderVal * 3600000;
-      document.getElementById('timeline-value').textContent = isNow ? 'Now' : fmtSliderTime(ts);
+      const raw = parseInt(slider.value);
+      // Invert: raw=max → windowHours=0 (ALL), raw=1 → windowHours=sliderMax-1 (~all but one)
+      // Actually: left(max)=ALL, right(1)=1h last
+      // windowHours = sliderMax - raw + 1 when raw < sliderMax, else 0
+      windowHours = (raw >= sliderMax) ? 0 : (sliderMax - raw + 1);
+      document.getElementById('timeline-value').textContent = windowLabel(windowHours);
       renderEvents();
       renderLocations();
     });
