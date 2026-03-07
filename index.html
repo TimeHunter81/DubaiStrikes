@@ -183,7 +183,18 @@
     .cm-impact_major  { background: #f85149; width: 16px; height: 16px; box-shadow: 0 0 10px rgba(248,81,73,0.5); }
     .cm-security_alert{ background: #a371f7; width: 12px; height: 12px; }
     .cm-suspected { border-style: dashed; opacity: 0.75; }
-    .cm-loc { background: #3fb950; width: 10px; height: 10px; border: 2px solid #fff; }
+    .cm-loc { background: #3fb950; width: 16px; height: 16px; border: 2px solid #fff; box-shadow: 0 0 8px rgba(63,185,80,0.4); }
+
+    /* Location list editing */
+    .loc-name-wrap { display: flex; align-items: center; gap: 4px; }
+    .loc-edit-btn { color: #6e7681; font-size: 10px; cursor: pointer; flex-shrink: 0; opacity: 0; }
+    .loc-item:hover .loc-edit-btn { opacity: 1; }
+    .loc-edit-btn:hover { color: #58a6ff; }
+    .loc-name-input {
+      font-size: 11px; font-weight: 500; background: #0d1117;
+      border: 1px solid #58a6ff; border-radius: 3px;
+      color: #e6edf3; padding: 1px 5px; width: 100%; outline: none;
+    }
 
     #events-list::-webkit-scrollbar { width: 4px; }
     #events-list::-webkit-scrollbar-thumb { background: #30363d; border-radius: 2px; }
@@ -356,7 +367,7 @@
     return L.divIcon({
       className: '',
       html: `<div class="cm cm-loc"></div>`,
-      iconSize: [14, 14], iconAnchor: [7, 7]
+      iconSize: [20, 20], iconAnchor: [10, 10]
     });
   }
 
@@ -596,7 +607,7 @@
   }
 
   function pushLocation(loc) {
-    const m = L.marker([loc.lat, loc.lon], { icon: makeLocIcon() })
+    const m = L.marker([loc.lat, loc.lon], { icon: makeLocIcon(), zIndexOffset: -2000 })
       .addTo(map).bindPopup(`<b>${loc.name}</b>`);
     userLocs.push({ ...loc, marker: m });
     renderLocations();
@@ -620,12 +631,38 @@
       return `<div class="loc-item">
         <div class="loc-dot"></div>
         <div class="loc-info">
-          <div class="loc-name">${loc.name}</div>
+          <div class="loc-name-wrap">
+            <span class="loc-name" style="font-size:11px;font-weight:500;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">${loc.name}</span>
+            <span class="loc-edit-btn" title="Rename" onclick="startEditLocName(${i})">✏️</span>
+          </div>
           <div class="loc-dist">${distStr}</div>
         </div>
         <span class="loc-remove" onclick="removeLocation(${i})">✕</span>
       </div>`;
     }).join('');
+  }
+
+  function startEditLocName(i) {
+    const list = document.getElementById('loc-list');
+    const items = list.querySelectorAll('.loc-item');
+    const wrap = items[i].querySelector('.loc-name-wrap');
+    const currentName = userLocs[i].name;
+    wrap.innerHTML = `<input class="loc-name-input" id="_locNameEdit_${i}" value="${currentName.replace(/"/g,'&quot;')}" />`;
+    const input = document.getElementById(`_locNameEdit_${i}`);
+    input.focus(); input.select();
+    input.addEventListener('blur',    () => saveLocName(i, input));
+    input.addEventListener('keydown', e => {
+      if (e.key === 'Enter')  { e.preventDefault(); saveLocName(i, input); }
+      if (e.key === 'Escape') { renderLocations(); }
+    });
+  }
+
+  function saveLocName(i, input) {
+    const newName = input.value.trim();
+    if (!newName || !userLocs[i]) return;
+    userLocs[i].name = newName;
+    userLocs[i].marker.setPopupContent(`<b>${newName}</b>`);
+    renderLocations(); syncURL(); saveLocations();
   }
 
   // ─── URL / STORAGE ─────────────────────────────────────────────────────
@@ -674,24 +711,32 @@
     }
 
     const el = document.createElement('div');
-    el.style.cssText = 'font-family:system-ui;font-size:12px;min-width:190px';
+    el.style.cssText = 'font-family:system-ui;font-size:12px;min-width:200px';
     el.innerHTML = `
-      <div style="font-weight:600;margin-bottom:8px;line-height:1.3">${name}</div>
+      <div style="font-size:10px;color:#888;margin-bottom:4px;text-transform:uppercase;letter-spacing:.4px">Name</div>
+      <input id="_addLocName" value="${name.replace(/"/g,'&quot;')}" style="
+        width:100%;background:#1a1a2e;border:1px solid #58a6ff;border-radius:4px;
+        color:#e6edf3;padding:4px 7px;font-size:12px;outline:none;margin-bottom:8px;box-sizing:border-box" />
       <button id="_addLocBtn" style="
         background:#1c2d4a;border:1px solid #58a6ff;color:#58a6ff;
         border-radius:5px;padding:4px 12px;font-size:11px;cursor:pointer;width:100%">
-        📍 Add as location
+        📍 Add location
       </button>`;
     popup.setContent(el);
 
     setTimeout(() => {
-      const btn = document.getElementById('_addLocBtn');
-      if (btn) btn.addEventListener('click', () => {
+      const input = document.getElementById('_addLocName');
+      const btn   = document.getElementById('_addLocBtn');
+      if (input) { input.focus(); input.select(); }
+      const doAdd = () => {
+        const finalName = (input ? input.value.trim() : name) || name;
         map.closePopup();
-        pushLocation({ name, lat: latlng.lat, lon: latlng.lng });
+        pushLocation({ name: finalName, lat: latlng.lat, lon: latlng.lng });
         syncURL(); saveLocations();
         if (!locOpen) toggleLocations();
-      });
+      };
+      if (btn) btn.addEventListener('click', doAdd);
+      if (input) input.addEventListener('keydown', e => { if (e.key === 'Enter') { e.preventDefault(); doAdd(); } });
     }, 30);
   }
 
