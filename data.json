@@ -1,811 +1,1186 @@
 {
-  "last_updated": "2026-03-07T21:56:58Z",
+  "last_updated": "2026-03-07T22:16:32Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
-      "id": "5967d64bdbc2",
-      "datetime": "2026-03-07T21:49:15Z",
-      "type": "impact_minor",
-      "confirmed": false,
-      "precision": "exact",
-      "title": "Dubai Marina tower hit as Iran launches missile attacks - live updates",
-      "location": "Dubai",
-      "lat": 25.0819,
-      "lon": 55.1367,
-      "sources": [
-        {
-          "url": "https://www.irishmirror.ie/news/world-news/dubai-marina-tower-hit-iran-36832962",
-          "domain": "irishmirror.ie",
-          "tier": "unverified"
-        }
-      ],
-      "confidence": "low"
-    },
-    {
-      "id": "18c8c86f62e3",
-      "datetime": "2026-03-07T21:49:15Z",
+      "id": "457b9f42e100",
+      "datetime": "2026-03-07T22:15:03Z",
       "type": "security_alert",
       "confirmed": false,
       "precision": "country",
-      "title": "Welcome Bellevision . com",
+      "title": "\u0987\u09b0\u09be\u09a8 : \u0987\u09b0\u09be\u09a8 \u09b8\u0982\u0998\u09be\u09a4 : \u09a8\u09c7\u09a4\u09be\u09a8\u09bf\u09af\u09bc\u09be\u09b9\u09c1  \u0986\u09ae\u09be\u09a6\u09c7\u09b0 \u09b8\u09ae\u09b8\u09cd\u09a4 \u09b6\u0995\u09cd\u09a4\u09bf \u09a6\u09bf\u09af\u09bc\u09c7  \u09af\u09c1\u09a6\u09cd\u09a7 \u099a\u09be\u09b2\u09bf\u09af\u09bc\u09c7 \u09af\u09be\u0993\u09af\u09bc\u09be\u09b0 \u09aa\u09cd\u09b0\u09a4\u09bf\u09b6\u09cd\u09b0\u09c1\u09a4\u09bf \u09a6\u09bf\u09af\u09bc\u09c7\u099b\u09c7\u09a8 , \u09ac\u09b2\u09c7\u099b\u09c7\u09a8 \u0987\u09b8\u09b0\u09be\u09af\u09bc\u09c7\u09b2\u09c7\u09b0 \u09b8\u09b0\u0995\u09be\u09b0\u0995\u09c7 \u09aa\u09a4\u09a8\u09c7\u09b0 \u09aa\u09b0\u09bf\u0995\u09b2\u09cd\u09aa\u09a8\u09be \u09b0\u09af\u09bc\u09c7\u099b\u09c7",
       "location": "UAE",
       "lat": null,
       "lon": null,
       "sources": [
         {
-          "url": "http://www.bellevision.com/?action=headlines&type=639",
-          "domain": "bellevision.com",
+          "url": "https://banglanews24.today/2026/03/07/%E0%A6%87%E0%A6%B0%E0%A6%BE%E0%A6%A8-%E0%A6%87%E0%A6%B0%E0%A6%BE%E0%A6%A8-%E0%A6%B8%E0%A6%82%E0%A6%98%E0%A6%BE%E0%A6%A4-%E0%A6%A8%E0%A7%87%E0%A6%A4%E0%A6%BE%E0%A6%A8%E0%A6%BF%E0%A6%AF%E0%A6%BC/",
+          "domain": "banglanews24.today",
           "tier": "unverified"
         }
       ],
       "confidence": "low"
     },
     {
-      "id": "02220256f66e",
-      "datetime": "2026-03-07T21:49:15Z",
-      "type": "impact_minor",
-      "confirmed": false,
-      "precision": "exact",
-      "title": "Horrifying moment Dubai Marina hit by Iranian drones as war escalates further",
-      "location": "Dubai",
-      "lat": 25.0819,
-      "lon": 55.1367,
-      "sources": [
-        {
-          "url": "https://www.aol.com/articles/horrifying-moment-dubai-marina-hit-183400961.html",
-          "domain": "aol.com",
-          "tier": "unverified"
-        }
-      ],
-      "confidence": "low"
-    },
-    {
-      "id": "d54e7a99e3ac",
-      "datetime": "2026-03-07T21:49:15Z",
-      "type": "impact_major",
-      "confirmed": false,
-      "precision": "exact",
-      "title": "Iran launches night drone attack on Dubai : One man killed and two skyscrapers in flames hours after city airport was struck",
-      "location": "Dubai",
-      "lat": 25.2532,
-      "lon": 55.3657,
-      "sources": [
-        {
-          "url": "https://www.dailymail.co.uk/news/article-15624541/Iran-drone-attack-Dubai-man-killed-skyscrapers-flames-airport-struck.html",
-          "domain": "dailymail.co.uk",
-          "tier": "unverified"
-        }
-      ],
-      "confidence": "low"
-    },
-    {
-      "id": "81bc981a2d3a",
-      "datetime": "2026-03-07T21:49:15Z",
+      "id": "65c66f482e7c",
+      "datetime": "2026-03-07T22:15:03Z",
       "type": "security_alert",
       "confirmed": false,
       "precision": "country",
-      "title": "US using British bases for  specific defensive operation after bombers arrive",
+      "title": "News1 | \u05e6\u05dc \u05d4\u05db\u05d8\u05d1  \u05de\u05d9\u05dd \u05de\u05e2\u05dc \u05d3\u05d5\u05d1\u05d0\u05d9 : \u05d4\u05de\u05dc\u05d7\u05de\u05d4 \u05de\u05d0\u05d9\u05d9\u05de\u05ea \u05e2\u05dc \u05ea\u05d5\u05e8 \u05d4\u05d6\u05d4\u05d1 \u05e9\u05dc \u05ea\u05d9\u05d9\u05e8\u05d5\u05ea \u05d4\u05de\u05e4\u05e8\u05e5",
       "location": "UAE",
       "lat": null,
       "lon": null,
       "sources": [
         {
-          "url": "https://www.barryanddistrictnews.co.uk/news/national/25916981.us-using-british-bases-specific-defensive-operations-bombers-arrive/",
-          "domain": "barryanddistrictnews.co.uk",
-          "tier": "unverified"
-        },
-        {
-          "url": "https://www.dorsetecho.co.uk/news/national/25916981.us-using-british-bases-specific-defensive-operations-bombers-arrive/",
-          "domain": "dorsetecho.co.uk",
-          "tier": "unverified"
-        },
-        {
-          "url": "https://www.leighjournal.co.uk/news/national/25916981.us-using-british-bases-specific-defensive-operations-bombers-arrive/",
-          "domain": "leighjournal.co.uk",
-          "tier": "unverified"
-        },
-        {
-          "url": "https://www.dudleynews.co.uk/news/national/25916981.us-using-british-bases-specific-defensive-operations-bombers-arrive/",
-          "domain": "dudleynews.co.uk",
-          "tier": "unverified"
-        },
-        {
-          "url": "https://www.yorkpress.co.uk/news/national/25916981.us-using-british-bases-specific-defensive-operations-bombers-arrive/",
-          "domain": "yorkpress.co.uk",
+          "url": "https://www.news1.co.il/Archive/001-D-515586-00.html",
+          "domain": "news1.co.il",
           "tier": "unverified"
         }
       ],
       "confidence": "low"
     },
     {
-      "id": "8a332d7e72bc",
-      "datetime": "2026-03-07T21:49:15Z",
+      "id": "62e0e23b81f0",
+      "datetime": "2026-03-07T22:15:03Z",
       "type": "security_alert",
       "confirmed": false,
       "precision": "country",
-      "title": "Putin telefonoval s ir\u00e1nskym prezidentom , na \u010dom sa dohodli ?",
+      "title": "Conflit au Moyen - Orient : lIran promet quil poursuivra ses attaques sur les pays voisins utilis\u00e9s pour  lagression",
       "location": "UAE",
       "lat": null,
       "lon": null,
       "sources": [
         {
-          "url": "https://www1.pluska.sk/spravy/online-iransky-prezident-sa-ospravedlnil-susednym-krajinam-za-utoky-ale-ihned-prisiel-zvrat",
-          "domain": "www1.pluska.sk",
+          "url": "https://www.rtl.be/actu/monde/international/conflit-au-moyen-orient-liran-promet-quil-poursuivra-ses-attaques-sur-les-pays/2026-03-07/article/781881",
+          "domain": "rtl.be",
           "tier": "unverified"
         }
       ],
       "confidence": "low"
     },
     {
-      "id": "e58aef9c61c5",
-      "datetime": "2026-03-07T21:49:15Z",
+      "id": "02ec3e6f03fc",
+      "datetime": "2026-03-07T22:15:03Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "Irako sostin\u0117je ir Erbilo mieste gird\u0117ti sprogimai",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.lrt.lt/naujienos/pasaulyje/6/2860006/irako-sostineje-ir-erbilo-mieste-girdeti-sprogimai",
+          "domain": "lrt.lt",
+          "tier": "unverified"
+        }
+      ],
+      "confidence": "low"
+    },
+    {
+      "id": "64edca100df2",
+      "datetime": "2026-03-07T22:15:03Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "Duizenden gebouwen in Iran beschadigd \u2022 Verdeeldheid onder Iraanse leiders",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://nos.nl/collectie/14015/liveblog/2605259-duizenden-gebouwen-in-iran-beschadigd-verdeeldheid-onder-iraanse-leiders",
+          "domain": "nos.nl",
+          "tier": "unverified"
+        }
+      ],
+      "confidence": "low"
+    },
+    {
+      "id": "371b85989016",
+      "datetime": "2026-03-07T22:15:03Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "News1 | \u05e0\u05ea\u05e0\u05d9\u05d4\u05d5 :  \u05e8\u05d2\u05e2 \u05d4\u05d0\u05de\u05ea \u05e9\u05dc \u05d0\u05d9\u05e8\u05df \u05de\u05ea\u05e7\u05e8\u05d1 , \u05d9\u05e9 \u05dc\u05e0\u05d5 \u05d4\u05e4\u05ea\u05e2\u05d5\u05ea \u05dc\u05e2\u05e8\u05e2\u05d5\u05e8 \u05d4\u05de\u05e9\u05d8\u05e8",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.news1.co.il/Archive/001-D-515581-00.html",
+          "domain": "news1.co.il",
+          "tier": "unverified"
+        }
+      ],
+      "confidence": "low"
+    },
+    {
+      "id": "2f7055b06660",
+      "datetime": "2026-03-07T22:15:03Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "News1 | \u05de\u05d3\u05d4\u05d9\u05dd : \u05db\u05da \u05e0\u05e8\u05d0\u05d4 \u05d4\u05de\u05d8\u05d7 \u05d4\u05d0\u05d7\u05e8\u05d5\u05df \u05dc\u05e7\u05e8\u05d9\u05d9\u05ea \u05e9\u05de\u05d5\u05e0\u05d4",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.news1.co.il/Archive/001-D-515582-00.html",
+          "domain": "news1.co.il",
+          "tier": "unverified"
+        }
+      ],
+      "confidence": "low"
+    },
+    {
+      "id": "a16445b26236",
+      "datetime": "2026-03-07T22:15:03Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "Apr\u00e8s une semaine de guerre , combien lIran tiendra - t - il ?",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.tsa-algerie.com/guerre-au-moyen-orient-combien-liran-tiendra-t-il/",
+          "domain": "tsa-algerie.com",
+          "tier": "unverified"
+        }
+      ],
+      "confidence": "low"
+    },
+    {
+      "id": "68c37890a6e5",
+      "datetime": "2026-03-07T22:15:03Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "News1 | \u05de\u05e4\u05e7\u05d3 \u05d7\u05d9\u05dc - \u05d4\u05d0\u05d5\u05d5\u05d9\u05e8 \u05d4\u05de\u05e8\u05d9\u05d0 \u05dc\u05ea\u05e7\u05d9\u05e4\u05d4 \u05d1\u05d0\u05d9\u05e8\u05df - \u05d5\u05d4\u05e1\u05d9\u05e8 \u05d0\u05ea \u05d3\u05e8\u05d2\u05d5\u05ea \u05d4\u05d0\u05dc\u05d5\u05e3",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.news1.co.il/Archive/001-D-515577-00.html",
+          "domain": "news1.co.il",
+          "tier": "unverified"
+        }
+      ],
+      "confidence": "low"
+    },
+    {
+      "id": "4624b7b3c5d9",
+      "datetime": "2026-03-07T22:15:03Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "Wsj : gli united states trasferiscono in Medio Oriente i sistemi anti - drone testati sul campo in Ucraina - DIRETTA",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.agenzianova.com/news/wsj-gli-usa-trasferiscono-in-medio-oriente-i-sistemi-anti-drone-testati-sul-campo-in-ucraina-diretta/",
+          "domain": "agenzianova.com",
+          "tier": "unverified"
+        }
+      ],
+      "confidence": "low"
+    },
+    {
+      "id": "0b348f7b9ad7",
+      "datetime": "2026-03-07T22:15:03Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "Iranas grasina toliau atakuoti kaimynes , padedan\u010dias jo prie\u0161ams",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.lrt.lt/naujienos/pasaulyje/6/2860006/iranas-grasina-toliau-atakuoti-kaimynes-padedancias-jo-priesams",
+          "domain": "lrt.lt",
+          "tier": "unverified"
+        }
+      ],
+      "confidence": "low"
+    },
+    {
+      "id": "6bb52c275b1d",
+      "datetime": "2026-03-07T22:15:03Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "News1 | \u05de\u05d8\u05d7 \u05de\u05dc\u05d1\u05e0\u05d5\u05df \u05dc\u05d7\u05d9\u05e4\u05d4 \u05d5\u05d4\u05e7\u05e8\u05d9\u05d5\u05ea - \u05d7\u05dc\u05e7 \u05de\u05d4\u05e8\u05e7\u05d8\u05d5\u05ea \u05d9\u05d5\u05e8\u05d8\u05d5",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.news1.co.il/Archive/001-D-515575-00.html",
+          "domain": "news1.co.il",
+          "tier": "unverified"
+        }
+      ],
+      "confidence": "low"
+    },
+    {
+      "id": "41167611eef5",
+      "datetime": "2026-03-07T22:15:03Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "Everything we know on the eighth day of the US and Israel war with Iran",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.ksl.com:443/article/51458556/everything-we-know-on-the-eighth-day-of-the-us-and-israels-war-with-iran",
+          "domain": "ksl.com:443",
+          "tier": "unverified"
+        }
+      ],
+      "confidence": "low"
+    },
+    {
+      "id": "f35fc9984273",
+      "datetime": "2026-03-07T22:15:03Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "Isra\u00ebl : Actualit\u00e9s et info en direct",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.tf1info.fr/actualite/israel-10033/",
+          "domain": "tf1info.fr",
+          "tier": "unverified"
+        }
+      ],
+      "confidence": "low"
+    },
+    {
+      "id": "7c2ceb15c2de",
+      "datetime": "2026-03-07T22:15:03Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "Guerre en Iran et au Moyen - Orient\u00a0 : la France impliqu\u00e9e de fait dans le conflit , les derni\u00e8res infos",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.linternaute.com/actualite/monde/9970081-guerre-en-iran-et-au-moyen-orient-la-france-impliquee-de-fait-dans-le-conflit-les-dernieres-infos/",
+          "domain": "linternaute.com",
+          "tier": "unverified"
+        }
+      ],
+      "confidence": "low"
+    },
+    {
+      "id": "423ca8bc290b",
+      "datetime": "2026-03-07T22:15:03Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "En direct Guerre au Moyen - Orient . Le pr\u00e9sident iranien sexcuse aupr\u00e8s de ses voisins pour les frappes mais son pays ne se rendra pas",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.estrepublicain.fr/defense-guerre-conflit/2026/03/07/nouvelle-nuit-sous-les-bombes-a-teheran-et-beyrouth-au-huitieme-jour-du-conflit",
+          "domain": "estrepublicain.fr",
+          "tier": "unverified"
+        }
+      ],
+      "confidence": "low"
+    },
+    {
+      "id": "bc10319fa6d7",
+      "datetime": "2026-03-07T22:15:03Z",
+      "type": "security_alert",
+      "confirmed": true,
+      "precision": "country",
+      "title": "Seven days on , seven questions about the US - Israeli war on Iran",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.theguardian.com/world/2026/mar/07/seven-questions-about-iran-war",
+          "domain": "theguardian.com",
+          "tier": "wire"
+        }
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "622c11e16cf9",
+      "datetime": "2026-03-07T22:15:03Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "Guerra in Iran , le news di oggi dopo lattacco di united states e Israele",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.repubblica.it/esteri/2026/03/07/diretta/guerra_iran_usa_israele_news_oggi-425205332/?ref=RHEX-BG-P1-S1-F-d727",
+          "domain": "repubblica.it",
+          "tier": "unverified"
+        }
+      ],
+      "confidence": "low"
+    },
+    {
+      "id": "a14e2ba315b1",
+      "datetime": "2026-03-07T22:15:03Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "Impact of war strikes at least 18 nations | News , Sports , Jobs",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.vindy.com/news/national-news/2026/03/impact-of-war-strikes-at-least-18-nations/",
+          "domain": "vindy.com",
+          "tier": "unverified"
+        }
+      ],
+      "confidence": "low"
+    },
+    {
+      "id": "7a7ca0a14fd4",
+      "datetime": "2026-03-07T22:15:03Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "Iran \u2026 Israel \u2026 Trump \u2026 3 / 6 / 2026 \u2026. Trump asks for Something that IS NOT Happening \u2026 Surrender \u2026",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://politicaldog101.com/2026/03/iran-israel-trump-3-6-2026-trump-asks-for-something-that-is-not-happening-surrender/",
+          "domain": "politicaldog101.com",
+          "tier": "unverified"
+        }
+      ],
+      "confidence": "low"
+    },
+    {
+      "id": "8b2e66244503",
+      "datetime": "2026-03-07T22:15:03Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "\u0627\u0644\u0633\u0624\u0627\u0644 \u0627\u0644\u0639\u0631\u0628\u064a \u0627\u0644\u0635\u0639\u0628 \u0641\u064a \u0627\u0644\u0623\u0632\u0645\u0629 \u0627\u0644\u0625\u064a\u0631\u0627\u0646\u064a\u0629 : \u0627\u0646\u0647\u064a\u0627\u0631 \u0646\u0638\u0627\u0645 \u0627\u0644\u0645\u0644\u0627\u0644\u064a \u0623\u0645 \u062a\u0642\u064a\u064a\u062f \u0633\u0644\u0648\u0643\u0647 \u0648\u0645\u0646\u0639 \u0633\u0642\u0648\u0637 \u062f\u0648\u0644\u062a\u0647 \u061f",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.dostor.org/5445670",
+          "domain": "dostor.org",
+          "tier": "unverified"
+        }
+      ],
+      "confidence": "low"
+    },
+    {
+      "id": "5cf326fc9605",
+      "datetime": "2026-03-07T22:15:03Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "War in the Middle East : latest developments - Jamaica Observer",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.jamaicaobserver.com/2026/03/07/war-middle-east-latest-developments-20260307-2030-332028/",
+          "domain": "jamaicaobserver.com",
+          "tier": "unverified"
+        }
+      ],
+      "confidence": "low"
+    },
+    {
+      "id": "4bf9678fb184",
+      "datetime": "2026-03-07T22:15:03Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "Izrael m\u00e1 propracovan\u00fd pl\u00e1n pro dal\u0161\u00ed f\u00e1zi v\u00e1lky | Sv\u011bt",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.lidovky.cz/svet/netanjahu-izrael-iran-rezim-teheran-usa.A260307_214131_ln_zahranici_rkj",
+          "domain": "lidovky.cz",
+          "tier": "unverified"
+        }
+      ],
+      "confidence": "low"
+    },
+    {
+      "id": "66e68837a66a",
+      "datetime": "2026-03-07T22:15:03Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "Izrael m\u00e1 propracovan\u00fd pl\u00e1n pro dal\u0161\u00ed f\u00e1zi v\u00e1lky",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.idnes.cz/zpravy/zahranicni/netanjahu-izrael-iran-rezim-teheran-usa.A260307_204701_zahranicni_tmps",
+          "domain": "idnes.cz",
+          "tier": "unverified"
+        }
+      ],
+      "confidence": "low"
+    },
+    {
+      "id": "cd64e76a73d6",
+      "datetime": "2026-03-07T22:15:03Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "Iran , Tajani  Continuiamo a lavorare per far prevalere la diplomazia  \u2013 Padovanews",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.padovanews.it/2026/03/07/iran-tajani-continuiamo-a-lavorare-per-far-prevalere-la-diplomazia/",
+          "domain": "padovanews.it",
+          "tier": "unverified"
+        }
+      ],
+      "confidence": "low"
+    },
+    {
+      "id": "71e78b0fe94b",
+      "datetime": "2026-03-07T22:15:03Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "Fuerte amenaza de Donald Trump :  Hoy Ir\u00e1n recibir\u00e1 un golpe muy duro",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "http://www.cronica.com.ar/mundo/fuerte-amenaza-de-donald-trump-hoy-iran-recibira-un-golpe-muy-duro/",
+          "domain": "cronica.com.ar",
+          "tier": "unverified"
+        }
+      ],
+      "confidence": "low"
+    },
+    {
+      "id": "e5836723a65d",
+      "datetime": "2026-03-07T22:15:03Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "Iran raid di Israele sulla raffineria | inferno di fuoco a Teheran",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.zazoom.it/2026-03-07/iran-raid-di-israele-sulla-raffineria-inferno-di-fuoco-a-teheran/18788925/",
+          "domain": "zazoom.it",
+          "tier": "unverified"
+        }
+      ],
+      "confidence": "low"
+    },
+    {
+      "id": "687e3b7d9023",
+      "datetime": "2026-03-07T22:15:03Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "Iran Meloni rassicura | Non vogliamo entrare in guerra La fregata italiana a Cipro in missione preventiva e il confronto con Francia Germania e united kingdom",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.zazoom.it/2026-03-07/iran-meloni-rassicura-non-vogliamo-entrare-in-guerra-la-fregata-italiana-a-cipro-in-missione-preventiva-e-il-confronto-con-francia-germania-e-uk/18788920/",
+          "domain": "zazoom.it",
+          "tier": "unverified"
+        }
+      ],
+      "confidence": "low"
+    },
+    {
+      "id": "3a534e8262b3",
+      "datetime": "2026-03-07T22:15:03Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "Considera Trump destrucci\u00f3n total de ciertas zonas en Ir\u00e1n",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://planoinformativo.com/1131756/considera-trump-destruccion-total-de-ciertas-zonas-en-iran-",
+          "domain": "planoinformativo.com",
+          "tier": "unverified"
+        }
+      ],
+      "confidence": "low"
+    },
+    {
+      "id": "e13f552a9b6e",
+      "datetime": "2026-03-07T22:15:03Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "Iran , Tajani  Continuiamo a lavorare per far prevalere la diplomazia  \u2013 Il Tempo",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.iltempo.it/italpress/2026/03/07/news/iran-tajani-continuiamo-a-lavorare-per-far-prevalere-la-diplomazia--46701308/",
+          "domain": "iltempo.it",
+          "tier": "unverified"
+        }
+      ],
+      "confidence": "low"
+    },
+    {
+      "id": "b830063fb828",
+      "datetime": "2026-03-07T22:15:03Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "Trump declara victoria narrativa :  Ir\u00e1n , machacado , se rinde y pide perd\u00f3n",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.negocios.com/articulo/geopolitica/trump-declara-victoria-narrativa-iran-machacado-rinde-pide-perdon/20260307195049481341.html",
+          "domain": "negocios.com",
+          "tier": "unverified"
+        }
+      ],
+      "confidence": "low"
+    },
+    {
+      "id": "411e9d6eb2d7",
+      "datetime": "2026-03-07T22:15:03Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "Iran , Tajani  Continuiamo a lavorare per far prevalere la diplomazia",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.sassuolo2000.it/2026/03/07/iran-tajani-continuiamo-a-lavorare-per-far-prevalere-la-diplomazia/",
+          "domain": "sassuolo2000.it",
+          "tier": "unverified"
+        },
+        {
+          "url": "https://www.radiolombardia.it/2026/03/07/iran-tajani-continuiamo-a-lavorare-per-far-prevalere-la-diplomazia/",
+          "domain": "radiolombardia.it",
+          "tier": "unverified"
+        },
+        {
+          "url": "https://tuttoggi.info/iran-tajani-continuiamo-a-lavorare-per-far-prevalere-la-diplomazia/979920/",
+          "domain": "tuttoggi.info",
+          "tier": "unverified"
+        }
+      ],
+      "confidence": "low"
+    },
+    {
+      "id": "a4739f9baf24",
+      "datetime": "2026-03-07T22:15:03Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "La resa dei conti sembrerebbe vicina , lIran chiede scusa ai vicini .. segno che il sistema Paese scricchiola sotto gli attacchi ?",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.resegoneonline.it/la-resa-dei-conti-sembrerebbe-vicina-liran-chiede-scusa-ai-vicini-segno-che-il-sistema-paese-scricchiola-sotto-gli-attacchi/34362/",
+          "domain": "resegoneonline.it",
+          "tier": "unverified"
+        },
+        {
+          "url": "https://www.valtellinanews.it/la-resa-dei-conti-sembrerebbe-vicina-liran-chiede-scusa-ai-vicini-segno-che-il-sistema-paese-scricchiola-sotto-gli-attacchi/29151/",
+          "domain": "valtellinanews.it",
+          "tier": "unverified"
+        }
+      ],
+      "confidence": "low"
+    },
+    {
+      "id": "59edf06b9c3c",
+      "datetime": "2026-03-07T22:15:03Z",
       "type": "security_alert",
       "confirmed": false,
       "precision": "city",
-      "title": "Atak drona w Dubaju . Dym nad wie\u017cowcem [ RELACJA NA \u017bYWO ]",
-      "location": "UAE",
-      "lat": 24.4539,
-      "lon": 54.3773,
-      "sources": [
-        {
-          "url": "https://wiadomosci.onet.pl/swiat/atak-drona-w-dubaju-dym-nad-wiezowcem-relacja-na-zywo/4c64zzj",
-          "domain": "wiadomosci.onet.pl",
-          "tier": "unverified"
-        }
-      ],
-      "confidence": "low"
-    },
-    {
-      "id": "ad05b4483f29",
-      "datetime": "2026-03-07T21:49:15Z",
-      "type": "security_alert",
-      "confirmed": false,
-      "precision": "country",
-      "title": "Ikony Bliskiego Wschodu . Dlaczego wojna mo\u017ce im zagra\u017ca\u0107 ?",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.propertynews.pl/polityka-i-spoleczenstwo/ikony-bliskiego-wschodu-dlaczego-wojna-moze-im-zagrazac,196852.html",
-          "domain": "propertynews.pl",
-          "tier": "unverified"
-        }
-      ],
-      "confidence": "low"
-    },
-    {
-      "id": "2952636afc6f",
-      "datetime": "2026-03-07T21:49:15Z",
-      "type": "impact_major",
-      "confirmed": false,
-      "precision": "exact",
-      "title": "JUST IN : Explosion rocks Dubai airport",
-      "location": "Dubai",
-      "lat": 25.2532,
-      "lon": 55.3657,
-      "sources": [
-        {
-          "url": "https://promptnewsonline.com/just-in-explosion-rocks-dubai-airport/",
-          "domain": "promptnewsonline.com",
-          "tier": "unverified"
-        }
-      ],
-      "confidence": "low"
-    },
-    {
-      "id": "7e30511cb021",
-      "datetime": "2026-03-07T21:49:15Z",
-      "type": "security_alert",
-      "confirmed": false,
-      "precision": "exact",
-      "title": "lran  deliberately targeted  hotels and airports in Middle East -  war crime",
-      "location": "UAE",
-      "lat": 25.2532,
-      "lon": 55.3657,
-      "sources": [
-        {
-          "url": "https://www.express.co.uk/news/world/2178997/iran-deliberately-targeting-hotels-war",
-          "domain": "express.co.uk",
-          "tier": "unverified"
-        }
-      ],
-      "confidence": "low"
-    },
-    {
-      "id": "4ae06cde9d9b",
-      "datetime": "2026-03-07T21:49:15Z",
-      "type": "security_alert",
-      "confirmed": false,
-      "precision": "country",
-      "title": "\u70b8\u96f7\u8fbe \u3001 \u51fb\u8239\u53ea \u3001 \u88ad\u8425\u5730 \uff01 \u53e4\u7279\u96f7\u65af\u6025\u547c\u5931\u63a7 \uff0c \u4e2d\u4e1c\u5c40\u52bf\u6700\u65b0\u8fdb\u5c55 \u591a\u56fd\u96f7\u8fbe\u7cfb\u7edf\u906d\u88ad _ \u519b\u4e8b\u9891\u9053 _ \u4e2d\u534e\u7f51",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://military.china.com/news/13004177/20260307/49301307.html",
-          "domain": "military.china.com",
-          "tier": "unverified"
-        }
-      ],
-      "confidence": "low"
-    },
-    {
-      "id": "f6cd8908ca21",
-      "datetime": "2026-03-07T21:49:15Z",
-      "type": "security_alert",
-      "confirmed": false,
-      "precision": "country",
-      "title": "\u53e4\u7279\u96f7\u65af\u8b66\u544a \uff1a \u4e2d\u4e1c\u5730\u533a\u5c40\u52bf  \u53ef\u80fd\u5931\u63a7 \uff01 \u5c40\u52bf\u6700\u65b0\u8fdb\u5c55\u901f\u89c8|\u4f0a\u6717|\u4f0a\u62c9\u514b",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.163.com/dy/article/KNDHJTMK0514R9OJ.html",
-          "domain": "163.com",
-          "tier": "unverified"
-        }
-      ],
-      "confidence": "low"
-    },
-    {
-      "id": "19e0eb158ee1",
-      "datetime": "2026-03-07T21:49:15Z",
-      "type": "security_alert",
-      "confirmed": false,
-      "precision": "country",
-      "title": "\u3010 \u65b0\u805e\u76f4\u64ca \u3011 \u4e2d\u5171\u6562\u5e6b\u4f0a\u6717 \uff1f \u5ddd\u666e\u6293\u7fd2\u4e09\u8edf\u808b | \u4e2d\u5171\u53ef\u80fd\u6e96\u5099\u63f4\u52a9\u4f0a\u6717 | \u970d\u723e\u6728\u8332\u6d77\u5cfd\u822a\u904b | \u6cb9\u50f9",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.ntdtv.com/b5/2026/03/06/a104073658.html",
-          "domain": "ntdtv.com",
-          "tier": "unverified"
-        }
-      ],
-      "confidence": "low"
-    },
-    {
-      "id": "85daad02eea9",
-      "datetime": "2026-03-07T21:49:15Z",
-      "type": "security_alert",
-      "confirmed": false,
-      "precision": "country",
-      "title": "Country by country , here how the unfolding war is affecting the Middle East and beyond",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.rockymounttelegram.com/news/world/country-by-country-heres-how-the-unfolding-war-is-affecting-the-middle-east-and-beyond/article_9c70649e-700b-5b65-b97e-05895c4a9d5e.html",
-          "domain": "rockymounttelegram.com",
-          "tier": "unverified"
-        }
-      ],
-      "confidence": "low"
-    },
-    {
-      "id": "f7e1f8d42bee",
-      "datetime": "2026-03-07T21:49:15Z",
-      "type": "security_alert",
-      "confirmed": false,
-      "precision": "country",
-      "title": "\u0423\u0434\u0430\u0440\u0438 \u043f\u043e \u0434\u0430\u0442\u0430 - \u0446\u0435\u043d\u0442\u0440\u0430\u0445 AWS \u2013 \u043a\u0456\u043d\u0435\u0446\u044c \u0456\u043b\u044e\u0437\u0456\u0457 \u043f\u0440\u043e \u0431\u0435\u0437\u043f\u0435\u043a\u0443 \u0445\u043c\u0430\u0440",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://expert.com.ua/211615-udary-po-data-centrah-aws-kinec-ilyuzii-pro-bezpeku-hmar.html",
-          "domain": "expert.com.ua",
-          "tier": "unverified"
-        }
-      ],
-      "confidence": "low"
-    },
-    {
-      "id": "b9ecaff65991",
-      "datetime": "2026-03-07T21:49:15Z",
-      "type": "security_alert",
-      "confirmed": false,
-      "precision": "country",
-      "title": "Country by country : How the unfolding war is affecting the Middle East and beyond",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://salinapost.com/posts/25a26133-d0a8-493a-9bc6-15e21aab01d8",
-          "domain": "salinapost.com",
-          "tier": "unverified"
-        },
-        {
-          "url": "https://jcpost.com/posts/25a26133-d0a8-493a-9bc6-15e21aab01d8",
-          "domain": "jcpost.com",
-          "tier": "unverified"
-        }
-      ],
-      "confidence": "low"
-    },
-    {
-      "id": "4620856b52ac",
-      "datetime": "2026-03-07T21:49:15Z",
-      "type": "security_alert",
-      "confirmed": false,
-      "precision": "country",
-      "title": "( \u0411\u041b\u041e\u0413 ) \u0421\u0415\u0414\u041c\u0418 \u0414\u0410\u041d \u0420\u0410\u0422\u0410 \u041d\u0410 \u0411\u041b\u0418\u0421\u041a\u041e\u041c \u0418\u0421\u0422\u041e\u041a\u0423 \u0416\u0435\u0441\u0442\u043e\u043a\u0438 \u0443\u0434\u0430\u0440\u0438 \u043d\u0430 \u041b\u0438\u0431\u0430\u043d , \u0434\u0435\u0442\u043e\u043d\u0430\u0446\u0438\u0458\u0435 \u043e\u0434\u0458\u0435\u043a\u0443\u0458\u0443 \u0422\u0435\u0445\u0435\u0440\u0430\u043d\u043e\u043c , \u041a\u0443\u0440\u0434\u0438 \u0441\u043f\u0440\u0435\u043c\u043d\u0438 \u0434\u0430 \u0443\u0452\u0443 \u0443 \u0418\u0440\u0430\u043d",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.dnevnik.rs/vesti/svet/blog-sedmi-dan-rata-na-bliskom-istoku-zestoki-udari-na-liban-detonacije-odjekuju-teheranom-tramp-protiv-kopnene-invazije-irana-2026-03-06",
-          "domain": "dnevnik.rs",
-          "tier": "unverified"
-        }
-      ],
-      "confidence": "low"
-    },
-    {
-      "id": "4e6560adb720",
-      "datetime": "2026-03-07T21:49:15Z",
-      "type": "security_alert",
-      "confirmed": false,
-      "precision": "country",
-      "title": "\u0399\u03c3\u03c1\u03b1\u03ae\u03bb : \u00ab \u03a0\u03b5\u03c1\u03bd\u03ac\u03bc\u03b5 \u03c3\u03c4\u03b7\u03bd \u03b5\u03c0\u03cc\u03bc\u03b5\u03bd\u03b7 \u03c6\u03ac\u03c3\u03b7 \u03c4\u03b7\u03c2 \u03b5\u03c0\u03b9\u03c7\u03b5\u03af\u03c1\u03b7\u03c3\u03b7\u03c2 \u00bb",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://kathimerini.com.cy/gr/kosmos/pws-apanta-o-kompos-gia-ti-bretaniki-taxidiotiki-odigiax",
-          "domain": "kathimerini.com.cy",
-          "tier": "unverified"
-        }
-      ],
-      "confidence": "low"
-    },
-    {
-      "id": "fcf66cd77a9b",
-      "datetime": "2026-03-07T21:49:15Z",
-      "type": "security_alert",
-      "confirmed": false,
-      "precision": "country",
-      "title": "\u09ac\u09c8\u09b6\u09cd\u09ac\u09bf\u0995 \u0985\u09b0\u09cd\u09a5\u09a8\u09c0\u09a4\u09bf \u0993 \u09ae\u09be\u09a8\u09ac\u09a4\u09be\u09b0 \u09ac\u09bf\u09aa\u09b0\u09cd\u09af\u09df",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://dailyinqilab.com/international/news/871063",
-          "domain": "dailyinqilab.com",
-          "tier": "unverified"
-        }
-      ],
-      "confidence": "low"
-    },
-    {
-      "id": "dadfa1cd1925",
-      "datetime": "2026-03-07T21:49:15Z",
-      "type": "security_alert",
-      "confirmed": false,
-      "precision": "country",
-      "title": "Izraelsk\u00e1 arm\u00e1da ozn\u00e1mila \u010fal\u0161iu f\u00e1zu vojny s Ir\u00e1nom",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.topky.sk/cl/11/9339675/MIMORIADNE-Izraelska-armada-oznamila-DALSIU-fazu-vojny-s-Iranom",
-          "domain": "topky.sk",
-          "tier": "unverified"
-        }
-      ],
-      "confidence": "low"
-    },
-    {
-      "id": "ed37f49e2cd7",
-      "datetime": "2026-03-07T21:49:15Z",
-      "type": "security_alert",
-      "confirmed": false,
-      "precision": "country",
-      "title": "ONLINE Vojna na Bl\u00edzkom v\u00fdchode : united states s\u013e\u00fabili Turkom podporu",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www1.pluska.sk/spravy/online-konflikt-na-blizkom-vychode-obyvatelia-abu-zabi-hlasia-hlasne-vybuchy",
-          "domain": "www1.pluska.sk",
-          "tier": "unverified"
-        }
-      ],
-      "confidence": "low"
-    },
-    {
-      "id": "6b79bdecf5f4",
-      "datetime": "2026-03-07T21:49:15Z",
-      "type": "security_alert",
-      "confirmed": false,
-      "precision": "country",
-      "title": "The War at Sea",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.globalsecurity.org/military/ops/iran-war-at-sea.htm",
-          "domain": "globalsecurity.org",
-          "tier": "unverified"
-        }
-      ],
-      "confidence": "low"
-    },
-    {
-      "id": "84e32f4f16a1",
-      "datetime": "2026-03-07T21:49:15Z",
-      "type": "security_alert",
-      "confirmed": false,
-      "precision": "country",
-      "title": "\u041c\u043e\u0436\u0435\u0442 \u043b\u0438 \u0438\u0441\u0447\u0435\u0437\u043d\u0443\u0442\u044c \u0438\u043d\u0442\u0435\u0440\u043d\u0435\u0442 \u0432 \u043c\u0438\u0440\u0435 \u2013 \u043a\u0430\u043a \u043d\u0430 \u044d\u0442\u043e \u0432\u043b\u0438\u044f\u044e\u0442 \u0443\u0434\u0430\u0440\u044b \u0418\u0440\u0430\u043d\u0430 \u0438 \u0432\u043e\u0439\u043d\u0430 \u043d\u0430 \u0411\u043b\u0438\u0436\u043d\u0435\u043c \u0412\u043e\u0441\u0442\u043e\u043a\u0435",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://24tv.ua/ru/mozhet-li-ischeznut-internet-v-mire-kak-na-jeto-vlijajut-udary-irana-i-vojna-na-blizhnem-vostoke_n3021062",
-          "domain": "24tv.ua",
-          "tier": "unverified"
-        }
-      ],
-      "confidence": "low"
-    },
-    {
-      "id": "1a935a45f5ca",
-      "datetime": "2026-03-07T21:49:15Z",
-      "type": "security_alert",
-      "confirmed": false,
-      "precision": "country",
-      "title": "\u0427\u0438 \u043c\u043e\u0436\u0435 \u0437\u043d\u0438\u043a\u043d\u0443\u0442\u0438 \u0456\u043d\u0442\u0435\u0440\u043d\u0435\u0442 \u0443 \u0441\u0432\u0456\u0442\u0456 - \u044f\u043a \u043d\u0430 \u0446\u0435 \u0432\u043f\u043b\u0438\u0432\u0430\u044e\u0442\u044c \u0443\u0434\u0430\u0440\u0438 \u0406\u0440\u0430\u043d\u0443 \u0456 \u0432\u0456\u0439\u043d\u0430 \u043d\u0430 \u0411\u043b\u0438\u0437\u044c\u043a\u043e\u043c\u0443 \u0421\u0445\u043e\u0434\u0456",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://24tv.ua/mozhe-zniknuti-internet-sviti-yak-tse-vplivayut-udari-iranu-viyna_n3021061",
-          "domain": "24tv.ua",
-          "tier": "unverified"
-        }
-      ],
-      "confidence": "low"
-    },
-    {
-      "id": "f397eec98fc3",
-      "datetime": "2026-03-07T21:49:15Z",
-      "type": "security_alert",
-      "confirmed": false,
-      "precision": "country",
-      "title": "\u041d\u0430 \u0411\u043b\u0438\u0437\u044c\u043a\u043e\u043c\u0443 \u0421\u0445\u043e\u0434\u0456 \u0442\u0440\u0438\u0432\u0430\u044e\u0442\u044c \u0430\u0442\u0430\u043a\u0438 \u0440\u0430\u043a\u0435\u0442 \u0442\u0430 \u0434\u0440\u043e\u043d\u0456\u0432 - \u043d\u043e\u0432\u0456 \u0434\u0430\u043d\u0456 \u043f\u043e \u043a\u0440\u0430\u0457\u043d\u0430\u0445",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://unn.ua/news/na-blyzkomu-skhodi-tryvaiut-ataky-raket-ta-droniv-novi-dani-po-krainakh",
-          "domain": "unn.ua",
-          "tier": "unverified"
-        }
-      ],
-      "confidence": "low"
-    },
-    {
-      "id": "4c1181a47507",
-      "datetime": "2026-03-07T21:49:15Z",
-      "type": "security_alert",
-      "confirmed": false,
-      "precision": "country",
-      "title": "\u09e7\u09ed \u099c\u09c7\u09a8\u09be\u09b0\u09c7\u09b2 \u0993 \u09ac\u09bf\u099c\u09cd\u099e\u09be\u09a8\u09c0\u09b8\u09b9 \u09e9 \u09a6\u09bf\u09a8\u09c7 \u0987\u09b8\u09b0\u09be\u0987\u09b2\u09c7 \u09a8\u09bf\u09b9\u09a4 \u09e7 , \u09e8\u09e6\u09e6",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://dailyinqilab.com/international/article/871749",
-          "domain": "dailyinqilab.com",
-          "tier": "unverified"
-        }
-      ],
-      "confidence": "low"
-    },
-    {
-      "id": "8abf63ee8715",
-      "datetime": "2026-03-07T21:49:15Z",
-      "type": "security_alert",
-      "confirmed": false,
-      "precision": "country",
-      "title": "\u041d\u0435\u0434\u0435\u043b\u044f \u0441\u0442\u0440\u0430\u043d\u043d\u043e\u0439 \u0432\u043e\u0439\u043d\u044b - \u043f\u043e\u0441\u0442\u0440\u0430\u0434\u0430\u043b\u0438 \u0432\u0441\u0435 , \u043d\u0438\u0447\u044c\u0435\u0439 \u043f\u043e\u0431\u0435\u0434\u044b \u043d\u0435 \u0432\u0438\u0434\u043d\u043e",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://news.israelinfo.co.il/141822",
-          "domain": "news.israelinfo.co.il",
-          "tier": "unverified"
-        }
-      ],
-      "confidence": "low"
-    },
-    {
-      "id": "598c79ea8e62",
-      "datetime": "2026-03-07T21:49:15Z",
-      "type": "security_alert",
-      "confirmed": false,
-      "precision": "country",
-      "title": "International airlines resume limited flights to Middle East after disruptions",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.thecable.ng/international-airlines-resume-limited-flights-to-middle-east-after-disruptions/",
-          "domain": "thecable.ng",
-          "tier": "unverified"
-        }
-      ],
-      "confidence": "low"
-    },
-    {
-      "id": "649748895fde",
-      "datetime": "2026-03-07T21:49:15Z",
-      "type": "impact_minor",
-      "confirmed": false,
-      "precision": "exact",
-      "title": "Flight operations hit as Iranian drone strikes Dubai International Airport | Indiablooms - First Portal on Digital News Management",
-      "location": "Dubai International Airport",
-      "lat": 25.2532,
-      "lon": 55.3657,
-      "sources": [
-        {
-          "url": "https://www.indiablooms.com/world/iranian-drone-strike-near-dubai-international-airports-terminal-forces-emergency-flight-suspensions/details",
-          "domain": "indiablooms.com",
-          "tier": "unverified"
-        }
-      ],
-      "confidence": "low"
-    },
-    {
-      "id": "fba1e03c94e4",
-      "datetime": "2026-03-07T21:49:15Z",
-      "type": "security_alert",
-      "confirmed": false,
-      "precision": "country",
-      "title": "\u5173\u95ed\u80a1\u5e02 \uff01 \u521a\u521a\u4f0a\u6717\u5ba3\u5e03 \uff01 \u4ee5\u8272\u5217\u53d1\u52a8\u5927\u89c4\u6a21\u7a7a\u88ad \uff01 _ \u4e1c\u65b9\u8d22\u5bcc\u7f51",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://finance.eastmoney.com/a/202603073665161530.html",
-          "domain": "finance.eastmoney.com",
-          "tier": "unverified"
-        }
-      ],
-      "confidence": "low"
-    },
-    {
-      "id": "87af91414fcd",
-      "datetime": "2026-03-07T21:49:15Z",
-      "type": "security_alert",
-      "confirmed": false,
-      "precision": "country",
-      "title": "\u0418\u0440\u0430\u043d \u0448\u0442\u0443\u0440\u043c\u043e\u0432\u0430\u043b \u0430\u0432\u0438\u0430\u0431\u0430\u0437\u0443 \u0421\u0428\u0410 \u0432 \u041e\u0410\u042d , \u043e\u0442\u043a\u0443\u0434\u0430 \u0431\u044b\u043b\u0430 \u0430\u0442\u0430\u043a\u043e\u0432\u0430\u043d\u0430 \u0448\u043a\u043e\u043b\u0430 \u0432 \u0418\u0440\u0430\u043d\u0435",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.mk.ru/politics/2026/03/07/iran-atakoval-aviabazu-ssha-v-oae-otkuda-byla-atakovana-shkola-v-irane.html",
-          "domain": "mk.ru",
-          "tier": "unverified"
-        }
-      ],
-      "confidence": "low"
-    },
-    {
-      "id": "000de8264476",
-      "datetime": "2026-03-07T21:49:15Z",
-      "type": "impact_major",
-      "confirmed": false,
-      "precision": "city",
-      "title": "Apocalypse in the Middle East - Russia backs Iran strikes as explosions rock Tel Aviv and Dubai - Greek tycoon Prokopiou defies Hormuz blockade",
+      "title": "Iran un morto a Dubai Ci sono ancora da rimpatriare 7 . 300 italiani",
       "location": "Dubai",
       "lat": 25.2048,
       "lon": 55.2708,
       "sources": [
         {
-          "url": "https://www.bankingnews.gr/diethni/articles/860906/apocalypse-in-the-middle-east-russia-backs-iran-strikes-as-explosions-rock-tel-aviv-and-dubai-greek-tycoon-prokopiou-defies-hormuz-blockade",
-          "domain": "bankingnews.gr",
+          "url": "https://www.zazoom.it/2026-03-07/iran-un-morto-a-dubai-ci-sono-ancora-da-rimpatriare-7-300-italiani/18788844/",
+          "domain": "zazoom.it",
           "tier": "unverified"
         }
       ],
       "confidence": "low"
     },
     {
-      "id": "da7e71dc78bb",
-      "datetime": "2026-03-07T21:49:15Z",
+      "id": "47ad85690d95",
+      "datetime": "2026-03-07T22:15:03Z",
       "type": "security_alert",
       "confirmed": false,
       "precision": "country",
-      "title": "\u0410\u0432\u0438\u0430\u0440\u0435\u0439\u0441\u044b \u0438\u0437 \u0414\u0443\u0431\u0430\u044f \u0441\u043d\u043e\u0432\u0430 \u043f\u0440\u0438\u043e\u0441\u0442\u0430\u043d\u0430\u0432\u043b\u0438\u0432\u0430\u043b\u0438 \u043d\u0430 \u0444\u043e\u043d\u0435 \u0430\u0442\u0430\u043a\u0438 \u0418\u0440\u0430\u043d\u0430",
+      "title": "Udalos\u0165 d\u0148a : Ir\u00e1n chce zvoli\u0165 nov\u00e9ho vodcu do 24 hod\u00edn | Svet | . t\u00fd\u017ede\u0148",
       "location": "UAE",
       "lat": null,
       "lon": null,
       "sources": [
         {
-          "url": "https://unn.ua/ru/news/aviareisi-iz-dubaya-snova-priostanavlivali-na-fone-ataki-irana",
-          "domain": "unn.ua",
+          "url": "https://www.tyzden.sk/svet/132793/udalost-dna-iran-chce-zvolit-noveho-vodcu-do-24-hodin/",
+          "domain": "tyzden.sk",
           "tier": "unverified"
         }
       ],
       "confidence": "low"
     },
     {
-      "id": "5c36cd0a2414",
-      "datetime": "2026-03-07T21:49:15Z",
+      "id": "66441e4bdac8",
+      "datetime": "2026-03-07T22:15:03Z",
       "type": "security_alert",
       "confirmed": false,
       "precision": "country",
-      "title": "\u4f0a\u67177\u5c0f\u65f6\u53d1\u5c045\u8f6e\u5bfc\u5f39 \u8fd9\u573a\u6218\u4e8b\u6301\u7eed\u591a\u4e45 \uff1f \u4e13\u5bb6 \uff1a \u4f0a\u6717\u7684\u4e09\u4e2a\u56e0\u7d20\u51b3\u5b9a _ \u4e1c\u65b9\u8d22\u5bcc\u7f51",
+      "title": "\uc774\ub780 , \uac78\ud504\uad6d\uc740 \ub2ec\ub798\uace0 \uc720\ub7fd\uc5d4  \uacf5\uaca9  \uacbd\uace0",
       "location": "UAE",
       "lat": null,
       "lon": null,
       "sources": [
         {
-          "url": "https://finance.eastmoney.com/a/202603073665137068.html",
-          "domain": "finance.eastmoney.com",
+          "url": "http://www.koreatimes.com/article/20260307/1604091",
+          "domain": "koreatimes.com",
           "tier": "unverified"
         }
       ],
       "confidence": "low"
     },
     {
-      "id": "1c58d3c06461",
-      "datetime": "2026-03-07T21:49:15Z",
+      "id": "5982ae95f146",
+      "datetime": "2026-03-07T22:15:03Z",
       "type": "security_alert",
       "confirmed": false,
       "precision": "country",
-      "title": "\u4f0a\u67177\u5c0f\u65f6\u53d1\u5c045\u8f6e\u5bfc\u5f39 \uff0c \u4ee5\u8272\u5217\u4ece\u5317\u5230\u5357\u54cd\u8d77\u9632\u7a7a\u8b66\u62a5 \uff01 \u5fb7\u9ed1\u5170\u673a\u573a\u906d\u9047\u731b\u70c8\u7a7a\u88ad \uff1b \u8fd9\u573a\u6218\u4e8b\u6301\u7eed\u591a\u4e45 \uff1f \u4e13\u5bb6 \uff1a \u4f0a\u6717\u7684\u4e09\u4e2a\u56e0\u7d20\u51b3\u5b9a",
+      "title": "Iran to halt strikes on neighbours unless attacks from there : Pezeshkian",
       "location": "UAE",
       "lat": null,
       "lon": null,
       "sources": [
         {
-          "url": "https://www.nbd.com.cn/articles/2026-03-07/4283135.html",
-          "domain": "nbd.com.cn",
+          "url": "https://thefrontierpost.com/iran-to-halt-strikes-on-neighbours-unless-attacks-from-there-pezeshkian/",
+          "domain": "thefrontierpost.com",
+          "tier": "unverified"
+        }
+      ],
+      "confidence": "low"
+    },
+    {
+      "id": "27e6c35d182e",
+      "datetime": "2026-03-07T22:15:03Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "Iran , Tajani  Continuiamo a lavorare per far prevalere la diplomazia  \u00a0 - Targatocn . it",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.targatocn.it/2026/03/07/leggi-notizia/argomenti/top-news-1/articolo/iran-tajani-continuiamo-a-lavorare-per-far-prevalere-la-diplomazia.html",
+          "domain": "targatocn.it",
+          "tier": "unverified"
+        }
+      ],
+      "confidence": "low"
+    },
+    {
+      "id": "977121508924",
+      "datetime": "2026-03-07T22:15:03Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "Caught between Iran and Saudi Arabia , can Pakistan stay neutral for long ?",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://thefrontierpost.com/caught-between-iran-and-saudi-arabia-can-pakistan-stay-neutral-for-long/",
+          "domain": "thefrontierpost.com",
+          "tier": "unverified"
+        }
+      ],
+      "confidence": "low"
+    },
+    {
+      "id": "fce925a7b72b",
+      "datetime": "2026-03-07T22:15:03Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "Trump advierte : Ir\u00e1n ser\u00e1 golpeado  muy duramente  este s\u00e1bado",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://sipse.com/mundo/trump-advierte-iran-sera-golpeado-muy-duramente-este-sabado-505281.html",
+          "domain": "sipse.com",
+          "tier": "unverified"
+        }
+      ],
+      "confidence": "low"
+    },
+    {
+      "id": "42c1598de9af",
+      "datetime": "2026-03-07T22:15:03Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "American power : Has it got a limit ?",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://socialistworker.co.uk/in-depth/american-power-has-it-got-a-limit/",
+          "domain": "socialistworker.co.uk",
+          "tier": "unverified"
+        }
+      ],
+      "confidence": "low"
+    },
+    {
+      "id": "31e93a906f0a",
+      "datetime": "2026-03-07T22:15:03Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "Habervitrini . com | Ucuz \u0130ran dronu ABD nin milyarl\u0131k f\u00fcze kalkan\u0131n\u0131 hurda etti",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.habervitrini.com/ucuz-iran-dronu-abdnin-milyarlik-fuze-kalkanini-hurda-etti/1158888",
+          "domain": "habervitrini.com",
+          "tier": "unverified"
+        }
+      ],
+      "confidence": "low"
+    },
+    {
+      "id": "6f2594bab34a",
+      "datetime": "2026-03-07T22:15:03Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "Trump war with Iran is expanding . Will others join the fight ?",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.yahoo.com/news/articles/trump-war-iran-expanding-others-110000512.html",
+          "domain": "yahoo.com",
+          "tier": "unverified"
+        }
+      ],
+      "confidence": "low"
+    },
+    {
+      "id": "9e5c78a32835",
+      "datetime": "2026-03-07T22:15:03Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "Iran Surging Missile  Shield : The Best Justification for Attacking Iran Now As Iran unleashes missiles and drones across the Middle East while racing to build a protective  missile shield  for its nuclear ambitions , Operation Epic Fury may have com...",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.ruthfullyyours.com/2026/03/06/irans-surging-missile-shield-the-best-justification-for-attacking-iran-now-as-iran-unleashes-missiles-and-drones-across-the-middle-east-while-racing-to-build-a-protective/",
+          "domain": "ruthfullyyours.com",
+          "tier": "unverified"
+        }
+      ],
+      "confidence": "low"
+    },
+    {
+      "id": "8ef933f59438",
+      "datetime": "2026-03-07T22:15:03Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "Conflit au Moyen - Orient : un vol affr\u00e9t pour rapatrier des Fran\u00e7ais fait demi - tour \u00e0 cause de tirs  dans la zone  , Isra\u00ebl annonce frapper Beyrouth",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.rtl.be/actu/monde/international/conflit-au-moyen-orient-un-vol-affrete-pour-rapatrier-des-francais-fait-demi/2026-03-05/article/781694",
+          "domain": "rtl.be",
+          "tier": "unverified"
+        }
+      ],
+      "confidence": "low"
+    },
+    {
+      "id": "fdf0085a1dac",
+      "datetime": "2026-03-07T22:15:03Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "Death toll mounts as war spreads to dozens of nations beyond Iran - 05 - Mar - 2026",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://home.nzcity.co.nz/news/article.aspx?id=441296&fm=psp,tst",
+          "domain": "home.nzcity.co.nz",
+          "tier": "unverified"
+        }
+      ],
+      "confidence": "low"
+    },
+    {
+      "id": "c7586520ab06",
+      "datetime": "2026-03-07T22:15:03Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "Medio Oriente : Israele attacca il Libano , morti e feriti . I Pasdaran : \u00ab Controlliamo lo stretto di Hormuz \u00bb",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.larena.it/news/mondo/guerra-medio-oriente-usa-israele-iran-1.12942066",
+          "domain": "larena.it",
           "tier": "unverified"
         },
         {
-          "url": "https://www.163.com/dy/article/KNE5DEID0512B07B.html",
-          "domain": "163.com",
+          "url": "https://www.bresciaoggi.it/guerra-medio-oriente-usa-israele-iran-1.12942066",
+          "domain": "bresciaoggi.it",
+          "tier": "unverified"
+        },
+        {
+          "url": "https://www.ilgiornaledivicenza.it/news/mondo/guerra-medio-oriente-usa-israele-iran-1.12942066",
+          "domain": "ilgiornaledivicenza.it",
           "tier": "unverified"
         }
       ],
       "confidence": "low"
     },
     {
-      "id": "7409a5822179",
-      "datetime": "2026-03-07T21:49:15Z",
+      "id": "c499e6a3036e",
+      "datetime": "2026-03-07T22:15:03Z",
       "type": "security_alert",
       "confirmed": false,
       "precision": "country",
-      "title": "Yax\u0131n \u015e\u0259rqd\u0259 8 - ci g\u00fcn ...",
+      "title": "From missiles to missed payments : How the Iran crisis is rippling through specialty lines",
       "location": "UAE",
       "lat": null,
       "lon": null,
       "sources": [
         {
-          "url": "https://www.yeniazerbaycan.com/Analitik_e138338_az.html",
-          "domain": "yeniazerbaycan.com",
+          "url": "https://www.insurancebusinessmag.com/au/news/breaking-news/from-missiles-to-missed-payments-how-the-iran-crisis-is-rippling-through-specialty-lines-567297.aspx",
+          "domain": "insurancebusinessmag.com",
           "tier": "unverified"
         }
       ],
       "confidence": "low"
     },
     {
-      "id": "af783dd3d9cf",
-      "datetime": "2026-03-07T21:49:15Z",
+      "id": "177e69175d48",
+      "datetime": "2026-03-07T22:15:03Z",
       "type": "security_alert",
       "confirmed": false,
       "precision": "country",
-      "title": "\u521a\u624d\u662f\u4e0d\u662f\u53c8\u70b8\u4e86 \uff1f \u592a\u5413\u4eba\u4e86 \uff0c \u4e2d\u56fd\u6e38\u5ba2\u5728\u5bfc\u5f39\u58f0\u4e2d\u5237\u56de\u56fd\u673a\u7968 \uff0c \u534e\u4eba\u53f8\u673a\u5728\u6c99\u6f20\u516c\u8def\u4e0a  \u751f\u547d\u6446\u6e21 \uff0c \u4e2d\u4e1c\u5267\u53d8 \uff0c \u5f53\u5730\u4e2d\u56fd\u4f01\u4e1a\u8fd8\u597d\u5417 \uff1f- \u864e\u55c5\u7f51",
+      "title": "Iran Update Evening Special Report , March 3 , 2026",
       "location": "UAE",
       "lat": null,
       "lon": null,
       "sources": [
         {
-          "url": "https://www.huxiu.com/article/4839890.html",
-          "domain": "huxiu.com",
+          "url": "https://understandingwar.org/research/middle-east/iran-update-evening-special-report-march-3-2026/",
+          "domain": "understandingwar.org",
           "tier": "unverified"
         }
       ],
       "confidence": "low"
     },
     {
-      "id": "d0256ae43f3f",
-      "datetime": "2026-03-07T21:49:15Z",
+      "id": "1a47837e2cc5",
+      "datetime": "2026-03-07T22:15:03Z",
       "type": "security_alert",
       "confirmed": false,
-      "precision": "country",
-      "title": "\u0418\u0440\u0430\u043d \u0443\u0434\u0430\u0440\u0438\u043b \u043f\u043e \u0425\u0430\u0439\u0444\u0435 \u0438 \u0448\u0442\u0430\u0431\u0443 \u0430\u043c\u0435\u0440\u0438\u043a\u0430\u043d\u0441\u043a\u043e\u0439 \u0430\u0440\u043c\u0438\u0438 \u0432 \u041e\u0410\u042d",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
+      "precision": "city",
+      "title": "Medio Oriente : a fuoco il consolato united states a Dubai . La Francia invia la portaerei De Gaulle , jet united kingdom abbattono droni nel cielo della Giordania",
+      "location": "Dubai",
+      "lat": 25.2048,
+      "lon": 55.2708,
       "sources": [
         {
-          "url": "https://news.mail.ru/society/70076122/",
-          "domain": "news.mail.ru",
+          "url": "https://www.bresciaoggi.it/news/mondo/medio-oriente-a-fuoco-il-consolato-usa-a-dubai-la-francia-invia-la-portaerei-de-gaulle-jet-uk-abbattono-droni-nel-cielo-della-giordania-1.12942066",
+          "domain": "bresciaoggi.it",
           "tier": "unverified"
         }
       ],
       "confidence": "low"
     },
     {
-      "id": "5fa2c769f530",
-      "datetime": "2026-03-07T21:49:15Z",
+      "id": "2a5ce1603436",
+      "datetime": "2026-03-07T22:15:03Z",
       "type": "security_alert",
       "confirmed": false,
       "precision": "country",
-      "title": "\u0418\u0440\u0430\u043d \u0432\u044b\u043f\u0443\u0441\u0442\u0438\u043b \u0440\u0430\u043a\u0435\u0442\u044b \u0438 \u0431\u0435\u0441\u043f\u0438\u043b\u043e\u0442\u043d\u0438\u043a\u0438 \u043f\u043e \u0441\u043e\u0441\u0435\u0434\u044f\u043c \u043f\u043e\u0441\u043b\u0435 \u043e\u0431\u0435\u0449\u0430\u043d\u0438\u044f \u043d\u0435 \u0430\u0442\u0430\u043a\u043e\u0432\u0430\u0442\u044c \u0438\u0445",
+      "title": "Arab media divided on Iran - Israel conflict | The Jerusalem Post",
       "location": "UAE",
       "lat": null,
       "lon": null,
       "sources": [
         {
-          "url": "https://lenta.ru/news/2026/03/07/iran-vypustil-rakety-i-bespilotniki-po-sosedyam-posle-obeschaniya-ne-atakovat-ih/",
-          "domain": "lenta.ru",
+          "url": "http://www.jpost.com/middle-east/article-888653",
+          "domain": "jpost.com",
           "tier": "unverified"
         }
       ],
       "confidence": "low"
     },
     {
-      "id": "dc2a4901fa44",
-      "datetime": "2026-03-07T21:49:15Z",
+      "id": "e8a0faa65c99",
+      "datetime": "2026-03-07T22:15:03Z",
       "type": "security_alert",
       "confirmed": false,
       "precision": "country",
-      "title": "\u0418\u0437\u0440\u0430\u0438\u043b\u044c \u0443\u043d\u0438\u0447\u0442\u043e\u0436\u0438\u043b 16 \u0441\u0430\u043c\u043e\u043b\u0435\u0442\u043e\u0432 \u041a\u0421\u0418\u0420 \u0432 \u0430\u044d\u0440\u043e\u043f\u043e\u0440\u0442\u0443 \u0422\u0435\u0433\u0435\u0440\u0430\u043d\u0430",
+      "title": "Oil Market Impacted as Iran Closes Strait of Hormuz , Vows to Attack Errant Ships \u2013 THISDAYLIVE",
       "location": "UAE",
       "lat": null,
       "lon": null,
       "sources": [
         {
-          "url": "https://wek.ru/v-izraile-obyasnili-udar-po-ayeroportu-tegerana-unichtozheniem-16-samoletov-specnaza-ksir",
-          "domain": "wek.ru",
+          "url": "https://www.thisdaylive.com/2026/03/03/oil-market-impacted-as-iran-closes-strait-of-hormuz-vows-to-attack-errant-ships/",
+          "domain": "thisdaylive.com",
           "tier": "unverified"
         }
       ],
       "confidence": "low"
     },
     {
-      "id": "697bb4381efc",
-      "datetime": "2026-03-07T21:49:15Z",
+      "id": "19e6047a5ef1",
+      "datetime": "2026-03-07T22:15:03Z",
       "type": "security_alert",
       "confirmed": false,
       "precision": "country",
-      "title": "\u0426\u0410\u0425\u0410\u041b \u043d\u0430\u0437\u0432\u0430\u043b \u0446\u0435\u043b\u044c\u044e \u0443\u0434\u0430\u0440\u0430 \u043f\u043e \u0430\u044d\u0440\u043e\u043f\u043e\u0440\u0442\u0443 \u0422\u0435\u0433\u0435\u0440\u0430\u043d\u0430 \u0443\u043d\u0438\u0447\u0442\u043e\u0436\u0435\u043d\u0438\u0435 16 \u0441\u0430\u043c\u043e\u043b\u0435\u0442\u043e\u0432 \u041a\u0421\u0418\u0420",
+      "title": "Is it now Iran vs the world ? How Tehran is taking the fight beyond Israel to US bases and Gulf states",
       "location": "UAE",
       "lat": null,
       "lon": null,
       "sources": [
         {
-          "url": "https://tass.ru/mezhdunarodnaya-panorama/26688137",
-          "domain": "tass.ru",
+          "url": "https://www.moneycontrol.com/world/is-it-now-iran-vs-the-world-how-tehran-is-taking-the-fight-beyond-israel-to-us-bases-and-gulf-states-explained-article-13848506.html",
+          "domain": "moneycontrol.com",
+          "tier": "unverified"
+        }
+      ],
+      "confidence": "low"
+    },
+    {
+      "id": "294acb56829e",
+      "datetime": "2026-03-07T22:15:03Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "Live - Iran - Krieg : Erneut Alarm in Zypern \u2013 Zwei Drohnen auf dem Weg zu Milit\u00e4rbasis abgefangen",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://de.euronews.com/2026/03/02/iran-krieg",
+          "domain": "de.euronews.com",
+          "tier": "unverified"
+        }
+      ],
+      "confidence": "low"
+    },
+    {
+      "id": "889ed7e81435",
+      "datetime": "2026-03-07T22:15:03Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "Iran Update Evening Special Report , March 1 , 2026",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://understandingwar.org/research/middle-east/iran-update-evening-special-report-march-1-2026/",
+          "domain": "understandingwar.org",
+          "tier": "unverified"
+        }
+      ],
+      "confidence": "low"
+    },
+    {
+      "id": "c254f74dbc67",
+      "datetime": "2026-03-07T22:15:03Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "US uses over 20 weapons to hit more than 1 , 000 targets in attack on Iran",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.stripes.com/theaters/middle_east/2026-03-01/weapons-iran-20922986.html",
+          "domain": "stripes.com",
+          "tier": "unverified"
+        }
+      ],
+      "confidence": "low"
+    },
+    {
+      "id": "ae7a25677a90",
+      "datetime": "2026-03-07T22:15:03Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "Chronicle of a war : 28 February 2026 \u2013 Day 1 and 29 February 2026 \u2013 Day 2",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://erkansaka.net/2026/03/01/chronicle-of-a-war-28-february-2026-day-1-and-29-february-2026-day-2/",
+          "domain": "erkansaka.net",
+          "tier": "unverified"
+        }
+      ],
+      "confidence": "low"
+    },
+    {
+      "id": "0c045d098aee",
+      "datetime": "2026-03-07T22:15:03Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "Iran , morto Khamenei . Trump :  Parler\u00f2 con i nuovi leader , affondate nove navi . Media : ucciso Ahmadinejad",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.agenzianova.com/news/iran-morto-khamenei-trump-parlero-con-i-nuovi-leader-affondate-nove-navi-media-ucciso-ahmadinejad/",
+          "domain": "agenzianova.com",
+          "tier": "unverified"
+        }
+      ],
+      "confidence": "low"
+    },
+    {
+      "id": "9651e3662fda",
+      "datetime": "2026-03-07T22:15:03Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "Iran Retaliatory Strikes Challenge Image of Gulf Stability",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://time.com/7381884/iran-missiles-dubai-palm-gulf/",
+          "domain": "time.com",
+          "tier": "unverified"
+        }
+      ],
+      "confidence": "low"
+    },
+    {
+      "id": "389df9b20d33",
+      "datetime": "2026-03-07T22:15:03Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "Updates : Israel hits Tehran as Iran counterattacks widen |",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.nola.com/live-updates-us-troop-deaths-confirmed-as-israel-hits-tehran-iran-counterstrikes-widen/article_c8e1aa72-d859-4d74-b4cd-b295e9d6c687.html",
+          "domain": "nola.com",
+          "tier": "unverified"
+        }
+      ],
+      "confidence": "low"
+    },
+    {
+      "id": "113dba670a9d",
+      "datetime": "2026-03-07T22:15:03Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "Updates : Israel hits Tehran as Iran counterattacks widen | News",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.theadvocate.com/baton_rouge/news/live-updates-us-troop-deaths-confirmed-as-israel-hits-tehran-iran-counterstrikes-widen/article_e4fd1e6f-c81b-5320-9ef0-1b00033e36b4.html",
+          "domain": "theadvocate.com",
           "tier": "unverified"
         }
       ],
