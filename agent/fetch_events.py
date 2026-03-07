@@ -20,7 +20,8 @@ from urllib.error import URLError, HTTPError
 
 REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA_FILE = os.path.join(REPO_ROOT, "data.json")
-ANTHROPIC_API_KEY = os.environ.get("ANTHROPIC_API_KEY", "")
+# LLM enrichment is handled by the OpenClaw cron agent (has API access)
+# fetch_events.py does keyword-based location extraction only
 
 # ── GDELT ───────────────────────────────────────────────────────────────────
 GDELT_API = "https://api.gdeltproject.org/api/v2/doc/doc"
@@ -143,64 +144,7 @@ def extract_location_basic(text: str) -> tuple:
 
 
 def extract_location_llm(title: str, description: str = "") -> tuple | None:
-    """
-    Use Claude Haiku to extract the most precise location from article text.
-    Returns (location_str, lat, lon, precision) or None on failure.
-    """
-    if not ANTHROPIC_API_KEY:
-        return None
-
-    prompt = f"""Extract the most geographically precise location mentioned in this news article about a security event in the UAE.
-
-Title: {title}
-Description: {description[:400] if description else '(none)'}
-
-Return ONLY a JSON object (no markdown, no explanation):
-{{
-  "location": "Most precise location name (e.g. 'Dubai International Airport Terminal 3' > 'Dubai' > 'UAE')",
-  "lat": <latitude as float or null>,
-  "lon": <longitude as float or null>,
-  "precision": "exact|city|emirate|country"
-}}
-
-If the location is vague (just 'UAE' or 'Gulf'), set precision to 'country' and lat/lon to null."""
-
-    payload = json.dumps({
-        "model": "claude-haiku-4-5",
-        "max_tokens": 150,
-        "messages": [{"role": "user", "content": prompt}]
-    }).encode()
-
-    try:
-        req = Request(
-            "https://api.anthropic.com/v1/messages",
-            data=payload,
-            headers={
-                "x-api-key": ANTHROPIC_API_KEY,
-                "anthropic-version": "2023-06-01",
-                "content-type": "application/json",
-            },
-            method="POST"
-        )
-        with urlopen(req, timeout=10) as resp:
-            data = json.loads(resp.read())
-            text = data["content"][0]["text"].strip()
-            # Strip markdown fences if present
-            text = re.sub(r"```(?:json)?", "", text).strip()
-            result = json.loads(text)
-            loc = result.get("location", "")
-            lat = result.get("lat")
-            lon = result.get("lon")
-            precision = result.get("precision", "country")
-            if loc and lat and lon:
-                return loc, float(lat), float(lon), precision
-            elif loc:
-                # Got location name but no coords — fall back to basic for coords
-                basic = extract_location_basic(loc)
-                return loc, basic[1], basic[2], precision
-    except Exception as e:
-        print(f"  [LLM] location extraction failed: {e}", file=sys.stderr)
-
+    """LLM enrichment handled by OpenClaw cron agent — not run here."""
     return None
 
 
@@ -452,7 +396,7 @@ def save(data: dict):
 
 def main():
     print(f"[START] {datetime.now(timezone.utc).isoformat()}")
-    print(f"[LLM] {'enabled (Claude Haiku)' if ANTHROPIC_API_KEY else 'disabled (no ANTHROPIC_API_KEY)'}")
+    print("[LLM] location enrichment deferred to OpenClaw cron agent")
 
     existing = load_existing()
     all_new_events = []
