@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-07T23:06:00Z",
+  "last_updated": "2026-03-07T23:16:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -149,25 +149,6 @@
         {
           "url": "https://www.mk.ru/politics/2026/03/07/iran-atakoval-aviabazu-ssha-v-oae-otkuda-byla-atakovana-shkola-v-irane.html",
           "domain": "mk.ru",
-          "tier": "unverified"
-        }
-      ],
-      "confidence": "low"
-    },
-    {
-      "id": "000de8264476",
-      "datetime": "2026-03-07T22:52:42Z",
-      "type": "impact_minor",
-      "confirmed": false,
-      "precision": "city",
-      "title": "Multiple explosions reported in Dubai during Iranian strike wave",
-      "location": "Dubai",
-      "lat": 25.2048,
-      "lon": 55.2708,
-      "sources": [
-        {
-          "url": "https://www.bankingnews.gr/diethni/articles/860906/apocalypse-in-the-middle-east-russia-backs-iran-strikes-as-explosions-rock-tel-aviv-and-dubai-greek-tycoon-prokopiou-defies-hormuz-blockade",
-          "domain": "bankingnews.gr",
           "tier": "unverified"
         }
       ],
