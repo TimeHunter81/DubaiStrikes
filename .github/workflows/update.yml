@@ -1,0 +1,44 @@
+name: Update Strike Data
+
+on:
+  schedule:
+    - cron: '*/15 * * * *'   # every 15 minutes
+  workflow_dispatch:           # manual trigger
+
+permissions:
+  contents: write
+
+jobs:
+  fetch-and-push:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Fetch events
+        run: python agent/fetch_events.py
+        env:
+          PYTHONUNBUFFERED: "1"
+
+      - name: Commit & push if changed
+        run: |
+          git config user.name  "Dubai Strike Bot"
+          git config user.email "bot@github.com"
+          git add data.json
+          git diff --staged --quiet && echo "No changes" || (
+            git commit -m "data: auto-update $(date -u +'%Y-%m-%dT%H:%M')Z"
+            git push
+          )
