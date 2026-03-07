@@ -184,13 +184,15 @@
       box-shadow: 0 0 8px rgba(79,158,255,0.12), inset 0 0 8px rgba(79,158,255,0.04);
     }
     .filter-sep { width: 1px; background: rgba(255,255,255,0.06); margin: 2px 2px; flex-shrink: 0; }
+    #footer-left { display: flex; align-items: center; gap: 5px; }
     #tz-toggle {
-      background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.08);
-      color: #4a5a72; font-size: 10px; border-radius: 8px; padding: 1px 7px;
-      cursor: pointer; font-family: inherit; transition: all 0.15s; white-space: nowrap;
+      background: transparent; border: none; border-bottom: 1px dashed rgba(255,255,255,0.12);
+      color: #2a3a50; font-size: 10px; padding: 0 1px;
+      cursor: pointer; font-family: inherit; transition: color 0.15s; white-space: nowrap;
+      border-radius: 0;
     }
-    #tz-toggle:hover { border-color: rgba(79,158,255,0.3); color: #7eb8ff; }
-    #tz-toggle.active { background: rgba(79,158,255,0.1); border-color: rgba(79,158,255,0.4); color: #7eb8ff; }
+    #tz-toggle:hover { color: #7eb8ff; border-bottom-color: rgba(79,158,255,0.4); }
+    #tz-toggle.active { color: #7eb8ff; }
 
     /* ── MY LOCATIONS ── */
     #locations-section { flex-shrink: 0; }
@@ -485,10 +487,7 @@
     <div id="timeline-section">
       <div id="timeline-top">
         <span id="timeline-label">Timeline</span>
-        <div style="display:flex;align-items:center;gap:6px">
-          <span id="timeline-value">All</span>
-          <button id="tz-toggle" onclick="toggleTZ()" title="Switch timezone">🕐 Local</button>
-        </div>
+        <span id="timeline-value">All</span>
       </div>
       <input type="range" id="timeline-slider" min="0" step="1" />
       <div id="timeline-ends">
@@ -540,8 +539,11 @@
     </div>
 
     <div id="footer">
-      <span id="last-updated">—</span>
-      <a href="https://github.com/TimeHunter81/DubaiStrikes" style="color:#58a6ff" target="_blank">GitHub</a>
+      <span id="footer-left">
+        <span id="last-updated">—</span>
+        <button id="tz-toggle" onclick="toggleTZ()" title="Click to switch timezone">—</button>
+      </span>
+      <a href="https://github.com/TimeHunter81/DubaiStrikes" target="_blank">GitHub</a>
     </div>
   </div>
 
@@ -1254,11 +1256,7 @@
       document.querySelector('[data-conf="confirmed"]')?.classList.toggle('active', filterShowConfirmed);
       document.querySelector('[data-conf="suspected"]')?.classList.toggle('active', filterShowSuspected);
 
-      if (p.tzMode && p.tzMode !== 'local') {
-        tzMode = p.tzMode;
-        const btn = document.getElementById('tz-toggle');
-        if (btn) { btn.textContent = '🕐 Dubai'; btn.classList.add('active'); }
-      }
+      if (p.tzMode) tzMode = p.tzMode;
       if (p.windowHours != null) windowHours = p.windowHours;
     } catch(e) { localStorage.removeItem('dsm_prefs'); }
   }
@@ -1303,6 +1301,7 @@
       updateStatus(allEvents);
       updateConfFilters();
       loadPrefs();
+      updateTZBtn();
       initSlider(data.conflict_start || '2026-02-27T20:00:00Z');
       const fromURL = loadFromURL();
       if (!fromURL) loadFromStorage();
