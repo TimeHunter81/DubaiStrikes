@@ -423,9 +423,16 @@ def merge_with_existing(new_events: list, existing_events: list, max_age_days: i
         else:
             existing_by_id[eid] = e
 
-    return sorted(existing_by_id.values(),
+    all_sorted = sorted(existing_by_id.values(),
+                        key=lambda x: (x.get("datetime") or x.get("date", ""))[:19],
+                        reverse=True)
+
+    # Always keep _manual events; cap only auto-fetched ones at 100
+    manual = [e for e in all_sorted if e.get("_manual")]
+    auto   = [e for e in all_sorted if not e.get("_manual")][:100]
+    return sorted(manual + auto,
                   key=lambda x: (x.get("datetime") or x.get("date", ""))[:19],
-                  reverse=True)[:150]
+                  reverse=True)
 
 
 # ── MAIN ────────────────────────────────────────────────────────────────────
