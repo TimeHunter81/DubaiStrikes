@@ -2,9 +2,10 @@
 """
 Dubai Strike Monitor — fetch_events.py
 Sources:
-  1. GDELT Full Text API  — broad news coverage
-  2. NOTAM scraping      — airspace alerts (early warning, pre-media)
-  3. LLM location boost  — Claude Haiku extracts precise geo from article text
+  1. RSS feeds           — near real-time (5-15 min), no rate limits
+  2. GDELT Full Text API — broad coverage, 15-30 min delay
+  3. NOTAM scraping      — airspace alerts (early warning, pre-media)
+  4. LLM location boost  — Claude Haiku via ANTHROPIC_API_KEY (optional)
 """
 
 import json
@@ -21,6 +22,23 @@ from urllib.error import URLError, HTTPError
 REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA_FILE = os.path.join(REPO_ROOT, "data.json")
 ANTHROPIC_API_KEY = os.environ.get("ANTHROPIC_API_KEY", "")
+
+# ── RSS ─────────────────────────────────────────────────────────────────────
+RSS_FEEDS = [
+    # Wire / international
+    {"url": "https://feeds.bbci.co.uk/news/world/middle_east/rss.xml",    "tier": "wire",     "name": "BBC Middle East"},
+    {"url": "https://www.aljazeera.com/xml/rss/all.xml",                   "tier": "wire",     "name": "Al Jazeera"},
+    {"url": "https://www.thenationalnews.com/arc/outboundfeeds/rss/?outputType=xml", "tier": "local", "name": "The National"},
+    {"url": "https://www.middleeasteye.net/rss",                           "tier": "local",    "name": "Middle East Eye"},
+    {"url": "https://meduza.io/rss2/en/all",                               "tier": "local",    "name": "Meduza"},
+]
+
+# UAE/Gulf keywords to filter RSS items
+RSS_KEYWORDS = [
+    "dubai", "abu dhabi", "uae", "emirates", "sharjah", "gulf",
+    "iran", "irgc", "houthi", "hezbollah", "missile", "drone",
+    "strike", "attack", "explosion", "airspace", "military", "interception",
+]
 
 # ── GDELT ───────────────────────────────────────────────────────────────────
 GDELT_API = "https://api.gdeltproject.org/api/v2/doc/doc"
@@ -133,6 +151,107 @@ def compute_confidence(sources: list) -> str:
     if len(sources) >= 1 and "social" not in tiers[:1]:
         return "low"
     return "unverified"
+
+
+# ── RSS ─────────────────────────────────────────────────────────────────────
+def parse_rss_date(datestr: str) -> str:
+    """Parse RSS pubDate (RFC 2822) → ISO 8601 UTC."""
+    if not datestr:
+        return datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+    for fmt in ("%a, %d %b %Y %H:%M:%S %z", "%a, %d %b %Y %H:%M:%S GMT",
+                "%a, %d %b %Y %H:%M:%S +0000"):
+        try:
+            dt = datetime.strptime(datestr.strip(), fmt)
+            return dt.astimezone(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+        except ValueError:
+            pass
+    return datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+
+
+def fetch_rss(feed: dict) -> list:
+    """Fetch and parse an RSS feed. Returns list of article dicts."""
+    try:
+        raw = http_get(feed["url"], timeout=10).decode("utf-8", errors="replace")
+    except Exception as e:
+        print(f"[RSS] {feed['name']}: {e}", file=sys.stderr)
+        return []
+
+    items = re.findall(r"<item>(.*?)</item>", raw, re.DOTALL)
+    results = []
+    for item in items:
+        title_m   = re.search(r"<title[^>]*><!\[CDATA\[(.*?)\]\]>|<title[^>]*>(.*?)</title>", item, re.DOTALL)
+        link_m    = re.search(r"<link[^>]*>(https?://[^<]+)</link>|<link[^>]*/?>.*?href=\"(https?://[^\"]+)\"", item, re.DOTALL)
+        date_m    = re.search(r"<pubDate[^>]*>(.*?)</pubDate>", item, re.DOTALL)
+        desc_m    = re.search(r"<description[^>]*><!\[CDATA\[(.*?)\]\]>|<description[^>]*>(.*?)</description>", item, re.DOTALL)
+
+        title = (title_m.group(1) or title_m.group(2) or "").strip() if title_m else ""
+        url   = (link_m.group(1) or link_m.group(2) or "").strip() if link_m else ""
+        date  = parse_rss_date(date_m.group(1).strip() if date_m else "")
+        desc  = re.sub(r"<[^>]+>", " ", (desc_m.group(1) or desc_m.group(2) or "") if desc_m else "").strip()[:300]
+
+        if not title or not url:
+            continue
+
+        # Filter: must contain at least one UAE/Gulf keyword
+        combined = (title + " " + desc).lower()
+        if not any(kw in combined for kw in RSS_KEYWORDS):
+            continue
+
+        # Skip articles older than 7 days
+        try:
+            art_dt = datetime.fromisoformat(date.replace("Z", "+00:00"))
+            if (datetime.now(timezone.utc) - art_dt).days > 7:
+                continue
+        except Exception:
+            pass
+
+        results.append({
+            "title": title,
+            "url": url,
+            "datetime": date,
+            "description": desc,
+            "domain": get_domain(url),
+            "tier": feed["tier"],
+            "source_name": feed["name"],
+        })
+
+    print(f"[RSS] {feed['name']}: {len(results)} relevant items")
+    return results
+
+
+def rss_articles_to_events(articles: list) -> list:
+    """Cluster RSS articles into events (same logic as GDELT)."""
+    events = {}
+    for art in articles:
+        title    = art["title"]
+        date_day = art["datetime"][:10]
+        eid      = compute_event_id(title, date_day)
+
+        if eid not in events:
+            loc_name, lat, lon, precision = extract_location(title, art.get("description", ""))
+            events[eid] = {
+                "id":        eid,
+                "datetime":  art["datetime"],
+                "type":      "security_alert",
+                "confirmed": art["tier"] in ("wire", "official"),
+                "precision": precision,
+                "title":     title,
+                "location":  loc_name,
+                "lat":       lat if precision != "country" else None,
+                "lon":       lon if precision != "country" else None,
+                "sources":   [],
+            }
+
+        src = {"url": art["url"], "domain": art["domain"], "tier": art["tier"]}
+        if src not in events[eid]["sources"]:
+            events[eid]["sources"].append(src)
+
+    result = []
+    for e in events.values():
+        e["sources"] = e["sources"][:5]
+        e["confidence"] = compute_confidence(e["sources"])
+        result.append(e)
+    return sorted(result, key=lambda x: x["datetime"], reverse=True)
 
 
 # ── LOCATION EXTRACTION ─────────────────────────────────────────────────────
@@ -458,6 +577,13 @@ def main():
     existing = load_existing()
     all_new_events = []
 
+    # 1. RSS — every run (fast, no rate limits)
+    for feed in RSS_FEEDS:
+        articles = fetch_rss(feed)
+        rss_events = rss_articles_to_events(articles)
+        all_new_events.extend(rss_events)
+        time.sleep(1)
+
     # ── Decide whether to run GDELT this turn ───────────────────────────────
     # GDELT indexes articles with 15-30 min delay → running every 10 min is redundant.
     # We track last GDELT run in .fetch_state.json and skip if < 18 min ago.
@@ -490,7 +616,7 @@ def main():
     else:
         print(f"[GDELT] skip ({(now_ts - last_gdelt)/60:.0f}m ago, threshold 18m)")
 
-    # 2. NOTAMs — every run, they're real-time
+    # 3. NOTAMs — every run, they're real-time
     for icao in UAE_AIRPORTS:
         notam_events = notams_to_events(icao)
         all_new_events.extend(notam_events)
