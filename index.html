@@ -533,7 +533,9 @@
       </div>
     </div>
 
-    <div class="section-divider"></div>
+    <div class="section-divider" style="display:flex;align-items:center;padding:0 14px;height:22px;margin:0">
+      <span id="events-count" style="font-size:9px;color:#2a3a55;font-weight:600;text-transform:uppercase;letter-spacing:0.6px">—</span>
+    </div>
     <div id="events-list">
       <div id="empty-state">Loading…</div>
     </div>
@@ -806,6 +808,12 @@
     });
 
     const list = document.getElementById('events-list');
+
+    const total = allEvents.filter(e => (filterType === 'all' || e.type === filterType) && ((filterShowConfirmed && e.confirmed === true) || (filterShowSuspected && e.confirmed === false))).length;
+    const countEl = document.getElementById('events-count');
+    if (countEl) countEl.textContent = filtered.length === total
+      ? `${filtered.length} event${filtered.length !== 1 ? 's' : ''}`
+      : `${filtered.length} / ${total} events in view`;
 
     if (filtered.length === 0) {
       list.innerHTML = '<div id="empty-state">No events in current view.<br><small style="opacity:.5">Pan or zoom out to see more.</small></div>';
