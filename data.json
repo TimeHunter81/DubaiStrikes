@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-07T23:26:00Z",
+  "last_updated": "2026-03-07T23:36:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -8,7 +8,7 @@
       "type": "impact_major",
       "confirmed": false,
       "precision": "neighborhood",
-      "title": "Dubai Marina tower hit — Iranian missile attack reported",
+      "title": "Dubai Marina tower hit — Iranian missile strike reported",
       "location": "Dubai Marina",
       "lat": 25.0819,
       "lon": 55.1367,
@@ -22,88 +22,12 @@
       "confidence": "low"
     },
     {
-      "id": "02220256f66e",
-      "datetime": "2026-03-07T22:52:42Z",
-      "type": "impact_major",
-      "confirmed": false,
-      "precision": "neighborhood",
-      "title": "Iranian drones hit Dubai Marina — explosion and smoke over tower",
-      "location": "Dubai Marina",
-      "lat": 25.0819,
-      "lon": 55.1367,
-      "sources": [
-        {
-          "url": "https://www.aol.com/articles/horrifying-moment-dubai-marina-hit-183400961.html",
-          "domain": "aol.com",
-          "tier": "unverified"
-        }
-      ],
-      "confidence": "low"
-    },
-    {
-      "id": "d54e7a99e3ac",
-      "datetime": "2026-03-07T22:52:42Z",
-      "type": "impact_major",
-      "confirmed": false,
-      "precision": "city",
-      "title": "Iranian drone attack on Dubai — 1 killed, 2 skyscrapers ablaze",
-      "location": "Dubai",
-      "lat": 25.2048,
-      "lon": 55.2708,
-      "sources": [
-        {
-          "url": "https://www.dailymail.co.uk/news/article-15624541/Iran-drone-attack-Dubai-man-killed-skyscrapers-flames-airport-struck.html",
-          "domain": "dailymail.co.uk",
-          "tier": "unverified"
-        }
-      ],
-      "confidence": "low"
-    },
-    {
-      "id": "e58aef9c61c5",
-      "datetime": "2026-03-07T22:52:42Z",
-      "type": "impact_major",
-      "confirmed": false,
-      "precision": "city",
-      "title": "Drone attack in Dubai — smoke visible over skyscraper",
-      "location": "Dubai",
-      "lat": 25.2048,
-      "lon": 55.2708,
-      "sources": [
-        {
-          "url": "https://wiadomosci.onet.pl/swiat/atak-drona-w-dubaju-dym-nad-wiezowcem-relacja-na-zywo/4c64zzj",
-          "domain": "wiadomosci.onet.pl",
-          "tier": "unverified"
-        }
-      ],
-      "confidence": "low"
-    },
-    {
-      "id": "2952636afc6f",
-      "datetime": "2026-03-07T22:52:42Z",
-      "type": "impact_major",
-      "confirmed": false,
-      "precision": "exact",
-      "title": "Explosion reported at Dubai International Airport (OMDB)",
-      "location": "Dubai International Airport",
-      "lat": 25.2528,
-      "lon": 55.3644,
-      "sources": [
-        {
-          "url": "https://promptnewsonline.com/just-in-explosion-rocks-dubai-airport/",
-          "domain": "promptnewsonline.com",
-          "tier": "unverified"
-        }
-      ],
-      "confidence": "low"
-    },
-    {
       "id": "53fb0dafbf97",
       "datetime": "2026-03-07T22:52:42Z",
       "type": "impact_major",
       "confirmed": false,
       "precision": "country",
-      "title": "Iranian strikes hit AWS data centers in Gulf region",
+      "title": "Iranian strikes reportedly hit AWS data centers in Gulf region",
       "location": "UAE",
       "lat": null,
       "lon": null,
@@ -117,50 +41,12 @@
       "confidence": "low"
     },
     {
-      "id": "649748895fde",
-      "datetime": "2026-03-07T22:52:42Z",
-      "type": "impact_major",
-      "confirmed": false,
-      "precision": "exact",
-      "title": "Iranian drones strike Dubai International Airport — flights halted",
-      "location": "Dubai International Airport",
-      "lat": 25.2528,
-      "lon": 55.3644,
-      "sources": [
-        {
-          "url": "https://www.indiablooms.com/world/iranian-drone-strike-near-dubai-international-airports-terminal-forces-emergency-flight-suspensions/details",
-          "domain": "indiablooms.com",
-          "tier": "unverified"
-        }
-      ],
-      "confidence": "low"
-    },
-    {
-      "id": "87af91414fcd",
-      "datetime": "2026-03-07T22:52:42Z",
-      "type": "impact_major",
-      "confirmed": false,
-      "precision": "exact",
-      "title": "Iran attacks US air base Al Dhafra — Russian media report",
-      "location": "Al Dhafra Air Base",
-      "lat": 24.2481,
-      "lon": 54.5478,
-      "sources": [
-        {
-          "url": "https://www.mk.ru/politics/2026/03/07/iran-atakoval-aviabazu-ssha-v-oae-otkuda-byla-atakovana-shkola-v-irane.html",
-          "domain": "mk.ru",
-          "tier": "unverified"
-        }
-      ],
-      "confidence": "low"
-    },
-    {
       "id": "da7e71dc78bb",
       "datetime": "2026-03-07T22:52:42Z",
       "type": "security_alert",
       "confirmed": false,
       "precision": "exact",
-      "title": "Dubai airport flight operations suspended again — Iranian attack",
+      "title": "Dubai airport flight operations suspended again — Mar 7 Iranian attack",
       "location": "Dubai International Airport",
       "lat": 25.2528,
       "lon": 55.3644,
@@ -168,25 +54,6 @@
         {
           "url": "https://unn.ua/ru/news/aviareisi-iz-dubaya-snova-priostanavlivali-na-fone-ataki-irana",
           "domain": "unn.ua",
-          "tier": "unverified"
-        }
-      ],
-      "confidence": "low"
-    },
-    {
-      "id": "f71270aae245",
-      "datetime": "2026-03-07T22:52:42Z",
-      "type": "security_alert",
-      "confirmed": false,
-      "precision": "exact",
-      "title": "Dubai airport suspends operations following Iranian strike",
-      "location": "Dubai International Airport",
-      "lat": 25.2528,
-      "lon": 55.3644,
-      "sources": [
-        {
-          "url": "https://www.tdg.ch/direct-iran-laeroport-de-dubai-suspend-ses-operations-295049542448",
-          "domain": "tdg.ch",
           "tier": "unverified"
         }
       ],
