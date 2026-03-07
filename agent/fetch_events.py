@@ -445,20 +445,39 @@ def main():
     existing = load_existing()
     all_new_events = []
 
-    # 1. GDELT
-    all_articles = []
-    for query in QUERIES:
-        print(f"[GDELT] {query!r}")
-        arts = fetch_gdelt(query)
-        print(f"  → {len(arts)} articles")
-        all_articles.extend(arts)
-        time.sleep(5)   # conservative rate limiting
+    # ── Decide whether to run GDELT this turn ───────────────────────────────
+    # GDELT indexes articles with 15-30 min delay → running every 10 min is redundant.
+    # We track last GDELT run in .fetch_state.json and skip if < 18 min ago.
+    STATE_FILE = os.path.join(os.path.dirname(DATA_FILE), ".fetch_state.json")
+    try:
+        with open(STATE_FILE) as f:
+            state = json.load(f)
+    except (FileNotFoundError, json.JSONDecodeError):
+        state = {}
 
-    gdelt_events = cluster_articles(all_articles)
-    print(f"[GDELT] → {len(gdelt_events)} events from {len(all_articles)} articles")
-    all_new_events.extend(gdelt_events)
+    now_ts = time.time()
+    last_gdelt = state.get("last_gdelt_run", 0)
+    run_gdelt = (now_ts - last_gdelt) >= 18 * 60
 
-    # 2. NOTAMs
+    # 1. GDELT (every ~20 min)
+    if run_gdelt:
+        all_articles = []
+        for query in QUERIES:
+            print(f"[GDELT] {query!r}")
+            arts = fetch_gdelt(query)
+            print(f"  → {len(arts)} articles")
+            all_articles.extend(arts)
+            time.sleep(5)
+        gdelt_events = cluster_articles(all_articles)
+        print(f"[GDELT] → {len(gdelt_events)} events from {len(all_articles)} articles")
+        all_new_events.extend(gdelt_events)
+        state["last_gdelt_run"] = now_ts
+        with open(STATE_FILE, "w") as f:
+            json.dump(state, f)
+    else:
+        print(f"[GDELT] skip ({(now_ts - last_gdelt)/60:.0f}m ago, threshold 18m)")
+
+    # 2. NOTAMs — every run, they're real-time
     for icao in UAE_AIRPORTS:
         notam_events = notams_to_events(icao)
         all_new_events.extend(notam_events)
