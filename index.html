@@ -399,7 +399,7 @@
         <span id="timeline-label">TIMELINE: <span id="event-count">0</span> EVENTS</span>
         <span id="timeline-value">All</span>
       </div>
-      <input type="range" id="timeline-slider" min="0" max="5" step="1" value="0" />
+      <input type="range" id="timeline-slider" min="0" max="7" step="1" value="0" />
       <div id="timeline-ends">
         <span>All</span>
         <span>1h</span>
@@ -681,8 +681,8 @@
   // ─── TIMELINE SLIDER ───────────────────────────────────────────────────
   // Discrete steps: left=ALL, right=1h
   // TIME_STEPS[i] = hours back from now (Infinity = All)
-  const TIME_STEPS = [Infinity, 24, 12, 6, 3, 1];
-  const TIME_LABELS = ['All', '24h', '12h', '6h', '3h', '1h'];
+  const TIME_STEPS = [Infinity, 14*24, 7*24, 3*24, 24, 12, 3, 1];
+  const TIME_LABELS = ['All', '14d', '7d', '3d', '24h', '12h', '3h', '1h'];
   let windowHours = Infinity; // default: show all
 
   function initSlider(conflictStartISO) {
