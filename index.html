@@ -600,22 +600,33 @@
   // ─── TIMEZONE ──────────────────────────────────────────────────────────
   let tzMode = 'local'; // 'local' | 'dubai'
 
-  function tzShortName() {
-    if (tzMode === 'dubai') return 'Dubai (UTC+4)';
+  function localTZOffset() {
+    // Returns short name like "GMT+1", "CET", "EST"
     try {
-      // "CET", "GMT+1", "EST", etc.
       const s = new Date().toLocaleTimeString('en-US', {
         timeZoneName: 'short',
         timeZone: Intl.DateTimeFormat().resolvedOptions().timeZone
       });
       return s.split(' ').pop();
-    } catch(e) { return 'Local'; }
+    } catch(e) { return 'local'; }
+  }
+
+  function localOffsetMinutes() {
+    return -new Date().getTimezoneOffset(); // minutes east of UTC
   }
 
   function updateTZBtn() {
     const btn = document.getElementById('tz-toggle');
     if (!btn) return;
-    btn.textContent = tzShortName();
+    // Hide if local time IS Dubai time (UTC+4 = 240 min)
+    if (localOffsetMinutes() === 240) { btn.style.display = 'none'; return; }
+    btn.style.display = '';
+    // Show the OTHER option (what you'd switch to)
+    if (tzMode === 'local') {
+      btn.textContent = '🕘 Show in Dubai (UTC+4)';
+    } else {
+      btn.textContent = `🕘 Show in local (${localTZOffset()})`;
+    }
     btn.classList.toggle('active', tzMode === 'dubai');
   }
 
