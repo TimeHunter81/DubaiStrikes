@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-07T21:49:30Z",
+  "last_updated": "2026-03-07T21:56:58Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -313,11 +313,11 @@
       "datetime": "2026-03-07T21:49:15Z",
       "type": "security_alert",
       "confirmed": false,
-      "precision": "city",
+      "precision": "country",
       "title": "US - Israel , Iran conflict : From Pezeshkian apology to UAE first remark to Trump warning - Top updates",
-      "location": "Uae",
-      "lat": 24.5,
-      "lon": 54.5,
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
       "sources": [
         {
           "url": "https://www.livemint.com/news/world/usisrael-iran-conflict-from-pezeshkians-apology-to-uae-first-remark-to-trumps-warning-top-updates-11772902585029.html",
