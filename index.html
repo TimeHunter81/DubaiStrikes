@@ -318,6 +318,8 @@
     .event-time { font-size: 11px; color: #5a7a9a; margin-bottom: 4px; font-weight: 500; }
     .event-time .rel { color: #6a80a0; }
     .event-title { font-size: 12px; font-weight: 500; margin-bottom: 3px; line-height: 1.45; color: #d4e0f0; }
+    .translate-btn { background: none; border: none; color: #607a96; font-size: 10px; cursor: pointer; padding: 0 0 4px 0; opacity: 0.7; }
+    .translate-btn:hover { opacity: 1; color: #a0c0e0; }
     .event-meta  { font-size: 10px; color: #506080; }
     .event-sources { margin-top: 5px; display: flex; gap: 3px; flex-wrap: wrap; }
     .src-tag {
@@ -843,7 +845,8 @@
           ${approxBadge}
         </div>
         ${rel ? `<div class="event-time"><span class="rel">${rel}</span></div>` : ''}
-        <div class="event-title">${e.title}</div>
+        <div class="event-title" id="title-${e.id}">${e.title}</div>
+        ${needsTranslation(e.title) ? `<button class="translate-btn" onclick="translateTitle(event,'${e.id}','${encodeURIComponent(e.title)}')">🌐 Translate</button>` : ''}
         <div class="event-meta">${e.location || 'UAE'}</div>
         ${srcs ? `<div class="event-sources">${srcs}</div>` : ''}
       </div>`;
@@ -1402,6 +1405,34 @@
     } catch(err) {
       console.error('Dubai Strike Monitor: data load failed', err);
       if (!isRefresh) document.getElementById('empty-state').textContent = 'Error loading data: ' + (err && err.message ? err.message : err);
+    }
+  }
+
+  // ─── TRANSLATION ────────────────────────────────────────────────────────
+  function needsTranslation(title) {
+    // Heuristic: non-ASCII chars suggest non-English text
+    return /[^\x00-\x7F]/.test(title);
+  }
+
+  async function translateTitle(evt, id, encodedTitle) {
+    evt.stopPropagation();
+    const btn = evt.target;
+    const titleEl = document.getElementById('title-' + id);
+    if (!titleEl) return;
+    btn.textContent = '…';
+    btn.disabled = true;
+    try {
+      const text = decodeURIComponent(encodedTitle);
+      const url = `https://translate.googleapis.com/translate_a/single?client=gtx&sl=auto&tl=en&dt=t&q=${encodeURIComponent(text)}`;
+      const r = await fetch(url);
+      const data = await r.json();
+      const translated = data[0].map(s => s[0]).join('');
+      titleEl.textContent = translated;
+      btn.textContent = '✓';
+      setTimeout(() => btn.remove(), 1000);
+    } catch(e) {
+      btn.textContent = '🌐 Translate';
+      btn.disabled = false;
     }
   }
 
