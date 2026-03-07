@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dubai Strike Monitor</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Segoe UI', system-ui, sans-serif; background: #0d1117; color: #e6edf3; display: flex; height: 100vh; }
+
+    #map { flex: 1; }
+
+    #sidebar {
+      width: 360px;
+      background: #161b22;
+      border-left: 1px solid #30363d;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+    }
+
+    #header {
+      padding: 16px;
+      border-bottom: 1px solid #30363d;
+      background: #0d1117;
+    }
+
+    #header h1 { font-size: 16px; font-weight: 600; letter-spacing: 0.5px; }
+    #header .subtitle { font-size: 12px; color: #8b949e; margin-top: 4px; }
+
+    #status-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 4px 10px;
+      border-radius: 12px;
+      font-size: 12px;
+      font-weight: 600;
+      margin-top: 10px;
+    }
+    .status-clear { background: #1a3a2a; color: #3fb950; border: 1px solid #238636; }
+    .status-warning { background: #3a2a0a; color: #d29922; border: 1px solid #9e6a03; }
+    .status-alert { background: #3a0f0f; color: #f85149; border: 1px solid #b91c1c; }
+
+    #filters {
+      padding: 10px 16px;
+      border-bottom: 1px solid #30363d;
+      display: flex;
+      gap: 6px;
+      flex-wrap: wrap;
+    }
+
+    .filter-btn {
+      padding: 3px 10px;
+      border-radius: 10px;
+      border: 1px solid #30363d;
+      background: transparent;
+      color: #8b949e;
+      font-size: 11px;
+      cursor: pointer;
+      transition: all 0.15s;
+    }
+    .filter-btn.active { color: #e6edf3; border-color: #58a6ff; background: #1c2d4a; }
+    .filter-btn:hover { border-color: #58a6ff; }
+
+    #events-list {
+      flex: 1;
+      overflow-y: auto;
+      padding: 8px 0;
+    }
+
+    .event-card {
+      padding: 12px 16px;
+      border-bottom: 1px solid #21262d;
+      cursor: pointer;
+      transition: background 0.1s;
+    }
+    .event-card:hover { background: #1c2128; }
+
+    .event-card .conf {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      font-size: 10px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      margin-bottom: 6px;
+    }
+    .conf-high { color: #3fb950; }
+    .conf-medium { color: #d29922; }
+    .conf-low { color: #f85149; }
+    .conf-unverified { color: #8b949e; }
+
+    .event-card .title { font-size: 13px; font-weight: 500; margin-bottom: 4px; line-height: 1.4; }
+    .event-card .meta { font-size: 11px; color: #8b949e; }
+    .event-card .sources { margin-top: 6px; display: flex; gap: 4px; flex-wrap: wrap; }
+    .event-card .src-tag {
+      padding: 1px 6px;
+      border-radius: 4px;
+      font-size: 10px;
+      background: #21262d;
+      color: #58a6ff;
+      text-decoration: none;
+    }
+    .event-card .src-tag:hover { background: #1c2d4a; }
+
+    #empty-state {
+      padding: 40px 16px;
+      text-align: center;
+      color: #8b949e;
+      font-size: 13px;
+    }
+
+    #footer {
+      padding: 10px 16px;
+      border-top: 1px solid #30363d;
+      font-size: 11px;
+      color: #6e7681;
+    }
+
+    /* Map dark tiles */
+    .leaflet-tile { filter: brightness(0.7) invert(1) contrast(3) hue-rotate(200deg) saturate(0.3) brightness(0.7); }
+    .leaflet-container { background: #0d1117; }
+
+    /* Custom markers */
+    .marker-high { background: #3fb950; }
+    .marker-medium { background: #d29922; }
+    .marker-low { background: #f85149; }
+    .marker-unverified { background: #6e7681; }
+
+    .custom-marker {
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      border: 2px solid rgba(255,255,255,0.3);
+      box-shadow: 0 0 8px rgba(0,0,0,0.5);
+    }
+  </style>
+</head>
+<body>
+  <div id="map"></div>
+  <div id="sidebar">
+    <div id="header">
+      <h1>🇦🇪 Dubai Strike Monitor</h1>
+      <div class="subtitle">Aggregated security events — UAE</div>
+      <div id="status-badge" class="status-clear">✅ Clear</div>
+    </div>
+    <div id="filters">
+      <button class="filter-btn active" data-conf="all">All</button>
+      <button class="filter-btn" data-conf="high">🟢 High</button>
+      <button class="filter-btn" data-conf="medium">🟡 Medium</button>
+      <button class="filter-btn" data-conf="low">🔴 Low</button>
+      <button class="filter-btn" data-conf="unverified">⬜ Unverified</button>
+    </div>
+    <div id="events-list">
+      <div id="empty-state">No events reported.<br>Last updated: <span id="last-updated">—</span></div>
+    </div>
+    <div id="footer">
+      Data: GDELT + wire sources · Updates every 12h · <a href="https://github.com/TimeHunter81/DubaiStrikes" style="color:#58a6ff">GitHub</a>
+    </div>
+  </div>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script>
+    // Map init
+    const map = L.map('map', { zoomControl: false }).setView([25.2048, 55.2708], 9);
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '© OpenStreetMap'
+    }).addTo(map);
+    L.control.zoom({ position: 'bottomright' }).addTo(map);
+
+    const confColors = { high: '#3fb950', medium: '#d29922', low: '#f85149', unverified: '#6e7681' };
+    const confLabels = { high: '🟢 High', medium: '🟡 Medium', low: '🔴 Low', unverified: '⬜ Unverified' };
+
+    let allEvents = [];
+    let activeFilter = 'all';
+    let markers = [];
+
+    function makeIcon(conf) {
+      return L.divIcon({
+        className: '',
+        html: `<div class="custom-marker" style="background:${confColors[conf] || '#6e7681'}"></div>`,
+        iconSize: [12, 12],
+        iconAnchor: [6, 6]
+      });
+    }
+
+    function renderEvents(events) {
+      const list = document.getElementById('events-list');
+      const empty = document.getElementById('empty-state');
+      markers.forEach(m => map.removeLayer(m));
+      markers = [];
+
+      const filtered = activeFilter === 'all' ? events : events.filter(e => e.confidence === activeFilter);
+
+      if (filtered.length === 0) {
+        list.innerHTML = '';
+        list.appendChild(empty);
+        empty.style.display = 'block';
+        return;
+      }
+      empty.style.display = 'none';
+
+      list.innerHTML = filtered.map((e, i) => `
+        <div class="event-card" data-idx="${i}" onclick="flyTo(${e.lat || 25.2}, ${e.lon || 55.27})">
+          <div class="conf conf-${e.confidence}">${confLabels[e.confidence] || e.confidence}</div>
+          <div class="title">${e.title}</div>
+          <div class="meta">${e.date} · ${e.location || 'UAE'}</div>
+          <div class="sources">${(e.sources || []).map(s => `<a class="src-tag" href="${s.url}" target="_blank">${s.domain}</a>`).join('')}</div>
+        </div>
+      `).join('');
+
+      filtered.forEach(e => {
+        if (e.lat && e.lon) {
+          const m = L.marker([e.lat, e.lon], { icon: makeIcon(e.confidence) })
+            .addTo(map)
+            .bindPopup(`<b>${e.title}</b><br>${e.date}`);
+          markers.push(m);
+        }
+      });
+    }
+
+    function flyTo(lat, lon) {
+      map.flyTo([lat, lon], 11, { duration: 1 });
+    }
+
+    function updateStatus(events) {
+      const badge = document.getElementById('status-badge');
+      const hasAlert = events.some(e => e.confidence === 'high' || e.confidence === 'medium');
+      const hasHigh = events.some(e => e.confidence === 'high');
+      if (hasHigh) {
+        badge.className = 'status-alert';
+        badge.textContent = '🚨 Alert';
+      } else if (hasAlert) {
+        badge.className = 'status-warning';
+        badge.textContent = '⚠️ Warning';
+      } else {
+        badge.className = 'status-clear';
+        badge.textContent = '✅ Clear';
+      }
+    }
+
+    // Filter buttons
+    document.querySelectorAll('.filter-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        activeFilter = btn.dataset.conf;
+        renderEvents(allEvents);
+      });
+    });
+
+    // Load data
+    fetch('data.json?_=' + Date.now())
+      .then(r => r.json())
+      .then(data => {
+        allEvents = data.events || [];
+        document.getElementById('last-updated').textContent = data.last_updated || '—';
+        updateStatus(allEvents);
+        renderEvents(allEvents);
+      })
+      .catch(() => {
+        document.getElementById('last-updated').textContent = 'error loading data';
+      });
+  </script>
+</body>
+</html>
