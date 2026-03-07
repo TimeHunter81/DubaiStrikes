@@ -32,6 +32,7 @@ jobs:
         run: python agent/fetch_events.py
         env:
           PYTHONUNBUFFERED: "1"
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
 
       - name: Commit & push if changed
         run: |
