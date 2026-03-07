@@ -522,25 +522,31 @@
   function relTime(isoStr) {
     if (!isoStr) return '';
     const then = new Date(isoStr);
-    const now = new Date();
-    const ms = now - then;
-    const min = Math.floor(ms / 60000);
-    const h   = Math.floor(ms / 3600000);
-    const d   = Math.floor(ms / 86400000);
-    // < 1h → "42 min ago"
-    if (min < 60) return `${min}m ago`;
-    // < 24h → "3h ago"
-    if (h < 24) return `${h}h ago`;
-    // < 7 days → "Monday · 20:30 UTC"
-    if (d < 7) {
-      const days = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
-      const t = then.toISOString().slice(11,16);
-      return `${days[then.getUTCDay()]} · ${t} UTC`;
-    }
-    // older → "Feb 28 · 22:00 UTC"
+    const now  = new Date();
+    const ms   = now - then;
+    const min  = Math.floor(ms / 60000);
+    const h    = Math.floor(ms / 3600000);
+    const days = ['Sun','Mon','Tue','Wed','Thu','Fri','Sat'];
     const months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
-    const t = then.toISOString().slice(11,16);
-    return `${months[then.getUTCMonth()]} ${then.getUTCDate()} · ${t} UTC`;
+    const t    = then.toISOString().slice(11,16);
+    const d    = then.getUTCDate();
+    const mon  = months[then.getUTCMonth()];
+
+    if (min < 60)  return `${min}m ago`;
+    if (h < 24)    return `${h}h ago`;
+
+    // Was it calendar-yesterday (in UTC)?
+    const todayUTC     = new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate()));
+    const thenDayUTC   = new Date(Date.UTC(then.getUTCFullYear(), then.getUTCMonth(), then.getUTCDate()));
+    const dayDiff      = Math.round((todayUTC - thenDayUTC) / 86400000);
+
+    if (dayDiff === 1) return `Yesterday · ${t} UTC`;
+
+    // 2–6 days ago: "Mon 2 Mar · 20:30 UTC" — day name + numeric date = unambiguous
+    if (dayDiff < 7)  return `${days[then.getUTCDay()]} ${d} ${mon} · ${t} UTC`;
+
+    // Older: "28 Feb · 22:00 UTC"
+    return `${d} ${mon} · ${t} UTC`;
   }
 
   // Format for slider display
