@@ -22,60 +22,53 @@
 
     /* ── MOBILE ── */
     @media (max-width: 700px) {
-      body { flex-direction: column; }
-
-      #map { flex: 1; min-height: 0; }
+      /* Map fills full screen; sidebar is a fixed bottom sheet */
+      body { display: block; }
+      #map { width: 100%; height: 100vh; }
 
       #sidebar {
-        width: 100%; min-width: 0;
-        border-left: none;
-        border-top: 1px solid #30363d;
-        height: var(--sheet-h, 52px);
+        position: fixed;
+        bottom: 0; left: 0; right: 0;
+        height: 52px;
         transition: height 0.25s ease;
-        overflow: hidden;
-        flex-shrink: 0;
-        position: relative;
-      }
-
-        #sidebar { --sheet-h: 0px; overflow: hidden; }
-      #sidebar.expanded {
-        --sheet-h: 70vh;
-        overflow: hidden; /* children handle their own scroll */
-      }
-
-      /* Key: min-height:0 lets flex child shrink + scroll */
-      #sidebar {
+        border-left: none;
+        border-top: 2px solid #30363d;
+        border-radius: 12px 12px 0 0;
+        width: 100%; min-width: 0;
+        z-index: 500;
         display: flex;
         flex-direction: column;
+        overflow: hidden;
       }
-      #events-list {
-        flex: 1;
-        min-height: 0;
-        overflow-y: scroll;
+      #sidebar.expanded { height: 70vh; }
+
+      /* events-list scrolls inside expanded sheet */
+      #sidebar.expanded #events-list {
+        overflow-y: auto !important;
         -webkit-overflow-scrolling: touch;
         overscroll-behavior: contain;
-      }
-      /* Make all interactive elements inside sheet scrollable by touch */
-      #sidebar, #sidebar * {
-        touch-action: pan-y pinch-zoom;
+        touch-action: pan-y;
+        flex: 1;
+        min-height: 0;
       }
 
-      #header { padding: 10px 14px; cursor: default; }
+      #header { padding: 10px 14px; }
       #header h1 { font-size: 13px; }
+      #header .subtitle { display: none; }
 
-      /* Floating hamburger button */
+      /* Hamburger: fixed over the map */
       #hamburger {
         display: flex;
-        position: absolute;
+        position: fixed;
         top: 12px; right: 12px;
-        z-index: 1000;
-        background: #161b22;
+        z-index: 600;
+        background: #161b22cc;
         border: 1px solid #30363d;
         border-radius: 8px;
         width: 40px; height: 40px;
         align-items: center; justify-content: center;
         cursor: pointer;
-        box-shadow: 0 2px 8px rgba(0,0,0,0.4);
+        box-shadow: 0 2px 8px rgba(0,0,0,0.5);
       }
       #hamburger svg { width: 20px; height: 20px; stroke: #e6edf3; }
     }
