@@ -387,6 +387,9 @@
         flex-direction: column;
         overflow: hidden;
         box-shadow: 0 -8px 40px rgba(0,0,0,0.6);
+        /* no saturate on mobile — causes warm color cast over map tiles */
+        backdrop-filter: blur(28px);
+        -webkit-backdrop-filter: blur(28px);
       }
       #sidebar::before { display: none; }
       /* Top gradient line on mobile sheet */
@@ -406,25 +409,11 @@
         flex: 1;
         min-height: 0;
       }
-      #header { padding: 10px 16px; }
+      #header { padding: 10px 16px; cursor: pointer; user-select: none; }
       #header h1 { font-size: 13px; }
       #header .subtitle { display: none; }
       #share-btn { padding: 6px 12px; font-size: 11px; }
-      #hamburger {
-        display: flex;
-        position: fixed;
-        top: 14px; right: 14px;
-        z-index: 600;
-        background: rgba(7,10,16,0.8);
-        backdrop-filter: blur(12px);
-        border: 1px solid rgba(255,255,255,0.1);
-        border-radius: 10px;
-        width: 42px; height: 42px;
-        align-items: center; justify-content: center;
-        cursor: pointer;
-        box-shadow: 0 4px 16px rgba(0,0,0,0.5);
-      }
-      #hamburger svg { width: 18px; height: 18px; stroke: #8899b0; }
+      #hamburger { display: none; }
     }
 
     @media (min-width: 701px) {
@@ -453,7 +442,7 @@
 
     <div id="sheet-handle"></div>
 
-    <div id="header">
+    <div id="header" onclick="if(window.innerWidth<=700) toggleSheet()">
       <div id="header-top">
         <div>
           <h1>🇦🇪 Dubai Strike Monitor</h1>
