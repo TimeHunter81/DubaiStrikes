@@ -101,6 +101,25 @@
       border-radius: 5px; padding: 3px 9px; font-size: 11px; cursor: pointer;
     }
     #loc-add-btn:disabled { opacity: 0.4; cursor: default; }
+    #loc-autocomplete {
+      position: relative;
+    }
+    #loc-suggestions {
+      display: none;
+      position: absolute;
+      top: 100%; left: 0; right: 0;
+      background: #1c2128; border: 1px solid #30363d; border-top: none;
+      border-radius: 0 0 5px 5px;
+      z-index: 1000;
+      max-height: 160px; overflow-y: auto;
+    }
+    .loc-suggestion {
+      padding: 6px 8px; font-size: 11px; cursor: pointer; color: #e6edf3;
+      border-bottom: 1px solid #21262d;
+      white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+    }
+    .loc-suggestion:last-child { border-bottom: none; }
+    .loc-suggestion:hover, .loc-suggestion.active { background: #1c2d4a; color: #58a6ff; }
     #loc-list { display: flex; flex-direction: column; gap: 3px; }
     .loc-item {
       display: flex; align-items: flex-start; gap: 5px;
@@ -214,8 +233,11 @@
       </div>
       <div id="locations-body">
         <div id="loc-input-row">
-          <input id="loc-input" type="text" placeholder="Address or place name…" maxlength="100"
-            onkeydown="if(event.key==='Enter') addLocation()" />
+          <div id="loc-autocomplete" style="flex:1;position:relative">
+            <input id="loc-input" type="text" placeholder="Address or place name…" maxlength="100"
+              autocomplete="off" style="width:100%" />
+            <div id="loc-suggestions"></div>
+          </div>
           <button id="loc-add-btn" onclick="addLocation()">Add</button>
         </div>
         <div id="loc-list"></div>
@@ -467,10 +489,89 @@
     document.getElementById('loc-toggle').textContent = locOpen ? '▲' : '▼';
   }
 
+  // ─── AUTOCOMPLETE ──────────────────────────────────────────────────────
+  let acTimer = null;
+  let acResults = [];
+  let acIndex = -1;
+
+  const locInput = document.getElementById('loc-input');
+  const locSugg  = document.getElementById('loc-suggestions');
+
+  function shortName(display_name) {
+    return display_name.split(',').slice(0, 3).join(', ').trim();
+  }
+
+  function showSuggestions(items) {
+    acResults = items;
+    acIndex = -1;
+    if (!items.length) { locSugg.style.display = 'none'; return; }
+    locSugg.innerHTML = items.map((r, i) =>
+      `<div class="loc-suggestion" data-i="${i}">${shortName(r.display_name)}</div>`
+    ).join('');
+    locSugg.style.display = 'block';
+    locSugg.querySelectorAll('.loc-suggestion').forEach(el => {
+      el.addEventListener('mousedown', e => {
+        e.preventDefault();
+        selectSuggestion(parseInt(el.dataset.i));
+      });
+    });
+  }
+
+  function hideSuggestions() {
+    locSugg.style.display = 'none';
+    acIndex = -1;
+  }
+
+  function selectSuggestion(i) {
+    const r = acResults[i];
+    if (!r) return;
+    hideSuggestions();
+    locInput.value = '';
+    if (userLocs.length >= 5) { alert('Max 5 locations'); return; }
+    pushLocation({ name: shortName(r.display_name), lat: parseFloat(r.lat), lon: parseFloat(r.lon) });
+    syncURL(); saveLocations();
+  }
+
+  locInput.addEventListener('input', () => {
+    clearTimeout(acTimer);
+    const q = locInput.value.trim();
+    if (q.length < 2) { hideSuggestions(); return; }
+    acTimer = setTimeout(async () => {
+      try {
+        const r = await fetch(
+          `https://nominatim.openstreetmap.org/search?q=${encodeURIComponent(q)}&format=json&limit=5&addressdetails=0`,
+          { headers: { 'Accept-Language': 'en' } }
+        );
+        const data = await r.json();
+        showSuggestions(data);
+      } catch(e) { hideSuggestions(); }
+    }, 300);
+  });
+
+  locInput.addEventListener('keydown', e => {
+    const items = locSugg.querySelectorAll('.loc-suggestion');
+    if (e.key === 'ArrowDown') {
+      e.preventDefault();
+      acIndex = Math.min(acIndex + 1, items.length - 1);
+      items.forEach((el, i) => el.classList.toggle('active', i === acIndex));
+    } else if (e.key === 'ArrowUp') {
+      e.preventDefault();
+      acIndex = Math.max(acIndex - 1, -1);
+      items.forEach((el, i) => el.classList.toggle('active', i === acIndex));
+    } else if (e.key === 'Enter') {
+      e.preventDefault();
+      if (acIndex >= 0) { selectSuggestion(acIndex); }
+      else { addLocation(); }
+    } else if (e.key === 'Escape') {
+      hideSuggestions();
+    }
+  });
+
+  locInput.addEventListener('blur', () => setTimeout(hideSuggestions, 150));
+
   async function addLocation() {
     if (userLocs.length >= 5) { alert('Max 5 locations'); return; }
-    const input = document.getElementById('loc-input');
-    const name = input.value.trim();
+    const name = locInput.value.trim();
     if (!name) return;
     const btn = document.getElementById('loc-add-btn');
     btn.disabled = true; btn.textContent = '…';
@@ -481,10 +582,9 @@
       );
       const data = await r.json();
       if (!data.length) { alert('Location not found'); return; }
-      const { lat, lon, display_name } = data[0];
-      const shortName = display_name.split(',').slice(0,2).join(', ').trim();
-      pushLocation({ name: shortName, lat: parseFloat(lat), lon: parseFloat(lon) });
-      input.value = '';
+      hideSuggestions();
+      locInput.value = '';
+      pushLocation({ name: shortName(data[0].display_name), lat: parseFloat(data[0].lat), lon: parseFloat(data[0].lon) });
       syncURL(); saveLocations();
     } catch(e) { alert('Geocoding failed'); }
     finally { btn.disabled = false; btn.textContent = 'Add'; }
