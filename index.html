@@ -37,39 +37,31 @@
         position: relative;
       }
 
-      /* Drag handle */
-      #sheet-handle {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 20px;
-        cursor: pointer;
-        flex-shrink: 0;
-      }
-      #sheet-handle::before {
-        content: '';
-        width: 36px; height: 4px;
-        background: #444d56;
-        border-radius: 2px;
-      }
+        #sidebar { --sheet-h: 0px; }
+      #sidebar.expanded { --sheet-h: 70vh; }
 
-      #sidebar.expanded { --sheet-h: 65vh; }
-
-      /* Collapsed: only header row visible */
-      #header {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-between;
-        padding: 6px 12px;
-        cursor: pointer;
-        flex-shrink: 0;
-      }
+      #header { padding: 10px 14px; cursor: default; }
       #header h1 { font-size: 13px; }
-      #header .subtitle { display: none; }
+
+      /* Floating hamburger button */
+      #hamburger {
+        display: flex;
+        position: absolute;
+        top: 12px; right: 12px;
+        z-index: 1000;
+        background: #161b22;
+        border: 1px solid #30363d;
+        border-radius: 8px;
+        width: 40px; height: 40px;
+        align-items: center; justify-content: center;
+        cursor: pointer;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.4);
+      }
+      #hamburger svg { width: 20px; height: 20px; stroke: #e6edf3; }
     }
 
     @media (min-width: 701px) {
+      #hamburger { display: none; }
       #sheet-handle { display: none; }
     }
 
@@ -254,12 +246,20 @@
   </style>
 </head>
 <body>
-  <div id="map"></div>
+  <div id="map">
+    <div id="hamburger" onclick="toggleSheet()">
+      <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round">
+        <line x1="3" y1="6"  x2="21" y2="6"/>
+        <line x1="3" y1="12" x2="21" y2="12"/>
+        <line x1="3" y1="18" x2="21" y2="18"/>
+      </svg>
+    </div>
+  </div>
   <div id="sidebar">
 
-    <div id="sheet-handle" onclick="toggleSheet()"></div>
+    <div id="sheet-handle"></div>
 
-    <div id="header" onclick="toggleSheet()">
+    <div id="header">
       <div>
         <h1>🇦🇪 Dubai Strike Monitor</h1>
         <div class="subtitle">Iranian strikes on UAE · Feb 28 2026 – present</div>
@@ -352,8 +352,13 @@
   // ─── MOBILE BOTTOM SHEET ──────────────────────────────────────────────
   function toggleSheet() {
     if (window.innerWidth > 700) return;
-    document.getElementById('sidebar').classList.toggle('expanded');
-    // Invalidate map size after animation
+    const sidebar = document.getElementById('sidebar');
+    sidebar.classList.toggle('expanded');
+    // Update hamburger icon
+    const expanded = sidebar.classList.contains('expanded');
+    document.getElementById('hamburger').innerHTML = expanded
+      ? `<svg viewBox="0 0 24 24" fill="none" stroke="#e6edf3" stroke-width="2" stroke-linecap="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>`
+      : `<svg viewBox="0 0 24 24" fill="none" stroke="#e6edf3" stroke-width="2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>`;
     setTimeout(() => map.invalidateSize(), 270);
   }
 
