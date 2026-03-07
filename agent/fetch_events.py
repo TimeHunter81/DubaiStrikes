@@ -33,6 +33,16 @@ RSS_FEEDS = [
     {"url": "https://meduza.io/rss2/en/all",                               "tier": "local",    "name": "Meduza"},
 ]
 
+# Patterns that indicate analysis/opinion — not real events
+NOISE_PATTERNS = [
+    r"^(\d+|one|two|three|four|five|six|seven|eight|nine|ten) (day|week|month|hour)s? (on|later|after)",  # "Seven days on"
+    r"^\d+ (question|thing|reason|fact|way|key|point)",  # "5 questions about"
+    r"\b(analysis|opinion|explainer|explained|what (we know|to know)|in depth|in-depth|backgrounder|comment|review|weekly|roundup|wrap.?up|digest|briefing)\b",
+    r"\?$",           # title ends with question mark
+    r"^(why|how|what|who|when|could|should|would|will|is|are|can) ",  # question headlines
+    r"\b(history|historical|context|background|profile|portrait|timeline)\b",
+]
+
 # UAE/Gulf keywords to filter RSS items
 RSS_KEYWORDS = [
     "dubai", "abu dhabi", "uae", "emirates", "sharjah", "gulf",
@@ -154,6 +164,15 @@ def compute_confidence(sources: list) -> str:
 
 
 # ── RSS ─────────────────────────────────────────────────────────────────────
+def is_noise_article(title: str) -> bool:
+    """Returns True if the title looks like analysis/opinion, not a real event."""
+    t = title.lower().strip()
+    for pattern in NOISE_PATTERNS:
+        if re.search(pattern, t):
+            return True
+    return False
+
+
 def parse_rss_date(datestr: str) -> str:
     """Parse RSS pubDate (RFC 2822) → ISO 8601 UTC."""
     if not datestr:
@@ -195,6 +214,10 @@ def fetch_rss(feed: dict) -> list:
         # Filter: must contain at least one UAE/Gulf keyword
         combined = (title + " " + desc).lower()
         if not any(kw in combined for kw in RSS_KEYWORDS):
+            continue
+
+        # Filter: skip analysis/opinion/background articles
+        if is_noise_article(title):
             continue
 
         # Skip articles older than 7 days
@@ -363,6 +386,8 @@ def cluster_articles(articles: list) -> list:
         title = art.get("title", "").strip()
         url = art.get("url", "")
         if not title or not url:
+            continue
+        if is_noise_article(title):
             continue
         date_str = parse_gdelt_date(art.get("seendate", ""))
         date_day = date_str[:10]
