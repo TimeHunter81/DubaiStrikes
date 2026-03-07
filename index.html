@@ -650,6 +650,84 @@
   // Sync map position to URL on every move
   map.on('moveend', syncURL);
 
+  // ─── ADD LOCATION BY MAP CLICK / LONG PRESS ────────────────────────────
+  async function showAddLocPopup(latlng) {
+    if (userLocs.length >= 5) {
+      L.popup().setLatLng(latlng).setContent('<b>Max 5 locations reached</b>').openOn(map);
+      return;
+    }
+    const popup = L.popup({ closeButton: true, minWidth: 200 })
+      .setLatLng(latlng)
+      .setContent('<div style="font-size:12px;font-family:system-ui">📍 Looking up address…</div>')
+      .openOn(map);
+
+    let name;
+    try {
+      const r = await fetch(
+        `https://nominatim.openstreetmap.org/reverse?lat=${latlng.lat}&lon=${latlng.lng}&format=json`,
+        { headers: { 'Accept-Language': 'en' } }
+      );
+      const d = await r.json();
+      name = shortName(d.display_name || `${latlng.lat.toFixed(4)}, ${latlng.lng.toFixed(4)}`);
+    } catch(e) {
+      name = `${latlng.lat.toFixed(4)}, ${latlng.lng.toFixed(4)}`;
+    }
+
+    const el = document.createElement('div');
+    el.style.cssText = 'font-family:system-ui;font-size:12px;min-width:190px';
+    el.innerHTML = `
+      <div style="font-weight:600;margin-bottom:8px;line-height:1.3">${name}</div>
+      <button id="_addLocBtn" style="
+        background:#1c2d4a;border:1px solid #58a6ff;color:#58a6ff;
+        border-radius:5px;padding:4px 12px;font-size:11px;cursor:pointer;width:100%">
+        📍 Add as location
+      </button>`;
+    popup.setContent(el);
+
+    setTimeout(() => {
+      const btn = document.getElementById('_addLocBtn');
+      if (btn) btn.addEventListener('click', () => {
+        map.closePopup();
+        pushLocation({ name, lat: latlng.lat, lon: latlng.lng });
+        syncURL(); saveLocations();
+        if (!locOpen) toggleLocations();
+      });
+    }, 30);
+  }
+
+  // Desktop: right-click
+  map.on('contextmenu', e => { showAddLocPopup(e.latlng); });
+
+  // Mobile + desktop: long press (600ms, cancel if panning starts or finger moves > 10px)
+  let _lpTimer = null;
+  let _lpStart = null;
+
+  const _mapEl = map.getContainer();
+
+  _mapEl.addEventListener('touchstart', e => {
+    if (e.touches.length !== 1) return;
+    const t = e.touches[0];
+    _lpStart = { x: t.clientX, y: t.clientY };
+    _lpTimer = setTimeout(() => {
+      if (!_lpStart) return;
+      const ll = map.containerPointToLatLng(L.point(t.clientX - _mapEl.getBoundingClientRect().left, t.clientY - _mapEl.getBoundingClientRect().top));
+      showAddLocPopup(ll);
+      _lpStart = null;
+    }, 600);
+  }, { passive: true });
+
+  _mapEl.addEventListener('touchmove', e => {
+    if (!_lpStart) return;
+    const t = e.touches[0];
+    if (Math.hypot(t.clientX - _lpStart.x, t.clientY - _lpStart.y) > 10) {
+      clearTimeout(_lpTimer); _lpStart = null;
+    }
+  }, { passive: true });
+
+  _mapEl.addEventListener('touchend',   () => { clearTimeout(_lpTimer); _lpStart = null; }, { passive: true });
+  _mapEl.addEventListener('touchcancel',() => { clearTimeout(_lpTimer); _lpStart = null; }, { passive: true });
+  map.on('movestart', () => { clearTimeout(_lpTimer); _lpStart = null; });
+
   function loadFromURL() {
     const params = new URL(window.location.href).searchParams;
     const locs = params.get('locs');
