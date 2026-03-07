@@ -12,7 +12,7 @@
     #map { flex: 1; }
 
     #sidebar {
-      width: 380px;
+      width: 380px; min-width: 380px;
       background: #161b22;
       border-left: 1px solid #30363d;
       display: flex;
@@ -21,144 +21,152 @@
     }
 
     /* HEADER */
-    #header {
-      padding: 14px 16px;
-      border-bottom: 1px solid #30363d;
-      background: #0d1117;
-    }
-    #header h1 { font-size: 15px; font-weight: 600; letter-spacing: 0.5px; }
-    #header .subtitle { font-size: 11px; color: #8b949e; margin-top: 3px; }
+    #header { padding: 12px 14px; border-bottom: 1px solid #30363d; background: #0d1117; }
+    #header h1 { font-size: 14px; font-weight: 600; letter-spacing: 0.5px; }
+    #header .subtitle { font-size: 10px; color: #8b949e; margin-top: 2px; }
     #status-badge {
-      display: inline-flex; align-items: center; gap: 6px;
-      padding: 3px 10px; border-radius: 12px; font-size: 11px; font-weight: 600; margin-top: 8px;
+      display: inline-flex; align-items: center; gap: 5px;
+      padding: 2px 9px; border-radius: 12px; font-size: 10px; font-weight: 600; margin-top: 7px;
     }
     .status-clear   { background: #1a3a2a; color: #3fb950; border: 1px solid #238636; }
     .status-warning { background: #3a2a0a; color: #d29922; border: 1px solid #9e6a03; }
     .status-alert   { background: #3a0f0f; color: #f85149; border: 1px solid #b91c1c; }
 
+    /* TIMELINE SLIDER */
+    #timeline-section {
+      padding: 10px 14px 8px;
+      border-bottom: 1px solid #30363d;
+      background: #0d1117;
+    }
+    #timeline-top {
+      display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 6px;
+    }
+    #timeline-label { font-size: 10px; color: #8b949e; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; }
+    #timeline-value { font-size: 10px; color: #e6edf3; font-weight: 500; }
+    #timeline-slider {
+      width: 100%;
+      -webkit-appearance: none;
+      height: 3px;
+      border-radius: 2px;
+      background: #30363d;
+      outline: none;
+      cursor: pointer;
+    }
+    #timeline-slider::-webkit-slider-thumb {
+      -webkit-appearance: none;
+      width: 14px; height: 14px;
+      border-radius: 50%;
+      background: #58a6ff;
+      cursor: pointer;
+      border: 2px solid #0d1117;
+    }
+    #timeline-ends {
+      display: flex; justify-content: space-between; margin-top: 3px;
+    }
+    #timeline-ends span { font-size: 9px; color: #6e7681; }
+
     /* FILTERS */
     #filters {
-      padding: 8px 12px;
+      padding: 7px 10px;
       border-bottom: 1px solid #30363d;
-      display: flex;
-      gap: 4px;
-      flex-wrap: wrap;
+      display: flex; gap: 3px; flex-wrap: wrap;
     }
     .filter-btn {
-      padding: 2px 8px; border-radius: 10px; border: 1px solid #30363d;
+      padding: 2px 7px; border-radius: 10px; border: 1px solid #30363d;
       background: transparent; color: #8b949e; font-size: 10px; cursor: pointer; transition: all 0.15s;
     }
     .filter-btn.active { color: #e6edf3; border-color: #58a6ff; background: #1c2d4a; }
     .filter-btn:hover  { border-color: #58a6ff; }
-    .filter-sep { width: 1px; background: #30363d; margin: 2px 0; }
+    .filter-sep { width: 1px; background: #30363d; margin: 0 2px; flex-shrink: 0; }
 
     /* MY LOCATIONS */
-    #locations-section {
-      border-bottom: 1px solid #30363d;
-      font-size: 12px;
-    }
+    #locations-section { border-bottom: 1px solid #30363d; }
     #locations-header {
-      padding: 8px 12px;
+      padding: 7px 12px;
       display: flex; align-items: center; justify-content: space-between;
       cursor: pointer; user-select: none;
-      color: #8b949e;
-      font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px;
+      color: #8b949e; font-size: 10px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px;
     }
     #locations-header:hover { background: #1c2128; }
-    #locations-header .toggle { font-size: 10px; }
-    #locations-body { padding: 0 12px 10px; display: none; }
+    #locations-body { padding: 0 10px 8px; display: none; }
     #locations-body.open { display: block; }
-
-    #loc-input-row { display: flex; gap: 6px; margin-bottom: 8px; }
+    #loc-input-row { display: flex; gap: 5px; margin-bottom: 6px; }
     #loc-input {
-      flex: 1; background: #0d1117; border: 1px solid #30363d; border-radius: 6px;
-      color: #e6edf3; padding: 4px 8px; font-size: 11px; outline: none;
+      flex: 1; background: #0d1117; border: 1px solid #30363d; border-radius: 5px;
+      color: #e6edf3; padding: 4px 7px; font-size: 11px; outline: none;
     }
     #loc-input:focus { border-color: #58a6ff; }
     #loc-add-btn {
       background: #1c2d4a; border: 1px solid #58a6ff; color: #58a6ff;
-      border-radius: 6px; padding: 4px 10px; font-size: 11px; cursor: pointer;
+      border-radius: 5px; padding: 3px 9px; font-size: 11px; cursor: pointer;
     }
-    #loc-add-btn:hover { background: #2d4a6e; }
     #loc-add-btn:disabled { opacity: 0.4; cursor: default; }
-
-    #loc-list { display: flex; flex-direction: column; gap: 4px; }
+    #loc-list { display: flex; flex-direction: column; gap: 3px; }
     .loc-item {
-      display: flex; align-items: flex-start; gap: 6px;
-      background: #0d1117; border: 1px solid #21262d; border-radius: 6px; padding: 6px 8px;
+      display: flex; align-items: flex-start; gap: 5px;
+      background: #0d1117; border: 1px solid #21262d; border-radius: 5px; padding: 5px 7px;
     }
-    .loc-dot { width: 8px; height: 8px; border-radius: 50%; background: #3fb950; margin-top: 3px; flex-shrink: 0; }
+    .loc-dot { width: 7px; height: 7px; border-radius: 50%; background: #3fb950; margin-top: 3px; flex-shrink: 0; }
     .loc-info { flex: 1; min-width: 0; }
     .loc-name { font-size: 11px; font-weight: 500; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-    .loc-dist { font-size: 10px; color: #8b949e; margin-top: 2px; }
-    .loc-remove { color: #6e7681; font-size: 12px; cursor: pointer; padding: 0 2px; flex-shrink: 0; }
+    .loc-dist { font-size: 10px; color: #8b949e; margin-top: 1px; }
+    .loc-remove { color: #6e7681; font-size: 11px; cursor: pointer; padding: 0 2px; flex-shrink: 0; }
     .loc-remove:hover { color: #f85149; }
-
-    #loc-share-row { margin-top: 8px; }
+    #loc-share-row { margin-top: 6px; display: flex; gap: 6px; align-items: center; }
     #loc-share-btn {
-      width: 100%; background: transparent; border: 1px solid #30363d; color: #8b949e;
-      border-radius: 6px; padding: 4px 0; font-size: 11px; cursor: pointer;
+      flex: 1; background: transparent; border: 1px solid #30363d; color: #8b949e;
+      border-radius: 5px; padding: 3px 0; font-size: 10px; cursor: pointer;
     }
     #loc-share-btn:hover { border-color: #58a6ff; color: #58a6ff; }
-    #loc-status { font-size: 10px; color: #3fb950; margin-top: 4px; display: none; text-align: center; }
+    #loc-status { font-size: 10px; color: #3fb950; display: none; }
 
     /* EVENTS */
-    #events-list { flex: 1; overflow-y: auto; padding: 6px 0; }
-
+    #events-list { flex: 1; overflow-y: auto; padding: 4px 0; }
     .event-card {
-      padding: 10px 14px; border-bottom: 1px solid #21262d;
+      padding: 9px 12px; border-bottom: 1px solid #21262d;
       cursor: pointer; transition: background 0.1s;
     }
     .event-card:hover { background: #1c2128; }
-
-    .event-badges { display: flex; gap: 4px; margin-bottom: 5px; align-items: center; flex-wrap: wrap; }
-
+    .event-badges { display: flex; gap: 3px; margin-bottom: 4px; align-items: center; flex-wrap: wrap; }
     .badge {
-      display: inline-flex; align-items: center; gap: 3px;
-      padding: 1px 6px; border-radius: 4px; font-size: 9px; font-weight: 700;
-      text-transform: uppercase; letter-spacing: 0.5px;
+      display: inline-flex; align-items: center;
+      padding: 1px 5px; border-radius: 3px; font-size: 9px; font-weight: 700;
+      text-transform: uppercase; letter-spacing: 0.4px;
     }
-    .badge-interception { background: #1c2d4a; color: #58a6ff; border: 1px solid #1f4a7a; }
-    .badge-impact_minor { background: #3a2a0a; color: #d29922; border: 1px solid #7a4e00; }
-    .badge-impact_major { background: #3a0f0f; color: #f85149; border: 1px solid #7a1c1c; }
+    .badge-interception   { background: #1c2d4a; color: #58a6ff; border: 1px solid #1f4a7a; }
+    .badge-impact_minor   { background: #3a2a0a; color: #d29922; border: 1px solid #7a4e00; }
+    .badge-impact_major   { background: #3a0f0f; color: #f85149; border: 1px solid #7a1c1c; }
     .badge-security_alert { background: #2a1a3a; color: #a371f7; border: 1px solid #5a3a8a; }
-    .badge-confirmed   { background: transparent; color: #3fb950; border: 1px solid #238636; }
-    .badge-suspected   { background: transparent; color: #8b949e; border: 1px dashed #555; }
-
-    .conf-high       { color: #3fb950; }
-    .conf-medium     { color: #d29922; }
-    .conf-low        { color: #f85149; }
-    .conf-unverified { color: #8b949e; }
-
-    .event-title { font-size: 12px; font-weight: 500; margin-bottom: 3px; line-height: 1.4; }
+    .badge-confirmed { background: transparent; color: #3fb950; border: 1px solid #238636; }
+    .badge-suspected { background: transparent; color: #8b949e; border: 1px dashed #555; }
+    .event-time { font-size: 11px; color: #8b949e; margin-bottom: 3px; }
+    .event-time .rel { color: #e6edf3; font-weight: 500; }
+    .event-title { font-size: 12px; font-weight: 500; margin-bottom: 2px; line-height: 1.4; }
     .event-meta  { font-size: 10px; color: #8b949e; }
-    .event-sources { margin-top: 5px; display: flex; gap: 3px; flex-wrap: wrap; }
+    .event-sources { margin-top: 4px; display: flex; gap: 3px; flex-wrap: wrap; }
     .src-tag {
-      padding: 1px 5px; border-radius: 3px; font-size: 9px;
+      padding: 1px 4px; border-radius: 3px; font-size: 9px;
       background: #21262d; color: #58a6ff; text-decoration: none;
     }
     .src-tag:hover { background: #1c2d4a; }
-
-    #empty-state { padding: 40px 16px; text-align: center; color: #8b949e; font-size: 12px; }
+    #empty-state { padding: 30px 14px; text-align: center; color: #8b949e; font-size: 12px; }
 
     /* FOOTER */
     #footer {
-      padding: 8px 14px; border-top: 1px solid #30363d;
-      font-size: 10px; color: #6e7681; display: flex; justify-content: space-between; align-items: center;
+      padding: 6px 12px; border-top: 1px solid #30363d;
+      font-size: 10px; color: #6e7681; display: flex; justify-content: space-between;
     }
 
-    /* MARKER STYLES */
+    /* MARKERS */
     .cm { border-radius: 50%; border: 2px solid rgba(255,255,255,0.4); }
-    .cm-interception { background: #58a6ff; width: 14px; height: 14px; }
-    .cm-impact_minor { background: #d29922; width: 11px; height: 11px; }
-    .cm-impact_major { background: #f85149; width: 16px; height: 16px; box-shadow: 0 0 10px rgba(248,81,73,0.6); }
-    .cm-security_alert { background: #a371f7; width: 12px; height: 12px; }
+    .cm-interception  { background: #58a6ff; width: 14px; height: 14px; }
+    .cm-impact_minor  { background: #d29922; width: 11px; height: 11px; }
+    .cm-impact_major  { background: #f85149; width: 16px; height: 16px; box-shadow: 0 0 10px rgba(248,81,73,0.5); }
+    .cm-security_alert{ background: #a371f7; width: 12px; height: 12px; }
     .cm-suspected { border-style: dashed; opacity: 0.75; }
     .cm-loc { background: #3fb950; width: 10px; height: 10px; border: 2px solid #fff; }
 
-    /* SCROLLBAR */
     #events-list::-webkit-scrollbar { width: 4px; }
-    #events-list::-webkit-scrollbar-track { background: transparent; }
     #events-list::-webkit-scrollbar-thumb { background: #30363d; border-radius: 2px; }
   </style>
 </head>
@@ -166,18 +174,30 @@
   <div id="map"></div>
   <div id="sidebar">
 
-    <!-- HEADER -->
     <div id="header">
       <h1>🇦🇪 Dubai Strike Monitor</h1>
-      <div class="subtitle">Security events — UAE · Iranian strikes 2026</div>
+      <div class="subtitle">Iranian strikes on UAE · Feb 28 2026 – present</div>
       <div id="status-badge" class="status-clear">✅ Clear</div>
+    </div>
+
+    <!-- TIMELINE SLIDER -->
+    <div id="timeline-section">
+      <div id="timeline-top">
+        <span id="timeline-label">Timeline</span>
+        <span id="timeline-value">Now</span>
+      </div>
+      <input type="range" id="timeline-slider" min="0" step="1" />
+      <div id="timeline-ends">
+        <span>Feb 28 · 00:00 UAE</span>
+        <span>Now</span>
+      </div>
     </div>
 
     <!-- FILTERS -->
     <div id="filters">
       <button class="filter-btn active" data-type="all">All</button>
-      <button class="filter-btn" data-type="interception">🛡 Interception</button>
-      <button class="filter-btn" data-type="impact_major">💥 Major impact</button>
+      <button class="filter-btn" data-type="interception">🛡 Intercept</button>
+      <button class="filter-btn" data-type="impact_major">💥 Major</button>
       <button class="filter-btn" data-type="impact_minor">🔸 Debris</button>
       <button class="filter-btn" data-type="security_alert">🚨 Alert</button>
       <div class="filter-sep"></div>
@@ -190,7 +210,7 @@
     <div id="locations-section">
       <div id="locations-header" onclick="toggleLocations()">
         <span>📍 My locations <span id="loc-count"></span></span>
-        <span class="toggle" id="loc-toggle">▼</span>
+        <span id="loc-toggle">▼</span>
       </div>
       <div id="locations-body">
         <div id="loc-input-row">
@@ -201,53 +221,87 @@
         <div id="loc-list"></div>
         <div id="loc-share-row">
           <button id="loc-share-btn" onclick="shareURL()">🔗 Copy shareable link</button>
-          <div id="loc-status">Copied!</div>
+          <span id="loc-status">Copied!</span>
         </div>
       </div>
     </div>
 
-    <!-- EVENTS LIST -->
     <div id="events-list">
-      <div id="empty-state">No events · Last updated: <span id="last-updated">—</span></div>
+      <div id="empty-state">Loading…</div>
     </div>
 
-    <!-- FOOTER -->
     <div id="footer">
-      <span>GDELT + wire sources · ~12h lag</span>
+      <span id="last-updated">—</span>
       <a href="https://github.com/TimeHunter81/DubaiStrikes" style="color:#58a6ff" target="_blank">GitHub</a>
     </div>
   </div>
 
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   <script>
-  // ─── MAP INIT (CartoDB Dark Matter — English labels) ───────────────────
-  const map = L.map('map', { zoomControl: false }).setView([25.15, 55.2], 9);
+  // ─── MAP ───────────────────────────────────────────────────────────────
+  const map = L.map('map', { zoomControl: false }).setView([25.0, 55.0], 8);
   L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
-    attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors © <a href="https://carto.com/attributions">CARTO</a>',
-    subdomains: 'abcd',
-    maxZoom: 19
+    attribution: '© <a href="https://www.openstreetmap.org/copyright">OSM</a> contributors © <a href="https://carto.com/attributions">CARTO</a>',
+    subdomains: 'abcd', maxZoom: 19
   }).addTo(map);
   L.control.zoom({ position: 'bottomright' }).addTo(map);
 
   // ─── CONSTANTS ─────────────────────────────────────────────────────────
   const TYPE_META = {
-    interception:   { label: '🛡 Interception',  cls: 'badge-interception',   markerCls: 'cm-interception' },
-    impact_minor:   { label: '🔸 Debris',         cls: 'badge-impact_minor',   markerCls: 'cm-impact_minor' },
-    impact_major:   { label: '💥 Major impact',   cls: 'badge-impact_major',   markerCls: 'cm-impact_major' },
-    security_alert: { label: '🚨 Security alert', cls: 'badge-security_alert', markerCls: 'cm-security_alert' },
+    interception:   { label: '🛡 Interception',  cls: 'badge-interception',   mc: 'cm-interception'  },
+    impact_minor:   { label: '🔸 Debris',         cls: 'badge-impact_minor',   mc: 'cm-impact_minor'  },
+    impact_major:   { label: '💥 Major impact',   cls: 'badge-impact_major',   mc: 'cm-impact_major'  },
+    security_alert: { label: '🚨 Security alert', cls: 'badge-security_alert', mc: 'cm-security_alert'},
   };
 
+  // ─── RELATIVE TIME ─────────────────────────────────────────────────────
+  function relTime(isoStr) {
+    if (!isoStr) return '';
+    const then = new Date(isoStr);
+    const now = new Date();
+    const ms = now - then;
+    const min = Math.floor(ms / 60000);
+    const h   = Math.floor(ms / 3600000);
+    const d   = Math.floor(ms / 86400000);
+    // < 1h → "42 min ago"
+    if (min < 60) return `${min}m ago`;
+    // < 24h → "3h ago"
+    if (h < 24) return `${h}h ago`;
+    // < 7 days → "Monday · 20:30 UTC"
+    if (d < 7) {
+      const days = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
+      const t = then.toISOString().slice(11,16);
+      return `${days[then.getUTCDay()]} · ${t} UTC`;
+    }
+    // older → "Feb 28 · 22:00 UTC"
+    const months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+    const t = then.toISOString().slice(11,16);
+    return `${months[then.getUTCMonth()]} ${then.getUTCDate()} · ${t} UTC`;
+  }
+
+  // Format for slider display
+  function fmtSliderTime(ts) {
+    const d = new Date(ts);
+    const months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+    const days = ['Sun','Mon','Tue','Wed','Thu','Fri','Sat'];
+    const t = d.toISOString().slice(11,16);
+    return `${days[d.getUTCDay()]} ${months[d.getUTCMonth()]} ${d.getUTCDate()} · ${t} UTC`;
+  }
+
   // ─── STATE ─────────────────────────────────────────────────────────────
-  let allEvents   = [];
-  let userLocs    = [];   // [{name, lat, lon, marker}]
-  let eventMarkers= [];
-  let filterType  = 'all';
-  let filterConf  = 'all';
-  let locOpen     = false;
+  let allEvents    = [];
+  let userLocs     = [];
+  let eventMarkers = [];
+  let filterType   = 'all';
+  let filterConf   = 'all';
+  let sliderMax    = 0;   // total hours from conflict start to now
+  let sliderVal    = 0;   // selected hours from conflict start (0 = conflict start, sliderMax = now)
+  let conflictStart= 0;   // Unix ms
+  let locOpen      = false;
 
   // ─── HAVERSINE ─────────────────────────────────────────────────────────
   function haversine(lat1, lon1, lat2, lon2) {
-    const R = 6371, dLat = (lat2-lat1)*Math.PI/180, dLon = (lon2-lon1)*Math.PI/180;
+    const R = 6371, dLat=(lat2-lat1)*Math.PI/180, dLon=(lon2-lon1)*Math.PI/180;
     const a = Math.sin(dLat/2)**2 + Math.cos(lat1*Math.PI/180)*Math.cos(lat2*Math.PI/180)*Math.sin(dLon/2)**2;
     return R * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
   }
@@ -256,68 +310,90 @@
     let best = null, bestD = Infinity;
     allEvents.forEach(e => {
       if (!e.lat || !e.lon) return;
-      const d = haversine(lat, lon, e.lat, e.lon);
-      if (d < bestD) { bestD = d; best = e; }
+      const dist = haversine(lat, lon, e.lat, e.lon);
+      if (dist < bestD) { bestD = dist; best = e; }
     });
     return best ? { event: best, km: bestD } : null;
   }
 
-  // ─── MARKERS ───────────────────────────────────────────────────────────
+  // ─── ICONS ─────────────────────────────────────────────────────────────
   function makeEventIcon(type, confirmed) {
     const meta = TYPE_META[type] || TYPE_META['impact_major'];
-    const suspected = !confirmed;
     return L.divIcon({
       className: '',
-      html: `<div class="cm ${meta.markerCls}${suspected?' cm-suspected':''}"></div>`,
-      iconSize: [18, 18],
-      iconAnchor: [9, 9]
+      html: `<div class="cm ${meta.mc}${!confirmed?' cm-suspected':''}"></div>`,
+      iconSize: [20, 20], iconAnchor: [10, 10]
     });
   }
-
   function makeLocIcon() {
     return L.divIcon({
       className: '',
       html: `<div class="cm cm-loc"></div>`,
-      iconSize: [14, 14],
-      iconAnchor: [7, 7]
+      iconSize: [14, 14], iconAnchor: [7, 7]
     });
   }
 
-  // ─── RENDER EVENTS ─────────────────────────────────────────────────────
+  // ─── POPUP CONTENT ─────────────────────────────────────────────────────
+  function popupHTML(e) {
+    const tm = TYPE_META[e.type] || {};
+    const rel = relTime(e.datetime);
+    const srcs = (e.sources||[]).slice(0,2).map(s =>
+      `<a href="${s.url}" target="_blank" style="color:#58a6ff">${s.domain}</a>`
+    ).join(' · ');
+    return `<div style="font-family:system-ui;font-size:12px;max-width:240px;line-height:1.4">
+      <div style="font-weight:600;margin-bottom:4px">${e.title}</div>
+      <div style="color:#8b949e;font-size:11px;margin-bottom:4px">
+        ${rel}${rel ? ' · ' : ''}${e.location}
+      </div>
+      <div style="font-size:10px">${srcs}</div>
+    </div>`;
+  }
+
+  // ─── RENDER ────────────────────────────────────────────────────────────
+  function getSelectedCutoff() {
+    if (sliderVal >= sliderMax) return Infinity;
+    return conflictStart + sliderVal * 3600000;
+  }
+
   function renderEvents() {
     eventMarkers.forEach(m => map.removeLayer(m));
     eventMarkers = [];
+
+    const cutoff = getSelectedCutoff();
 
     const filtered = allEvents.filter(e => {
       const tOk = filterType === 'all' || e.type === filterType;
       const cOk = filterConf === 'all'
         || (filterConf === 'confirmed' && e.confirmed === true)
         || (filterConf === 'suspected' && e.confirmed === false);
-      return tOk && cOk;
+      const dt = e.datetime ? new Date(e.datetime).getTime() : 0;
+      const timeOk = dt <= cutoff;
+      return tOk && cOk && timeOk;
     });
 
     const list = document.getElementById('events-list');
 
     if (filtered.length === 0) {
-      list.innerHTML = '<div id="empty-state">No events match filters · Last updated: ' +
-        (allEvents._lastUpdated || '—') + '</div>';
+      list.innerHTML = '<div id="empty-state">No events match filters.</div>';
       return;
     }
 
-    list.innerHTML = filtered.map((e, i) => {
+    list.innerHTML = filtered.map(e => {
       const tm = TYPE_META[e.type] || {};
       const confClass = e.confirmed ? 'badge-confirmed' : 'badge-suspected';
       const confLabel = e.confirmed ? '✅ Confirmed' : '❓ Suspected';
-      const srcs = (e.sources || []).map(s =>
+      const srcs = (e.sources||[]).map(s =>
         `<a class="src-tag" href="${s.url}" target="_blank">${s.domain}</a>`
       ).join('');
+      const rel = relTime(e.datetime);
       return `<div class="event-card" onclick="flyTo(${e.lat||25.2},${e.lon||55.27})">
         <div class="event-badges">
           ${tm.label ? `<span class="badge ${tm.cls}">${tm.label}</span>` : ''}
           <span class="badge ${confClass}">${confLabel}</span>
         </div>
+        ${rel ? `<div class="event-time"><span class="rel">${rel}</span></div>` : ''}
         <div class="event-title">${e.title}</div>
-        <div class="event-meta">${e.date} · ${e.location || 'UAE'}</div>
+        <div class="event-meta">${e.location || 'UAE'}</div>
         ${srcs ? `<div class="event-sources">${srcs}</div>` : ''}
       </div>`;
     }).join('');
@@ -326,41 +402,61 @@
       if (!e.lat || !e.lon) return;
       const m = L.marker([e.lat, e.lon], { icon: makeEventIcon(e.type, e.confirmed) })
         .addTo(map)
-        .bindPopup(`<b>${e.title}</b><br>${e.date} · ${e.confirmed ? 'Confirmed' : 'Suspected'}`);
+        .bindPopup(popupHTML(e), { maxWidth: 260 });
+      // Hover: open popup
+      m.on('mouseover', function() { this.openPopup(); });
       eventMarkers.push(m);
     });
   }
 
-  function flyTo(lat, lon) { map.flyTo([lat, lon], 12, { duration: 1 }); }
+  function flyTo(lat, lon) { map.flyTo([lat, lon], 12, { duration: 0.8 }); }
 
   function updateStatus(events) {
     const badge = document.getElementById('status-badge');
     const hasMajor = events.some(e => e.type === 'impact_major' && e.confirmed);
-    const hasMinor = events.some(e => ['impact_minor','security_alert'].includes(e.type));
+    const hasOther = events.some(e => ['impact_minor','security_alert','interception'].includes(e.type));
     if (hasMajor) {
       badge.className = 'status-badge status-alert'; badge.textContent = '🚨 Alert';
-    } else if (hasMinor) {
+    } else if (hasOther) {
       badge.className = 'status-badge status-warning'; badge.textContent = '⚠️ Warning';
     } else {
       badge.className = 'status-badge status-clear'; badge.textContent = '✅ Clear';
     }
   }
 
-  // ─── FILTER BUTTONS ────────────────────────────────────────────────────
+  // ─── TIMELINE SLIDER ───────────────────────────────────────────────────
+  function initSlider(conflictStartISO) {
+    conflictStart = new Date(conflictStartISO).getTime();
+    const now = Date.now();
+    sliderMax = Math.ceil((now - conflictStart) / 3600000);
+    sliderVal = sliderMax; // default: show all
+
+    const slider = document.getElementById('timeline-slider');
+    slider.min = 0;
+    slider.max = sliderMax;
+    slider.value = sliderMax;
+
+    slider.addEventListener('input', () => {
+      sliderVal = parseInt(slider.value);
+      const isNow = (sliderVal >= sliderMax);
+      const ts = conflictStart + sliderVal * 3600000;
+      document.getElementById('timeline-value').textContent = isNow ? 'Now' : fmtSliderTime(ts);
+      renderEvents();
+      renderLocations();
+    });
+  }
+
+  // ─── FILTERS ───────────────────────────────────────────────────────────
   document.querySelectorAll('[data-type]').forEach(btn => {
     btn.addEventListener('click', () => {
       document.querySelectorAll('[data-type]').forEach(b => b.classList.remove('active'));
-      btn.classList.add('active');
-      filterType = btn.dataset.type;
-      renderEvents();
+      btn.classList.add('active'); filterType = btn.dataset.type; renderEvents();
     });
   });
   document.querySelectorAll('[data-conf]').forEach(btn => {
     btn.addEventListener('click', () => {
       document.querySelectorAll('[data-conf]').forEach(b => b.classList.remove('active'));
-      btn.classList.add('active');
-      filterConf = btn.dataset.conf;
-      renderEvents();
+      btn.classList.add('active'); filterConf = btn.dataset.conf; renderEvents();
     });
   });
 
@@ -376,10 +472,8 @@
     const input = document.getElementById('loc-input');
     const name = input.value.trim();
     if (!name) return;
-
     const btn = document.getElementById('loc-add-btn');
     btn.disabled = true; btn.textContent = '…';
-
     try {
       const r = await fetch(
         `https://nominatim.openstreetmap.org/search?q=${encodeURIComponent(name)}&format=json&limit=1`,
@@ -388,22 +482,17 @@
       const data = await r.json();
       if (!data.length) { alert('Location not found'); return; }
       const { lat, lon, display_name } = data[0];
-      const shortName = display_name.split(',').slice(0,2).join(',').trim();
+      const shortName = display_name.split(',').slice(0,2).join(', ').trim();
       pushLocation({ name: shortName, lat: parseFloat(lat), lon: parseFloat(lon) });
       input.value = '';
-      syncURL();
-      saveLocations();
-    } catch(e) {
-      alert('Geocoding failed');
-    } finally {
-      btn.disabled = false; btn.textContent = 'Add';
-    }
+      syncURL(); saveLocations();
+    } catch(e) { alert('Geocoding failed'); }
+    finally { btn.disabled = false; btn.textContent = 'Add'; }
   }
 
   function pushLocation(loc) {
     const m = L.marker([loc.lat, loc.lon], { icon: makeLocIcon() })
-      .addTo(map)
-      .bindPopup(`<b>${loc.name}</b>`);
+      .addTo(map).bindPopup(`<b>${loc.name}</b>`);
     userLocs.push({ ...loc, marker: m });
     renderLocations();
   }
@@ -411,9 +500,7 @@
   function removeLocation(i) {
     map.removeLayer(userLocs[i].marker);
     userLocs.splice(i, 1);
-    renderLocations();
-    syncURL();
-    saveLocations();
+    renderLocations(); syncURL(); saveLocations();
   }
 
   function renderLocations() {
@@ -423,7 +510,7 @@
     list.innerHTML = userLocs.map((loc, i) => {
       const near = nearestEvent(loc.lat, loc.lon);
       const distStr = near
-        ? `${near.km.toFixed(0)} km from: ${near.event.title.substring(0,50)}…`
+        ? `${near.km < 1 ? '<1' : near.km.toFixed(0)} km from ${near.event.location}`
         : 'No nearby events';
       return `<div class="loc-item">
         <div class="loc-dot"></div>
@@ -436,12 +523,13 @@
     }).join('');
   }
 
-  // ─── URL SYNC ──────────────────────────────────────────────────────────
-  // Format: ?locs=Name1~lat1~lon1|Name2~lat2~lon2
+  // ─── URL / STORAGE ─────────────────────────────────────────────────────
   function syncURL() {
     const url = new URL(window.location.href);
     if (userLocs.length) {
-      url.searchParams.set('locs', userLocs.map(l => `${encodeURIComponent(l.name)}~${l.lat}~${l.lon}`).join('|'));
+      url.searchParams.set('locs', userLocs.map(l =>
+        `${encodeURIComponent(l.name)}~${l.lat}~${l.lon}`
+      ).join('|'));
     } else {
       url.searchParams.delete('locs');
     }
@@ -449,16 +537,15 @@
   }
 
   function loadFromURL() {
-    const url = new URL(window.location.href);
-    const locs = url.searchParams.get('locs');
-    if (!locs) return;
+    const params = new URL(window.location.href).searchParams;
+    const locs = params.get('locs');
+    if (!locs) return false;
+    let loaded = false;
     locs.split('|').forEach(entry => {
       const [name, lat, lon] = entry.split('~');
-      if (name && lat && lon) {
-        pushLocation({ name: decodeURIComponent(name), lat: parseFloat(lat), lon: parseFloat(lon) });
-      }
+      if (name && lat && lon) { pushLocation({ name: decodeURIComponent(name), lat: parseFloat(lat), lon: parseFloat(lon) }); loaded = true; }
     });
-    if (userLocs.length) { locOpen = true; document.getElementById('locations-body').classList.add('open'); document.getElementById('loc-toggle').textContent = '▲'; }
+    return loaded;
   }
 
   function saveLocations() {
@@ -466,7 +553,7 @@
   }
 
   function loadFromStorage() {
-    if (userLocs.length) return; // URL took priority
+    if (userLocs.length) return;
     try {
       const saved = JSON.parse(localStorage.getItem('dsm_locs') || '[]');
       saved.forEach(loc => pushLocation(loc));
@@ -477,7 +564,7 @@
     syncURL();
     navigator.clipboard.writeText(window.location.href).then(() => {
       const s = document.getElementById('loc-status');
-      s.style.display = 'block';
+      s.style.display = 'inline';
       setTimeout(() => { s.style.display = 'none'; }, 2000);
     });
   }
@@ -487,16 +574,22 @@
     .then(r => r.json())
     .then(data => {
       allEvents = data.events || [];
-      allEvents._lastUpdated = data.last_updated;
-      document.getElementById('last-updated').textContent = data.last_updated || '—';
+      const upd = data.last_updated ? relTime(data.last_updated) : '—';
+      document.getElementById('last-updated').textContent = 'Updated ' + upd;
+      initSlider(data.conflict_start || '2026-02-27T20:00:00Z');
       updateStatus(allEvents);
-      loadFromURL();
-      loadFromStorage();
+      const fromURL = loadFromURL();
+      if (!fromURL) loadFromStorage();
+      if (userLocs.length) {
+        locOpen = true;
+        document.getElementById('locations-body').classList.add('open');
+        document.getElementById('loc-toggle').textContent = '▲';
+      }
       renderEvents();
       renderLocations();
     })
     .catch(() => {
-      document.getElementById('last-updated').textContent = 'error loading data';
+      document.getElementById('empty-state').textContent = 'Error loading data.';
     });
   </script>
 </body>
