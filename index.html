@@ -20,6 +20,59 @@
       overflow: hidden;
     }
 
+    /* ── MOBILE ── */
+    @media (max-width: 700px) {
+      body { flex-direction: column; }
+
+      #map { flex: 1; min-height: 0; }
+
+      #sidebar {
+        width: 100%; min-width: 0;
+        border-left: none;
+        border-top: 1px solid #30363d;
+        height: var(--sheet-h, 52px);
+        transition: height 0.25s ease;
+        overflow: hidden;
+        flex-shrink: 0;
+        position: relative;
+      }
+
+      /* Drag handle */
+      #sheet-handle {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 20px;
+        cursor: pointer;
+        flex-shrink: 0;
+      }
+      #sheet-handle::before {
+        content: '';
+        width: 36px; height: 4px;
+        background: #444d56;
+        border-radius: 2px;
+      }
+
+      #sidebar.expanded { --sheet-h: 65vh; }
+
+      /* Collapsed: only header row visible */
+      #header {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding: 6px 12px;
+        cursor: pointer;
+        flex-shrink: 0;
+      }
+      #header h1 { font-size: 13px; }
+      #header .subtitle { display: none; }
+    }
+
+    @media (min-width: 701px) {
+      #sheet-handle { display: none; }
+    }
+
     /* HEADER */
     #header { padding: 12px 14px; border-bottom: 1px solid #30363d; background: #0d1117; }
     #header h1 { font-size: 14px; font-weight: 600; letter-spacing: 0.5px; }
@@ -204,9 +257,13 @@
   <div id="map"></div>
   <div id="sidebar">
 
-    <div id="header">
-      <h1>🇦🇪 Dubai Strike Monitor</h1>
-      <div class="subtitle">Iranian strikes on UAE · Feb 28 2026 – present</div>
+    <div id="sheet-handle" onclick="toggleSheet()"></div>
+
+    <div id="header" onclick="toggleSheet()">
+      <div>
+        <h1>🇦🇪 Dubai Strike Monitor</h1>
+        <div class="subtitle">Iranian strikes on UAE · Feb 28 2026 – present</div>
+      </div>
       <div id="status-badge" class="status-clear">✅ Clear</div>
     </div>
 
@@ -291,6 +348,14 @@
     impact_major:   { label: '💥 Major impact',   cls: 'badge-impact_major',   mc: 'cm-impact_major'  },
     security_alert: { label: '🚨 Security alert', cls: 'badge-security_alert', mc: 'cm-security_alert'},
   };
+
+  // ─── MOBILE BOTTOM SHEET ──────────────────────────────────────────────
+  function toggleSheet() {
+    if (window.innerWidth > 700) return;
+    document.getElementById('sidebar').classList.toggle('expanded');
+    // Invalidate map size after animation
+    setTimeout(() => map.invalidateSize(), 270);
+  }
 
   // ─── RELATIVE TIME ─────────────────────────────────────────────────────
   function relTime(isoStr) {
