@@ -822,18 +822,7 @@
     document.getElementById('filters-conf').style.display = hasSuspected ? 'flex' : 'none';
   }
 
-  function updateStatus(events) {
-    const badge = document.getElementById('status-badge');
-    const hasMajor = events.some(e => e.type === 'impact_major' && e.confirmed);
-    const hasOther = events.some(e => ['impact_minor','security_alert','interception'].includes(e.type));
-    if (hasMajor) {
-      badge.className = 'status-badge status-alert'; badge.textContent = '🚨 Alert';
-    } else if (hasOther) {
-      badge.className = 'status-badge status-warning'; badge.textContent = '⚠️ Warning';
-    } else {
-      badge.className = 'status-badge status-clear'; badge.textContent = '✅ Clear';
-    }
-  }
+  function updateStatus(events) { /* badge removed */ }
 
   // ─── TIMELINE SLIDER ───────────────────────────────────────────────────
   // windowHours = how many hours back from now to show
