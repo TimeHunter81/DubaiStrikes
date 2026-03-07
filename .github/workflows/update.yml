@@ -1,9 +1,7 @@
 name: Update Strike Data
 
 on:
-  schedule:
-    - cron: '*/15 * * * *'   # every 15 minutes
-  workflow_dispatch:           # manual trigger
+  workflow_dispatch:   # manual trigger only — data updates handled by OpenClaw cron every 10min
 
 permissions:
   contents: write
