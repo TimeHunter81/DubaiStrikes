@@ -37,8 +37,20 @@
         position: relative;
       }
 
-        #sidebar { --sheet-h: 0px; }
-      #sidebar.expanded { --sheet-h: 70vh; }
+        #sidebar { --sheet-h: 0px; overflow: hidden; }
+      #sidebar.expanded {
+        --sheet-h: 70vh;
+        overflow: hidden; /* children handle their own scroll */
+      }
+
+      #events-list {
+        overflow-y: auto;
+        -webkit-overflow-scrolling: touch;
+        touch-action: pan-y;
+      }
+
+      /* Prevent map from catching touches inside the sheet */
+      #sidebar * { touch-action: pan-y; }
 
       #header { padding: 10px 14px; cursor: default; }
       #header h1 { font-size: 13px; }
@@ -348,6 +360,10 @@
     impact_major:   { label: '💥 Major impact',   cls: 'badge-impact_major',   mc: 'cm-impact_major'  },
     security_alert: { label: '🚨 Security alert', cls: 'badge-security_alert', mc: 'cm-security_alert'},
   };
+
+  // Prevent map pan/zoom from swallowing touches inside the sidebar
+  document.getElementById('sidebar').addEventListener('touchstart', e => e.stopPropagation(), { passive: true });
+  document.getElementById('sidebar').addEventListener('touchmove',  e => e.stopPropagation(), { passive: true });
 
   // ─── MOBILE BOTTOM SHEET ──────────────────────────────────────────────
   function toggleSheet() {
