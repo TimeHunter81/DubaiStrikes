@@ -442,7 +442,7 @@
         .addTo(map)
         .bindPopup(popupHTML(e), { maxWidth: 260 });
       // Hover: open popup
-      m.on('mouseover', function() { this.openPopup(); });
+      m.on('mouseover click', function() { this.openPopup(); });
       eventMarkers.push(m);
     });
   }
@@ -610,7 +610,7 @@
     const label = loc.tag || loc.name;
     const m = L.marker([loc.lat, loc.lon], { icon: makeLocIcon(), zIndexOffset: -2000 })
       .addTo(map).bindPopup(`<b>${label}</b>${loc.name && loc.tag ? `<br><span style="font-size:10px;color:#888">${loc.name}</span>` : ''}`);
-    m.on('mouseover', function() { this.openPopup(); });
+    m.on('mouseover click', function() { this.openPopup(); });
     userLocs.push({ ...loc, marker: m });
     renderLocations();
   }
