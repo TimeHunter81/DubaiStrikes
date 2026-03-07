@@ -1,40 +1,268 @@
 {
-  "last_updated": "2026-03-07T22:26:00Z",
+  "last_updated": "2026-03-07T22:59:42Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
-      "id": "1a47837e2cc5",
-      "datetime": "2026-03-07T22:15:03Z",
+      "id": "5967d64bdbc2",
+      "datetime": "2026-03-07T22:52:42Z",
       "type": "impact_major",
       "confirmed": false,
-      "precision": "city",
-      "title": "US Consulate in Dubai reported on fire — attack suspected",
+      "precision": "neighborhood",
+      "title": "Dubai Marina tower hit — Iranian missile attack (live updates)",
       "location": "Dubai",
-      "lat": 25.2390,
-      "lon": 55.3026,
+      "lat": 25.0819,
+      "lon": 55.1367,
       "sources": [
         {
-          "url": "https://www.bresciaoggi.it/news/mondo/medio-oriente-a-fuoco-il-consolato-usa-a-dubai-la-francia-invia-la-portaerei-de-gaulle-jet-uk-abbattono-droni-nel-cielo-della-giordania-1.12942066",
-          "domain": "bresciaoggi.it",
+          "url": "https://www.irishmirror.ie/news/world-news/dubai-marina-tower-hit-iran-36832962",
+          "domain": "irishmirror.ie",
           "tier": "unverified"
         }
       ],
       "confidence": "low"
     },
     {
-      "id": "e8a0faa65c99",
-      "datetime": "2026-03-03T00:00:00Z",
-      "type": "security_alert",
+      "id": "02220256f66e",
+      "datetime": "2026-03-07T22:52:42Z",
+      "type": "impact_major",
+      "confirmed": false,
+      "precision": "neighborhood",
+      "title": "Iranian drones hit Dubai Marina — explosion and smoke over tower",
+      "location": "Dubai",
+      "lat": 25.0819,
+      "lon": 55.1367,
+      "sources": [
+        {
+          "url": "https://www.aol.com/articles/horrifying-moment-dubai-marina-hit-183400961.html",
+          "domain": "aol.com",
+          "tier": "unverified"
+        }
+      ],
+      "confidence": "low"
+    },
+    {
+      "id": "d54e7a99e3ac",
+      "datetime": "2026-03-07T22:52:42Z",
+      "type": "impact_major",
+      "confirmed": false,
+      "precision": "city",
+      "title": "Iran night drone attack on Dubai: 1 killed, 2 skyscrapers ablaze",
+      "location": "Dubai",
+      "lat": 25.2048,
+      "lon": 55.2708,
+      "sources": [
+        {
+          "url": "https://www.dailymail.co.uk/news/article-15624541/Iran-drone-attack-Dubai-man-killed-skyscrapers-flames-airport-struck.html",
+          "domain": "dailymail.co.uk",
+          "tier": "unverified"
+        }
+      ],
+      "confidence": "low"
+    },
+    {
+      "id": "e58aef9c61c5",
+      "datetime": "2026-03-07T22:52:42Z",
+      "type": "impact_major",
+      "confirmed": false,
+      "precision": "city",
+      "title": "Drone attack in Dubai — smoke visible over skyscraper [LIVE]",
+      "location": "UAE",
+      "lat": 25.2048,
+      "lon": 55.2708,
+      "sources": [
+        {
+          "url": "https://wiadomosci.onet.pl/swiat/atak-drona-w-dubaju-dym-nad-wiezowcem-relacja-na-zywo/4c64zzj",
+          "domain": "wiadomosci.onet.pl",
+          "tier": "unverified"
+        }
+      ],
+      "confidence": "low"
+    },
+    {
+      "id": "2952636afc6f",
+      "datetime": "2026-03-07T22:52:42Z",
+      "type": "impact_major",
+      "confirmed": false,
+      "precision": "exact",
+      "title": "Explosion reported at Dubai International Airport (OMDB)",
+      "location": "Dubai",
+      "lat": 25.2528,
+      "lon": 55.3644,
+      "sources": [
+        {
+          "url": "https://promptnewsonline.com/just-in-explosion-rocks-dubai-airport/",
+          "domain": "promptnewsonline.com",
+          "tier": "unverified"
+        }
+      ],
+      "confidence": "low"
+    },
+    {
+      "id": "53fb0dafbf97",
+      "datetime": "2026-03-07T22:52:42Z",
+      "type": "impact_major",
       "confirmed": false,
       "precision": "country",
-      "title": "Iran closes Strait of Hormuz, vows to attack ships passing through",
+      "title": "Iranian strikes hit AWS data centers in Gulf — UAE AI hub at risk",
       "location": "UAE",
       "lat": null,
       "lon": null,
       "sources": [
         {
-          "url": "https://www.thisdaylive.com/2026/03/03/oil-market-impacted-as-iran-closes-strait-of-hormuz-vows-to-attack-errant-ships/",
-          "domain": "thisdaylive.com",
+          "url": "https://www.wenxuecity.com/news/2026/03/07/126563489.html",
+          "domain": "wenxuecity.com",
+          "tier": "unverified"
+        }
+      ],
+      "confidence": "low"
+    },
+    {
+      "id": "598c79ea8e62",
+      "datetime": "2026-03-07T22:52:42Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "International airlines partially resume limited Middle East flights",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.thecable.ng/international-airlines-resume-limited-flights-to-middle-east-after-disruptions/",
+          "domain": "thecable.ng",
+          "tier": "unverified"
+        }
+      ],
+      "confidence": "low"
+    },
+    {
+      "id": "0d2b3fdb85cc",
+      "datetime": "2026-03-07T22:52:42Z",
+      "type": "impact_major",
+      "confirmed": true,
+      "precision": "country",
+      "title": "Drone strikes on Gulf data centers cast doubt on UAE AI hub ambitions",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.theguardian.com/world/2026/mar/07/it-means-missile-defence-on-data-centres-drone-strikes-raises-doubts-over-gulf-as-ai-superpower",
+          "domain": "theguardian.com",
+          "tier": "wire"
+        }
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "649748895fde",
+      "datetime": "2026-03-07T22:52:42Z",
+      "type": "impact_major",
+      "confirmed": false,
+      "precision": "exact",
+      "title": "Iranian drones strike Dubai International Airport — flights halted",
+      "location": "Dubai International Airport",
+      "lat": 25.2528,
+      "lon": 55.3644,
+      "sources": [
+        {
+          "url": "https://www.indiablooms.com/world/iranian-drone-strike-near-dubai-international-airports-terminal-forces-emergency-flight-suspensions/details",
+          "domain": "indiablooms.com",
+          "tier": "unverified"
+        }
+      ],
+      "confidence": "low"
+    },
+    {
+      "id": "87af91414fcd",
+      "datetime": "2026-03-07T22:52:42Z",
+      "type": "impact_major",
+      "confirmed": false,
+      "precision": "exact",
+      "title": "Iran attacks US air base in UAE (Al Dhafra) — Russian report",
+      "location": "UAE",
+      "lat": 24.2481,
+      "lon": 54.5478,
+      "sources": [
+        {
+          "url": "https://www.mk.ru/politics/2026/03/07/iran-atakoval-aviabazu-ssha-v-oae-otkuda-byla-atakovana-shkola-v-irane.html",
+          "domain": "mk.ru",
+          "tier": "unverified"
+        }
+      ],
+      "confidence": "low"
+    },
+    {
+      "id": "000de8264476",
+      "datetime": "2026-03-07T22:52:42Z",
+      "type": "impact_minor",
+      "confirmed": false,
+      "precision": "city",
+      "title": "Explosions reported in Dubai amid Russian-backed Iranian strikes",
+      "location": "Dubai",
+      "lat": 25.2048,
+      "lon": 55.2708,
+      "sources": [
+        {
+          "url": "https://www.bankingnews.gr/diethni/articles/860906/apocalypse-in-the-middle-east-russia-backs-iran-strikes-as-explosions-rock-tel-aviv-and-dubai-greek-tycoon-prokopiou-defies-hormuz-blockade",
+          "domain": "bankingnews.gr",
+          "tier": "unverified"
+        }
+      ],
+      "confidence": "low"
+    },
+    {
+      "id": "da7e71dc78bb",
+      "datetime": "2026-03-07T22:52:42Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "exact",
+      "title": "Dubai airport flight operations suspended again — Iranian attack",
+      "location": "UAE",
+      "lat": 25.2528,
+      "lon": 55.3644,
+      "sources": [
+        {
+          "url": "https://unn.ua/ru/news/aviareisi-iz-dubaya-snova-priostanavlivali-na-fone-ataki-irana",
+          "domain": "unn.ua",
+          "tier": "unverified"
+        }
+      ],
+      "confidence": "low"
+    },
+    {
+      "id": "d0256ae43f3f",
+      "datetime": "2026-03-07T22:52:42Z",
+      "type": "impact_major",
+      "confirmed": false,
+      "precision": "exact",
+      "title": "Iran strikes US Army HQ in UAE (Al Dhafra) — Russian media",
+      "location": "UAE",
+      "lat": 24.2481,
+      "lon": 54.5478,
+      "sources": [
+        {
+          "url": "https://news.mail.ru/society/70076122/",
+          "domain": "news.mail.ru",
+          "tier": "unverified"
+        }
+      ],
+      "confidence": "low"
+    },
+    {
+      "id": "f71270aae245",
+      "datetime": "2026-03-07T22:52:42Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "exact",
+      "title": "Dubai airport suspends operations — Iranian strike reported",
+      "location": "UAE",
+      "lat": 25.2528,
+      "lon": 55.3644,
+      "sources": [
+        {
+          "url": "https://www.tdg.ch/direct-iran-laeroport-de-dubai-suspend-ses-operations-295049542448",
+          "domain": "tdg.ch",
           "tier": "unverified"
         }
       ],
