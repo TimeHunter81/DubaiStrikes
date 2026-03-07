@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-07T22:59:42Z",
+  "last_updated": "2026-03-07T23:06:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -8,8 +8,8 @@
       "type": "impact_major",
       "confirmed": false,
       "precision": "neighborhood",
-      "title": "Dubai Marina tower hit — Iranian missile attack (live updates)",
-      "location": "Dubai",
+      "title": "Dubai Marina tower hit — Iranian missile attack reported",
+      "location": "Dubai Marina",
       "lat": 25.0819,
       "lon": 55.1367,
       "sources": [
@@ -28,7 +28,7 @@
       "confirmed": false,
       "precision": "neighborhood",
       "title": "Iranian drones hit Dubai Marina — explosion and smoke over tower",
-      "location": "Dubai",
+      "location": "Dubai Marina",
       "lat": 25.0819,
       "lon": 55.1367,
       "sources": [
@@ -46,7 +46,7 @@
       "type": "impact_major",
       "confirmed": false,
       "precision": "city",
-      "title": "Iran night drone attack on Dubai: 1 killed, 2 skyscrapers ablaze",
+      "title": "Iranian drone attack on Dubai — 1 killed, 2 skyscrapers ablaze",
       "location": "Dubai",
       "lat": 25.2048,
       "lon": 55.2708,
@@ -65,8 +65,8 @@
       "type": "impact_major",
       "confirmed": false,
       "precision": "city",
-      "title": "Drone attack in Dubai — smoke visible over skyscraper [LIVE]",
-      "location": "UAE",
+      "title": "Drone attack in Dubai — smoke visible over skyscraper",
+      "location": "Dubai",
       "lat": 25.2048,
       "lon": 55.2708,
       "sources": [
@@ -85,7 +85,7 @@
       "confirmed": false,
       "precision": "exact",
       "title": "Explosion reported at Dubai International Airport (OMDB)",
-      "location": "Dubai",
+      "location": "Dubai International Airport",
       "lat": 25.2528,
       "lon": 55.3644,
       "sources": [
@@ -103,7 +103,7 @@
       "type": "impact_major",
       "confirmed": false,
       "precision": "country",
-      "title": "Iranian strikes hit AWS data centers in Gulf — UAE AI hub at risk",
+      "title": "Iranian strikes hit AWS data centers in Gulf region",
       "location": "UAE",
       "lat": null,
       "lon": null,
@@ -115,44 +115,6 @@
         }
       ],
       "confidence": "low"
-    },
-    {
-      "id": "598c79ea8e62",
-      "datetime": "2026-03-07T22:52:42Z",
-      "type": "security_alert",
-      "confirmed": false,
-      "precision": "country",
-      "title": "International airlines partially resume limited Middle East flights",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.thecable.ng/international-airlines-resume-limited-flights-to-middle-east-after-disruptions/",
-          "domain": "thecable.ng",
-          "tier": "unverified"
-        }
-      ],
-      "confidence": "low"
-    },
-    {
-      "id": "0d2b3fdb85cc",
-      "datetime": "2026-03-07T22:52:42Z",
-      "type": "impact_major",
-      "confirmed": true,
-      "precision": "country",
-      "title": "Drone strikes on Gulf data centers cast doubt on UAE AI hub ambitions",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.theguardian.com/world/2026/mar/07/it-means-missile-defence-on-data-centres-drone-strikes-raises-doubts-over-gulf-as-ai-superpower",
-          "domain": "theguardian.com",
-          "tier": "wire"
-        }
-      ],
-      "confidence": "medium"
     },
     {
       "id": "649748895fde",
@@ -179,8 +141,8 @@
       "type": "impact_major",
       "confirmed": false,
       "precision": "exact",
-      "title": "Iran attacks US air base in UAE (Al Dhafra) — Russian report",
-      "location": "UAE",
+      "title": "Iran attacks US air base Al Dhafra — Russian media report",
+      "location": "Al Dhafra Air Base",
       "lat": 24.2481,
       "lon": 54.5478,
       "sources": [
@@ -198,7 +160,7 @@
       "type": "impact_minor",
       "confirmed": false,
       "precision": "city",
-      "title": "Explosions reported in Dubai amid Russian-backed Iranian strikes",
+      "title": "Multiple explosions reported in Dubai during Iranian strike wave",
       "location": "Dubai",
       "lat": 25.2048,
       "lon": 55.2708,
@@ -218,7 +180,7 @@
       "confirmed": false,
       "precision": "exact",
       "title": "Dubai airport flight operations suspended again — Iranian attack",
-      "location": "UAE",
+      "location": "Dubai International Airport",
       "lat": 25.2528,
       "lon": 55.3644,
       "sources": [
@@ -231,32 +193,13 @@
       "confidence": "low"
     },
     {
-      "id": "d0256ae43f3f",
-      "datetime": "2026-03-07T22:52:42Z",
-      "type": "impact_major",
-      "confirmed": false,
-      "precision": "exact",
-      "title": "Iran strikes US Army HQ in UAE (Al Dhafra) — Russian media",
-      "location": "UAE",
-      "lat": 24.2481,
-      "lon": 54.5478,
-      "sources": [
-        {
-          "url": "https://news.mail.ru/society/70076122/",
-          "domain": "news.mail.ru",
-          "tier": "unverified"
-        }
-      ],
-      "confidence": "low"
-    },
-    {
       "id": "f71270aae245",
       "datetime": "2026-03-07T22:52:42Z",
       "type": "security_alert",
       "confirmed": false,
       "precision": "exact",
-      "title": "Dubai airport suspends operations — Iranian strike reported",
-      "location": "UAE",
+      "title": "Dubai airport suspends operations following Iranian strike",
+      "location": "Dubai International Airport",
       "lat": 25.2528,
       "lon": 55.3644,
       "sources": [
