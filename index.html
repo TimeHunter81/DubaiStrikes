@@ -845,8 +845,8 @@
           ${approxBadge}
         </div>
         ${rel ? `<div class="event-time"><span class="rel">${rel}</span></div>` : ''}
-        <div class="event-title" id="title-${e.id}">${e.title}</div>
-        ${needsTranslation(e.title) ? `<button class="translate-btn" onclick="translateTitle(event,'${e.id}','${encodeURIComponent(e.title)}')">🌐 Translate</button>` : ''}
+        <div class="event-title" id="title-${e.id}">${needsTranslation(e.title) ? (window._translations[e.id]?.translated || e.title) : e.title}</div>
+        ${needsTranslation(e.title) ? `<button class="translate-btn" id="trbtn-${e.id}" onclick="toggleOriginal(event,'${e.id}','${encodeURIComponent(e.title)}')">${window._translations[e.id]?.translated ? '🌐 Original' : ''}</button>` : ''}
         <div class="event-meta">${e.location || 'UAE'}</div>
         ${srcs ? `<div class="event-sources">${srcs}</div>` : ''}
       </div>`;
@@ -1402,6 +1402,7 @@
       }
       renderEvents();
       if (!isRefresh) renderLocations();
+      translatePending(allEvents);
     } catch(err) {
       console.error('Dubai Strike Monitor: data load failed', err);
       if (!isRefresh) document.getElementById('empty-state').textContent = 'Error loading data: ' + (err && err.message ? err.message : err);
@@ -1409,31 +1410,43 @@
   }
 
   // ─── TRANSLATION ────────────────────────────────────────────────────────
+  window._translations = {};   // id → { original, translated, showingOriginal }
+
   function needsTranslation(title) {
-    // Heuristic: non-ASCII chars suggest non-English text
     return /[^\x00-\x7F]/.test(title);
   }
 
-  async function translateTitle(evt, id, encodedTitle) {
-    evt.stopPropagation();
-    const btn = evt.target;
-    const titleEl = document.getElementById('title-' + id);
-    if (!titleEl) return;
-    btn.textContent = '…';
-    btn.disabled = true;
-    try {
-      const text = decodeURIComponent(encodedTitle);
-      const url = `https://translate.googleapis.com/translate_a/single?client=gtx&sl=auto&tl=en&dt=t&q=${encodeURIComponent(text)}`;
-      const r = await fetch(url);
-      const data = await r.json();
-      const translated = data[0].map(s => s[0]).join('');
-      titleEl.textContent = translated;
-      btn.textContent = '✓';
-      setTimeout(() => btn.remove(), 1000);
-    } catch(e) {
-      btn.textContent = '🌐 Translate';
-      btn.disabled = false;
+  async function fetchTranslation(text) {
+    const url = `https://translate.googleapis.com/translate_a/single?client=gtx&sl=auto&tl=en&dt=t&q=${encodeURIComponent(text)}`;
+    const r = await fetch(url);
+    const data = await r.json();
+    return data[0].map(s => s[0]).join('');
+  }
+
+  async function translatePending(events) {
+    const toTranslate = events.filter(e => needsTranslation(e.title) && !window._translations[e.id]);
+    for (const e of toTranslate) {
+      try {
+        const translated = await fetchTranslation(e.title);
+        window._translations[e.id] = { original: e.title, translated, showingOriginal: false };
+        const titleEl = document.getElementById('title-' + e.id);
+        const btnEl   = document.getElementById('trbtn-' + e.id);
+        if (titleEl) titleEl.textContent = translated;
+        if (btnEl)   btnEl.textContent = '🌐 Original';
+      } catch(_) {}
     }
+  }
+
+  function toggleOriginal(evt, id, encodedTitle) {
+    evt.stopPropagation();
+    const t = window._translations[id];
+    if (!t) return;
+    const titleEl = document.getElementById('title-' + id);
+    const btn     = document.getElementById('trbtn-' + id);
+    if (!titleEl || !btn) return;
+    t.showingOriginal = !t.showingOriginal;
+    titleEl.textContent = t.showingOriginal ? t.original : t.translated;
+    btn.textContent = t.showingOriginal ? '🌐 English' : '🌐 Original';
   }
 
   // Initial load
