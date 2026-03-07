@@ -546,6 +546,7 @@
     <div id="footer">
       <span id="footer-left">
         <span id="last-updated">—</span>
+        <span id="next-update" style="opacity:0.5">·</span>
         <button id="tz-toggle" onclick="toggleTZ()" title="Click to switch timezone">—</button>
       </span>
       <a href="https://github.com/TimeHunter81/DubaiStrikes" target="_blank">GitHub</a>
@@ -1388,6 +1389,7 @@
       // Skip re-render if data hasn't changed
       if (isRefresh && newLastUpdated && newLastUpdated === window._lastDataUpdated) return;
       window._lastDataUpdated = newLastUpdated;
+      window._lastDataUpdatedMs = newLastUpdated ? new Date(newLastUpdated).getTime() : Date.now();
       allEvents = data.events || [];
       const upd = newLastUpdated ? relTimeShort(newLastUpdated) : '—';
       document.getElementById('last-updated').textContent = 'Updated ' + upd;
@@ -1453,6 +1455,22 @@
   loadData(false);
   // Auto-refresh every 2 minutes — only re-renders if last_updated changed
   setInterval(() => loadData(true), 2 * 60 * 1000);
+
+  // Countdown to next cron update (every 10 min from last_updated)
+  const CRON_INTERVAL_MS = 10 * 60 * 1000;
+  setInterval(() => {
+    const el = document.getElementById('next-update');
+    if (!el || !window._lastDataUpdatedMs) return;
+    const nextMs = window._lastDataUpdatedMs + CRON_INTERVAL_MS;
+    const diffMs = nextMs - Date.now();
+    if (diffMs <= 0) {
+      el.textContent = '· updating…';
+    } else {
+      const m = Math.floor(diffMs / 60000);
+      const s = Math.floor((diffMs % 60000) / 1000);
+      el.textContent = `· next update ${m}:${String(s).padStart(2,'0')}`;
+    }
+  }, 1000);
   </script>
 </body>
 </html>
