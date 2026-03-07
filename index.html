@@ -597,22 +597,39 @@
     setTimeout(() => map.invalidateSize(), 270);
   }
 
-  // ─── RELATIVE TIME ─────────────────────────────────────────────────────
-  // ─── TIMEZONE ─────────────────────────────────────────────────────────
+  // ─── TIMEZONE ──────────────────────────────────────────────────────────
   let tzMode = 'local'; // 'local' | 'dubai'
+
+  function tzShortName() {
+    if (tzMode === 'dubai') return 'Dubai (UTC+4)';
+    try {
+      // "CET", "GMT+1", "EST", etc.
+      const s = new Date().toLocaleTimeString('en-US', {
+        timeZoneName: 'short',
+        timeZone: Intl.DateTimeFormat().resolvedOptions().timeZone
+      });
+      return s.split(' ').pop();
+    } catch(e) { return 'Local'; }
+  }
+
+  function updateTZBtn() {
+    const btn = document.getElementById('tz-toggle');
+    if (!btn) return;
+    btn.textContent = tzShortName();
+    btn.classList.toggle('active', tzMode === 'dubai');
+  }
 
   function toggleTZ() {
     tzMode = tzMode === 'local' ? 'dubai' : 'local';
-    const btn = document.getElementById('tz-toggle');
-    btn.textContent = tzMode === 'dubai' ? '🕐 Dubai' : '🕐 Local';
-    btn.classList.toggle('active', tzMode === 'dubai');
     savePrefs();
-    // Re-render all relative times
+    updateTZBtn();
     document.getElementById('events-list').querySelectorAll('.event-time').forEach(el => {
       const card = el.closest('[data-datetime]');
       if (card) el.innerHTML = `<span class="rel">${relTime(card.dataset.datetime)}</span>`;
     });
   }
+
+  // ─── RELATIVE TIME ──────────────────────────────────────────────────────
 
   function fmtAbs(then) {
     const tz = tzMode === 'dubai' ? 'Asia/Dubai' : undefined; // undefined = browser local
@@ -644,6 +661,19 @@
     if (dayDiff === 0) return `${h}h ago · ${abs}`;
     if (dayDiff === 1) return `1 day ago · ${abs}`;
     return `${dayDiff} days ago · ${abs}`;
+  }
+
+  // Short version for footer "Updated X ago" — no absolute date
+  function relTimeShort(isoStr) {
+    if (!isoStr) return '—';
+    const then = new Date(isoStr);
+    const ms   = Date.now() - then;
+    const min  = Math.floor(ms / 60000);
+    const h    = Math.floor(ms / 3600000);
+    const d    = Math.floor(ms / 86400000);
+    if (min < 60) return `${min}m ago`;
+    if (h < 24)   return `${h}h ago`;
+    return `${d}d ago`;
   }
 
   // Format for slider display
@@ -1324,7 +1354,7 @@
     .then(r => r.json())
     .then(data => {
       allEvents = data.events || [];
-      const upd = data.last_updated ? relTime(data.last_updated) : '—';
+      const upd = data.last_updated ? relTimeShort(data.last_updated) : '—';
       document.getElementById('last-updated').textContent = 'Updated ' + upd;
       updateStatus(allEvents);
       updateConfFilters();
