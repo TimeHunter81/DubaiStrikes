@@ -1370,29 +1370,45 @@
   }
 
   // ─── LOAD DATA ─────────────────────────────────────────────────────────
-  // raw.githubusercontent.com updates immediately on push (no Pages redeploy needed)
-  const DATA_URL = 'https://raw.githubusercontent.com/TimeHunter81/DubaiStrikes/main/data.json';
-  fetch(DATA_URL + '?_=' + Date.now())
-    .then(r => r.json())
-    .then(data => {
+  // GitHub API endpoint — always fresh (bypasses CDN cache of raw.githubusercontent.com)
+  const DATA_API = 'https://api.github.com/repos/TimeHunter81/DubaiStrikes/contents/data.json';
+
+  async function loadData(isRefresh) {
+    try {
+      const r = await fetch(DATA_API, {
+        headers: { 'Accept': 'application/vnd.github.raw+json', 'X-GitHub-Api-Version': '2022-11-28' },
+        cache: 'no-store'
+      });
+      if (!r.ok) throw new Error('HTTP ' + r.status);
+      const data = await r.json();
+      const newLastUpdated = data.last_updated || '';
+      // Skip re-render if data hasn't changed
+      if (isRefresh && newLastUpdated && newLastUpdated === window._lastDataUpdated) return;
+      window._lastDataUpdated = newLastUpdated;
       allEvents = data.events || [];
-      const upd = data.last_updated ? relTimeShort(data.last_updated) : '—';
+      const upd = newLastUpdated ? relTimeShort(newLastUpdated) : '—';
       document.getElementById('last-updated').textContent = 'Updated ' + upd;
       updateStatus(allEvents);
       updateConfFilters();
-      loadPrefs();
-      updateTZBtn();
-      initSlider(data.conflict_start || '2026-02-27T20:00:00Z');
-      const fromURL = loadFromURL();
-      if (!fromURL) loadFromStorage();
-      // Locations stay folded by default — user opens manually
+      if (!isRefresh) {
+        loadPrefs();
+        updateTZBtn();
+        initSlider(data.conflict_start || '2026-02-27T20:00:00Z');
+        const fromURL = loadFromURL();
+        if (!fromURL) loadFromStorage();
+      }
       renderEvents();
-      renderLocations();
-    })
-    .catch(err => {
+      if (!isRefresh) renderLocations();
+    } catch(err) {
       console.error('Dubai Strike Monitor: data load failed', err);
-      document.getElementById('empty-state').textContent = 'Error loading data: ' + (err && err.message ? err.message : err);
-    });
+      if (!isRefresh) document.getElementById('empty-state').textContent = 'Error loading data: ' + (err && err.message ? err.message : err);
+    }
+  }
+
+  // Initial load
+  loadData(false);
+  // Auto-refresh every 2 minutes — only re-renders if last_updated changed
+  setInterval(() => loadData(true), 2 * 60 * 1000);
   </script>
 </body>
 </html>
