@@ -539,7 +539,7 @@
     acTimer = setTimeout(async () => {
       try {
         const r = await fetch(
-          `https://nominatim.openstreetmap.org/search?q=${encodeURIComponent(q)}&format=json&limit=5&addressdetails=0`,
+          `https://nominatim.openstreetmap.org/search?q=${encodeURIComponent(q)}&format=json&limit=5&addressdetails=0&viewbox=51.0,26.5,56.5,22.0&bounded=0`,
           { headers: { 'Accept-Language': 'en' } }
         );
         const data = await r.json();
@@ -577,7 +577,7 @@
     btn.disabled = true; btn.textContent = '…';
     try {
       const r = await fetch(
-        `https://nominatim.openstreetmap.org/search?q=${encodeURIComponent(name)}&format=json&limit=1`,
+        `https://nominatim.openstreetmap.org/search?q=${encodeURIComponent(name)}&format=json&limit=1&viewbox=51.0,26.5,56.5,22.0&bounded=0`,
         { headers: { 'Accept-Language': 'en' } }
       );
       const data = await r.json();
