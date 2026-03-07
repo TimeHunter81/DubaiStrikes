@@ -25,11 +25,17 @@ ANTHROPIC_API_KEY = os.environ.get("ANTHROPIC_API_KEY", "")
 # ── GDELT ───────────────────────────────────────────────────────────────────
 GDELT_API = "https://api.gdeltproject.org/api/v2/doc/doc"
 QUERIES = [
+    # UAE direct
     "Dubai strike attack missile drone",
-    "UAE security incident attack",
-    "Abu Dhabi strike missile explosion",
-    "UAE IRGC Houthi attack",
-    "Emirates airspace closure military",
+    "UAE security incident attack explosion",
+    "Abu Dhabi strike missile attack",
+    # Actors
+    "Iran IRGC UAE attack strike missile",
+    "Hezbollah UAE strike attack Gulf",
+    "Syria missile strike Gulf Emirates",
+    # Regional escalation
+    "Iran attack Gulf states retaliation",
+    "Houthi UAE strike missile drone",
 ]
 
 # ── NOTAM ───────────────────────────────────────────────────────────────────
