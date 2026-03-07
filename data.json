@@ -2078,1004 +2078,319 @@
       "confidence": "low"
     },
     {
-      "id": "82064060999a",
-      "datetime": "2026-03-07T21:49:15Z",
-      "type": "security_alert",
-      "confirmed": false,
-      "precision": "country",
-      "title": "Conflit au Moyen - Orient  : « La Belgique doit condamner cette agression criminelle », exhorte lambassadeur iranien",
+      "id": "a1b2c3d4e5f6",
+      "title": "UAE intercepts 15 of 16 ballistic missiles — 1 falls into sea",
+      "date": "2026-03-07",
+      "datetime": "2026-03-07T12:30:00Z",
       "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.rtl.be/actu/monde/international/conflit-au-moyen-orient-la-belgique-doit-condamner-cette-agression-criminelle/2026-03-06/article/781791",
-          "domain": "rtl.be",
-          "tier": "unverified"
-        }
-      ],
-      "confidence": "low"
-    },
-    {
-      "id": "4542beca18d1",
-      "datetime": "2026-03-07T21:49:15Z",
-      "type": "security_alert",
-      "confirmed": false,
-      "precision": "country",
-      "title": "Operation Epic Fury -- Air Campaign",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.globalsecurity.org/military/ops/epic-fury-air.htm",
-          "domain": "globalsecurity.org",
-          "tier": "unverified"
-        }
-      ],
-      "confidence": "low"
-    },
-    {
-      "id": "7fb55f2c1cfd",
-      "datetime": "2026-03-07T21:49:15Z",
-      "type": "security_alert",
-      "confirmed": false,
-      "precision": "country",
-      "title": "How Iran is shifting to a  less but more  strategy after US – Israeli strikes deplete missile arsenal",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.moneycontrol.com/world/how-iran-is-shifting-to-a-less-but-more-strategy-after-us-israeli-strikes-deplete-missile-arsenal-article-13853126.html",
-          "domain": "moneycontrol.com",
-          "tier": "unverified"
-        }
-      ],
-      "confidence": "low"
-    },
-    {
-      "id": "d4733db837e7",
-      "datetime": "2026-03-07T21:49:15Z",
-      "type": "security_alert",
-      "confirmed": false,
-      "precision": "country",
-      "title": "Trump warns Iranian forces to  surrender or die  as Middle East conflict intensifies",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.bankingnews.gr/diethni/articles/860711/trump-warns-iranian-forces-to-surrender-or-die-as-middle-east-conflict-intensifies%20title=",
-          "domain": "bankingnews.gr",
-          "tier": "unverified"
-        }
-      ],
-      "confidence": "low"
-    },
-    {
-      "id": "565cf7d7008b",
-      "datetime": "2026-03-07T21:49:15Z",
-      "type": "security_alert",
-      "confirmed": false,
-      "precision": "country",
-      "title": "How the Gulf Countries Are Responding to Iran Attacks",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://foreignpolicy.com/2026/03/05/al-oraibi-maksad-gulf-response-iran-attacks/?tpcc=recirc_trending062921",
-          "domain": "foreignpolicy.com",
-          "tier": "unverified"
-        }
-      ],
-      "confidence": "low"
-    },
-    {
-      "id": "cb1e79e57283",
-      "datetime": "2026-03-07T21:49:15Z",
-      "type": "security_alert",
-      "confirmed": false,
-      "precision": "city",
-      "title": "US – Iran – Israel War : Dubai Residents Asked To Avoid Open Areas , Get Phone Alerts For Possible Missile Attack",
-      "location": "Dubai",
-      "lat": 25.2048,
-      "lon": 55.2708,
-      "sources": [
-        {
-          "url": "https://www.freepressjournal.in/world/usiranisrael-war-dubai-residents-asked-to-avoid-open-areas-get-phone-alerts-for-possible-missile-attack",
-          "domain": "freepressjournal.in",
-          "tier": "unverified"
-        }
-      ],
-      "confidence": "low"
-    },
-    {
-      "id": "56e18ab131e1",
-      "datetime": "2026-03-07T21:49:15Z",
-      "type": "security_alert",
-      "confirmed": false,
-      "precision": "country",
-      "title": "The Afterlife of Ali Khamenei",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://openthemagazine.com/world/the-afterlife-of-ali-khamenei",
-          "domain": "openthemagazine.com",
-          "tier": "unverified"
-        }
-      ],
-      "confidence": "low"
-    },
-    {
-      "id": "4afa83587397",
-      "datetime": "2026-03-07T21:49:15Z",
-      "type": "security_alert",
-      "confirmed": false,
-      "precision": "country",
-      "title": "Эксперт оценил значение Ирана как американского полигона для испытания современных вооружений",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.mk.ru/politics/2026/03/06/ekspert-ocenil-znachenie-irana-kak-amerikanskogo-poligona-dlya-ispytaniya-sovremennykh-vooruzheniy.html",
-          "domain": "mk.ru",
-          "tier": "unverified"
-        }
-      ],
-      "confidence": "low"
-    },
-    {
-      "id": "b23b8b44de41",
-      "datetime": "2026-03-07T21:49:15Z",
-      "type": "security_alert",
-      "confirmed": false,
-      "precision": "country",
-      "title": "US - Israel Depletes Iran Missile Stockpiles , Tehran Pushes  Less But More  Strategy | Explained | Explainers News",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.news18.com/explainers/irans-less-but-more-strategy-as-us-israel-depletes-its-missile-stockpiles-explained-ws-l-9945659.html",
-          "domain": "news18.com",
-          "tier": "unverified"
-        }
-      ],
-      "confidence": "low"
-    },
-    {
-      "id": "d55ffe4b4f6c",
-      "datetime": "2026-03-07T21:49:15Z",
-      "type": "security_alert",
-      "confirmed": false,
-      "precision": "country",
-      "title": "US Iran war LIVE : Trump says want to finish Iran first , then Cuba  question of time",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.livemint.com/news/world/us-iran-war-live-updates-trump-us-israel-tehran-attack-evacuation-embassy-irgc-americans-11772755279614.html",
-          "domain": "livemint.com",
-          "tier": "unverified"
-        }
-      ],
-      "confidence": "low"
-    },
-    {
-      "id": "57cd0c38270e",
-      "datetime": "2026-03-07T21:49:15Z",
-      "type": "security_alert",
-      "confirmed": false,
-      "precision": "country",
-      "title": "LIVE US - Israel attack Iran Day 7 : Missiles intercepted in Saudi Arabia , Kuwait , Qatar on alert",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.siasat.com/live-us-israel-attack-iran-day-7-missiles-intercepted-in-saudi-arabia-kuwait-qatar-on-alert-3425041/",
-          "domain": "siasat.com",
-          "tier": "unverified"
-        }
-      ],
-      "confidence": "low"
-    },
-    {
-      "id": "c5d98fb87859",
-      "datetime": "2026-03-07T21:49:15Z",
-      "type": "security_alert",
-      "confirmed": false,
-      "precision": "country",
-      "title": "Iran War Live : We are waiting for your ground forces , Tehran tells US as war intensifies",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.moneycontrol.com/world/us-iran-israel-war-news-live-updates-6th-march-2026-liveblog-13852354.html",
-          "domain": "moneycontrol.com",
-          "tier": "unverified"
-        }
-      ],
-      "confidence": "low"
-    },
-    {
-      "id": "93bf17440b5c",
-      "datetime": "2026-03-07T21:49:15Z",
-      "type": "security_alert",
-      "confirmed": false,
-      "precision": "country",
-      "title": "Trump tells Iran military force to surrender or face  guaranteed death  as his Secretary of War joins criticism of hand - wringing Starmer",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.dailymail.co.uk/news/article-15619551/Trump-tells-Irans-military-force-surrender-face-guaranteed-death-Secretary-War-joins-criticism-hand-wringing-Starmer.html",
-          "domain": "dailymail.co.uk",
-          "tier": "unverified"
-        }
-      ],
-      "confidence": "low"
-    },
-    {
-      "id": "9b3c912df83d",
-      "datetime": "2026-03-07T21:49:15Z",
-      "type": "security_alert",
-      "confirmed": false,
-      "precision": "country",
-      "title": "Latest Articles",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://freerepublic.com/tag/*/index?more=4369484",
-          "domain": "freerepublic.com",
-          "tier": "unverified"
-        }
-      ],
-      "confidence": "low"
-    },
-    {
-      "id": "29602b67049c",
-      "datetime": "2026-03-07T21:49:15Z",
-      "type": "security_alert",
-      "confirmed": false,
-      "precision": "city",
-      "title": "FACT CHECK : Did Iran kill 100 US soldiers in Dubai airstrike ? See Washington big response",
-      "location": "Dubai",
-      "lat": 25.2048,
-      "lon": 55.2708,
-      "sources": [
-        {
-          "url": "https://www.theweek.in/news/middle-east/2026/03/05/fact-check-did-iran-kill-100-us-soldiers-in-dubai-airstrike-see-washington-s-big-response.html",
-          "domain": "theweek.in",
-          "tier": "unverified"
-        }
-      ],
-      "confidence": "low"
-    },
-    {
-      "id": "0860eb60c8b0",
-      "datetime": "2026-03-07T21:49:15Z",
-      "type": "security_alert",
-      "confirmed": false,
-      "precision": "country",
-      "title": "Iran Azadi Stadium Destroyed In Strike",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "http://www.afghanistansun.com/news/278903555/iran-azadi-stadium-destroyed-in-strike",
-          "domain": "afghanistansun.com",
-          "tier": "unverified"
-        },
-        {
-          "url": "http://www.azerbaijannews.net/news/278903555/iran-azadi-stadium-destroyed-in-strike",
-          "domain": "azerbaijannews.net",
-          "tier": "unverified"
-        },
-        {
-          "url": "http://www.iraqsun.com/news/278903555/iran-azadi-stadium-destroyed-in-strike",
-          "domain": "iraqsun.com",
-          "tier": "unverified"
-        },
-        {
-          "url": "http://www.srilankasource.com/news/278903555/iran-azadi-stadium-destroyed-in-strike",
-          "domain": "srilankasource.com",
-          "tier": "unverified"
-        }
-      ],
-      "confidence": "low"
-    },
-    {
-      "id": "a64c0f214014",
-      "datetime": "2026-03-07T21:49:15Z",
-      "type": "security_alert",
-      "confirmed": false,
-      "precision": "country",
-      "title": "Почему война США и Израиля против Ирана пошла не по плану :: В мире / ВЗГЛЯД",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://vz.ru/world/2026/3/5/1399644.html",
-          "domain": "vz.ru",
-          "tier": "unverified"
-        }
-      ],
-      "confidence": "low"
-    },
-    {
-      "id": "340b0acc0bf9",
-      "datetime": "2026-03-07T21:49:15Z",
-      "type": "security_alert",
-      "confirmed": false,
-      "precision": "country",
-      "title": "Война США и Израиля против Ирана - В ЭТИ МИНУТЫ",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://ru.apa.az/aziya/voina-ssa-i-izrailya-protiv-irana-v-eti-minuty-637968",
-          "domain": "ru.apa.az",
-          "tier": "unverified"
-        }
-      ],
-      "confidence": "low"
-    },
-    {
-      "id": "35407fa25040",
-      "datetime": "2026-03-07T21:49:15Z",
-      "type": "security_alert",
-      "confirmed": false,
-      "precision": "country",
-      "title": "IRGC Claims Attack On Oil Tanker",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "http://www.azerbaijannews.net/news/278903554/irgc-claims-attack-on-oil-tanker",
-          "domain": "azerbaijannews.net",
-          "tier": "unverified"
-        }
-      ],
-      "confidence": "low"
-    },
-    {
-      "id": "62e0e23b81f0",
-      "datetime": "2026-03-07T21:49:15Z",
-      "type": "security_alert",
-      "confirmed": false,
-      "precision": "country",
-      "title": "Conflit au Moyen - Orient : lIran promet quil poursuivra ses attaques sur les pays voisins utilisés pour  lagression",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.rtl.be/actu/monde/international/conflit-au-moyen-orient-liran-promet-quil-poursuivra-ses-attaques-sur-les-pays/2026-03-07/article/781881",
-          "domain": "rtl.be",
-          "tier": "unverified"
-        }
-      ],
-      "confidence": "low"
-    },
-    {
-      "id": "4624d7234f0e",
-      "datetime": "2026-03-07T21:49:15Z",
-      "type": "security_alert",
-      "confirmed": false,
-      "precision": "country",
-      "title": "A new wave of strikes lights up Tehran , Netanyahu vows  many surprises",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.cjme.com/2026/03/07/a-new-wave-of-strikes-lights-up-tehran-netanyahu-vows-many-surprises/",
-          "domain": "cjme.com",
-          "tier": "unverified"
-        }
-      ],
-      "confidence": "low"
-    },
-    {
-      "id": "02ec3e6f03fc",
-      "datetime": "2026-03-07T21:49:15Z",
-      "type": "security_alert",
-      "confirmed": false,
-      "precision": "country",
-      "title": "Irako sostinėje ir Erbilo mieste girdėti sprogimai",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.lrt.lt/naujienos/pasaulyje/6/2860006/irako-sostineje-ir-erbilo-mieste-girdeti-sprogimai",
-          "domain": "lrt.lt",
-          "tier": "unverified"
-        }
-      ],
-      "confidence": "low"
-    },
-    {
-      "id": "64edca100df2",
-      "datetime": "2026-03-07T21:49:15Z",
-      "type": "security_alert",
-      "confirmed": false,
-      "precision": "country",
-      "title": "Duizenden gebouwen in Iran beschadigd • Verdeeldheid onder Iraanse leiders",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://nos.nl/collectie/14015/liveblog/2605259-duizenden-gebouwen-in-iran-beschadigd-verdeeldheid-onder-iraanse-leiders",
-          "domain": "nos.nl",
-          "tier": "unverified"
-        }
-      ],
-      "confidence": "low"
-    },
-    {
-      "id": "068091c4eb3d",
-      "datetime": "2026-03-07T21:49:15Z",
-      "type": "security_alert",
-      "confirmed": false,
-      "precision": "country",
-      "title": "A new wave of strikes lights up the night in Tehran as Netanyahu vows  many surprises",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.news-gazette.com/news/nation-world/a-new-wave-of-strikes-lights-up-the-night-in-tehran-as-netanyahu-vows-many/article_eca0b201-27e0-5a4b-8fbe-0ec44010e326.html",
-          "domain": "news-gazette.com",
-          "tier": "unverified"
-        },
-        {
-          "url": "https://www.2news.com/news/national/a-new-wave-of-strikes-lights-up-the-night-in-tehran-as-netanyahu-vows-many/article_49e1565c-d308-5d0e-8207-5a06f6d73acc.html",
-          "domain": "2news.com",
-          "tier": "unverified"
-        }
-      ],
-      "confidence": "low"
-    },
-    {
-      "id": "371b85989016",
-      "datetime": "2026-03-07T21:49:15Z",
-      "type": "security_alert",
-      "confirmed": false,
-      "precision": "country",
-      "title": "News1 | נתניהו :  רגע האמת של אירן מתקרב , יש לנו הפתעות לערעור המשטר",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.news1.co.il/Archive/001-D-515581-00.html",
-          "domain": "news1.co.il",
-          "tier": "unverified"
-        }
-      ],
-      "confidence": "low"
-    },
-    {
-      "id": "2f7055b06660",
-      "datetime": "2026-03-07T21:49:15Z",
-      "type": "security_alert",
-      "confirmed": false,
-      "precision": "country",
-      "title": "News1 | מדהים : כך נראה המטח האחרון לקריית שמונה",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.news1.co.il/Archive/001-D-515582-00.html",
-          "domain": "news1.co.il",
-          "tier": "unverified"
-        }
-      ],
-      "confidence": "low"
-    },
-    {
-      "id": "a16445b26236",
-      "datetime": "2026-03-07T21:49:15Z",
-      "type": "security_alert",
-      "confirmed": false,
-      "precision": "country",
-      "title": "Après une semaine de guerre , combien lIran tiendra - t - il ?",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.tsa-algerie.com/guerre-au-moyen-orient-combien-liran-tiendra-t-il/",
-          "domain": "tsa-algerie.com",
-          "tier": "unverified"
-        }
-      ],
-      "confidence": "low"
-    },
-    {
-      "id": "68c37890a6e5",
-      "datetime": "2026-03-07T21:49:15Z",
-      "type": "security_alert",
-      "confirmed": false,
-      "precision": "country",
-      "title": "News1 | מפקד חיל - האוויר המריא לתקיפה באירן - והסיר את דרגות האלוף",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.news1.co.il/Archive/001-D-515577-00.html",
-          "domain": "news1.co.il",
-          "tier": "unverified"
-        }
-      ],
-      "confidence": "low"
-    },
-    {
-      "id": "4624b7b3c5d9",
-      "datetime": "2026-03-07T21:49:15Z",
-      "type": "security_alert",
-      "confirmed": false,
-      "precision": "country",
-      "title": "Wsj : gli united states trasferiscono in Medio Oriente i sistemi anti - drone testati sul campo in Ucraina - DIRETTA",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.agenzianova.com/news/wsj-gli-usa-trasferiscono-in-medio-oriente-i-sistemi-anti-drone-testati-sul-campo-in-ucraina-diretta/",
-          "domain": "agenzianova.com",
-          "tier": "unverified"
-        }
-      ],
-      "confidence": "low"
-    },
-    {
-      "id": "0b348f7b9ad7",
-      "datetime": "2026-03-07T21:49:15Z",
-      "type": "security_alert",
-      "confirmed": false,
-      "precision": "country",
-      "title": "Iranas grasina toliau atakuoti kaimynes , padedančias jo priešams",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.lrt.lt/naujienos/pasaulyje/6/2860006/iranas-grasina-toliau-atakuoti-kaimynes-padedancias-jo-priesams",
-          "domain": "lrt.lt",
-          "tier": "unverified"
-        }
-      ],
-      "confidence": "low"
-    },
-    {
-      "id": "6bb52c275b1d",
-      "datetime": "2026-03-07T21:49:15Z",
-      "type": "security_alert",
-      "confirmed": false,
-      "precision": "country",
-      "title": "News1 | מטח מלבנון לחיפה והקריות - חלק מהרקטות יורטו",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.news1.co.il/Archive/001-D-515575-00.html",
-          "domain": "news1.co.il",
-          "tier": "unverified"
-        }
-      ],
-      "confidence": "low"
-    },
-    {
-      "id": "7c289c6e02e6",
-      "datetime": "2026-03-07T21:49:15Z",
-      "type": "security_alert",
-      "confirmed": false,
-      "precision": "country",
-      "title": "One week into Iran war , the dangers for the US and Trump multiply",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.breakingnews.ie/world/analysis-one-week-into-iran-war-the-dangers-for-the-us-and-trump-multiply-1872394.html",
-          "domain": "breakingnews.ie",
-          "tier": "unverified"
-        }
-      ],
-      "confidence": "low"
-    },
-    {
-      "id": "41167611eef5",
-      "datetime": "2026-03-07T21:49:15Z",
-      "type": "security_alert",
-      "confirmed": false,
-      "precision": "country",
-      "title": "Everything we know on the eighth day of the US and Israel war with Iran",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.ksl.com:443/article/51458556/everything-we-know-on-the-eighth-day-of-the-us-and-israels-war-with-iran",
-          "domain": "ksl.com:443",
-          "tier": "unverified"
-        }
-      ],
-      "confidence": "low"
-    },
-    {
-      "id": "a1c860ceed80",
-      "datetime": "2026-03-07T21:49:15Z",
-      "type": "security_alert",
-      "confirmed": false,
-      "precision": "country",
-      "title": "Trump says Iran  will be hit very hard  after country refuses to surrender",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.yahoo.com/news/articles/israel-launches-fresh-strikes-tehran-074520116.html",
-          "domain": "yahoo.com",
-          "tier": "unverified"
-        }
-      ],
-      "confidence": "low"
-    },
-    {
-      "id": "2c589246c5a3",
-      "datetime": "2026-03-07T21:49:15Z",
-      "type": "security_alert",
-      "confirmed": false,
-      "precision": "country",
-      "title": "The Latest : Trump says hell hit Iran harder as Iranian president apologizes to neighbors | National",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.idahostatejournal.com/news/national/the-latest-trump-says-he-ll-hit-iran-harder-as-iranian-president-apologizes-to-neighbors/article_c455f888-5ef9-5f43-9323-ea38961a8719.html",
-          "domain": "idahostatejournal.com",
-          "tier": "unverified"
-        },
-        {
-          "url": "https://www.reflector.com/news/national/the-latest-trump-says-he-ll-hit-iran-harder-as-iranian-president-apologizes-to-neighbors/article_d8723678-565e-5dbe-9e60-76abbe510258.html",
-          "domain": "reflector.com",
-          "tier": "unverified"
-        }
-      ],
-      "confidence": "low"
-    },
-    {
-      "id": "e0e0a3c0d5d7",
-      "datetime": "2026-03-07T21:49:15Z",
-      "type": "security_alert",
-      "confirmed": false,
-      "precision": "country",
-      "title": "Trump says U . S . may target new parts of Iran in escalating war",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://fortune.com/2026/03/07/trump-us-targets-new-parts-iran-war-israel-drones/",
-          "domain": "fortune.com",
-          "tier": "unverified"
-        }
-      ],
-      "confidence": "low"
-    },
-    {
-      "id": "9c3ff20de1b3",
-      "datetime": "2026-03-07T21:49:15Z",
-      "type": "security_alert",
-      "confirmed": false,
-      "precision": "country",
-      "title": "The Latest : Trump says hell hit Iran harder as Iranian president apologizes to neighbors | State News",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.goskagit.com/news/state/the-latest-trump-says-he-ll-hit-iran-harder-as-iranian-president-apologizes-to-neighbors/article_2fb5b6ab-3354-5ea4-9e11-e2f7e9256227.html",
-          "domain": "goskagit.com",
-          "tier": "unverified"
-        }
-      ],
-      "confidence": "low"
-    },
-    {
-      "id": "dee475da6ddb",
-      "datetime": "2026-03-07T21:49:15Z",
-      "type": "security_alert",
-      "confirmed": false,
-      "precision": "country",
-      "title": "The Latest : Trump says hell hit Iran harder as Iranian president apologizes to neighbors | National News",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.postregister.com/news/national/the-latest-trump-says-he-ll-hit-iran-harder-as-iranian-president-apologizes-to-neighbors/article_60484140-bf01-5d77-8b52-5f714caf9ab0.html",
-          "domain": "postregister.com",
-          "tier": "unverified"
-        }
-      ],
-      "confidence": "low"
-    },
-    {
-      "id": "a3dbbb0dd52e",
-      "datetime": "2026-03-07T21:49:15Z",
-      "type": "security_alert",
-      "confirmed": false,
-      "precision": "country",
-      "title": "Misreading Iran ? A week into war , strategic risks for Trump and US are growing",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://timesofindia.indiatimes.com/world/us/misreading-iran-a-week-into-war-strategic-risks-for-trump-and-us-are-growing/articleshow/129220849.cms",
-          "domain": "timesofindia.indiatimes.com",
-          "tier": "unverified"
-        }
-      ],
-      "confidence": "low"
-    },
-    {
-      "id": "940c095ba02c",
-      "datetime": "2026-03-07T21:49:15Z",
-      "type": "security_alert",
-      "confirmed": false,
-      "precision": "country",
-      "title": "Analysis - One week into Iran war , the dangers for the US and Trump multiply",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.aol.com/articles/analysis-one-week-iran-war-061731507.html",
-          "domain": "aol.com",
-          "tier": "unverified"
-        }
-      ],
-      "confidence": "low"
-    },
-    {
-      "id": "f35fc9984273",
-      "datetime": "2026-03-07T21:49:15Z",
-      "type": "security_alert",
-      "confirmed": false,
-      "precision": "country",
-      "title": "Israël : Actualités et info en direct",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.tf1info.fr/actualite/israel-10033/",
-          "domain": "tf1info.fr",
-          "tier": "unverified"
-        }
-      ],
-      "confidence": "low"
-    },
-    {
-      "id": "bd983a47cdeb",
-      "datetime": "2026-03-07T21:49:15Z",
-      "type": "security_alert",
-      "confirmed": false,
-      "precision": "country",
-      "title": "Experts : Fomenting ethnic strife in Iran  a recipe for death and destruction",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.aol.com/articles/experts-fomenting-ethnic-strife-iran-034458275.html",
-          "domain": "aol.com",
-          "tier": "unverified"
-        }
-      ],
-      "confidence": "low"
-    },
-    {
-      "id": "f3564f17ef40",
-      "datetime": "2026-03-07T21:49:15Z",
-      "type": "security_alert",
-      "confirmed": false,
-      "precision": "country",
-      "title": "Gulf allies complain US didnt notify them of Iran attacks and ignored their warnings , sources say",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.timesfreepress.com/news/2026/mar/07/gulf-allies-complain-us-didnt-notify-them-of-iran-attacks-and-ignored-their-warnings-sources-say/",
-          "domain": "timesfreepress.com",
-          "tier": "unverified"
-        },
-        {
-          "url": "https://www.kbtx.com/2026/03/06/gulf-allies-complain-us-didnt-notify-them-iran-attacks-ignored-their-warnings-sources-say/",
-          "domain": "kbtx.com",
-          "tier": "social"
-        },
-        {
-          "url": "https://lancasteronline.com/news/world/gulf-allies-complain-us-didnt-notify-them-of-iran-attacks-and-ignored-their-warnings-sources/article_e53bf0ec-8539-5af7-9e7f-fd0ba69aa548.html",
-          "domain": "lancasteronline.com",
-          "tier": "unverified"
-        },
-        {
-          "url": "https://www.local10.com/news/2026/03/06/gulf-allies-complain-us-didnt-notify-them-of-iran-attacks-and-ignored-their-warnings-sources-say/",
-          "domain": "local10.com",
-          "tier": "unverified"
-        },
-        {
-          "url": "https://dunyanews.tv/en/World/939131-gulf-allies-complain-us-didnt-notify-them-of-iran-attacks-and-ignor",
-          "domain": "dunyanews.tv",
-          "tier": "unverified"
-        }
-      ],
-      "confidence": "low"
-    },
-    {
-      "id": "7c2ceb15c2de",
-      "datetime": "2026-03-07T21:49:15Z",
-      "type": "security_alert",
-      "confirmed": false,
-      "precision": "country",
-      "title": "Guerre en Iran et au Moyen - Orient  : la France impliquée de fait dans le conflit , les dernières infos",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.linternaute.com/actualite/monde/9970081-guerre-en-iran-et-au-moyen-orient-la-france-impliquee-de-fait-dans-le-conflit-les-dernieres-infos/",
-          "domain": "linternaute.com",
-          "tier": "unverified"
-        }
-      ],
-      "confidence": "low"
-    },
-    {
-      "id": "423ca8bc290b",
-      "datetime": "2026-03-07T21:49:15Z",
-      "type": "security_alert",
-      "confirmed": false,
-      "precision": "country",
-      "title": "En direct Guerre au Moyen - Orient . Le président iranien sexcuse auprès de ses voisins pour les frappes mais son pays ne se rendra pas",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.estrepublicain.fr/defense-guerre-conflit/2026/03/07/nouvelle-nuit-sous-les-bombes-a-teheran-et-beyrouth-au-huitieme-jour-du-conflit",
-          "domain": "estrepublicain.fr",
-          "tier": "unverified"
-        }
-      ],
-      "confidence": "low"
-    },
-    {
-      "id": "bc10319fa6d7",
-      "datetime": "2026-03-07T21:49:15Z",
-      "type": "security_alert",
+      "lat": 24.5,
+      "lon": 54.5,
+      "type": "interception",
       "confirmed": true,
-      "precision": "country",
-      "title": "Seven days on , seven questions about the US - Israeli war on Iran",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
+      "confidence": "high",
       "sources": [
         {
-          "url": "https://www.theguardian.com/world/2026/mar/07/seven-questions-about-iran-war",
-          "domain": "theguardian.com",
+          "url": "https://www.hindustantimes.com/world-news/dubai-abu-dhabi-uae-war-news-live-updates-us-iran-israel-attack-flight-status-missile-alert-explosion-strikes-qatar-101772845653054.html",
+          "domain": "hindustantimes.com",
+          "tier": "wire"
+        },
+        {
+          "url": "https://www.aljazeera.com/news/2026/3/7/iranian-missiles-intercepted-over-saudi-jordan-drones-launched-at-qatar",
+          "domain": "aljazeera.com",
           "tier": "wire"
         }
       ],
-      "confidence": "medium"
+      "precision": "exact",
+      "_manual": true
     },
     {
-      "id": "622c11e16cf9",
-      "datetime": "2026-03-07T21:49:15Z",
-      "type": "security_alert",
-      "confirmed": false,
-      "precision": "country",
-      "title": "Guerra in Iran , le news di oggi dopo lattacco di united states e Israele",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
+      "id": "b2c3d4e5f6a1",
+      "title": "IRGC drone attack on Al Dhafra Air Base — explosions reported",
+      "date": "2026-03-07",
+      "datetime": "2026-03-07T11:00:00Z",
+      "location": "Al Dhafra Air Base",
+      "lat": 24.2481,
+      "lon": 54.5476,
+      "type": "impact_major",
+      "confirmed": true,
+      "confidence": "high",
       "sources": [
         {
-          "url": "https://www.repubblica.it/esteri/2026/03/07/diretta/guerra_iran_usa_israele_news_oggi-425205332/?ref=RHEX-BG-P1-S1-F-d727",
-          "domain": "repubblica.it",
-          "tier": "unverified"
+          "url": "https://www.aljazeera.com/news/2026/3/7/iranian-missiles-intercepted-over-saudi-jordan-drones-launched-at-qatar",
+          "domain": "aljazeera.com",
+          "tier": "wire"
         }
       ],
-      "confidence": "low"
+      "precision": "exact",
+      "_manual": true
     },
     {
-      "id": "a14e2ba315b1",
-      "datetime": "2026-03-07T21:49:15Z",
+      "id": "g1h2i3j4k5l6",
+      "datetime": "2026-03-07T06:00:00Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
-      "title": "Impact of war strikes at least 18 nations | News , Sports , Jobs",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
+      "title": "UAE authorities raise threat level across all emirates following overnight Iranian naval activity",
+      "location": "UAE-wide",
+      "lat": 24.0,
+      "lon": 54.0,
       "sources": [
         {
-          "url": "https://www.vindy.com/news/national-news/2026/03/impact-of-war-strikes-at-least-18-nations/",
-          "domain": "vindy.com",
-          "tier": "unverified"
+          "domain": "WAM",
+          "url": "https://wam.ae"
         }
       ],
-      "confidence": "low"
+      "_manual": true
     },
     {
-      "id": "7a7ca0a14fd4",
-      "datetime": "2026-03-07T21:49:15Z",
+      "id": "c3d4e5f6a1b2",
+      "title": "US Embassy orders non-emergency staff to leave UAE",
+      "date": "2026-03-03",
+      "datetime": "2026-03-03T14:00:00Z",
+      "location": "Abu Dhabi",
+      "lat": 24.4539,
+      "lon": 54.3773,
       "type": "security_alert",
-      "confirmed": false,
-      "precision": "country",
-      "title": "Iran … Israel … Trump … 3 / 6 / 2026 …. Trump asks for Something that IS NOT Happening … Surrender …",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
+      "confirmed": true,
+      "confidence": "high",
       "sources": [
         {
-          "url": "https://politicaldog101.com/2026/03/iran-israel-trump-3-6-2026-trump-asks-for-something-that-is-not-happening-surrender/",
-          "domain": "politicaldog101.com",
-          "tier": "unverified"
-        }
-      ],
-      "confidence": "low"
-    },
-    {
-      "id": "a7df96661121",
-      "datetime": "2026-03-07T21:49:15Z",
-      "type": "security_alert",
-      "confirmed": false,
-      "precision": "country",
-      "title": "Gulf allies complain US did not provide notice of Iran attacks and ignored warnings , sources say",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.militarytimes.com/news/your-military/2026/03/06/gulf-allies-complain-us-did-not-provide-notice-of-iran-attacks-and-ignored-warnings-sources-say/",
-          "domain": "militarytimes.com",
-          "tier": "unverified"
+          "url": "https://ae.usembassy.gov/security-alert-u-s-mission-to-the-uae-march-3-2026/",
+          "domain": "ae.usembassy.gov",
+          "tier": "official"
         },
         {
-          "url": "https://www.defensenews.com/news/your-military/2026/03/06/gulf-allies-complain-us-did-not-provide-notice-of-iran-attacks-and-ignored-warnings-sources-say/",
-          "domain": "defensenews.com",
-          "tier": "unverified"
+          "url": "https://ae.usembassy.gov/security-alert-update-on-strikes-in-the-uae-u-s-mission-to-the-uae-mar-2-2026/",
+          "domain": "ae.usembassy.gov",
+          "tier": "official"
         }
       ],
-      "confidence": "low"
+      "precision": "exact",
+      "_manual": true
+    },
+    {
+      "id": "d4e5f6a1b2c3",
+      "title": "UAE closes airspace and withdraws diplomats from Tehran",
+      "date": "2026-03-02",
+      "datetime": "2026-03-02T05:00:00Z",
+      "location": "UAE",
+      "lat": 25.0,
+      "lon": 55.1,
+      "type": "security_alert",
+      "confirmed": true,
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://www.timesofisrael.com/dubais-carefully-built-image-as-a-sun-filled-safe-haven-shattered-by-iranian-strikes/",
+          "domain": "timesofisrael.com",
+          "tier": "wire"
+        },
+        {
+          "url": "https://www.aljazeera.com/news/2026/3/1/more-blasts-rock-dubai-doha-and-manama-as-iran-targets-us-assets-in-gulf",
+          "domain": "aljazeera.com",
+          "tier": "wire"
+        }
+      ],
+      "precision": "exact",
+      "_manual": true
+    },
+    {
+      "id": "c4d5e6f7a2b3",
+      "title": "French naval base Camp de la Paix (Zayed Port) struck by drones",
+      "date": "2026-03-01",
+      "datetime": "2026-02-28T22:00:00Z",
+      "location": "Zayed Port, Abu Dhabi",
+      "lat": 24.483,
+      "lon": 54.332,
+      "type": "impact_major",
+      "confirmed": true,
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/2026_Iranian_strikes_on_the_United_Arab_Emirates",
+          "domain": "en.wikipedia.org",
+          "tier": "wire"
+        }
+      ],
+      "precision": "exact",
+      "_manual": true
+    },
+    {
+      "id": "b3c4d5e6f7a2",
+      "title": "Fire at Jebel Ali Port — attributed to aerial interception debris",
+      "date": "2026-03-01",
+      "datetime": "2026-02-28T21:30:00Z",
+      "location": "Jebel Ali Port",
+      "lat": 25.0153,
+      "lon": 55.0613,
+      "type": "impact_minor",
+      "confirmed": true,
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/2026_Iranian_strikes_on_the_United_Arab_Emirates",
+          "domain": "en.wikipedia.org",
+          "tier": "wire"
+        }
+      ],
+      "precision": "exact",
+      "_manual": true
+    },
+    {
+      "id": "f6a1b2c3d4e5",
+      "title": "Shahed drone strike near Fairmont The Palm Hotel, Palm Jumeirah — 4 injured",
+      "date": "2026-03-01",
+      "datetime": "2026-02-28T21:00:00Z",
+      "location": "Palm Jumeirah",
+      "lat": 25.1124,
+      "lon": 55.139,
+      "type": "impact_major",
+      "confirmed": true,
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/2026_Iranian_strikes_on_the_United_Arab_Emirates",
+          "domain": "en.wikipedia.org",
+          "tier": "wire"
+        },
+        {
+          "url": "https://www.euronews.com/2026/03/01/iranian-strikes-hit-dubai-and-abu-dhabi-damaging-airport-terminals-and-the-burj-al-arab",
+          "domain": "euronews.com",
+          "tier": "wire"
+        }
+      ],
+      "precision": "exact",
+      "_manual": true
+    },
+    {
+      "id": "a2b3c4d5e6f7",
+      "title": "Iranian missile fragments hit Burj Al Arab — structural damage",
+      "date": "2026-03-01",
+      "datetime": "2026-02-28T21:00:00Z",
+      "location": "Burj Al Arab",
+      "lat": 25.1412,
+      "lon": 55.1853,
+      "type": "impact_minor",
+      "confirmed": true,
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://www.euronews.com/2026/03/01/iranian-strikes-hit-dubai-and-abu-dhabi-damaging-airport-terminals-and-the-burj-al-arab",
+          "domain": "euronews.com",
+          "tier": "wire"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/2026_Iranian_strikes_on_the_United_Arab_Emirates",
+          "domain": "en.wikipedia.org",
+          "tier": "wire"
+        }
+      ],
+      "precision": "exact",
+      "_manual": true
+    },
+    {
+      "id": "e5f6a1b2c3d4",
+      "title": "Dubai International Airport Terminal 3 struck — 4 staff injured, evacuation",
+      "date": "2026-03-01",
+      "datetime": "2026-02-28T20:30:00Z",
+      "location": "Dubai International Airport",
+      "lat": 25.2532,
+      "lon": 55.3657,
+      "type": "impact_major",
+      "confirmed": true,
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://www.euronews.com/2026/03/01/iranian-strikes-hit-dubai-and-abu-dhabi-damaging-airport-terminals-and-the-burj-al-arab",
+          "domain": "euronews.com",
+          "tier": "wire"
+        },
+        {
+          "url": "https://www.nytimes.com/2026/03/02/travel/dubai-travelers-stuck-iran-war.html",
+          "domain": "nytimes.com",
+          "tier": "wire"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/2026_Iranian_strikes_on_the_United_Arab_Emirates",
+          "domain": "en.wikipedia.org",
+          "tier": "wire"
+        }
+      ],
+      "precision": "exact",
+      "_manual": true
+    },
+    {
+      "id": "e6f7a2b3c4d5",
+      "title": "Interception debris falls near Zayed International Airport — 1 killed, 7 injured",
+      "date": "2026-02-28",
+      "datetime": "2026-02-27T23:00:00Z",
+      "location": "Zayed International Airport, Abu Dhabi",
+      "lat": 24.433,
+      "lon": 54.6511,
+      "type": "impact_minor",
+      "confirmed": true,
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/2026_Iranian_strikes_on_the_United_Arab_Emirates",
+          "domain": "en.wikipedia.org",
+          "tier": "wire"
+        },
+        {
+          "url": "https://www.aljazeera.com/news/2026/3/1/more-blasts-rock-dubai-doha-and-manama-as-iran-targets-us-assets-in-gulf",
+          "domain": "aljazeera.com",
+          "tier": "wire"
+        }
+      ],
+      "precision": "exact",
+      "_manual": true
+    },
+    {
+      "id": "d5e6f7a2b3c4",
+      "title": "Al Minhad Air Base (UAE/RAF/Australian HQ) struck by Iranian drones",
+      "date": "2026-02-28",
+      "datetime": "2026-02-27T22:30:00Z",
+      "location": "Al Minhad Air Base",
+      "lat": 25.0268,
+      "lon": 55.3661,
+      "type": "impact_major",
+      "confirmed": true,
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/2026_Iranian_strikes_on_the_United_Arab_Emirates",
+          "domain": "en.wikipedia.org",
+          "tier": "wire"
+        }
+      ],
+      "precision": "exact",
+      "_manual": true
+    },
+    {
+      "id": "f7a2b3c4d5e6",
+      "title": "Al Dhafra Air Base targeted — explosions in Corniche, Al Dhafra and Bateen districts",
+      "date": "2026-02-28",
+      "datetime": "2026-02-27T22:00:00Z",
+      "location": "Al Dhafra Air Base",
+      "lat": 24.2481,
+      "lon": 54.5476,
+      "type": "impact_major",
+      "confirmed": true,
+      "confidence": "high",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/2026_Iranian_strikes_on_the_United_Arab_Emirates",
+          "domain": "en.wikipedia.org",
+          "tier": "wire"
+        },
+        {
+          "url": "https://www.aljazeera.com/news/2026/3/1/more-blasts-rock-dubai-doha-and-manama-as-iran-targets-us-assets-in-gulf",
+          "domain": "aljazeera.com",
+          "tier": "wire"
+        }
+      ],
+      "precision": "exact",
+      "_manual": true
     }
   ]
 }
