@@ -461,13 +461,21 @@
       <div id="share-panel-inner">
         <p id="share-label">Share this map</p>
         <div id="share-options">
-          <button class="share-opt" onclick="doShare(true)">
-            <span>📍 With my locations</span>
-            <small>Others see your saved addresses</small>
+          <button class="share-opt" onclick="doShare(true, false)">
+            <span>📍 With locations</span>
+            <small>Includes your saved addresses</small>
           </button>
-          <button class="share-opt" onclick="doShare(false)">
-            <span>🔒 Without locations</span>
-            <small>Map only, no personal data</small>
+          <button class="share-opt" onclick="doShare(true, true)">
+            <span>🔗 Short URL + locations</span>
+            <small>Compressed — shorter to share</small>
+          </button>
+          <button class="share-opt" onclick="doShare(false, false)">
+            <span>🔒 Map only</span>
+            <small>No personal data</small>
+          </button>
+          <button class="share-opt" onclick="doShare(false, true)">
+            <span>🔗 Short URL, map only</span>
+            <small>Compressed, no locations</small>
           </button>
         </div>
         <span id="share-copied">✓ Copied!</span>
@@ -548,13 +556,21 @@
   </div>
 
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/lz-string@1.5.0/libs/lz-string.min.js"></script>
   <script>
   // ─── MAP ───────────────────────────────────────────────────────────────
   // Restore map view from URL if present
+  const DEFAULT_LAT = 25.0, DEFAULT_LON = 55.0, DEFAULT_ZOOM = 8;
   const _urlP = new URL(window.location.href).searchParams;
-  const _initLat  = parseFloat(_urlP.get('lat'))  || 25.0;
-  const _initLon  = parseFloat(_urlP.get('lon'))  || 55.0;
-  const _initZoom = parseInt(_urlP.get('z'))       || 8;
+  // Support compressed short URLs (?s=...) and legacy long URLs
+  let _parsedShortState = null;
+  const _sParam = _urlP.get('s');
+  if (_sParam) {
+    try { _parsedShortState = JSON.parse(LZString.decompressFromEncodedURIComponent(_sParam)); } catch(e) {}
+  }
+  const _initLat  = _parsedShortState?.lat ?? parseFloat(_urlP.get('lat'))  || DEFAULT_LAT;
+  const _initLon  = _parsedShortState?.lon ?? parseFloat(_urlP.get('lon'))  || DEFAULT_LON;
+  const _initZoom = _parsedShortState?.z   ?? parseInt(_urlP.get('z'))       || DEFAULT_ZOOM;
   const map = L.map('map', { zoomControl: false }).setView([_initLat, _initLon], _initZoom);
   L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
     attribution: '© <a href="https://www.openstreetmap.org/copyright">OSM</a> contributors © <a href="https://carto.com/attributions">CARTO</a>',
@@ -1156,13 +1172,16 @@
   }
 
   // ─── URL / STORAGE ─────────────────────────────────────────────────────
+  const _COORD_TOL = 0.0001;
   function syncURL() {
     const url = new URL(window.location.href);
-    // Map position
+    url.searchParams.delete('s'); // clear any compressed state
+    // Map position — only write if different from defaults (option 3: delta encoding)
     const c = map.getCenter();
-    url.searchParams.set('lat', c.lat.toFixed(4));
-    url.searchParams.set('lon', c.lng.toFixed(4));
-    url.searchParams.set('z',   map.getZoom());
+    const lat = c.lat, lon = c.lng, z = map.getZoom();
+    if (Math.abs(lat - DEFAULT_LAT) > _COORD_TOL) url.searchParams.set('lat', lat.toFixed(4)); else url.searchParams.delete('lat');
+    if (Math.abs(lon - DEFAULT_LON) > _COORD_TOL) url.searchParams.set('lon', lon.toFixed(4)); else url.searchParams.delete('lon');
+    if (z !== DEFAULT_ZOOM) url.searchParams.set('z', z); else url.searchParams.delete('z');
     // Locations
     if (userLocs.length) {
       url.searchParams.set('locs', userLocs.map(l =>
@@ -1172,6 +1191,19 @@
       url.searchParams.delete('locs');
     }
     window.history.replaceState({}, '', url.toString());
+  }
+
+  // Build compressed share URL (option 1: lz-string)
+  function buildShortUrl(includeLocs) {
+    const c = map.getCenter();
+    const state = { lat: parseFloat(c.lat.toFixed(4)), lon: parseFloat(c.lng.toFixed(4)), z: map.getZoom() };
+    if (includeLocs && userLocs.length) {
+      state.locs = userLocs.map(l => ({ tag: l.tag||'', name: l.name||'', lat: parseFloat((+l.lat).toFixed(4)), lon: parseFloat((+l.lon).toFixed(4)) }));
+    }
+    const u = new URL(window.location.href);
+    for (const k of [...u.searchParams.keys()]) u.searchParams.delete(k);
+    u.searchParams.set('s', LZString.compressToEncodedURIComponent(JSON.stringify(state)));
+    return u.toString();
   }
 
   // Sync map position to URL on every move
@@ -1271,6 +1303,18 @@
 
   function loadFromURL() {
     const params = new URL(window.location.href).searchParams;
+
+    // Handle compressed short URL (?s=...)
+    if (_parsedShortState?.locs?.length) {
+      let loaded = false;
+      _parsedShortState.locs.forEach(l => {
+        if (!isNaN(l.lat) && !isNaN(l.lon)) { pushLocation({ tag: l.tag||'', name: l.name||'', lat: l.lat, lon: l.lon }); loaded = true; }
+      });
+      return loaded;
+    }
+    if (_parsedShortState) return !!(_parsedShortState.lat || _parsedShortState.lon);
+
+    // Handle legacy long URL (?lat=...&lon=...&locs=...)
     const locs = params.get('locs');
     if (!locs) return false;
     let loaded = false;
@@ -1349,21 +1393,27 @@
     document.getElementById('share-panel').style.display = 'none';
   }
 
-  function doShare(includeLocs) {
+  function doShare(includeLocs, short) {
     syncURL();
-    let url = window.location.href;
-    if (!includeLocs) {
-      const u = new URL(url);
-      u.searchParams.delete('locs');
-      url = u.toString();
+    let url;
+    if (short) {
+      url = buildShortUrl(includeLocs);
+    } else {
+      url = window.location.href;
+      if (!includeLocs) {
+        const u = new URL(url);
+        u.searchParams.delete('locs');
+        url = u.toString();
+      }
     }
     navigator.clipboard.writeText(url).then(() => {
       const s = document.getElementById('share-copied');
+      s.textContent = `✓ Copied! (${url.length} chars)`;
       s.style.display = 'block';
       setTimeout(() => {
         s.style.display = 'none';
         closeSharePanel();
-      }, 1800);
+      }, 2000);
     });
   }
 
