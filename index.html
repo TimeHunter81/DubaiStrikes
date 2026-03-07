@@ -82,7 +82,7 @@
       background: linear-gradient(90deg, #e8eef8, #a8b8d0);
       -webkit-background-clip: text; -webkit-text-fill-color: transparent;
     }
-    #header .subtitle { font-size: 10px; color: #5a6a80; margin-top: 3px; letter-spacing: 0.2px; }
+    #header .subtitle { font-size: 10px; color: #7a8aa0; margin-top: 3px; letter-spacing: 0.2px; }
     #status-badge {
       display: inline-flex; align-items: center; gap: 5px;
       padding: 3px 10px; border-radius: 20px; font-size: 10px; font-weight: 600;
@@ -115,7 +115,7 @@
       background: rgba(255,255,255,0.03); border: 1px solid rgba(79,158,255,0.15);
       border-radius: 12px; padding: 10px 12px; position: relative;
     }
-    #share-label { font-size: 10px; color: #4a5a72; font-weight: 600; text-transform: uppercase; letter-spacing: 0.6px; margin-bottom: 8px; }
+    #share-label { font-size: 10px; color: #6a8aaa; font-weight: 600; text-transform: uppercase; letter-spacing: 0.6px; margin-bottom: 8px; }
     #share-options { display: flex; flex-direction: column; gap: 5px; }
     .share-opt {
       display: flex; flex-direction: column; align-items: flex-start;
@@ -125,11 +125,11 @@
     }
     .share-opt:hover { background: rgba(79,158,255,0.08); border-color: rgba(79,158,255,0.25); }
     .share-opt span { font-size: 12px; font-weight: 500; color: #c8d4e4; }
-    .share-opt small { font-size: 10px; color: #3a4a60; margin-top: 2px; }
+    .share-opt small { font-size: 10px; color: #5a7a9a; margin-top: 2px; }
     #share-copied { display: none; font-size: 11px; color: #4fd060; margin-top: 8px; }
     #share-close {
       position: absolute; top: 8px; right: 8px;
-      background: transparent; border: none; color: #3a4a60; cursor: pointer;
+      background: transparent; border: none; color: #6a8aaa; cursor: pointer;
       font-size: 12px; line-height: 1; padding: 2px 5px; font-family: inherit;
     }
     #share-close:hover { color: #8899b0; }
@@ -140,11 +140,11 @@
       flex-shrink: 0;
     }
     #timeline-top { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 8px; }
-    #timeline-label { font-size: 9px; color: #4a5568; font-weight: 700; text-transform: uppercase; letter-spacing: 0.8px; }
+    #timeline-label { font-size: 9px; color: #607a96; font-weight: 700; text-transform: uppercase; letter-spacing: 0.8px; }
     #timeline-value {
       font-size: 11px; color: #7eb8ff; font-weight: 600;
       background: rgba(79,158,255,0.1); padding: 1px 7px; border-radius: 8px;
-      border: 1px solid rgba(79,158,255,0.15);
+      border: 1px solid rgba(79,158,255,0.2);
     }
     #timeline-slider {
       width: 100%; -webkit-appearance: none; appearance: none;
@@ -159,7 +159,7 @@
       box-shadow: 0 0 10px rgba(79,158,255,0.4);
     }
     #timeline-ends { display: flex; justify-content: space-between; margin-top: 4px; }
-    #timeline-ends span { font-size: 9px; color: #3a4a60; font-weight: 500; }
+    #timeline-ends span { font-size: 9px; color: #506070; font-weight: 500; }
 
     /* ── FILTERS ── */
     #filters {
@@ -174,7 +174,7 @@
       padding: 3px 8px; border-radius: 20px;
       border: 1px solid rgba(255,255,255,0.06);
       background: rgba(255,255,255,0.03);
-      color: #4a5a72; font-size: 10px; cursor: pointer;
+      color: #607a96; font-size: 10px; cursor: pointer;
       transition: all 0.18s ease; font-weight: 500;
     }
     .filter-btn:hover { color: #7eb8ff; border-color: rgba(79,158,255,0.3); background: rgba(79,158,255,0.06); }
@@ -186,7 +186,8 @@
     .filter-sep { width: 1px; background: rgba(255,255,255,0.06); margin: 2px 2px; flex-shrink: 0; }
     #footer-left { display: flex; align-items: center; gap: 5px; }
     #tz-toggle {
-      background: transparent; border: none; border-bottom: 1px dashed rgba(255,255,255,0.12);
+      -webkit-appearance: none; appearance: none;
+      background: transparent; border: none; border-bottom: 1px dashed rgba(255,255,255,0.18);
       color: inherit; font-size: inherit; padding: 0 1px;
       cursor: pointer; font-family: inherit; transition: color 0.15s; white-space: nowrap;
       border-radius: 0;
@@ -200,7 +201,7 @@
       padding: 8px 16px;
       display: flex; align-items: center; justify-content: space-between;
       cursor: pointer; user-select: none;
-      color: #3a4a60; font-size: 9px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.8px;
+      color: #607a96; font-size: 9px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.8px;
       transition: color 0.15s;
     }
     #locations-header:hover { color: #7eb8ff; background: rgba(79,158,255,0.03); }
@@ -249,12 +250,12 @@
     .loc-item:hover { background: rgba(79,158,255,0.05); border-color: rgba(79,158,255,0.2); }
     .loc-dot { width: 7px; height: 7px; border-radius: 50%; background: #3fb950; margin-top: 4px; flex-shrink: 0; box-shadow: 0 0 5px rgba(63,185,80,0.4); }
     .loc-info { flex: 1; min-width: 0; }
-    .loc-dist { font-size: 10px; color: #3a4a60; margin-top: 2px; }
-    .loc-remove { color: #2a3545; font-size: 11px; cursor: pointer; padding: 0 2px; flex-shrink: 0; transition: color 0.1s; }
+    .loc-dist { font-size: 10px; color: #5a7a9a; margin-top: 2px; }
+    .loc-remove { color: #4a6a90; font-size: 11px; cursor: pointer; padding: 0 2px; flex-shrink: 0; transition: color 0.1s; }
     .loc-remove:hover { color: #ff5f57; }
     #loc-share-row { margin-top: 7px; display: flex; gap: 7px; align-items: center; }
     #loc-share-btn {
-      flex: 1; background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.07); color: #3a4a60;
+      flex: 1; background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.07); color: #5a7a9a;
       border-radius: 7px; padding: 4px 0; font-size: 10px; cursor: pointer; font-family: inherit;
       transition: all 0.15s; font-weight: 500;
     }
@@ -263,7 +264,7 @@
 
     /* Location list editing */
     .loc-name-wrap { display: flex; align-items: center; gap: 4px; }
-    .loc-edit-btn { color: #2a3545; font-size: 10px; cursor: pointer; flex-shrink: 0; opacity: 0; transition: all 0.1s; }
+    .loc-edit-btn { color: #4a6a90; font-size: 10px; cursor: pointer; flex-shrink: 0; opacity: 0; transition: all 0.1s; }
     .loc-item:hover .loc-edit-btn { opacity: 1; }
     .loc-edit-btn:hover { color: #7eb8ff; }
     .loc-name-input {
@@ -312,29 +313,29 @@
     .badge-impact_major   { background: rgba(248,81,73,0.12);   color: #ff5f57; border: 1px solid rgba(248,81,73,0.2);  box-shadow: 0 0 8px rgba(248,81,73,0.1); }
     .badge-security_alert { background: rgba(163,113,247,0.12); color: #b48aff; border: 1px solid rgba(163,113,247,0.2); }
     .badge-confirmed { background: rgba(63,185,80,0.1);  color: #4fd060; border: 1px solid rgba(63,185,80,0.2); }
-    .badge-suspected { background: transparent; color: #3a4a60; border: 1px dashed rgba(255,255,255,0.1); }
+    .badge-suspected { background: transparent; color: #607a96; border: 1px dashed rgba(255,255,255,0.1); }
 
-    .event-time { font-size: 11px; color: #3a4a60; margin-bottom: 4px; font-weight: 500; }
+    .event-time { font-size: 11px; color: #5a7a9a; margin-bottom: 4px; font-weight: 500; }
     .event-time .rel { color: #6a80a0; }
-    .event-title { font-size: 12px; font-weight: 500; margin-bottom: 3px; line-height: 1.45; color: #c8d4e4; }
-    .event-meta  { font-size: 10px; color: #3a4a60; }
+    .event-title { font-size: 12px; font-weight: 500; margin-bottom: 3px; line-height: 1.45; color: #d4e0f0; }
+    .event-meta  { font-size: 10px; color: #506080; }
     .event-sources { margin-top: 5px; display: flex; gap: 3px; flex-wrap: wrap; }
     .src-tag {
       padding: 1px 6px; border-radius: 4px; font-size: 9px;
-      background: rgba(79,158,255,0.07); color: #4a7aaa; text-decoration: none;
+      background: rgba(79,158,255,0.07); color: #6a9acc; text-decoration: none;
       border: 1px solid rgba(79,158,255,0.1); transition: all 0.1s;
     }
     .src-tag:hover { background: rgba(79,158,255,0.15); color: #7eb8ff; }
 
-    #empty-state { padding: 40px 18px; text-align: center; color: #2a3545; font-size: 12px; }
+    #empty-state { padding: 40px 18px; text-align: center; color: #5a7a9a; font-size: 12px; }
 
     /* ── FOOTER ── */
     #footer {
       padding: 8px 16px;
-      font-size: 10px; color: #2a3545; display: flex; justify-content: space-between;
+      font-size: 10px; color: #607a96; display: flex; justify-content: space-between;
       flex-shrink: 0;
     }
-    #footer a { color: #4a6a8a; text-decoration: none; }
+    #footer a { color: #6a8aaa; text-decoration: none; }
     #footer a:hover { color: #7eb8ff; }
 
     /* ── MARKERS ── */
@@ -534,7 +535,7 @@
     </div>
 
     <div class="section-divider" style="display:flex;align-items:center;padding:0 14px;height:22px;margin:0">
-      <span id="events-count" style="font-size:9px;color:#4a6a90;font-weight:600;text-transform:uppercase;letter-spacing:0.6px">—</span>
+      <span id="events-count" style="font-size:9px;color:#6a8ab0;font-weight:600;text-transform:uppercase;letter-spacing:0.6px">—</span>
     </div>
     <div id="events-list">
       <div id="empty-state">Loading…</div>
