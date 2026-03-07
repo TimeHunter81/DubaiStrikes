@@ -817,7 +817,8 @@
   function flyTo(lat, lon) { map.flyTo([lat, lon], 12, { duration: 0.8 }); }
 
   function updateConfFilters() {
-    const hasSuspected = allEvents.some(e => !e.confirmed);
+    // Always check the full dataset — pills must not jump based on slider/type filter
+    const hasSuspected = allEvents.some(e => e.confirmed === false);
     document.getElementById('filters-conf').style.display = hasSuspected ? 'flex' : 'none';
   }
 
@@ -1234,32 +1235,43 @@
   }
 
   // ─── PREFS (filter/tz/slider) persisted in localStorage, not URL ─────
+  const PREFS_V = '3'; // bump when schema changes to auto-clear stale prefs
+
   function savePrefs() {
     localStorage.setItem('dsm_prefs', JSON.stringify({
-      filterType, filterShowConfirmed, filterShowSuspected, tzMode, windowHours
+      v: PREFS_V, filterType, filterShowConfirmed, filterShowSuspected, tzMode, windowHours
     }));
   }
 
   function loadPrefs() {
     try {
       const p = JSON.parse(localStorage.getItem('dsm_prefs') || '{}');
+      // Stale or incompatible prefs → discard entirely
+      if (p.v !== PREFS_V) { localStorage.removeItem('dsm_prefs'); return; }
+
       if (p.filterType) {
         filterType = p.filterType;
         document.querySelectorAll('[data-type]').forEach(b => {
           b.classList.toggle('active', b.dataset.type === filterType);
         });
       }
-      if (p.filterShowConfirmed === false) filterShowConfirmed = false;
-      if (p.filterShowSuspected === false) filterShowSuspected = false;
+      // Only restore conf prefs if they won't result in nothing showing
+      const sc = p.filterShowConfirmed !== false;
+      const ss = p.filterShowSuspected !== false;
+      if (sc || ss) { // at least one must be true
+        filterShowConfirmed = sc;
+        filterShowSuspected = ss;
+      }
       document.querySelector('[data-conf="confirmed"]')?.classList.toggle('active', filterShowConfirmed);
       document.querySelector('[data-conf="suspected"]')?.classList.toggle('active', filterShowSuspected);
+
       if (p.tzMode && p.tzMode !== 'local') {
         tzMode = p.tzMode;
         const btn = document.getElementById('tz-toggle');
         if (btn) { btn.textContent = '🕐 Dubai'; btn.classList.add('active'); }
       }
       if (p.windowHours != null) windowHours = p.windowHours;
-    } catch(e) {}
+    } catch(e) { localStorage.removeItem('dsm_prefs'); }
   }
 
   // ─── SHARE ─────────────────────────────────────────────────────────────
