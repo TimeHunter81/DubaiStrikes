@@ -760,8 +760,8 @@
 
   // ─── RENDER ────────────────────────────────────────────────────────────
   function getSelectedCutoff() {
-    if (windowHours >= sliderMax) return Infinity; // ALL
-    return Date.now() - windowHours * 3600000;
+    if (windowHours >= sliderMax) return 0; // ALL — no lower bound
+    return Date.now() - windowHours * 3600000; // oldest allowed timestamp
   }
 
   // ─── SPIRAL OFFSET ────────────────────────────────────────────────────
@@ -799,8 +799,8 @@
       const tOk = filterType === 'all' || e.type === filterType;
       const cOk = (filterShowConfirmed && e.confirmed === true)
         || (filterShowSuspected && e.confirmed === false);
-      const dt = e.datetime ? new Date(e.datetime).getTime() : 0;
-      const timeOk = dt <= cutoff;
+      const dt = e.datetime ? new Date(e.datetime).getTime() : Date.now();
+      const timeOk = dt >= cutoff; // show events within window (dt >= oldest allowed)
       const viewOk = eventInViewport(e);
       return tOk && cOk && timeOk && viewOk;
     });
