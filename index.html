@@ -261,7 +261,12 @@
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   <script>
   // ─── MAP ───────────────────────────────────────────────────────────────
-  const map = L.map('map', { zoomControl: false }).setView([25.0, 55.0], 8);
+  // Restore map view from URL if present
+  const _urlP = new URL(window.location.href).searchParams;
+  const _initLat  = parseFloat(_urlP.get('lat'))  || 25.0;
+  const _initLon  = parseFloat(_urlP.get('lon'))  || 55.0;
+  const _initZoom = parseInt(_urlP.get('z'))       || 8;
+  const map = L.map('map', { zoomControl: false }).setView([_initLat, _initLon], _initZoom);
   L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
     attribution: '© <a href="https://www.openstreetmap.org/copyright">OSM</a> contributors © <a href="https://carto.com/attributions">CARTO</a>',
     subdomains: 'abcd', maxZoom: 19
@@ -626,6 +631,12 @@
   // ─── URL / STORAGE ─────────────────────────────────────────────────────
   function syncURL() {
     const url = new URL(window.location.href);
+    // Map position
+    const c = map.getCenter();
+    url.searchParams.set('lat', c.lat.toFixed(4));
+    url.searchParams.set('lon', c.lng.toFixed(4));
+    url.searchParams.set('z',   map.getZoom());
+    // Locations
     if (userLocs.length) {
       url.searchParams.set('locs', userLocs.map(l =>
         `${encodeURIComponent(l.name)}~${l.lat}~${l.lon}`
@@ -635,6 +646,9 @@
     }
     window.history.replaceState({}, '', url.toString());
   }
+
+  // Sync map position to URL on every move
+  map.on('moveend', syncURL);
 
   function loadFromURL() {
     const params = new URL(window.location.href).searchParams;
