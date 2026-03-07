@@ -164,15 +164,6 @@ def compute_confidence(sources: list) -> str:
 
 
 # ── RSS ─────────────────────────────────────────────────────────────────────
-def is_noise_article(title: str) -> bool:
-    """Returns True if the title looks like analysis/opinion, not a real event."""
-    t = title.lower().strip()
-    for pattern in NOISE_PATTERNS:
-        if re.search(pattern, t):
-            return True
-    return False
-
-
 def parse_rss_date(datestr: str) -> str:
     """Parse RSS pubDate (RFC 2822) → ISO 8601 UTC."""
     if not datestr:
@@ -216,9 +207,7 @@ def fetch_rss(feed: dict) -> list:
         if not any(kw in combined for kw in RSS_KEYWORDS):
             continue
 
-        # Filter: skip analysis/opinion/background articles
-        if is_noise_article(title):
-            continue
+
 
         # Skip articles older than 7 days
         try:
@@ -386,8 +375,6 @@ def cluster_articles(articles: list) -> list:
         title = art.get("title", "").strip()
         url = art.get("url", "")
         if not title or not url:
-            continue
-        if is_noise_article(title):
             continue
         date_str = parse_gdelt_date(art.get("seendate", ""))
         date_day = date_str[:10]
