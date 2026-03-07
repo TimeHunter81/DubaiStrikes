@@ -43,14 +43,22 @@
         overflow: hidden; /* children handle their own scroll */
       }
 
-      #events-list {
-        overflow-y: auto;
-        -webkit-overflow-scrolling: touch;
-        touch-action: pan-y;
+      /* Key: min-height:0 lets flex child shrink + scroll */
+      #sidebar {
+        display: flex;
+        flex-direction: column;
       }
-
-      /* Prevent map from catching touches inside the sheet */
-      #sidebar * { touch-action: pan-y; }
+      #events-list {
+        flex: 1;
+        min-height: 0;
+        overflow-y: scroll;
+        -webkit-overflow-scrolling: touch;
+        overscroll-behavior: contain;
+      }
+      /* Make all interactive elements inside sheet scrollable by touch */
+      #sidebar, #sidebar * {
+        touch-action: pan-y pinch-zoom;
+      }
 
       #header { padding: 10px 14px; cursor: default; }
       #header h1 { font-size: 13px; }
