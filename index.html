@@ -610,6 +610,7 @@
     const label = loc.tag || loc.name;
     const m = L.marker([loc.lat, loc.lon], { icon: makeLocIcon(), zIndexOffset: -2000 })
       .addTo(map).bindPopup(`<b>${label}</b>${loc.name && loc.tag ? `<br><span style="font-size:10px;color:#888">${loc.name}</span>` : ''}`);
+    m.on('mouseover', function() { this.openPopup(); });
     userLocs.push({ ...loc, marker: m });
     renderLocations();
   }
