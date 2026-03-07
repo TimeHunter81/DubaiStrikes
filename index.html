@@ -295,6 +295,19 @@
     .cm-loc { background: radial-gradient(circle, #4fd060, #1a8030); width: 16px; height: 16px; border: 2px solid rgba(255,255,255,0.6); box-shadow: 0 0 10px rgba(63,185,80,0.5); }
 
     /* ── SCROLLBAR ── */
+    .badge-approx {
+      background: rgba(255,255,255,0.04);
+      color: #4a6a8a;
+      border: 1px dashed rgba(255,255,255,0.12);
+      font-style: italic;
+    }
+    .event-card-approx {
+      opacity: 0.85;
+      border-style: dashed;
+    }
+    .event-card-approx::before { opacity: 0.4; }
+    .event-card-approx:hover { opacity: 1; }
+
     #events-list::-webkit-scrollbar { width: 3px; }
     #events-list::-webkit-scrollbar-track { background: transparent; }
     #events-list::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.07); border-radius: 2px; }
@@ -396,13 +409,13 @@
     <!-- TIMELINE SLIDER -->
     <div id="timeline-section">
       <div id="timeline-top">
-        <span id="timeline-label">TIMELINE: <span id="event-count">0</span> EVENTS</span>
-        <span id="timeline-value">All</span>
+        <span id="timeline-label">Timeline</span>
+        <span id="timeline-value">Now</span>
       </div>
-      <input type="range" id="timeline-slider" min="0" max="7" step="1" value="0" />
+      <input type="range" id="timeline-slider" min="0" step="1" />
       <div id="timeline-ends">
-        <span>All</span>
-        <span>1h</span>
+        <span>Feb 28 · 00:00 UAE</span>
+        <span>Now</span>
       </div>
     </div>
 
@@ -545,7 +558,8 @@
   let eventMarkers = [];
   let filterType   = 'all';
   let filterConf   = 'all';
-  // (slider now uses discrete TIME_STEPS; sliderMax/sliderVal removed)
+  let sliderMax    = 0;   // total hours from conflict start to now
+  let sliderVal    = 0;   // selected hours from conflict start (0 = conflict start, sliderMax = now)
   let conflictStart= 0;   // Unix ms
   let locOpen      = false;
 
@@ -601,8 +615,33 @@
 
   // ─── RENDER ────────────────────────────────────────────────────────────
   function getSelectedCutoff() {
-    if (windowHours === Infinity) return -Infinity; // ALL — no cutoff
+    if (windowHours >= sliderMax) return Infinity; // ALL
     return Date.now() - windowHours * 3600000;
+  }
+
+  // ─── SPIRAL OFFSET ────────────────────────────────────────────────────
+  // For N events sharing exact coords, spread them in a circle so each is clickable
+  function spiralOffsets(events) {
+    // Group by rounded lat/lon key
+    const groups = {};
+    events.forEach((e, i) => {
+      if (!e.lat || !e.lon) return;
+      const key = e.lat.toFixed(4) + ',' + e.lon.toFixed(4);
+      if (!groups[key]) groups[key] = [];
+      groups[key].push(i);
+    });
+
+    const offsets = new Array(events.length).fill(null).map(() => ({ lat: 0, lon: 0 }));
+    const R = 0.009; // ~1km offset radius in degrees
+    Object.values(groups).forEach(idxs => {
+      if (idxs.length <= 1) return;
+      idxs.forEach((i, k) => {
+        const angle = (k / idxs.length) * 2 * Math.PI - Math.PI / 2;
+        offsets[i].lat = R * Math.cos(angle);
+        offsets[i].lon = R * Math.sin(angle) / Math.cos((events[i].lat || 25) * Math.PI / 180);
+      });
+    });
+    return offsets;
   }
 
   function renderEvents() {
@@ -617,20 +656,19 @@
         || (filterConf === 'confirmed' && e.confirmed === true)
         || (filterConf === 'suspected' && e.confirmed === false);
       const dt = e.datetime ? new Date(e.datetime).getTime() : 0;
-      // timeOk: event is within the selected window (dt >= cutoff means "recent enough")
-      const timeOk = windowHours === Infinity || dt >= cutoff;
+      const timeOk = dt <= cutoff;
       return tOk && cOk && timeOk;
     });
 
     const list = document.getElementById('events-list');
 
-    // Update event counter
-    document.getElementById('event-count').textContent = filtered.length;
-
     if (filtered.length === 0) {
       list.innerHTML = '<div id="empty-state">No events match filters.</div>';
       return;
     }
+
+    // Split: precise (on map) vs imprecise (sidebar only)
+    const isPrecise = e => e.lat && e.lon && (!e.precision || e.precision === 'exact');
 
     list.innerHTML = filtered.map(e => {
       const tm = TYPE_META[e.type] || {};
@@ -640,10 +678,15 @@
         `<a class="src-tag" href="${s.url}" target="_blank">${s.domain}</a>`
       ).join('');
       const rel = relTime(e.datetime);
-      return `<div class="event-card" data-type="${e.type||''}" onclick="flyTo(${e.lat||25.2},${e.lon||55.27})">
+      const approxBadge = !isPrecise(e)
+        ? `<span class="badge badge-approx">📍 ${e.location || 'Area'}</span>` : '';
+      const clickAttr = isPrecise(e)
+        ? `onclick="flyTo(${e.lat},${e.lon})"` : '';
+      return `<div class="event-card${!isPrecise(e) ? ' event-card-approx' : ''}" data-type="${e.type||''}" ${clickAttr}>
         <div class="event-badges">
           ${tm.label ? `<span class="badge ${tm.cls}">${tm.label}</span>` : ''}
           <span class="badge ${confClass}">${confLabel}</span>
+          ${approxBadge}
         </div>
         ${rel ? `<div class="event-time"><span class="rel">${rel}</span></div>` : ''}
         <div class="event-title">${e.title}</div>
@@ -652,12 +695,19 @@
       </div>`;
     }).join('');
 
-    filtered.forEach(e => {
-      if (!e.lat || !e.lon) return;
-      const m = L.marker([e.lat, e.lon], { icon: makeEventIcon(e.type, e.confirmed) })
+    // Map markers — precise only, with spiral offsets for overlaps
+    const preciseFiltered = filtered.filter(isPrecise);
+    const offsets = spiralOffsets(preciseFiltered);
+
+    preciseFiltered.forEach((e, i) => {
+      const lat = e.lat + offsets[i].lat;
+      const lon = e.lon + offsets[i].lon;
+      const m = L.marker([lat, lon], {
+        icon: makeEventIcon(e.type, e.confirmed),
+        zIndexOffset: 500,
+      })
         .addTo(map)
         .bindPopup(popupHTML(e), { maxWidth: 260 });
-      // Hover: open popup
       m.on('mouseover click', function() { this.openPopup(); });
       eventMarkers.push(m);
     });
@@ -679,30 +729,46 @@
   }
 
   // ─── TIMELINE SLIDER ───────────────────────────────────────────────────
-  // Discrete steps: left=ALL, right=1h
-  // TIME_STEPS[i] = hours back from now (Infinity = All)
-  const TIME_STEPS = [Infinity, 14*24, 7*24, 3*24, 24, 12, 3, 1];
-  const TIME_LABELS = ['All', '14d', '7d', '3d', '24h', '12h', '3h', '1h'];
-  let windowHours = Infinity; // default: show all
+  // windowHours = how many hours back from now to show
+  // Slider: left=max(ALL), right=1h — we invert the raw slider value
+  let windowHours = 0; // 0 = ALL
+
+  function windowLabel(h) {
+    if (h === 0 || h >= sliderMax) return 'All';
+    if (h >= 48)  return `Last ${Math.round(h/24)}d`;
+    if (h >= 24)  return 'Last 24h';
+    if (h >= 1)   return `Last ${h}h`;
+    return '1h';
+  }
 
   function initSlider(conflictStartISO) {
     conflictStart = new Date(conflictStartISO).getTime();
-    windowHours = Infinity; // default: show all
+    const now = Date.now();
+    sliderMax = Math.ceil((now - conflictStart) / 3600000);
+    windowHours = 0; // default: show all
 
     const slider = document.getElementById('timeline-slider');
-    // Already set in HTML: min=0 max=5 step=1 value=0
-    slider.value = 0;
+    slider.min = 1;
+    slider.max = sliderMax;
+    slider.value = 1; // leftmost (min) = ALL
 
-    // Animate slider track fill (0 = leftmost = All)
+    windowHours = sliderMax; // show all by default
+
+    // Left end label = ALL, right end label = 1h
+    document.querySelector('#timeline-ends span:first-child').textContent = 'All';
+    document.querySelector('#timeline-ends span:last-child').textContent = '1h';
+    document.getElementById('timeline-value').textContent = 'All';
+
+    // Animate slider track fill
     const updateTrack = () => {
-      const pct = (parseInt(slider.value) / (TIME_STEPS.length - 1) * 100).toFixed(1);
+      const pct = ((parseInt(slider.value) - 1) / (sliderMax - 1) * 100).toFixed(1);
       slider.style.setProperty('--pct', pct + '%');
     };
-    slider.addEventListener('input', () => {
-      const idx = parseInt(slider.value);
-      windowHours = TIME_STEPS[idx];
-      document.getElementById('timeline-value').textContent = TIME_LABELS[idx];
-      updateTrack();
+    slider.addEventListener('input', () => { updateTrack();
+      const raw = parseInt(slider.value);
+      // raw=1 (left) → ALL, raw=sliderMax (right) → 1h
+      windowHours = sliderMax - raw + 1;
+      document.getElementById('timeline-value').textContent = windowLabel(windowHours);
       renderEvents();
       renderLocations();
     });
