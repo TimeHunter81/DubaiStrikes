@@ -760,13 +760,14 @@
         || (filterShowSuspected && e.confirmed === false);
       const dt = e.datetime ? new Date(e.datetime).getTime() : 0;
       const timeOk = dt <= cutoff;
-      return tOk && cOk && timeOk;
+      const viewOk = eventInViewport(e);
+      return tOk && cOk && timeOk && viewOk;
     });
 
     const list = document.getElementById('events-list');
 
     if (filtered.length === 0) {
-      list.innerHTML = '<div id="empty-state">No events match filters.</div>';
+      list.innerHTML = '<div id="empty-state">No events in current view.<br><small style="opacity:.5">Pan or zoom out to see more.</small></div>';
       return;
     }
 
@@ -817,6 +818,33 @@
   }
 
   function flyTo(lat, lon) { map.flyTo([lat, lon], 12, { duration: 0.8 }); }
+
+  // ─── VIEWPORT FILTER ───────────────────────────────────────────────────
+  function eventInViewport(e) {
+    // No coords or country-level → always show (could be anywhere in the country)
+    if (!e.lat || !e.lon) return true;
+    if (e.precision === 'country') return true;
+
+    const bounds = map.getBounds();
+
+    if (!e.precision || e.precision === 'exact') {
+      return bounds.contains([e.lat, e.lon]);
+    }
+
+    // City / emirate: expand the viewport check by the uncertainty radius
+    const radiusKm = e.radius_km
+      || (e.precision === 'emirate' ? 80 : 20); // defaults if radius_km absent
+    const latDeg = radiusKm / 111;
+    const lonDeg = radiusKm / (111 * Math.cos(e.lat * Math.PI / 180));
+    const expanded = L.latLngBounds(
+      [bounds.getSouth() - latDeg, bounds.getWest() - lonDeg],
+      [bounds.getNorth() + latDeg, bounds.getEast() + lonDeg]
+    );
+    return expanded.contains([e.lat, e.lon]);
+  }
+
+  // Re-filter sidebar when the map moves or zooms
+  map.on('moveend zoomend', () => { renderEvents(); });
 
   function updateConfFilters() {
     // Always check the full dataset — pills must not jump based on slider/type filter
