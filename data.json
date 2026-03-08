@@ -1,7 +1,26 @@
 {
-  "last_updated": "2026-03-08T18:15:00Z",
+  "last_updated": "2026-03-08T18:22:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
+    {
+      "id": "a77ca758b667",
+      "datetime": "2026-03-08T18:02:44Z",
+      "type": "impact_minor",
+      "confirmed": true,
+      "precision": "country",
+      "title": "Two killed in Saudi Arabia after 'projectile' falls on residential building",
+      "location": "Saudi Arabia",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.aljazeera.com/news/2026/3/8/two-killed-in-saudi-arabia-after-projectile-falls-on-residential-building?traffic_source=rss",
+          "domain": "aljazeera.com",
+          "tier": "wire"
+        }
+      ],
+      "confidence": "medium"
+    },
     {
       "id": "4561347148ae",
       "datetime": "2026-03-08T16:37:15Z",
@@ -22,6 +41,25 @@
       "confidence": "low"
     },
     {
+      "id": "ea4d033292de",
+      "datetime": "2026-03-08T16:21:10Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "city",
+      "title": "Abu Dhabi activates Unified Medical Operations Command Centre",
+      "location": "Abu Dhabi",
+      "lat": 24.4539,
+      "lon": 54.3773,
+      "sources": [
+        {
+          "url": "https://gulfnews.com/uae/sheikh-khaled-reviews-emergency-readiness-response-ecosystem-at-unified-medical-operations-command-centre-in-abu-dhabi-1.500467685",
+          "domain": "gulfnews.com",
+          "tier": "local"
+        }
+      ],
+      "confidence": "low"
+    },
+    {
       "id": "8827bb36101b",
       "datetime": "2026-03-08T15:40:04Z",
       "type": "interception",
@@ -35,6 +73,25 @@
         {
           "url": "https://gulfnews.com/uae/video-air-defences-intercept-iranian-drones-targeting-uae-1.500467671",
           "domain": "gulfnews.com",
+          "tier": "local"
+        }
+      ],
+      "confidence": "low"
+    },
+    {
+      "id": "e35b9e1270e8",
+      "datetime": "2026-03-08T14:52:37Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "UAE: defensive measures against Iran will be 'public and clear'",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.thenationalnews.com/news/uae/2026/03/08/any-defensive-measures-by-uae-against-iran-will-be-made-public-and-clear-says-senior-official/",
+          "domain": "thenationalnews.com",
           "tier": "local"
         }
       ],
@@ -451,7 +508,7 @@
       "type": "security_alert",
       "confirmed": false,
       "precision": "exact",
-      "title": "Dubai officials deny reports of incident at Dubai Airport",
+      "title": "Dubai Airport officials deny reports of security incident",
       "location": "Dubai",
       "lat": 25.2528,
       "lon": 55.3644,
