@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-08T04:06:00Z",
+  "last_updated": "2026-03-08T04:26:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -51,7 +51,7 @@
       "id": "h8i9j0k1l2m3",
       "datetime": "2026-03-07T20:30:00Z",
       "type": "impact_minor",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "district",
       "title": "Interception debris hits 23 Marina Tower — facade fire, 1 killed in Barsha",
       "location": "Dubai Marina / Barsha",
@@ -75,7 +75,7 @@
       "id": "i9j0k1l2m3n4",
       "datetime": "2026-03-08T01:00:00Z",
       "type": "impact_minor",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "exact",
       "title": "Drone explodes near DXB Concourse A — second suspension of flights",
       "location": "Dubai International Airport",
