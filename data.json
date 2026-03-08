@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-08T19:51:00Z",
+  "last_updated": "2026-03-08T20:00:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -41,44 +41,6 @@
       "confidence": "medium"
     },
     {
-      "id": "a809a8561c10",
-      "datetime": "2026-03-08T17:39:31Z",
-      "type": "security_alert",
-      "confirmed": true,
-      "precision": "country",
-      "title": "Iran threatens retaliatory strikes on Gulf oil facilities",
-      "location": "Gulf",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.theguardian.com/world/2026/mar/08/iran-new-supreme-leader-selected-says-deciding-body",
-          "domain": "theguardian.com",
-          "tier": "wire"
-        }
-      ],
-      "confidence": "medium"
-    },
-    {
-      "id": "fa1b2863e5fb",
-      "datetime": "2026-03-08T17:36:56Z",
-      "type": "security_alert",
-      "confirmed": false,
-      "precision": "country",
-      "title": "Iran military warns will target Gulf oil sites if Israel hits energy infrastructure",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-military-warns-will-target-regions-oil-sites-if-israel-hits-energy",
-          "domain": "middleeasteye.net",
-          "tier": "local"
-        }
-      ],
-      "confidence": "low"
-    },
-    {
       "id": "727fce5f02f1",
       "datetime": "2026-03-08T16:42:08Z",
       "type": "security_alert",
@@ -110,25 +72,6 @@
       "sources": [
         {
           "url": "https://gulfnews.com/uae/government/sharjah-civil-defence-authority-on-round-the-clock-alert-to-ensure-public-safety-1.500467719",
-          "domain": "gulfnews.com",
-          "tier": "local"
-        }
-      ],
-      "confidence": "low"
-    },
-    {
-      "id": "ea4d033292de",
-      "datetime": "2026-03-08T16:21:10Z",
-      "type": "security_alert",
-      "confirmed": false,
-      "precision": "city",
-      "title": "Abu Dhabi activates emergency Unified Medical Operations Command Centre",
-      "location": "Abu Dhabi",
-      "lat": 24.4539,
-      "lon": 54.3773,
-      "sources": [
-        {
-          "url": "https://gulfnews.com/uae/sheikh-khaled-reviews-emergency-readiness-response-ecosystem-at-unified-medical-operations-command-centre-in-abu-dhabi-1.500467685",
           "domain": "gulfnews.com",
           "tier": "local"
         }
@@ -392,25 +335,6 @@
       "location": "Dubai International Airport",
       "lat": 25.2528,
       "lon": 55.3644,
-      "sources": [
-        {
-          "url": "https://www.thenationalnews.com/travel/2026/03/03/uae-flight-updates-cancellations-iran/",
-          "domain": "thenationalnews.com",
-          "tier": "local"
-        }
-      ],
-      "confidence": "low"
-    },
-    {
-      "id": "ff455d861e6e",
-      "datetime": "2026-03-08T05:53:17Z",
-      "type": "security_alert",
-      "confirmed": false,
-      "precision": "country",
-      "title": "Emirates and Etihad operating on reduced flight schedule",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
       "sources": [
         {
           "url": "https://www.thenationalnews.com/travel/2026/03/03/uae-flight-updates-cancellations-iran/",
