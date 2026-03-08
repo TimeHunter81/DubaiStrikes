@@ -1,102 +1,7 @@
 {
-  "last_updated": "2026-03-08T20:56:08Z",
+  "last_updated": "2026-03-08T21:04:53Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
-    {
-      "id": "49e99496af78",
-      "datetime": "2026-03-08T20:36:33Z",
-      "type": "interception",
-      "confirmed": false,
-      "precision": "country",
-      "title": "Saudi Arabia intercepts 2 drones targeting Prince Sultan Air Base",
-      "location": "Saudi Arabia",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/saudi-arabia-says-two-drones-intercepted-north-riyadh",
-          "domain": "middleeasteye.net",
-          "tier": "local"
-        }
-      ],
-      "confidence": "low"
-    },
-    {
-      "id": "6bc1d9bf8372",
-      "datetime": "2026-03-08T20:21:13Z",
-      "type": "impact_major",
-      "confirmed": false,
-      "precision": "country",
-      "title": "Iran claims missile strikes on Tel Aviv, Negev and US Gulf bases",
-      "location": "Israel / Gulf Region",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-says-targeted-tel-aviv-negev-desert-israel-us-bases-region",
-          "domain": "middleeasteye.net",
-          "tier": "local"
-        }
-      ],
-      "confidence": "low"
-    },
-    {
-      "id": "683afe804679",
-      "datetime": "2026-03-08T18:56:10Z",
-      "type": "security_alert",
-      "confirmed": false,
-      "precision": "country",
-      "title": "US troop death toll in Iran conflict rises to seven",
-      "location": "Gulf Region / US Forces",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.aljazeera.com/news/2026/3/8/trump-vows-control-over-iran-leaders-as-officials-seek-to-calm-oil-concerns?traffic_source=rss",
-          "domain": "aljazeera.com",
-          "tier": "wire"
-        }
-      ],
-      "confidence": "medium"
-    },
-    {
-      "id": "784d0aad18fe",
-      "datetime": "2026-03-08T18:09:59Z",
-      "type": "interception",
-      "confirmed": false,
-      "precision": "country",
-      "title": "UK forces intercept Iranian drone fired toward Iraq",
-      "location": "Iraq / Gulf Region",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/uk-forces-successfully-engage-drone-fired-iran-towards-iraq",
-          "domain": "middleeasteye.net",
-          "tier": "local"
-        }
-      ],
-      "confidence": "low"
-    },
-    {
-      "id": "a77ca758b667",
-      "datetime": "2026-03-08T18:02:44Z",
-      "type": "impact_minor",
-      "confirmed": false,
-      "precision": "country",
-      "title": "Two killed by projectile strike on Saudi residential building",
-      "location": "Saudi Arabia",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.aljazeera.com/news/2026/3/8/two-killed-in-saudi-arabia-after-projectile-falls-on-residential-building?traffic_source=rss",
-          "domain": "aljazeera.com",
-          "tier": "wire"
-        }
-      ],
-      "confidence": "medium"
-    },
     {
       "id": "a809a8561c10",
       "datetime": "2026-03-08T17:39:31Z",
@@ -115,25 +20,6 @@
         }
       ],
       "confidence": "medium"
-    },
-    {
-      "id": "727fce5f02f1",
-      "datetime": "2026-03-08T16:42:08Z",
-      "type": "security_alert",
-      "confirmed": false,
-      "precision": "country",
-      "title": "Strait of Hormuz blockade — Iraqi oil production collapses",
-      "location": "Strait of Hormuz",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iraqi-oil-production-collapses-hormuz-still-blocked-us-iran-war-sources",
-          "domain": "middleeasteye.net",
-          "tier": "local"
-        }
-      ],
-      "confidence": "low"
     },
     {
       "id": "4561347148ae",
@@ -174,63 +60,6 @@
       "confidence": "low"
     },
     {
-      "id": "c8e2959e522e",
-      "datetime": "2026-03-08T15:35:57Z",
-      "type": "impact_major",
-      "confirmed": false,
-      "precision": "country",
-      "title": "IRGC claims 4 US anti-missile defence systems destroyed in Gulf",
-      "location": "Gulf (US bases)",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/irgc-says-it-destroyed-4-us-anti-missile-defence-systems",
-          "domain": "middleeasteye.net",
-          "tier": "local"
-        }
-      ],
-      "confidence": "low"
-    },
-    {
-      "id": "e35b9e1270e8",
-      "datetime": "2026-03-08T14:52:37Z",
-      "type": "security_alert",
-      "confirmed": false,
-      "precision": "country",
-      "title": "UAE official: any defensive measures against Iran will be announced publicly",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.thenationalnews.com/news/uae/2026/03/08/any-defensive-measures-by-uae-against-iran-will-be-made-public-and-clear-says-senior-official/",
-          "domain": "thenationalnews.com",
-          "tier": "local"
-        }
-      ],
-      "confidence": "low"
-    },
-    {
-      "id": "3fb6c6379727",
-      "datetime": "2026-03-08T12:48:18Z",
-      "type": "impact_major",
-      "confirmed": false,
-      "precision": "country",
-      "title": "Iran strikes Kuwait airport and Bahrain desalination plant",
-      "location": "Kuwait / Bahrain",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://gulfnews.com/world/mena/kuwait-airport-bahrain-desalination-plant-hit-as-iran-strikesgukf-infrastructure-1.500467526",
-          "domain": "gulfnews.com",
-          "tier": "local"
-        }
-      ],
-      "confidence": "low"
-    },
-    {
       "id": "303a1fd3cd03",
       "datetime": "2026-03-08T12:27:39Z",
       "type": "security_alert",
@@ -243,25 +72,6 @@
       "sources": [
         {
           "url": "https://gulfnews.com/uae/uae-issues-alert-in-abu-dhabi-as-it-conducts-defence-ops-1.500467520",
-          "domain": "gulfnews.com",
-          "tier": "local"
-        }
-      ],
-      "confidence": "low"
-    },
-    {
-      "id": "d6ff6697c2a3",
-      "datetime": "2026-03-08T11:24:24Z",
-      "type": "interception",
-      "confirmed": false,
-      "precision": "country",
-      "title": "Bahrain intercepts 95 missiles and 164 Iranian drones",
-      "location": "Bahrain",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://gulfnews.com/world/gulf/bahrain/bahrain-intercepts-95-missiles-164-drones-from-iranian-attacks-1.500467457",
           "domain": "gulfnews.com",
           "tier": "local"
         }
@@ -288,25 +98,6 @@
       "confidence": "low"
     },
     {
-      "id": "5f218884ec31",
-      "datetime": "2026-03-08T10:17:02Z",
-      "type": "impact_major",
-      "confirmed": false,
-      "precision": "country",
-      "title": "Bahrain desalination plant damaged in Iranian drone attack",
-      "location": "Bahrain",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.aljazeera.com/news/2026/3/8/bahrain-says-water-desalination-plant-damaged-in-iranian-drone-attack?traffic_source=rss",
-          "domain": "aljazeera.com",
-          "tier": "wire"
-        }
-      ],
-      "confidence": "medium"
-    },
-    {
       "id": "0ed90e64b583",
       "datetime": "2026-03-08T08:02:57Z",
       "type": "impact_minor",
@@ -326,31 +117,12 @@
       "confidence": "low"
     },
     {
-      "id": "d02fccae3eae",
-      "datetime": "2026-03-08T07:13:17Z",
-      "type": "impact_minor",
-      "confirmed": false,
-      "precision": "country",
-      "title": "Iranian drone strikes radar tower at US military base in Gulf",
-      "location": "Gulf (US base)",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/video-iranian-attack-drone-hitting-radar-tower-us-base-gulf",
-          "domain": "middleeasteye.net",
-          "tier": "local"
-        }
-      ],
-      "confidence": "low"
-    },
-    {
       "id": "27aad1c968ef",
       "datetime": "2026-03-08T06:58:53Z",
       "type": "security_alert",
       "confirmed": false,
       "precision": "country",
-      "title": "UAE missile threat emergency alert issued — all-clear follows",
+      "title": "UAE missile threat emergency alert — all-clear issued",
       "location": "UAE",
       "lat": null,
       "lon": null,
@@ -421,44 +193,6 @@
       "confidence": "low"
     },
     {
-      "id": "b66cdc778de7",
-      "datetime": "2026-03-08T05:26:30Z",
-      "type": "impact_minor",
-      "confirmed": false,
-      "precision": "city",
-      "title": "Iranian drone strikes Kuwait Social Security HQ, starts fire",
-      "location": "Kuwait City",
-      "lat": 29.3759,
-      "lon": 47.9774,
-      "sources": [
-        {
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/video-drone-strike-sets-kuwait-social-security-headquarters-ablaze",
-          "domain": "middleeasteye.net",
-          "tier": "local"
-        }
-      ],
-      "confidence": "low"
-    },
-    {
-      "id": "a85a558f2931",
-      "datetime": "2026-03-08T00:42:48Z",
-      "type": "impact_major",
-      "confirmed": true,
-      "precision": "city",
-      "title": "Tehran oil depots ablaze after US-Israel air strikes — BBC",
-      "location": "Tehran, Iran",
-      "lat": 35.6892,
-      "lon": 51.389,
-      "sources": [
-        {
-          "url": "https://www.bbc.com/news/videos/c7vj9redqz2o?at_medium=RSS&amp;at_campaign=rss",
-          "domain": "bbc.com",
-          "tier": "wire"
-        }
-      ],
-      "confidence": "medium"
-    },
-    {
       "id": "0dba65fbfcb8",
       "datetime": "2026-03-07T17:45:50Z",
       "type": "security_alert",
@@ -527,8 +261,8 @@
       "datetime": "2026-03-07T09:31:28Z",
       "type": "impact_minor",
       "confirmed": true,
-      "precision": "city",
-      "title": "Moment of drone strike close to Dubai Airport — BBC video",
+      "precision": "exact",
+      "title": "Drone strike near Dubai Airport — BBC video report",
       "location": "Dubai (near airport)",
       "lat": 25.2528,
       "lon": 55.3644,
@@ -566,7 +300,7 @@
       "type": "security_alert",
       "confirmed": false,
       "precision": "country",
-      "title": "Iran's President orders halt to Gulf attacks; authority to enforce unclear",
+      "title": "Iran orders halt to Gulf attacks — authority to enforce unclear",
       "location": "Gulf Region",
       "lat": null,
       "lon": null,
@@ -585,32 +319,13 @@
       "type": "impact_minor",
       "confirmed": false,
       "precision": "city",
-      "title": "Motorist killed by falling interception debris in Dubai",
+      "title": "Motorist killed by interception debris in Dubai",
       "location": "Dubai",
       "lat": 25.2048,
       "lon": 55.2708,
       "sources": [
         {
           "url": "https://www.thenationalnews.com/news/uae/2026/03/07/uae-defences-iran-missile-attacks/",
-          "domain": "thenationalnews.com",
-          "tier": "local"
-        }
-      ],
-      "confidence": "low"
-    },
-    {
-      "id": "792edde270e4",
-      "datetime": "2026-03-07T06:06:04Z",
-      "type": "interception",
-      "confirmed": false,
-      "precision": "country",
-      "title": "Saudi Arabia foils 3 Iranian drone attacks on oil field near UAE border",
-      "location": "Saudi Arabia (near UAE border)",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.thenationalnews.com/news/gulf/2026/03/07/saudi-arabia-foils-three-iranian-drone-attacks-on-oil-field-near-uae-border/",
           "domain": "thenationalnews.com",
           "tier": "local"
         }
@@ -634,44 +349,6 @@
         }
       ],
       "_manual": true
-    },
-    {
-      "id": "8877a1feec4f",
-      "datetime": "2026-03-07T05:45:39Z",
-      "type": "security_alert",
-      "confirmed": false,
-      "precision": "city",
-      "title": "Dubai officials deny reports of incident at airport",
-      "location": "Dubai",
-      "lat": 25.2048,
-      "lon": 55.2708,
-      "sources": [
-        {
-          "url": "https://www.thenationalnews.com/news/uae/2026/03/07/dubai-officials-deny-reports-of-incident-at-airport/",
-          "domain": "thenationalnews.com",
-          "tier": "local"
-        }
-      ],
-      "confidence": "low"
-    },
-    {
-      "id": "4fca62fe1f65",
-      "datetime": "2026-03-07T05:18:35Z",
-      "type": "security_alert",
-      "confirmed": false,
-      "precision": "country",
-      "title": "UAE President visits survivors of Iranian attacks in hospital",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.thenationalnews.com/news/uae/2026/03/07/president-sheikh-mohamed-visits-survivors-of-iranian-attacks-in-hospital/",
-          "domain": "thenationalnews.com",
-          "tier": "local"
-        }
-      ],
-      "confidence": "low"
     },
     {
       "id": "c3d4e5f6a1b2",
