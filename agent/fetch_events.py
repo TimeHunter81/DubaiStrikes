@@ -127,7 +127,7 @@ LOCATION_COORDS = {
 
 
 # ── HELPERS ─────────────────────────────────────────────────────────────────
-def http_get(url: str, timeout: int = 15, retries: int = 3) -> bytes:
+def http_get(url: str, timeout: int = 15, retries: int = 3, skip_on_429: bool = False) -> bytes:
     """GET with retry + exponential backoff."""
     for attempt in range(retries):
         try:
@@ -136,6 +136,8 @@ def http_get(url: str, timeout: int = 15, retries: int = 3) -> bytes:
                 return resp.read()
         except HTTPError as e:
             if e.code == 429:
+                if skip_on_429:
+                    raise  # caller handles it, no wait
                 wait = 30 * (2 ** attempt)
                 print(f"  [rate-limit] 429, waiting {wait}s", file=sys.stderr)
                 time.sleep(wait)
@@ -363,8 +365,15 @@ def fetch_gdelt(query: str, max_records: int = 50) -> list:
     }
     url = f"{GDELT_API}?{urlencode(params)}"
     try:
-        data = json.loads(http_get(url))
+        # skip_on_429: no wait/retry — rate-limit backoff kills the cron timeout
+        data = json.loads(http_get(url, skip_on_429=True))
         return data.get("articles", [])
+    except HTTPError as e:
+        if e.code == 429:
+            print(f"[GDELT] Rate-limited for '{query}' — skipping", file=sys.stderr)
+        else:
+            print(f"[GDELT] HTTP {e.code} for '{query}'", file=sys.stderr)
+        return []
     except Exception as e:
         print(f"[GDELT] Error for '{query}': {e}", file=sys.stderr)
         return []
@@ -637,7 +646,7 @@ def main():
             arts = fetch_gdelt(query)
             print(f"  → {len(arts)} articles")
             all_articles.extend(arts)
-            time.sleep(5)
+            time.sleep(1)  # GDELT allows ~1req/s burst
         gdelt_events = cluster_articles(all_articles)
         print(f"[GDELT] → {len(gdelt_events)} events from {len(all_articles)} articles")
         all_new_events.extend(gdelt_events)
