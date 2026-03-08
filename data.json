@@ -1,64 +1,82 @@
 {
-  "last_updated": "2026-03-08T01:46:00Z",
+  "last_updated": "2026-03-08T02:07:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
-      "id": "5967d64bdbc2",
-      "datetime": "2026-03-07T23:55:00Z",
+      "id": "25cb1f7fffb0",
+      "datetime": "2026-03-08T01:47:46Z",
       "type": "impact_minor",
       "confirmed": false,
       "precision": "neighborhood",
-      "title": "Interception debris damages tower facade in Dubai Marina",
+      "title": "Dubai Marina tower hit by aerial interception debris",
       "location": "Dubai Marina",
       "lat": 25.0819,
       "lon": 55.1367,
       "sources": [
         {
-          "url": "https://timesofindia.indiatimes.com/world/middle-east/us-israel-iran-war-news-live-udates-middle-east-crisis-conflict-drone-ballistic-missile-attacks-explosions-flights-status-dubai-uae-qatar-tehran-gulf-donald-trump-netanyahu-khamenei/liveblog/129190174.cms",
-          "domain": "timesofindia.com",
-          "tier": "wire"
+          "url": "https://timesofindia.indiatimes.com/world/middle-east/explosion-scare-in-dubai-marina-uae-emirate-confirms-tower-hit-by-falling-debris-from-aerial-interception-amid-iran-and-us-israel-clashes/articleshow/129241550.cms",
+          "domain": "timesofindia.indiatimes.com",
+          "tier": "unverified"
         }
       ],
-      "confidence": "medium"
+      "confidence": "low"
     },
     {
-      "id": "9cc7b005495d",
-      "datetime": "2026-03-07T19:49:46Z",
+      "id": "8602099a7b5b",
+      "datetime": "2026-03-08T01:47:46Z",
       "type": "impact_minor",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "city",
-      "title": "Smoke rises from Dubai tower after attack",
+      "title": "Drone debris kills Pakistani man in Dubai",
       "location": "Dubai",
       "lat": 25.2048,
       "lon": 55.2708,
       "sources": [
         {
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/3/7/smoke-rises-from-a-dubai-tower-after?traffic_source=rss",
-          "domain": "aljazeera.com",
-          "tier": "wire"
+          "url": "http://www.jpost.com/middle-east/article-889170",
+          "domain": "jpost.com",
+          "tier": "unverified"
         }
       ],
-      "confidence": "medium"
+      "confidence": "low"
     },
     {
-      "id": "b8c9d0e1f2a3",
-      "datetime": "2026-03-07T13:30:00Z",
-      "type": "impact_minor",
-      "confirmed": true,
+      "id": "b84e2dd1ed61",
+      "datetime": "2026-03-08T01:47:46Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "exact",
+      "title": "Dubai International Airport suspends flight operations",
+      "location": "Dubai International Airport",
+      "lat": 25.2528,
+      "lon": 55.3644,
+      "sources": [
+        {
+          "url": "https://www.tdg.ch/direct-iran-laeroport-de-dubai-suspend-ses-operations-295049542448",
+          "domain": "tdg.ch",
+          "tier": "unverified"
+        }
+      ],
+      "confidence": "low"
+    },
+    {
+      "id": "a2d0a389270b",
+      "datetime": "2026-03-08T01:47:46Z",
+      "type": "security_alert",
+      "confirmed": false,
       "precision": "city",
-      "title": "Pakistani driver killed in Dubai — interception debris hits car",
+      "title": "Dubai residents advised to avoid open areas amid missile threat",
       "location": "Dubai",
       "lat": 25.2048,
       "lon": 55.2708,
       "sources": [
         {
-          "url": "https://www.hindustantimes.com/world-news/dubai-abu-dhabi-uae-war-news-live-updates-us-iran-israel-attack-flight-status-missile-alert-explosion-strikes-qatar-101772845653054.html",
-          "domain": "hindustantimes.com",
-          "tier": "wire",
-          "note": "cites Dubai Media Office (official UAE)"
+          "url": "https://www.freepressjournal.in/world/usiranisrael-war-dubai-residents-asked-to-avoid-open-areas-get-phone-alerts-for-possible-missile-attack",
+          "domain": "freepressjournal.in",
+          "tier": "unverified"
         }
       ],
-      "confidence": "high"
+      "confidence": "low"
     },
     {
       "id": "a1b2c3d4e5f6",
@@ -104,25 +122,6 @@
       ],
       "confidence": "high",
       "_manual": true
-    },
-    {
-      "id": "97a82a1740b4",
-      "datetime": "2026-03-06T12:30:45Z",
-      "type": "interception",
-      "confirmed": false,
-      "precision": "country",
-      "title": "UAE destroys 9 ballistic missiles and 109 drones in new Iranian wave",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.thenationalnews.com/news/uae/2026/03/06/uae-iran-missile-strikes/",
-          "domain": "thenationalnews.com",
-          "tier": "local"
-        }
-      ],
-      "confidence": "low"
     },
     {
       "id": "g1h2i3j4k5l6",
