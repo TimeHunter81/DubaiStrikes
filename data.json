@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-03-08T00:38:00Z",
+  "last_updated": "2026-03-08T00:46:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
       "id": "5967d64bdbc2",
       "datetime": "2026-03-07T23:55:00Z",
       "type": "impact_minor",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "neighborhood",
       "title": "Interception debris damages tower facade in Dubai Marina",
       "location": "Dubai Marina",
