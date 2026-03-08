@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-08T22:02:00Z",
+  "last_updated": "2026-03-08T22:11:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -98,6 +98,25 @@
       "confidence": "low"
     },
     {
+      "id": "cdb45e875770",
+      "datetime": "2026-03-07T09:25:28Z",
+      "type": "impact_minor",
+      "confirmed": true,
+      "precision": "exact",
+      "title": "Drone strike near Dubai Airport — BBC confirms",
+      "location": "Dubai (near airport)",
+      "lat": 25.2528,
+      "lon": 55.3644,
+      "sources": [
+        {
+          "url": "https://www.bbc.com/news/videos/c5yr734zml3o?at_medium=RSS&at_campaign=rss",
+          "domain": "bbc.com",
+          "tier": "wire"
+        }
+      ],
+      "confidence": "medium"
+    },
+    {
       "id": "a1b2c3d4e5f6",
       "datetime": "2026-03-07T12:30:00Z",
       "type": "interception",
@@ -141,25 +160,6 @@
       ],
       "confidence": "high",
       "_manual": true
-    },
-    {
-      "id": "cdb45e875770",
-      "datetime": "2026-03-07T09:25:28Z",
-      "type": "impact_minor",
-      "confirmed": true,
-      "precision": "exact",
-      "title": "Drone strike near Dubai Airport — BBC confirms",
-      "location": "Dubai (near airport)",
-      "lat": 25.2528,
-      "lon": 55.3644,
-      "sources": [
-        {
-          "url": "https://www.bbc.com/news/videos/c5yr734zml3o?at_medium=RSS&at_campaign=rss",
-          "domain": "bbc.com",
-          "tier": "wire"
-        }
-      ],
-      "confidence": "medium"
     },
     {
       "id": "g1h2i3j4k5l6",
