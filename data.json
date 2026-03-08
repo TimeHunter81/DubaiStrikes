@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-08T17:12:00Z",
+  "last_updated": "2026-03-08T17:45:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -15,25 +15,6 @@
       "sources": [
         {
           "url": "https://gulfnews.com/uae/government/sharjah-civil-defence-authority-on-round-the-clock-alert-to-ensure-public-safety-1.500467719",
-          "domain": "gulfnews.com",
-          "tier": "local"
-        }
-      ],
-      "confidence": "low"
-    },
-    {
-      "id": "ea4d033292de",
-      "datetime": "2026-03-08T16:21:10Z",
-      "type": "security_alert",
-      "confirmed": false,
-      "precision": "city",
-      "title": "Sheikh Khaled inspects UAE emergency readiness at Medical Ops Centre",
-      "location": "Abu Dhabi",
-      "lat": 24.4539,
-      "lon": 54.3773,
-      "sources": [
-        {
-          "url": "https://gulfnews.com/uae/sheikh-khaled-reviews-emergency-readiness-response-ecosystem-at-unified-medical-operations-command-centre-in-abu-dhabi-1.500467685",
           "domain": "gulfnews.com",
           "tier": "local"
         }
@@ -100,11 +81,11 @@
     {
       "id": "9aa12cb72e11",
       "datetime": "2026-03-08T11:40:47Z",
-      "type": "impact_major",
+      "type": "security_alert",
       "confirmed": false,
       "precision": "country",
-      "title": "Unconfirmed: UAE struck Iranian desalination facility — UAE denies",
-      "location": "UAE",
+      "title": "Israeli media claim UAE struck Iranian desalination facility — denied by UAE",
+      "location": "Uae",
       "lat": null,
       "lon": null,
       "sources": [
@@ -198,7 +179,7 @@
       "type": "impact_major",
       "confirmed": false,
       "precision": "country",
-      "title": "Iranian drone strikes radar tower at US Gulf base",
+      "title": "Iranian drone strikes radar tower at US base in Gulf",
       "location": "Gulf (US base)",
       "lat": null,
       "lon": null,
@@ -217,7 +198,7 @@
       "type": "security_alert",
       "confirmed": false,
       "precision": "country",
-      "title": "UAE issues missile threat emergency alert — all-clear follows",
+      "title": "UAE missile threat emergency alert issued — all-clear follows",
       "location": "UAE",
       "lat": null,
       "lon": null,
@@ -255,7 +236,7 @@
       "type": "security_alert",
       "confirmed": false,
       "precision": "country",
-      "title": "UAE declares state of defence in response to Iranian attacks",
+      "title": "UAE declares state of defence against Iranian attacks",
       "location": "UAE",
       "lat": null,
       "lon": null,
