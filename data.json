@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-08T23:48:22Z",
+  "last_updated": "2026-03-08T23:57:07Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -143,7 +143,7 @@
       "type": "security_alert",
       "confirmed": false,
       "precision": "city",
-      "title": "Abu Dhabi residents urged to shelter during Iran strikes",
+      "title": "Abu Dhabi residents urged to shelter during active Iran strikes",
       "location": "Abu Dhabi",
       "lat": 24.4539,
       "lon": 54.3773,
