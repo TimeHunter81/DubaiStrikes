@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-08T19:25:00Z",
+  "last_updated": "2026-03-08T19:30:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -9,7 +9,7 @@
       "confirmed": false,
       "precision": "country",
       "title": "UK forces intercept Iranian drone over Iraq",
-      "location": "Iraq/Iran border",
+      "location": "Iraq",
       "lat": null,
       "lon": null,
       "sources": [
@@ -35,25 +35,6 @@
         {
           "url": "https://www.aljazeera.com/news/2026/3/8/two-killed-in-saudi-arabia-after-projectile-falls-on-residential-building?traffic_source=rss",
           "domain": "aljazeera.com",
-          "tier": "wire"
-        }
-      ],
-      "confidence": "medium"
-    },
-    {
-      "id": "a809a8561c10",
-      "datetime": "2026-03-08T17:39:31Z",
-      "type": "security_alert",
-      "confirmed": true,
-      "precision": "country",
-      "title": "Iran threatens Gulf oil facilities retaliation after Israeli strikes",
-      "location": "Gulf Region",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.theguardian.com/world/2026/mar/08/iran-new-supreme-leader-selected-says-deciding-body",
-          "domain": "theguardian.com",
           "tier": "wire"
         }
       ],
@@ -138,7 +119,7 @@
     {
       "id": "c8e2959e522e",
       "datetime": "2026-03-08T15:35:57Z",
-      "type": "security_alert",
+      "type": "impact_major",
       "confirmed": false,
       "precision": "country",
       "title": "IRGC claims 4 US anti-missile systems destroyed in Gulf",
@@ -148,6 +129,25 @@
       "sources": [
         {
           "url": "https://www.middleeasteye.net/live-blog/live-blog-update/irgc-says-it-destroyed-4-us-anti-missile-defence-systems",
+          "domain": "middleeasteye.net",
+          "tier": "local"
+        }
+      ],
+      "confidence": "low"
+    },
+    {
+      "id": "ef3331a0e8d8",
+      "datetime": "2026-03-08T14:50:09Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "US military orders Iranian civilians to stay indoors",
+      "location": "Iran",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/us-military-orders-iranian-civilians-stay-indoors",
           "domain": "middleeasteye.net",
           "tier": "local"
         }
