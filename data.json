@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-08T02:36:00Z",
+  "last_updated": "2026-03-08T02:46:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -24,10 +24,10 @@
     {
       "id": "8602099a7b5b",
       "datetime": "2026-03-08T01:47:46Z",
-      "type": "impact_minor",
+      "type": "impact_major",
       "confirmed": false,
       "precision": "city",
-      "title": "Drone debris kills Pakistani man in Dubai",
+      "title": "Drone debris kills Pakistani man in Dubai — 1 fatality",
       "location": "Dubai",
       "lat": 25.2048,
       "lon": 55.2708,
