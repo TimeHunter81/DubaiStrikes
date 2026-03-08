@@ -560,9 +560,9 @@
   if (_sParam) {
     try { _parsedShortState = JSON.parse(LZString.decompressFromEncodedURIComponent(_sParam)); } catch(e) {}
   }
-  const _initLat  = _parsedShortState?.lat ?? parseFloat(_urlP.get('lat'))  || DEFAULT_LAT;
-  const _initLon  = _parsedShortState?.lon ?? parseFloat(_urlP.get('lon'))  || DEFAULT_LON;
-  const _initZoom = _parsedShortState?.z   ?? parseInt(_urlP.get('z'))       || DEFAULT_ZOOM;
+  const _initLat  = (_parsedShortState?.lat ?? parseFloat(_urlP.get('lat')))  || DEFAULT_LAT;
+  const _initLon  = (_parsedShortState?.lon ?? parseFloat(_urlP.get('lon')))  || DEFAULT_LON;
+  const _initZoom = (_parsedShortState?.z   ?? parseInt(_urlP.get('z')))       || DEFAULT_ZOOM;
   const map = L.map('map', { zoomControl: false }).setView([_initLat, _initLon], _initZoom);
   L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
     attribution: '© <a href="https://www.openstreetmap.org/copyright">OSM</a> contributors © <a href="https://carto.com/attributions">CARTO</a>',
