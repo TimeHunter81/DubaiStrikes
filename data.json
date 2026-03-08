@@ -141,7 +141,7 @@
       "id": "930fd0403ff4",
       "datetime": "2026-03-08T06:25:37Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "Abu Dhabi residents urged to shelter during Iran strikes",
       "location": "Abu Dhabi",
@@ -155,8 +155,8 @@
         }
       ],
       "confidence": "low",
-      "_search_count": 2,
-      "_next_search_at": 1772972737.0
+      "_search_count": 3,
+      "_next_search_at": 1773037537.0
     },
     {
       "id": "a1b2c3d4e5f6",
