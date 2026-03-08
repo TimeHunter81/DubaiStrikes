@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-07T23:57:00Z",
+  "last_updated": "2026-03-08T00:06:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -46,7 +46,7 @@
       "type": "security_alert",
       "confirmed": false,
       "precision": "exact",
-      "title": "Dubai airport flight operations suspended again — Mar 7 Iranian attack",
+      "title": "Dubai airport flight operations suspended — Mar 7 Iranian attack",
       "location": "Dubai International Airport",
       "lat": 25.2528,
       "lon": 55.3644,
