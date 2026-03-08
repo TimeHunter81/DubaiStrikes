@@ -4,11 +4,16 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Dubai Strike Monitor</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23ef3340' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z'/%3E%3C/svg%3E" />
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 
     * { margin: 0; padding: 0; box-sizing: border-box; }
+    .ic { width: 13px; height: 13px; display: inline-block; vertical-align: middle; flex-shrink: 0; }
+    .ic-sm { width: 11px; height: 11px; }
+    .ic-md { width: 15px; height: 15px; }
+
     body {
       font-family: 'Inter', 'Segoe UI', system-ui, sans-serif;
       background: #070a10;
@@ -436,7 +441,7 @@
 
       </div>
       <div id="share-btn-row">
-        <button id="share-btn" onclick="doShare(true, true)">
+        <button id="share-btn" onclick="doShare(true, true)" style="display:flex;align-items:center;gap:5px">
           <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="15" cy="4" r="1.8"/><circle cx="15" cy="16" r="1.8"/><circle cx="5" cy="10" r="1.8"/><line x1="13.3" y1="4.9" x2="6.7" y2="9.1"/><line x1="6.7" y1="10.9" x2="13.3" y2="15.1"/></svg>
           Share
         </button>
@@ -463,14 +468,14 @@
     <div id="filters">
       <div id="filters-type">
         <button class="filter-btn active" data-type="all">All</button>
-        <button class="filter-btn" data-type="interception">🛡 Intercept</button>
-        <button class="filter-btn" data-type="impact_major">💥 Major</button>
-        <button class="filter-btn" data-type="impact_minor">🔸 Debris</button>
-        <button class="filter-btn" data-type="security_alert">🚨 Alert</button>
+        <button class="filter-btn" data-type="interception"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"/></svg> Intercept</button>
+        <button class="filter-btn" data-type="impact_major"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"/></svg> Major</button>
+        <button class="filter-btn" data-type="impact_minor"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg> Debris</button>
+        <button class="filter-btn" data-type="security_alert"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9"/><path d="M10.3 21a1.94 1.94 0 0 0 3.4 0"/></svg> Alert</button>
       </div>
       <div id="filters-conf" style="display:none">
-        <button class="filter-btn active" data-conf="confirmed">✅ Confirmed</button>
-        <button class="filter-btn active" data-conf="suspected">❓ Suspected</button>
+        <button class="filter-btn active" data-conf="confirmed"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><path d="m9 11 3 3L22 4"/></svg> Confirmed</button>
+        <button class="filter-btn active" data-conf="suspected"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><path d="M12 17h.01"/></svg> Suspected</button>
       </div>
     </div>
 
@@ -478,7 +483,7 @@
     <!-- MY LOCATIONS -->
     <div id="locations-section">
       <div id="locations-header" onclick="toggleLocations()">
-        <span>📍 My locations <span id="loc-count"></span></span>
+        <span><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"/><circle cx="12" cy="10" r="3"/></svg> My locations <span id="loc-count"></span></span>
         <span id="loc-toggle">▼</span>
       </div>
       <div id="locations-body">
@@ -541,10 +546,10 @@
 
   // ─── CONSTANTS ─────────────────────────────────────────────────────────
   const TYPE_META = {
-    interception:   { label: '🛡 Interception',  cls: 'badge-interception',   mc: 'cm-interception'  },
-    impact_minor:   { label: '🔸 Debris',         cls: 'badge-impact_minor',   mc: 'cm-impact_minor'  },
-    impact_major:   { label: '💥 Major impact',   cls: 'badge-impact_major',   mc: 'cm-impact_major'  },
-    security_alert: { label: '🚨 Security alert', cls: 'badge-security_alert', mc: 'cm-security_alert'},
+    interception:   { label: '<svg class="ic ic-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"/></svg> Interception', cls: 'badge-interception',   mc: 'cm-interception'  },
+    impact_minor:   { label: '<svg class="ic ic-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg> Debris', cls: 'badge-impact_minor',   mc: 'cm-impact_minor'  },
+    impact_major:   { label: '<svg class="ic ic-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"/></svg> Major impact', cls: 'badge-impact_major',   mc: 'cm-impact_major'  },
+    security_alert: { label: '<svg class="ic ic-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9"/><path d="M10.3 21a1.94 1.94 0 0 0 3.4 0"/></svg> Security alert', cls: 'badge-security_alert', mc: 'cm-security_alert'},
   };
 
   // Prevent map pan/zoom from swallowing touches inside the sidebar
@@ -801,13 +806,13 @@
     list.innerHTML = filtered.map(e => {
       const tm = TYPE_META[e.type] || {};
       const confClass = e.confirmed ? 'badge-confirmed' : 'badge-suspected';
-      const confLabel = e.confirmed ? '✅ Confirmed' : '❓ Suspected';
+      const confLabel = e.confirmed ? `${ic('checkCircle')} Confirmed` : `${ic('helpCircle')} Suspected`;
       const srcs = (e.sources||[]).map(s =>
         `<a class="src-tag" href="${s.url}" target="_blank">${s.domain}</a>`
       ).join('');
       const rel = relTime(e.datetime);
       const approxBadge = !isPrecise(e)
-        ? `<span class="badge badge-approx">📍 ${e.location || 'Area'}</span>` : '';
+        ? `<span class="badge badge-approx">${ic('mapPin','ic-sm')} ${e.location || 'Area'}</span>` : '';
       const clickAttr = isPrecise(e)
         ? `onclick="flyTo(${e.lat},${e.lon})"` : '';
       return `<div class="event-card${!isPrecise(e) ? ' event-card-approx' : ''}" data-type="${e.type||''}" data-datetime="${e.datetime||''}" ${clickAttr}>
@@ -818,7 +823,7 @@
         </div>
         ${rel ? `<div class="event-time"><span class="rel">${rel}</span></div>` : ''}
         <div class="event-title" id="title-${e.id}">${needsTranslation(e.title) ? (window._translations[e.id]?.translated || e.title) : e.title}</div>
-        ${needsTranslation(e.title) ? `<button class="translate-btn" id="trbtn-${e.id}" onclick="toggleOriginal(event,'${e.id}','${encodeURIComponent(e.title)}')">${window._translations[e.id]?.translated ? '🌐 Original' : ''}</button>` : ''}
+        ${needsTranslation(e.title) ? `<button class="translate-btn" id="trbtn-${e.id}" onclick="toggleOriginal(event,'${e.id}','${encodeURIComponent(e.title)}')">${window._translations[e.id]?.translated ? ic('globe')+' Original' : ''}</button>` : ''}
         <div class="event-meta">${e.location || 'UAE'}</div>
         ${srcs ? `<div class="event-sources">${srcs}</div>` : ''}
       </div>`;
@@ -1092,12 +1097,12 @@
         <div class="loc-info">
           <div class="loc-name-wrap">
             ${tag ? `<span style="font-size:12px;font-weight:600;color:#e6edf3">${tag}</span>` : ''}
-            <span class="loc-edit-btn" title="Edit" onclick="startEditLoc(${i})">✏️</span>
+            <span class="loc-edit-btn" title="Edit" onclick="startEditLoc(${i})">${ic('pencil')}</span>
           </div>
           ${addr ? `<div style="font-size:10px;color:#8b949e;margin-top:1px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">${addr}</div>` : ''}
           <div class="loc-dist">${distStr}</div>
         </div>
-        <span class="loc-remove" onclick="removeLocation(${i})">✕</span>
+        <span class="loc-remove" onclick="removeLocation(${i})">${ic('x')}</span>
       </div>`;
     }).join('');
   }
@@ -1180,7 +1185,7 @@
     }
     const popup = L.popup({ closeButton: true, minWidth: 200 })
       .setLatLng(latlng)
-      .setContent('<div style="font-size:12px;font-family:system-ui">📍 Looking up address…</div>')
+      .setContent(`<div style="font-size:12px;font-family:system-ui;display:flex;align-items:center;gap:5px">${ic('mapPin')} Looking up address…</div>`)
       .openOn(map);
 
     let name;
@@ -1207,7 +1212,7 @@
       <button id="_addLocBtn" style="
         background:#1c2d4a;border:1px solid #58a6ff;color:#58a6ff;
         border-radius:5px;padding:4px 12px;font-size:11px;cursor:pointer;width:100%">
-        📍 Add location
+        ${ic('mapPin')} Add location
       </button>`;
     popup.setContent(el);
 
@@ -1368,7 +1373,7 @@
       : document.getElementById('share-nolocs-btn');
     navigator.clipboard.writeText(url).then(() => {
       const orig = btn.innerHTML;
-      btn.innerHTML = '✓ Copied!';
+      btn.innerHTML = ic('check') + ' Copied!';
       btn.style.color = '#4fd060';
       setTimeout(() => { btn.innerHTML = orig; btn.style.color = ''; }, 2000);
     });
@@ -1474,7 +1479,7 @@
         const titleEl = document.getElementById('title-' + e.id);
         const btnEl   = document.getElementById('trbtn-' + e.id);
         if (titleEl) titleEl.textContent = translated;
-        if (btnEl)   btnEl.textContent = '🌐 Original';
+        if (btnEl)   btnEl.innerHTML = ic('globe') + ' Original';
       } catch(_) {}
     }
   }
@@ -1488,7 +1493,7 @@
     if (!titleEl || !btn) return;
     t.showingOriginal = !t.showingOriginal;
     titleEl.textContent = t.showingOriginal ? t.original : t.translated;
-    btn.textContent = t.showingOriginal ? '🌐 English' : '🌐 Original';
+    btn.innerHTML = ic('globe') + (t.showingOriginal ? ' English' : ' Original');
   }
 
   // Initial load
