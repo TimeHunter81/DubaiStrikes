@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-08T18:40:00Z",
+  "last_updated": "2026-03-08T18:55:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -60,25 +60,6 @@
       "confidence": "medium"
     },
     {
-      "id": "fa1b2863e5fb",
-      "datetime": "2026-03-08T17:36:56Z",
-      "type": "security_alert",
-      "confirmed": false,
-      "precision": "country",
-      "title": "Iran military warns Gulf oil sites will be targeted if energy infra struck",
-      "location": "Gulf Region",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-military-warns-will-target-regions-oil-sites-if-israel-hits-energy",
-          "domain": "middleeasteye.net",
-          "tier": "local"
-        }
-      ],
-      "confidence": "low"
-    },
-    {
       "id": "4561347148ae",
       "datetime": "2026-03-08T16:37:15Z",
       "type": "security_alert",
@@ -110,25 +91,6 @@
       "sources": [
         {
           "url": "https://gulfnews.com/uae/sheikh-khaled-reviews-emergency-readiness-response-ecosystem-at-unified-medical-operations-command-centre-in-abu-dhabi-1.500467685",
-          "domain": "gulfnews.com",
-          "tier": "local"
-        }
-      ],
-      "confidence": "low"
-    },
-    {
-      "id": "8827bb36101b",
-      "datetime": "2026-03-08T15:40:04Z",
-      "type": "interception",
-      "confirmed": false,
-      "precision": "country",
-      "title": "UAE air defences intercept Iranian drones",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://gulfnews.com/uae/video-air-defences-intercept-iranian-drones-targeting-uae-1.500467671",
           "domain": "gulfnews.com",
           "tier": "local"
         }
