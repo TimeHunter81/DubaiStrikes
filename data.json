@@ -6,7 +6,7 @@
       "id": "8827bb36101b",
       "datetime": "2026-03-08T15:40:04Z",
       "type": "interception",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "UAE air defences intercept Iranian drones",
       "location": "UAE",
@@ -22,17 +22,22 @@
           "url": "https://www.indiatoday.in/world/story/middle-east-war-uae-air-defence-intercepting-iranian-missile-drones-video-israel-conflict-2879127-2026-03-08",
           "domain": "indiatoday.in",
           "tier": "wire"
+        },
+        {
+          "url": "https://www.bbc.com/news/articles/c4g0pnnj8xyo",
+          "domain": "bbc.com",
+          "tier": "wire"
         }
       ],
       "confidence": "high",
-      "_search_count": 1,
-      "_next_search_at": 1772988004.0
+      "_search_count": 2,
+      "_next_search_at": 1773006004.0
     },
     {
       "id": "303a1fd3cd03",
       "datetime": "2026-03-08T12:27:39Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "Emergency alert issued in Abu Dhabi amid UAE defence operations",
       "location": "Abu Dhabi",
@@ -51,8 +56,8 @@
         }
       ],
       "confidence": "low",
-      "_search_count": 1,
-      "_next_search_at": 1772976459.0
+      "_search_count": 2,
+      "_next_search_at": 1772994459.0
     },
     {
       "id": "b620a85546da",
@@ -84,9 +89,9 @@
       "id": "0ed90e64b583",
       "datetime": "2026-03-08T08:02:57Z",
       "type": "impact_minor",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
-      "title": "Driver killed by missile debris in Dubai \u2014 Pakistan embassy confirms",
+      "title": "Driver killed by missile debris in Dubai — Pakistan embassy confirms",
       "location": "Dubai",
       "lat": 25.2048,
       "lon": 55.2708,
@@ -103,16 +108,16 @@
         }
       ],
       "confidence": "low",
-      "_search_count": 1,
-      "_next_search_at": 1772960577.0
+      "_search_count": 2,
+      "_next_search_at": 1772978577.0
     },
     {
       "id": "27aad1c968ef",
       "datetime": "2026-03-08T06:58:53Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
-      "title": "UAE missile threat emergency alert \u2014 all-clear issued",
+      "title": "UAE missile threat emergency alert — all-clear issued",
       "location": "UAE",
       "lat": null,
       "lon": null,
@@ -121,9 +126,16 @@
           "url": "https://gulfnews.com/uae/uae-residents-get-emergency-alert-over-missile-threat-1.500467291",
           "domain": "gulfnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://www.bbc.com/news/articles/c4g0pnnj8xyo",
+          "domain": "bbc.com",
+          "tier": "wire"
         }
       ],
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1772956733.0
     },
     {
       "id": "930fd0403ff4",
@@ -150,7 +162,7 @@
       "type": "interception",
       "confirmed": true,
       "precision": "exact",
-      "title": "UAE intercepts 15 of 16 ballistic missiles \u2014 1 falls into sea",
+      "title": "UAE intercepts 15 of 16 ballistic missiles — 1 falls into sea",
       "location": "UAE",
       "lat": 24.5,
       "lon": 54.5,
@@ -175,7 +187,7 @@
       "type": "impact_major",
       "confirmed": true,
       "precision": "exact",
-      "title": "IRGC drone attack on Al Dhafra Air Base \u2014 explosions reported",
+      "title": "IRGC drone attack on Al Dhafra Air Base — explosions reported",
       "location": "Al Dhafra Air Base",
       "lat": 24.2481,
       "lon": 54.5476,
@@ -195,7 +207,7 @@
       "type": "impact_minor",
       "confirmed": true,
       "precision": "exact",
-      "title": "Drone strike near Dubai Airport \u2014 BBC confirms",
+      "title": "Drone strike near Dubai Airport — BBC confirms",
       "location": "Dubai (near airport)",
       "lat": 25.2528,
       "lon": 55.3644,
@@ -302,7 +314,7 @@
       "type": "impact_minor",
       "confirmed": true,
       "precision": "exact",
-      "title": "Fire at Jebel Ali Port \u2014 attributed to aerial interception debris",
+      "title": "Fire at Jebel Ali Port — attributed to aerial interception debris",
       "location": "Jebel Ali Port",
       "lat": 25.0153,
       "lon": 55.0613,
@@ -322,7 +334,7 @@
       "type": "impact_major",
       "confirmed": true,
       "precision": "exact",
-      "title": "Shahed drone strike near Fairmont The Palm Hotel, Palm Jumeirah \u2014 4 injured",
+      "title": "Shahed drone strike near Fairmont The Palm Hotel, Palm Jumeirah — 4 injured",
       "location": "Palm Jumeirah",
       "lat": 25.1124,
       "lon": 55.139,
@@ -347,7 +359,7 @@
       "type": "impact_minor",
       "confirmed": true,
       "precision": "exact",
-      "title": "Iranian missile fragments hit Burj Al Arab \u2014 structural damage",
+      "title": "Iranian missile fragments hit Burj Al Arab — structural damage",
       "location": "Burj Al Arab",
       "lat": 25.1412,
       "lon": 55.1853,
@@ -372,7 +384,7 @@
       "type": "impact_major",
       "confirmed": true,
       "precision": "exact",
-      "title": "Dubai International Airport Terminal 3 struck \u2014 4 staff injured, evacuation",
+      "title": "Dubai International Airport Terminal 3 struck — 4 staff injured, evacuation",
       "location": "Dubai International Airport",
       "lat": 25.2532,
       "lon": 55.3657,
@@ -402,7 +414,7 @@
       "type": "impact_minor",
       "confirmed": true,
       "precision": "exact",
-      "title": "Interception debris falls near Zayed International Airport \u2014 1 killed, 7 injured",
+      "title": "Interception debris falls near Zayed International Airport — 1 killed, 7 injured",
       "location": "Zayed International Airport, Abu Dhabi",
       "lat": 24.433,
       "lon": 54.6511,
@@ -447,7 +459,7 @@
       "type": "impact_major",
       "confirmed": true,
       "precision": "exact",
-      "title": "Al Dhafra Air Base targeted \u2014 explosions in Corniche, Al Dhafra and Bateen districts",
+      "title": "Al Dhafra Air Base targeted — explosions in Corniche, Al Dhafra and Bateen districts",
       "location": "Al Dhafra Air Base",
       "lat": 24.2481,
       "lon": 54.5476,
