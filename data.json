@@ -1,15 +1,34 @@
 {
-  "last_updated": "2026-03-08T20:31:00Z",
+  "last_updated": "2026-03-08T20:42:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
-      "id": "6bc1d9bf8372",
-      "datetime": "2026-03-08T20:21:13Z",
-      "type": "security_alert",
+      "id": "49e99496af78",
+      "datetime": "2026-03-08T20:36:33Z",
+      "type": "interception",
       "confirmed": false,
       "precision": "country",
-      "title": "Iran claims strikes on Tel Aviv, Negev desert and US regional bases",
-      "location": "UAE",
+      "title": "Saudi Arabia intercepts 2 drones en route to Prince Sultan Air Base",
+      "location": "Saudi Arabia",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/saudi-arabia-says-two-drones-intercepted-north-riyadh",
+          "domain": "middleeasteye.net",
+          "tier": "local"
+        }
+      ],
+      "confidence": "low"
+    },
+    {
+      "id": "6bc1d9bf8372",
+      "datetime": "2026-03-08T20:21:13Z",
+      "type": "impact_major",
+      "confirmed": false,
+      "precision": "country",
+      "title": "Iran claims missile strikes on Tel Aviv, Negev and US bases in region",
+      "location": "Israel / Gulf Region",
       "lat": null,
       "lon": null,
       "sources": [
@@ -28,7 +47,7 @@
       "confirmed": false,
       "precision": "country",
       "title": "UK forces intercept Iranian drone fired toward Iraq",
-      "location": "Iraq/Gulf Region",
+      "location": "Iraq / Gulf Region",
       "lat": null,
       "lon": null,
       "sources": [
@@ -66,7 +85,7 @@
       "confirmed": true,
       "precision": "country",
       "title": "Iran threatens retaliatory strikes on Gulf oil facilities",
-      "location": "UAE",
+      "location": "Gulf Region",
       "lat": null,
       "lon": null,
       "sources": [
@@ -161,7 +180,7 @@
       "confirmed": false,
       "precision": "country",
       "title": "Iran strikes Kuwait airport and Bahrain desalination plant",
-      "location": "Kuwait/Bahrain",
+      "location": "Kuwait / Bahrain",
       "lat": null,
       "lon": null,
       "sources": [
@@ -198,7 +217,7 @@
       "type": "interception",
       "confirmed": false,
       "precision": "country",
-      "title": "Bahrain intercepts 95 missiles and 164 drones from Iran",
+      "title": "Bahrain intercepts 95 missiles and 164 Iranian drones",
       "location": "Bahrain",
       "lat": null,
       "lon": null,
