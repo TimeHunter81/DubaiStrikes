@@ -881,7 +881,8 @@
     if (!e.lat || !e.lon) return true;
     if (e.precision === 'country') return true;
 
-    const bounds = map.getBounds();
+    let bounds;
+    try { bounds = map.getBounds(); } catch(_) { return true; } // map not ready → show all
 
     if (!e.precision || e.precision === 'exact') {
       return bounds.contains([e.lat, e.lon]);
@@ -1454,18 +1455,35 @@
       updateStatus(allEvents);
       updateConfFilters();
       if (!isRefresh) {
-        loadPrefs();
-        updateTZBtn();
-        initSlider(data.conflict_start || '2026-02-27T20:00:00Z');
-        const fromURL = loadFromURL();
-        if (!fromURL) loadFromStorage();
+        try { loadPrefs(); } catch(_) {}
+        try { updateTZBtn(); } catch(_) {}
+        try { initSlider(data.conflict_start || '2026-02-27T20:00:00Z'); } catch(_) {}
+        try { const fromURL = loadFromURL(); if (!fromURL) loadFromStorage(); } catch(_) {}
       }
-      renderEvents();
-      if (!isRefresh) renderLocations();
+      try {
+        renderEvents();
+      } catch(renderErr) {
+        console.error('Dubai Strike Monitor: renderEvents failed', renderErr);
+        // Emergency fallback: render plain list without map interaction
+        const list = document.getElementById('events-list');
+        if (list) {
+          list.innerHTML = allEvents.map(e =>
+            `<div class="event-card" style="cursor:default">
+              <div class="event-badges"><span class="badge ${(e.type||'')}">${e.type||'alert'}</span></div>
+              <div class="event-time"><span class="rel">${relTime(e.datetime)}</span></div>
+              <div class="event-title">${e.title}</div>
+              <div class="event-meta">${e.location||'UAE'} · ${e.datetime?.slice(0,10)||''}</div>
+            </div>`
+          ).join('');
+        }
+      }
+      if (!isRefresh) { try { renderLocations(); } catch(_) {} }
       translatePending(allEvents);
     } catch(err) {
       console.error('Dubai Strike Monitor: data load failed', err);
-      if (!isRefresh) document.getElementById('empty-state').textContent = 'Error loading data: ' + (err && err.message ? err.message : err);
+      // Use a persistent error div (empty-state may have been removed by renderEvents)
+      const errEl = document.getElementById('empty-state') || document.getElementById('events-list');
+      if (errEl && !isRefresh) errEl.innerHTML = `<div style="padding:16px;color:#f85149">Error loading data: ${err && err.message ? err.message : err}</div>`;
     }
   }
 
