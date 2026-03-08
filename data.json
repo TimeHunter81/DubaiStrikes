@@ -1,10 +1,10 @@
 {
-  "last_updated": "2026-03-08T20:00:00Z",
+  "last_updated": "2026-03-08T20:15:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
       "id": "784d0aad18fe",
-      "datetime": "2026-03-08T18:09:59Z",
+      "datetime": "2026-03-08T18:02:44Z",
       "type": "interception",
       "confirmed": false,
       "precision": "country",
@@ -35,6 +35,25 @@
         {
           "url": "https://www.aljazeera.com/news/2026/3/8/two-killed-in-saudi-arabia-after-projectile-falls-on-residential-building?traffic_source=rss",
           "domain": "aljazeera.com",
+          "tier": "wire"
+        }
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "a809a8561c10",
+      "datetime": "2026-03-08T17:39:31Z",
+      "type": "security_alert",
+      "confirmed": true,
+      "precision": "country",
+      "title": "Iran threatens retaliatory attacks on Gulf oil facilities",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.theguardian.com/world/2026/mar/08/iran-new-supreme-leader-selected-says-deciding-body",
+          "domain": "theguardian.com",
           "tier": "wire"
         }
       ],
@@ -110,25 +129,6 @@
       "sources": [
         {
           "url": "https://www.middleeasteye.net/live-blog/live-blog-update/irgc-says-it-destroyed-4-us-anti-missile-defence-systems",
-          "domain": "middleeasteye.net",
-          "tier": "local"
-        }
-      ],
-      "confidence": "low"
-    },
-    {
-      "id": "ef3331a0e8d8",
-      "datetime": "2026-03-08T14:50:09Z",
-      "type": "security_alert",
-      "confirmed": false,
-      "precision": "country",
-      "title": "US military orders Iranian civilians to remain indoors",
-      "location": "Iran",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/us-military-orders-iranian-civilians-stay-indoors",
           "domain": "middleeasteye.net",
           "tier": "local"
         }
@@ -426,6 +426,101 @@
       ],
       "confidence": "high",
       "_manual": true
+    },
+    {
+      "id": "cdb45e875770",
+      "datetime": "2026-03-07T09:31:28Z",
+      "type": "impact_minor",
+      "confirmed": true,
+      "precision": "city",
+      "title": "Drone strike filmed close to Dubai Airport",
+      "location": "Dubai",
+      "lat": 25.2048,
+      "lon": 55.2708,
+      "sources": [
+        {
+          "url": "https://www.bbc.com/news/videos/c5yr734zml3o?at_medium=RSS&at_campaign=rss",
+          "domain": "bbc.com",
+          "tier": "wire"
+        }
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "dac7a9bd2d37",
+      "datetime": "2026-03-07T09:25:28Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "Emirates resumes flights on Saturday after brief suspension",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.thenationalnews.com/business/aviation/2026/03/07/emirates-resumes-flights-on-saturday-after-brief-suspension/",
+          "domain": "thenationalnews.com",
+          "tier": "local"
+        }
+      ],
+      "confidence": "low"
+    },
+    {
+      "id": "dd6ffc4d9309",
+      "datetime": "2026-03-07T08:43:57Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "Iran orders halt to Gulf attacks — enforcement authority unclear",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.thenationalnews.com/news/mena/2026/03/07/irans-president-says-forces-ordered-to-stop-gulf-attacks-but-authority-to-enforce-halt-unclear/",
+          "domain": "thenationalnews.com",
+          "tier": "local"
+        }
+      ],
+      "confidence": "low"
+    },
+    {
+      "id": "1e351667a92a",
+      "datetime": "2026-03-07T06:25:40Z",
+      "type": "impact_minor",
+      "confirmed": false,
+      "precision": "city",
+      "title": "Motorist killed by falling debris after interception in Dubai",
+      "location": "Dubai",
+      "lat": 25.2048,
+      "lon": 55.2708,
+      "sources": [
+        {
+          "url": "https://www.thenationalnews.com/news/uae/2026/03/07/uae-defences-iran-missile-attacks/",
+          "domain": "thenationalnews.com",
+          "tier": "local"
+        }
+      ],
+      "confidence": "low"
+    },
+    {
+      "id": "792edde270e4",
+      "datetime": "2026-03-07T06:06:04Z",
+      "type": "interception",
+      "confirmed": false,
+      "precision": "country",
+      "title": "Saudi Arabia foils 3 Iranian drone attacks on oil field near UAE border",
+      "location": "Saudi Arabia",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.thenationalnews.com/news/gulf/2026/03/07/saudi-arabia-foils-three-iranian-drone-attacks-on-oil-field-near-uae-border/",
+          "domain": "thenationalnews.com",
+          "tier": "local"
+        }
+      ],
+      "confidence": "low"
     },
     {
       "id": "g1h2i3j4k5l6",
