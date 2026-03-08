@@ -1,25 +1,45 @@
 {
-  "last_updated": "2026-03-08T00:26:00Z",
+  "last_updated": "2026-03-08T00:38:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
       "id": "5967d64bdbc2",
-      "datetime": "2026-03-07T22:52:42Z",
-      "type": "impact_major",
-      "confirmed": false,
+      "datetime": "2026-03-07T23:55:00Z",
+      "type": "impact_minor",
+      "confirmed": true,
       "precision": "neighborhood",
-      "title": "Dubai Marina tower hit — Iranian missile strike reported",
+      "title": "Interception debris damages tower facade in Dubai Marina",
       "location": "Dubai Marina",
       "lat": 25.0819,
       "lon": 55.1367,
       "sources": [
         {
-          "url": "https://www.irishmirror.ie/news/world-news/dubai-marina-tower-hit-iran-36832962",
-          "domain": "irishmirror.ie",
-          "tier": "unverified"
+          "url": "https://timesofindia.indiatimes.com/world/middle-east/us-israel-iran-war-news-live-udates-middle-east-crisis-conflict-drone-ballistic-missile-attacks-explosions-flights-status-dubai-uae-qatar-tehran-gulf-donald-trump-netanyahu-khamenei/liveblog/129190174.cms",
+          "domain": "timesofindia.com",
+          "tier": "wire"
         }
       ],
-      "confidence": "low"
+      "confidence": "medium"
+    },
+    {
+      "id": "b8c9d0e1f2a3",
+      "datetime": "2026-03-07T13:30:00Z",
+      "type": "impact_minor",
+      "confirmed": true,
+      "precision": "city",
+      "title": "Pakistani driver killed in Dubai — interception debris hits car",
+      "location": "Dubai",
+      "lat": 25.2048,
+      "lon": 55.2708,
+      "sources": [
+        {
+          "url": "https://www.hindustantimes.com/world-news/dubai-abu-dhabi-uae-war-news-live-updates-us-iran-israel-attack-flight-status-missile-alert-explosion-strikes-qatar-101772845653054.html",
+          "domain": "hindustantimes.com",
+          "tier": "wire",
+          "note": "cites Dubai Media Office (official UAE)"
+        }
+      ],
+      "confidence": "high"
     },
     {
       "id": "53fb0dafbf97",
@@ -42,11 +62,11 @@
     },
     {
       "id": "da7e71dc78bb",
-      "datetime": "2026-03-07T22:52:42Z",
+      "datetime": "2026-03-07T02:23:00Z",
       "type": "security_alert",
       "confirmed": false,
       "precision": "exact",
-      "title": "Dubai airport operations suspended amid Mar 7 Iranian attack",
+      "title": "Dubai airport operations suspended amid Mar 7 Iranian attacks",
       "location": "Dubai International Airport",
       "lat": 25.2528,
       "lon": 55.3644,
