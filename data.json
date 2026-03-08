@@ -1,7 +1,45 @@
 {
-  "last_updated": "2026-03-08T20:24:44Z",
+  "last_updated": "2026-03-08T20:31:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
+    {
+      "id": "6bc1d9bf8372",
+      "datetime": "2026-03-08T20:21:13Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "Iran claims strikes on Tel Aviv, Negev desert and US regional bases",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-says-targeted-tel-aviv-negev-desert-israel-us-bases-region",
+          "domain": "middleeasteye.net",
+          "tier": "local"
+        }
+      ],
+      "confidence": "low"
+    },
+    {
+      "id": "784d0aad18fe",
+      "datetime": "2026-03-08T18:09:59Z",
+      "type": "interception",
+      "confirmed": false,
+      "precision": "country",
+      "title": "UK forces intercept Iranian drone fired toward Iraq",
+      "location": "Iraq/Gulf Region",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/uk-forces-successfully-engage-drone-fired-iran-towards-iraq",
+          "domain": "middleeasteye.net",
+          "tier": "local"
+        }
+      ],
+      "confidence": "low"
+    },
     {
       "id": "a77ca758b667",
       "datetime": "2026-03-08T18:02:44Z",
@@ -27,7 +65,7 @@
       "type": "security_alert",
       "confirmed": true,
       "precision": "country",
-      "title": "Iran threatens retaliatory attacks on Gulf oil facilities",
+      "title": "Iran threatens retaliatory strikes on Gulf oil facilities",
       "location": "UAE",
       "lat": null,
       "lon": null,
@@ -46,7 +84,7 @@
       "type": "security_alert",
       "confirmed": false,
       "precision": "country",
-      "title": "Strait of Hormuz blocked — Iraqi oil production collapses",
+      "title": "Strait of Hormuz blockade — Iraqi oil production reported collapsed",
       "location": "Strait of Hormuz",
       "lat": null,
       "lon": null,
@@ -123,7 +161,7 @@
       "confirmed": false,
       "precision": "country",
       "title": "Iran strikes Kuwait airport and Bahrain desalination plant",
-      "location": "Gulf Region",
+      "location": "Kuwait/Bahrain",
       "lat": null,
       "lon": null,
       "sources": [
@@ -288,25 +326,6 @@
       "confidence": "low"
     },
     {
-      "id": "cf87a7abaa6f",
-      "datetime": "2026-03-08T06:25:37Z",
-      "type": "security_alert",
-      "confirmed": false,
-      "precision": "country",
-      "title": "UAE issues 3 shelter-in-place alerts Sunday morning",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.thenationalnews.com/news/uae/2026/03/08/abu-dhabi-residents-urged-to-shelter-as-uae-faces-further-iran-strikes/",
-          "domain": "thenationalnews.com",
-          "tier": "local"
-        }
-      ],
-      "confidence": "low"
-    },
-    {
       "id": "a56639e95ccb",
       "datetime": "2026-03-08T05:53:17Z",
       "type": "security_alert",
@@ -330,11 +349,11 @@
       "datetime": "2026-03-08T05:53:17Z",
       "type": "security_alert",
       "confirmed": false,
-      "precision": "city",
-      "title": "Emirates, Etihad on reduced schedule amid Iran conflict",
-      "location": "Uae",
-      "lat": 24.5,
-      "lon": 54.5,
+      "precision": "country",
+      "title": "Emirates and Etihad on reduced schedule amid Iran conflict",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
       "sources": [
         {
           "url": "https://www.thenationalnews.com/travel/2026/03/03/uae-flight-updates-cancellations-iran/",
@@ -426,101 +445,6 @@
       ],
       "confidence": "high",
       "_manual": true
-    },
-    {
-      "id": "cdb45e875770",
-      "datetime": "2026-03-07T09:31:28Z",
-      "type": "impact_minor",
-      "confirmed": true,
-      "precision": "city",
-      "title": "Drone strike filmed close to Dubai Airport",
-      "location": "Dubai",
-      "lat": 25.2048,
-      "lon": 55.2708,
-      "sources": [
-        {
-          "url": "https://www.bbc.com/news/videos/c5yr734zml3o?at_medium=RSS&at_campaign=rss",
-          "domain": "bbc.com",
-          "tier": "wire"
-        }
-      ],
-      "confidence": "medium"
-    },
-    {
-      "id": "dac7a9bd2d37",
-      "datetime": "2026-03-07T09:25:28Z",
-      "type": "security_alert",
-      "confirmed": false,
-      "precision": "country",
-      "title": "Emirates resumes flights on Saturday after brief suspension",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.thenationalnews.com/business/aviation/2026/03/07/emirates-resumes-flights-on-saturday-after-brief-suspension/",
-          "domain": "thenationalnews.com",
-          "tier": "local"
-        }
-      ],
-      "confidence": "low"
-    },
-    {
-      "id": "dd6ffc4d9309",
-      "datetime": "2026-03-07T08:43:57Z",
-      "type": "security_alert",
-      "confirmed": false,
-      "precision": "country",
-      "title": "Iran orders halt to Gulf attacks — enforcement authority unclear",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.thenationalnews.com/news/mena/2026/03/07/irans-president-says-forces-ordered-to-stop-gulf-attacks-but-authority-to-enforce-halt-unclear/",
-          "domain": "thenationalnews.com",
-          "tier": "local"
-        }
-      ],
-      "confidence": "low"
-    },
-    {
-      "id": "1e351667a92a",
-      "datetime": "2026-03-07T06:25:40Z",
-      "type": "impact_minor",
-      "confirmed": false,
-      "precision": "city",
-      "title": "Motorist killed by falling debris after interception in Dubai",
-      "location": "Dubai",
-      "lat": 25.2048,
-      "lon": 55.2708,
-      "sources": [
-        {
-          "url": "https://www.thenationalnews.com/news/uae/2026/03/07/uae-defences-iran-missile-attacks/",
-          "domain": "thenationalnews.com",
-          "tier": "local"
-        }
-      ],
-      "confidence": "low"
-    },
-    {
-      "id": "792edde270e4",
-      "datetime": "2026-03-07T06:06:04Z",
-      "type": "interception",
-      "confirmed": false,
-      "precision": "country",
-      "title": "Saudi Arabia foils 3 Iranian drone attacks on oil field near UAE border",
-      "location": "Saudi Arabia",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.thenationalnews.com/news/gulf/2026/03/07/saudi-arabia-foils-three-iranian-drone-attacks-on-oil-field-near-uae-border/",
-          "domain": "thenationalnews.com",
-          "tier": "local"
-        }
-      ],
-      "confidence": "low"
     },
     {
       "id": "g1h2i3j4k5l6",
