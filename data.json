@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-08T07:50:10Z",
+  "last_updated": "2026-03-08T07:57:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -27,8 +27,8 @@
       "type": "security_alert",
       "confirmed": false,
       "precision": "country",
-      "title": "India issues UAE evacuation advisories; 52,000 nationals returning home",
-      "location": "Uae",
+      "title": "India issues UAE evacuation advisory; 52,000 nationals returning home",
+      "location": "UAE",
       "lat": null,
       "lon": null,
       "sources": [
@@ -46,8 +46,8 @@
       "type": "security_alert",
       "confirmed": false,
       "precision": "country",
-      "title": "UAE authorities: all-clear issued after earlier missile threat emergency alert",
-      "location": "Uae",
+      "title": "UAE all-clear issued after missile threat emergency alert",
+      "location": "UAE",
       "lat": null,
       "lon": null,
       "sources": [
@@ -65,13 +65,32 @@
       "type": "security_alert",
       "confirmed": false,
       "precision": "country",
-      "title": "UAE issues 3 safety alerts Sunday morning amid continued Iran strikes",
-      "location": "Uae",
+      "title": "UAE issues 3 safety alerts Sunday morning amid Iran strikes",
+      "location": "UAE",
       "lat": null,
       "lon": null,
       "sources": [
         {
           "url": "https://www.thenationalnews.com/news/uae/2026/03/08/abu-dhabi-residents-urged-to-shelter-as-uae-faces-further-iran-strikes/",
+          "domain": "thenationalnews.com",
+          "tier": "local"
+        }
+      ],
+      "confidence": "low"
+    },
+    {
+      "id": "a56639e95ccb",
+      "datetime": "2026-03-08T05:53:17Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "exact",
+      "title": "Emirates resumes Dubai Airport flights after security suspension",
+      "location": "Dubai International Airport",
+      "lat": 25.2528,
+      "lon": 55.3644,
+      "sources": [
+        {
+          "url": "https://www.thenationalnews.com/travel/2026/03/03/uae-flight-updates-cancellations-iran/",
           "domain": "thenationalnews.com",
           "tier": "local"
         }
@@ -85,7 +104,7 @@
       "confirmed": false,
       "precision": "country",
       "title": "Indian embassy warns UAE residents against photographing incident sites",
-      "location": "Uae",
+      "location": "UAE",
       "lat": null,
       "lon": null,
       "sources": [
@@ -98,23 +117,99 @@
       "confidence": "low"
     },
     {
-      "id": "a56639e95ccb",
-      "datetime": "2026-03-08T05:53:17Z",
-      "type": "security_alert",
+      "id": "b66cdc778de7",
+      "datetime": "2026-03-08T05:26:30Z",
+      "type": "impact_minor",
       "confirmed": false,
-      "precision": "exact",
-      "title": "Emirates resumes Dubai Airport flights after security-related suspension",
-      "location": "Uae",
-      "lat": 25.2528,
-      "lon": 55.3644,
+      "precision": "city",
+      "title": "Drone strike sets Kuwait social security HQ ablaze",
+      "location": "Kuwait City",
+      "lat": 29.3759,
+      "lon": 47.9774,
       "sources": [
         {
-          "url": "https://www.thenationalnews.com/travel/2026/03/03/uae-flight-updates-cancellations-iran/",
-          "domain": "thenationalnews.com",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/video-drone-strike-sets-kuwait-social-security-headquarters-ablaze",
+          "domain": "middleeasteye.net",
           "tier": "local"
         }
       ],
       "confidence": "low"
+    },
+    {
+      "id": "4bd976102afc",
+      "datetime": "2026-03-08T03:32:37Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "IRGC announces new strikes on Israel and US targets in Kuwait",
+      "location": "Kuwait",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/irgc-says-new-strikes-launched-israel-us-targets-kuwait",
+          "domain": "middleeasteye.net",
+          "tier": "local"
+        }
+      ],
+      "confidence": "low"
+    },
+    {
+      "id": "76d6ec98dee6",
+      "datetime": "2026-03-08T03:36:27Z",
+      "type": "impact_minor",
+      "confirmed": false,
+      "precision": "city",
+      "title": "Fire breaks out at Kuwait airport after drone attack",
+      "location": "Kuwait International Airport",
+      "lat": 29.2266,
+      "lon": 47.9689,
+      "sources": [
+        {
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/fire-breaks-out-kuwait-airport-after-drone-attack-local-media-says",
+          "domain": "middleeasteye.net",
+          "tier": "local"
+        }
+      ],
+      "confidence": "low"
+    },
+    {
+      "id": "edcb7ae33b06",
+      "datetime": "2026-03-08T06:25:40Z",
+      "type": "impact_minor",
+      "confirmed": false,
+      "precision": "country",
+      "title": "Iranian attack damages water desalination plant in Bahrain",
+      "location": "Bahrain",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iranian-attack-damages-water-desalination-plant-bahrain-ministry-says",
+          "domain": "middleeasteye.net",
+          "tier": "local"
+        }
+      ],
+      "confidence": "low"
+    },
+    {
+      "id": "194d95f5c963",
+      "datetime": "2026-03-08T04:55:43Z",
+      "type": "impact_minor",
+      "confirmed": true,
+      "precision": "city",
+      "title": "Flames engulf Kuwaiti high-rise amid Iranian drone strikes",
+      "location": "Kuwait City",
+      "lat": 29.3759,
+      "lon": 47.9774,
+      "sources": [
+        {
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/3/8/flames-engulf-kuwaiti-high-rise-amid-iranian-drone-strikes?traffic_source=rss",
+          "domain": "aljazeera.com",
+          "tier": "wire"
+        }
+      ],
+      "confidence": "medium"
     },
     {
       "id": "61a44760e104",
@@ -123,7 +218,7 @@
       "confirmed": false,
       "precision": "country",
       "title": "UAE air defences engage incoming missile threat; safety alert issued",
-      "location": "Uae",
+      "location": "UAE",
       "lat": null,
       "lon": null,
       "sources": [
@@ -193,13 +288,32 @@
       "confidence": "low"
     },
     {
+      "id": "0dba65fbfcb8",
+      "datetime": "2026-03-07T17:45:50Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "UK charters evacuation flight from UAE for British nationals",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.thenationalnews.com/news/uae/2026/03/07/uk-to-charter-flight-from-uae-to-help-british-nationals-who-want-to-leave-following-iranian-attacks/",
+          "domain": "thenationalnews.com",
+          "tier": "local"
+        }
+      ],
+      "confidence": "low"
+    },
+    {
       "id": "4c2e987d70ad",
       "datetime": "2026-03-07T20:18:59Z",
       "type": "security_alert",
       "confirmed": true,
       "precision": "country",
       "title": "UAE president: prepared to confront threats as Iran attacks continue",
-      "location": "Uae",
+      "location": "UAE",
       "lat": null,
       "lon": null,
       "sources": [
@@ -231,19 +345,190 @@
       "confidence": "medium"
     },
     {
-      "id": "0dba65fbfcb8",
-      "datetime": "2026-03-07T17:45:50Z",
-      "type": "security_alert",
+      "id": "1e351667a92a",
+      "datetime": "2026-03-07T06:25:40Z",
+      "type": "impact_minor",
+      "confirmed": false,
+      "precision": "city",
+      "title": "Motorist killed by falling interception debris in Dubai",
+      "location": "Dubai",
+      "lat": 25.2048,
+      "lon": 55.2708,
+      "sources": [
+        {
+          "url": "https://www.thenationalnews.com/news/uae/2026/03/07/uae-defences-iran-missile-attacks/",
+          "domain": "thenationalnews.com",
+          "tier": "local"
+        }
+      ],
+      "confidence": "low"
+    },
+    {
+      "id": "792edde270e4",
+      "datetime": "2026-03-07T06:06:04Z",
+      "type": "interception",
       "confirmed": false,
       "precision": "country",
-      "title": "UK charters evacuation flight from UAE for British nationals",
-      "location": "Uae",
+      "title": "Saudi Arabia intercepts 3 Iranian drones targeting oil field near UAE border",
+      "location": "Saudi Arabia",
       "lat": null,
       "lon": null,
       "sources": [
         {
-          "url": "https://www.thenationalnews.com/news/uae/2026/03/07/uk-to-charter-flight-from-uae-to-help-british-nationals-who-want-to-leave-following-iranian-attacks/",
+          "url": "https://www.thenationalnews.com/news/gulf/2026/03/07/saudi-arabia-foils-three-iranian-drone-attacks-on-oil-field-near-uae-border/",
           "domain": "thenationalnews.com",
+          "tier": "local"
+        }
+      ],
+      "confidence": "low"
+    },
+    {
+      "id": "dac7a9bd2d37",
+      "datetime": "2026-03-07T09:25:28Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "exact",
+      "title": "Emirates resumes flights at Dubai Airport after brief suspension",
+      "location": "Dubai International Airport",
+      "lat": 25.2528,
+      "lon": 55.3644,
+      "sources": [
+        {
+          "url": "https://www.thenationalnews.com/business/aviation/2026/03/07/emirates-resumes-flights-on-saturday-after-brief-suspension/",
+          "domain": "thenationalnews.com",
+          "tier": "local"
+        }
+      ],
+      "confidence": "low"
+    },
+    {
+      "id": "cdb45e875770",
+      "datetime": "2026-03-07T09:31:28Z",
+      "type": "impact_minor",
+      "confirmed": true,
+      "precision": "exact",
+      "title": "Drone strike recorded near Dubai International Airport",
+      "location": "Dubai International Airport",
+      "lat": 25.2528,
+      "lon": 55.3644,
+      "sources": [
+        {
+          "url": "https://www.bbc.com/news/videos/c5yr734zml3o?at_medium=RSS&at_campaign=rss",
+          "domain": "bbc.com",
+          "tier": "wire"
+        }
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "8877a1feec4f",
+      "datetime": "2026-03-07T05:45:39Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "exact",
+      "title": "Dubai officials deny reports of security incident at airport",
+      "location": "Dubai International Airport",
+      "lat": 25.2528,
+      "lon": 55.3644,
+      "sources": [
+        {
+          "url": "https://www.thenationalnews.com/news/uae/2026/03/07/dubai-officials-deny-reports-of-incident-at-airport/",
+          "domain": "thenationalnews.com",
+          "tier": "local"
+        }
+      ],
+      "confidence": "low"
+    },
+    {
+      "id": "dd6ffc4d9309",
+      "datetime": "2026-03-07T08:43:57Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "Iran's president orders halt to Gulf attacks; enforcement unclear",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.thenationalnews.com/news/mena/2026/03/07/irans-president-says-forces-ordered-to-stop-gulf-attacks-but-authority-to-enforce-halt-unclear/",
+          "domain": "thenationalnews.com",
+          "tier": "local"
+        }
+      ],
+      "confidence": "low"
+    },
+    {
+      "id": "4fca62fe1f65",
+      "datetime": "2026-03-07T05:18:35Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "UAE president visits Iranian attack survivors in hospital",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.thenationalnews.com/news/uae/2026/03/07/president-sheikh-mohamed-visits-survivors-of-iranian-attacks-in-hospital/",
+          "domain": "thenationalnews.com",
+          "tier": "local"
+        }
+      ],
+      "confidence": "low"
+    },
+    {
+      "id": "42cfb14a54ef",
+      "datetime": "2026-03-07T16:29:40Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "Sheikh Mohamed: 'all is well in the UAE'",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.thenationalnews.com/news/uae/2026/03/07/president-sheikh-mohamed-address-uae-iran-attacks/",
+          "domain": "thenationalnews.com",
+          "tier": "local"
+        }
+      ],
+      "confidence": "low"
+    },
+    {
+      "id": "d89924f29452",
+      "datetime": "2026-03-07T03:07:43Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "city",
+      "title": "Global Village, Ain Dubai and Dubai Parks close amid security situation",
+      "location": "Dubai",
+      "lat": 25.2048,
+      "lon": 55.2708,
+      "sources": [
+        {
+          "url": "https://gulfnews.com/uae/ain-dubai-and-dubai-parks-to-close-this-weekend-what-visitors-should-know-1.500466200",
+          "domain": "gulfnews.com",
+          "tier": "local"
+        }
+      ],
+      "confidence": "low"
+    },
+    {
+      "id": "7a6a56415c44",
+      "datetime": "2026-03-08T05:11:55Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "Air India adds evacuation flights from UAE amid Iran strikes",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://gulfnews.com/business/aviation/air-india-operates-extra-flights-from-uae-and-gulf-nations-to-bring-passengers-home-1.500467223",
+          "domain": "gulfnews.com",
           "tier": "local"
         }
       ],
@@ -295,82 +580,6 @@
       "_manual": true
     },
     {
-      "id": "cdb45e875770",
-      "datetime": "2026-03-07T09:31:28Z",
-      "type": "impact_minor",
-      "confirmed": true,
-      "precision": "exact",
-      "title": "Drone strike recorded near Dubai International Airport",
-      "location": "Dubai",
-      "lat": 25.2528,
-      "lon": 55.3644,
-      "sources": [
-        {
-          "url": "https://www.bbc.com/news/videos/c5yr734zml3o?at_medium=RSS&amp;at_campaign=rss",
-          "domain": "bbc.com",
-          "tier": "wire"
-        }
-      ],
-      "confidence": "medium"
-    },
-    {
-      "id": "dac7a9bd2d37",
-      "datetime": "2026-03-07T09:25:28Z",
-      "type": "security_alert",
-      "confirmed": false,
-      "precision": "exact",
-      "title": "Emirates resumes flights at Dubai Airport after brief suspension",
-      "location": "UAE",
-      "lat": 25.2528,
-      "lon": 55.3644,
-      "sources": [
-        {
-          "url": "https://www.thenationalnews.com/business/aviation/2026/03/07/emirates-resumes-flights-on-saturday-after-brief-suspension/",
-          "domain": "thenationalnews.com",
-          "tier": "local"
-        }
-      ],
-      "confidence": "low"
-    },
-    {
-      "id": "1e351667a92a",
-      "datetime": "2026-03-07T06:25:40Z",
-      "type": "impact_minor",
-      "confirmed": false,
-      "precision": "city",
-      "title": "Motorist killed by falling interception debris in Dubai",
-      "location": "Dubai",
-      "lat": 25.2048,
-      "lon": 55.2708,
-      "sources": [
-        {
-          "url": "https://www.thenationalnews.com/news/uae/2026/03/07/uae-defences-iran-missile-attacks/",
-          "domain": "thenationalnews.com",
-          "tier": "local"
-        }
-      ],
-      "confidence": "low"
-    },
-    {
-      "id": "792edde270e4",
-      "datetime": "2026-03-07T06:06:04Z",
-      "type": "interception",
-      "confirmed": false,
-      "precision": "country",
-      "title": "Saudi Arabia intercepts 3 Iranian drones targeting oil field near UAE border",
-      "location": "Uae",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.thenationalnews.com/news/gulf/2026/03/07/saudi-arabia-foils-three-iranian-drone-attacks-on-oil-field-near-uae-border/",
-          "domain": "thenationalnews.com",
-          "tier": "local"
-        }
-      ],
-      "confidence": "low"
-    },
-    {
       "id": "g1h2i3j4k5l6",
       "datetime": "2026-03-07T06:00:00Z",
       "type": "security_alert",
@@ -387,44 +596,6 @@
         }
       ],
       "_manual": true
-    },
-    {
-      "id": "8877a1feec4f",
-      "datetime": "2026-03-07T05:45:39Z",
-      "type": "security_alert",
-      "confirmed": false,
-      "precision": "exact",
-      "title": "Dubai officials deny reports of security incident at airport",
-      "location": "Dubai",
-      "lat": 25.2528,
-      "lon": 55.3644,
-      "sources": [
-        {
-          "url": "https://www.thenationalnews.com/news/uae/2026/03/07/dubai-officials-deny-reports-of-incident-at-airport/",
-          "domain": "thenationalnews.com",
-          "tier": "local"
-        }
-      ],
-      "confidence": "low"
-    },
-    {
-      "id": "4fca62fe1f65",
-      "datetime": "2026-03-07T05:18:35Z",
-      "type": "security_alert",
-      "confirmed": false,
-      "precision": "country",
-      "title": "UAE president visits Iranian attack survivors in hospital",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.thenationalnews.com/news/uae/2026/03/07/president-sheikh-mohamed-visits-survivors-of-iranian-attacks-in-hospital/",
-          "domain": "thenationalnews.com",
-          "tier": "local"
-        }
-      ],
-      "confidence": "low"
     },
     {
       "id": "c3d4e5f6a1b2",
