@@ -1,7 +1,26 @@
 {
-  "last_updated": "2026-03-08T16:42:00Z",
+  "last_updated": "2026-03-08T16:52:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
+    {
+      "id": "ea4d033292de",
+      "datetime": "2026-03-08T16:21:10Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "city",
+      "title": "Sheikh Khaled reviews UAE emergency readiness at Medical Operations Command",
+      "location": "Abu Dhabi",
+      "lat": 24.4539,
+      "lon": 54.3773,
+      "sources": [
+        {
+          "url": "https://gulfnews.com/uae/sheikh-khaled-reviews-emergency-readiness-response-ecosystem-at-unified-medical-operations-command-centre-in-abu-dhabi-1.500467685",
+          "domain": "gulfnews.com",
+          "tier": "local"
+        }
+      ],
+      "confidence": "low"
+    },
     {
       "id": "8827bb36101b",
       "datetime": "2026-03-08T15:40:04Z",
@@ -34,6 +53,25 @@
       "sources": [
         {
           "url": "https://gulfnews.com/world/mena/kuwait-airport-bahrain-desalination-plant-hit-as-iran-strikesgukf-infrastructure-1.500467526",
+          "domain": "gulfnews.com",
+          "tier": "local"
+        }
+      ],
+      "confidence": "low"
+    },
+    {
+      "id": "662730dd20d1",
+      "datetime": "2026-03-08T12:32:33Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "UAE urges residents not to stockpile food, markets remain well supplied",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://gulfnews.com/business/economy/uae-urges-residents-not-to-stockpile-food-reaffirms-markets-remain-well-supplied-1.500467501",
           "domain": "gulfnews.com",
           "tier": "local"
         }
@@ -84,7 +122,7 @@
       "type": "interception",
       "confirmed": false,
       "precision": "country",
-      "title": "Bahrain reports 95 missiles and 164 drones intercepted from Iran",
+      "title": "Bahrain: 95 missiles and 164 drones intercepted from Iran",
       "location": "Bahrain",
       "lat": null,
       "lon": null,
@@ -160,7 +198,7 @@
       "type": "impact_major",
       "confirmed": false,
       "precision": "country",
-      "title": "Iranian drone strikes radar tower at unspecified US Gulf base",
+      "title": "Iranian drone strikes radar tower at US Gulf base",
       "location": "Gulf (US base)",
       "lat": null,
       "lon": null,
@@ -198,7 +236,26 @@
       "type": "security_alert",
       "confirmed": false,
       "precision": "country",
-      "title": "UAE issues 3 shelter-in-place safety alerts Sunday morning",
+      "title": "UAE issues 3 shelter-in-place alerts Sunday morning",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.thenationalnews.com/news/uae/2026/03/08/abu-dhabi-residents-urged-to-shelter-as-uae-faces-further-iran-strikes/",
+          "domain": "thenationalnews.com",
+          "tier": "local"
+        }
+      ],
+      "confidence": "low"
+    },
+    {
+      "id": "930fd0403ff4",
+      "datetime": "2026-03-08T06:25:37Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "UAE declares 'state of defence' in response to Iranian attacks",
       "location": "UAE",
       "lat": null,
       "lon": null,
@@ -312,6 +369,82 @@
       ],
       "confidence": "high",
       "_manual": true
+    },
+    {
+      "id": "cdb45e875770",
+      "datetime": "2026-03-07T09:31:28Z",
+      "type": "impact_minor",
+      "confirmed": true,
+      "precision": "exact",
+      "title": "Drone strike close to Dubai Airport — video (BBC)",
+      "location": "Dubai International Airport",
+      "lat": 25.2528,
+      "lon": 55.3644,
+      "sources": [
+        {
+          "url": "https://www.bbc.com/news/videos/c5yr734zml3o?at_medium=RSS&amp;at_campaign=rss",
+          "domain": "bbc.com",
+          "tier": "wire"
+        }
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "dac7a9bd2d37",
+      "datetime": "2026-03-07T09:25:28Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "Emirates resumes flights on Saturday after brief security suspension",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.thenationalnews.com/business/aviation/2026/03/07/emirates-resumes-flights-on-saturday-after-brief-suspension/",
+          "domain": "thenationalnews.com",
+          "tier": "local"
+        }
+      ],
+      "confidence": "low"
+    },
+    {
+      "id": "1e351667a92a",
+      "datetime": "2026-03-07T06:25:40Z",
+      "type": "impact_minor",
+      "confirmed": false,
+      "precision": "city",
+      "title": "Motorist killed by falling interception debris in Dubai",
+      "location": "Dubai",
+      "lat": 25.2048,
+      "lon": 55.2708,
+      "sources": [
+        {
+          "url": "https://www.thenationalnews.com/news/uae/2026/03/07/uae-defences-iran-missile-attacks/",
+          "domain": "thenationalnews.com",
+          "tier": "local"
+        }
+      ],
+      "confidence": "low"
+    },
+    {
+      "id": "792edde270e4",
+      "datetime": "2026-03-07T06:06:04Z",
+      "type": "interception",
+      "confirmed": false,
+      "precision": "country",
+      "title": "Saudi Arabia intercepts 3 Iranian drone attacks on oil field near UAE border",
+      "location": "Saudi-UAE border",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.thenationalnews.com/news/gulf/2026/03/07/saudi-arabia-foils-three-iranian-drone-attacks-on-oil-field-near-uae-border/",
+          "domain": "thenationalnews.com",
+          "tier": "local"
+        }
+      ],
+      "confidence": "low"
     },
     {
       "id": "g1h2i3j4k5l6",
