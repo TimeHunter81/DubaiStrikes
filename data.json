@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-08T22:55:00Z",
+  "last_updated": "2026-03-08T23:03:55Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -39,7 +39,7 @@
       "type": "security_alert",
       "confirmed": true,
       "precision": "city",
-      "title": "Emergency alert issued in Abu Dhabi amid UAE defence operations",
+      "title": "Emergency alert issued in Abu Dhabi amid UAE defence ops",
       "location": "Abu Dhabi",
       "lat": 24.4539,
       "lon": 54.3773,
@@ -91,7 +91,7 @@
       "type": "impact_minor",
       "confirmed": true,
       "precision": "city",
-      "title": "Driver killed by missile debris in Dubai — Pakistan embassy confirms",
+      "title": "Driver killed by missile debris in Dubai (Al Barsha)",
       "location": "Dubai",
       "lat": 25.2048,
       "lon": 55.2708,
@@ -117,7 +117,7 @@
       "type": "security_alert",
       "confirmed": true,
       "precision": "country",
-      "title": "UAE missile threat emergency alert — all-clear issued",
+      "title": "UAE missile threat emergency alert issued \u2014 all-clear follows",
       "location": "UAE",
       "lat": null,
       "lon": null,
@@ -141,9 +141,9 @@
       "id": "930fd0403ff4",
       "datetime": "2026-03-08T06:25:37Z",
       "type": "security_alert",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "city",
-      "title": "Abu Dhabi residents urged to shelter as UAE faces Iran strikes",
+      "title": "Abu Dhabi residents urged to shelter during Iran strikes",
       "location": "Abu Dhabi",
       "lat": 24.4539,
       "lon": 54.3773,
@@ -154,56 +154,9 @@
           "tier": "local"
         }
       ],
-      "confidence": "medium",
-      "_search_count": 1,
-      "_next_search_at": 1772954737.0
-    },
-    {
-      "id": "cdb45e875770",
-      "datetime": "2026-03-07T09:25:28Z",
-      "type": "impact_minor",
-      "confirmed": true,
-      "precision": "exact",
-      "title": "Drone strike near Dubai Airport — BBC confirms (officially denied)",
-      "location": "Dubai (near airport)",
-      "lat": 25.2528,
-      "lon": 55.3644,
-      "sources": [
-        {
-          "url": "https://www.bbc.com/news/videos/c5yr734zml3o?at_medium=RSS&at_campaign=rss",
-          "domain": "bbc.com",
-          "tier": "wire"
-        }
-      ],
       "confidence": "low",
       "_search_count": 1,
-      "_next_search_at": 1772879128.0
-    },
-    {
-      "id": "1e351667a92a",
-      "datetime": "2026-03-07T06:25:40Z",
-      "type": "impact_minor",
-      "confirmed": true,
-      "precision": "city",
-      "title": "Motorist killed by falling debris after interception in Dubai",
-      "location": "Dubai",
-      "lat": 25.2048,
-      "lon": 55.2708,
-      "sources": [
-        {
-          "url": "https://www.thenationalnews.com/news/uae/2026/03/07/uae-defences-iran-missile-attacks/",
-          "domain": "thenationalnews.com",
-          "tier": "local"
-        },
-        {
-          "url": "https://www.bbc.com/news/live/ceqvwrydzpqt",
-          "domain": "bbc.com",
-          "tier": "wire"
-        }
-      ],
-      "confidence": "medium",
-      "_search_count": 1,
-      "_next_search_at": 1772868340.0
+      "_next_search_at": 1772954737.0
     },
     {
       "id": "a1b2c3d4e5f6",
@@ -211,7 +164,7 @@
       "type": "interception",
       "confirmed": true,
       "precision": "exact",
-      "title": "UAE intercepts 15 of 16 ballistic missiles — 1 falls into sea",
+      "title": "UAE intercepts 15 of 16 ballistic missiles \u2014 1 falls into sea",
       "location": "UAE",
       "lat": 24.5,
       "lon": 54.5,
@@ -236,7 +189,7 @@
       "type": "impact_major",
       "confirmed": true,
       "precision": "exact",
-      "title": "IRGC drone attack on Al Dhafra Air Base — explosions reported",
+      "title": "IRGC drone attack on Al Dhafra Air Base \u2014 explosions reported",
       "location": "Al Dhafra Air Base",
       "lat": 24.2481,
       "lon": 54.5476,
@@ -249,6 +202,53 @@
       ],
       "confidence": "high",
       "_manual": true
+    },
+    {
+      "id": "cdb45e875770",
+      "datetime": "2026-03-07T09:25:28Z",
+      "type": "impact_minor",
+      "confirmed": true,
+      "precision": "exact",
+      "title": "Drone impact near Dubai Airport \u2014 BBC confirms (officially denied)",
+      "location": "Dubai (near airport)",
+      "lat": 25.2528,
+      "lon": 55.3644,
+      "sources": [
+        {
+          "url": "https://www.bbc.com/news/videos/c5yr734zml3o?at_medium=RSS&at_campaign=rss",
+          "domain": "bbc.com",
+          "tier": "wire"
+        }
+      ],
+      "confidence": "medium",
+      "_search_count": 1,
+      "_next_search_at": 1772879128.0
+    },
+    {
+      "id": "1e351667a92a",
+      "datetime": "2026-03-07T06:25:40Z",
+      "type": "impact_minor",
+      "confirmed": true,
+      "precision": "city",
+      "title": "Motorist killed by interception debris falling in Dubai",
+      "location": "Dubai",
+      "lat": 25.2048,
+      "lon": 55.2708,
+      "sources": [
+        {
+          "url": "https://www.thenationalnews.com/news/uae/2026/03/07/uae-defences-iran-missile-attacks/",
+          "domain": "thenationalnews.com",
+          "tier": "local"
+        },
+        {
+          "url": "https://www.bbc.com/news/live/ceqvwrydzpqt",
+          "domain": "bbc.com",
+          "tier": "wire"
+        }
+      ],
+      "confidence": "high",
+      "_search_count": 1,
+      "_next_search_at": 1772868340.0
     },
     {
       "id": "g1h2i3j4k5l6",
@@ -344,7 +344,7 @@
       "type": "impact_minor",
       "confirmed": true,
       "precision": "exact",
-      "title": "Fire at Jebel Ali Port — attributed to aerial interception debris",
+      "title": "Fire at Jebel Ali Port \u2014 attributed to aerial interception debris",
       "location": "Jebel Ali Port",
       "lat": 25.0153,
       "lon": 55.0613,
@@ -364,7 +364,7 @@
       "type": "impact_major",
       "confirmed": true,
       "precision": "exact",
-      "title": "Shahed drone strike near Fairmont The Palm Hotel, Palm Jumeirah — 4 injured",
+      "title": "Shahed drone strike near Fairmont The Palm Hotel, Palm Jumeirah \u2014 4 injured",
       "location": "Palm Jumeirah",
       "lat": 25.1124,
       "lon": 55.139,
@@ -389,7 +389,7 @@
       "type": "impact_minor",
       "confirmed": true,
       "precision": "exact",
-      "title": "Iranian missile fragments hit Burj Al Arab — structural damage",
+      "title": "Iranian missile fragments hit Burj Al Arab \u2014 structural damage",
       "location": "Burj Al Arab",
       "lat": 25.1412,
       "lon": 55.1853,
@@ -414,7 +414,7 @@
       "type": "impact_major",
       "confirmed": true,
       "precision": "exact",
-      "title": "Dubai International Airport Terminal 3 struck — 4 staff injured, evacuation",
+      "title": "Dubai International Airport Terminal 3 struck \u2014 4 staff injured, evacuation",
       "location": "Dubai International Airport",
       "lat": 25.2532,
       "lon": 55.3657,
@@ -444,7 +444,7 @@
       "type": "impact_minor",
       "confirmed": true,
       "precision": "exact",
-      "title": "Interception debris falls near Zayed International Airport — 1 killed, 7 injured",
+      "title": "Interception debris falls near Zayed International Airport \u2014 1 killed, 7 injured",
       "location": "Zayed International Airport, Abu Dhabi",
       "lat": 24.433,
       "lon": 54.6511,
@@ -489,7 +489,7 @@
       "type": "impact_major",
       "confirmed": true,
       "precision": "exact",
-      "title": "Al Dhafra Air Base targeted — explosions in Corniche, Al Dhafra and Bateen districts",
+      "title": "Al Dhafra Air Base targeted \u2014 explosions in Corniche, Al Dhafra and Bateen districts",
       "location": "Al Dhafra Air Base",
       "lat": 24.2481,
       "lon": 54.5476,
