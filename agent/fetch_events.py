@@ -455,6 +455,90 @@ def cluster_articles(articles: list) -> list:
     return sorted(result, key=lambda x: x["datetime"], reverse=True)
 
 
+# ── ISW ArcGIS ──────────────────────────────────────────────────────────────
+ISW_FEATURE_URL = (
+    "https://services5.arcgis.com/SaBe5HMtmnbqSWlu/arcgis/rest"
+    "/services/VIEW_Iran_and_Axis_Retalitory_Strikes_v2/FeatureServer/48/query"
+)
+
+def fetch_isw() -> list:
+    """Fetch ISW-confirmed UAE strike events from the public ArcGIS FeatureServer.
+    ISW (Institute for the Study of War) only publishes verified events — all
+    items are treated as confirmed. Updates daily.
+    Throttled to every 60 min via .fetch_state.json (last_isw_run).
+    """
+    params = urlencode({
+        "f": "json",
+        "where": "Country = 'UAE'",
+        "outFields": "OBJECTID,Time,City,Country,Latitude,Longitude,Source_1,Source_2,Source_3,AssessedDayofStrike",
+        "returnGeometry": "true",
+        "resultRecordCount": "200",
+    })
+    url = f"{ISW_FEATURE_URL}?{params}"
+    try:
+        req = Request(url, headers={"User-Agent": "Mozilla/5.0 DubaiStrikeMonitor/1.0"})
+        with urlopen(req, timeout=15) as r:
+            data = json.loads(r.read())
+    except Exception as e:
+        print(f"[ISW] fetch error: {e}", file=sys.stderr)
+        return []
+
+    if "error" in data:
+        print(f"[ISW] API error: {data['error']}", file=sys.stderr)
+        return []
+
+    events = []
+    for feature in data.get("features", []):
+        attrs = feature["attributes"]
+        geom  = feature.get("geometry") or {}
+
+        # Timestamp (epoch ms)
+        ts_ms = attrs.get("AssessedDayofStrike") or attrs.get("Time")
+        if not ts_ms:
+            continue
+        dt_str = datetime.fromtimestamp(ts_ms / 1000, tz=timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+
+        # Sources
+        sources = []
+        for key in ("Source_1", "Source_2", "Source_3"):
+            val = (attrs.get(key) or "").strip()
+            if val.startswith("http"):
+                domain = re.sub(r"^www\.", "", val.split("/")[2])
+                sources.append({"url": val, "domain": domain, "tier": "osint"})
+
+        # Location — prefer explicit lat/lon fields, fall back to geometry
+        lat = attrs.get("Latitude") or (geom.get("y") if geom else None)
+        lon = attrs.get("Longitude") or (geom.get("x") if geom else None)
+        city = attrs.get("City") or "UAE"
+        precision = "city" if (city and city.upper() != "UAE") else "country"
+
+        title = f"Strike event in {city}, UAE" if city.upper() != "UAE" else "Strike event in UAE"
+
+        # Stable ID from ISW OBJECTID
+        event_id = hashlib.md5(f"isw-{attrs['OBJECTID']}".encode()).hexdigest()[:12]
+
+        events.append({
+            "id":            event_id,
+            "title":         title,
+            "datetime":      dt_str,
+            "type":          "impact_minor",   # Sonnet will reclassify in STEP 2
+            "confirmed":     True,              # ISW verifies before publishing
+            "location":      city,
+            "lat":           lat,
+            "lon":           lon,
+            "precision":     precision,
+            "sources":       sources or [{"url": "https://isw.pub", "domain": "isw.pub", "tier": "osint"}],
+            "confidence":    0.85,
+            "_isw_id":       attrs["OBJECTID"],
+            "_next_search_at": 0,
+            "_search_count": 0,
+        })
+
+    print(f"[ISW] {len(events)} UAE events")
+    _log("main", "isw_fetch", count=len(events))
+    return events
+
+
 # ── NOTAM ───────────────────────────────────────────────────────────────────
 def fetch_notams(icao: str) -> list:
     """Scrape notamify.com for a given ICAO code. Returns list of NOTAM dicts."""
@@ -658,6 +742,8 @@ def main():
     now_ts = time.time()
     last_gdelt = state.get("last_gdelt_run", 0)
     run_gdelt = (now_ts - last_gdelt) >= 18 * 60
+    last_isw = state.get("last_isw_run", 0)
+    run_isw = (now_ts - last_isw) >= 60 * 60  # ISW updates daily, poll every 60 min
 
     # 1. GDELT (every ~20 min)
     if run_gdelt:
@@ -676,6 +762,16 @@ def main():
             json.dump(state, f)
     else:
         print(f"[GDELT] skip ({(now_ts - last_gdelt)/60:.0f}m ago, threshold 18m)")
+
+    # 2b. ISW ArcGIS — every 60 min (ISW publishes daily, no need to poll faster)
+    if run_isw:
+        isw_events = fetch_isw()
+        all_new_events.extend(isw_events)
+        state["last_isw_run"] = now_ts
+        with open(STATE_FILE, "w") as f:
+            json.dump(state, f)
+    else:
+        print(f"[ISW] skip ({(now_ts - last_isw)/60:.0f}m ago, threshold 60m)")
 
     # 3. NOTAMs — every run, they're real-time
     for icao in UAE_AIRPORTS:
