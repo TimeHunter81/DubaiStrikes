@@ -566,7 +566,65 @@
     </div>
   </div>
 
-  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js">
+  // ── OG PREVIEW (hover on source name) ────────────────────────────────────
+  const _ogCache = new Map();
+  let _srcPreviewTimer = null;
+
+  async function fetchOGData(url) {
+    if (_ogCache.has(url)) return _ogCache.get(url);
+    try {
+      const proxy = `https://api.allorigins.win/raw?url=${encodeURIComponent(url)}`;
+      const raw = await fetch(proxy, { signal: AbortSignal.timeout(6000) }).then(r => r.text());
+      const getTag = (prop) => {
+        const m = raw.match(new RegExp(`<meta[^>]+property=["']${prop}["'][^>]+content=["']([^"']+)["']`, 'i'))
+                || raw.match(new RegExp(`<meta[^>]+content=["']([^"']+)["'][^>]+property=["']${prop}["']`, 'i'));
+        return m ? m[1] : null;
+      };
+      const data = { img: getTag('og:image'), title: getTag('og:title') || getTag('twitter:title') };
+      _ogCache.set(url, data);
+      return data;
+    } catch(e) {
+      _ogCache.set(url, null);
+      return null;
+    }
+  }
+
+  function showSrcPreview(url, domain, el) {
+    clearTimeout(_srcPreviewTimer);
+    _srcPreviewTimer = setTimeout(async () => {
+      // Only on desktop
+      if (window.innerWidth <= 700) return;
+      const pv = document.getElementById('card-preview');
+      const pvImg = document.getElementById('preview-img');
+      const pvDomain = document.getElementById('preview-domain');
+      const pvTitle = document.getElementById('preview-title');
+
+      // Position: to the right of sidebar
+      const rect = el.getBoundingClientRect();
+      pv.style.top = Math.min(rect.top, window.innerHeight - 220) + 'px';
+      pvDomain.textContent = domain;
+      pvTitle.textContent = '';
+      pvImg.style.display = 'none';
+      pv.style.display = 'block';
+
+      const data = await fetchOGData(url);
+      if (!data) { pv.style.display = 'none'; return; }
+      if (data.title) pvTitle.textContent = data.title;
+      if (data.img) {
+        pvImg.src = data.img;
+        pvImg.style.display = 'block';
+        pvImg.onerror = () => { pvImg.style.display = 'none'; };
+      }
+    }, 300);
+  }
+
+  function hideSrcPreview() {
+    clearTimeout(_srcPreviewTimer);
+    document.getElementById('card-preview').style.display = 'none';
+  }
+
+</script>
   <script src="https://cdn.jsdelivr.net/npm/lz-string@1.5.0/libs/lz-string.min.js"></script>
   <script>
   // ─── ICON HELPERS ──────────────────────────────────────────────────────
@@ -874,14 +932,14 @@
       const confClass = e.confirmed ? 'badge-confirmed' : 'badge-suspected';
       const confLabel = e.confirmed ? `${ic('checkCircle')} Confirmed` : `${ic('helpCircle')} Suspected`;
       const srcs = (e.sources||[]).map(s =>
-        `<a class="src-tag" href="${s.url}" target="_blank">${s.domain}</a>`
+        `<a class="src-tag" href="${s.url}" target="_blank" onmouseenter="showSrcPreview('${s.url}','${s.domain}',this)" onmouseleave="hideSrcPreview()">${s.domain}</a>`
       ).join('');
       const rel = relTime(e.datetime);
       const approxBadge = !isPrecise(e)
         ? `<span class="badge badge-approx">${ic('mapPin','ic-sm')} ${e.location || 'Area'}</span>` : '';
       const clickAttr = isPrecise(e)
         ? `onclick="flyTo(${e.lat},${e.lon})"` : '';
-      return `<div class="event-card${!isPrecise(e) ? ' event-card-approx' : ''}" data-type="${e.type||''}" data-datetime="${e.datetime||''}" ${clickAttr} onmouseenter="showCardPreview('${e.id}',this)" onmouseleave="hideCardPreview()">
+      return `<div class="event-card${!isPrecise(e) ? ' event-card-approx' : ''}" data-type="${e.type||''}" data-datetime="${e.datetime||''}" ${clickAttr}>
         <div class="event-badges">
           ${tm.label ? `<span class="badge ${tm.cls}">${tm.label}</span>` : ''}
           <span class="badge ${confClass}">${confLabel}</span>
