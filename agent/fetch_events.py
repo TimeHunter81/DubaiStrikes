@@ -23,6 +23,13 @@ REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA_FILE = os.path.join(REPO_ROOT, "data.json")
 ANTHROPIC_API_KEY = os.environ.get("ANTHROPIC_API_KEY", "")
 
+# ── Logger ───────────────────────────────────────────────────────────────────
+sys.path.insert(0, os.path.join(REPO_ROOT, "scripts"))
+try:
+    from pipeline_logger import log as _log
+except ImportError:
+    def _log(*a, **kw): pass  # graceful fallback
+
 # ── RSS ─────────────────────────────────────────────────────────────────────
 RSS_FEEDS = [
     # Wire / international
@@ -258,18 +265,16 @@ def rss_articles_to_events(articles: list) -> list:
         if eid not in events:
             loc_name, lat, lon, precision = extract_location(title, art.get("description", ""))
             events[eid] = {
-                "id":               eid,
-                "datetime":         art["datetime"],
-                "type":             "security_alert",
-                "confirmed":        art["tier"] in ("wire", "official"),
-                "precision":        precision,
-                "title":            title,
-                "location":         loc_name,
-                "lat":              lat if precision != "country" else None,
-                "lon":              lon if precision != "country" else None,
-                "sources":          [],
-                "_next_search_at":  0,   # due immediately for verification
-                "_search_count":    0,
+                "id":        eid,
+                "datetime":  art["datetime"],
+                "type":      "security_alert",
+                "confirmed": art["tier"] in ("wire", "official"),
+                "precision": precision,
+                "title":     title,
+                "location":  loc_name,
+                "lat":       lat if precision != "country" else None,
+                "lon":       lon if precision != "country" else None,
+                "sources":   [],
             }
 
         src = {"url": art["url"], "domain": art["domain"], "tier": art["tier"]}
@@ -416,19 +421,17 @@ def cluster_articles(articles: list) -> list:
         if eid not in events:
             loc_name, lat, lon, precision = extract_location(title, art.get("socialimage", ""))
             events[eid] = {
-                "id":               eid,
-                "datetime":         date_str,
-                "type":             "security_alert",   # GDELT default; can be refined
-                "confirmed":        False,
-                "precision":        precision,
-                "title":            title,
-                "location":         loc_name,
-                "lat":              lat if precision != "country" else None,
-                "lon":              lon if precision != "country" else None,
-                "sources":          [],
-                "confidence":       "unverified",
-                "_next_search_at":  0,   # due immediately for verification
-                "_search_count":    0,
+                "id": eid,
+                "datetime": date_str,
+                "type": "security_alert",   # GDELT default; can be refined
+                "confirmed": False,
+                "precision": precision,
+                "title": title,
+                "location": loc_name,
+                "lat": lat if precision != "country" else None,
+                "lon": lon if precision != "country" else None,
+                "sources": [],
+                "confidence": "unverified",
             }
 
         src = {"url": url, "domain": domain, "tier": tier}
@@ -577,14 +580,27 @@ def merge_with_existing(new_events: list, existing_events: list, max_age_days: i
             ex = existing_by_id[eid]
             # Merge sources
             existing_domains = {s["domain"] for s in ex.get("sources", [])}
+            added_domains = []
             for s in e.get("sources", []):
                 if s["domain"] not in existing_domains:
                     ex.setdefault("sources", []).append(s)
                     existing_domains.add(s["domain"])
+                    added_domains.append(s["domain"])
             ex["sources"] = ex.get("sources", [])[:5]
             ex["confidence"] = compute_confidence(ex["sources"])
+            if added_domains:
+                _log("main", "source_merged", id=eid,
+                     title=ex.get("title", "")[:80],
+                     new_sources=added_domains)
         else:
             existing_by_id[eid] = e
+            _log("main", "event_added", id=eid,
+                 title=e.get("title", "")[:80],
+                 type=e.get("type", ""),
+                 datetime=e.get("datetime", ""),
+                 sources=[s["domain"] for s in e.get("sources", [])],
+                 confirmed=e.get("confirmed", False),
+                 precision=e.get("precision", ""))
 
     all_sorted = sorted(existing_by_id.values(),
                         key=lambda x: (x.get("datetime") or x.get("date", ""))[:19],
@@ -608,22 +624,16 @@ def load_existing() -> dict:
 
 
 def save(data: dict):
-    import fcntl
-    lock_path = DATA_FILE + '.lock'
-    with open(lock_path, 'w') as lock_f:
-        fcntl.flock(lock_f, fcntl.LOCK_EX)
-        try:
-            with open(DATA_FILE, "w") as f:
-                json.dump(data, f, indent=2, ensure_ascii=False)
-            print(f"[OK] Saved {len(data['events'])} events → {DATA_FILE}")
-        finally:
-            fcntl.flock(lock_f, fcntl.LOCK_UN)
+    with open(DATA_FILE, "w") as f:
+        json.dump(data, f, indent=2, ensure_ascii=False)
+    print(f"[OK] Saved {len(data['events'])} events → {DATA_FILE}")
 
 
 def main():
     print(f"[START] {datetime.now(timezone.utc).isoformat()}")
     llm_status = "Claude Haiku" if ANTHROPIC_API_KEY else "disabled (set ANTHROPIC_API_KEY)"
     print(f"[LLM] {llm_status}")
+    _log("main", "run_start")
 
     existing = load_existing()
     all_new_events = []
@@ -685,6 +695,7 @@ def main():
     save(data)
     security_notams = sum(1 for e in merged if e.get("_qcode"))
     print(f"[DONE] {len(merged)} total events | {security_notams} NOTAM alerts")
+    _log("main", "run_done", total_events=len(merged), notam_alerts=security_notams)
 
 
 if __name__ == "__main__":
