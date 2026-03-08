@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-08T17:52:00Z",
+  "last_updated": "2026-03-08T18:04:54Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -139,7 +139,7 @@
       "id": "5f218884ec31",
       "datetime": "2026-03-08T10:17:02Z",
       "type": "impact_major",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "Bahrain desalination plant damaged in Iranian drone attack",
       "location": "Bahrain",
@@ -243,6 +243,25 @@
       "sources": [
         {
           "url": "https://www.thenationalnews.com/news/uae/2026/03/08/abu-dhabi-residents-urged-to-shelter-as-uae-faces-further-iran-strikes/",
+          "domain": "thenationalnews.com",
+          "tier": "local"
+        }
+      ],
+      "confidence": "low"
+    },
+    {
+      "id": "15201967e940",
+      "datetime": "2026-03-08T06:18:49Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "city",
+      "title": "'It was an honour': Tadej Pogacar salutes UAE teammates after historic Strade Bianche triumph",
+      "location": "Uae",
+      "lat": 24.5,
+      "lon": 54.5,
+      "sources": [
+        {
+          "url": "https://www.thenationalnews.com/sport/cycling/2026/03/08/it-was-an-honour-tadej-pogacar-salutes-uae-teammates-after-historic-strade-bianche-triumph/",
           "domain": "thenationalnews.com",
           "tier": "local"
         }
@@ -375,11 +394,11 @@
       "datetime": "2026-03-07T09:31:28Z",
       "type": "impact_minor",
       "confirmed": true,
-      "precision": "city",
+      "precision": "exact",
       "title": "Drone strike recorded near Dubai Airport — BBC footage",
       "location": "Dubai",
-      "lat": 25.2048,
-      "lon": 55.2708,
+      "lat": 25.2528,
+      "lon": 55.3644,
       "sources": [
         {
           "url": "https://www.bbc.com/news/videos/c5yr734zml3o?at_medium=RSS&amp;at_campaign=rss",
@@ -394,11 +413,11 @@
       "datetime": "2026-03-07T09:25:28Z",
       "type": "security_alert",
       "confirmed": false,
-      "precision": "country",
-      "title": "Emirates resumes Saturday flights after brief security suspension",
+      "precision": "exact",
+      "title": "Emirates resumes flights after brief security suspension at Dubai Airport",
       "location": "UAE",
-      "lat": null,
-      "lon": null,
+      "lat": 25.2528,
+      "lon": 55.3644,
       "sources": [
         {
           "url": "https://www.thenationalnews.com/business/aviation/2026/03/07/emirates-resumes-flights-on-saturday-after-brief-suspension/",
@@ -477,6 +496,101 @@
       "sources": [
         {
           "url": "https://www.thenationalnews.com/news/uae/2026/03/07/dubai-officials-deny-reports-of-incident-at-airport/",
+          "domain": "thenationalnews.com",
+          "tier": "local"
+        }
+      ],
+      "confidence": "low"
+    },
+    {
+      "id": "4fca62fe1f65",
+      "datetime": "2026-03-07T05:18:35Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "President Sheikh Mohamed visits survivors of Iranian attacks in hospital",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.thenationalnews.com/news/uae/2026/03/07/president-sheikh-mohamed-visits-survivors-of-iranian-attacks-in-hospital/",
+          "domain": "thenationalnews.com",
+          "tier": "local"
+        }
+      ],
+      "confidence": "low"
+    },
+    {
+      "id": "6404393f9568",
+      "datetime": "2026-03-07T05:00:32Z",
+      "type": "security_alert",
+      "confirmed": true,
+      "precision": "country",
+      "title": "We've been speaking to Iranians during one week of war. Here's what they said",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.bbc.com/news/articles/c5y5lqygrn7o?at_medium=RSS&amp;at_campaign=rss",
+          "domain": "bbc.com",
+          "tier": "wire"
+        }
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "50cf708b7d5c",
+      "datetime": "2026-03-07T04:24:54Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "One week of Iran war: Global economy feels the heat as energy and aviation bear brunt",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.thenationalnews.com/business/2026/03/07/one-week-of-iran-war-global-economy-feels-the-heat-as-energy-and-aviation-bear-brunt/",
+          "domain": "thenationalnews.com",
+          "tier": "local"
+        }
+      ],
+      "confidence": "low"
+    },
+    {
+      "id": "6fe38fed746b",
+      "datetime": "2026-03-07T01:04:06Z",
+      "type": "security_alert",
+      "confirmed": true,
+      "precision": "country",
+      "title": "Trump demands 'unconditional surrender' from Iran as Putin speaks with Iran's president",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.bbc.com/news/articles/c5yq82k1wk8o?at_medium=RSS&amp;at_campaign=rss",
+          "domain": "bbc.com",
+          "tier": "wire"
+        }
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "938bd874ec7c",
+      "datetime": "2026-03-07T01:00:00Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "city",
+      "title": "UAE corporate tax: Two years on, should companies rethink their fiscal year?",
+      "location": "Uae",
+      "lat": 24.5,
+      "lon": 54.5,
+      "sources": [
+        {
+          "url": "https://www.thenationalnews.com/business/2026/03/07/uae-corporate-tax-two-years-on-should-companies-rethink-their-fiscal-year/",
           "domain": "thenationalnews.com",
           "tier": "local"
         }
