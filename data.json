@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-08T16:13:00Z",
+  "last_updated": "2026-03-08T16:20:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -8,7 +8,7 @@
       "type": "interception",
       "confirmed": false,
       "precision": "country",
-      "title": "UAE air defences intercept Iranian drones — video",
+      "title": "UAE air defences intercept Iranian drones \u2014 video",
       "location": "Uae",
       "lat": null,
       "lon": null,
@@ -41,25 +41,6 @@
       "confidence": "low"
     },
     {
-      "id": "662730dd20d1",
-      "datetime": "2026-03-08T12:32:33Z",
-      "type": "security_alert",
-      "confirmed": false,
-      "precision": "country",
-      "title": "UAE urges residents not to stockpile food, markets stable",
-      "location": "Uae",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://gulfnews.com/business/economy/uae-urges-residents-not-to-stockpile-food-reaffirms-markets-remain-well-supplied-1.500467501",
-          "domain": "gulfnews.com",
-          "tier": "local"
-        }
-      ],
-      "confidence": "low"
-    },
-    {
       "id": "303a1fd3cd03",
       "datetime": "2026-03-08T12:27:39Z",
       "type": "security_alert",
@@ -84,7 +65,7 @@
       "type": "impact_major",
       "confirmed": false,
       "precision": "country",
-      "title": "Report: UAE struck Iranian desalination facility — unconfirmed",
+      "title": "Report: UAE struck Iranian desalination facility \u2014 unconfirmed",
       "location": "UAE",
       "lat": null,
       "lon": null,
@@ -139,7 +120,7 @@
       "id": "5f218884ec31",
       "datetime": "2026-03-08T10:17:02Z",
       "type": "impact_major",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "country",
       "title": "Bahrain desalination plant damaged in confirmed Iranian drone attack",
       "location": "Bahrain",
@@ -160,7 +141,7 @@
       "type": "impact_minor",
       "confirmed": false,
       "precision": "city",
-      "title": "Driver killed by missile debris in Dubai — Pakistan embassy confirms",
+      "title": "Driver killed by missile debris in Dubai \u2014 Pakistan embassy confirms",
       "location": "Dubai",
       "lat": 25.2048,
       "lon": 55.2708,
@@ -198,7 +179,7 @@
       "type": "security_alert",
       "confirmed": false,
       "precision": "country",
-      "title": "UAE issues missile threat emergency alert — all-clear follows",
+      "title": "UAE issues missile threat emergency alert \u2014 all-clear follows",
       "location": "UAE",
       "lat": null,
       "lon": null,
@@ -240,25 +221,6 @@
       "location": "Dubai International Airport",
       "lat": 25.2528,
       "lon": 55.3644,
-      "sources": [
-        {
-          "url": "https://www.thenationalnews.com/travel/2026/03/03/uae-flight-updates-cancellations-iran/",
-          "domain": "thenationalnews.com",
-          "tier": "local"
-        }
-      ],
-      "confidence": "low"
-    },
-    {
-      "id": "ff455d861e6e",
-      "datetime": "2026-03-08T05:53:17Z",
-      "type": "security_alert",
-      "confirmed": false,
-      "precision": "country",
-      "title": "Emirates, Etihad operating on reduced schedule amid Iran strikes",
-      "location": "Uae",
-      "lat": null,
-      "lon": null,
       "sources": [
         {
           "url": "https://www.thenationalnews.com/travel/2026/03/03/uae-flight-updates-cancellations-iran/",
@@ -312,7 +274,7 @@
       "type": "interception",
       "confirmed": true,
       "precision": "exact",
-      "title": "UAE intercepts 15 of 16 ballistic missiles — 1 falls into sea",
+      "title": "UAE intercepts 15 of 16 ballistic missiles \u2014 1 falls into sea",
       "location": "UAE",
       "lat": 24.5,
       "lon": 54.5,
@@ -337,7 +299,7 @@
       "type": "impact_major",
       "confirmed": true,
       "precision": "exact",
-      "title": "IRGC drone attack on Al Dhafra Air Base — explosions reported",
+      "title": "IRGC drone attack on Al Dhafra Air Base \u2014 explosions reported",
       "location": "Al Dhafra Air Base",
       "lat": 24.2481,
       "lon": 54.5476,
@@ -357,7 +319,7 @@
       "type": "impact_minor",
       "confirmed": true,
       "precision": "exact",
-      "title": "Drone strike near Dubai Airport captured on video — BBC",
+      "title": "Drone strike near Dubai Airport captured on video \u2014 BBC",
       "location": "Dubai International Airport",
       "lat": 25.2528,
       "lon": 55.3644,
@@ -369,44 +331,6 @@
         }
       ],
       "confidence": "medium"
-    },
-    {
-      "id": "dac7a9bd2d37",
-      "datetime": "2026-03-07T09:25:28Z",
-      "type": "security_alert",
-      "confirmed": false,
-      "precision": "country",
-      "title": "Emirates resumes flights after brief security suspension",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.thenationalnews.com/business/aviation/2026/03/07/emirates-resumes-flights-on-saturday-after-brief-suspension/",
-          "domain": "thenationalnews.com",
-          "tier": "local"
-        }
-      ],
-      "confidence": "low"
-    },
-    {
-      "id": "dd6ffc4d9309",
-      "datetime": "2026-03-07T08:43:57Z",
-      "type": "security_alert",
-      "confirmed": false,
-      "precision": "country",
-      "title": "Iran's President orders halt to Gulf attacks — enforcement unclear",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.thenationalnews.com/news/mena/2026/03/07/irans-president-says-forces-ordered-to-stop-gulf-attacks-but-authority-to-enforce-halt-unclear/",
-          "domain": "thenationalnews.com",
-          "tier": "local"
-        }
-      ],
-      "confidence": "low"
     },
     {
       "id": "1e351667a92a",
@@ -463,25 +387,6 @@
         }
       ],
       "_manual": true
-    },
-    {
-      "id": "8877a1feec4f",
-      "datetime": "2026-03-07T05:45:39Z",
-      "type": "security_alert",
-      "confirmed": false,
-      "precision": "city",
-      "title": "Dubai officials deny reports of security incident at airport",
-      "location": "Dubai",
-      "lat": 25.2048,
-      "lon": 55.2708,
-      "sources": [
-        {
-          "url": "https://www.thenationalnews.com/news/uae/2026/03/07/dubai-officials-deny-reports-of-incident-at-airport/",
-          "domain": "thenationalnews.com",
-          "tier": "local"
-        }
-      ],
-      "confidence": "low"
     },
     {
       "id": "c3d4e5f6a1b2",
@@ -559,7 +464,7 @@
       "type": "impact_minor",
       "confirmed": true,
       "precision": "exact",
-      "title": "Fire at Jebel Ali Port — attributed to aerial interception debris",
+      "title": "Fire at Jebel Ali Port \u2014 attributed to aerial interception debris",
       "location": "Jebel Ali Port",
       "lat": 25.0153,
       "lon": 55.0613,
@@ -579,7 +484,7 @@
       "type": "impact_major",
       "confirmed": true,
       "precision": "exact",
-      "title": "Shahed drone strike near Fairmont The Palm Hotel, Palm Jumeirah — 4 injured",
+      "title": "Shahed drone strike near Fairmont The Palm Hotel, Palm Jumeirah \u2014 4 injured",
       "location": "Palm Jumeirah",
       "lat": 25.1124,
       "lon": 55.139,
@@ -604,7 +509,7 @@
       "type": "impact_minor",
       "confirmed": true,
       "precision": "exact",
-      "title": "Iranian missile fragments hit Burj Al Arab — structural damage",
+      "title": "Iranian missile fragments hit Burj Al Arab \u2014 structural damage",
       "location": "Burj Al Arab",
       "lat": 25.1412,
       "lon": 55.1853,
@@ -629,7 +534,7 @@
       "type": "impact_major",
       "confirmed": true,
       "precision": "exact",
-      "title": "Dubai International Airport Terminal 3 struck — 4 staff injured, evacuation",
+      "title": "Dubai International Airport Terminal 3 struck \u2014 4 staff injured, evacuation",
       "location": "Dubai International Airport",
       "lat": 25.2532,
       "lon": 55.3657,
@@ -659,7 +564,7 @@
       "type": "impact_minor",
       "confirmed": true,
       "precision": "exact",
-      "title": "Interception debris falls near Zayed International Airport — 1 killed, 7 injured",
+      "title": "Interception debris falls near Zayed International Airport \u2014 1 killed, 7 injured",
       "location": "Zayed International Airport, Abu Dhabi",
       "lat": 24.433,
       "lon": 54.6511,
@@ -704,7 +609,7 @@
       "type": "impact_major",
       "confirmed": true,
       "precision": "exact",
-      "title": "Al Dhafra Air Base targeted — explosions in Corniche, Al Dhafra and Bateen districts",
+      "title": "Al Dhafra Air Base targeted \u2014 explosions in Corniche, Al Dhafra and Bateen districts",
       "location": "Al Dhafra Air Base",
       "lat": 24.2481,
       "lon": 54.5476,
