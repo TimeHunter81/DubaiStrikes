@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-03-08T21:04:53Z",
+  "last_updated": "2026-03-08T21:14:26Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
       "id": "a809a8561c10",
       "datetime": "2026-03-08T17:39:31Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "Iran threatens retaliatory strikes on Gulf oil facilities",
       "location": "Gulf Region",
@@ -46,7 +46,7 @@
       "type": "interception",
       "confirmed": false,
       "precision": "country",
-      "title": "UAE air defences intercept Iranian drones targeting UAE",
+      "title": "UAE air defences intercept Iranian drones",
       "location": "UAE",
       "lat": null,
       "lon": null,
@@ -54,6 +54,25 @@
         {
           "url": "https://gulfnews.com/uae/video-air-defences-intercept-iranian-drones-targeting-uae-1.500467671",
           "domain": "gulfnews.com",
+          "tier": "local"
+        }
+      ],
+      "confidence": "low"
+    },
+    {
+      "id": "e35b9e1270e8",
+      "datetime": "2026-03-08T14:52:37Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "UAE: defensive measures against Iran will be 'public and clear'",
+      "location": "Uae",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.thenationalnews.com/news/uae/2026/03/08/any-defensive-measures-by-uae-against-iran-will-be-made-public-and-clear-says-senior-official/",
+          "domain": "thenationalnews.com",
           "tier": "local"
         }
       ],
@@ -262,7 +281,7 @@
       "type": "impact_minor",
       "confirmed": true,
       "precision": "exact",
-      "title": "Drone strike near Dubai Airport — BBC video report",
+      "title": "Drone strike near Dubai Airport — BBC confirms",
       "location": "Dubai (near airport)",
       "lat": 25.2528,
       "lon": 55.3644,
@@ -349,6 +368,25 @@
         }
       ],
       "_manual": true
+    },
+    {
+      "id": "97a82a1740b4",
+      "datetime": "2026-03-06T12:30:45Z",
+      "type": "interception",
+      "confirmed": false,
+      "precision": "country",
+      "title": "UAE destroys 9 ballistic missiles and 109 Iranian drones",
+      "location": "Uae",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.thenationalnews.com/news/uae/2026/03/06/uae-iran-missile-strikes/",
+          "domain": "thenationalnews.com",
+          "tier": "local"
+        }
+      ],
+      "confidence": "low"
     },
     {
       "id": "c3d4e5f6a1b2",
