@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-08T23:21:00Z",
+  "last_updated": "2026-03-08T23:33:53Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -117,7 +117,7 @@
       "type": "security_alert",
       "confirmed": true,
       "precision": "country",
-      "title": "UAE missile threat emergency alert issued — all-clear follows",
+      "title": "UAE-wide missile threat alert issued — all-clear follows",
       "location": "UAE",
       "lat": null,
       "lon": null,
@@ -230,7 +230,7 @@
       "type": "impact_minor",
       "confirmed": true,
       "precision": "city",
-      "title": "Motorist killed by interception debris falling in Dubai",
+      "title": "Motorist killed by interception debris in Dubai",
       "location": "Dubai",
       "lat": 25.2048,
       "lon": 55.2708,
