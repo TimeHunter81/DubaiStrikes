@@ -1,26 +1,7 @@
 {
-  "last_updated": "2026-03-08T20:15:00Z",
+  "last_updated": "2026-03-08T20:24:44Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
-    {
-      "id": "784d0aad18fe",
-      "datetime": "2026-03-08T18:02:44Z",
-      "type": "interception",
-      "confirmed": false,
-      "precision": "country",
-      "title": "UK forces intercept Iranian drone over Iraq",
-      "location": "Iraq",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/uk-forces-successfully-engage-drone-fired-iran-towards-iraq",
-          "domain": "middleeasteye.net",
-          "tier": "local"
-        }
-      ],
-      "confidence": "low"
-    },
     {
       "id": "a77ca758b667",
       "datetime": "2026-03-08T18:02:44Z",
@@ -335,6 +316,25 @@
       "location": "Dubai International Airport",
       "lat": 25.2528,
       "lon": 55.3644,
+      "sources": [
+        {
+          "url": "https://www.thenationalnews.com/travel/2026/03/03/uae-flight-updates-cancellations-iran/",
+          "domain": "thenationalnews.com",
+          "tier": "local"
+        }
+      ],
+      "confidence": "low"
+    },
+    {
+      "id": "ff455d861e6e",
+      "datetime": "2026-03-08T05:53:17Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "city",
+      "title": "Emirates, Etihad on reduced schedule amid Iran conflict",
+      "location": "Uae",
+      "lat": 24.5,
+      "lon": 54.5,
       "sources": [
         {
           "url": "https://www.thenationalnews.com/travel/2026/03/03/uae-flight-updates-cancellations-iran/",
