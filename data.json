@@ -37,7 +37,7 @@
       "id": "303a1fd3cd03",
       "datetime": "2026-03-08T12:27:39Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "Emergency alert issued in Abu Dhabi amid UAE defence ops",
       "location": "Abu Dhabi",
@@ -56,8 +56,8 @@
         }
       ],
       "confidence": "high",
-      "_search_count": 2,
-      "_next_search_at": 1772994459.0
+      "_search_count": 3,
+      "_next_search_at": 1773059259.0
     },
     {
       "id": "b620a85546da",
@@ -89,7 +89,7 @@
       "id": "0ed90e64b583",
       "datetime": "2026-03-08T08:02:57Z",
       "type": "impact_minor",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "Driver killed by missile debris in Dubai (Al Barsha)",
       "location": "Dubai (Al Barsha)",
@@ -108,8 +108,8 @@
         }
       ],
       "confidence": "high",
-      "_search_count": 2,
-      "_next_search_at": 1772978577.0
+      "_search_count": 3,
+      "_next_search_at": 1773043377.0
     },
     {
       "id": "27aad1c968ef",
