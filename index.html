@@ -63,29 +63,12 @@
     }
 
 
-    /* ── SIDEBAR BLOBS ── */
-    #sidebar-blobs {
-      position: absolute; inset: 0;
-      pointer-events: none; z-index: 0; overflow: hidden;
-    }
-    .sblob {
-      position: absolute; border-radius: 50%;
-      filter: blur(55px);
-      animation: drift 20s ease-in-out infinite alternate;
-    }
-    .sblob-1 { width: 320px; height: 320px; top: -40px; left: -30px;
-      background: radial-gradient(circle, rgba(79,158,255,0.55) 0%, transparent 65%); animation-delay: 0s; }
-    .sblob-2 { width: 260px; height: 260px; top: 30%; right: 10px;
-      background: radial-gradient(circle, rgba(248,81,73,0.45) 0%, transparent 65%); animation-delay: -7s; }
-    .sblob-3 { width: 300px; height: 300px; bottom: 60px; left: 10px;
-      background: radial-gradient(circle, rgba(163,113,247,0.5) 0%, transparent 65%); animation-delay: -13s; }
-    .sblob-4 { width: 220px; height: 220px; top: 52%; left: 55%;
-      background: radial-gradient(circle, rgba(240,168,32,0.35) 0%, transparent 65%); animation-delay: -5s; }
-
-    /* Ensure sidebar children stack above blobs */
-    #header, #timeline-section, #filters, #events-list, #loc-section, #footer,
-    .section-divider, #share-btn-row {
-      position: relative; z-index: 1;
+    /* ── SIDEBAR BLOBS (via background gradient) ── */
+    @keyframes blobshift {
+      0%   { background-position: 10% 10%, 90% 45%, 15% 80%, 70% 25%; }
+      33%  { background-position: 20% 20%, 80% 60%, 25% 70%, 60% 15%; }
+      66%  { background-position: 5%  30%, 85% 35%, 10% 85%, 75% 35%; }
+      100% { background-position: 10% 10%, 90% 45%, 15% 80%, 70% 25%; }
     }
 
     /* ── MAP ── */
@@ -97,8 +80,14 @@
       position: relative; z-index: 2;
       display: flex; flex-direction: column;
       overflow: hidden;
-      /* Solid dark — blobs inside provide depth */
-      background: rgba(7, 10, 16, 0.96);
+      /* Blobs baked into background */
+      background:
+        radial-gradient(ellipse 55% 35% at var(--b1x,12%) var(--b1y,12%), rgba(79,158,255,0.3) 0%, transparent 100%),
+        radial-gradient(ellipse 50% 40% at var(--b2x,88%) var(--b2y,48%), rgba(248,81,73,0.25) 0%, transparent 100%),
+        radial-gradient(ellipse 55% 35% at var(--b3x,18%) var(--b3y,78%), rgba(163,113,247,0.28) 0%, transparent 100%),
+        radial-gradient(ellipse 40% 30% at var(--b4x,72%) var(--b4y,28%), rgba(240,168,32,0.2) 0%, transparent 100%),
+        #070a10;
+      animation: blobshift 18s ease-in-out infinite;
       /* Gradient border via box-shadow + pseudo */
     }
     /* Left gradient border */
