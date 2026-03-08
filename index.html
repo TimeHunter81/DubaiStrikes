@@ -160,6 +160,7 @@
       display: flex; gap: 4px; flex-wrap: wrap; align-items: center;
     }
     .filter-btn {
+      display: inline-flex; align-items: center; gap: 4px;
       padding: 3px 8px; border-radius: 20px;
       border: 1px solid rgba(255,255,255,0.06);
       background: rgba(255,255,255,0.03);
@@ -293,7 +294,7 @@
 
     .event-badges { display: flex; gap: 4px; margin-bottom: 5px; align-items: center; flex-wrap: wrap; }
     .badge {
-      display: inline-flex; align-items: center;
+      display: inline-flex; align-items: center; gap: 3px;
       padding: 2px 6px; border-radius: 6px; font-size: 9px; font-weight: 700;
       text-transform: uppercase; letter-spacing: 0.5px; font-family: inherit;
     }
@@ -524,6 +525,27 @@
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/lz-string@1.5.0/libs/lz-string.min.js"></script>
   <script>
+  // ─── ICON HELPERS ──────────────────────────────────────────────────────
+  const ICONS = {
+    shield:      '<path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"/>',
+    zap:         '<path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"/>',
+    triangle:    '<path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3"/><path d="M12 9v4"/><path d="M12 17h.01"/>',
+    bell:        '<path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9"/><path d="M10.3 21a1.94 1.94 0 0 0 3.4 0"/>',
+    checkCircle: '<path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><path d="m9 11 3 3L22 4"/>',
+    helpCircle:  '<circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><path d="M12 17h.01"/>',
+    mapPin:      '<path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"/><circle cx="12" cy="10" r="3"/>',
+    pencil:      '<path d="M21.174 6.812a1 1 0 0 0-3.986-3.987L3.842 16.174a2 2 0 0 0-.5.83l-1.321 4.352a.5.5 0 0 0 .623.622l4.353-1.32a2 2 0 0 0 .83-.497z"/><path d="m15 5 4 4"/>',
+    globe:       '<circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/>',
+    link:        '<path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/>',
+    check:       '<path d="M20 6 9 17l-5-5"/>',
+    x:           '<path d="M18 6 6 18"/><path d="m6 6 12 12"/>',
+  };
+  function ic(name, cls) {
+    const p = ICONS[name] || '';
+    const c = cls ? ' ' + cls : '';
+    return `<svg class="ic${c}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">${p}</svg>`;
+  }
+
   // ─── MAP ───────────────────────────────────────────────────────────────
   // Restore map view from URL if present
   const DEFAULT_LAT = 25.0, DEFAULT_LON = 55.0, DEFAULT_ZOOM = 8;
