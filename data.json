@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-08T23:03:55Z",
+  "last_updated": "2026-03-08T23:12:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -92,9 +92,9 @@
       "confirmed": true,
       "precision": "city",
       "title": "Driver killed by missile debris in Dubai (Al Barsha)",
-      "location": "Dubai",
-      "lat": 25.2048,
-      "lon": 55.2708,
+      "location": "Dubai (Al Barsha)",
+      "lat": 25.1076,
+      "lon": 55.1994,
       "sources": [
         {
           "url": "https://gulfnews.com/uae/pakistan-embassy-supports-family-after-driver-dies-in-dubai-missile-debris-incident-1.500467327",
@@ -141,7 +141,7 @@
       "id": "930fd0403ff4",
       "datetime": "2026-03-08T06:25:37Z",
       "type": "security_alert",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "city",
       "title": "Abu Dhabi residents urged to shelter during Iran strikes",
       "location": "Abu Dhabi",
