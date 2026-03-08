@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-08T22:44:53Z",
+  "last_updated": "2026-03-08T22:55:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -55,7 +55,7 @@
           "tier": "wire"
         }
       ],
-      "confidence": "low",
+      "confidence": "high",
       "_search_count": 2,
       "_next_search_at": 1772994459.0
     },
@@ -81,7 +81,7 @@
           "tier": "wire"
         }
       ],
-      "confidence": "low",
+      "confidence": "high",
       "_search_count": 1,
       "_next_search_at": 1772970126.0
     },
@@ -107,7 +107,7 @@
           "tier": "wire"
         }
       ],
-      "confidence": "low",
+      "confidence": "high",
       "_search_count": 2,
       "_next_search_at": 1772978577.0
     },
@@ -133,7 +133,7 @@
           "tier": "wire"
         }
       ],
-      "confidence": "low",
+      "confidence": "high",
       "_search_count": 1,
       "_next_search_at": 1772956733.0
     },
@@ -154,7 +154,45 @@
           "tier": "local"
         }
       ],
+      "confidence": "medium"
+    },
+    {
+      "id": "cdb45e875770",
+      "datetime": "2026-03-07T09:25:28Z",
+      "type": "impact_minor",
+      "confirmed": false,
+      "precision": "exact",
+      "title": "Drone strike near Dubai Airport — BBC confirms (officially denied)",
+      "location": "Dubai (near airport)",
+      "lat": 25.2528,
+      "lon": 55.3644,
+      "sources": [
+        {
+          "url": "https://www.bbc.com/news/videos/c5yr734zml3o?at_medium=RSS&at_campaign=rss",
+          "domain": "bbc.com",
+          "tier": "wire"
+        }
+      ],
       "confidence": "low"
+    },
+    {
+      "id": "1e351667a92a",
+      "datetime": "2026-03-07T06:25:40Z",
+      "type": "impact_minor",
+      "confirmed": false,
+      "precision": "city",
+      "title": "Motorist killed by falling debris after interception in Dubai",
+      "location": "Dubai",
+      "lat": 25.2048,
+      "lon": 55.2708,
+      "sources": [
+        {
+          "url": "https://www.thenationalnews.com/news/uae/2026/03/07/uae-defences-iran-missile-attacks/",
+          "domain": "thenationalnews.com",
+          "tier": "local"
+        }
+      ],
+      "confidence": "medium"
     },
     {
       "id": "a1b2c3d4e5f6",
@@ -200,25 +238,6 @@
       ],
       "confidence": "high",
       "_manual": true
-    },
-    {
-      "id": "cdb45e875770",
-      "datetime": "2026-03-07T09:25:28Z",
-      "type": "impact_minor",
-      "confirmed": true,
-      "precision": "exact",
-      "title": "Drone strike near Dubai Airport — BBC confirms",
-      "location": "Dubai (near airport)",
-      "lat": 25.2528,
-      "lon": 55.3644,
-      "sources": [
-        {
-          "url": "https://www.bbc.com/news/videos/c5yr734zml3o?at_medium=RSS&at_campaign=rss",
-          "domain": "bbc.com",
-          "tier": "wire"
-        }
-      ],
-      "confidence": "medium"
     },
     {
       "id": "g1h2i3j4k5l6",
