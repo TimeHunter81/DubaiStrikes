@@ -585,8 +585,8 @@
   const _initLon  = (_parsedShortState?.lon ?? parseFloat(_urlP.get('lon')))  || DEFAULT_LON;
   const _initZoom = (_parsedShortState?.z   ?? parseInt(_urlP.get('z')))       || DEFAULT_ZOOM;
   const map = L.map('map', { zoomControl: false }).setView([_initLat, _initLon], _initZoom);
-  L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
-    attribution: '© <a href="https://www.openstreetmap.org/copyright">OSM</a> contributors © <a href="https://carto.com/attributions">CARTO</a>',
+  L.tileLayer('https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}{r}.png', {
+    attribution: '© <a href="https://stadiamaps.com/">Stadia Maps</a> © <a href="https://www.openstreetmap.org/copyright">OSM</a> contributors',
     subdomains: 'abcd', maxZoom: 19
   }).addTo(map);
   L.control.zoom({ position: 'bottomright' }).addTo(map);
