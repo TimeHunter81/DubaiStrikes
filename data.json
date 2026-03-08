@@ -6,7 +6,7 @@
       "id": "8827bb36101b",
       "datetime": "2026-03-08T15:40:04Z",
       "type": "interception",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "UAE air defences intercept Iranian drones",
       "location": "UAE",
@@ -17,15 +17,22 @@
           "url": "https://gulfnews.com/uae/video-air-defences-intercept-iranian-drones-targeting-uae-1.500467671",
           "domain": "gulfnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://www.indiatoday.in/world/story/middle-east-war-uae-air-defence-intercepting-iranian-missile-drones-video-israel-conflict-2879127-2026-03-08",
+          "domain": "indiatoday.in",
+          "tier": "wire"
         }
       ],
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1772988004.0
     },
     {
       "id": "303a1fd3cd03",
       "datetime": "2026-03-08T12:27:39Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "Emergency alert issued in Abu Dhabi amid UAE defence operations",
       "location": "Abu Dhabi",
@@ -36,15 +43,22 @@
           "url": "https://gulfnews.com/uae/uae-issues-alert-in-abu-dhabi-as-it-conducts-defence-ops-1.500467520",
           "domain": "gulfnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://ae.usembassy.gov/security-alert-u-s-embassy-abu-dhabi-united-arab-emirates-march-8-2026-update-1/",
+          "domain": "ae.usembassy.gov",
+          "tier": "wire"
         }
       ],
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1772976459.0
     },
     {
       "id": "b620a85546da",
       "datetime": "2026-03-08T10:42:06Z",
       "type": "interception",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "UAE intercepts 16 ballistic missiles and 113 Iranian drones",
       "location": "UAE",
@@ -55,15 +69,22 @@
           "url": "https://gulfnews.com/uae/government/uae-intercepts-16-ballistic-missiles-and-113-drones-in-latest-attacks-1.500467428",
           "domain": "gulfnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://www.bbc.com/news/articles/c4g0pnnj8xyo",
+          "domain": "bbc.com",
+          "tier": "wire"
         }
       ],
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1772970126.0
     },
     {
       "id": "0ed90e64b583",
       "datetime": "2026-03-08T08:02:57Z",
       "type": "impact_minor",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "Driver killed by missile debris in Dubai — Pakistan embassy confirms",
       "location": "Dubai",
@@ -74,9 +95,16 @@
           "url": "https://gulfnews.com/uae/pakistan-embassy-supports-family-after-driver-dies-in-dubai-missile-debris-incident-1.500467327",
           "domain": "gulfnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://timesofindia.indiatimes.com/world/middle-east/uae-dubai-confirms-driver-killed-after-debris-from-intercepted-missile-strikes-car-in-al-barsha-amid-iran-vs-us-israel-war/articleshow/129244551.cms",
+          "domain": "timesofindia.indiatimes.com",
+          "tier": "wire"
         }
       ],
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1772960577.0
     },
     {
       "id": "27aad1c968ef",
