@@ -1,7 +1,164 @@
 {
-  "last_updated": "2026-03-08T04:26:00Z",
+  "last_updated": "2026-03-08T04:36:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
+    {
+      "id": "e21efa47f78a",
+      "datetime": "2026-03-08T04:32:23Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "city",
+      "title": "Iran attacks Dubai despite pledge to spare Gulf neighbours",
+      "location": "Dubai",
+      "lat": 25.2048,
+      "lon": 55.2708,
+      "sources": [
+        {
+          "url": "https://www.thecable.ng/iran-hits-dubai-saudi-arabia-despite-promise-to-spare-neighbouring-countries/",
+          "domain": "thecable.ng",
+          "tier": "unverified"
+        }
+      ],
+      "confidence": "low"
+    },
+    {
+      "id": "8602099a7b5b",
+      "datetime": "2026-03-08T04:32:23Z",
+      "type": "impact_minor",
+      "confirmed": false,
+      "precision": "city",
+      "title": "Drone debris kills Pakistani man in Dubai",
+      "location": "Dubai",
+      "lat": 25.2048,
+      "lon": 55.2708,
+      "sources": [
+        {
+          "url": "http://www.jpost.com/middle-east/article-889170",
+          "domain": "jpost.com",
+          "tier": "unverified"
+        }
+      ],
+      "confidence": "low"
+    },
+    {
+      "id": "3a87b1d35743",
+      "datetime": "2026-03-08T04:32:23Z",
+      "type": "impact_major",
+      "confirmed": false,
+      "precision": "exact",
+      "title": "Dubai Marina tower hit during Iranian missile strike",
+      "location": "Dubai Marina",
+      "lat": 25.0819,
+      "lon": 55.1367,
+      "sources": [
+        {
+          "url": "https://www.irishmirror.ie/news/world-news/dubai-marina-tower-hit-iran-36832962",
+          "domain": "irishmirror.ie",
+          "tier": "unverified"
+        }
+      ],
+      "confidence": "low"
+    },
+    {
+      "id": "b84e2dd1ed61",
+      "datetime": "2026-03-08T04:32:23Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "exact",
+      "title": "Dubai International Airport suspends all flight operations",
+      "location": "Dubai International Airport",
+      "lat": 25.2528,
+      "lon": 55.3644,
+      "sources": [
+        {
+          "url": "https://www.tdg.ch/direct-iran-laeroport-de-dubai-suspend-ses-operations-295049542448",
+          "domain": "tdg.ch",
+          "tier": "unverified"
+        }
+      ],
+      "confidence": "low"
+    },
+    {
+      "id": "103730e5efe0",
+      "datetime": "2026-03-08T04:32:23Z",
+      "type": "impact_major",
+      "confirmed": false,
+      "precision": "country",
+      "title": "Iran strikes UAE-based US air base in retaliatory attack",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.mk.ru/politics/2026/03/07/iran-atakoval-aviabazu-ssha-v-oae-otkuda-byla-atakovana-shkola-v-irane.html",
+          "domain": "mk.ru",
+          "tier": "unverified"
+        }
+      ],
+      "confidence": "low"
+    },
+    {
+      "id": "b6d60460c7ea",
+      "datetime": "2026-03-08T04:32:23Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "Iran fires missiles and drones at Gulf neighbours after apology",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://lenta.ru/news/2026/03/07/iran-vypustil-rakety-i-bespilotniki-po-sosedyam-posle-obeschaniya-ne-atakovat-ih/",
+          "domain": "lenta.ru",
+          "tier": "unverified"
+        }
+      ],
+      "confidence": "low"
+    },
+    {
+      "id": "71ead3af3edf",
+      "datetime": "2026-03-08T04:32:23Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "city",
+      "title": "Explosions reported in Dubai amid regional strike wave",
+      "location": "Dubai",
+      "lat": 25.2048,
+      "lon": 55.2708,
+      "sources": [
+        {
+          "url": "https://www.bankingnews.gr/diethni/articles/860906/apocalypse-in-the-middle-east-russia-backs-iran-strikes-as-explosions-rock-tel-aviv-and-dubai-greek-tycoon-prokopiou-defies-hormuz-blockade",
+          "domain": "bankingnews.gr",
+          "tier": "unverified"
+        }
+      ],
+      "confidence": "low"
+    },
+    {
+      "id": "87dd096e12bc",
+      "datetime": "2026-03-08T04:32:23Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "Iran resumes Gulf attacks hours after presidential apology",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://segye.com:443/newsView/20260308502987",
+          "domain": "segye.com:443",
+          "tier": "unverified"
+        },
+        {
+          "url": "https://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0003212814&PAGE_CD=N0002&CMPT_CD=M0112",
+          "domain": "ohmynews.com",
+          "tier": "unverified"
+        }
+      ],
+      "confidence": "low"
+    },
     {
       "id": "a1b2c3d4e5f6",
       "datetime": "2026-03-07T12:30:00Z",
@@ -46,49 +203,6 @@
       ],
       "confidence": "high",
       "_manual": true
-    },
-    {
-      "id": "h8i9j0k1l2m3",
-      "datetime": "2026-03-07T20:30:00Z",
-      "type": "impact_minor",
-      "confirmed": false,
-      "precision": "district",
-      "title": "Interception debris hits 23 Marina Tower — facade fire, 1 killed in Barsha",
-      "location": "Dubai Marina / Barsha",
-      "lat": 25.0819,
-      "lon": 55.1367,
-      "sources": [
-        {
-          "url": "https://www.turkiyetoday.com/region/dubai-marina-hit-by-several-iranian-drones-following-irans-apology-3215799",
-          "domain": "turkiyetoday.com",
-          "tier": "news"
-        },
-        {
-          "url": "https://sundayguardianlive.com/world/iran-uae-escalation-iranian-drone-strike-hits-dubais-23-marina-tower-evacuation-underway-no-injuries-reported-breaking-174614/",
-          "domain": "sundayguardianlive.com",
-          "tier": "news"
-        }
-      ],
-      "confidence": "medium"
-    },
-    {
-      "id": "i9j0k1l2m3n4",
-      "datetime": "2026-03-08T01:00:00Z",
-      "type": "impact_minor",
-      "confirmed": false,
-      "precision": "exact",
-      "title": "Drone explodes near DXB Concourse A — second suspension of flights",
-      "location": "Dubai International Airport",
-      "lat": 25.2532,
-      "lon": 55.3657,
-      "sources": [
-        {
-          "url": "https://www.turkiyetoday.com/region/dubai-marina-hit-by-several-iranian-drones-following-irans-apology-3215799",
-          "domain": "turkiyetoday.com",
-          "tier": "news"
-        }
-      ],
-      "confidence": "medium"
     },
     {
       "id": "g1h2i3j4k5l6",
