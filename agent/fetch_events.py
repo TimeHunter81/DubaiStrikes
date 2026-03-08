@@ -742,8 +742,7 @@ def main():
     now_ts = time.time()
     last_gdelt = state.get("last_gdelt_run", 0)
     run_gdelt = (now_ts - last_gdelt) >= 18 * 60
-    last_isw = state.get("last_isw_run", 0)
-    run_isw = (now_ts - last_isw) >= 60 * 60  # ISW updates daily, poll every 60 min
+    run_isw = True  # single lightweight query, no rate limit concern
 
     # 1. GDELT (every ~20 min)
     if run_gdelt:
@@ -763,15 +762,9 @@ def main():
     else:
         print(f"[GDELT] skip ({(now_ts - last_gdelt)/60:.0f}m ago, threshold 18m)")
 
-    # 2b. ISW ArcGIS — every 60 min (ISW publishes daily, no need to poll faster)
-    if run_isw:
-        isw_events = fetch_isw()
-        all_new_events.extend(isw_events)
-        state["last_isw_run"] = now_ts
-        with open(STATE_FILE, "w") as f:
-            json.dump(state, f)
-    else:
-        print(f"[ISW] skip ({(now_ts - last_isw)/60:.0f}m ago, threshold 60m)")
+    # 2b. ISW ArcGIS — every run (one lightweight query, negligible rate limit cost)
+    isw_events = fetch_isw()
+    all_new_events.extend(isw_events)
 
     # 3. NOTAMs — every run, they're real-time
     for icao in UAE_AIRPORTS:
