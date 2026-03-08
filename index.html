@@ -461,17 +461,9 @@
       <div id="share-panel-inner">
         <p id="share-label">Share this map</p>
         <div id="share-options">
-          <button class="share-opt" onclick="doShare(true, false)">
-            <span>📍 With locations</span>
-            <small>Includes your saved addresses</small>
-          </button>
           <button class="share-opt" onclick="doShare(true, true)">
             <span>🔗 Short URL + locations</span>
             <small>Compressed — shorter to share</small>
-          </button>
-          <button class="share-opt" onclick="doShare(false, false)">
-            <span>🔒 Map only</span>
-            <small>No personal data</small>
           </button>
           <button class="share-opt" onclick="doShare(false, true)">
             <span>🔗 Short URL, map only</span>
@@ -1408,7 +1400,7 @@
     }
     navigator.clipboard.writeText(url).then(() => {
       const s = document.getElementById('share-copied');
-      s.textContent = `✓ Copied! (${url.length} chars)`;
+      s.textContent = `✓ Copied!`;
       s.style.display = 'block';
       setTimeout(() => {
         s.style.display = 'none';
