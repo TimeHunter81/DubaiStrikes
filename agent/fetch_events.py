@@ -258,16 +258,18 @@ def rss_articles_to_events(articles: list) -> list:
         if eid not in events:
             loc_name, lat, lon, precision = extract_location(title, art.get("description", ""))
             events[eid] = {
-                "id":        eid,
-                "datetime":  art["datetime"],
-                "type":      "security_alert",
-                "confirmed": art["tier"] in ("wire", "official"),
-                "precision": precision,
-                "title":     title,
-                "location":  loc_name,
-                "lat":       lat if precision != "country" else None,
-                "lon":       lon if precision != "country" else None,
-                "sources":   [],
+                "id":               eid,
+                "datetime":         art["datetime"],
+                "type":             "security_alert",
+                "confirmed":        art["tier"] in ("wire", "official"),
+                "precision":        precision,
+                "title":            title,
+                "location":         loc_name,
+                "lat":              lat if precision != "country" else None,
+                "lon":              lon if precision != "country" else None,
+                "sources":          [],
+                "_next_search_at":  0,   # due immediately for verification
+                "_search_count":    0,
             }
 
         src = {"url": art["url"], "domain": art["domain"], "tier": art["tier"]}
@@ -414,17 +416,19 @@ def cluster_articles(articles: list) -> list:
         if eid not in events:
             loc_name, lat, lon, precision = extract_location(title, art.get("socialimage", ""))
             events[eid] = {
-                "id": eid,
-                "datetime": date_str,
-                "type": "security_alert",   # GDELT default; can be refined
-                "confirmed": False,
-                "precision": precision,
-                "title": title,
-                "location": loc_name,
-                "lat": lat if precision != "country" else None,
-                "lon": lon if precision != "country" else None,
-                "sources": [],
-                "confidence": "unverified",
+                "id":               eid,
+                "datetime":         date_str,
+                "type":             "security_alert",   # GDELT default; can be refined
+                "confirmed":        False,
+                "precision":        precision,
+                "title":            title,
+                "location":         loc_name,
+                "lat":              lat if precision != "country" else None,
+                "lon":              lon if precision != "country" else None,
+                "sources":          [],
+                "confidence":       "unverified",
+                "_next_search_at":  0,   # due immediately for verification
+                "_search_count":    0,
             }
 
         src = {"url": url, "domain": domain, "tier": tier}
@@ -604,9 +608,16 @@ def load_existing() -> dict:
 
 
 def save(data: dict):
-    with open(DATA_FILE, "w") as f:
-        json.dump(data, f, indent=2, ensure_ascii=False)
-    print(f"[OK] Saved {len(data['events'])} events → {DATA_FILE}")
+    import fcntl
+    lock_path = DATA_FILE + '.lock'
+    with open(lock_path, 'w') as lock_f:
+        fcntl.flock(lock_f, fcntl.LOCK_EX)
+        try:
+            with open(DATA_FILE, "w") as f:
+                json.dump(data, f, indent=2, ensure_ascii=False)
+            print(f"[OK] Saved {len(data['events'])} events → {DATA_FILE}")
+        finally:
+            fcntl.flock(lock_f, fcntl.LOCK_UN)
 
 
 def main():

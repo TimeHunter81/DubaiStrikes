@@ -1564,8 +1564,8 @@
 
   // Initial load
   loadData(false);
-  // Auto-refresh every 2 minutes — only re-renders if last_updated changed
-  setInterval(() => loadData(true), 2 * 60 * 1000);
+  // Auto-refresh every 60s — only re-renders if last_updated changed
+  setInterval(() => loadData(true), 60 * 1000);
 
   // Countdown to next visible update
   // Cron runs every 10 min from anchor; last_updated is set ~4 min after cron start
