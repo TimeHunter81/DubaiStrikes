@@ -462,12 +462,10 @@
         <p id="share-label">Share this map</p>
         <div id="share-options">
           <button class="share-opt" onclick="doShare(true, true)">
-            <span>🔗 Short URL + locations</span>
-            <small>Compressed — shorter to share</small>
+            <span>Share</span>
           </button>
-          <button class="share-opt" onclick="doShare(false, true)">
-            <span>🔗 Short URL, map only</span>
-            <small>Compressed, no locations</small>
+          <button class="share-opt" id="share-nolocs-btn" onclick="doShare(false, true)" style="display:none">
+            <span>Share without my locations</span>
           </button>
         </div>
         <span id="share-copied">✓ Copied!</span>
@@ -1380,6 +1378,8 @@
     const isOpen = panel.style.display !== 'none';
     panel.style.display = isOpen ? 'none' : 'block';
     document.getElementById('share-copied').style.display = 'none';
+    // Show "without locations" only if user has saved locations
+    document.getElementById('share-nolocs-btn').style.display = userLocs.length > 0 ? 'flex' : 'none';
   }
 
   function closeSharePanel() {
