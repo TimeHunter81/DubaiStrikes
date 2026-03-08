@@ -365,8 +365,8 @@ def fetch_gdelt(query: str, max_records: int = 50) -> list:
     }
     url = f"{GDELT_API}?{urlencode(params)}"
     try:
-        # skip_on_429: no wait/retry — rate-limit backoff kills the cron timeout
-        data = json.loads(http_get(url, skip_on_429=True))
+        # timeout=8s + skip_on_429: no wait/retry — rate-limit backoff kills the cron timeout
+        data = json.loads(http_get(url, timeout=8, skip_on_429=True))
         return data.get("articles", [])
     except HTTPError as e:
         if e.code == 429:
@@ -453,7 +453,7 @@ def fetch_notams(icao: str) -> list:
     """Scrape notamify.com for a given ICAO code. Returns list of NOTAM dicts."""
     url = f"https://www.notamify.com/notams/{icao}"
     try:
-        html = http_get(url, timeout=15).decode("utf-8", errors="replace")
+        html = http_get(url, timeout=8).decode("utf-8", errors="replace")
     except Exception as e:
         print(f"[NOTAM] Failed to fetch {icao}: {e}", file=sys.stderr)
         return []
