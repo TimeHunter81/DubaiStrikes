@@ -1,7 +1,26 @@
 {
-  "last_updated": "2026-03-08T18:31:00Z",
+  "last_updated": "2026-03-08T18:40:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
+    {
+      "id": "784d0aad18fe",
+      "datetime": "2026-03-08T18:09:59Z",
+      "type": "interception",
+      "confirmed": false,
+      "precision": "country",
+      "title": "UK forces intercept Iranian drone fired toward Iraq",
+      "location": "Iraq/Iran border",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/uk-forces-successfully-engage-drone-fired-iran-towards-iraq",
+          "domain": "middleeasteye.net",
+          "tier": "local"
+        }
+      ],
+      "confidence": "low"
+    },
     {
       "id": "a77ca758b667",
       "datetime": "2026-03-08T18:02:44Z",
@@ -20,6 +39,44 @@
         }
       ],
       "confidence": "medium"
+    },
+    {
+      "id": "94f5a50cca9c",
+      "datetime": "2026-03-08T17:39:31Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "Iran threatens to attack Gulf oil facilities after Israeli strikes",
+      "location": "Gulf Region",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.theguardian.com/world/2026/mar/08/iran-new-supreme-leader-selected-says-deciding-body",
+          "domain": "theguardian.com",
+          "tier": "wire"
+        }
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "fa1b2863e5fb",
+      "datetime": "2026-03-08T17:36:56Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "Iran military warns Gulf oil sites will be targeted if energy infra struck",
+      "location": "Gulf Region",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-military-warns-will-target-regions-oil-sites-if-israel-hits-energy",
+          "domain": "middleeasteye.net",
+          "tier": "local"
+        }
+      ],
+      "confidence": "low"
     },
     {
       "id": "4561347148ae",
