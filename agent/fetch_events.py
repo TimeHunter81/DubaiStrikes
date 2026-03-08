@@ -28,9 +28,12 @@ RSS_FEEDS = [
     # Wire / international
     {"url": "https://feeds.bbci.co.uk/news/world/middle_east/rss.xml",    "tier": "wire",     "name": "BBC Middle East"},
     {"url": "https://www.aljazeera.com/xml/rss/all.xml",                   "tier": "wire",     "name": "Al Jazeera"},
+    {"url": "https://www.theguardian.com/world/middleeast/rss",            "tier": "wire",     "name": "The Guardian ME"},
+    # Local / regional
     {"url": "https://www.thenationalnews.com/arc/outboundfeeds/rss/?outputType=xml", "tier": "local", "name": "The National"},
     {"url": "https://www.middleeasteye.net/rss",                           "tier": "local",    "name": "Middle East Eye"},
     {"url": "https://meduza.io/rss2/en/all",                               "tier": "local",    "name": "Meduza"},
+    {"url": "https://gulfnews.com/stories.rss",                            "tier": "local",    "name": "Gulf News"},
 ]
 
 # Patterns that indicate analysis/opinion — not real events
@@ -51,6 +54,17 @@ RSS_KEYWORDS = [
 ]
 
 # ── GDELT ───────────────────────────────────────────────────────────────────
+# Only keep GDELT articles from these domains (sources with no free RSS feed)
+# BBC/AJ/Guardian already covered via RSS — avoid double-counting
+GDELT_TRUSTED_DOMAINS = {
+    "reuters.com",    # wire #1 — no free RSS
+    "apnews.com",     # wire #2 — no free RSS
+    "afp.com",        # wire #3 — French angle (Camp de la Paix)
+    "cnn.com",        # verified video, no ME RSS
+    "nytimes.com",    # diplomatic/intelligence sources
+    "iranintl.com",   # Iran International — fast on IRGC claims
+}
+
 GDELT_API = "https://api.gdeltproject.org/api/v2/doc/doc"
 QUERIES = [
     # UAE direct
@@ -380,6 +394,11 @@ def cluster_articles(articles: list) -> list:
         date_day = date_str[:10]
 
         domain = get_domain(url)
+
+        # Filter: only keep articles from trusted domains
+        if not any(td in domain for td in GDELT_TRUSTED_DOMAINS):
+            continue
+
         tier = classify_source(domain)
         eid = compute_event_id(title, date_day)
 
