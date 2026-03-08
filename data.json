@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-08T23:12:00Z",
+  "last_updated": "2026-03-08T23:21:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -37,7 +37,7 @@
       "id": "303a1fd3cd03",
       "datetime": "2026-03-08T12:27:39Z",
       "type": "security_alert",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "city",
       "title": "Emergency alert issued in Abu Dhabi amid UAE defence ops",
       "location": "Abu Dhabi",
@@ -89,7 +89,7 @@
       "id": "0ed90e64b583",
       "datetime": "2026-03-08T08:02:57Z",
       "type": "impact_minor",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "city",
       "title": "Driver killed by missile debris in Dubai (Al Barsha)",
       "location": "Dubai (Al Barsha)",
@@ -141,7 +141,7 @@
       "id": "930fd0403ff4",
       "datetime": "2026-03-08T06:25:37Z",
       "type": "security_alert",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "city",
       "title": "Abu Dhabi residents urged to shelter during Iran strikes",
       "location": "Abu Dhabi",
