@@ -275,6 +275,7 @@ def rss_articles_to_events(articles: list) -> list:
                 "lat":       lat if precision != "country" else None,
                 "lon":       lon if precision != "country" else None,
                 "sources":   [],
+                "_via":      "rss",
             }
 
         src = {"url": art["url"], "domain": art["domain"], "tier": art["tier"]}
@@ -432,6 +433,7 @@ def cluster_articles(articles: list) -> list:
                 "lon": lon if precision != "country" else None,
                 "sources": [],
                 "confidence": "unverified",
+                "_via": "gdelt",
             }
 
         src = {"url": url, "domain": domain, "tier": tier}
@@ -530,6 +532,7 @@ def fetch_isw() -> list:
             "sources":       sources or [{"url": "https://isw.pub", "domain": "isw.pub", "tier": "osint"}],
             "confidence":    0.85,
             "_isw_id":       attrs["OBJECTID"],
+            "_via":          "isw",
             "_next_search_at": 0,
             "_search_count": 0,
         })
@@ -641,6 +644,7 @@ def notams_to_events(airport_icao: str) -> list:
             "confidence": "high",
             "_notam_id": notam_id,
             "_qcode": n.get("qcode", ""),
+            "_via": "notam",
         }
         events.append(event)
         print(f"  ⚠️  Security NOTAM: {notam_id} ({n.get('qcode','?')}) @ {airport_icao}")
@@ -684,7 +688,8 @@ def merge_with_existing(new_events: list, existing_events: list, max_age_days: i
                  datetime=e.get("datetime", ""),
                  sources=[s["domain"] for s in e.get("sources", [])],
                  confirmed=e.get("confirmed", False),
-                 precision=e.get("precision", ""))
+                 precision=e.get("precision", ""),
+                 via=e.get("_via", "unknown"))
 
     all_sorted = sorted(existing_by_id.values(),
                         key=lambda x: (x.get("datetime") or x.get("date", ""))[:19],
