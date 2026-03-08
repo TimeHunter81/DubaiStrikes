@@ -1496,12 +1496,16 @@
   // Auto-refresh every 2 minutes — only re-renders if last_updated changed
   setInterval(() => loadData(true), 2 * 60 * 1000);
 
-  // Countdown to next cron update (every 10 min from last_updated)
-  const CRON_INTERVAL_MS = 10 * 60 * 1000;
+  // Countdown to next visible update
+  // Cron runs every 10 min from anchor; last_updated is set ~4 min after cron start
+  // (fetch ~70s + enrich ~150s), then GitHub Pages propagates ~2 min.
+  // So next visible data ≈ last_updated + 10min + 2min propagation.
+  const CRON_INTERVAL_MS  = 10 * 60 * 1000;
+  const PROPAGATION_MS    =  2 * 60 * 1000;
   setInterval(() => {
     const el = document.getElementById('next-update');
     if (!el || !window._lastDataUpdatedMs) return;
-    const nextMs = window._lastDataUpdatedMs + CRON_INTERVAL_MS;
+    const nextMs = window._lastDataUpdatedMs + CRON_INTERVAL_MS + PROPAGATION_MS;
     const diffMs = nextMs - Date.now();
     if (diffMs <= 0) {
       el.textContent = '· updating…';
