@@ -94,8 +94,7 @@
 
     /* Share button */
     #share-btn {
-      display: flex; align-items: center; gap: 7px;
-      width: 100%; margin-top: 10px;
+      display: flex; align-items: center; gap: 7px; flex: 1;
       padding: 7px 14px; border-radius: 10px;
       background: rgba(79,158,255,0.08);
       border: 1px solid rgba(79,158,255,0.2);
@@ -106,33 +105,18 @@
     #share-btn:hover { background: rgba(79,158,255,0.15); border-color: rgba(79,158,255,0.4); box-shadow: 0 0 16px rgba(79,158,255,0.12); }
     #share-btn svg { width: 14px; height: 14px; }
 
-    /* Share panel */
-    #share-panel {
-      padding: 0 18px 12px;
-      flex-shrink: 0;
+    /* Share buttons row */
+    #share-btn-row { display: flex; gap: 6px; margin-top: 10px; }
+    #share-nolocs-btn {
+      display: none; align-items: center; gap: 7px; flex: 1;
+      padding: 7px 10px; border-radius: 10px;
+      background: rgba(79,158,255,0.04);
+      border: 1px solid rgba(79,158,255,0.15);
+      color: #6a9acc; font-size: 11px; font-weight: 500; cursor: pointer;
+      font-family: inherit; transition: all 0.18s; justify-content: center;
+      letter-spacing: 0.2px;
     }
-    #share-panel-inner {
-      background: rgba(255,255,255,0.03); border: 1px solid rgba(79,158,255,0.15);
-      border-radius: 12px; padding: 10px 12px; position: relative;
-    }
-    #share-label { font-size: 10px; color: #6a8aaa; font-weight: 600; text-transform: uppercase; letter-spacing: 0.6px; margin-bottom: 8px; }
-    #share-options { display: flex; flex-direction: row; gap: 6px; }
-    .share-opt {
-      display: flex; flex-direction: column; align-items: flex-start;
-      padding: 8px 10px; border-radius: 8px; cursor: pointer; font-family: inherit;
-      background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.07);
-      transition: all 0.15s; text-align: left;
-    }
-    .share-opt:hover { background: rgba(79,158,255,0.08); border-color: rgba(79,158,255,0.25); }
-    .share-opt span { font-size: 12px; font-weight: 500; color: #c8d4e4; }
-    .share-opt small { font-size: 10px; color: #5a7a9a; margin-top: 2px; }
-    #share-copied { display: none; font-size: 11px; color: #4fd060; margin-top: 8px; }
-    #share-close {
-      position: absolute; top: 8px; right: 8px;
-      background: transparent; border: none; color: #6a8aaa; cursor: pointer;
-      font-size: 12px; line-height: 1; padding: 2px 5px; font-family: inherit;
-    }
-    #share-close:hover { color: #8899b0; }
+    #share-nolocs-btn:hover { background: rgba(79,158,255,0.1); border-color: rgba(79,158,255,0.35); }
 
     /* ── TIMELINE SLIDER ── */
     #timeline-section {
@@ -451,25 +435,12 @@
         </div>
 
       </div>
-      <button id="share-btn" onclick="openSharePanel()">
-        <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="15" cy="4" r="1.8"/><circle cx="15" cy="16" r="1.8"/><circle cx="5" cy="10" r="1.8"/><line x1="13.3" y1="4.9" x2="6.7" y2="9.1"/><line x1="6.7" y1="10.9" x2="13.3" y2="15.1"/></svg>
-        Share
-      </button>
-    </div>
-    <!-- Share popover -->
-    <div id="share-panel" style="display:none">
-      <div id="share-panel-inner">
-        <p id="share-label">Share this map</p>
-        <div id="share-options">
-          <button class="share-opt" onclick="doShare(true, true)">
-            <span>Share</span>
-          </button>
-          <button class="share-opt" id="share-nolocs-btn" onclick="doShare(false, true)" style="display:none">
-            <span>Share without locations</span>
-          </button>
-        </div>
-        <span id="share-copied">✓ Copied!</span>
-        <button id="share-close" onclick="closeSharePanel()">✕</button>
+      <div id="share-btn-row">
+        <button id="share-btn" onclick="doShare(true, true)">
+          <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="15" cy="4" r="1.8"/><circle cx="15" cy="16" r="1.8"/><circle cx="5" cy="10" r="1.8"/><line x1="13.3" y1="4.9" x2="6.7" y2="9.1"/><line x1="6.7" y1="10.9" x2="13.3" y2="15.1"/></svg>
+          Share
+        </button>
+        <button id="share-nolocs-btn" onclick="doShare(false, true)">Without locations</button>
       </div>
     </div>
 
@@ -1105,6 +1076,7 @@
   }
 
   function renderLocations() {
+    updateShareButtons();
     const cnt = userLocs.length;
     document.getElementById('loc-count').textContent = cnt ? `(${cnt}/5)` : '';
     const list = document.getElementById('loc-list');
@@ -1373,17 +1345,9 @@
   }
 
   // ─── SHARE ─────────────────────────────────────────────────────────────
-  function openSharePanel() {
-    const panel = document.getElementById('share-panel');
-    const isOpen = panel.style.display !== 'none';
-    panel.style.display = isOpen ? 'none' : 'block';
-    document.getElementById('share-copied').style.display = 'none';
-    // Show "without locations" only if user has saved locations
-    document.getElementById('share-nolocs-btn').style.display = userLocs.length > 0 ? 'block' : 'none';
-  }
-
-  function closeSharePanel() {
-    document.getElementById('share-panel').style.display = 'none';
+  function updateShareButtons() {
+    const nolocsBtn = document.getElementById('share-nolocs-btn');
+    if (nolocsBtn) nolocsBtn.style.display = userLocs.length > 0 ? 'flex' : 'none';
   }
 
   function doShare(includeLocs, short) {
@@ -1399,14 +1363,14 @@
         url = u.toString();
       }
     }
+    const btn = includeLocs
+      ? document.getElementById('share-btn')
+      : document.getElementById('share-nolocs-btn');
     navigator.clipboard.writeText(url).then(() => {
-      const s = document.getElementById('share-copied');
-      s.textContent = `✓ Copied!`;
-      s.style.display = 'block';
-      setTimeout(() => {
-        s.style.display = 'none';
-        closeSharePanel();
-      }, 2000);
+      const orig = btn.innerHTML;
+      btn.innerHTML = '✓ Copied!';
+      btn.style.color = '#4fd060';
+      setTimeout(() => { btn.innerHTML = orig; btn.style.color = ''; }, 2000);
     });
   }
 
