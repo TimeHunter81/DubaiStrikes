@@ -126,7 +126,7 @@
       "id": "02a157b95a75",
       "datetime": "2026-03-09T03:31:25Z",
       "type": "impact_minor",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "2 injured by debris in Abu Dhabi as UAE intercepts Iranian missiles",
       "location": "Abu Dhabi",
@@ -142,12 +142,17 @@
           "url": "https://www.hindustantimes.com/world-news/dubai-abu-dhabi-news-live-updates-uae-saudi-arabia-qatar-iran-us-israel-war-middle-east-airports-flights-latest-news-101773017353495.html",
           "domain": "hindustantimes.com",
           "tier": "wire"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/2026_Iranian_strikes_on_the_United_Arab_Emirates",
+          "domain": "en.wikipedia.org",
+          "tier": "wire"
         }
       ],
       "confidence": "high",
       "_via": "rss",
-      "_search_count": 1,
-      "_next_search_at": 1773030685.0
+      "_search_count": 2,
+      "_next_search_at": 1773048685.0
     },
     {
       "id": "dfbd31449bfa",
