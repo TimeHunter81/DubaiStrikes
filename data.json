@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-09T12:42:00Z",
+  "last_updated": "2026-03-09T12:51:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -8,7 +8,7 @@
       "type": "interception",
       "confirmed": false,
       "precision": "country",
-      "title": "UAE intercepts 12 Iranian missiles, 17 drones today",
+      "title": "UAE intercepts 12 Iranian missiles, 17 drones",
       "location": "UAE",
       "lat": null,
       "lon": null,
@@ -52,7 +52,7 @@
       "type": "interception",
       "confirmed": true,
       "precision": "country",
-      "title": "New wave of Iranian missiles, drones target Gulf nations incl. UAE",
+      "title": "New wave of Iranian missiles, drones target UAE and Gulf nations",
       "location": "UAE",
       "lat": null,
       "lon": null,
