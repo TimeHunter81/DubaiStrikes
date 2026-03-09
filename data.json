@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-09T03:08:18Z",
+  "last_updated": "2026-03-09T03:17:40Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -257,7 +257,7 @@
           "tier": "wire"
         }
       ],
-      "confidence": "low",
+      "confidence": "high",
       "_isw_id": 7272,
       "_via": "isw",
       "_next_search_at": 1772845200.0,
@@ -290,7 +290,7 @@
           "tier": "wire"
         }
       ],
-      "confidence": "low",
+      "confidence": "high",
       "_isw_id": 7286,
       "_via": "isw",
       "_next_search_at": 1772845200.0,
