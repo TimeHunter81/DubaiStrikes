@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-03-09T06:06:00Z",
+  "last_updated": "2026-03-09T06:20:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
       "id": "adda2d3e926b",
       "datetime": "2026-03-09T03:29:23Z",
       "type": "interception",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "city",
       "title": "Missile alert: loud bangs heard in Abu Dhabi",
       "location": "Abu Dhabi",
@@ -166,8 +166,7 @@
       ],
       "confidence": "high",
       "_search_count": 1,
-      "_next_search_at": 1772956733.0,
-      "_via": "rss"
+      "_next_search_at": 1772956733.0
     },
     {
       "id": "930fd0403ff4",
@@ -248,7 +247,7 @@
       "lon": 55.3644,
       "sources": [
         {
-          "url": "https://www.bbc.com/news/videos/c5yr734zml3o?at_medium=RSS&amp;at_campaign=rss",
+          "url": "https://www.bbc.com/news/videos/c5yr734zml3o?at_medium=RSS&at_campaign=rss",
           "domain": "bbc.com",
           "tier": "wire"
         }
