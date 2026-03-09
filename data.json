@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-09T12:35:23Z",
+  "last_updated": "2026-03-09T12:42:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -8,7 +8,7 @@
       "type": "interception",
       "confirmed": false,
       "precision": "country",
-      "title": "UAE intercepts 12 Iranian missiles, 17 drones in today's attack",
+      "title": "UAE intercepts 12 Iranian missiles, 17 drones today",
       "location": "UAE",
       "lat": null,
       "lon": null,
@@ -28,9 +28,9 @@
       "id": "f564a847c75e",
       "datetime": "2026-03-09T10:44:38Z",
       "type": "impact_minor",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "city",
-      "title": "Expats injured by missile debris in Dubai — Pakistani envoy visits",
+      "title": "Expats injured by missile debris in Dubai",
       "location": "Dubai",
       "lat": 25.2048,
       "lon": 55.2708,
