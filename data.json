@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-09T11:00:00Z",
+  "last_updated": "2026-03-09T11:12:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -182,31 +182,6 @@
       "_via": "rss",
       "_search_count": 1,
       "_next_search_at": 1772976459.0
-    },
-    {
-      "id": "8827bb36101b",
-      "datetime": "2026-03-08T10:42:06Z",
-      "type": "interception",
-      "confirmed": true,
-      "precision": "country",
-      "title": "UAE intercepts 16 ballistic missiles and 113 Iranian drones",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://gulfnews.com/uae/government/uae-intercepts-16-ballistic-missiles-and-113-drones-in-latest-attacks-1.500467428",
-          "domain": "gulfnews.com",
-          "tier": "local"
-        },
-        {
-          "url": "https://www.bbc.com/news/articles/c4g0pnnj8xyo",
-          "domain": "bbc.com",
-          "tier": "wire"
-        }
-      ],
-      "confidence": "high",
-      "_via": "rss"
     },
     {
       "id": "a1b2c3d4e5f6",
