@@ -1,7 +1,27 @@
 {
-  "last_updated": "2026-03-09T03:24:00Z",
+  "last_updated": "2026-03-09T03:38:17Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
+    {
+      "id": "c3c448fdfe34",
+      "datetime": "2026-03-09T03:22:09Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "UAE air defences respond to incoming missile threat",
+      "location": "Uae",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://gulfnews.com/uae/uae-air-defences-responding-to-missile-threat-1.500468030",
+          "domain": "gulfnews.com",
+          "tier": "local"
+        }
+      ],
+      "_via": "rss",
+      "confidence": "low"
+    },
     {
       "id": "303a1fd3cd03",
       "datetime": "2026-03-08T12:27:39Z",
@@ -131,81 +151,6 @@
       "_search_count": 3,
       "_next_search_at": 1773037537.0,
       "_via": "rss"
-    },
-    {
-      "id": "cdb45e875770",
-      "datetime": "2026-03-07T09:31:28Z",
-      "type": "impact_minor",
-      "confirmed": true,
-      "precision": "city",
-      "title": "Drone strike recorded close to Dubai Airport — BBC video",
-      "location": "Dubai",
-      "lat": 25.2528,
-      "lon": 55.3644,
-      "sources": [
-        {
-          "url": "https://www.bbc.com/news/videos/c5yr734zml3o?at_medium=RSS&at_campaign=rss",
-          "domain": "bbc.com",
-          "tier": "wire"
-        }
-      ],
-      "confidence": "medium",
-      "_via": "rss"
-    },
-    {
-      "id": "1e351667a92a",
-      "datetime": "2026-03-07T06:25:40Z",
-      "type": "impact_minor",
-      "confirmed": true,
-      "precision": "city",
-      "title": "Motorist killed by falling debris after interception in Dubai",
-      "location": "Dubai",
-      "lat": 25.2048,
-      "lon": 55.2708,
-      "sources": [
-        {
-          "url": "https://www.thenationalnews.com/news/uae/2026/03/07/uae-defences-iran-missile-attacks/",
-          "domain": "thenationalnews.com",
-          "tier": "local"
-        }
-      ],
-      "confidence": "low",
-      "_search_count": 2,
-      "_next_search_at": 1772886340.0,
-      "_via": "rss"
-    },
-    {
-      "id": "e8d3fb05d4f2",
-      "title": "Strike event reported in Abu Dhabi (ISW/OSINT)",
-      "datetime": "2026-03-07T00:00:00Z",
-      "type": "impact_minor",
-      "confirmed": true,
-      "location": "Abu Dhabi",
-      "lat": 24.2416,
-      "lon": 54.5483,
-      "precision": "city",
-      "sources": [
-        {
-          "url": "https://t.me/defapress_ir/50563",
-          "domain": "t.me",
-          "tier": "osint"
-        },
-        {
-          "url": "https://t.me/Tasnimnews/393700",
-          "domain": "t.me",
-          "tier": "osint"
-        },
-        {
-          "url": "https://en.wikipedia.org/wiki/2026_Iranian_strikes_on_the_United_Arab_Emirates",
-          "domain": "en.wikipedia.org",
-          "tier": "wire"
-        }
-      ],
-      "confidence": "high",
-      "_isw_id": 7272,
-      "_via": "isw",
-      "_next_search_at": 1772845200.0,
-      "_search_count": 1
     },
     {
       "id": "a1b2c3d4e5f6",
