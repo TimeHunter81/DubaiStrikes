@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-09T10:28:00Z",
+  "last_updated": "2026-03-09T10:40:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -25,17 +25,15 @@
         }
       ],
       "_via": "rss",
-      "confidence": "high",
-      "_search_count": 2,
-      "_next_search_at": 1773065454.0
+      "confidence": "high"
     },
     {
       "id": "32dc8e8f8089",
       "datetime": "2026-03-09T07:57:17Z",
       "type": "impact_minor",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "city",
-      "title": "Drone interception debris injures 6 in Abu Dhabi",
+      "title": "Interception debris injures 6 in Abu Dhabi",
       "location": "Abu Dhabi",
       "lat": 24.4539,
       "lon": 54.3773,
@@ -57,9 +55,7 @@
         }
       ],
       "_via": "rss",
-      "confidence": "high",
-      "_search_count": 2,
-      "_next_search_at": 1773064637.0
+      "confidence": "high"
     },
     {
       "id": "05913b7e7608",
@@ -67,10 +63,10 @@
       "type": "impact_minor",
       "confirmed": true,
       "precision": "district",
-      "title": "Interception debris hits near Etihad Towers, injures 2 in Abu Dhabi",
+      "title": "Interception debris hits near Etihad Towers, Abu Dhabi — 2 injured",
       "location": "Abu Dhabi",
-      "lat": 24.4539,
-      "lon": 54.3773,
+      "lat": 24.4621,
+      "lon": 54.3173,
       "sources": [
         {
           "url": "https://www.thenationalnews.com/news/uae/2026/03/09/missile-threat-alert-issued-as-loud-bangs-heard-in-abu-dhabi/",
@@ -94,15 +90,13 @@
         }
       ],
       "_via": "rss",
-      "confidence": "high",
-      "_search_count": 3,
-      "_next_search_at": 1773113485.0
+      "confidence": "high"
     },
     {
       "id": "adda2d3e926b",
       "datetime": "2026-03-09T03:29:23Z",
       "type": "security_alert",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "city",
       "title": "Missile alert: loud bangs heard in Abu Dhabi",
       "location": "Abu Dhabi",
@@ -126,9 +120,7 @@
         }
       ],
       "_via": "rss",
-      "confidence": "high",
-      "_search_count": 3,
-      "_next_search_at": 1773113363.0
+      "confidence": "high"
     },
     {
       "id": "c3c448fdfe34",
@@ -153,37 +145,13 @@
         }
       ],
       "_via": "rss",
-      "confidence": "high",
-      "_search_count": 2,
-      "_next_search_at": 1773048140.0
-    },
-    {
-      "id": "5e49393a90dd",
-      "datetime": "2026-03-09T03:22:09Z",
-      "type": "security_alert",
-      "confirmed": true,
-      "precision": "country",
-      "title": "UAE responds to new Iranian missiles and drones, residents urged to stay alert",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://gulfnews.com/uae/uae-air-defences-responding-to-missile-threat-1.500468030",
-          "domain": "gulfnews.com",
-          "tier": "local"
-        }
-      ],
-      "_via": "rss",
-      "confidence": "low",
-      "_search_count": 1,
-      "_next_search_at": 1773030129.0
+      "confidence": "high"
     },
     {
       "id": "303a1fd3cd03",
       "datetime": "2026-03-08T12:27:39Z",
       "type": "interception",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "city",
       "title": "Emergency alert: active UAE air defence operations over Abu Dhabi",
       "location": "Abu Dhabi",
@@ -202,8 +170,6 @@
         }
       ],
       "confidence": "high",
-      "_search_count": 3,
-      "_next_search_at": 1773059259.0,
       "_via": "rss"
     },
     {
@@ -229,8 +195,6 @@
         }
       ],
       "confidence": "high",
-      "_search_count": 1,
-      "_next_search_at": 1772970126.0,
       "_via": "rss"
     },
     {
