@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-09T12:51:00Z",
+  "last_updated": "2026-03-09T13:07:09Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -25,7 +25,7 @@
         }
       ],
       "_via": "rss",
-      "confidence": "low",
+      "confidence": "high",
       "_search_count": 2,
       "_next_search_at": 1773078883.0
     },
@@ -57,7 +57,7 @@
       "type": "interception",
       "confirmed": true,
       "precision": "country",
-      "title": "New wave of Iranian missiles, drones target UAE and Gulf nations",
+      "title": "New wave of Iranian missiles, drones target UAE",
       "location": "UAE",
       "lat": null,
       "lon": null,
@@ -134,7 +134,7 @@
       "type": "impact_minor",
       "confirmed": true,
       "precision": "district",
-      "title": "Interception debris hits near Etihad Towers, Abu Dhabi — 2 injured",
+      "title": "Debris hits near Etihad Towers, Abu Dhabi — 2 injured",
       "location": "Abu Dhabi",
       "lat": 24.4621,
       "lon": 54.3173,
