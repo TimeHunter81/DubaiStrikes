@@ -61,7 +61,7 @@
       "id": "da3e8fa8324f",
       "datetime": "2026-03-09T13:35:53Z",
       "type": "impact_minor",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "neighborhood",
       "title": "Missile debris hits Marina Tower, Dubai — response reported",
       "location": "Dubai Marina",
@@ -72,10 +72,17 @@
           "url": "https://gulfnews.com/entertainment/bollywood-singer-shweta-subram-applauds-dubais-quick-action-following-debris-incident-at-marina-tower-1.500468584",
           "domain": "gulfnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://www.thenationalnews.com/news/uae/2026/03/08/abu-dhabi-residents-urged-to-shelter-as-uae-faces-further-iran-strikes/",
+          "domain": "thenationalnews.com",
+          "tier": "wire"
         }
       ],
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1773066953.0
     },
     {
       "id": "d740428c8076",
