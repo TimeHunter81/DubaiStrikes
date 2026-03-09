@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-09T00:18:02Z",
+  "last_updated": "2026-03-09T00:26:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -194,8 +194,26 @@
       "_next_search_at": 1772879128.0
     },
     {
+      "id": "g1h2i3j4k5l6",
+      "datetime": "2026-03-07T06:00:00Z",
+      "type": "security_alert",
+      "confirmed": true,
+      "precision": "country",
+      "title": "UAE authorities raise threat level across all emirates following overnight Iranian naval activity",
+      "location": "UAE-wide",
+      "lat": 24.0,
+      "lon": 54.0,
+      "sources": [
+        {
+          "domain": "WAM",
+          "url": "https://wam.ae"
+        }
+      ],
+      "_manual": true
+    },
+    {
       "id": "1e351667a92a",
-      "datetime": "2026-03-07T06:25:40Z",
+      "datetime": "2026-03-07T06:25:37Z",
       "type": "impact_minor",
       "confirmed": true,
       "precision": "city",
@@ -220,33 +238,15 @@
       "_next_search_at": 1772868340.0
     },
     {
-      "id": "g1h2i3j4k5l6",
-      "datetime": "2026-03-07T06:00:00Z",
-      "type": "security_alert",
-      "confirmed": true,
-      "precision": "country",
-      "title": "UAE authorities raise threat level across all emirates following overnight Iranian naval activity",
-      "location": "UAE-wide",
-      "lat": 24.0,
-      "lon": 54.0,
-      "sources": [
-        {
-          "domain": "WAM",
-          "url": "https://wam.ae"
-        }
-      ],
-      "_manual": true
-    },
-    {
       "id": "95a8880236da",
-      "title": "Strike event in Abu Dhabi (ISW)",
       "datetime": "2026-03-07T00:00:00Z",
       "type": "impact_minor",
       "confirmed": true,
+      "precision": "city",
+      "title": "Strike near Al Dhafra area, Abu Dhabi (ISW #6908)",
       "location": "Abu Dhabi",
       "lat": 24.24156133,
       "lon": 54.54825838,
-      "precision": "city",
       "sources": [
         {
           "url": "https://t.me/defapress_ir/50563",
@@ -271,14 +271,14 @@
     },
     {
       "id": "7299c05829fb",
-      "title": "Strike event in Dubai (ISW)",
       "datetime": "2026-03-07T00:00:00Z",
       "type": "impact_minor",
       "confirmed": true,
+      "precision": "city",
+      "title": "Strike in Dubai (Jumeirah/Marina area) — ISW #6922",
       "location": "Dubai",
       "lat": 25.08974667,
       "lon": 55.15072999,
-      "precision": "city",
       "sources": [
         {
           "url": "https://x.com/MarioLeb79/status/2030335491938087309",
@@ -303,14 +303,14 @@
     },
     {
       "id": "e8d3fb05d4f2",
-      "title": "Strike event in Abu Dhabi, UAE",
       "datetime": "2026-03-07T00:00:00Z",
       "type": "impact_minor",
       "confirmed": true,
+      "precision": "city",
+      "title": "Strike near Al Dhafra area, Abu Dhabi (ISW #7272)",
       "location": "Abu Dhabi",
       "lat": 24.24156133,
       "lon": 54.54825838,
-      "precision": "city",
       "sources": [
         {
           "url": "https://t.me/defapress_ir/50563",
@@ -336,14 +336,14 @@
     },
     {
       "id": "3cb934ade523",
-      "title": "Strike event in Dubai, UAE",
       "datetime": "2026-03-07T00:00:00Z",
       "type": "impact_minor",
       "confirmed": true,
+      "precision": "city",
+      "title": "Strike in Dubai (Jumeirah/Marina area) — ISW #7286",
       "location": "Dubai",
       "lat": 25.08974667,
       "lon": 55.15072999,
-      "precision": "city",
       "sources": [
         {
           "url": "https://x.com/MarioLeb79/status/2030335491938087309",
