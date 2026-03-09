@@ -31,7 +31,7 @@
       "id": "f564a847c75e",
       "datetime": "2026-03-09T10:44:38Z",
       "type": "interception",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "Debris from intercepted projectile kills 1 in Al-Barsha, Dubai",
       "location": "Dubai",
@@ -52,16 +52,23 @@
           "url": "https://economictimes.indiatimes.com/news/international/global-trends/dubai-one-killed-after-debris-from-aerial-interception-falls-on-vehicle-in-al-barsha-area/articleshow/129245475.cms",
           "domain": "economictimes.indiatimes.com",
           "tier": "wire"
+        },
+        {
+          "url": "https://www.bbc.com/news/live/ceqvwrydzpqt?page=2",
+          "domain": "bbc.com",
+          "tier": "wire"
         }
       ],
       "confidence": "high",
-      "_via": "rss"
+      "_via": "rss",
+      "_search_count": 1,
+      "_next_search_at": 1773056678.0
     },
     {
       "id": "d740428c8076",
       "datetime": "2026-03-09T10:41:33Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "New wave of Iranian missiles and drones target UAE",
       "location": "UAE",
@@ -85,7 +92,9 @@
         }
       ],
       "confidence": "high",
-      "_via": "rss"
+      "_via": "rss",
+      "_search_count": 1,
+      "_next_search_at": 1773056493.0
     },
     {
       "id": "dfbd31449bfa",
@@ -116,7 +125,7 @@
       "id": "02a157b95a75",
       "datetime": "2026-03-09T03:31:25Z",
       "type": "impact_major",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "Two injured by falling debris in Abu Dhabi as UAE intercepts 12 missiles from…",
       "location": "Abu Dhabi",
@@ -127,16 +136,23 @@
           "url": "https://www.thenationalnews.com/news/uae/2026/03/09/missile-threat-alert-issued-as-loud-bangs-heard-in-abu-dhabi/",
           "domain": "thenationalnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://www.hindustantimes.com/world-news/dubai-abu-dhabi-news-live-updates-uae-saudi-arabia-qatar-iran-us-israel-war-middle-east-airports-flights-latest-news-101773017353495.html",
+          "domain": "hindustantimes.com",
+          "tier": "wire"
         }
       ],
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1773030685.0
     },
     {
       "id": "adda2d3e926b",
       "datetime": "2026-03-09T03:29:23Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "Missile alert: loud bangs heard over Abu Dhabi",
       "location": "Abu Dhabi",
@@ -157,10 +173,17 @@
           "url": "https://en.wikipedia.org/wiki/2026_Iranian_strikes_on_the_United_Arab_Emirates",
           "domain": "en.wikipedia.org",
           "tier": "wire"
+        },
+        {
+          "url": "https://www.hindustantimes.com/world-news/dubai-abu-dhabi-news-live-updates-uae-saudi-arabia-qatar-iran-us-israel-war-middle-east-airports-flights-latest-news-101773017353495.html",
+          "domain": "hindustantimes.com",
+          "tier": "wire"
         }
       ],
       "confidence": "high",
-      "_via": "rss"
+      "_via": "rss",
+      "_search_count": 1,
+      "_next_search_at": 1773030563.0
     },
     {
       "id": "c3c448fdfe34",
