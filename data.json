@@ -1,7 +1,27 @@
 {
-  "last_updated": "2026-03-09T03:44:00Z",
+  "last_updated": "2026-03-09T03:58:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
+    {
+      "id": "adda2d3e926b",
+      "datetime": "2026-03-09T03:31:25Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "city",
+      "title": "Missile threat alert issued as loud bangs heard in Abu Dhabi",
+      "location": "Abu Dhabi",
+      "lat": 24.4539,
+      "lon": 54.3773,
+      "sources": [
+        {
+          "url": "https://www.thenationalnews.com/news/uae/2026/03/09/missile-threat-alert-issued-as-loud-bangs-heard-in-abu-dhabi/",
+          "domain": "thenationalnews.com",
+          "tier": "local"
+        }
+      ],
+      "_via": "rss",
+      "confidence": "low"
+    },
     {
       "id": "c3c448fdfe34",
       "datetime": "2026-03-09T03:22:09Z",
@@ -9,7 +29,7 @@
       "confirmed": false,
       "precision": "country",
       "title": "UAE air defences engage incoming missile — interception underway",
-      "location": "Uae",
+      "location": "UAE",
       "lat": null,
       "lon": null,
       "sources": [
