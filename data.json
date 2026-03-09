@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-09T01:30:00Z",
+  "last_updated": "2026-03-09T01:36:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -215,8 +215,7 @@
           "tier": "wire"
         }
       ],
-      "_via": "rss",
-      "confidence": "low",
+      "confidence": "high",
       "_search_count": 1,
       "_next_search_at": 1772868340.0
     },
@@ -239,31 +238,60 @@
       "_manual": true
     },
     {
-      "id": "97a82a1740b4",
-      "datetime": "2026-03-06T12:30:45Z",
-      "type": "interception",
-      "confirmed": true,
-      "precision": "country",
-      "title": "UAE destroys 9 ballistic missiles and 109 drones launched by Iran",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
+      "id": "e8d3fb05d4f2",
+      "title": "Iranian forces claim strike in Abu Dhabi (OSINT)",
+      "datetime": "2026-03-07T00:00:00Z",
+      "type": "impact_minor",
+      "confirmed": false,
+      "location": "Abu Dhabi",
+      "lat": 24.24156133,
+      "lon": 54.54825838,
+      "precision": "city",
       "sources": [
         {
-          "url": "https://www.thenationalnews.com/news/uae/2026/03/06/uae-iran-missile-strikes/",
-          "domain": "thenationalnews.com",
-          "tier": "local"
+          "url": "https://t.me/defapress_ir/50563",
+          "domain": "t.me",
+          "tier": "osint"
         },
         {
-          "url": "https://gulfnews.com/uae/uae-destroys-9-ballistic-missiles-intercepts-109-drones-on-friday-1.500465641",
-          "domain": "gulfnews.com",
-          "tier": "wire"
+          "url": "https://t.me/Tasnimnews/393700",
+          "domain": "t.me",
+          "tier": "osint"
         }
       ],
-      "_via": "rss",
-      "confidence": "low",
-      "_search_count": 1,
-      "_next_search_at": 1772803845.0
+      "confidence": 0.5,
+      "_isw_id": 7272,
+      "_via": "isw",
+      "_next_search_at": 0,
+      "_search_count": 0
+    },
+    {
+      "id": "3cb934ade523",
+      "title": "Iranian forces claim strike in Dubai (OSINT)",
+      "datetime": "2026-03-07T00:00:00Z",
+      "type": "impact_minor",
+      "confirmed": false,
+      "location": "Dubai",
+      "lat": 25.08974667,
+      "lon": 55.15072999,
+      "precision": "city",
+      "sources": [
+        {
+          "url": "https://x.com/MarioLeb79/status/2030335491938087309",
+          "domain": "x.com",
+          "tier": "osint"
+        },
+        {
+          "url": "https://x.com/ariel_oseran/status/2030341701017956616",
+          "domain": "x.com",
+          "tier": "osint"
+        }
+      ],
+      "confidence": 0.5,
+      "_isw_id": 7286,
+      "_via": "isw",
+      "_next_search_at": 0,
+      "_search_count": 0
     },
     {
       "id": "c3d4e5f6a1b2",
