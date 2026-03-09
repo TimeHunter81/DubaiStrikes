@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-09T00:26:00Z",
+  "last_updated": "2026-03-09T00:37:46Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -194,24 +194,6 @@
       "_next_search_at": 1772879128.0
     },
     {
-      "id": "g1h2i3j4k5l6",
-      "datetime": "2026-03-07T06:00:00Z",
-      "type": "security_alert",
-      "confirmed": true,
-      "precision": "country",
-      "title": "UAE authorities raise threat level across all emirates following overnight Iranian naval activity",
-      "location": "UAE-wide",
-      "lat": 24.0,
-      "lon": 54.0,
-      "sources": [
-        {
-          "domain": "WAM",
-          "url": "https://wam.ae"
-        }
-      ],
-      "_manual": true
-    },
-    {
       "id": "1e351667a92a",
       "datetime": "2026-03-07T06:25:37Z",
       "type": "impact_minor",
@@ -236,6 +218,24 @@
       "confidence": "high",
       "_search_count": 1,
       "_next_search_at": 1772868340.0
+    },
+    {
+      "id": "g1h2i3j4k5l6",
+      "datetime": "2026-03-07T06:00:00Z",
+      "type": "security_alert",
+      "confirmed": true,
+      "precision": "country",
+      "title": "UAE authorities raise threat level across all emirates following overnight Iranian naval activity",
+      "location": "UAE-wide",
+      "lat": 24.0,
+      "lon": 54.0,
+      "sources": [
+        {
+          "domain": "WAM",
+          "url": "https://wam.ae"
+        }
+      ],
+      "_manual": true
     },
     {
       "id": "95a8880236da",
