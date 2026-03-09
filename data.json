@@ -6,7 +6,7 @@
       "id": "dfbd31449bfa",
       "datetime": "2026-03-09T08:10:54Z",
       "type": "interception",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "UAE releases video of Iranian drone interception",
       "location": "UAE",
@@ -17,12 +17,17 @@
           "url": "https://www.aljazeera.com/video/newsfeed/2026/3/9/uae-releases-video-of-iranian-drone-interception?traffic_source=rss",
           "domain": "aljazeera.com",
           "tier": "wire"
+        },
+        {
+          "url": "https://apnews.com/video/uae-releases-footage-showing-air-defenses-intercepting-and-destroying-drone-23275da8c04e4a98b2e9ee065cac7c85",
+          "domain": "apnews.com",
+          "tier": "wire"
         }
       ],
       "_via": "rss",
       "confidence": "medium",
-      "_search_count": 1,
-      "_next_search_at": 1773047454.0
+      "_search_count": 2,
+      "_next_search_at": 1773065454.0
     },
     {
       "id": "32dc8e8f8089",
@@ -60,7 +65,7 @@
       "id": "05913b7e7608",
       "datetime": "2026-03-09T03:31:25Z",
       "type": "impact_minor",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "Two injured by interception debris in Abu Dhabi",
       "location": "Abu Dhabi",
@@ -81,12 +86,17 @@
           "url": "https://timesofindia.indiatimes.com/world/middle-east/uae-intercepts-drone-debris-injures-civilians-as-it-hits-etihad-towers-in-abu-dhabi-amid-iranusisrael-conflict/articleshow/128932729.cms",
           "domain": "timesofindia.indiatimes.com",
           "tier": "wire"
+        },
+        {
+          "url": "https://www.bbc.com/news/live/cz0g2yg3579t",
+          "domain": "bbc.com",
+          "tier": "wire"
         }
       ],
       "_via": "rss",
       "confidence": "high",
-      "_search_count": 2,
-      "_next_search_at": 1773048685.0
+      "_search_count": 3,
+      "_next_search_at": 1773113485.0
     },
     {
       "id": "adda2d3e926b",
