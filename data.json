@@ -1,36 +1,31 @@
 {
-  "last_updated": "2026-03-09T21:12:00Z",
+  "last_updated": "2026-03-09T21:20:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
-      "id": "da3e8fa8324f",
-      "datetime": "2026-03-09T13:18:48Z",
+      "id": "02a157b95a75",
+      "datetime": "2026-03-09T03:31:25Z",
       "type": "impact_minor",
       "confirmed": true,
-      "precision": "neighborhood",
-      "title": "Missile debris hits Marina Tower, Dubai Marina",
-      "location": "Dubai Marina",
-      "lat": 25.0819,
-      "lon": 55.1367,
+      "precision": "city",
+      "title": "2 injured by debris in Abu Dhabi as UAE intercepts Iranian missiles",
+      "location": "Abu Dhabi",
+      "lat": 24.4539,
+      "lon": 54.3773,
       "sources": [
         {
-          "url": "https://gulfnews.com/uae/bollywood-singer-shweta-subram-applauds-dubais-quick-action-following-debris-incident-at-marina-tower-1.500468584",
-          "domain": "gulfnews.com",
-          "tier": "local"
-        },
-        {
-          "url": "https://www.thenationalnews.com/news/uae/2026/03/08/abu-dhabi-residents-urged-to-shelter-as-uae-faces-further-iran-strikes/",
+          "url": "https://www.thenationalnews.com/news/uae/2026/03/09/missile-threat-alert-issued-as-loud-bangs-heard-in-abu-dhabi/",
           "domain": "thenationalnews.com",
           "tier": "local"
         },
         {
-          "url": "https://www.aa.com.tr/en/middle-east/debris-from-missile-interception-hits-tower-in-dubai-marina-officials-say/3854344",
-          "domain": "aa.com.tr",
+          "url": "https://www.hindustantimes.com/world-news/dubai-abu-dhabi-news-live-updates-uae-saudi-arabia-qatar-iran-us-israel-war-middle-east-airports-flights-latest-news-101773017353495.html",
+          "domain": "hindustantimes.com",
           "tier": "wire"
         },
         {
-          "url": "https://www.ndtv.com/world-news/iran-war-iran-israel-us-war-dubai-news-smoke-rises-from-tower-in-dubai-marina-as-iran-continues-gulf-attacks-11183521",
-          "domain": "ndtv.com",
+          "url": "https://en.wikipedia.org/wiki/2026_Iranian_strikes_on_the_United_Arab_Emirates",
+          "domain": "en.wikipedia.org",
           "tier": "wire"
         }
       ],
@@ -38,54 +33,24 @@
       "_via": "rss"
     },
     {
-      "id": "3b946ec34405",
-      "datetime": "2026-03-09T11:54:43Z",
+      "id": "dfbd31449bfa",
+      "datetime": "2026-03-09T08:10:07Z",
       "type": "interception",
       "confirmed": true,
       "precision": "country",
-      "title": "UAE intercepts 12 Iranian missiles, 17 drones in new barrage",
+      "title": "UAE air defence shoots down Iranian drone",
       "location": "UAE",
       "lat": null,
       "lon": null,
       "sources": [
         {
-          "url": "https://gulfnews.com/uae/uae-intercepts-12-iranian-missiles-17-drones-in-todays-attack-1.500468502",
-          "domain": "gulfnews.com",
-          "tier": "local"
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/3/9/uae-releases-video-of-iranian-drone-interception?traffic_source=rss",
+          "domain": "aljazeera.com",
+          "tier": "wire"
         },
         {
           "url": "https://apnews.com/video/uae-releases-footage-showing-air-defenses-intercepting-and-destroying-drone-23275da8c04e4a98b2e9ee065cac7c85",
           "domain": "apnews.com",
-          "tier": "wire"
-        }
-      ],
-      "confidence": "high",
-      "_via": "rss"
-    },
-    {
-      "id": "f564a847c75e",
-      "datetime": "2026-03-09T10:44:38Z",
-      "type": "impact_major",
-      "confirmed": true,
-      "precision": "neighborhood",
-      "title": "Debris from intercepted missile kills 1 in Al-Barsha, Dubai",
-      "location": "Al-Barsha, Dubai",
-      "lat": 25.1198,
-      "lon": 55.1897,
-      "sources": [
-        {
-          "url": "https://gulfnews.com/uae/pakistani-envoy-meets-victims-of-blatant-iranian-aggressio-1.500468398",
-          "domain": "gulfnews.com",
-          "tier": "local"
-        },
-        {
-          "url": "https://economictimes.indiatimes.com/news/international/global-trends/dubai-one-killed-after-debris-from-aerial-interception-falls-on-vehicle-in-al-barsha-area/articleshow/129245475.cms",
-          "domain": "economictimes.indiatimes.com",
-          "tier": "wire"
-        },
-        {
-          "url": "https://www.bbc.com/news/live/ceqvwrydzpqt?page=2",
-          "domain": "bbc.com",
           "tier": "wire"
         }
       ],
@@ -123,20 +88,50 @@
       "_via": "rss"
     },
     {
-      "id": "dfbd31449bfa",
-      "datetime": "2026-03-09T08:10:07Z",
+      "id": "f564a847c75e",
+      "datetime": "2026-03-09T10:44:38Z",
+      "type": "impact_major",
+      "confirmed": true,
+      "precision": "neighborhood",
+      "title": "Debris from intercepted missile kills 1 in Al-Barsha, Dubai",
+      "location": "Al-Barsha, Dubai",
+      "lat": 25.1198,
+      "lon": 55.1897,
+      "sources": [
+        {
+          "url": "https://gulfnews.com/uae/pakistani-envoy-meets-victims-of-blatant-iranian-aggressio-1.500468398",
+          "domain": "gulfnews.com",
+          "tier": "local"
+        },
+        {
+          "url": "https://economictimes.indiatimes.com/news/international/global-trends/dubai-one-killed-after-debris-from-aerial-interception-falls-on-vehicle-in-al-barsha-area/articleshow/129245475.cms",
+          "domain": "economictimes.indiatimes.com",
+          "tier": "wire"
+        },
+        {
+          "url": "https://www.bbc.com/news/live/ceqvwrydzpqt?page=2",
+          "domain": "bbc.com",
+          "tier": "wire"
+        }
+      ],
+      "confidence": "high",
+      "_via": "rss"
+    },
+    {
+      "id": "3b946ec34405",
+      "datetime": "2026-03-09T11:54:43Z",
       "type": "interception",
       "confirmed": true,
       "precision": "country",
-      "title": "UAE air defence shoots down Iranian drone",
+      "title": "UAE intercepts 12 Iranian missiles, 17 drones in new barrage",
       "location": "UAE",
       "lat": null,
       "lon": null,
       "sources": [
         {
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/3/9/uae-releases-video-of-iranian-drone-interception?traffic_source=rss",
-          "domain": "aljazeera.com",
-          "tier": "wire"
+          "url": "https://gulfnews.com/uae/uae-intercepts-12-iranian-missiles-17-drones-in-todays-attack-1.500468502",
+          "domain": "gulfnews.com",
+          "tier": "local"
         },
         {
           "url": "https://apnews.com/video/uae-releases-footage-showing-air-defenses-intercepting-and-destroying-drone-23275da8c04e4a98b2e9ee065cac7c85",
@@ -148,29 +143,34 @@
       "_via": "rss"
     },
     {
-      "id": "02a157b95a75",
-      "datetime": "2026-03-09T03:31:25Z",
+      "id": "da3e8fa8324f",
+      "datetime": "2026-03-09T13:18:48Z",
       "type": "impact_minor",
       "confirmed": true,
-      "precision": "city",
-      "title": "2 injured by debris in Abu Dhabi as UAE intercepts Iranian missiles",
-      "location": "Abu Dhabi",
-      "lat": 24.4539,
-      "lon": 54.3773,
+      "precision": "neighborhood",
+      "title": "Missile debris hits Marina Tower, Dubai Marina",
+      "location": "Dubai Marina",
+      "lat": 25.0819,
+      "lon": 55.1367,
       "sources": [
         {
-          "url": "https://www.thenationalnews.com/news/uae/2026/03/09/missile-threat-alert-issued-as-loud-bangs-heard-in-abu-dhabi/",
+          "url": "https://gulfnews.com/uae/bollywood-singer-shweta-subram-applauds-dubais-quick-action-following-debris-incident-at-marina-tower-1.500468584",
+          "domain": "gulfnews.com",
+          "tier": "local"
+        },
+        {
+          "url": "https://www.thenationalnews.com/news/uae/2026/03/08/abu-dhabi-residents-urged-to-shelter-as-uae-faces-further-iran-strikes/",
           "domain": "thenationalnews.com",
           "tier": "local"
         },
         {
-          "url": "https://www.hindustantimes.com/world-news/dubai-abu-dhabi-news-live-updates-uae-saudi-arabia-qatar-iran-us-israel-war-middle-east-airports-flights-latest-news-101773017353495.html",
-          "domain": "hindustantimes.com",
+          "url": "https://www.aa.com.tr/en/middle-east/debris-from-missile-interception-hits-tower-in-dubai-marina-officials-say/3854344",
+          "domain": "aa.com.tr",
           "tier": "wire"
         },
         {
-          "url": "https://en.wikipedia.org/wiki/2026_Iranian_strikes_on_the_United_Arab_Emirates",
-          "domain": "en.wikipedia.org",
+          "url": "https://www.ndtv.com/world-news/iran-war-iran-israel-us-war-dubai-news-smoke-rises-from-tower-in-dubai-marina-as-iran-continues-gulf-attacks-11183521",
+          "domain": "ndtv.com",
           "tier": "wire"
         }
       ],
