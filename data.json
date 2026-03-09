@@ -31,7 +31,7 @@
       "id": "da3e8fa8324f",
       "datetime": "2026-03-09T13:35:53Z",
       "type": "impact_minor",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "district",
       "title": "Interception debris hits Dubai Marina Tower",
       "location": "Dubai Marina",
@@ -50,13 +50,15 @@
         }
       ],
       "confidence": "medium",
-      "_via": "rss"
+      "_via": "rss",
+      "_search_count": 1,
+      "_next_search_at": 1773066953.0
     },
     {
       "id": "f564a847c75e",
       "datetime": "2026-03-09T10:44:38Z",
       "type": "impact_minor",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "Expats injured by missile debris in Dubai",
       "location": "Dubai",
@@ -70,7 +72,9 @@
         }
       ],
       "confidence": "low",
-      "_via": "rss"
+      "_via": "rss",
+      "_search_count": 1,
+      "_next_search_at": 1773056678.0
     },
     {
       "id": "d740428c8076",
@@ -126,7 +130,7 @@
       "id": "32dc8e8f8089",
       "datetime": "2026-03-09T07:57:17Z",
       "type": "impact_minor",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "Interception debris injures 6 in Abu Dhabi",
       "location": "Abu Dhabi",
@@ -150,7 +154,9 @@
         }
       ],
       "confidence": "high",
-      "_via": "rss"
+      "_via": "rss",
+      "_search_count": 1,
+      "_next_search_at": 1773046637.0
     },
     {
       "id": "05913b7e7608",
@@ -191,7 +197,7 @@
       "id": "02a157b95a75",
       "datetime": "2026-03-09T03:31:25Z",
       "type": "impact_minor",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "Debris injures 2 in Abu Dhabi amid 12-missile intercept",
       "location": "Abu Dhabi",
@@ -212,10 +218,17 @@
           "url": "https://www.arnnewscentre.ae/en/news/uae/two-injured-from-fallen-debris-in-abu-dhabi/",
           "domain": "arnnewscentre.ae",
           "tier": "wire"
+        },
+        {
+          "url": "https://indianexpress.com/article/world/dubai-news-live-updates-iran-war-uae-abu-dhabi-qatar-saudi-missiles-drones-10570817/",
+          "domain": "indianexpress.com",
+          "tier": "wire"
         }
       ],
       "confidence": "high",
-      "_via": "rss"
+      "_via": "rss",
+      "_search_count": 1,
+      "_next_search_at": 1773030685.0
     },
     {
       "id": "adda2d3e926b",
