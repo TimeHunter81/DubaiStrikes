@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-03-09T04:28:00Z",
+  "last_updated": "2026-03-09T04:35:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
       "id": "adda2d3e926b",
       "datetime": "2026-03-09T03:31:25Z",
       "type": "security_alert",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "city",
       "title": "Missile alert: loud bangs heard in Abu Dhabi",
       "location": "Abu Dhabi",
@@ -52,7 +52,7 @@
         }
       ],
       "_via": "rss",
-      "confidence": "low",
+      "confidence": "high",
       "_search_count": 2,
       "_next_search_at": 1773048140.0
     },
@@ -60,7 +60,7 @@
       "id": "303a1fd3cd03",
       "datetime": "2026-03-08T12:27:39Z",
       "type": "security_alert",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "city",
       "title": "Emergency alert in Abu Dhabi — active UAE air defence ops",
       "location": "Abu Dhabi",
