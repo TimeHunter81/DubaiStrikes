@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-09T02:57:52Z",
+  "last_updated": "2026-03-09T03:08:18Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -58,7 +58,7 @@
       "id": "0ed90e64b583",
       "datetime": "2026-03-08T08:02:57Z",
       "type": "impact_minor",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "Driver killed by missile debris in Dubai (Al Barsha)",
       "location": "Dubai (Al Barsha)",
@@ -195,7 +195,7 @@
       "id": "1e351667a92a",
       "datetime": "2026-03-07T06:25:40Z",
       "type": "impact_minor",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "city",
       "title": "Motorist killed by falling debris after interception in Dubai",
       "location": "Dubai",
@@ -232,13 +232,13 @@
     },
     {
       "id": "e8d3fb05d4f2",
-      "title": "Strike event in Abu Dhabi, UAE",
+      "title": "Strike event reported in Abu Dhabi (ISW/OSINT)",
       "datetime": "2026-03-07T00:00:00Z",
       "type": "impact_minor",
-      "confirmed": true,
+      "confirmed": false,
       "location": "Abu Dhabi",
-      "lat": 24.24156133,
-      "lon": 54.54825838,
+      "lat": 24.2416,
+      "lon": 54.5483,
       "precision": "city",
       "sources": [
         {
@@ -252,7 +252,7 @@
           "tier": "osint"
         }
       ],
-      "confidence": 0.85,
+      "confidence": "low",
       "_isw_id": 7272,
       "_via": "isw",
       "_next_search_at": 0,
@@ -260,13 +260,13 @@
     },
     {
       "id": "3cb934ade523",
-      "title": "Strike event in Dubai, UAE",
+      "title": "Strike event reported in Dubai (ISW/OSINT)",
       "datetime": "2026-03-07T00:00:00Z",
       "type": "impact_minor",
-      "confirmed": true,
+      "confirmed": false,
       "location": "Dubai",
-      "lat": 25.08974667,
-      "lon": 55.15072999,
+      "lat": 25.0897,
+      "lon": 55.1507,
       "precision": "city",
       "sources": [
         {
@@ -280,7 +280,7 @@
           "tier": "osint"
         }
       ],
-      "confidence": 0.85,
+      "confidence": "low",
       "_isw_id": 7286,
       "_via": "isw",
       "_next_search_at": 0,
