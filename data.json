@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-03-09T04:10:00Z",
+  "last_updated": "2026-03-09T04:17:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
       "id": "adda2d3e926b",
       "datetime": "2026-03-09T03:31:25Z",
       "type": "security_alert",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "city",
       "title": "Missile threat alert issued as loud bangs heard in Abu Dhabi",
       "location": "Abu Dhabi",
@@ -19,7 +19,7 @@
           "tier": "local"
         },
         {
-          "url": "https://www.osac.gov/Country/UnitedArabEmirates/Content/Detail/Report/b09f0825-66b7-41d4-906f-1d9bf5277853",
+          "url": "https://osac.gov/Country/UnitedArabEmirates/Content/Detail/Report/b09f0825-66b7-41d4-906f-1d9bf5277853",
           "domain": "osac.gov",
           "tier": "wire"
         }
@@ -31,7 +31,7 @@
     },
     {
       "id": "c3c448fdfe34",
-      "datetime": "2026-03-09T03:22:09Z",
+      "datetime": "2026-03-09T03:22:20Z",
       "type": "interception",
       "confirmed": false,
       "precision": "country",
@@ -55,7 +55,7 @@
       "id": "303a1fd3cd03",
       "datetime": "2026-03-08T12:27:39Z",
       "type": "security_alert",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "city",
       "title": "Emergency alert in Abu Dhabi — active UAE air defence ops",
       "location": "Abu Dhabi",
@@ -109,7 +109,7 @@
       "id": "0ed90e64b583",
       "datetime": "2026-03-08T08:02:57Z",
       "type": "impact_minor",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "city",
       "title": "Driver killed by missile debris in Dubai (Al Barsha)",
       "location": "Dubai (Al Barsha)",
