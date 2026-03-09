@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-09T19:17:00Z",
+  "last_updated": "2026-03-09T19:30:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -31,7 +31,7 @@
       "id": "da3e8fa8324f",
       "datetime": "2026-03-09T13:30:05Z",
       "type": "impact_minor",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "neighborhood",
       "title": "Missile debris hits Marina Tower, Dubai Marina",
       "location": "Dubai Marina",
@@ -54,8 +54,8 @@
           "tier": "wire"
         }
       ],
-      "_via": "rss",
       "confidence": "high",
+      "_via": "rss",
       "_search_count": 2,
       "_next_search_at": 1773084953.0
     },
@@ -172,73 +172,6 @@
       "_via": "rss",
       "_search_count": 3,
       "_next_search_at": 1773113485.0
-    },
-    {
-      "id": "adda2d3e926b",
-      "datetime": "2026-03-09T03:29:23Z",
-      "type": "security_alert",
-      "confirmed": true,
-      "precision": "city",
-      "title": "Missile alert: loud bangs heard over Abu Dhabi",
-      "location": "Abu Dhabi",
-      "lat": 24.4539,
-      "lon": 54.3773,
-      "sources": [
-        {
-          "url": "https://www.thenationalnews.com/news/uae/2026/03/09/missile-threat-alert-issued-as-loud-bangs-heard-in-abu-dhabi/",
-          "domain": "thenationalnews.com",
-          "tier": "local"
-        },
-        {
-          "url": "https://osac.gov/Country/UnitedArabEmirates/Content/Detail/Report/b09f0825-66b7-41d4-906f-1d9bf5277853",
-          "domain": "osac.gov",
-          "tier": "wire"
-        },
-        {
-          "url": "https://en.wikipedia.org/wiki/2026_Iranian_strikes_on_the_United_Arab_Emirates",
-          "domain": "en.wikipedia.org",
-          "tier": "wire"
-        },
-        {
-          "url": "https://www.hindustantimes.com/world-news/dubai-abu-dhabi-news-live-updates-uae-saudi-arabia-qatar-iran-us-israel-war-middle-east-airports-flights-latest-news-101773017353495.html",
-          "domain": "hindustantimes.com",
-          "tier": "wire"
-        },
-        {
-          "url": "https://www.reuters.com/world/middle-east/iran-fires-missiles-gulf-arab-states-one-killed-abu-dhabi-2026-02-28/",
-          "domain": "reuters.com",
-          "tier": "wire"
-        }
-      ],
-      "confidence": "high",
-      "_via": "rss",
-      "_search_count": 2,
-      "_next_search_at": 1773048563.0
-    },
-    {
-      "id": "c3c448fdfe34",
-      "datetime": "2026-03-09T03:22:20Z",
-      "type": "interception",
-      "confirmed": true,
-      "precision": "country",
-      "title": "UAE air defences engage incoming Iranian missile",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://gulfnews.com/uae/uae-air-defences-responding-to-missile-threat-1.500468030",
-          "domain": "gulfnews.com",
-          "tier": "local"
-        },
-        {
-          "url": "https://www.reuters.com/world/middle-east/iranian-missiles-drones-fired-gulf-countries-2026-03-03/",
-          "domain": "reuters.com",
-          "tier": "wire"
-        }
-      ],
-      "confidence": "high",
-      "_via": "rss"
     },
     {
       "id": "a1b2c3d4e5f6",
