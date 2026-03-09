@@ -28,7 +28,7 @@
       "id": "f564a847c75e",
       "datetime": "2026-03-09T10:44:38Z",
       "type": "impact_minor",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "Expats injured by missile debris in Dubai — Pakistani envoy visits",
       "location": "Dubai",
@@ -43,8 +43,8 @@
       ],
       "_via": "rss",
       "confidence": "low",
-      "_search_count": 1,
-      "_next_search_at": 1773056678.0
+      "_search_count": 2,
+      "_next_search_at": 1773074678.0
     },
     {
       "id": "d740428c8076",
