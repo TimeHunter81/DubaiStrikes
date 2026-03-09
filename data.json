@@ -6,7 +6,7 @@
       "id": "dfbd31449bfa",
       "datetime": "2026-03-09T08:10:54Z",
       "type": "interception",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "UAE releases video of Iranian drone interception",
       "location": "UAE",
@@ -20,13 +20,15 @@
         }
       ],
       "_via": "rss",
-      "confidence": "medium"
+      "confidence": "medium",
+      "_search_count": 1,
+      "_next_search_at": 1773047454.0
     },
     {
       "id": "32dc8e8f8089",
       "datetime": "2026-03-09T07:57:17Z",
       "type": "impact_minor",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "UAE air defence intercepts — debris injures 2 in Abu Dhabi",
       "location": "Abu Dhabi",
@@ -42,18 +44,23 @@
           "url": "https://www.hindustantimes.com/world-news/dubai-abu-dhabi-news-live-updates-uae-saudi-arabia-qatar-iran-us-israel-war-middle-east-airports-flights-latest-news-101773017353495.html",
           "domain": "hindustantimes.com",
           "tier": "wire"
+        },
+        {
+          "url": "https://www.thenationalnews.com/news/uae/2026/03/05/six-injured-in-abu-dhabi-by-debris-after-drones-intercepted/",
+          "domain": "thenationalnews.com",
+          "tier": "wire"
         }
       ],
       "_via": "rss",
       "confidence": "high",
-      "_search_count": 1,
-      "_next_search_at": 1773046637.0
+      "_search_count": 2,
+      "_next_search_at": 1773064637.0
     },
     {
       "id": "05913b7e7608",
       "datetime": "2026-03-09T03:31:25Z",
       "type": "impact_minor",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "Two injured by interception debris in Abu Dhabi",
       "location": "Abu Dhabi",
@@ -69,18 +76,23 @@
           "url": "https://www.hindustantimes.com/world-news/dubai-abu-dhabi-news-live-updates-uae-saudi-arabia-qatar-iran-us-israel-war-middle-east-airports-flights-latest-news-101773017353495.html",
           "domain": "hindustantimes.com",
           "tier": "wire"
+        },
+        {
+          "url": "https://timesofindia.indiatimes.com/world/middle-east/uae-intercepts-drone-debris-injures-civilians-as-it-hits-etihad-towers-in-abu-dhabi-amid-iranusisrael-conflict/articleshow/128932729.cms",
+          "domain": "timesofindia.indiatimes.com",
+          "tier": "wire"
         }
       ],
       "_via": "rss",
       "confidence": "high",
-      "_search_count": 1,
-      "_next_search_at": 1773030685.0
+      "_search_count": 2,
+      "_next_search_at": 1773048685.0
     },
     {
       "id": "adda2d3e926b",
       "datetime": "2026-03-09T03:29:23Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "Missile alert: loud bangs heard in Abu Dhabi",
       "location": "Abu Dhabi",
@@ -105,8 +117,8 @@
       ],
       "_via": "rss",
       "confidence": "high",
-      "_search_count": 2,
-      "_next_search_at": 1773048685.0
+      "_search_count": 3,
+      "_next_search_at": 1773113363.0
     },
     {
       "id": "c3c448fdfe34",
