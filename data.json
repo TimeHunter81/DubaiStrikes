@@ -33,7 +33,7 @@
       "id": "c3c448fdfe34",
       "datetime": "2026-03-09T03:22:20Z",
       "type": "interception",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "UAE air defences engage incoming missile",
       "location": "UAE",
@@ -44,12 +44,17 @@
           "url": "https://gulfnews.com/uae/uae-air-defences-responding-to-missile-threat-1.500468030",
           "domain": "gulfnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://www.reuters.com/world/middle-east/iranian-missiles-drones-fired-gulf-countries-2026-03-03/",
+          "domain": "reuters.com",
+          "tier": "wire"
         }
       ],
       "_via": "rss",
       "confidence": "low",
-      "_search_count": 1,
-      "_next_search_at": 1773030129.0
+      "_search_count": 2,
+      "_next_search_at": 1773048140.0
     },
     {
       "id": "303a1fd3cd03",
