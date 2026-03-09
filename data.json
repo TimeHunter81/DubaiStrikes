@@ -26,7 +26,7 @@
       "id": "32dc8e8f8089",
       "datetime": "2026-03-09T07:57:17Z",
       "type": "impact_minor",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "UAE air defence intercepts threats — debris injures 2 in Abu Dhabi",
       "location": "Abu Dhabi",
@@ -37,16 +37,23 @@
           "url": "https://gulfnews.com/uae/uae-air-defence-intercepts-threats-debris-injures-two-in-abu-dhabi-1.500468237",
           "domain": "gulfnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://www.hindustantimes.com/world-news/dubai-abu-dhabi-news-live-updates-uae-saudi-arabia-qatar-iran-us-israel-war-middle-east-airports-flights-latest-news-101773017353495.html",
+          "domain": "hindustantimes.com",
+          "tier": "wire"
         }
       ],
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1773046637.0
     },
     {
       "id": "05913b7e7608",
       "datetime": "2026-03-09T03:31:25Z",
       "type": "impact_minor",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "Two injured by falling interception debris in Abu Dhabi",
       "location": "Abu Dhabi",
@@ -57,10 +64,17 @@
           "url": "https://www.thenationalnews.com/news/uae/2026/03/09/missile-threat-alert-issued-as-loud-bangs-heard-in-abu-dhabi/",
           "domain": "thenationalnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://www.hindustantimes.com/world-news/dubai-abu-dhabi-news-live-updates-uae-saudi-arabia-qatar-iran-us-israel-war-middle-east-airports-flights-latest-news-101773017353495.html",
+          "domain": "hindustantimes.com",
+          "tier": "wire"
         }
       ],
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1773030685.0
     },
     {
       "id": "adda2d3e926b",
@@ -125,7 +139,7 @@
       "id": "5e49393a90dd",
       "datetime": "2026-03-09T03:22:09Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "UAE responds to Iranian missiles and drones — residents urged to stay alert",
       "location": "UAE",
@@ -139,7 +153,9 @@
         }
       ],
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1773030129.0
     },
     {
       "id": "303a1fd3cd03",
