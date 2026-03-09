@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-09T02:16:52Z",
+  "last_updated": "2026-03-09T02:27:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -237,7 +237,7 @@
       "_manual": true
     },
     {
-      "id": "d4e5f6a1b2c3",
+      "id": "c4d5e6f7a2b3",
       "datetime": "2026-03-02T05:00:00Z",
       "type": "security_alert",
       "confirmed": true,
@@ -255,26 +255,6 @@
         {
           "url": "https://www.aljazeera.com/news/2026/3/1/more-blasts-rock-dubai-doha-and-manama-as-iran-targets-us-assets-in-gulf",
           "domain": "aljazeera.com",
-          "tier": "wire"
-        }
-      ],
-      "confidence": "high",
-      "_manual": true
-    },
-    {
-      "id": "c4d5e6f7a2b3",
-      "datetime": "2026-02-28T22:00:00Z",
-      "type": "impact_major",
-      "confirmed": true,
-      "precision": "exact",
-      "title": "French naval base Camp de la Paix (Zayed Port) struck by drones",
-      "location": "Zayed Port, Abu Dhabi",
-      "lat": 24.483,
-      "lon": 54.332,
-      "sources": [
-        {
-          "url": "https://en.wikipedia.org/wiki/2026_Iranian_strikes_on_the_United_Arab_Emirates",
-          "domain": "en.wikipedia.org",
           "tier": "wire"
         }
       ],
