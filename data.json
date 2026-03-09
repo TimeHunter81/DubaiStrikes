@@ -119,7 +119,7 @@
       "id": "0ed90e64b583",
       "datetime": "2026-03-08T08:02:57Z",
       "type": "impact_minor",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "district",
       "title": "Driver killed by missile debris in Dubai Al Barsha",
       "location": "Dubai (Al Barsha)",
@@ -135,11 +135,16 @@
           "url": "https://timesofindia.indiatimes.com/world/middle-east/uae-dubai-confirms-driver-killed-after-debris-from-intercepted-missile-strikes-car-in-al-barsha-amid-iran-vs-us-israel-war/articleshow/129244551.cms",
           "domain": "timesofindia.indiatimes.com",
           "tier": "wire"
+        },
+        {
+          "url": "https://www.bbc.com/news/live/ceqvwrydzpqt",
+          "domain": "bbc.com",
+          "tier": "wire"
         }
       ],
       "confidence": "high",
-      "_search_count": 3,
-      "_next_search_at": 1773043377.0,
+      "_search_count": 4,
+      "_next_search_at": 1773216177.0,
       "_via": "rss"
     },
     {
