@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-09T14:26:00Z",
+  "last_updated": "2026-03-09T14:38:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -25,7 +25,9 @@
         }
       ],
       "confidence": "high",
-      "_via": "rss"
+      "_via": "rss",
+      "_search_count": 1,
+      "_next_search_at": 1773066953.0
     },
     {
       "id": "3b946ec34405",
@@ -67,10 +69,17 @@
           "url": "https://gulfnews.com/uae/pakistani-envoy-meets-victims-of-blatant-iranian-aggressio-1.500468398",
           "domain": "gulfnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://www.hindustantimes.com/world-news/dubai-abu-dhabi-news-live-updates-uae-saudi-arabia-qatar-iran-us-israel-war-middle-east-airports-flights-latest-news-101773017353495.html",
+          "domain": "www.hindustantimes.com",
+          "tier": "wire"
         }
       ],
-      "confidence": "medium",
-      "_via": "rss"
+      "confidence": "low",
+      "_via": "rss",
+      "_search_count": 1,
+      "_next_search_at": 1773056678.0
     },
     {
       "id": "d740428c8076",
@@ -92,10 +101,17 @@
           "url": "https://www.politico.com/news/2026/03/08/uae-says-iran-has-fired-16-ballistic-missiles-and-117-drones-in-new-barrages-00818181",
           "domain": "politico.com",
           "tier": "wire"
+        },
+        {
+          "url": "https://www.aljazeera.com/news/2026/3/7/iranian-missiles-intercepted-over-saudi-jordan-drones-launched-at-qatar",
+          "domain": "www.aljazeera.com",
+          "tier": "wire"
         }
       ],
       "confidence": "high",
-      "_via": "rss"
+      "_via": "rss",
+      "_search_count": 1,
+      "_next_search_at": 1773056493.0
     },
     {
       "id": "dfbd31449bfa",
@@ -147,10 +163,17 @@
           "url": "https://www.thenationalnews.com/news/uae/2026/03/05/six-injured-in-abu-dhabi-by-debris-after-drones-intercepted/",
           "domain": "thenationalnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://www.thenationalnews.com/news/uae/2026/03/05/six-injured-in-abu-dhabi-by-debris-after-drones-intercepted/",
+          "domain": "www.thenationalnews.com",
+          "tier": "wire"
         }
       ],
       "confidence": "high",
-      "_via": "rss"
+      "_via": "rss",
+      "_search_count": 1,
+      "_next_search_at": 1773046637.0
     },
     {
       "id": "05913b7e7608",
