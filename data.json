@@ -31,7 +31,7 @@
       "id": "32dc8e8f8089",
       "datetime": "2026-03-09T07:57:17Z",
       "type": "impact_minor",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "Interception debris injures 6 in Abu Dhabi",
       "location": "Abu Dhabi",
@@ -55,7 +55,9 @@
         }
       ],
       "_via": "rss",
-      "confidence": "high"
+      "confidence": "high",
+      "_search_count": 1,
+      "_next_search_at": 1773046637.0
     },
     {
       "id": "05913b7e7608",
@@ -96,7 +98,7 @@
       "id": "adda2d3e926b",
       "datetime": "2026-03-09T03:29:23Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "Missile alert: loud bangs heard in Abu Dhabi",
       "location": "Abu Dhabi",
@@ -120,7 +122,9 @@
         }
       ],
       "_via": "rss",
-      "confidence": "high"
+      "confidence": "high",
+      "_search_count": 1,
+      "_next_search_at": 1773030563.0
     },
     {
       "id": "c3c448fdfe34",
@@ -151,7 +155,7 @@
       "id": "303a1fd3cd03",
       "datetime": "2026-03-08T12:27:39Z",
       "type": "interception",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "Emergency alert: active UAE air defence operations over Abu Dhabi",
       "location": "Abu Dhabi",
@@ -167,10 +171,17 @@
           "url": "https://ae.usembassy.gov/security-alert-u-s-embassy-abu-dhabi-united-arab-emirates-march-8-2026-update-1/",
           "domain": "ae.usembassy.gov",
           "tier": "wire"
+        },
+        {
+          "url": "https://www.thenationalnews.com/news/uae/2026/03/08/abu-dhabi-residents-urged-to-shelter-as-uae-faces-further-iran-strikes/",
+          "domain": "thenationalnews.com",
+          "tier": "wire"
         }
       ],
       "confidence": "high",
-      "_via": "rss"
+      "_via": "rss",
+      "_search_count": 1,
+      "_next_search_at": 1772976459.0
     },
     {
       "id": "8827bb36101b",
