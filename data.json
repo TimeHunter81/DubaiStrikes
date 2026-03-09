@@ -1,14 +1,14 @@
 {
-  "last_updated": "2026-03-09T03:38:17Z",
+  "last_updated": "2026-03-09T03:44:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
       "id": "c3c448fdfe34",
       "datetime": "2026-03-09T03:22:09Z",
-      "type": "security_alert",
-      "confirmed": true,
+      "type": "interception",
+      "confirmed": false,
       "precision": "country",
-      "title": "UAE air defences respond to incoming missile threat",
+      "title": "UAE air defences engage incoming missile — interception underway",
       "location": "Uae",
       "lat": null,
       "lon": null,
@@ -205,7 +205,7 @@
       "type": "security_alert",
       "confirmed": true,
       "precision": "country",
-      "title": "UAE authorities raise threat level across all emirates following overnight Iranian naval activity",
+      "title": "UAE raises threat level across all emirates after overnight Iranian naval activity",
       "location": "UAE-wide",
       "lat": 24.0,
       "lon": 54.0,
