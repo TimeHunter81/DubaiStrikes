@@ -6,7 +6,7 @@
       "id": "da3e8fa8324f",
       "datetime": "2026-03-09T13:18:48Z",
       "type": "impact_minor",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "neighborhood",
       "title": "Missile debris hits Marina Tower, Dubai Marina",
       "location": "Dubai Marina",
@@ -27,12 +27,17 @@
           "url": "https://www.aa.com.tr/en/middle-east/debris-from-missile-interception-hits-tower-in-dubai-marina-officials-say/3854344",
           "domain": "aa.com.tr",
           "tier": "wire"
+        },
+        {
+          "url": "https://www.ndtv.com/world-news/iran-war-iran-israel-us-war-dubai-news-smoke-rises-from-tower-in-dubai-marina-as-iran-continues-gulf-attacks-11183521",
+          "domain": "ndtv.com",
+          "tier": "wire"
         }
       ],
       "confidence": "high",
       "_via": "rss",
-      "_search_count": 2,
-      "_next_search_at": 1773084953.0
+      "_search_count": 3,
+      "_next_search_at": 1773148728.0
     },
     {
       "id": "3b946ec34405",
