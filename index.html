@@ -533,9 +533,9 @@
   const _initLon  = (_parsedShortState?.lon ?? parseFloat(_urlP.get('lon')))  || DEFAULT_LON;
   const _initZoom = (_parsedShortState?.z   ?? parseInt(_urlP.get('z')))       || DEFAULT_ZOOM;
   const map = L.map('map', { zoomControl: false }).setView([_initLat, _initLon], _initZoom);
-  L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
-    attribution: '© <a href="https://www.openstreetmap.org/copyright">OSM</a> contributors © <a href="https://carto.com/attributions">CARTO</a>',
-    subdomains: 'abcd', maxZoom: 19
+  L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}', {
+    attribution: '© <a href="https://www.esri.com/">Esri</a>, HERE, Garmin, FAO, NOAA, USGS',
+    maxZoom: 19
   }).addTo(map);
   L.control.zoom({ position: 'bottomright' }).addTo(map);
 
