@@ -1,38 +1,7 @@
 {
-  "last_updated": "2026-03-08T23:57:07Z",
+  "last_updated": "2026-03-09T00:04:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
-    {
-      "id": "8827bb36101b",
-      "datetime": "2026-03-08T15:40:04Z",
-      "type": "interception",
-      "confirmed": true,
-      "precision": "country",
-      "title": "UAE air defences intercept Iranian drones",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://gulfnews.com/uae/video-air-defences-intercept-iranian-drones-targeting-uae-1.500467671",
-          "domain": "gulfnews.com",
-          "tier": "local"
-        },
-        {
-          "url": "https://www.indiatoday.in/world/story/middle-east-war-uae-air-defence-intercepting-iranian-missile-drones-video-israel-conflict-2879127-2026-03-08",
-          "domain": "indiatoday.in",
-          "tier": "wire"
-        },
-        {
-          "url": "https://www.bbc.com/news/articles/c4g0pnnj8xyo",
-          "domain": "bbc.com",
-          "tier": "wire"
-        }
-      ],
-      "confidence": "high",
-      "_search_count": 2,
-      "_next_search_at": 1773006004.0
-    },
     {
       "id": "303a1fd3cd03",
       "datetime": "2026-03-08T12:27:39Z",
@@ -60,7 +29,7 @@
       "_next_search_at": 1773059259.0
     },
     {
-      "id": "b620a85546da",
+      "id": "8827bb36101b",
       "datetime": "2026-03-08T10:42:06Z",
       "type": "interception",
       "confirmed": true,
@@ -208,7 +177,7 @@
       "datetime": "2026-03-07T09:25:28Z",
       "type": "impact_minor",
       "confirmed": true,
-      "precision": "exact",
+      "precision": "city",
       "title": "Drone impact near Dubai Airport — BBC confirms (officially denied)",
       "location": "Dubai (near airport)",
       "lat": 25.2528,
@@ -273,7 +242,7 @@
       "title": "Strike event in Abu Dhabi (ISW)",
       "datetime": "2026-03-07T00:00:00Z",
       "type": "impact_minor",
-      "confirmed": true,
+      "confirmed": false,
       "location": "Abu Dhabi",
       "lat": 24.24156133,
       "lon": 54.54825838,
@@ -300,7 +269,7 @@
       "title": "Strike event in Dubai (ISW)",
       "datetime": "2026-03-07T00:00:00Z",
       "type": "impact_minor",
-      "confirmed": true,
+      "confirmed": false,
       "location": "Dubai",
       "lat": 25.08974667,
       "lon": 55.15072999,
@@ -319,6 +288,62 @@
       ],
       "confidence": 0.85,
       "_isw_id": 6922,
+      "_next_search_at": 0,
+      "_search_count": 0
+    },
+    {
+      "id": "e8d3fb05d4f2",
+      "title": "Strike event in Abu Dhabi, UAE",
+      "datetime": "2026-03-07T00:00:00Z",
+      "type": "impact_minor",
+      "confirmed": false,
+      "location": "Abu Dhabi",
+      "lat": 24.24156133,
+      "lon": 54.54825838,
+      "precision": "city",
+      "sources": [
+        {
+          "url": "https://t.me/defapress_ir/50563",
+          "domain": "t.me",
+          "tier": "osint"
+        },
+        {
+          "url": "https://t.me/Tasnimnews/393700",
+          "domain": "t.me",
+          "tier": "osint"
+        }
+      ],
+      "confidence": 0.85,
+      "_isw_id": 7272,
+      "_via": "isw",
+      "_next_search_at": 0,
+      "_search_count": 0
+    },
+    {
+      "id": "3cb934ade523",
+      "title": "Strike event in Dubai, UAE",
+      "datetime": "2026-03-07T00:00:00Z",
+      "type": "impact_minor",
+      "confirmed": false,
+      "location": "Dubai",
+      "lat": 25.08974667,
+      "lon": 55.15072999,
+      "precision": "city",
+      "sources": [
+        {
+          "url": "https://x.com/MarioLeb79/status/2030335491938087309",
+          "domain": "x.com",
+          "tier": "osint"
+        },
+        {
+          "url": "https://x.com/ariel_oseran/status/2030341701017956616",
+          "domain": "x.com",
+          "tier": "osint"
+        }
+      ],
+      "confidence": 0.85,
+      "_isw_id": 7286,
+      "_via": "isw",
       "_next_search_at": 0,
       "_search_count": 0
     },
