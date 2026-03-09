@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-09T16:56:00Z",
+  "last_updated": "2026-03-09T17:10:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -56,6 +56,26 @@
       ],
       "confidence": "high",
       "_via": "rss"
+    },
+    {
+      "id": "da3e8fa8324f",
+      "datetime": "2026-03-09T13:35:53Z",
+      "type": "impact_minor",
+      "confirmed": false,
+      "precision": "neighborhood",
+      "title": "Missile debris hits Marina Tower, Dubai — response reported",
+      "location": "Dubai Marina",
+      "lat": 25.0819,
+      "lon": 55.1367,
+      "sources": [
+        {
+          "url": "https://gulfnews.com/entertainment/bollywood-singer-shweta-subram-applauds-dubais-quick-action-following-debris-incident-at-marina-tower-1.500468584",
+          "domain": "gulfnews.com",
+          "tier": "local"
+        }
+      ],
+      "_via": "rss",
+      "confidence": "low"
     },
     {
       "id": "d740428c8076",
