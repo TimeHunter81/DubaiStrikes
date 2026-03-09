@@ -93,7 +93,7 @@
       "id": "d740428c8076",
       "datetime": "2026-03-09T10:41:33Z",
       "type": "interception",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "Iran fires 16 ballistic missiles, 117 drones at UAE in new barrage",
       "location": "UAE",
@@ -109,12 +109,17 @@
           "url": "https://www.politico.com/news/2026/03/08/uae-says-iran-has-fired-16-ballistic-missiles-and-117-drones-in-new-barrages-00818181",
           "domain": "politico.com",
           "tier": "wire"
+        },
+        {
+          "url": "https://www.bbc.com/news/articles/c4g0pnnj8xyo",
+          "domain": "bbc.com",
+          "tier": "wire"
         }
       ],
       "confidence": "high",
       "_via": "rss",
-      "_search_count": 2,
-      "_next_search_at": 1773074493.0
+      "_search_count": 3,
+      "_next_search_at": 1773139293.0
     },
     {
       "id": "dfbd31449bfa",
