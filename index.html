@@ -4,33 +4,11 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Dubai Strike Monitor</title>
-  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23ef3340' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z'/%3E%3C/svg%3E" />
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 
     * { margin: 0; padding: 0; box-sizing: border-box; }
-    #card-preview {
-      display: none;
-      position: fixed;
-      left: 400px;
-      width: 264px;
-      background: rgba(10,14,20,0.97);
-      border: 1px solid rgba(255,255,255,0.1);
-      border-radius: 10px;
-      overflow: hidden;
-      box-shadow: 0 8px 40px rgba(0,0,0,0.6);
-      z-index: 9999;
-      pointer-events: none;
-    }
-    #card-preview img { width: 100%; height: 150px; object-fit: cover; display: none; }
-    #preview-meta { padding: 8px 10px; }
-    #preview-domain { font-size: 9px; color: #607a96; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 3px; }
-    #preview-title { font-size: 11px; color: #d4e0f0; line-height: 1.4; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
-    .ic { width: 13px; height: 13px; display: inline-block; vertical-align: middle; flex-shrink: 0; }
-    .ic-sm { width: 11px; height: 11px; }
-    .ic-md { width: 15px; height: 15px; }
-
     body {
       font-family: 'Inter', 'Segoe UI', system-ui, sans-serif;
       background: #070a10;
@@ -62,15 +40,6 @@
       100% { transform: translate(15px, -20px) scale(0.95); }
     }
 
-
-    /* ── SIDEBAR BLOBS (via background gradient) ── */
-    @keyframes blobshift {
-      0%   { background-position: 10% 10%, 90% 45%, 15% 80%, 70% 25%; }
-      33%  { background-position: 20% 20%, 80% 60%, 25% 70%, 60% 15%; }
-      66%  { background-position: 5%  30%, 85% 35%, 10% 85%, 75% 35%; }
-      100% { background-position: 10% 10%, 90% 45%, 15% 80%, 70% 25%; }
-    }
-
     /* ── MAP ── */
     #map { flex: 1; position: relative; z-index: 1; }
 
@@ -80,14 +49,10 @@
       position: relative; z-index: 2;
       display: flex; flex-direction: column;
       overflow: hidden;
-      /* Blobs baked into background */
-      background:
-        radial-gradient(circle 220px at 25% 18%, rgba(79,158,255,0.08) 0%, transparent 100%),
-        radial-gradient(circle 200px at 82% 52%, rgba(248,81,73,0.08) 0%, transparent 100%),
-        radial-gradient(circle 220px at 22% 82%, rgba(163,113,247,0.08) 0%, transparent 100%),
-        radial-gradient(circle 160px at 75% 28%, rgba(240,168,32,0.08) 0%, transparent 100%),
-        #070a10;
-      animation: blobshift 18s ease-in-out infinite;
+      /* Glass */
+      background: rgba(7, 10, 16, 0.72);
+      backdrop-filter: blur(28px) saturate(160%);
+      -webkit-backdrop-filter: blur(28px) saturate(160%);
       /* Gradient border via box-shadow + pseudo */
     }
     /* Left gradient border */
@@ -190,7 +155,6 @@
       display: flex; gap: 4px; flex-wrap: wrap; align-items: center;
     }
     .filter-btn {
-      display: inline-flex; align-items: center; gap: 4px;
       padding: 3px 8px; border-radius: 20px;
       border: 1px solid rgba(255,255,255,0.06);
       background: rgba(255,255,255,0.03);
@@ -302,10 +266,8 @@
       border-radius: 10px;
       cursor: pointer;
       transition: all 0.18s ease;
-      background: rgba(255,255,255,0.04);
-      backdrop-filter: blur(12px);
-      -webkit-backdrop-filter: blur(12px);
-      border: 1px solid rgba(255,255,255,0.07);
+      background: rgba(255,255,255,0.025);
+      border: 1px solid rgba(255,255,255,0.055);
       position: relative; overflow: hidden;
     }
     .event-card::before {
@@ -326,7 +288,7 @@
 
     .event-badges { display: flex; gap: 4px; margin-bottom: 5px; align-items: center; flex-wrap: wrap; }
     .badge {
-      display: inline-flex; align-items: center; gap: 3px;
+      display: inline-flex; align-items: center;
       padding: 2px 6px; border-radius: 6px; font-size: 9px; font-weight: 700;
       text-transform: uppercase; letter-spacing: 0.5px; font-family: inherit;
     }
@@ -410,13 +372,9 @@
         flex-direction: column;
         overflow: hidden;
         box-shadow: 0 -8px 40px rgba(0,0,0,0.6);
-        /* blobs on mobile too */
-        background:
-          radial-gradient(circle 220px at 25% 18%, rgba(79,158,255,0.08) 0%, transparent 100%),
-          radial-gradient(circle 200px at 82% 52%, rgba(248,81,73,0.08) 0%, transparent 100%),
-          radial-gradient(circle 220px at 22% 82%, rgba(163,113,247,0.08) 0%, transparent 100%),
-          radial-gradient(circle 160px at 75% 28%, rgba(240,168,32,0.08) 0%, transparent 100%),
-          rgba(7, 10, 16, 0.97);
+        /* no saturate on mobile — causes warm color cast over map tiles */
+        backdrop-filter: blur(28px);
+        -webkit-backdrop-filter: blur(28px);
       }
       #sidebar::before { display: none; }
       /* Top gradient line on mobile sheet */
@@ -478,7 +436,7 @@
 
       </div>
       <div id="share-btn-row">
-        <button id="share-btn" onclick="doShare(true, true)" style="display:flex;align-items:center;gap:5px">
+        <button id="share-btn" onclick="doShare(true, true)">
           <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="15" cy="4" r="1.8"/><circle cx="15" cy="16" r="1.8"/><circle cx="5" cy="10" r="1.8"/><line x1="13.3" y1="4.9" x2="6.7" y2="9.1"/><line x1="6.7" y1="10.9" x2="13.3" y2="15.1"/></svg>
           Share
         </button>
@@ -505,14 +463,14 @@
     <div id="filters">
       <div id="filters-type">
         <button class="filter-btn active" data-type="all">All</button>
-        <button class="filter-btn" data-type="impact_major"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"/></svg> Strike</button>
-        <button class="filter-btn" data-type="impact_minor"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg> Debris</button>
-        <button class="filter-btn" data-type="interception"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"/></svg> Intercept</button>
-        <button class="filter-btn" data-type="security_alert"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9"/><path d="M10.3 21a1.94 1.94 0 0 0 3.4 0"/></svg> Alert</button>
+        <button class="filter-btn" data-type="interception">🛡 Intercept</button>
+        <button class="filter-btn" data-type="impact_major">💥 Major</button>
+        <button class="filter-btn" data-type="impact_minor">🔸 Debris</button>
+        <button class="filter-btn" data-type="security_alert">🚨 Alert</button>
       </div>
       <div id="filters-conf" style="display:none">
-        <button class="filter-btn active" data-conf="confirmed"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><path d="m9 11 3 3L22 4"/></svg> Confirmed</button>
-        <button class="filter-btn active" data-conf="suspected"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><path d="M12 17h.01"/></svg> Suspected</button>
+        <button class="filter-btn active" data-conf="confirmed">✅ Confirmed</button>
+        <button class="filter-btn active" data-conf="suspected">❓ Suspected</button>
       </div>
     </div>
 
@@ -520,7 +478,7 @@
     <!-- MY LOCATIONS -->
     <div id="locations-section">
       <div id="locations-header" onclick="toggleLocations()">
-        <span><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"/><circle cx="12" cy="10" r="3"/></svg> My locations <span id="loc-count"></span></span>
+        <span>📍 My locations <span id="loc-count"></span></span>
         <span id="loc-toggle">▼</span>
       </div>
       <div id="locations-body">
@@ -558,96 +516,9 @@
     </div>
   </div>
 
-  <div id="card-preview">
-    <img id="preview-img" alt="" />
-    <div id="preview-meta">
-      <div id="preview-domain"></div>
-      <div id="preview-title"></div>
-    </div>
-  </div>
-
-  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js">
-  // ── OG PREVIEW (hover on source name) ────────────────────────────────────
-  const _ogCache = new Map();
-  let _srcPreviewTimer = null;
-
-  async function fetchOGData(url) {
-    if (_ogCache.has(url)) return _ogCache.get(url);
-    try {
-      const proxy = `https://api.allorigins.win/raw?url=${encodeURIComponent(url)}`;
-      const raw = await fetch(proxy, { signal: AbortSignal.timeout(6000) }).then(r => r.text());
-      const getTag = (prop) => {
-        const m = raw.match(new RegExp(`<meta[^>]+property=["']${prop}["'][^>]+content=["']([^"']+)["']`, 'i'))
-                || raw.match(new RegExp(`<meta[^>]+content=["']([^"']+)["'][^>]+property=["']${prop}["']`, 'i'));
-        return m ? m[1] : null;
-      };
-      const data = { img: getTag('og:image'), title: getTag('og:title') || getTag('twitter:title') };
-      _ogCache.set(url, data);
-      return data;
-    } catch(e) {
-      _ogCache.set(url, null);
-      return null;
-    }
-  }
-
-  function showSrcPreview(url, domain, el) {
-    clearTimeout(_srcPreviewTimer);
-    _srcPreviewTimer = setTimeout(async () => {
-      // Only on desktop
-      if (window.innerWidth <= 700) return;
-      const pv = document.getElementById('card-preview');
-      const pvImg = document.getElementById('preview-img');
-      const pvDomain = document.getElementById('preview-domain');
-      const pvTitle = document.getElementById('preview-title');
-
-      // Position: to the right of sidebar
-      const rect = el.getBoundingClientRect();
-      pv.style.top = Math.min(rect.top, window.innerHeight - 220) + 'px';
-      pvDomain.textContent = domain;
-      pvTitle.textContent = '';
-      pvImg.style.display = 'none';
-      pv.style.display = 'block';
-
-      const data = await fetchOGData(url);
-      if (!data) { pv.style.display = 'none'; return; }
-      if (data.title) pvTitle.textContent = data.title;
-      if (data.img) {
-        pvImg.src = data.img;
-        pvImg.style.display = 'block';
-        pvImg.onerror = () => { pvImg.style.display = 'none'; };
-      }
-    }, 300);
-  }
-
-  function hideSrcPreview() {
-    clearTimeout(_srcPreviewTimer);
-    document.getElementById('card-preview').style.display = 'none';
-  }
-
-</script>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/lz-string@1.5.0/libs/lz-string.min.js"></script>
   <script>
-  // ─── ICON HELPERS ──────────────────────────────────────────────────────
-  const ICONS = {
-    shield:      '<path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"/>',
-    zap:         '<path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"/>',
-    triangle:    '<path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3"/><path d="M12 9v4"/><path d="M12 17h.01"/>',
-    bell:        '<path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9"/><path d="M10.3 21a1.94 1.94 0 0 0 3.4 0"/>',
-    checkCircle: '<path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><path d="m9 11 3 3L22 4"/>',
-    helpCircle:  '<circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><path d="M12 17h.01"/>',
-    mapPin:      '<path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"/><circle cx="12" cy="10" r="3"/>',
-    pencil:      '<path d="M21.174 6.812a1 1 0 0 0-3.986-3.987L3.842 16.174a2 2 0 0 0-.5.83l-1.321 4.352a.5.5 0 0 0 .623.622l4.353-1.32a2 2 0 0 0 .83-.497z"/><path d="m15 5 4 4"/>',
-    globe:       '<circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/>',
-    link:        '<path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/>',
-    check:       '<path d="M20 6 9 17l-5-5"/>',
-    x:           '<path d="M18 6 6 18"/><path d="m6 6 12 12"/>',
-  };
-  function ic(name, cls) {
-    const p = ICONS[name] || '';
-    const c = cls ? ' ' + cls : '';
-    return `<svg class="ic${c}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">${p}</svg>`;
-  }
-
   // ─── MAP ───────────────────────────────────────────────────────────────
   // Restore map view from URL if present
   const DEFAULT_LAT = 25.0, DEFAULT_LON = 55.0, DEFAULT_ZOOM = 8;
@@ -670,15 +541,49 @@
 
   // ─── CONSTANTS ─────────────────────────────────────────────────────────
   const TYPE_META = {
-    interception:   { label: '<svg class="ic ic-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"/></svg> Interception', cls: 'badge-interception',   mc: 'cm-interception'  },
-    impact_minor:   { label: '<svg class="ic ic-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg> Debris', cls: 'badge-impact_minor',   mc: 'cm-impact_minor'  },
-    impact_major:   { label: '<svg class="ic ic-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"/></svg> Strike', cls: 'badge-impact_major',   mc: 'cm-impact_major'  },
-    security_alert: { label: '<svg class="ic ic-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9"/><path d="M10.3 21a1.94 1.94 0 0 0 3.4 0"/></svg> Security alert', cls: 'badge-security_alert', mc: 'cm-security_alert'},
+    interception:   { label: '🛡 Interception',  cls: 'badge-interception',   mc: 'cm-interception'  },
+    impact_minor:   { label: '🔸 Debris',         cls: 'badge-impact_minor',   mc: 'cm-impact_minor'  },
+    impact_major:   { label: '💥 Major impact',   cls: 'badge-impact_major',   mc: 'cm-impact_major'  },
+    security_alert: { label: '🚨 Security alert', cls: 'badge-security_alert', mc: 'cm-security_alert'},
   };
 
   // Prevent map pan/zoom from swallowing touches inside the sidebar
-  document.getElementById('sidebar').addEventListener('touchstart', e => e.stopPropagation(), { passive: true });
-  document.getElementById('sidebar').addEventListener('touchmove',  e => e.stopPropagation(), { passive: true });
+  // Also detect swipe up/down to open/close the bottom sheet on mobile
+  (function() {
+    const sidebar = document.getElementById('sidebar');
+    let _swipeY0 = null, _swipeX0 = null;
+
+    sidebar.addEventListener('touchstart', e => {
+      e.stopPropagation();
+      if (window.innerWidth > 700) return;
+      if (e.touches.length === 1) {
+        _swipeY0 = e.touches[0].clientY;
+        _swipeX0 = e.touches[0].clientX;
+      }
+    }, { passive: true });
+
+    sidebar.addEventListener('touchmove', e => {
+      e.stopPropagation();
+    }, { passive: true });
+
+    sidebar.addEventListener('touchend', e => {
+      if (_swipeY0 === null || window.innerWidth > 700) return;
+      const dy = e.changedTouches[0].clientY - _swipeY0;
+      const dx = e.changedTouches[0].clientX - (_swipeX0 || 0);
+      _swipeY0 = null; _swipeX0 = null;
+
+      // Require mostly-vertical swipe with enough distance
+      if (Math.abs(dy) < 40 || Math.abs(dy) < Math.abs(dx) * 1.5) return;
+
+      const expanded = sidebar.classList.contains('expanded');
+      if (dy < 0 && !expanded) { toggleSheet(); return; }           // swipe up  → open
+      if (dy > 0 && expanded) {
+        // Only close when list is scrolled to top (avoid fighting vertical scroll)
+        const list = document.getElementById('events-list');
+        if (!list || list.scrollTop < 10) toggleSheet();            // swipe down → close
+      }
+    }, { passive: true });
+  })();
 
   // ─── MOBILE BOTTOM SHEET ──────────────────────────────────────────────
   function toggleSheet() {
@@ -930,13 +835,13 @@
     list.innerHTML = filtered.map(e => {
       const tm = TYPE_META[e.type] || {};
       const confClass = e.confirmed ? 'badge-confirmed' : 'badge-suspected';
-      const confLabel = e.confirmed ? `${ic('checkCircle')} Confirmed` : `${ic('helpCircle')} Suspected`;
+      const confLabel = e.confirmed ? '✅ Confirmed' : '❓ Suspected';
       const srcs = (e.sources||[]).map(s =>
-        `<a class="src-tag" href="${s.url}" target="_blank" onmouseenter="showSrcPreview('${s.url}','${s.domain}',this)" onmouseleave="hideSrcPreview()">${s.domain}</a>`
+        `<a class="src-tag" href="${s.url}" target="_blank">${s.domain}</a>`
       ).join('');
       const rel = relTime(e.datetime);
       const approxBadge = !isPrecise(e)
-        ? `<span class="badge badge-approx">${ic('mapPin','ic-sm')} ${e.location || 'Area'}</span>` : '';
+        ? `<span class="badge badge-approx">📍 ${e.location || 'Area'}</span>` : '';
       const clickAttr = isPrecise(e)
         ? `onclick="flyTo(${e.lat},${e.lon})"` : '';
       return `<div class="event-card${!isPrecise(e) ? ' event-card-approx' : ''}" data-type="${e.type||''}" data-datetime="${e.datetime||''}" ${clickAttr}>
@@ -947,7 +852,7 @@
         </div>
         ${rel ? `<div class="event-time"><span class="rel">${rel}</span></div>` : ''}
         <div class="event-title" id="title-${e.id}">${needsTranslation(e.title) ? (window._translations[e.id]?.translated || e.title) : e.title}</div>
-        ${needsTranslation(e.title) ? `<button class="translate-btn" id="trbtn-${e.id}" onclick="toggleOriginal(event,'${e.id}','${encodeURIComponent(e.title)}')">${window._translations[e.id]?.translated ? ic('globe')+' Original' : ''}</button>` : ''}
+        ${needsTranslation(e.title) ? `<button class="translate-btn" id="trbtn-${e.id}" onclick="toggleOriginal(event,'${e.id}','${encodeURIComponent(e.title)}')">${window._translations[e.id]?.translated ? '🌐 Original' : ''}</button>` : ''}
         <div class="event-meta">${e.location || 'UAE'}</div>
         ${srcs ? `<div class="event-sources">${srcs}</div>` : ''}
       </div>`;
@@ -1221,12 +1126,12 @@
         <div class="loc-info">
           <div class="loc-name-wrap">
             ${tag ? `<span style="font-size:12px;font-weight:600;color:#e6edf3">${tag}</span>` : ''}
-            <span class="loc-edit-btn" title="Edit" onclick="startEditLoc(${i})">${ic('pencil')}</span>
+            <span class="loc-edit-btn" title="Edit" onclick="startEditLoc(${i})">✏️</span>
           </div>
           ${addr ? `<div style="font-size:10px;color:#8b949e;margin-top:1px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">${addr}</div>` : ''}
           <div class="loc-dist">${distStr}</div>
         </div>
-        <span class="loc-remove" onclick="removeLocation(${i})">${ic('x')}</span>
+        <span class="loc-remove" onclick="removeLocation(${i})">✕</span>
       </div>`;
     }).join('');
   }
@@ -1309,7 +1214,7 @@
     }
     const popup = L.popup({ closeButton: true, minWidth: 200 })
       .setLatLng(latlng)
-      .setContent(`<div style="font-size:12px;font-family:system-ui;display:flex;align-items:center;gap:5px">${ic('mapPin')} Looking up address…</div>`)
+      .setContent('<div style="font-size:12px;font-family:system-ui">📍 Looking up address…</div>')
       .openOn(map);
 
     let name;
@@ -1336,7 +1241,7 @@
       <button id="_addLocBtn" style="
         background:#1c2d4a;border:1px solid #58a6ff;color:#58a6ff;
         border-radius:5px;padding:4px 12px;font-size:11px;cursor:pointer;width:100%">
-        ${ic('mapPin')} Add location
+        📍 Add location
       </button>`;
     popup.setContent(el);
 
@@ -1497,7 +1402,7 @@
       : document.getElementById('share-nolocs-btn');
     navigator.clipboard.writeText(url).then(() => {
       const orig = btn.innerHTML;
-      btn.innerHTML = ic('check') + ' Copied!';
+      btn.innerHTML = '✓ Copied!';
       btn.style.color = '#4fd060';
       setTimeout(() => { btn.innerHTML = orig; btn.style.color = ''; }, 2000);
     });
@@ -1603,7 +1508,7 @@
         const titleEl = document.getElementById('title-' + e.id);
         const btnEl   = document.getElementById('trbtn-' + e.id);
         if (titleEl) titleEl.textContent = translated;
-        if (btnEl)   btnEl.innerHTML = ic('globe') + ' Original';
+        if (btnEl)   btnEl.textContent = '🌐 Original';
       } catch(_) {}
     }
   }
@@ -1617,13 +1522,13 @@
     if (!titleEl || !btn) return;
     t.showingOriginal = !t.showingOriginal;
     titleEl.textContent = t.showingOriginal ? t.original : t.translated;
-    btn.innerHTML = ic('globe') + (t.showingOriginal ? ' English' : ' Original');
+    btn.textContent = t.showingOriginal ? '🌐 English' : '🌐 Original';
   }
 
   // Initial load
   loadData(false);
-  // Auto-refresh every 60s — only re-renders if last_updated changed
-  setInterval(() => loadData(true), 60 * 1000);
+  // Auto-refresh every 2 minutes — only re-renders if last_updated changed
+  setInterval(() => loadData(true), 2 * 60 * 1000);
 
   // Countdown to next visible update
   // Cron runs every 10 min from anchor; last_updated is set ~4 min after cron start
