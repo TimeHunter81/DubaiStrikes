@@ -28,7 +28,7 @@
       "id": "f564a847c75e",
       "datetime": "2026-03-09T10:44:38Z",
       "type": "impact_minor",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "Pakistan envoy visits expats injured in missile debris in Dubai",
       "location": "Dubai",
@@ -42,7 +42,9 @@
         }
       ],
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1773056678.0
     },
     {
       "id": "dfbd31449bfa",
@@ -73,7 +75,7 @@
       "id": "32dc8e8f8089",
       "datetime": "2026-03-09T07:57:17Z",
       "type": "impact_minor",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "Interception debris injures 6 in Abu Dhabi",
       "location": "Abu Dhabi",
@@ -98,8 +100,8 @@
       ],
       "_via": "rss",
       "confidence": "high",
-      "_search_count": 1,
-      "_next_search_at": 1773046637.0
+      "_search_count": 2,
+      "_next_search_at": 1773064637.0
     },
     {
       "id": "05913b7e7608",
@@ -140,7 +142,7 @@
       "id": "02a157b95a75",
       "datetime": "2026-03-09T03:31:25Z",
       "type": "impact_minor",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "Debris injures 2 in Abu Dhabi as UAE intercepts Iranian missiles",
       "location": "Abu Dhabi",
@@ -151,16 +153,23 @@
           "url": "https://www.thenationalnews.com/news/uae/2026/03/09/missile-threat-alert-issued-as-loud-bangs-heard-in-abu-dhabi/",
           "domain": "thenationalnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://www.gulftoday.ae/news/2026/03/09/abu-dhabi-deals-with-2-incidents-of-falling-debris-following-successful-interception",
+          "domain": "gulftoday.ae",
+          "tier": "wire"
         }
       ],
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1773030685.0
     },
     {
       "id": "adda2d3e926b",
       "datetime": "2026-03-09T03:29:23Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "Missile alert: loud bangs heard in Abu Dhabi",
       "location": "Abu Dhabi",
@@ -185,8 +194,8 @@
       ],
       "_via": "rss",
       "confidence": "high",
-      "_search_count": 1,
-      "_next_search_at": 1773030563.0
+      "_search_count": 2,
+      "_next_search_at": 1773048563.0
     },
     {
       "id": "c3c448fdfe34",
