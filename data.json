@@ -25,7 +25,9 @@
         }
       ],
       "confidence": "low",
-      "_via": "gdelt"
+      "_via": "gdelt",
+      "_search_count": 1,
+      "_next_search_at": 1773061889.0
     },
     {
       "id": "fbb3736a1582",
@@ -45,13 +47,15 @@
         }
       ],
       "confidence": "low",
-      "_via": "gdelt"
+      "_via": "gdelt",
+      "_search_count": 1,
+      "_next_search_at": 1773061889.0
     },
     {
       "id": "8dc917e1dcd0",
       "datetime": "2026-03-09T12:04:00Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "Turkey says NATO defences intercepted missile in its airspace",
       "location": "UAE",
@@ -62,16 +66,23 @@
           "url": "https://www.middleeasteye.net/live-blog/live-blog-update/turkey-says-nato-defences-intercepted-missile-its-airspace",
           "domain": "middleeasteye.net",
           "tier": "local"
+        },
+        {
+          "url": "https://www.reuters.com/world/middle-east/turkey-says-nato-defences-destroyed-missile-fired-iran-over-mediterranean-2026-03-04/",
+          "domain": "reuters.com",
+          "tier": "wire"
         }
       ],
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1773061440.0
     },
     {
       "id": "3b946ec34405",
       "datetime": "2026-03-09T11:54:43Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "UAE intercepts 12 Iranian missiles, 17 drones in today&apos;s attack",
       "location": "Uae",
@@ -85,7 +96,9 @@
         }
       ],
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1773060883.0
     },
     {
       "id": "ae156184f085",
