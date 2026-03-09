@@ -6,7 +6,7 @@
       "id": "adda2d3e926b",
       "datetime": "2026-03-09T03:31:25Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "Missile alert: loud bangs heard in Abu Dhabi",
       "location": "Abu Dhabi",
@@ -22,12 +22,17 @@
           "url": "https://osac.gov/Country/UnitedArabEmirates/Content/Detail/Report/b09f0825-66b7-41d4-906f-1d9bf5277853",
           "domain": "osac.gov",
           "tier": "wire"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/2026_Iranian_strikes_on_the_United_Arab_Emirates",
+          "domain": "en.wikipedia.org",
+          "tier": "wire"
         }
       ],
       "_via": "rss",
       "confidence": "high",
-      "_search_count": 1,
-      "_next_search_at": 1773030685.0
+      "_search_count": 2,
+      "_next_search_at": 1773048685.0
     },
     {
       "id": "c3c448fdfe34",
