@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-09T20:39:00Z",
+  "last_updated": "2026-03-09T20:51:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -123,31 +123,6 @@
       "_via": "rss"
     },
     {
-      "id": "dfbd31449bfa",
-      "datetime": "2026-03-09T08:10:07Z",
-      "type": "interception",
-      "confirmed": true,
-      "precision": "country",
-      "title": "UAE air defence shoots down Iranian drone",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/3/9/uae-releases-video-of-iranian-drone-interception?traffic_source=rss",
-          "domain": "aljazeera.com",
-          "tier": "wire"
-        },
-        {
-          "url": "https://apnews.com/video/uae-releases-footage-showing-air-defenses-intercepting-and-destroying-drone-23275da8c04e4a98b2e9ee065cac7c85",
-          "domain": "apnews.com",
-          "tier": "wire"
-        }
-      ],
-      "confidence": "high",
-      "_via": "rss"
-    },
-    {
       "id": "02a157b95a75",
       "datetime": "2026-03-09T03:31:25Z",
       "type": "impact_minor",
@@ -166,6 +141,31 @@
         {
           "url": "https://www.hindustantimes.com/world-news/dubai-abu-dhabi-news-live-updates-uae-saudi-arabia-qatar-iran-us-israel-war-middle-east-airports-flights-latest-news-101773017353495.html",
           "domain": "hindustantimes.com",
+          "tier": "wire"
+        }
+      ],
+      "confidence": "high",
+      "_via": "rss"
+    },
+    {
+      "id": "dfbd31449bfa",
+      "datetime": "2026-03-09T08:10:07Z",
+      "type": "interception",
+      "confirmed": true,
+      "precision": "country",
+      "title": "UAE air defence shoots down Iranian drone",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/3/9/uae-releases-video-of-iranian-drone-interception?traffic_source=rss",
+          "domain": "aljazeera.com",
+          "tier": "wire"
+        },
+        {
+          "url": "https://apnews.com/video/uae-releases-footage-showing-air-defenses-intercepting-and-destroying-drone-23275da8c04e4a98b2e9ee065cac7c85",
+          "domain": "apnews.com",
           "tier": "wire"
         }
       ],
