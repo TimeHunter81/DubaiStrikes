@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-09T04:35:00Z",
+  "last_updated": "2026-03-09T04:48:09Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -65,7 +65,7 @@
       "id": "303a1fd3cd03",
       "datetime": "2026-03-08T12:27:39Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "Emergency alert in Abu Dhabi — active UAE air defence ops",
       "location": "Abu Dhabi",
