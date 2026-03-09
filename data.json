@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-09T20:27:00Z",
+  "last_updated": "2026-03-09T20:39:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -35,9 +35,7 @@
         }
       ],
       "confidence": "high",
-      "_via": "rss",
-      "_search_count": 3,
-      "_next_search_at": 1773148728.0
+      "_via": "rss"
     },
     {
       "id": "3b946ec34405",
@@ -122,9 +120,7 @@
         }
       ],
       "confidence": "high",
-      "_via": "rss",
-      "_search_count": 3,
-      "_next_search_at": 1773139293.0
+      "_via": "rss"
     },
     {
       "id": "dfbd31449bfa",
@@ -174,9 +170,7 @@
         }
       ],
       "confidence": "high",
-      "_via": "rss",
-      "_search_count": 3,
-      "_next_search_at": 1773113485.0
+      "_via": "rss"
     },
     {
       "id": "a1b2c3d4e5f6",
