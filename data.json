@@ -1,10 +1,10 @@
 {
-  "last_updated": "2026-03-09T11:22:10Z",
+  "last_updated": "2026-03-09T11:38:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
       "id": "dfbd31449bfa",
-      "datetime": "2026-03-09T08:10:54Z",
+      "datetime": "2026-03-09T08:10:07Z",
       "type": "interception",
       "confirmed": true,
       "precision": "country",
@@ -24,8 +24,8 @@
           "tier": "wire"
         }
       ],
-      "_via": "rss",
-      "confidence": "high"
+      "confidence": "high",
+      "_via": "rss"
     },
     {
       "id": "32dc8e8f8089",
