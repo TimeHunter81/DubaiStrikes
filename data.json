@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-09T02:27:00Z",
+  "last_updated": "2026-03-09T02:35:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -58,7 +58,7 @@
       "id": "0ed90e64b583",
       "datetime": "2026-03-08T08:02:57Z",
       "type": "impact_minor",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "city",
       "title": "Driver killed by missile debris in Dubai (Al Barsha)",
       "location": "Dubai (Al Barsha)",
