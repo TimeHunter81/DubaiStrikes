@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-09T12:25:38Z",
+  "last_updated": "2026-03-09T12:35:23Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -28,9 +28,9 @@
       "id": "f564a847c75e",
       "datetime": "2026-03-09T10:44:38Z",
       "type": "impact_minor",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "city",
-      "title": "Pakistan envoy visits expats injured in missile debris in Dubai",
+      "title": "Expats injured by missile debris in Dubai — Pakistani envoy visits",
       "location": "Dubai",
       "lat": 25.2048,
       "lon": 55.2708,
@@ -45,6 +45,26 @@
       "confidence": "low",
       "_search_count": 1,
       "_next_search_at": 1773056678.0
+    },
+    {
+      "id": "d740428c8076",
+      "datetime": "2026-03-09T10:41:33Z",
+      "type": "interception",
+      "confirmed": true,
+      "precision": "country",
+      "title": "New wave of Iranian missiles, drones target Gulf nations incl. UAE",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.aljazeera.com/news/2026/3/9/reprehensible-new-wave-of-iranian-missiles-drones-target-gulf-nations?traffic_source=rss",
+          "domain": "aljazeera.com",
+          "tier": "wire"
+        }
+      ],
+      "_via": "rss",
+      "confidence": "medium"
     },
     {
       "id": "dfbd31449bfa",
@@ -109,7 +129,7 @@
       "type": "impact_minor",
       "confirmed": true,
       "precision": "district",
-      "title": "Interception debris hits near Etihad Towers, Abu Dhabi - 2 injured",
+      "title": "Interception debris hits near Etihad Towers, Abu Dhabi — 2 injured",
       "location": "Abu Dhabi",
       "lat": 24.4621,
       "lon": 54.3173,
@@ -161,7 +181,7 @@
         }
       ],
       "_via": "rss",
-      "confidence": "low",
+      "confidence": "high",
       "_search_count": 1,
       "_next_search_at": 1773030685.0
     },
