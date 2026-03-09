@@ -1,37 +1,7 @@
 {
-  "last_updated": "2026-03-09T16:13:00Z",
+  "last_updated": "2026-03-09T16:29:51Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
-    {
-      "id": "da3e8fa8324f",
-      "datetime": "2026-03-09T13:41:12Z",
-      "type": "impact_minor",
-      "confirmed": true,
-      "precision": "district",
-      "title": "Interception debris hits tower in Dubai Marina",
-      "location": "Dubai Marina",
-      "lat": 25.0819,
-      "lon": 55.1367,
-      "sources": [
-        {
-          "url": "https://gulfnews.com/entertainment/bollywood-singer-shweta-subram-applauds-dubais-quick-action-following-debris-incident-at-marina-tower-1.500468584",
-          "domain": "gulfnews.com",
-          "tier": "local"
-        },
-        {
-          "url": "https://www.indiatoday.in/world/story/us-israel-iran-conflict-debris-from-intercepted-projectile-hits-dubai-marina-tower-2878859-2026-03-08",
-          "domain": "www.indiatoday.in",
-          "tier": "wire"
-        },
-        {
-          "url": "https://www.aa.com.tr/en/middle-east/debris-from-missile-interception-hits-tower-in-dubai-marina-officials-say/3854344",
-          "domain": "aa.com.tr",
-          "tier": "wire"
-        }
-      ],
-      "confidence": "high",
-      "_via": "rss"
-    },
     {
       "id": "3b946ec34405",
       "datetime": "2026-03-09T11:54:43Z",
@@ -60,13 +30,13 @@
     {
       "id": "f564a847c75e",
       "datetime": "2026-03-09T10:44:38Z",
-      "type": "impact_major",
-      "confirmed": true,
-      "precision": "district",
+      "type": "interception",
+      "confirmed": false,
+      "precision": "city",
       "title": "Debris from intercepted projectile kills 1 in Al-Barsha, Dubai",
-      "location": "Al-Barsha, Dubai",
-      "lat": 25.0975,
-      "lon": 55.2003,
+      "location": "Dubai",
+      "lat": 25.2048,
+      "lon": 55.2708,
       "sources": [
         {
           "url": "https://gulfnews.com/uae/pakistani-envoy-meets-victims-of-blatant-iranian-aggressio-1.500468398",
@@ -90,8 +60,8 @@
     {
       "id": "d740428c8076",
       "datetime": "2026-03-09T10:41:33Z",
-      "type": "interception",
-      "confirmed": true,
+      "type": "security_alert",
+      "confirmed": false,
       "precision": "country",
       "title": "New wave of Iranian missiles and drones target UAE",
       "location": "UAE",
@@ -143,80 +113,30 @@
       "_via": "rss"
     },
     {
-      "id": "32dc8e8f8089",
-      "datetime": "2026-03-09T07:57:17Z",
-      "type": "impact_minor",
-      "confirmed": true,
+      "id": "02a157b95a75",
+      "datetime": "2026-03-09T03:31:25Z",
+      "type": "impact_major",
+      "confirmed": false,
       "precision": "city",
-      "title": "Interception debris injures 6 in Abu Dhabi",
+      "title": "Two injured by falling debris in Abu Dhabi as UAE intercepts 12 missiles from…",
       "location": "Abu Dhabi",
       "lat": 24.4539,
       "lon": 54.3773,
       "sources": [
         {
-          "url": "https://gulfnews.com/uae/uae-air-defence-intercepts-threats-debris-injures-two-in-abu-dhabi-1.500468237",
-          "domain": "gulfnews.com",
-          "tier": "local"
-        },
-        {
-          "url": "https://www.hindustantimes.com/world-news/dubai-abu-dhabi-news-live-updates-uae-saudi-arabia-qatar-iran-us-israel-war-middle-east-airports-flights-latest-news-101773017353495.html",
-          "domain": "hindustantimes.com",
-          "tier": "wire"
-        },
-        {
-          "url": "https://www.thenationalnews.com/news/uae/2026/03/05/six-injured-in-abu-dhabi-by-debris-after-drones-intercepted/",
-          "domain": "thenationalnews.com",
-          "tier": "local"
-        },
-        {
-          "url": "https://www.gulftoday.ae/news/2026/03/09/abu-dhabi-deals-with-2-incidents-of-falling-debris-following-successful-interception",
-          "domain": "gulftoday.ae",
-          "tier": "wire"
-        }
-      ],
-      "confidence": "high",
-      "_via": "rss"
-    },
-    {
-      "id": "05913b7e7608",
-      "datetime": "2026-03-09T03:31:25Z",
-      "type": "impact_minor",
-      "confirmed": true,
-      "precision": "district",
-      "title": "Debris hits near Etihad Towers, Abu Dhabi — 2 injured",
-      "location": "Abu Dhabi",
-      "lat": 24.4621,
-      "lon": 54.3173,
-      "sources": [
-        {
           "url": "https://www.thenationalnews.com/news/uae/2026/03/09/missile-threat-alert-issued-as-loud-bangs-heard-in-abu-dhabi/",
           "domain": "thenationalnews.com",
           "tier": "local"
-        },
-        {
-          "url": "https://www.hindustantimes.com/world-news/dubai-abu-dhabi-news-live-updates-uae-saudi-arabia-qatar-iran-us-israel-war-middle-east-airports-flights-latest-news-101773017353495.html",
-          "domain": "hindustantimes.com",
-          "tier": "wire"
-        },
-        {
-          "url": "https://timesofindia.indiatimes.com/world/middle-east/uae-intercepts-drone-debris-injures-civilians-as-it-hits-etihad-towers-in-abu-dhabi-amid-iranusisrael-conflict/articleshow/128932729.cms",
-          "domain": "timesofindia.indiatimes.com",
-          "tier": "wire"
-        },
-        {
-          "url": "https://www.bbc.com/news/live/cz0g2yg3579t",
-          "domain": "bbc.com",
-          "tier": "wire"
         }
       ],
-      "confidence": "high",
-      "_via": "rss"
+      "_via": "rss",
+      "confidence": "low"
     },
     {
       "id": "adda2d3e926b",
       "datetime": "2026-03-09T03:29:23Z",
       "type": "security_alert",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "city",
       "title": "Missile alert: loud bangs heard over Abu Dhabi",
       "location": "Abu Dhabi",
@@ -245,7 +165,7 @@
     {
       "id": "c3c448fdfe34",
       "datetime": "2026-03-09T03:22:20Z",
-      "type": "interception",
+      "type": "security_alert",
       "confirmed": true,
       "precision": "country",
       "title": "UAE air defences engage incoming Iranian missile",
