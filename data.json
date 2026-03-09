@@ -1,7 +1,72 @@
 {
-  "last_updated": "2026-03-09T14:11:08Z",
+  "last_updated": "2026-03-09T14:15:02Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
+    {
+      "id": "c0001051fe81",
+      "datetime": "2026-03-09T14:14:48Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "Analysis : Trump Iran war drags the world into his tear - it - down politics",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://us.cnn.com/2026/03/09/politics/trump-iran-israel-europe-gulf-allies-analysis",
+          "domain": "us.cnn.com",
+          "tier": "unverified"
+        },
+        {
+          "url": "https://www.cnn.com/2026/03/09/politics/trump-iran-israel-europe-gulf-allies-analysis",
+          "domain": "cnn.com",
+          "tier": "unverified"
+        }
+      ],
+      "confidence": "low",
+      "_via": "gdelt"
+    },
+    {
+      "id": "85507b6f42a1",
+      "datetime": "2026-03-09T14:08:29Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "Gulf states turn to private foreign military specialists amid Iran attacks",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.middleeasteye.net/news/gulf-states-turn-private-foreign-military-specialists-amid-iran-attacks",
+          "domain": "middleeasteye.net",
+          "tier": "local"
+        }
+      ],
+      "_via": "rss",
+      "confidence": "low"
+    },
+    {
+      "id": "55b5bca31b77",
+      "datetime": "2026-03-09T13:56:38Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "Qatar intercepts 17 ballistic missiles",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/qatar-intercepts-17-ballistic-missiles",
+          "domain": "middleeasteye.net",
+          "tier": "local"
+        }
+      ],
+      "_via": "rss",
+      "confidence": "low"
+    },
     {
       "id": "7a5e068491f0",
       "datetime": "2026-03-09T13:41:12Z",
@@ -25,9 +90,29 @@
         }
       ],
       "_via": "rss",
-      "confidence": "low",
+      "confidence": "high",
       "_search_count": 1,
       "_next_search_at": 1773067272.0
+    },
+    {
+      "id": "c1c891ef6663",
+      "datetime": "2026-03-09T13:37:49Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "city",
+      "title": "UAE billionaire Habtoor rebukes Lindsey Graham's call for Gulf to join war",
+      "location": "Uae",
+      "lat": 24.5,
+      "lon": 54.5,
+      "sources": [
+        {
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/uae-billionaire-habtoor-rebukes-lindsey-grahams-call-gulf-join-war",
+          "domain": "middleeasteye.net",
+          "tier": "local"
+        }
+      ],
+      "_via": "rss",
+      "confidence": "low"
     },
     {
       "id": "4aadee030d27",
@@ -114,7 +199,7 @@
         }
       ],
       "_via": "rss",
-      "confidence": "low",
+      "confidence": "high",
       "_search_count": 1,
       "_next_search_at": 1773066953.0
     },
@@ -139,6 +224,26 @@
       "confidence": "low",
       "_search_count": 1,
       "_next_search_at": 1773066605.0
+    },
+    {
+      "id": "19333be5d734",
+      "datetime": "2026-03-09T13:26:24Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "Hezbollah pledges allegiance to new Iran supreme leader",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/hezbollah-pledges-allegiance-new-iran-supreme-leader",
+          "domain": "middleeasteye.net",
+          "tier": "local"
+        }
+      ],
+      "_via": "rss",
+      "confidence": "low"
     },
     {
       "id": "8dc978790a6c",
@@ -239,6 +344,26 @@
       ],
       "_via": "rss",
       "confidence": "medium"
+    },
+    {
+      "id": "82ed7f9836c5",
+      "datetime": "2026-03-09T13:02:32Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "Israeli strikes in southern Lebanon kill 16, health ministry says",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-strikes-southern-lebanon-kill-16-health-ministry-says",
+          "domain": "middleeasteye.net",
+          "tier": "local"
+        }
+      ],
+      "_via": "rss",
+      "confidence": "low"
     },
     {
       "id": "6dfb582a4a8b",
@@ -461,6 +586,26 @@
       "confidence": "low"
     },
     {
+      "id": "2f040453a3b8",
+      "datetime": "2026-03-09T12:04:00Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "Turkey says Nato defences intercepted missile in its airspace",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/turkey-says-nato-defences-intercepted-missile-its-airspace",
+          "domain": "middleeasteye.net",
+          "tier": "local"
+        }
+      ],
+      "_via": "rss",
+      "confidence": "low"
+    },
+    {
       "id": "8cac061ef902",
       "datetime": "2026-03-09T12:00:22Z",
       "type": "security_alert",
@@ -568,6 +713,26 @@
       "confidence": "low"
     },
     {
+      "id": "dc7764b292d1",
+      "datetime": "2026-03-09T11:47:29Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "Video: Crowds in Tehran cheered announcement of a new supreme leader in Iran",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/video-crowds-tehran-cheered-announcement-new-supreme-leader-iran",
+          "domain": "middleeasteye.net",
+          "tier": "local"
+        }
+      ],
+      "_via": "rss",
+      "confidence": "low"
+    },
+    {
       "id": "c026a91d3223",
       "datetime": "2026-03-09T11:43:17Z",
       "type": "security_alert",
@@ -581,6 +746,26 @@
         {
           "url": "https://gulfnews.com/uae/several-expats-fly-home-from-sharjah-in-humanitarian-mission-1.500468486",
           "domain": "gulfnews.com",
+          "tier": "local"
+        }
+      ],
+      "_via": "rss",
+      "confidence": "low"
+    },
+    {
+      "id": "7f1f62818485",
+      "datetime": "2026-03-09T11:38:51Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "Iran says it shot down three drones over Bushehr and Tehran",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-says-it-shot-down-three-drones-over-bushehr-and-tehran",
+          "domain": "middleeasteye.net",
           "tier": "local"
         }
       ],
@@ -602,6 +787,31 @@
           "url": "https://www.aljazeera.com/video/newsfeed/2026/3/9/bahrain-king-calls-iranian-attacks-unjustifiable?traffic_source=rss",
           "domain": "aljazeera.com",
           "tier": "wire"
+        }
+      ],
+      "_via": "rss",
+      "confidence": "medium"
+    },
+    {
+      "id": "22fbd187e92b",
+      "datetime": "2026-03-09T11:33:06Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "Lindsey Graham criticises Israel over targeting Iranian oil facilities",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/lindsey-graham-criticises-israel-over-targeting-iranian-oil-facilities",
+          "domain": "middleeasteye.net",
+          "tier": "local"
+        },
+        {
+          "url": "https://www.middleeasteye.net/news/lindsey-graham-criticises-israel-over-targeting-iranian-oil-facilities",
+          "domain": "middleeasteye.net",
+          "tier": "local"
         }
       ],
       "_via": "rss",
@@ -646,6 +856,26 @@
       ],
       "_via": "rss",
       "confidence": "medium"
+    },
+    {
+      "id": "616bae69961f",
+      "datetime": "2026-03-09T10:58:41Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "Starmer calls Trump in bid to mend fraught ties over Iran war",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.middleeasteye.net/news/starmer-calls-trump-bid-mend-fraught-ties-over-iran-war",
+          "domain": "middleeasteye.net",
+          "tier": "local"
+        }
+      ],
+      "_via": "rss",
+      "confidence": "low"
     },
     {
       "id": "e0b9e28aa188",
@@ -1876,226 +2106,6 @@
       ],
       "_via": "rss",
       "confidence": "medium"
-    },
-    {
-      "id": "e35b9e1270e8",
-      "datetime": "2026-03-08T14:52:37Z",
-      "type": "security_alert",
-      "confirmed": false,
-      "precision": "city",
-      "title": "Any defensive measures by UAE against Iran will be made 'public and clear', says senior official",
-      "location": "Uae",
-      "lat": 24.5,
-      "lon": 54.5,
-      "sources": [
-        {
-          "url": "https://www.thenationalnews.com/news/uae/2026/03/08/any-defensive-measures-by-uae-against-iran-will-be-made-public-and-clear-says-senior-official/",
-          "domain": "thenationalnews.com",
-          "tier": "local"
-        }
-      ],
-      "_via": "rss",
-      "confidence": "low"
-    },
-    {
-      "id": "4841b230fb53",
-      "datetime": "2026-03-08T14:00:22Z",
-      "type": "security_alert",
-      "confirmed": true,
-      "precision": "country",
-      "title": "Opportunities, perils and pitfalls: how UK parties have responded to war in Iran",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.theguardian.com/world/2026/mar/08/politics-parties-britain-voters-iran",
-          "domain": "theguardian.com",
-          "tier": "wire"
-        }
-      ],
-      "_via": "rss",
-      "confidence": "medium"
-    },
-    {
-      "id": "b0f5b41ed885",
-      "datetime": "2026-03-08T13:37:14Z",
-      "type": "security_alert",
-      "confirmed": false,
-      "precision": "city",
-      "title": "'We are family': Emirati official hails UAE public for strength in adversity as Iran strikes continue",
-      "location": "Uae",
-      "lat": 24.5,
-      "lon": 54.5,
-      "sources": [
-        {
-          "url": "https://www.thenationalnews.com/news/uae/2026/03/08/we-are-family-emirati-official-hails-uae-public-for-strength-in-adversity-as-iran-strikes-continue/",
-          "domain": "thenationalnews.com",
-          "tier": "local"
-        }
-      ],
-      "_via": "rss",
-      "confidence": "low"
-    },
-    {
-      "id": "bf8bb18ddc01",
-      "datetime": "2026-03-08T12:58:48Z",
-      "type": "security_alert",
-      "confirmed": false,
-      "precision": "city",
-      "title": "Not just staying: Indian expats in UAE serve communities, stand by second home amid Iranian aggression",
-      "location": "Uae",
-      "lat": 24.5,
-      "lon": 54.5,
-      "sources": [
-        {
-          "url": "https://gulfnews.com/uae/not-just-staying-indian-expats-in-uae-serve-communities-stand-by-second-home-amid-iranian-aggression-1.500467517",
-          "domain": "gulfnews.com",
-          "tier": "local"
-        }
-      ],
-      "_via": "rss",
-      "confidence": "low"
-    },
-    {
-      "id": "d0301d1914d9",
-      "datetime": "2026-03-08T12:00:20Z",
-      "type": "security_alert",
-      "confirmed": true,
-      "precision": "country",
-      "title": "The first lesson of war is ‘know your enemy’ – and Britain’s enemy now is Donald Trump | Simon Tisdall",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.theguardian.com/commentisfree/2026/mar/08/iran-war-keir-starmer-donald-trump-us-israel",
-          "domain": "theguardian.com",
-          "tier": "wire"
-        }
-      ],
-      "_via": "rss",
-      "confidence": "medium"
-    },
-    {
-      "id": "69fb298aeb21",
-      "datetime": "2026-03-08T11:00:19Z",
-      "type": "security_alert",
-      "confirmed": true,
-      "precision": "country",
-      "title": "‘End of an era’: death of Khamenei seen as Iran’s Berlin Wall moment",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.theguardian.com/world/2026/mar/08/death-of-khamenei-seen-as-irans-berlin-wall-moment",
-          "domain": "theguardian.com",
-          "tier": "wire"
-        }
-      ],
-      "_via": "rss",
-      "confidence": "medium"
-    },
-    {
-      "id": "616099c22d56",
-      "datetime": "2026-03-08T09:06:13Z",
-      "type": "security_alert",
-      "confirmed": true,
-      "precision": "country",
-      "title": "Kuwaiti government high-rise hit by Iranian drone",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.bbc.com/news/videos/c9wnex8g5dyo?at_medium=RSS&amp;at_campaign=rss",
-          "domain": "bbc.com",
-          "tier": "wire"
-        }
-      ],
-      "_via": "rss",
-      "confidence": "medium"
-    },
-    {
-      "id": "d8afc674ce17",
-      "datetime": "2026-03-08T08:22:17Z",
-      "type": "security_alert",
-      "confirmed": false,
-      "precision": "country",
-      "title": "'We're not safe anywhere': Israeli army expands attacks to central Beirut",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.thenationalnews.com/news/mena/2026/03/08/israel-strikes-central-beirut-for-the-first-time/",
-          "domain": "thenationalnews.com",
-          "tier": "local"
-        }
-      ],
-      "_via": "rss",
-      "confidence": "low"
-    },
-    {
-      "id": "394b039725d6",
-      "datetime": "2026-03-08T07:29:05Z",
-      "type": "security_alert",
-      "confirmed": false,
-      "precision": "city",
-      "title": "Defiance, patriotism and support for Iranian players as Shabab Al Ahli return to action in Dubai",
-      "location": "Dubai",
-      "lat": 25.2048,
-      "lon": 55.2708,
-      "sources": [
-        {
-          "url": "https://www.thenationalnews.com/sport/football/2026/03/08/iran-shabab-al-ahli/",
-          "domain": "thenationalnews.com",
-          "tier": "local"
-        }
-      ],
-      "_via": "rss",
-      "confidence": "low"
-    },
-    {
-      "id": "930fd0403ff4",
-      "datetime": "2026-03-08T06:25:37Z",
-      "type": "security_alert",
-      "confirmed": false,
-      "precision": "city",
-      "title": "UAE 'in state of defence' in response to Iran's 'brutal and unprovoked' attacks",
-      "location": "Uae",
-      "lat": 24.5,
-      "lon": 54.5,
-      "sources": [
-        {
-          "url": "https://www.thenationalnews.com/news/uae/2026/03/08/abu-dhabi-residents-urged-to-shelter-as-uae-faces-further-iran-strikes/",
-          "domain": "thenationalnews.com",
-          "tier": "local"
-        }
-      ],
-      "_via": "rss",
-      "confidence": "low"
-    },
-    {
-      "id": "15201967e940",
-      "datetime": "2026-03-08T06:18:49Z",
-      "type": "security_alert",
-      "confirmed": false,
-      "precision": "city",
-      "title": "'It was an honour': Tadej Pogacar salutes UAE teammates after historic Strade Bianche triumph",
-      "location": "Uae",
-      "lat": 24.5,
-      "lon": 54.5,
-      "sources": [
-        {
-          "url": "https://www.thenationalnews.com/sport/cycling/2026/03/08/it-was-an-honour-tadej-pogacar-salutes-uae-teammates-after-historic-strade-bianche-triumph/",
-          "domain": "thenationalnews.com",
-          "tier": "local"
-        }
-      ],
-      "_via": "rss",
-      "confidence": "low"
     },
     {
       "id": "a1b2c3d4e5f6",
