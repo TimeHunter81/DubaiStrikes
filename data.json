@@ -1,7 +1,67 @@
 {
-  "last_updated": "2026-03-09T15:25:49Z",
+  "last_updated": "2026-03-09T15:29:24Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
+    {
+      "id": "518b38604008",
+      "datetime": "2026-03-09T15:24:34Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "Ukraine sends drone experts to protect U.S. military bases in Jordan",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://meduza.io/en/news/2026/03/09/ukraine-sends-drone-experts-to-protect-u-s-military-bases-in-jordan",
+          "domain": "meduza.io",
+          "tier": "local"
+        }
+      ],
+      "_via": "rss",
+      "confidence": "low"
+    },
+    {
+      "id": "25a5e31253c7",
+      "datetime": "2026-03-09T15:20:05Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "city",
+      "title": "Sri Lanka call off Afghanistan series in UAE due to tensions in Middle East",
+      "location": "Uae",
+      "lat": 24.5,
+      "lon": 54.5,
+      "sources": [
+        {
+          "url": "https://gulfnews.com/sport/cricket/sri-lanka-call-off-afghanistan-series-in-uae-due-to-tensions-in-middle-east-1.500468760",
+          "domain": "gulfnews.com",
+          "tier": "local"
+        }
+      ],
+      "_via": "rss",
+      "confidence": "low"
+    },
+    {
+      "id": "347f1f401c61",
+      "datetime": "2026-03-09T15:18:08Z",
+      "type": "security_alert",
+      "confirmed": true,
+      "precision": "country",
+      "title": "Iran’s authorities showcase continuity as they back new leader during war",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.aljazeera.com/news/2026/3/9/irans-authorities-showcase-continuity-as-they-back-new-leader-during-war?traffic_source=rss",
+          "domain": "aljazeera.com",
+          "tier": "wire"
+        }
+      ],
+      "_via": "rss",
+      "confidence": "medium"
+    },
     {
       "id": "bac0633fdc2c",
       "datetime": "2026-03-09T15:08:20Z",
@@ -52,7 +112,7 @@
         }
       ],
       "_via": "rss",
-      "confidence": "low",
+      "confidence": "high",
       "_search_count": 1,
       "_next_search_at": 1773072000.0
     },
@@ -106,7 +166,7 @@
         }
       ],
       "_via": "rss",
-      "confidence": "low",
+      "confidence": "high",
       "_search_count": 1,
       "_next_search_at": 1773070912.0
     },
@@ -2067,66 +2127,6 @@
       ],
       "_via": "rss",
       "confidence": "medium"
-    },
-    {
-      "id": "68c98c02ec92",
-      "datetime": "2026-03-08T17:40:05Z",
-      "type": "security_alert",
-      "confirmed": true,
-      "precision": "country",
-      "title": "‘Dark, like our future’: Iranians describe scenes of catastrophe after Tehran’s oil depots bombed",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.theguardian.com/world/2026/mar/08/dark-like-our-future-iranians-describe-scenes-of-catastrophe-after-tehrans-oil-depots-bombed",
-          "domain": "theguardian.com",
-          "tier": "wire"
-        }
-      ],
-      "_via": "rss",
-      "confidence": "medium"
-    },
-    {
-      "id": "a809a8561c10",
-      "datetime": "2026-03-08T17:39:31Z",
-      "type": "security_alert",
-      "confirmed": true,
-      "precision": "country",
-      "title": "Iran threatens retaliatory attacks on oil facilities across Gulf after Israeli strikes",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.theguardian.com/world/2026/mar/08/iran-new-supreme-leader-selected-says-deciding-body",
-          "domain": "theguardian.com",
-          "tier": "wire"
-        }
-      ],
-      "_via": "rss",
-      "confidence": "medium"
-    },
-    {
-      "id": "73683360a50d",
-      "datetime": "2026-03-08T17:14:34Z",
-      "type": "security_alert",
-      "confirmed": false,
-      "precision": "country",
-      "title": "Iran's Foreign Minister rejects unconditional ceasefire and vows to fight until war ends",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.thenationalnews.com/news/us/2026/03/08/irans-foreign-minister-rejects-unconditional-ceasefire-and-vows-to-fight-until-war-ends/",
-          "domain": "thenationalnews.com",
-          "tier": "local"
-        }
-      ],
-      "_via": "rss",
-      "confidence": "low"
     },
     {
       "id": "a1b2c3d4e5f6",
