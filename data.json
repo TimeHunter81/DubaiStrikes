@@ -6,7 +6,7 @@
       "id": "518b38604008",
       "datetime": "2026-03-09T15:24:34Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "Ukraine sends drone experts to protect U.S. military bases in Jordan",
       "location": "UAE",
@@ -17,16 +17,23 @@
           "url": "https://meduza.io/en/news/2026/03/09/ukraine-sends-drone-experts-to-protect-u-s-military-bases-in-jordan",
           "domain": "meduza.io",
           "tier": "local"
+        },
+        {
+          "url": "https://www.reuters.com/world/ukraine-sent-drone-experts-protect-us-bases-jordan-zelenskiy-tells-nyt-2026-03-09/",
+          "domain": "reuters.com",
+          "tier": "wire"
         }
       ],
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1773073474.0
     },
     {
       "id": "25a5e31253c7",
       "datetime": "2026-03-09T15:20:05Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "Sri Lanka call off Afghanistan series in UAE due to tensions in Middle East",
       "location": "Uae",
@@ -37,10 +44,17 @@
           "url": "https://gulfnews.com/sport/cricket/sri-lanka-call-off-afghanistan-series-in-uae-due-to-tensions-in-middle-east-1.500468760",
           "domain": "gulfnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://crex.com/cricket-news/sri-lanka-cancel-afghanistan-series-after-acbs-squad-announcement-69abf84e530508858f4542e6",
+          "domain": "crex.com",
+          "tier": "wire"
         }
       ],
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1773073205.0
     },
     {
       "id": "347f1f401c61",
@@ -174,7 +188,7 @@
       "id": "b83d50ca64a5",
       "datetime": "2026-03-09T14:40:32Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "Putin congratulates Iran’s new supreme leader and reaffirms Russia’s ‘unwavering support’ for Tehran",
       "location": "UAE",
@@ -188,7 +202,9 @@
         }
       ],
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1773070832.0
     },
     {
       "id": "9051f3acdc27",
@@ -234,7 +250,7 @@
       "id": "175fd4a41347",
       "datetime": "2026-03-09T14:28:12Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "Two members of UAE Armed Forces killed in helicopter crash caused by technical malfunction",
       "location": "Uae",
@@ -245,10 +261,17 @@
           "url": "https://www.thenationalnews.com/news/uae/2026/03/09/two-members-of-uae-armed-forces-killed-in-helicopter-crash-caused-by-technical-malfunction/",
           "domain": "thenationalnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://www.reuters.com/world/middle-east/two-members-uae-armed-forces-killed-helicopter-crash-ministry-says-2026-03-09/",
+          "domain": "reuters.com",
+          "tier": "wire"
         }
       ],
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1773070092.0
     },
     {
       "id": "85507b6f42a1",
