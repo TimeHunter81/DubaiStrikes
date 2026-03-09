@@ -6,7 +6,7 @@
       "id": "adda2d3e926b",
       "datetime": "2026-03-09T03:31:25Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "Missile threat alert issued as loud bangs heard in Abu Dhabi",
       "location": "Abu Dhabi",
@@ -17,10 +17,17 @@
           "url": "https://www.thenationalnews.com/news/uae/2026/03/09/missile-threat-alert-issued-as-loud-bangs-heard-in-abu-dhabi/",
           "domain": "thenationalnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://www.osac.gov/Country/UnitedArabEmirates/Content/Detail/Report/b09f0825-66b7-41d4-906f-1d9bf5277853",
+          "domain": "osac.gov",
+          "tier": "wire"
         }
       ],
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1773030685.0
     },
     {
       "id": "c3c448fdfe34",
