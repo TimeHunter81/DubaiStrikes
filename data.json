@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-03-09T05:28:27Z",
+  "last_updated": "2026-03-09T05:36:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
       "id": "adda2d3e926b",
       "datetime": "2026-03-09T03:29:23Z",
       "type": "interception",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "Missile alert: loud bangs heard in Abu Dhabi",
       "location": "Abu Dhabi",
@@ -241,7 +241,7 @@
       "datetime": "2026-03-07T09:25:28Z",
       "type": "impact_minor",
       "confirmed": true,
-      "precision": "exact",
+      "precision": "city",
       "title": "Drone strike near Dubai International Airport",
       "location": "Dubai",
       "lat": 25.2528,
