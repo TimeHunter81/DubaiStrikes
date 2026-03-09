@@ -145,7 +145,7 @@
       "id": "02a157b95a75",
       "datetime": "2026-03-09T03:31:25Z",
       "type": "impact_minor",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "2 injured by debris in Abu Dhabi as UAE intercepts Iranian missiles",
       "location": "Abu Dhabi",
@@ -165,8 +165,8 @@
       ],
       "confidence": "high",
       "_via": "rss",
-      "_search_count": 2,
-      "_next_search_at": 1773048685.0
+      "_search_count": 3,
+      "_next_search_at": 1773113485.0
     },
     {
       "id": "adda2d3e926b",
