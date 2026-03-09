@@ -6,7 +6,7 @@
       "id": "bac0633fdc2c",
       "datetime": "2026-03-09T15:08:20Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "Iran security chief says Strait of Hormuz unsafe as long as war goes on",
       "location": "UAE",
@@ -17,16 +17,23 @@
           "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-security-chief-says-strait-hormuz-unsafe-long-war-goes",
           "domain": "middleeasteye.net",
           "tier": "local"
+        },
+        {
+          "url": "https://www.thehindu.com/news/international/israel-iran-war-live-march-9-2026-mojtaba-khamenei-chosen-as-next-supreme-leader-missiles-fired-world-news-updates/article70720987.ece",
+          "domain": "thehindu.com",
+          "tier": "wire"
         }
       ],
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1773072500.0
     },
     {
       "id": "1c8647743caf",
       "datetime": "2026-03-09T15:00:00Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "'Not our war': Iraqis voice anger as pro-Iran militias drag country into US-Israeli conflict",
       "location": "UAE",
@@ -37,16 +44,23 @@
           "url": "https://www.thenationalnews.com/news/mena/2026/03/09/not-our-war-iraqis-voice-anger-as-pro-iran-militias-drag-country-into-us-israel-conflict/",
           "domain": "thenationalnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://acleddata.com/update/middle-east-special-issue-march-2026",
+          "domain": "acleddata.com",
+          "tier": "wire"
         }
       ],
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1773072000.0
     },
     {
       "id": "e1c55d13651f",
       "datetime": "2026-03-09T14:42:17Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "UAE tycoon rules out Abu Dhabi joining Iran war in scathing attack on US",
       "location": "Abu Dhabi",
@@ -57,16 +71,23 @@
           "url": "https://www.middleeasteye.net/news/uae-tycoon-rules-out-joining-iran-war-and-launches-scathing-attack-us",
           "domain": "middleeasteye.net",
           "tier": "local"
+        },
+        {
+          "url": "https://www.euronews.com/2026/03/08/inside-the-uaes-response-to-iranian-attacks-a-senior-official-speaks",
+          "domain": "euronews.com",
+          "tier": "wire"
         }
       ],
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1773070937.0
     },
     {
       "id": "ed325968abc4",
       "datetime": "2026-03-09T14:41:52Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "Apache, Merlin, Wildcats: The drone-destroying helicopters shooting down Iran’s arsenal",
       "location": "UAE",
@@ -77,10 +98,17 @@
           "url": "https://www.thenationalnews.com/news/mena/2026/03/09/apache-merlin-wildcats-the-drone-destroying-helicopters-shooting-down-irans-arsenal/",
           "domain": "thenationalnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://theaviationist.com/2026/03/07/uk-typhoons-wildcats-merlin-deployed-east/",
+          "domain": "theaviationist.com",
+          "tier": "wire"
         }
       ],
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1773070912.0
     },
     {
       "id": "b83d50ca64a5",
