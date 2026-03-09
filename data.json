@@ -195,7 +195,7 @@
       "id": "1e351667a92a",
       "datetime": "2026-03-07T06:25:40Z",
       "type": "impact_minor",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "Motorist killed by falling debris after interception in Dubai",
       "location": "Dubai",
@@ -208,7 +208,9 @@
           "tier": "local"
         }
       ],
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1772868340.0
     },
     {
       "id": "g1h2i3j4k5l6",
