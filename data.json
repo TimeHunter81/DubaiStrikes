@@ -1,7 +1,32 @@
 {
-  "last_updated": "2026-03-09T15:29:24Z",
+  "last_updated": "2026-03-09T15:54:07Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
+    {
+      "id": "c0001051fe81",
+      "datetime": "2026-03-09T15:53:51Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "Analysis : Trump Iran war drags the world into his tear - it - down politics",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://us.cnn.com/2026/03/09/politics/trump-iran-israel-europe-gulf-allies-analysis",
+          "domain": "us.cnn.com",
+          "tier": "unverified"
+        },
+        {
+          "url": "https://www.cnn.com/2026/03/09/politics/trump-iran-israel-europe-gulf-allies-analysis",
+          "domain": "cnn.com",
+          "tier": "unverified"
+        }
+      ],
+      "confidence": "low",
+      "_via": "gdelt"
+    },
     {
       "id": "518b38604008",
       "datetime": "2026-03-09T15:24:34Z",
@@ -25,7 +50,7 @@
         }
       ],
       "_via": "rss",
-      "confidence": "low",
+      "confidence": "high",
       "_search_count": 1,
       "_next_search_at": 1773073474.0
     },
@@ -52,7 +77,7 @@
         }
       ],
       "_via": "rss",
-      "confidence": "low",
+      "confidence": "high",
       "_search_count": 1,
       "_next_search_at": 1773073205.0
     },
@@ -274,6 +299,46 @@
       "_next_search_at": 1773070092.0
     },
     {
+      "id": "224814f04d09",
+      "datetime": "2026-03-09T14:28:12Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "city",
+      "title": "Two members of UAE Armed Forces 'martyred' in helicopter crash caused by technical malfunction",
+      "location": "Uae",
+      "lat": 24.5,
+      "lon": 54.5,
+      "sources": [
+        {
+          "url": "https://www.thenationalnews.com/news/uae/2026/03/09/two-members-of-uae-armed-forces-killed-in-helicopter-crash-caused-by-technical-malfunction/",
+          "domain": "thenationalnews.com",
+          "tier": "local"
+        }
+      ],
+      "_via": "rss",
+      "confidence": "low"
+    },
+    {
+      "id": "34a404cf45af",
+      "datetime": "2026-03-09T14:27:35Z",
+      "type": "security_alert",
+      "confirmed": true,
+      "precision": "country",
+      "title": "Iranians deeply divided over Mojtaba Khamenei's rise to power",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.bbc.com/news/articles/cwy8ldyp2zwo?at_medium=RSS&amp;at_campaign=rss",
+          "domain": "bbc.com",
+          "tier": "wire"
+        }
+      ],
+      "_via": "rss",
+      "confidence": "medium"
+    },
+    {
       "id": "85507b6f42a1",
       "datetime": "2026-03-09T14:21:11Z",
       "type": "security_alert",
@@ -337,6 +402,26 @@
       ],
       "_via": "rss",
       "confidence": "low"
+    },
+    {
+      "id": "2388ddb4fce1",
+      "datetime": "2026-03-09T14:09:05Z",
+      "type": "security_alert",
+      "confirmed": true,
+      "precision": "country",
+      "title": "US missile hit military base near Iran school, video analysis shows",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.bbc.com/news/articles/cvg548lyjnyo?at_medium=RSS&amp;at_campaign=rss",
+          "domain": "bbc.com",
+          "tier": "wire"
+        }
+      ],
+      "_via": "rss",
+      "confidence": "medium"
     },
     {
       "id": "31781eba38b4",
@@ -1662,6 +1747,26 @@
       "confidence": "low"
     },
     {
+      "id": "c7cb6ec8cc45",
+      "datetime": "2026-03-09T07:24:09Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "Five Iranian footballers 'defect' from women's team in Australia as Trump offers asylum",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.thenationalnews.com/sport/football/2026/03/09/australia-urged-to-offer-iran-womens-team-refuge-amid-fears-of-backlash-after-refusing-to-sing-anthem/",
+          "domain": "thenationalnews.com",
+          "tier": "local"
+        }
+      ],
+      "_via": "rss",
+      "confidence": "low"
+    },
+    {
       "id": "14773767737c",
       "datetime": "2026-03-09T07:12:17Z",
       "type": "security_alert",
@@ -2050,106 +2155,6 @@
       ],
       "_via": "rss",
       "confidence": "low"
-    },
-    {
-      "id": "d1e47a91c4c8",
-      "datetime": "2026-03-08T20:51:48Z",
-      "type": "security_alert",
-      "confirmed": true,
-      "precision": "country",
-      "title": "Who is Mojtaba Khamenei, Iran's new supreme leader?",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.bbc.com/news/articles/c78xxg05w0zo?at_medium=RSS&amp;at_campaign=rss",
-          "domain": "bbc.com",
-          "tier": "wire"
-        }
-      ],
-      "_via": "rss",
-      "confidence": "medium"
-    },
-    {
-      "id": "fe3e322ccc19",
-      "datetime": "2026-03-08T18:47:58Z",
-      "type": "security_alert",
-      "confirmed": true,
-      "precision": "country",
-      "title": "Israelis kill three in West Bank village as violence surges across occupied Palestine",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.theguardian.com/world/2026/mar/08/israeli-settlers-idf-soldiers-kill-palestinians-west-bank",
-          "domain": "theguardian.com",
-          "tier": "wire"
-        }
-      ],
-      "_via": "rss",
-      "confidence": "medium"
-    },
-    {
-      "id": "3300189d122e",
-      "datetime": "2026-03-08T18:20:36Z",
-      "type": "security_alert",
-      "confirmed": true,
-      "precision": "country",
-      "title": "Appointing a new leader is the least of Iran’s troubles",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.theguardian.com/world/2026/mar/08/appointing-a-new-leader-is-the-least-of-irans-troubles",
-          "domain": "theguardian.com",
-          "tier": "wire"
-        }
-      ],
-      "_via": "rss",
-      "confidence": "medium"
-    },
-    {
-      "id": "35786aec93b5",
-      "datetime": "2026-03-08T17:55:26Z",
-      "type": "security_alert",
-      "confirmed": false,
-      "precision": "country",
-      "title": "Arab foreign ministers condemn Iran's attacks on neighbours",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.thenationalnews.com/news/mena/2026/03/08/arab-foreign-ministers-condemn-irans-attacks-on-neighbours-and-assert-their-right-to-self-defence/",
-          "domain": "thenationalnews.com",
-          "tier": "local"
-        }
-      ],
-      "_via": "rss",
-      "confidence": "low"
-    },
-    {
-      "id": "fc747be43990",
-      "datetime": "2026-03-08T17:47:02Z",
-      "type": "security_alert",
-      "confirmed": true,
-      "precision": "country",
-      "title": "Ella Baron on Trump and Netanyahu’s war on Iran – cartoon",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.theguardian.com/commentisfree/picture/2026/mar/08/ella-baron-presidents-new-clothes-donald-trump-us-israel-war-on-iran-cartoon",
-          "domain": "theguardian.com",
-          "tier": "wire"
-        }
-      ],
-      "_via": "rss",
-      "confidence": "medium"
     },
     {
       "id": "a1b2c3d4e5f6",
