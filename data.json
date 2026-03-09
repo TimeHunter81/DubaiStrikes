@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-09T22:43:00Z",
+  "last_updated": "2026-03-09T22:55:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -8,7 +8,7 @@
       "type": "impact_minor",
       "confirmed": true,
       "precision": "neighborhood",
-      "title": "Missile interception debris strikes Marina Tower, Dubai Marina",
+      "title": "Interception debris strikes Marina Tower, Dubai Marina",
       "location": "Dubai Marina",
       "lat": 25.0819,
       "lon": 55.1367,
