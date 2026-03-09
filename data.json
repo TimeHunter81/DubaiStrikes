@@ -6,7 +6,7 @@
       "id": "7a5e068491f0",
       "datetime": "2026-03-09T13:41:12Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "What to do if travel plans are affected by regional conflict and UAE school holiday changes",
       "location": "Uae",
@@ -17,10 +17,17 @@
           "url": "https://www.thenationalnews.com/travel/2026/03/09/what-to-do-if-travel-plans-are-affected-by-regional-conflict-and-uae-school-holiday-changes/",
           "domain": "thenationalnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://english.mathrubhumi.com/amp/education/news/uae-early-spring-break-2026-school-grading-cbse-exam-update-yn8xjzlc",
+          "domain": "english.mathrubhumi.com",
+          "tier": "wire"
         }
       ],
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1773067272.0
     },
     {
       "id": "4aadee030d27",
@@ -46,7 +53,7 @@
       "id": "55b2de6d2dad",
       "datetime": "2026-03-09T13:36:44Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "Sharjah Charity launches &apos;Jood&apos; campaign to provide Eid clothes for 3,000 underprivileged families",
       "location": "Sharjah",
@@ -60,7 +67,9 @@
         }
       ],
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1773067004.0
     },
     {
       "id": "8769e4b828f8",
@@ -86,7 +95,7 @@
       "id": "da3e8fa8324f",
       "datetime": "2026-03-09T13:35:53Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "Bollywood singer Shweta Subram applauds Dubai&apos;s quick action following debris incident at Marina Tower",
       "location": "Dubai",
@@ -97,16 +106,23 @@
           "url": "https://gulfnews.com/entertainment/bollywood-singer-shweta-subram-applauds-dubais-quick-action-following-debris-incident-at-marina-tower-1.500468584",
           "domain": "gulfnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://www.indiatoday.in/world/story/us-israel-iran-conflict-debris-from-intercepted-projectile-hits-dubai-marina-tower-2878859-2026-03-08",
+          "domain": "www.indiatoday.in",
+          "tier": "wire"
         }
       ],
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1773066953.0
     },
     {
       "id": "3514f5617c9d",
       "datetime": "2026-03-09T13:30:05Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "Weather alert: Rainfall expected across parts of the UAE until March 12",
       "location": "Uae",
@@ -120,7 +136,9 @@
         }
       ],
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1773066605.0
     },
     {
       "id": "8dc978790a6c",
