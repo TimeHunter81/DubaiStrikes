@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-09T17:10:00Z",
+  "last_updated": "2026-03-09T17:16:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -61,7 +61,7 @@
       "id": "da3e8fa8324f",
       "datetime": "2026-03-09T13:35:53Z",
       "type": "impact_minor",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "neighborhood",
       "title": "Missile debris hits Marina Tower, Dubai — response reported",
       "location": "Dubai Marina",
@@ -88,7 +88,7 @@
       "id": "d740428c8076",
       "datetime": "2026-03-09T10:41:33Z",
       "type": "interception",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "country",
       "title": "Iran fires 16 ballistic missiles, 117 drones at UAE in new barrage",
       "location": "UAE",
@@ -138,7 +138,7 @@
       "id": "02a157b95a75",
       "datetime": "2026-03-09T03:31:25Z",
       "type": "impact_minor",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "city",
       "title": "2 injured by debris in Abu Dhabi as UAE intercepts Iranian missiles",
       "location": "Abu Dhabi",
@@ -165,7 +165,7 @@
       "id": "adda2d3e926b",
       "datetime": "2026-03-09T03:29:23Z",
       "type": "security_alert",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "city",
       "title": "Missile alert: loud bangs heard over Abu Dhabi",
       "location": "Abu Dhabi",
