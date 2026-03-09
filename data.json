@@ -6,7 +6,7 @@
       "id": "3b946ec34405",
       "datetime": "2026-03-09T11:54:43Z",
       "type": "interception",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "UAE intercepts 12 Iranian missiles, 17 drones",
       "location": "UAE",
@@ -17,12 +17,17 @@
           "url": "https://gulfnews.com/uae/uae-intercepts-12-iranian-missiles-17-drones-in-todays-attack-1.500468502",
           "domain": "gulfnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://apnews.com/video/uae-releases-footage-showing-air-defenses-intercepting-and-destroying-drone-23275da8c04e4a98b2e9ee065cac7c85",
+          "domain": "apnews.com",
+          "tier": "wire"
         }
       ],
       "_via": "rss",
       "confidence": "low",
-      "_search_count": 1,
-      "_next_search_at": 1773060883.0
+      "_search_count": 2,
+      "_next_search_at": 1773078883.0
     },
     {
       "id": "f564a847c75e",
