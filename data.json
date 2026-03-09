@@ -1,7 +1,67 @@
 {
-  "last_updated": "2026-03-09T08:04:00Z",
+  "last_updated": "2026-03-09T08:14:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
+    {
+      "id": "dfbd31449bfa",
+      "datetime": "2026-03-09T08:10:54Z",
+      "type": "interception",
+      "confirmed": true,
+      "precision": "country",
+      "title": "UAE releases video of Iranian drone interception",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/3/9/uae-releases-video-of-iranian-drone-interception?traffic_source=rss",
+          "domain": "aljazeera.com",
+          "tier": "wire"
+        }
+      ],
+      "_via": "rss",
+      "confidence": "medium"
+    },
+    {
+      "id": "32dc8e8f8089",
+      "datetime": "2026-03-09T07:57:17Z",
+      "type": "impact_minor",
+      "confirmed": false,
+      "precision": "city",
+      "title": "UAE air defence intercepts threats — debris injures 2 in Abu Dhabi",
+      "location": "Abu Dhabi",
+      "lat": 24.4539,
+      "lon": 54.3773,
+      "sources": [
+        {
+          "url": "https://gulfnews.com/uae/uae-air-defence-intercepts-threats-debris-injures-two-in-abu-dhabi-1.500468237",
+          "domain": "gulfnews.com",
+          "tier": "local"
+        }
+      ],
+      "_via": "rss",
+      "confidence": "low"
+    },
+    {
+      "id": "05913b7e7608",
+      "datetime": "2026-03-09T03:31:25Z",
+      "type": "impact_minor",
+      "confirmed": false,
+      "precision": "city",
+      "title": "Two injured by falling interception debris in Abu Dhabi",
+      "location": "Abu Dhabi",
+      "lat": 24.4539,
+      "lon": 54.3773,
+      "sources": [
+        {
+          "url": "https://www.thenationalnews.com/news/uae/2026/03/09/missile-threat-alert-issued-as-loud-bangs-heard-in-abu-dhabi/",
+          "domain": "thenationalnews.com",
+          "tier": "local"
+        }
+      ],
+      "_via": "rss",
+      "confidence": "low"
+    },
     {
       "id": "adda2d3e926b",
       "datetime": "2026-03-09T03:29:23Z",
@@ -60,6 +120,26 @@
       "confidence": "high",
       "_search_count": 2,
       "_next_search_at": 1773048140.0
+    },
+    {
+      "id": "5e49393a90dd",
+      "datetime": "2026-03-09T03:22:09Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "UAE responds to Iranian missiles and drones — residents urged to stay alert",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://gulfnews.com/uae/uae-air-defences-responding-to-missile-threat-1.500468030",
+          "domain": "gulfnews.com",
+          "tier": "local"
+        }
+      ],
+      "_via": "rss",
+      "confidence": "low"
     },
     {
       "id": "303a1fd3cd03",
@@ -239,26 +319,6 @@
       ],
       "confidence": "high",
       "_manual": true
-    },
-    {
-      "id": "cdb45e875770",
-      "datetime": "2026-03-07T09:31:28Z",
-      "type": "impact_minor",
-      "confirmed": true,
-      "precision": "district",
-      "title": "Drone strike near Dubai Airport — BBC video footage",
-      "location": "Dubai",
-      "lat": 25.2528,
-      "lon": 55.3644,
-      "sources": [
-        {
-          "url": "https://www.bbc.com/news/videos/c5yr734zml3o?at_medium=RSS&at_campaign=rss",
-          "domain": "bbc.com",
-          "tier": "wire"
-        }
-      ],
-      "_via": "rss",
-      "confidence": "medium"
     },
     {
       "id": "g1h2i3j4k5l6",
