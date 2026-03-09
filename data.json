@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-09T08:27:00Z",
+  "last_updated": "2026-03-09T08:37:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -50,6 +50,33 @@
       "_next_search_at": 1773046637.0
     },
     {
+      "id": "05913b7e7608",
+      "datetime": "2026-03-09T03:31:25Z",
+      "type": "impact_minor",
+      "confirmed": true,
+      "precision": "city",
+      "title": "Two injured by interception debris in Abu Dhabi",
+      "location": "Abu Dhabi",
+      "lat": 24.4539,
+      "lon": 54.3773,
+      "sources": [
+        {
+          "url": "https://www.thenationalnews.com/news/uae/2026/03/09/missile-threat-alert-issued-as-loud-bangs-heard-in-abu-dhabi/",
+          "domain": "thenationalnews.com",
+          "tier": "local"
+        },
+        {
+          "url": "https://www.hindustantimes.com/world-news/dubai-abu-dhabi-news-live-updates-uae-saudi-arabia-qatar-iran-us-israel-war-middle-east-airports-flights-latest-news-101773017353495.html",
+          "domain": "hindustantimes.com",
+          "tier": "wire"
+        }
+      ],
+      "_via": "rss",
+      "confidence": "high",
+      "_search_count": 1,
+      "_next_search_at": 1773030685.0
+    },
+    {
       "id": "adda2d3e926b",
       "datetime": "2026-03-09T03:29:23Z",
       "type": "security_alert",
@@ -80,33 +107,6 @@
       "confidence": "high",
       "_search_count": 2,
       "_next_search_at": 1773048685.0
-    },
-    {
-      "id": "05913b7e7608",
-      "datetime": "2026-03-09T03:31:25Z",
-      "type": "impact_minor",
-      "confirmed": true,
-      "precision": "city",
-      "title": "Two injured by interception debris in Abu Dhabi",
-      "location": "Abu Dhabi",
-      "lat": 24.4539,
-      "lon": 54.3773,
-      "sources": [
-        {
-          "url": "https://www.thenationalnews.com/news/uae/2026/03/09/missile-threat-alert-issued-as-loud-bangs-heard-in-abu-dhabi/",
-          "domain": "thenationalnews.com",
-          "tier": "local"
-        },
-        {
-          "url": "https://www.hindustantimes.com/world-news/dubai-abu-dhabi-news-live-updates-uae-saudi-arabia-qatar-iran-us-israel-war-middle-east-airports-flights-latest-news-101773017353495.html",
-          "domain": "hindustantimes.com",
-          "tier": "wire"
-        }
-      ],
-      "_via": "rss",
-      "confidence": "high",
-      "_search_count": 1,
-      "_next_search_at": 1773030685.0
     },
     {
       "id": "c3c448fdfe34",
