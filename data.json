@@ -6,7 +6,7 @@
       "id": "c3c448fdfe34",
       "datetime": "2026-03-09T03:22:09Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "UAE air defences respond to incoming missile threat",
       "location": "Uae",
@@ -20,7 +20,9 @@
         }
       ],
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1773030129.0
     },
     {
       "id": "303a1fd3cd03",
