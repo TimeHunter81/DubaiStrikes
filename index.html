@@ -372,9 +372,10 @@
         flex-direction: column;
         overflow: hidden;
         box-shadow: 0 -8px 40px rgba(0,0,0,0.6);
-        /* no saturate on mobile — causes warm color cast over map tiles */
-        backdrop-filter: blur(28px);
-        -webkit-backdrop-filter: blur(28px);
+        /* solid on mobile — light map tiles would bleed through semi-transparent bg */
+        background: rgba(7, 10, 16, 0.97);
+        backdrop-filter: none;
+        -webkit-backdrop-filter: none;
       }
       #sidebar::before { display: none; }
       /* Top gradient line on mobile sheet */
