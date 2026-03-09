@@ -1,7 +1,47 @@
 {
-  "last_updated": "2026-03-09T09:57:24Z",
+  "last_updated": "2026-03-09T10:08:58Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
+    {
+      "id": "80a639944da1",
+      "datetime": "2026-03-09T09:56:01Z",
+      "type": "security_alert",
+      "confirmed": true,
+      "precision": "country",
+      "title": "Which US and Israeli military companies are profiting from the Iran war?",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.aljazeera.com/news/2026/3/9/which-us-and-israeli-military-companies-are-profiting-from-the-iran-war?traffic_source=rss",
+          "domain": "aljazeera.com",
+          "tier": "wire"
+        }
+      ],
+      "_via": "rss",
+      "confidence": "medium"
+    },
+    {
+      "id": "15c09e636216",
+      "datetime": "2026-03-09T09:49:57Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "city",
+      "title": "Crisis communication, national confidence: How UAE media counters rumours and strengthens trust",
+      "location": "Uae",
+      "lat": 24.5,
+      "lon": 54.5,
+      "sources": [
+        {
+          "url": "https://gulfnews.com/opinion/op-eds/crisis-communication-national-confidence-how-uae-media-counters-rumours-and-strengthens-trust-1.500468313",
+          "domain": "gulfnews.com",
+          "tier": "local"
+        }
+      ],
+      "_via": "rss",
+      "confidence": "low"
+    },
     {
       "id": "9f200c06843b",
       "datetime": "2026-03-09T09:35:35Z",
@@ -1004,6 +1044,26 @@
       "confirmed": false,
       "precision": "country",
       "title": "US‑Israel war on Iran day 10: Mojtaba Khamenei named supreme leader, Gulf states face new attacks",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://gulfnews.com/world/mena/usisrael-war-on-iran-day-10-mojtaba-khamenei-named-supreme-leader-gulf-states-face-new-attacks-1.500467987",
+          "domain": "gulfnews.com",
+          "tier": "local"
+        }
+      ],
+      "_via": "rss",
+      "confidence": "low"
+    },
+    {
+      "id": "93a5947cc0ce",
+      "datetime": "2026-03-09T02:28:54Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "US‑Israel war on Iran day 10: Oil prices surge as Iran names Mojtaba Khamenei; Gulf states face new attacks",
       "location": "UAE",
       "lat": null,
       "lon": null,
@@ -2030,66 +2090,6 @@
       ],
       "_via": "rss",
       "confidence": "low"
-    },
-    {
-      "id": "42cfb14a54ef",
-      "datetime": "2026-03-07T16:29:40Z",
-      "type": "security_alert",
-      "confirmed": false,
-      "precision": "city",
-      "title": "President Sheikh Mohamed says 'all is well in the UAE'",
-      "location": "Uae",
-      "lat": 24.5,
-      "lon": 54.5,
-      "sources": [
-        {
-          "url": "https://www.thenationalnews.com/news/uae/2026/03/07/president-sheikh-mohamed-address-uae-iran-attacks/",
-          "domain": "thenationalnews.com",
-          "tier": "local"
-        }
-      ],
-      "_via": "rss",
-      "confidence": "low"
-    },
-    {
-      "id": "e9d22c184d34",
-      "datetime": "2026-03-07T15:51:14Z",
-      "type": "security_alert",
-      "confirmed": true,
-      "precision": "country",
-      "title": "Why did Iran's president apologise?",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.bbc.com/news/articles/cz7g2qrz8vdo?at_medium=RSS&amp;at_campaign=rss",
-          "domain": "bbc.com",
-          "tier": "wire"
-        }
-      ],
-      "_via": "rss",
-      "confidence": "medium"
-    },
-    {
-      "id": "5e4499d8cb79",
-      "datetime": "2026-03-07T14:43:35Z",
-      "type": "security_alert",
-      "confirmed": true,
-      "precision": "country",
-      "title": "Why did US and Israel attack Iran and how long could the war last?",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.bbc.com/news/articles/cx2dyz6p3weo?at_medium=RSS&amp;at_campaign=rss",
-          "domain": "bbc.com",
-          "tier": "wire"
-        }
-      ],
-      "_via": "rss",
-      "confidence": "medium"
     },
     {
       "id": "a1b2c3d4e5f6",
