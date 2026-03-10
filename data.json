@@ -1,7 +1,27 @@
 {
-  "last_updated": "2026-03-10T04:30:00Z",
+  "last_updated": "2026-03-10T04:39:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
+    {
+      "id": "58de132b1a3b",
+      "datetime": "2026-03-10T04:22:26Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "UAE residents receive emergency missile threat alert",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://gulfnews.com/uae/uae-residents-get-emergency-alert-over-missile-threat-2-1.500469259",
+          "domain": "gulfnews.com",
+          "tier": "local"
+        }
+      ],
+      "_via": "rss",
+      "confidence": "low"
+    },
     {
       "id": "da3e8fa8324f",
       "datetime": "2026-03-09T13:18:48Z",
