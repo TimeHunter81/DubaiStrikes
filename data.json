@@ -6,7 +6,7 @@
       "id": "58de132b1a3b",
       "datetime": "2026-03-10T04:22:26Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "UAE missile threat: Abu Dhabi residents ordered to shelter",
       "location": "Abu Dhabi, UAE",
@@ -25,7 +25,9 @@
         }
       ],
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1773120146.0
     },
     {
       "id": "3b946ec34405",
