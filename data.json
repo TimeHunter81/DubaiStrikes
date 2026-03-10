@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-03-10T18:45:00Z",
+  "last_updated": "2026-03-10T18:49:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
       "id": "aebac9569d59",
       "datetime": "2026-03-10T12:55:35Z",
       "type": "impact_major",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "country",
       "title": "UAE: 6 dead, 122 injured in missile and drone barrage",
       "location": "UAE",
