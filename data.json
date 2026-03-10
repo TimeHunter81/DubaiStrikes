@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-10T16:18:00Z",
+  "last_updated": "2026-03-10T16:27:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -110,36 +110,6 @@
         },
         {
           "url": "https://www.bbc.com/news/live/cd70wzw9vqlt",
-          "domain": "bbc.com",
-          "tier": "wire"
-        }
-      ],
-      "_via": "rss",
-      "confidence": "high"
-    },
-    {
-      "id": "caf167cf813b",
-      "datetime": "2026-03-10T04:22:26Z",
-      "type": "interception",
-      "confirmed": true,
-      "precision": "country",
-      "title": "Iran launches missiles and drones at UAE — emergency alerts issued",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://gulfnews.com/uae/uae-residents-get-emergency-alert-over-missile-threat-2-1.500469259",
-          "domain": "gulfnews.com",
-          "tier": "local"
-        },
-        {
-          "url": "https://www.aljazeera.com/news/2026/3/9/reprehensible-new-wave-of-iranian-missiles-drones-target-gulf-nations",
-          "domain": "aljazeera.com",
-          "tier": "wire"
-        },
-        {
-          "url": "https://www.bbc.com/news/articles/c204px4zddro",
           "domain": "bbc.com",
           "tier": "wire"
         }
