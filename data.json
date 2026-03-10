@@ -6,7 +6,7 @@
       "id": "aebac9569d59",
       "datetime": "2026-03-10T12:55:35Z",
       "type": "impact_major",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "UAE: 6 dead, 122 injured in missile and drone barrage",
       "location": "UAE",
@@ -27,12 +27,17 @@
           "url": "https://www.aljazeera.com/news/2026/3/10/woman-killed-in-bahrain-as-other-gulf-states-intercept-iranian-missiles",
           "domain": "aljazeera.com",
           "tier": "wire"
+        },
+        {
+          "url": "https://indianexpress.com/article/world/dubai-abu-dhabi-news-live-updates-iran-attack-death-toll-bahrain-10573984/",
+          "domain": "indianexpress.com",
+          "tier": "wire"
         }
       ],
       "_via": "rss",
       "confidence": "high",
-      "_search_count": 1,
-      "_next_search_at": 1773150935.0
+      "_search_count": 2,
+      "_next_search_at": 1773168935.0
     },
     {
       "id": "dd0d46268b72",
