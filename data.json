@@ -20,7 +20,9 @@
         }
       ],
       "confidence": "low",
-      "_via": "gdelt"
+      "_via": "gdelt",
+      "_search_count": 1,
+      "_next_search_at": 1773150381.0
     },
     {
       "id": "43e157fc65d9",
@@ -40,7 +42,9 @@
         }
       ],
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1773149901.0
     },
     {
       "id": "3b5de91f4330",
@@ -60,7 +64,9 @@
         }
       ],
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1773149766.0
     },
     {
       "id": "4e8e5f0b2bf0",
@@ -80,7 +86,9 @@
         }
       ],
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1773149346.0
     },
     {
       "id": "66a08ea4f606",
