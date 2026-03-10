@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-10T10:15:00Z",
+  "last_updated": "2026-03-10T10:26:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -36,7 +36,7 @@
       "id": "58de132b1a3b",
       "datetime": "2026-03-10T04:22:26Z",
       "type": "security_alert",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "city",
       "title": "Abu Dhabi residents ordered to shelter amid active missile threat",
       "location": "Abu Dhabi, UAE",
