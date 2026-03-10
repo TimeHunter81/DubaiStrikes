@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-10T04:52:00Z",
+  "last_updated": "2026-03-10T05:00:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -30,29 +30,24 @@
       "_next_search_at": 1773120146.0
     },
     {
-      "id": "3b946ec34405",
-      "datetime": "2026-03-09T11:54:43Z",
-      "type": "interception",
-      "confirmed": true,
+      "id": "caf167cf813b",
+      "datetime": "2026-03-10T04:22:26Z",
+      "type": "security_alert",
+      "confirmed": false,
       "precision": "country",
-      "title": "UAE intercepts 12 Iranian missiles, 17 drones in new barrage",
+      "title": "UAE residents receive emergency alerts as Iran launches missiles and drones",
       "location": "UAE",
       "lat": null,
       "lon": null,
       "sources": [
         {
-          "url": "https://gulfnews.com/uae/uae-intercepts-12-iranian-missiles-17-drones-in-todays-attack-1.500468502",
+          "url": "https://gulfnews.com/uae/uae-residents-get-emergency-alert-over-missile-threat-2-1.500469259",
           "domain": "gulfnews.com",
           "tier": "local"
-        },
-        {
-          "url": "https://apnews.com/video/uae-releases-footage-showing-air-defenses-intercepting-and-destroying-drone-23275da8c04e4a98b2e9ee065cac7c85",
-          "domain": "apnews.com",
-          "tier": "wire"
         }
       ],
-      "confidence": "high",
-      "_via": "rss"
+      "_via": "rss",
+      "confidence": "low"
     },
     {
       "id": "da3e8fa8324f",
@@ -93,6 +88,31 @@
       ],
       "_via": "rss",
       "confidence": "high"
+    },
+    {
+      "id": "3b946ec34405",
+      "datetime": "2026-03-09T11:54:43Z",
+      "type": "interception",
+      "confirmed": true,
+      "precision": "country",
+      "title": "UAE intercepts 12 Iranian missiles, 17 drones in new barrage",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://gulfnews.com/uae/uae-intercepts-12-iranian-missiles-17-drones-in-todays-attack-1.500468502",
+          "domain": "gulfnews.com",
+          "tier": "local"
+        },
+        {
+          "url": "https://apnews.com/video/uae-releases-footage-showing-air-defenses-intercepting-and-destroying-drone-23275da8c04e4a98b2e9ee065cac7c85",
+          "domain": "apnews.com",
+          "tier": "wire"
+        }
+      ],
+      "confidence": "high",
+      "_via": "rss"
     },
     {
       "id": "f564a847c75e",
@@ -153,6 +173,26 @@
       ],
       "confidence": "high",
       "_via": "rss"
+    },
+    {
+      "id": "02a157b95a75",
+      "datetime": "2026-03-09T03:31:25Z",
+      "type": "impact_minor",
+      "confirmed": false,
+      "precision": "city",
+      "title": "Interception debris injures 2 in Abu Dhabi",
+      "location": "Abu Dhabi",
+      "lat": 24.4539,
+      "lon": 54.3773,
+      "sources": [
+        {
+          "url": "https://www.thenationalnews.com/news/uae/2026/03/09/missile-threat-alert-issued-as-loud-bangs-heard-in-abu-dhabi/",
+          "domain": "thenationalnews.com",
+          "tier": "local"
+        }
+      ],
+      "_via": "rss",
+      "confidence": "low"
     },
     {
       "id": "a1b2c3d4e5f6",
