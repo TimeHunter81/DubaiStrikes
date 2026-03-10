@@ -1,14 +1,34 @@
 {
-  "last_updated": "2026-03-10T12:09:11Z",
+  "last_updated": "2026-03-10T12:14:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
+    {
+      "id": "f579bb837fb5",
+      "datetime": "2026-03-10T12:02:21Z",
+      "type": "impact_minor",
+      "confirmed": false,
+      "precision": "city",
+      "title": "Drone attack in Abu Dhabi causes fire",
+      "location": "Abu Dhabi",
+      "lat": 24.4539,
+      "lon": 54.3773,
+      "sources": [
+        {
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/drone-attack-abu-dhabi-causes-fire",
+          "domain": "middleeasteye.net",
+          "tier": "local"
+        }
+      ],
+      "_via": "rss",
+      "confidence": "low"
+    },
     {
       "id": "0d706451ed8c",
       "datetime": "2026-03-10T11:29:49Z",
       "type": "interception",
       "confirmed": true,
       "precision": "country",
-      "title": "UAE and Qatar intercept Iranian attacks",
+      "title": "UAE intercepts Iranian attacks",
       "location": "UAE",
       "lat": null,
       "lon": null,
