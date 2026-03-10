@@ -1,7 +1,27 @@
 {
-  "last_updated": "2026-03-10T10:48:08Z",
+  "last_updated": "2026-03-10T10:56:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
+    {
+      "id": "a3d1d209fe36",
+      "datetime": "2026-03-10T10:37:58Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "UKMTO: loud bang reported near vessel 36nm off UAE coast",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/ukmto-reports-loud-bang-near-vessel-36-natuical-miles-uae",
+          "domain": "middleeasteye.net",
+          "tier": "local"
+        }
+      ],
+      "_via": "rss",
+      "confidence": "low"
+    },
     {
       "id": "caf167cf813b",
       "datetime": "2026-03-10T04:22:26Z",
