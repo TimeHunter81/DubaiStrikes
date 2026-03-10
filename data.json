@@ -6,7 +6,7 @@
       "id": "58de132b1a3b",
       "datetime": "2026-03-10T04:22:26Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "Abu Dhabi residents ordered to shelter amid active missile threat",
       "location": "Abu Dhabi, UAE",
@@ -25,7 +25,9 @@
         }
       ],
       "_via": "rss",
-      "confidence": "high"
+      "confidence": "high",
+      "_search_count": 1,
+      "_next_search_at": 1773120146.0
     },
     {
       "id": "caf167cf813b",
@@ -61,7 +63,7 @@
       "id": "ee962e102628",
       "datetime": "2026-03-10T02:00:00Z",
       "type": "impact_major",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "neighborhood",
       "title": "Security guard killed in Abu Dhabi airport strike",
       "location": "Zayed International Airport, Abu Dhabi",
@@ -75,7 +77,9 @@
         }
       ],
       "_via": "rss",
-      "confidence": "medium"
+      "confidence": "medium",
+      "_search_count": 1,
+      "_next_search_at": 1773111600.0
     },
     {
       "id": "da3e8fa8324f",
