@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-10T14:57:00Z",
+  "last_updated": "2026-03-10T15:07:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -21,56 +21,6 @@
         {
           "url": "https://www.iranintl.com/en/202603098570",
           "domain": "iranintl.com",
-          "tier": "wire"
-        }
-      ],
-      "_via": "rss",
-      "confidence": "high"
-    },
-    {
-      "id": "ad57c0d07f6c",
-      "datetime": "2026-03-10T12:21:51Z",
-      "type": "impact_minor",
-      "confirmed": true,
-      "precision": "exact",
-      "title": "Drone strike sparks fire at Ruwais industrial complex",
-      "location": "Ruwais, Abu Dhabi",
-      "lat": 24.1072,
-      "lon": 52.7308,
-      "sources": [
-        {
-          "url": "https://www.thenationalnews.com/business/energy/2026/03/10/fire-breaks-out-at-al-ruwais-refinery-in-uae-after-drone-strike/",
-          "domain": "thenationalnews.com",
-          "tier": "local"
-        },
-        {
-          "url": "https://www.reuters.com/world/middle-east/fire-hits-site-housing-abu-dhabi-national-oil-company-operations-after-drone-2026-03-10/",
-          "domain": "reuters.com",
-          "tier": "wire"
-        }
-      ],
-      "_via": "rss",
-      "confidence": "high"
-    },
-    {
-      "id": "f579bb837fb5",
-      "datetime": "2026-03-10T12:02:15Z",
-      "type": "impact_minor",
-      "confirmed": true,
-      "precision": "exact",
-      "title": "Drone attack sparks fire at Abu Dhabi's Ruwais complex",
-      "location": "Ruwais, Abu Dhabi",
-      "lat": 24.1072,
-      "lon": 52.7308,
-      "sources": [
-        {
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/drone-attack-abu-dhabi-causes-fire",
-          "domain": "middleeasteye.net",
-          "tier": "local"
-        },
-        {
-          "url": "https://www.reuters.com/world/middle-east/fire-hits-site-housing-abu-dhabi-national-oil-company-operations-after-drone-2026-03-10/",
-          "domain": "reuters.com",
           "tier": "wire"
         }
       ],
@@ -133,31 +83,6 @@
       "confidence": "high"
     },
     {
-      "id": "70169304db46",
-      "datetime": "2026-03-10T11:23:15Z",
-      "type": "impact_minor",
-      "confirmed": true,
-      "precision": "exact",
-      "title": "Fire breaks out at Abu Dhabi Ruwais complex after drone attack",
-      "location": "Ruwais, Abu Dhabi",
-      "lat": 24.1072,
-      "lon": 52.7308,
-      "sources": [
-        {
-          "url": "https://gulfnews.com/uae/fire-breaks-out-in-ruwais-complex-in-abu-dhabi-after-drone-attack-1.500469721",
-          "domain": "gulfnews.com",
-          "tier": "local"
-        },
-        {
-          "url": "https://www.reuters.com/world/middle-east/fire-hits-site-housing-abu-dhabi-national-oil-company-operations-after-drone-2026-03-10/",
-          "domain": "reuters.com",
-          "tier": "wire"
-        }
-      ],
-      "_via": "rss",
-      "confidence": "high"
-    },
-    {
       "id": "a3d1d209fe36",
       "datetime": "2026-03-10T10:37:58Z",
       "type": "impact_minor",
@@ -174,7 +99,7 @@
           "tier": "local"
         },
         {
-          "url": "https://www.livemint.com/news/world/dubai-abu-dhabi-uae-kuwait-middle-east-gulf-news-live-us-israel-iran-war-oil-price-strait-of-hormuz-latest-news-march-10-11773110004841.html",
+          "url": "https://www.livemint.com/news/world/dubai-abu-dhabi-uae-kuwait-middle-east-gulf-news-live-updates-us-israel-iran-war-oil-price-strait-of-hormuz-latest-news-march-10-11773110004841.html",
           "domain": "livemint.com",
           "tier": "wire"
         },
