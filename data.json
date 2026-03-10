@@ -6,7 +6,7 @@
       "id": "aebac9569d59",
       "datetime": "2026-03-10T12:55:35Z",
       "type": "impact_major",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "UAE: 6 dead, 122 injured in missile and drone barrage",
       "location": "UAE",
@@ -37,12 +37,17 @@
           "url": "https://www.hindustantimes.com/world-news/dubai-abu-dhabi-news-live-updates-uae-saudi-qatar-iran-us-israel-war-flights-airport-missile-explosion-latest-news-101773103543259.html",
           "domain": "hindustantimes.com",
           "tier": "wire"
+        },
+        {
+          "url": "https://www.bbc.com/news/articles/cx2dyz6p3weo",
+          "domain": "bbc.com",
+          "tier": "wire"
         }
       ],
       "_via": "rss",
       "confidence": "high",
-      "_search_count": 1,
-      "_next_search_at": 1773150935.0
+      "_search_count": 2,
+      "_next_search_at": 1773168935.0
     },
     {
       "id": "dd0d46268b72",
