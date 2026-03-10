@@ -1,7 +1,27 @@
 {
-  "last_updated": "2026-03-10T11:30:00Z",
+  "last_updated": "2026-03-10T11:34:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
+    {
+      "id": "dd0d46268b72",
+      "datetime": "2026-03-10T11:23:15Z",
+      "type": "impact_minor",
+      "confirmed": false,
+      "precision": "city",
+      "title": "Fire at Ruwais industrial complex, Abu Dhabi, after drone attack",
+      "location": "Ruwais, Abu Dhabi",
+      "lat": 24.1072,
+      "lon": 52.7308,
+      "sources": [
+        {
+          "url": "https://gulfnews.com/uae/fire-breaks-out-in-ruwais-complex-in-abu-dhabi-after-drone-attack-1.500469721",
+          "domain": "gulfnews.com",
+          "tier": "local"
+        }
+      ],
+      "_via": "rss",
+      "confidence": "low"
+    },
     {
       "id": "a3d1d209fe36",
       "datetime": "2026-03-10T10:37:58Z",
@@ -66,7 +86,7 @@
       "confirmed": false,
       "precision": "city",
       "title": "Abu Dhabi residents ordered to shelter amid active missile threat",
-      "location": "Abu Dhabi, UAE",
+      "location": "Abu Dhabi",
       "lat": 24.4539,
       "lon": 54.3773,
       "sources": [
