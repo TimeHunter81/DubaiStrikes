@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-09T23:56:03Z",
+  "last_updated": "2026-03-10T00:03:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -146,36 +146,6 @@
         {
           "url": "https://apnews.com/video/uae-releases-footage-showing-air-defenses-intercepting-and-destroying-drone-23275da8c04e4a98b2e9ee065cac7c85",
           "domain": "apnews.com",
-          "tier": "wire"
-        }
-      ],
-      "confidence": "high",
-      "_via": "rss"
-    },
-    {
-      "id": "02a157b95a75",
-      "datetime": "2026-03-09T03:31:25Z",
-      "type": "impact_minor",
-      "confirmed": true,
-      "precision": "city",
-      "title": "2 injured by debris in Abu Dhabi as UAE intercepts Iranian missiles",
-      "location": "Abu Dhabi",
-      "lat": 24.4539,
-      "lon": 54.3773,
-      "sources": [
-        {
-          "url": "https://www.thenationalnews.com/news/uae/2026/03/09/missile-threat-alert-issued-as-loud-bangs-heard-in-abu-dhabi/",
-          "domain": "thenationalnews.com",
-          "tier": "local"
-        },
-        {
-          "url": "https://www.hindustantimes.com/world-news/dubai-abu-dhabi-news-live-updates-uae-saudi-arabia-qatar-iran-us-israel-war-middle-east-airports-flights-latest-news-101773017353495.html",
-          "domain": "hindustantimes.com",
-          "tier": "wire"
-        },
-        {
-          "url": "https://en.wikipedia.org/wiki/2026_Iranian_strikes_on_the_United_Arab_Emirates",
-          "domain": "en.wikipedia.org",
           "tier": "wire"
         }
       ],
