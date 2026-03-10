@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-10T19:19:00Z",
+  "last_updated": "2026-03-10T19:35:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -90,6 +90,26 @@
           "tier": "wire"
         }
       ]
+    },
+    {
+      "id": "dd10a938ff49",
+      "datetime": "2026-03-10T00:00:00Z",
+      "type": "impact_minor",
+      "confirmed": true,
+      "precision": "exact",
+      "title": "Iranian drone strike near Ruwais, Abu Dhabi",
+      "location": "Ruwais, Abu Dhabi",
+      "lat": 24.1123979,
+      "lon": 52.68253947,
+      "sources": [
+        {
+          "url": "https://x.com/ADMediaOffice/status/2031332643586163042",
+          "domain": "x.com",
+          "tier": "osint"
+        }
+      ],
+      "_isw_id": 9860,
+      "_via": "isw"
     },
     {
       "id": "a1b2c3d4e5f6",
