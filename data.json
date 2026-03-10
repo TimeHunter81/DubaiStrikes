@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-10T20:19:00Z",
+  "last_updated": "2026-03-10T20:32:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -33,7 +33,9 @@
           "domain": "indianexpress.com",
           "tier": "wire"
         }
-      ]
+      ],
+      "_via": "rss",
+      "confidence": "high"
     },
     {
       "id": "dd0d46268b72",
@@ -66,7 +68,9 @@
           "domain": "thenationalnews.com",
           "tier": "local"
         }
-      ]
+      ],
+      "_via": "rss",
+      "confidence": "high"
     },
     {
       "id": "0d706451ed8c",
@@ -89,28 +93,9 @@
           "domain": "bbc.com",
           "tier": "wire"
         }
-      ]
-    },
-    {
-      "id": "dd10a938ff49",
-      "datetime": "2026-03-10T00:00:00Z",
-      "type": "impact_minor",
-      "confirmed": true,
-      "precision": "area",
-      "title": "Drone strike hits Abu Dhabi industrial zone near Ruwais",
-      "location": "Ruwais industrial zone, Abu Dhabi",
-      "lat": 24.1124,
-      "lon": 52.6825,
-      "sources": [
-        {
-          "url": "https://x.com/ADMediaOffice/status/2031332643586163042",
-          "domain": "x.com",
-          "tier": "osint"
-        }
       ],
-      "confidence": "low",
-      "_isw_id": 9860,
-      "_via": "isw"
+      "_via": "rss",
+      "confidence": "high"
     },
     {
       "id": "a1b2c3d4e5f6",
