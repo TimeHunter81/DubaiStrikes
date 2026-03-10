@@ -1,14 +1,14 @@
 {
-  "last_updated": "2026-03-10T05:00:00Z",
+  "last_updated": "2026-03-10T05:10:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
       "id": "58de132b1a3b",
       "datetime": "2026-03-10T04:22:26Z",
       "type": "security_alert",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "city",
-      "title": "UAE missile threat: Abu Dhabi residents ordered to shelter",
+      "title": "Abu Dhabi residents ordered to shelter amid active missile threat",
       "location": "Abu Dhabi, UAE",
       "lat": 24.4539,
       "lon": 54.3773,
@@ -33,9 +33,9 @@
       "id": "caf167cf813b",
       "datetime": "2026-03-10T04:22:26Z",
       "type": "security_alert",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "country",
-      "title": "UAE residents receive emergency alerts as Iran launches missiles and drones",
+      "title": "Iran launches missiles and drones at UAE — emergency alerts issued",
       "location": "UAE",
       "lat": null,
       "lon": null,
@@ -52,7 +52,7 @@
         }
       ],
       "_via": "rss",
-      "confidence": "low",
+      "confidence": "high",
       "_search_count": 1,
       "_next_search_at": 1773120146.0
     },
@@ -185,7 +185,7 @@
       "id": "02a157b95a75",
       "datetime": "2026-03-09T03:31:25Z",
       "type": "impact_minor",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "city",
       "title": "Interception debris injures 2 in Abu Dhabi",
       "location": "Abu Dhabi",
@@ -204,7 +204,7 @@
         }
       ],
       "_via": "rss",
-      "confidence": "low",
+      "confidence": "high",
       "_search_count": 1,
       "_next_search_at": 1773030685.0
     },
