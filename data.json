@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-10T19:50:00Z",
+  "last_updated": "2026-03-10T19:59:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -96,11 +96,11 @@
       "datetime": "2026-03-10T00:00:00Z",
       "type": "impact_minor",
       "confirmed": true,
-      "precision": "city",
-      "title": "Drone strike in Abu Dhabi industrial zone — ADMediaOffice confirms",
-      "location": "Abu Dhabi",
-      "lat": 24.1123979,
-      "lon": 52.68253947,
+      "precision": "area",
+      "title": "Drone strike hits Abu Dhabi industrial zone near Ruwais — ADMediaOffice",
+      "location": "Ruwais industrial zone, Abu Dhabi",
+      "lat": 24.1124,
+      "lon": 52.6825,
       "sources": [
         {
           "url": "https://x.com/ADMediaOffice/status/2031332643586163042",
