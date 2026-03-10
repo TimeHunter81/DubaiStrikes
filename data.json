@@ -60,7 +60,7 @@
       "id": "dd0d46268b72",
       "datetime": "2026-03-10T11:23:15Z",
       "type": "impact_minor",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "exact",
       "title": "Drone attack sparks fire at Ruwais industrial complex, Abu Dhabi",
       "location": "Ruwais, Abu Dhabi",
@@ -76,12 +76,17 @@
           "url": "https://www.khaleejtimes.com/uae/emergencies/fire-breaks-out-in-abu-dhabis-ruwais-industrial-complex-after-drone-attack-2",
           "domain": "khaleejtimes.com",
           "tier": "wire"
+        },
+        {
+          "url": "https://www.reuters.com/world/middle-east/fire-hits-site-housing-abu-dhabi-national-oil-company-operations-after-drone-2026-03-10/",
+          "domain": "reuters.com",
+          "tier": "wire"
         }
       ],
       "_via": "rss",
       "confidence": "low",
-      "_search_count": 1,
-      "_next_search_at": 1773145395.0
+      "_search_count": 2,
+      "_next_search_at": 1773163395.0
     },
     {
       "id": "a3d1d209fe36",
