@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-03-10T17:59:00Z",
+  "last_updated": "2026-03-10T18:13:51Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
       "id": "aebac9569d59",
       "datetime": "2026-03-10T12:55:35Z",
       "type": "impact_major",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "country",
       "title": "UAE: 6 dead, 122 injured in missile and drone barrage",
       "location": "UAE",
@@ -57,6 +57,11 @@
           "url": "https://www.reuters.com/world/middle-east/fire-hits-site-housing-abu-dhabi-national-oil-company-operations-after-drone-2026-03-10/",
           "domain": "reuters.com",
           "tier": "wire"
+        },
+        {
+          "url": "https://www.thenationalnews.com/business/energy/2026/03/10/fire-breaks-out-at-al-ruwais-refinery-in-uae-after-drone-strike/",
+          "domain": "thenationalnews.com",
+          "tier": "local"
         }
       ],
       "_via": "rss",
@@ -68,7 +73,7 @@
       "type": "interception",
       "confirmed": true,
       "precision": "country",
-      "title": "UAE intercepts Iranian missiles and drones — overnight barrage",
+      "title": "UAE intercepts Iranian missiles and drones overnight",
       "location": "UAE",
       "lat": null,
       "lon": null,
@@ -86,29 +91,6 @@
       ],
       "_via": "rss",
       "confidence": "high"
-    },
-    {
-      "id": "dd10a938ff49",
-      "title": "Strike event in Abu Dhabi emirate (ISW/ADMediaOffice)",
-      "datetime": "2026-03-10T00:00:00Z",
-      "type": "impact_minor",
-      "confirmed": true,
-      "location": "Abu Dhabi",
-      "lat": 24.1124,
-      "lon": 52.6825,
-      "precision": "city",
-      "sources": [
-        {
-          "url": "https://x.com/ADMediaOffice/status/2031332643586163042",
-          "domain": "x.com",
-          "tier": "osint"
-        }
-      ],
-      "confidence": 0.85,
-      "_isw_id": 9860,
-      "_via": "isw",
-      "_next_search_at": 0,
-      "_search_count": 0
     },
     {
       "id": "a1b2c3d4e5f6",
