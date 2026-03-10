@@ -6,7 +6,7 @@
       "id": "f579bb837fb5",
       "datetime": "2026-03-10T12:02:21Z",
       "type": "impact_minor",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "Drone attack in Abu Dhabi causes fire",
       "location": "Abu Dhabi",
@@ -17,10 +17,17 @@
           "url": "https://www.middleeasteye.net/live-blog/live-blog-update/drone-attack-abu-dhabi-causes-fire",
           "domain": "middleeasteye.net",
           "tier": "local"
+        },
+        {
+          "url": "https://www.reuters.com/world/middle-east/fire-hits-site-housing-abu-dhabi-national-oil-company-operations-after-drone-2026-03-10/",
+          "domain": "reuters.com",
+          "tier": "wire"
         }
       ],
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1773147741.0
     },
     {
       "id": "0d706451ed8c",
