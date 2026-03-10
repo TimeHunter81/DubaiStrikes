@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-10T21:40:00Z",
+  "last_updated": "2026-03-10T21:54:39Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -114,7 +114,7 @@
           "tier": "osint"
         }
       ],
-      "confidence": 0.85,
+      "confidence": "low",
       "_isw_id": 9860,
       "_via": "isw",
       "_next_search_at": 0,
