@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-10T18:49:00Z",
+  "last_updated": "2026-03-10T18:59:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -105,7 +105,7 @@
       "type": "impact_minor",
       "confirmed": true,
       "precision": "city",
-      "title": "Strike in Abu Dhabi emirate (Abu Dhabi Media Office)",
+      "title": "Strike hits Abu Dhabi emirate — Abu Dhabi Media Office",
       "location": "Abu Dhabi",
       "lat": 24.1123979,
       "lon": 52.68253947,
