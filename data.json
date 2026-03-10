@@ -63,7 +63,7 @@
       "id": "ee962e102628",
       "datetime": "2026-03-10T02:00:00Z",
       "type": "impact_major",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "neighborhood",
       "title": "Security guard killed in Abu Dhabi airport strike",
       "location": "Zayed International Airport, Abu Dhabi",
@@ -74,12 +74,17 @@
           "url": "https://www.thenationalnews.com/news/uae/2026/03/10/abu-dhabi-strikes-alerts-nepal-iran/",
           "domain": "thenationalnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://www.reuters.com/world/middle-east/iran-fires-missiles-gulf-arab-states-one-killed-abu-dhabi-2026-02-28/",
+          "domain": "reuters.com",
+          "tier": "wire"
         }
       ],
       "_via": "rss",
       "confidence": "low",
-      "_search_count": 2,
-      "_next_search_at": 1773129600.0
+      "_search_count": 3,
+      "_next_search_at": 1773194400.0
     },
     {
       "id": "da3e8fa8324f",
