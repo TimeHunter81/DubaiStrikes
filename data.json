@@ -1,125 +1,7 @@
 {
-  "last_updated": "2026-03-10T12:24:00Z",
+  "last_updated": "2026-03-10T12:35:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
-    {
-      "id": "f579bb837fb5",
-      "datetime": "2026-03-10T12:02:21Z",
-      "type": "impact_minor",
-      "confirmed": true,
-      "precision": "city",
-      "title": "Drone attack in Abu Dhabi causes fire",
-      "location": "Abu Dhabi",
-      "lat": 24.4539,
-      "lon": 54.3773,
-      "sources": [
-        {
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/drone-attack-abu-dhabi-causes-fire",
-          "domain": "middleeasteye.net",
-          "tier": "local"
-        },
-        {
-          "url": "https://www.reuters.com/world/middle-east/fire-hits-site-housing-abu-dhabi-national-oil-company-operations-after-drone-2026-03-10/",
-          "domain": "reuters.com",
-          "tier": "wire"
-        }
-      ],
-      "_via": "rss",
-      "confidence": "low",
-      "_search_count": 1,
-      "_next_search_at": 1773147741.0
-    },
-    {
-      "id": "0d706451ed8c",
-      "datetime": "2026-03-10T11:29:49Z",
-      "type": "interception",
-      "confirmed": true,
-      "precision": "country",
-      "title": "UAE intercepts Iranian attacks",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/uae-qatar-intercept-iranian-attacks",
-          "domain": "middleeasteye.net",
-          "tier": "local"
-        },
-        {
-          "url": "https://www.bbc.com/news/articles/c4g0pnnj8xyo",
-          "domain": "bbc.com",
-          "tier": "wire"
-        }
-      ],
-      "_via": "rss",
-      "confidence": "high",
-      "_search_count": 1,
-      "_next_search_at": 1773145789.0
-    },
-    {
-      "id": "dd0d46268b72",
-      "datetime": "2026-03-10T11:23:15Z",
-      "type": "impact_minor",
-      "confirmed": true,
-      "precision": "exact",
-      "title": "Drone attack sparks fire at Ruwais industrial complex, Abu Dhabi",
-      "location": "Ruwais, Abu Dhabi",
-      "lat": 24.1072,
-      "lon": 52.7308,
-      "sources": [
-        {
-          "url": "https://gulfnews.com/uae/fire-breaks-out-in-ruwais-complex-in-abu-dhabi-after-drone-attack-1.500469721",
-          "domain": "gulfnews.com",
-          "tier": "local"
-        },
-        {
-          "url": "https://www.khaleejtimes.com/uae/emergencies/fire-breaks-out-in-abu-dhabis-ruwais-industrial-complex-after-drone-attack-2",
-          "domain": "khaleejtimes.com",
-          "tier": "wire"
-        },
-        {
-          "url": "https://www.reuters.com/world/middle-east/fire-hits-site-housing-abu-dhabi-national-oil-company-operations-after-drone-2026-03-10/",
-          "domain": "reuters.com",
-          "tier": "wire"
-        }
-      ],
-      "_via": "rss",
-      "confidence": "low",
-      "_search_count": 2,
-      "_next_search_at": 1773163395.0
-    },
-    {
-      "id": "a3d1d209fe36",
-      "datetime": "2026-03-10T10:37:58Z",
-      "type": "security_alert",
-      "confirmed": true,
-      "precision": "country",
-      "title": "UKMTO: loud bang near vessel 36nm off UAE coast",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/ukmto-reports-loud-bang-near-vessel-36-natuical-miles-uae",
-          "domain": "middleeasteye.net",
-          "tier": "local"
-        },
-        {
-          "url": "https://www.livemint.com/news/world/dubai-abu-dhabi-uae-kuwait-middle-east-gulf-news-live-us-israel-iran-war-oil-price-strait-of-hormuz-latest-news-march-10-11773110004841.html",
-          "domain": "livemint.com",
-          "tier": "wire"
-        },
-        {
-          "url": "https://www.bbc.com/news/live/cd70wzw9vqlt",
-          "domain": "bbc.com",
-          "tier": "wire"
-        }
-      ],
-      "_via": "rss",
-      "confidence": "high",
-      "_search_count": 2,
-      "_next_search_at": 1773160678.0
-    },
     {
       "id": "caf167cf813b",
       "datetime": "2026-03-10T04:22:26Z",
@@ -178,31 +60,95 @@
       "_next_search_at": 1773202946.0
     },
     {
-      "id": "ee962e102628",
-      "datetime": "2026-03-10T02:00:00Z",
-      "type": "impact_major",
+      "id": "0d706451ed8c",
+      "datetime": "2026-03-10T11:29:49Z",
+      "type": "interception",
       "confirmed": true,
-      "precision": "exact",
-      "title": "Security guard killed in Abu Dhabi airport strike",
-      "location": "Zayed International Airport, Abu Dhabi",
-      "lat": 24.433,
-      "lon": 54.651,
+      "precision": "country",
+      "title": "UAE intercepts Iranian attacks",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
       "sources": [
         {
-          "url": "https://www.thenationalnews.com/news/uae/2026/03/10/abu-dhabi-strikes-alerts-nepal-iran/",
-          "domain": "thenationalnews.com",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/uae-qatar-intercept-iranian-attacks",
+          "domain": "middleeasteye.net",
           "tier": "local"
         },
         {
-          "url": "https://www.reuters.com/world/middle-east/iran-fires-missiles-gulf-arab-states-one-killed-abu-dhabi-2026-02-28/",
+          "url": "https://www.bbc.com/news/articles/c4g0pnnj8xyo",
+          "domain": "bbc.com",
+          "tier": "wire"
+        }
+      ],
+      "_via": "rss",
+      "confidence": "high",
+      "_search_count": 1,
+      "_next_search_at": 1773145789.0
+    },
+    {
+      "id": "dd0d46268b72",
+      "datetime": "2026-03-10T11:23:15Z",
+      "type": "impact_minor",
+      "confirmed": true,
+      "precision": "exact",
+      "title": "Drone strike sparks fire at Ruwais industrial complex, Abu Dhabi",
+      "location": "Ruwais, Abu Dhabi",
+      "lat": 24.1072,
+      "lon": 52.7308,
+      "sources": [
+        {
+          "url": "https://gulfnews.com/uae/fire-breaks-out-in-ruwais-complex-in-abu-dhabi-after-drone-attack-1.500469721",
+          "domain": "gulfnews.com",
+          "tier": "local"
+        },
+        {
+          "url": "https://www.khaleejtimes.com/uae/emergencies/fire-breaks-out-in-abu-dhabis-ruwais-industrial-complex-after-drone-attack-2",
+          "domain": "khaleejtimes.com",
+          "tier": "wire"
+        },
+        {
+          "url": "https://www.reuters.com/world/middle-east/fire-hits-site-housing-abu-dhabi-national-oil-company-operations-after-drone-2026-03-10/",
           "domain": "reuters.com",
           "tier": "wire"
         }
       ],
       "_via": "rss",
       "confidence": "high",
-      "_search_count": 3,
-      "_next_search_at": 1773194400.0
+      "_search_count": 2,
+      "_next_search_at": 1773163395.0
+    },
+    {
+      "id": "a3d1d209fe36",
+      "datetime": "2026-03-10T10:37:58Z",
+      "type": "security_alert",
+      "confirmed": true,
+      "precision": "country",
+      "title": "UKMTO: loud bang near vessel 36nm off UAE coast",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/ukmto-reports-loud-bang-near-vessel-36-natuical-miles-uae",
+          "domain": "middleeasteye.net",
+          "tier": "local"
+        },
+        {
+          "url": "https://www.livemint.com/news/world/dubai-abu-dhabi-uae-kuwait-middle-east-gulf-news-live-us-israel-iran-war-oil-price-strait-of-hormuz-latest-news-march-10-11773110004841.html",
+          "domain": "livemint.com",
+          "tier": "wire"
+        },
+        {
+          "url": "https://www.bbc.com/news/live/cd70wzw9vqlt",
+          "domain": "bbc.com",
+          "tier": "wire"
+        }
+      ],
+      "_via": "rss",
+      "confidence": "high",
+      "_search_count": 2,
+      "_next_search_at": 1773160678.0
     },
     {
       "id": "a1b2c3d4e5f6",
