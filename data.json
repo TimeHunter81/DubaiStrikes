@@ -6,7 +6,7 @@
       "id": "aebac9569d59",
       "datetime": "2026-03-10T12:55:35Z",
       "type": "interception",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "UAE: 6 dead, 122 injured — missiles and drones intercepted",
       "location": "UAE",
@@ -17,12 +17,17 @@
           "url": "https://gulfnews.com/uae/six-fatalities-and-122-injuries-reported-as-uae-intercepts-missiles-and-drones-so-far-1.500469852",
           "domain": "gulfnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://www.iranintl.com/en/202603098570",
+          "domain": "iranintl.com",
+          "tier": "wire"
         }
       ],
       "_via": "rss",
       "confidence": "low",
-      "_search_count": 1,
-      "_next_search_at": 1773150935.0
+      "_search_count": 2,
+      "_next_search_at": 1773168935.0
     },
     {
       "id": "dd0d46268b72",
