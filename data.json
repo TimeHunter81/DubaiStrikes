@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-10T19:43:57Z",
+  "last_updated": "2026-03-10T19:50:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -29,7 +29,7 @@
           "tier": "wire"
         },
         {
-          "url": "https://indianexpress.com/article/world/dubai-abu-dhabi-news-live-updates-iran-attack-death-toll-bahrain-10573984/",
+          "url": "https://indianexpress.com/article/world/dubai-abu-dhabi-uae-war-news-live-updates-iran-attack-death-toll-bahrain-10573984/",
           "domain": "indianexpress.com",
           "tier": "wire"
         }
@@ -90,6 +90,27 @@
           "tier": "wire"
         }
       ]
+    },
+    {
+      "id": "dd10a938ff49",
+      "datetime": "2026-03-10T00:00:00Z",
+      "type": "impact_minor",
+      "confirmed": true,
+      "precision": "city",
+      "title": "Drone strike in Abu Dhabi industrial zone — ADMediaOffice confirms",
+      "location": "Abu Dhabi",
+      "lat": 24.1123979,
+      "lon": 52.68253947,
+      "sources": [
+        {
+          "url": "https://x.com/ADMediaOffice/status/2031332643586163042",
+          "domain": "x.com",
+          "tier": "osint"
+        }
+      ],
+      "confidence": 0.85,
+      "_isw_id": 9860,
+      "_via": "isw"
     },
     {
       "id": "a1b2c3d4e5f6",
