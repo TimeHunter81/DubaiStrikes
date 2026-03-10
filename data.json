@@ -1,26 +1,41 @@
 {
-  "last_updated": "2026-03-10T00:14:00Z",
+  "last_updated": "2026-03-10T00:24:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
-      "id": "dfbd31449bfa",
-      "datetime": "2026-03-09T08:10:07Z",
-      "type": "interception",
+      "id": "da3e8fa8324f",
+      "datetime": "2026-03-09T13:18:48Z",
+      "type": "impact_minor",
       "confirmed": true,
-      "precision": "country",
-      "title": "UAE air defence shoots down Iranian drone",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
+      "precision": "neighborhood",
+      "title": "Interception debris strikes Marina Tower, Dubai Marina",
+      "location": "Dubai Marina",
+      "lat": 25.0819,
+      "lon": 55.1367,
       "sources": [
         {
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/3/9/uae-releases-video-of-iranian-drone-interception?traffic_source=rss",
-          "domain": "aljazeera.com",
+          "url": "https://gulfnews.com/uae/bollywood-singer-shweta-subram-applauds-dubais-quick-action-following-debris-incident-at-marina-tower-1.500468584",
+          "domain": "gulfnews.com",
+          "tier": "local"
+        },
+        {
+          "url": "https://www.thenationalnews.com/news/uae/2026/03/08/abu-dhabi-residents-urged-to-shelter-as-uae-faces-further-iran-strikes/",
+          "domain": "thenationalnews.com",
+          "tier": "local"
+        },
+        {
+          "url": "https://www.aa.com.tr/en/middle-east/debris-from-missile-interception-hits-tower-in-dubai-marina-officials-say/3854344",
+          "domain": "aa.com.tr",
           "tier": "wire"
         },
         {
-          "url": "https://apnews.com/video/uae-releases-footage-showing-air-defenses-intercepting-and-destroying-drone-23275da8c04e4a98b2e9ee065cac7c85",
-          "domain": "apnews.com",
+          "url": "https://www.ndtv.com/world-news/iran-war-iran-israel-us-war-dubai-news-smoke-rises-from-tower-in-dubai-marina-as-iran-continues-gulf-attacks-11183521",
+          "domain": "ndtv.com",
+          "tier": "wire"
+        },
+        {
+          "url": "https://www.bbc.com/news/live/ceqvwrydzpqt",
+          "domain": "bbc.com",
           "tier": "wire"
         }
       ],
@@ -28,29 +43,24 @@
       "_via": "rss"
     },
     {
-      "id": "d740428c8076",
-      "datetime": "2026-03-09T10:41:33Z",
+      "id": "3b946ec34405",
+      "datetime": "2026-03-09T11:54:43Z",
       "type": "interception",
       "confirmed": true,
       "precision": "country",
-      "title": "Iran fires 16 ballistic missiles, 117 drones at UAE — intercepted",
+      "title": "UAE intercepts 12 Iranian missiles, 17 drones in new barrage",
       "location": "UAE",
       "lat": null,
       "lon": null,
       "sources": [
         {
-          "url": "https://www.aljazeera.com/news/2026/3/9/reprehensible-new-wave-of-iranian-missiles-drones-target-gulf-nations?traffic_source=rss",
-          "domain": "aljazeera.com",
-          "tier": "wire"
+          "url": "https://gulfnews.com/uae/uae-intercepts-12-iranian-missiles-17-drones-in-todays-attack-1.500468502",
+          "domain": "gulfnews.com",
+          "tier": "local"
         },
         {
-          "url": "https://www.politico.com/news/2026/03/08/uae-says-iran-has-fired-16-ballistic-missiles-and-117-drones-in-new-barrages-00818181",
-          "domain": "politico.com",
-          "tier": "wire"
-        },
-        {
-          "url": "https://www.bbc.com/news/articles/c4g0pnnj8xyo",
-          "domain": "bbc.com",
+          "url": "https://apnews.com/video/uae-releases-footage-showing-air-defenses-intercepting-and-destroying-drone-23275da8c04e4a98b2e9ee065cac7c85",
+          "domain": "apnews.com",
           "tier": "wire"
         }
       ],
@@ -88,24 +98,29 @@
       "_via": "rss"
     },
     {
-      "id": "3b946ec34405",
-      "datetime": "2026-03-09T11:54:43Z",
+      "id": "d740428c8076",
+      "datetime": "2026-03-09T10:41:33Z",
       "type": "interception",
       "confirmed": true,
       "precision": "country",
-      "title": "UAE intercepts 12 Iranian missiles, 17 drones in new barrage",
+      "title": "Iran fires 16 ballistic missiles, 117 drones at UAE — intercepted",
       "location": "UAE",
       "lat": null,
       "lon": null,
       "sources": [
         {
-          "url": "https://gulfnews.com/uae/uae-intercepts-12-iranian-missiles-17-drones-in-todays-attack-1.500468502",
-          "domain": "gulfnews.com",
-          "tier": "local"
+          "url": "https://www.aljazeera.com/news/2026/3/9/reprehensible-new-wave-of-iranian-missiles-drones-target-gulf-nations?traffic_source=rss",
+          "domain": "aljazeera.com",
+          "tier": "wire"
         },
         {
-          "url": "https://apnews.com/video/uae-releases-footage-showing-air-defenses-intercepting-and-destroying-drone-23275da8c04e4a98b2e9ee065cac7c85",
-          "domain": "apnews.com",
+          "url": "https://www.politico.com/news/2026/03/08/uae-says-iran-has-fired-16-ballistic-missiles-and-117-drones-in-new-barrages-00818181",
+          "domain": "politico.com",
+          "tier": "wire"
+        },
+        {
+          "url": "https://www.bbc.com/news/articles/c4g0pnnj8xyo",
+          "domain": "bbc.com",
           "tier": "wire"
         }
       ],
@@ -113,39 +128,24 @@
       "_via": "rss"
     },
     {
-      "id": "da3e8fa8324f",
-      "datetime": "2026-03-09T13:18:48Z",
-      "type": "impact_minor",
+      "id": "dfbd31449bfa",
+      "datetime": "2026-03-09T08:10:07Z",
+      "type": "interception",
       "confirmed": true,
-      "precision": "neighborhood",
-      "title": "Interception debris strikes Marina Tower, Dubai Marina",
-      "location": "Dubai Marina",
-      "lat": 25.0819,
-      "lon": 55.1367,
+      "precision": "country",
+      "title": "UAE air defence shoots down Iranian drone",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
       "sources": [
         {
-          "url": "https://gulfnews.com/uae/bollywood-singer-shweta-subram-applauds-dubais-quick-action-following-debris-incident-at-marina-tower-1.500468584",
-          "domain": "gulfnews.com",
-          "tier": "local"
-        },
-        {
-          "url": "https://www.thenationalnews.com/news/uae/2026/03/08/abu-dhabi-residents-urged-to-shelter-as-uae-faces-further-iran-strikes/",
-          "domain": "thenationalnews.com",
-          "tier": "local"
-        },
-        {
-          "url": "https://www.aa.com.tr/en/middle-east/debris-from-missile-interception-hits-tower-in-dubai-marina-officials-say/3854344",
-          "domain": "aa.com.tr",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/3/9/uae-releases-video-of-iranian-drone-interception?traffic_source=rss",
+          "domain": "aljazeera.com",
           "tier": "wire"
         },
         {
-          "url": "https://www.ndtv.com/world-news/iran-war-iran-israel-us-war-dubai-news-smoke-rises-from-tower-in-dubai-marina-as-iran-continues-gulf-attacks-11183521",
-          "domain": "ndtv.com",
-          "tier": "wire"
-        },
-        {
-          "url": "https://www.bbc.com/news/live/ceqvwrydzpqt",
-          "domain": "bbc.com",
+          "url": "https://apnews.com/video/uae-releases-footage-showing-air-defenses-intercepting-and-destroying-drone-23275da8c04e4a98b2e9ee065cac7c85",
+          "domain": "apnews.com",
           "tier": "wire"
         }
       ],
