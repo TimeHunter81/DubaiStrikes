@@ -1,34 +1,7 @@
 {
-  "last_updated": "2026-03-10T13:10:44Z",
+  "last_updated": "2026-03-10T13:17:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
-    {
-      "id": "0d706451ed8c",
-      "datetime": "2026-03-10T11:29:49Z",
-      "type": "interception",
-      "confirmed": true,
-      "precision": "country",
-      "title": "UAE intercepts Iranian missile/drone attacks",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/uae-qatar-intercept-iranian-attacks",
-          "domain": "middleeasteye.net",
-          "tier": "local"
-        },
-        {
-          "url": "https://www.bbc.com/news/articles/c4g0pnnj8xyo",
-          "domain": "bbc.com",
-          "tier": "wire"
-        }
-      ],
-      "_via": "rss",
-      "confidence": "high",
-      "_search_count": 1,
-      "_next_search_at": 1773145789.0
-    },
     {
       "id": "dd0d46268b72",
       "datetime": "2026-03-10T11:23:15Z",
@@ -60,6 +33,33 @@
       "confidence": "high",
       "_search_count": 2,
       "_next_search_at": 1773163395.0
+    },
+    {
+      "id": "0d706451ed8c",
+      "datetime": "2026-03-10T11:23:15Z",
+      "type": "interception",
+      "confirmed": true,
+      "precision": "country",
+      "title": "UAE intercepts Iranian missile/drone attacks",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/uae-qatar-intercept-iranian-attacks",
+          "domain": "middleeasteye.net",
+          "tier": "local"
+        },
+        {
+          "url": "https://www.bbc.com/news/articles/c4g0pnnj8xyo",
+          "domain": "bbc.com",
+          "tier": "wire"
+        }
+      ],
+      "_via": "rss",
+      "confidence": "high",
+      "_search_count": 1,
+      "_next_search_at": 1773145789.0
     },
     {
       "id": "a3d1d209fe36",
