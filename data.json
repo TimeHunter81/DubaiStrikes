@@ -1,14 +1,34 @@
 {
-  "last_updated": "2026-03-10T11:34:00Z",
+  "last_updated": "2026-03-10T11:45:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
+    {
+      "id": "0d706451ed8c",
+      "datetime": "2026-03-10T11:29:49Z",
+      "type": "interception",
+      "confirmed": false,
+      "precision": "country",
+      "title": "UAE and Qatar intercept Iranian attacks",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/uae-qatar-intercept-iranian-attacks",
+          "domain": "middleeasteye.net",
+          "tier": "local"
+        }
+      ],
+      "_via": "rss",
+      "confidence": "low"
+    },
     {
       "id": "dd0d46268b72",
       "datetime": "2026-03-10T11:23:15Z",
       "type": "impact_minor",
-      "confirmed": true,
-      "precision": "city",
-      "title": "Fire at Ruwais industrial complex, Abu Dhabi, after drone attack",
+      "confirmed": false,
+      "precision": "exact",
+      "title": "Drone attack sparks fire at Ruwais industrial complex, Abu Dhabi",
       "location": "Ruwais, Abu Dhabi",
       "lat": 24.1072,
       "lon": 52.7308,
