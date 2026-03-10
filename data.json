@@ -1,14 +1,14 @@
 {
-  "last_updated": "2026-03-10T04:39:00Z",
+  "last_updated": "2026-03-10T04:52:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
       "id": "58de132b1a3b",
       "datetime": "2026-03-10T04:22:26Z",
       "type": "security_alert",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "city",
-      "title": "UAE residents receive emergency missile threat alert",
+      "title": "UAE missile threat: Abu Dhabi residents ordered to shelter",
       "location": "Abu Dhabi, UAE",
       "lat": 24.4539,
       "lon": 54.3773,
@@ -25,9 +25,32 @@
         }
       ],
       "_via": "rss",
-      "confidence": "low",
-      "_search_count": 1,
-      "_next_search_at": 1773120146.0
+      "confidence": "low"
+    },
+    {
+      "id": "3b946ec34405",
+      "datetime": "2026-03-09T11:54:43Z",
+      "type": "interception",
+      "confirmed": true,
+      "precision": "country",
+      "title": "UAE intercepts 12 Iranian missiles, 17 drones in new barrage",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://gulfnews.com/uae/uae-intercepts-12-iranian-missiles-17-drones-in-todays-attack-1.500468502",
+          "domain": "gulfnews.com",
+          "tier": "local"
+        },
+        {
+          "url": "https://apnews.com/video/uae-releases-footage-showing-air-defenses-intercepting-and-destroying-drone-23275da8c04e4a98b2e9ee065cac7c85",
+          "domain": "apnews.com",
+          "tier": "wire"
+        }
+      ],
+      "confidence": "high",
+      "_via": "rss"
     },
     {
       "id": "da3e8fa8324f",
@@ -68,31 +91,6 @@
       ],
       "_via": "rss",
       "confidence": "high"
-    },
-    {
-      "id": "3b946ec34405",
-      "datetime": "2026-03-09T11:54:43Z",
-      "type": "interception",
-      "confirmed": true,
-      "precision": "country",
-      "title": "UAE intercepts 12 Iranian missiles, 17 drones in new barrage",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://gulfnews.com/uae/uae-intercepts-12-iranian-missiles-17-drones-in-todays-attack-1.500468502",
-          "domain": "gulfnews.com",
-          "tier": "local"
-        },
-        {
-          "url": "https://apnews.com/video/uae-releases-footage-showing-air-defenses-intercepting-and-destroying-drone-23275da8c04e4a98b2e9ee065cac7c85",
-          "domain": "apnews.com",
-          "tier": "wire"
-        }
-      ],
-      "confidence": "high",
-      "_via": "rss"
     },
     {
       "id": "f564a847c75e",
