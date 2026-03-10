@@ -1,61 +1,31 @@
 {
-  "last_updated": "2026-03-10T16:10:00Z",
+  "last_updated": "2026-03-10T16:18:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
-      "id": "caf167cf813b",
-      "datetime": "2026-03-10T04:22:26Z",
-      "type": "interception",
+      "id": "aebac9569d59",
+      "datetime": "2026-03-10T12:55:35Z",
+      "type": "impact_major",
       "confirmed": true,
       "precision": "country",
-      "title": "Iran launches missiles and drones at UAE — emergency alerts issued",
+      "title": "UAE: 6 dead, 122 injured in missile and drone barrage",
       "location": "UAE",
       "lat": null,
       "lon": null,
       "sources": [
         {
-          "url": "https://gulfnews.com/uae/uae-residents-get-emergency-alert-over-missile-threat-2-1.500469259",
+          "url": "https://gulfnews.com/uae/six-fatalities-and-122-injuries-reported-as-uae-intercepts-missiles-and-drones-so-far-1.500469852",
           "domain": "gulfnews.com",
           "tier": "local"
         },
         {
-          "url": "https://www.aljazeera.com/news/2026/3/9/reprehensible-new-wave-of-iranian-missiles-drones-target-gulf-nations",
+          "url": "https://www.iranintl.com/en/202603098570",
+          "domain": "iranintl.com",
+          "tier": "wire"
+        },
+        {
+          "url": "https://www.aljazeera.com/news/2026/3/10/woman-killed-in-bahrain-as-other-gulf-states-intercept-iranian-missiles",
           "domain": "aljazeera.com",
-          "tier": "wire"
-        },
-        {
-          "url": "https://www.bbc.com/news/articles/c204px4zddro",
-          "domain": "bbc.com",
-          "tier": "wire"
-        }
-      ],
-      "_via": "rss",
-      "confidence": "high"
-    },
-    {
-      "id": "a3d1d209fe36",
-      "datetime": "2026-03-10T10:37:58Z",
-      "type": "impact_minor",
-      "confirmed": true,
-      "precision": "country",
-      "title": "UKMTO: explosion near vessel 36nm off UAE coast",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/ukmto-reports-loud-bang-near-vessel-36-natuical-miles-uae",
-          "domain": "middleeasteye.net",
-          "tier": "local"
-        },
-        {
-          "url": "https://www.livemint.com/news/world/dubai-abu-dhabi-uae-kuwait-middle-east-gulf-news-live-updates-us-israel-iran-war-oil-price-strait-of-hormuz-latest-news-march-10-11773110004841.html",
-          "domain": "livemint.com",
-          "tier": "wire"
-        },
-        {
-          "url": "https://www.bbc.com/news/live/cd70wzw9vqlt",
-          "domain": "bbc.com",
           "tier": "wire"
         }
       ],
@@ -118,29 +88,59 @@
       "confidence": "high"
     },
     {
-      "id": "aebac9569d59",
-      "datetime": "2026-03-10T12:55:35Z",
-      "type": "impact_major",
+      "id": "a3d1d209fe36",
+      "datetime": "2026-03-10T10:37:58Z",
+      "type": "impact_minor",
       "confirmed": true,
       "precision": "country",
-      "title": "UAE: 6 dead, 122 injured in missile and drone barrage",
+      "title": "UKMTO: explosion near vessel 36nm off UAE coast",
       "location": "UAE",
       "lat": null,
       "lon": null,
       "sources": [
         {
-          "url": "https://gulfnews.com/uae/six-fatalities-and-122-injuries-reported-as-uae-intercepts-missiles-and-drones-so-far-1.500469852",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/ukmto-reports-loud-bang-near-vessel-36-natuical-miles-uae",
+          "domain": "middleeasteye.net",
+          "tier": "local"
+        },
+        {
+          "url": "https://www.livemint.com/news/world/dubai-abu-dhabi-uae-kuwait-middle-east-gulf-news-live-updates-us-israel-iran-war-oil-price-strait-of-hormuz-latest-news-march-10-11773110004841.html",
+          "domain": "livemint.com",
+          "tier": "wire"
+        },
+        {
+          "url": "https://www.bbc.com/news/live/cd70wzw9vqlt",
+          "domain": "bbc.com",
+          "tier": "wire"
+        }
+      ],
+      "_via": "rss",
+      "confidence": "high"
+    },
+    {
+      "id": "caf167cf813b",
+      "datetime": "2026-03-10T04:22:26Z",
+      "type": "interception",
+      "confirmed": true,
+      "precision": "country",
+      "title": "Iran launches missiles and drones at UAE — emergency alerts issued",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://gulfnews.com/uae/uae-residents-get-emergency-alert-over-missile-threat-2-1.500469259",
           "domain": "gulfnews.com",
           "tier": "local"
         },
         {
-          "url": "https://www.iranintl.com/en/202603098570",
-          "domain": "iranintl.com",
+          "url": "https://www.aljazeera.com/news/2026/3/9/reprehensible-new-wave-of-iranian-missiles-drones-target-gulf-nations",
+          "domain": "aljazeera.com",
           "tier": "wire"
         },
         {
-          "url": "https://www.aljazeera.com/news/2026/3/10/woman-killed-in-bahrain-as-other-gulf-states-intercept-iranian-missiles",
-          "domain": "aljazeera.com",
+          "url": "https://www.bbc.com/news/articles/c204px4zddro",
+          "domain": "bbc.com",
           "tier": "wire"
         }
       ],
