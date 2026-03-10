@@ -1,15 +1,15 @@
 {
-  "last_updated": "2026-03-10T13:50:40Z",
+  "last_updated": "2026-03-10T14:04:39Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
       "id": "aebac9569d59",
       "datetime": "2026-03-10T12:55:35Z",
       "type": "interception",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "country",
-      "title": "UAE: 6 dead, 122 injured — missiles and drones intercepted so far",
-      "location": "Uae",
+      "title": "UAE: 6 dead, 122 injured — missiles and drones intercepted",
+      "location": "UAE",
       "lat": null,
       "lon": null,
       "sources": [
