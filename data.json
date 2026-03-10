@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-10T17:52:45Z",
+  "last_updated": "2026-03-10T17:59:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -80,36 +80,6 @@
         },
         {
           "url": "https://www.bbc.com/news/articles/c4g0pnnj8xyo",
-          "domain": "bbc.com",
-          "tier": "wire"
-        }
-      ],
-      "_via": "rss",
-      "confidence": "high"
-    },
-    {
-      "id": "a3d1d209fe36",
-      "datetime": "2026-03-10T10:37:58Z",
-      "type": "impact_minor",
-      "confirmed": true,
-      "precision": "country",
-      "title": "UKMTO: explosion near vessel 36nm off UAE coast",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/ukmto-reports-loud-bang-near-vessel-36-natuical-miles-uae",
-          "domain": "middleeasteye.net",
-          "tier": "local"
-        },
-        {
-          "url": "https://www.livemint.com/news/world/dubai-abu-dhabi-uae-kuwait-middle-east-gulf-news-live-updates-us-israel-iran-war-oil-price-strait-of-hormuz-latest-news-march-10-11773110004841.html",
-          "domain": "livemint.com",
-          "tier": "wire"
-        },
-        {
-          "url": "https://www.bbc.com/news/live/cd70wzw9vqlt",
           "domain": "bbc.com",
           "tier": "wire"
         }
