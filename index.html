@@ -26,7 +26,9 @@
     #card-preview img { width: 100%; height: 150px; object-fit: cover; display: none; }
     #preview-meta { padding: 8px 10px; }
     #preview-domain { font-size: 9px; color: #607a96; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 3px; }
-    #preview-title { font-size: 11px; color: #d4e0f0; line-height: 1.4; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+    #preview-title { font-size: 11px; color: #d4e0f0; line-height: 1.4; font-weight: 500; margin-bottom: 4px; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+    #preview-snippet { font-size: 10px; color: #7a94b0; line-height: 1.45; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+    #preview-favicon { width: 16px; height: 16px; display: none; vertical-align: middle; margin-right: 4px; border-radius: 3px; }
     .ic { width: 13px; height: 13px; display: inline-block; vertical-align: middle; flex-shrink: 0; }
     .ic-sm { width: 11px; height: 11px; }
     .ic-md { width: 15px; height: 15px; }
@@ -570,8 +572,9 @@
   <div id="card-preview">
     <img id="preview-img" alt="" />
     <div id="preview-meta">
-      <div id="preview-domain"></div>
+      <div id="preview-domain"><img id="preview-favicon" alt="" /><span id="preview-domain-text"></span></div>
       <div id="preview-title"></div>
+      <div id="preview-snippet"></div>
     </div>
   </div>
 
@@ -777,6 +780,62 @@
 
   // ─── STATE ─────────────────────────────────────────────────────────────
   let allEvents    = [];
+  let _eventsById  = {};
+
+  // ─── CARD PREVIEW ─────────────────────────────────────────────────────
+  let _previewTimer = null;
+  function showCardPreview(id, el) {
+    if (window.innerWidth <= 700) return;  // mobile: no hover card
+    clearTimeout(_previewTimer);
+    _previewTimer = setTimeout(() => {
+      const e = _eventsById[id];
+      if (!e) return;
+
+      const pv       = document.getElementById('card-preview');
+      const pvImg    = document.getElementById('preview-img');
+      const pvFav    = document.getElementById('preview-favicon');
+      const pvDomain = document.getElementById('preview-domain-text');
+      const pvTitle  = document.getElementById('preview-title');
+      const pvSnip   = document.getElementById('preview-snippet');
+
+      // Domain from first source
+      const domain = (e.sources && e.sources[0]) ? e.sources[0].domain : '';
+      pvDomain.textContent = domain;
+
+      // Favicon (always available)
+      if (domain) {
+        pvFav.src = `https://www.google.com/s2/favicons?sz=32&domain=${domain}`;
+        pvFav.style.display = 'inline-block';
+      } else {
+        pvFav.style.display = 'none';
+      }
+
+      // Hero image
+      if (e.preview_image) {
+        pvImg.src = e.preview_image;
+        pvImg.style.display = 'block';
+        pvImg.onerror = () => { pvImg.style.display = 'none'; };
+      } else {
+        pvImg.style.display = 'none';
+        pvImg.src = '';
+      }
+
+      pvTitle.textContent = e.title || '';
+      pvSnip.textContent  = e.snippet || '';
+      pvSnip.style.display = e.snippet ? 'block' : 'none';
+
+      // Position: right of sidebar, vertically near the hovered card
+      const rect = el.getBoundingClientRect();
+      const top  = Math.min(Math.max(rect.top, 8), window.innerHeight - 260);
+      pv.style.top  = top + 'px';
+      pv.style.display = 'block';
+    }, 180);
+  }
+
+  function hideCardPreview() {
+    clearTimeout(_previewTimer);
+    document.getElementById('card-preview').style.display = 'none';
+  }
   let userLocs     = [];
   let eventMarkers = [];
   let filterType   = 'all';
@@ -1516,6 +1575,8 @@
       window._lastDataUpdated = newLastUpdated;
       window._lastDataUpdatedMs = newLastUpdated ? new Date(newLastUpdated).getTime() : Date.now();
       allEvents = data.events || [];
+      _eventsById = {};
+      allEvents.forEach(e => { if (e.id) _eventsById[e.id] = e; });
       const upd = newLastUpdated ? relTimeShort(newLastUpdated) : '—';
       document.getElementById('last-updated').textContent = 'Updated ' + upd;
       updateStatus(allEvents);

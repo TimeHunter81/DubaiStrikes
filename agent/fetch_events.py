@@ -175,6 +175,20 @@ def compute_event_id(title: str, date: str) -> str:
     return h[:12]
 
 
+def fetch_og_image(url: str) -> str | None:
+    """Fetch og:image URL from article page. Server-side — no CORS. Best-effort (5s timeout)."""
+    try:
+        req = Request(url, headers={"User-Agent": "Mozilla/5.0 DubaiStrikeMonitor/1.0"})
+        with urlopen(req, timeout=5) as resp:
+            html = resp.read(65536).decode("utf-8", errors="replace")  # first 64KB covers <head>
+        m = (re.search(r'<meta[^>]+property=["\']og:image["\'][^>]+content=["\']([^"\']+)["\']', html, re.IGNORECASE)
+             or re.search(r'<meta[^>]+content=["\']([^"\']+)["\'][^>]+property=["\']og:image["\']', html, re.IGNORECASE))
+        img = m.group(1).strip() if m else None
+        return img if img and img.startswith("http") else None
+    except Exception:
+        return None
+
+
 def compute_confidence(sources: list) -> str:
     tiers = [s["tier"] for s in sources]
     if "official" in tiers or (tiers.count("wire") >= 1 and len(sources) >= 2):
@@ -264,18 +278,22 @@ def rss_articles_to_events(articles: list) -> list:
 
         if eid not in events:
             loc_name, lat, lon, precision = extract_location(title, art.get("description", ""))
+            snippet = (art.get("description") or "").strip()[:250] or None
+            preview_image = fetch_og_image(art["url"])
             events[eid] = {
-                "id":        eid,
-                "datetime":  art["datetime"],
-                "type":      "security_alert",
-                "confirmed": art["tier"] in ("wire", "official"),
-                "precision": precision,
-                "title":     title,
-                "location":  loc_name,
-                "lat":       lat if precision != "country" else None,
-                "lon":       lon if precision != "country" else None,
-                "sources":   [],
-                "_via":      "rss",
+                "id":            eid,
+                "datetime":      art["datetime"],
+                "type":          "security_alert",
+                "confirmed":     art["tier"] in ("wire", "official"),
+                "precision":     precision,
+                "title":         title,
+                "location":      loc_name,
+                "lat":           lat if precision != "country" else None,
+                "lon":           lon if precision != "country" else None,
+                "sources":       [],
+                "snippet":       snippet,
+                "preview_image": preview_image,
+                "_via":          "rss",
             }
 
         src = {"url": art["url"], "domain": art["domain"], "tier": art["tier"]}
@@ -421,19 +439,23 @@ def cluster_articles(articles: list) -> list:
 
         if eid not in events:
             loc_name, lat, lon, precision = extract_location(title, art.get("socialimage", ""))
+            preview_image = art.get("socialimage") or None
+            if preview_image and not preview_image.startswith("http"):
+                preview_image = None
             events[eid] = {
-                "id": eid,
-                "datetime": date_str,
-                "type": "security_alert",   # GDELT default; can be refined
-                "confirmed": False,
-                "precision": precision,
-                "title": title,
-                "location": loc_name,
-                "lat": lat if precision != "country" else None,
-                "lon": lon if precision != "country" else None,
-                "sources": [],
-                "confidence": "unverified",
-                "_via": "gdelt",
+                "id":            eid,
+                "datetime":      date_str,
+                "type":          "security_alert",   # GDELT default; can be refined
+                "confirmed":     False,
+                "precision":     precision,
+                "title":         title,
+                "location":      loc_name,
+                "lat":           lat if precision != "country" else None,
+                "lon":           lon if precision != "country" else None,
+                "sources":       [],
+                "confidence":    "unverified",
+                "preview_image": preview_image,
+                "_via":          "gdelt",
             }
 
         src = {"url": url, "domain": domain, "tier": tier}
