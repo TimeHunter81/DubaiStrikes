@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-10T03:38:00Z",
+  "last_updated": "2026-03-10T03:49:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -68,36 +68,6 @@
       "_via": "rss"
     },
     {
-      "id": "d740428c8076",
-      "datetime": "2026-03-09T10:41:33Z",
-      "type": "interception",
-      "confirmed": true,
-      "precision": "country",
-      "title": "Iran fires 16 ballistic missiles, 117 drones at UAE — intercepted",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.aljazeera.com/news/2026/3/9/reprehensible-new-wave-of-iranian-missiles-drones-target-gulf-nations?traffic_source=rss",
-          "domain": "aljazeera.com",
-          "tier": "wire"
-        },
-        {
-          "url": "https://www.politico.com/news/2026/03/08/uae-says-iran-has-fired-16-ballistic-missiles-and-117-drones-in-new-barrages-00818181",
-          "domain": "politico.com",
-          "tier": "wire"
-        },
-        {
-          "url": "https://www.bbc.com/news/articles/c4g0pnnj8xyo",
-          "domain": "bbc.com",
-          "tier": "wire"
-        }
-      ],
-      "confidence": "high",
-      "_via": "rss"
-    },
-    {
       "id": "f564a847c75e",
       "datetime": "2026-03-09T10:44:38Z",
       "type": "impact_major",
@@ -120,6 +90,36 @@
         },
         {
           "url": "https://www.bbc.com/news/live/ceqvwrydzpqt?page=2",
+          "domain": "bbc.com",
+          "tier": "wire"
+        }
+      ],
+      "confidence": "high",
+      "_via": "rss"
+    },
+    {
+      "id": "d740428c8076",
+      "datetime": "2026-03-09T10:41:33Z",
+      "type": "interception",
+      "confirmed": true,
+      "precision": "country",
+      "title": "Iran fires 16 ballistic missiles, 117 drones at UAE — intercepted",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.aljazeera.com/news/2026/3/9/reprehensible-new-wave-of-iranian-missiles-drones-target-gulf-nations?traffic_source=rss",
+          "domain": "aljazeera.com",
+          "tier": "wire"
+        },
+        {
+          "url": "https://www.politico.com/news/2026/03/08/uae-says-iran-has-fired-16-ballistic-missiles-and-117-drones-in-new-barrages-00818181",
+          "domain": "politico.com",
+          "tier": "wire"
+        },
+        {
+          "url": "https://www.bbc.com/news/articles/c4g0pnnj8xyo",
           "domain": "bbc.com",
           "tier": "wire"
         }
