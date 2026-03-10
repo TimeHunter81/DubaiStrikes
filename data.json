@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-10T21:54:39Z",
+  "last_updated": "2026-03-10T22:03:46Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -105,8 +105,8 @@
       "precision": "city",
       "title": "Strike confirmed in Abu Dhabi area (Abu Dhabi Media Office)",
       "location": "Abu Dhabi",
-      "lat": 24.1123979,
-      "lon": 52.68253947,
+      "lat": 24.4539,
+      "lon": 54.3773,
       "sources": [
         {
           "url": "https://x.com/ADMediaOffice/status/2031332643586163042",
