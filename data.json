@@ -6,7 +6,7 @@
       "id": "aebac9569d59",
       "datetime": "2026-03-10T12:55:35Z",
       "type": "interception",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "UAE: 6 dead, 122 injured — missiles and drones intercepted so far",
       "location": "Uae",
@@ -20,7 +20,9 @@
         }
       ],
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1773150935.0
     },
     {
       "id": "dd0d46268b72",
