@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-10T08:13:00Z",
+  "last_updated": "2026-03-10T08:25:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -87,6 +87,31 @@
       "_next_search_at": 1773194400.0
     },
     {
+      "id": "3b946ec34405",
+      "datetime": "2026-03-09T11:54:43Z",
+      "type": "interception",
+      "confirmed": true,
+      "precision": "country",
+      "title": "UAE intercepts 12 Iranian missiles, 17 drones in new barrage",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://gulfnews.com/uae/uae-intercepts-12-iranian-missiles-17-drones-in-todays-attack-1.500468502",
+          "domain": "gulfnews.com",
+          "tier": "local"
+        },
+        {
+          "url": "https://apnews.com/video/uae-releases-footage-showing-air-defenses-intercepting-and-destroying-drone-23275da8c04e4a98b2e9ee065cac7c85",
+          "domain": "apnews.com",
+          "tier": "wire"
+        }
+      ],
+      "confidence": "high",
+      "_via": "rss"
+    },
+    {
       "id": "da3e8fa8324f",
       "datetime": "2026-03-09T13:18:48Z",
       "type": "impact_minor",
@@ -125,61 +150,6 @@
       ],
       "_via": "rss",
       "confidence": "high"
-    },
-    {
-      "id": "3b946ec34405",
-      "datetime": "2026-03-09T11:54:43Z",
-      "type": "interception",
-      "confirmed": true,
-      "precision": "country",
-      "title": "UAE intercepts 12 Iranian missiles, 17 drones in new barrage",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://gulfnews.com/uae/uae-intercepts-12-iranian-missiles-17-drones-in-todays-attack-1.500468502",
-          "domain": "gulfnews.com",
-          "tier": "local"
-        },
-        {
-          "url": "https://apnews.com/video/uae-releases-footage-showing-air-defenses-intercepting-and-destroying-drone-23275da8c04e4a98b2e9ee065cac7c85",
-          "domain": "apnews.com",
-          "tier": "wire"
-        }
-      ],
-      "confidence": "high",
-      "_via": "rss"
-    },
-    {
-      "id": "f564a847c75e",
-      "datetime": "2026-03-09T10:44:38Z",
-      "type": "impact_major",
-      "confirmed": true,
-      "precision": "neighborhood",
-      "title": "Interception debris kills 1 in Al-Barsha, Dubai",
-      "location": "Al-Barsha, Dubai",
-      "lat": 25.1198,
-      "lon": 55.1897,
-      "sources": [
-        {
-          "url": "https://gulfnews.com/uae/pakistani-envoy-meets-victims-of-blatant-iranian-aggressio-1.500468398",
-          "domain": "gulfnews.com",
-          "tier": "local"
-        },
-        {
-          "url": "https://economictimes.indiatimes.com/news/international/global-trends/dubai-one-killed-after-debris-from-aerial-interception-falls-on-vehicle-in-al-barsha-area/articleshow/129245475.cms",
-          "domain": "economictimes.indiatimes.com",
-          "tier": "wire"
-        },
-        {
-          "url": "https://www.bbc.com/news/live/ceqvwrydzpqt?page=2",
-          "domain": "bbc.com",
-          "tier": "wire"
-        }
-      ],
-      "confidence": "high",
-      "_via": "rss"
     },
     {
       "id": "a1b2c3d4e5f6",
