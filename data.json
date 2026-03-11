@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-10T23:52:00Z",
+  "last_updated": "2026-03-11T00:00:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -8,7 +8,7 @@
       "type": "impact_major",
       "confirmed": true,
       "precision": "country",
-      "title": "UAE: 6 dead, 122 injured in missile and drone barrage",
+      "title": "UAE: 6 dead, 122 injured in Iranian missile and drone barrage",
       "location": "UAE",
       "lat": null,
       "lon": null,
@@ -55,7 +55,7 @@
       "type": "impact_minor",
       "confirmed": true,
       "precision": "exact",
-      "title": "Drone strike sparks fire at Ruwais ADNOC complex",
+      "title": "Drone strike sparks fire at Ruwais ADNOC refinery complex",
       "location": "Ruwais, Abu Dhabi",
       "lat": 24.1072,
       "lon": 52.7308,
@@ -116,8 +116,8 @@
       "type": "impact_minor",
       "confirmed": true,
       "location": "Abu Dhabi",
-      "lat": 24.1123979,
-      "lon": 52.68253947,
+      "lat": 24.1124,
+      "lon": 52.6825,
       "precision": "city",
       "sources": [
         {
@@ -126,7 +126,7 @@
           "tier": "osint"
         }
       ],
-      "confidence": 0.85,
+      "confidence": "low",
       "_isw_id": 11350,
       "_via": "isw",
       "_next_search_at": 0,
