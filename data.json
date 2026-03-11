@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-11T03:02:00Z",
+  "last_updated": "2026-03-11T03:15:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -24,10 +24,8 @@
           "tier": "wire"
         }
       ],
-      "snippet": null,
-      "preview_image": null,
-      "_via": "rss",
-      "confidence": "high"
+      "confidence": "high",
+      "_via": "rss"
     },
     {
       "id": "aebac9569d59",
@@ -92,6 +90,31 @@
       "_via": "rss"
     },
     {
+      "id": "0d706451ed8c",
+      "datetime": "2026-03-10T11:23:15Z",
+      "type": "interception",
+      "confirmed": true,
+      "precision": "country",
+      "title": "UAE intercepts Iranian missiles and drones overnight",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.bbc.com/news/articles/c4g0pnnj8xyo",
+          "domain": "bbc.com",
+          "tier": "wire"
+        },
+        {
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/uae-qatar-intercept-iranian-attacks",
+          "domain": "middleeasteye.net",
+          "tier": "local"
+        }
+      ],
+      "confidence": "high",
+      "_via": "rss"
+    },
+    {
       "id": "dd0d46268b72",
       "datetime": "2026-03-10T11:23:15Z",
       "type": "impact_minor",
@@ -120,31 +143,6 @@
         {
           "url": "https://www.thenationalnews.com/business/energy/2026/03/10/fire-breaks-out-at-al-ruwais-refinery-in-uae-after-drone-strike/",
           "domain": "thenationalnews.com",
-          "tier": "local"
-        }
-      ],
-      "confidence": "high",
-      "_via": "rss"
-    },
-    {
-      "id": "0d706451ed8c",
-      "datetime": "2026-03-10T11:23:15Z",
-      "type": "interception",
-      "confirmed": true,
-      "precision": "country",
-      "title": "UAE intercepts Iranian missiles and drones overnight",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.bbc.com/news/articles/c4g0pnnj8xyo",
-          "domain": "bbc.com",
-          "tier": "wire"
-        },
-        {
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/uae-qatar-intercept-iranian-attacks",
-          "domain": "middleeasteye.net",
           "tier": "local"
         }
       ],
