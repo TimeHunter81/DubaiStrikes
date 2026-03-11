@@ -6,7 +6,7 @@
       "id": "42d7b49c91f6",
       "datetime": "2026-03-11T18:31:58Z",
       "type": "interception",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "UAE air defences intercept missiles and drones amid Iranian attack",
       "location": "UAE",
@@ -17,14 +17,19 @@
           "url": "https://gulfnews.com/uae/uae-air-defences-intercepted-missiles-drones-amid-iranian-attack-1.500471433",
           "domain": "gulfnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://www.reuters.com/world/middle-east/iranian-missiles-drones-fired-gulf-countries-2026-03-10/",
+          "domain": "reuters.com",
+          "tier": "wire"
         }
       ],
       "snippet": null,
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-11%2F8rv2f97e%2FDubaiskyline2026?rect=0%2C85%2C1200%2C630&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
       "_via": "rss",
       "confidence": "low",
-      "_search_count": 1,
-      "_next_search_at": 1773257518.0
+      "_search_count": 2,
+      "_next_search_at": 1773275518.0
     },
     {
       "id": "3dcd652b31db",
@@ -123,7 +128,7 @@
       "title": "Strike reported in Dubai (ISW/OSINT)",
       "datetime": "2026-03-11T00:00:00Z",
       "type": "impact_minor",
-      "confirmed": false,
+      "confirmed": true,
       "location": "Dubai",
       "lat": 25.24288162,
       "lon": 55.35463101,
@@ -138,13 +143,18 @@
           "url": "https://x.com/IranIntl/status/2031638244790501593",
           "domain": "x.com",
           "tier": "osint"
+        },
+        {
+          "url": "https://www.reuters.com/world/middle-east/two-drones-fall-vicinity-dubai-airport-iran-crisis-shows-no-sign-easing-2026-03-11/",
+          "domain": "reuters.com",
+          "tier": "wire"
         }
       ],
       "confidence": 0.85,
       "_isw_id": 12068,
       "_via": "isw",
-      "_next_search_at": 0,
-      "_search_count": 0
+      "_next_search_at": 1773190800.0,
+      "_search_count": 1
     },
     {
       "id": "780a01b87f72",
