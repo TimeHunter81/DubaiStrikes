@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-11T02:42:00Z",
+  "last_updated": "2026-03-11T02:54:14Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -70,7 +70,7 @@
       "type": "impact_minor",
       "confirmed": true,
       "precision": "exact",
-      "title": "Fire at Ruwais complex after drone strike",
+      "title": "Fire at Ruwais ADNOC complex after drone strike",
       "location": "Ruwais, Abu Dhabi",
       "lat": 24.1072,
       "lon": 52.7308,
