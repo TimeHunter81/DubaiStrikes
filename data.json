@@ -125,7 +125,7 @@
       "id": "c26a7d615014",
       "datetime": "2026-03-11T02:27:40Z",
       "type": "impact_minor",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "exact",
       "title": "Two Iranian drones strike Dubai airport area — 4 injured",
       "location": "Dubai",
@@ -136,12 +136,19 @@
           "url": "https://www.thenationalnews.com/news/mena/2026/03/10/live-iran-war-us-israel-uae-missile-attacks/",
           "domain": "thenationalnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://www.reuters.com/world/middle-east/two-drones-fall-vicinity-dubai-airport-iran-crisis-shows-no-sign-easing-2026-03-11/",
+          "domain": "reuters.com",
+          "tier": "wire"
         }
       ],
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/GFQX2RXE6KM6H6BFJUNRVNX7EA.jpg?smart=true&auth=f9f92fac28854d65fe232a9e5fbf889dfd3521143aa38764c92fe248b0c5db9b&width=1200&height=630",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1773199660.0
     },
     {
       "id": "074bfd429b87",
