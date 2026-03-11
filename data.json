@@ -1,7 +1,33 @@
 {
-  "last_updated": "2026-03-11T06:22:00Z",
+  "last_updated": "2026-03-11T06:38:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
+    {
+      "id": "074bfd429b87",
+      "datetime": "2026-03-11T00:53:38Z",
+      "type": "interception",
+      "confirmed": true,
+      "precision": "country",
+      "title": "UAE intercepts Iranian missile salvo",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/uae-attempts-intercept-latest-iranian-salvo",
+          "domain": "middleeasteye.net",
+          "tier": "local"
+        },
+        {
+          "url": "https://www.bbc.com/news/articles/c4g0pnnj8xyo",
+          "domain": "bbc.com",
+          "tier": "wire"
+        }
+      ],
+      "snippet": null,
+      "_via": "rss",
+      "confidence": "high"
+    },
     {
       "id": "aebac9569d59",
       "datetime": "2026-03-10T12:55:35Z",
@@ -39,34 +65,30 @@
       "confidence": "high"
     },
     {
-      "id": "074bfd429b87",
-      "datetime": "2026-03-11T00:53:38Z",
-      "type": "interception",
-      "confirmed": true,
-      "precision": "country",
-      "title": "UAE intercepts Iranian missile salvo",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
+      "id": "ad57c0d07f6c",
+      "datetime": "2026-03-10T12:21:51Z",
+      "type": "impact_minor",
+      "confirmed": false,
+      "precision": "city",
+      "title": "Fire breaks out at Ruwais refinery, UAE — attributed to drone strike",
+      "location": "Ruwais",
+      "lat": 24.1167,
+      "lon": 52.7333,
       "sources": [
         {
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/uae-attempts-intercept-latest-iranian-salvo",
-          "domain": "middleeasteye.net",
+          "url": "https://www.thenationalnews.com/business/energy/2026/03/10/fire-breaks-out-at-al-ruwais-refinery-in-uae-after-drone-strike/",
+          "domain": "thenationalnews.com",
           "tier": "local"
-        },
-        {
-          "url": "https://www.bbc.com/news/articles/c4g0pnnj8xyo",
-          "domain": "bbc.com",
-          "tier": "wire"
         }
       ],
       "snippet": null,
+      "preview_image": "https://www.thenationalnews.com/resizer/v2/YEKS53QJ65EX3GUJT353QYVA4I.png?smart=true&auth=70aa34a30fed9c151f52d57dca3541ff98404a72a335c520aadeb5bd686d5688&width=1200&height=630",
       "_via": "rss",
-      "confidence": "high"
+      "confidence": "low"
     },
     {
       "id": "780a01b87f72",
-      "title": "Strike in Abu Dhabi \u2014 Abu Dhabi Media Office report",
+      "title": "Strike in Abu Dhabi — Abu Dhabi Media Office report",
       "datetime": "2026-03-10T00:00:00Z",
       "type": "impact_minor",
       "confirmed": true,
@@ -94,7 +116,7 @@
       "type": "interception",
       "confirmed": true,
       "precision": "exact",
-      "title": "UAE intercepts 15 of 16 ballistic missiles \u2014 1 falls into sea",
+      "title": "UAE intercepts 15 of 16 ballistic missiles — 1 falls into sea",
       "location": "UAE",
       "lat": 24.5,
       "lon": 54.5,
@@ -119,7 +141,7 @@
       "type": "impact_major",
       "confirmed": true,
       "precision": "exact",
-      "title": "IRGC drone attack on Al Dhafra Air Base \u2014 explosions reported",
+      "title": "IRGC drone attack on Al Dhafra Air Base — explosions reported",
       "location": "Al Dhafra Air Base",
       "lat": 24.2481,
       "lon": 54.5476,
@@ -207,7 +229,7 @@
       "type": "impact_minor",
       "confirmed": true,
       "precision": "exact",
-      "title": "Fire at Jebel Ali Port \u2014 attributed to aerial interception debris",
+      "title": "Fire at Jebel Ali Port — attributed to aerial interception debris",
       "location": "Jebel Ali Port",
       "lat": 25.0153,
       "lon": 55.0613,
@@ -227,7 +249,7 @@
       "type": "impact_major",
       "confirmed": true,
       "precision": "exact",
-      "title": "Shahed drone strike near Fairmont The Palm Hotel, Palm Jumeirah \u2014 4 injured",
+      "title": "Shahed drone strike near Fairmont The Palm Hotel, Palm Jumeirah — 4 injured",
       "location": "Palm Jumeirah",
       "lat": 25.1124,
       "lon": 55.139,
@@ -252,7 +274,7 @@
       "type": "impact_minor",
       "confirmed": true,
       "precision": "exact",
-      "title": "Iranian missile fragments hit Burj Al Arab \u2014 structural damage",
+      "title": "Iranian missile fragments hit Burj Al Arab — structural damage",
       "location": "Burj Al Arab",
       "lat": 25.1412,
       "lon": 55.1853,
@@ -277,7 +299,7 @@
       "type": "impact_major",
       "confirmed": true,
       "precision": "exact",
-      "title": "Dubai International Airport Terminal 3 struck \u2014 4 staff injured, evacuation",
+      "title": "Dubai International Airport Terminal 3 struck — 4 staff injured, evacuation",
       "location": "Dubai International Airport",
       "lat": 25.2532,
       "lon": 55.3657,
@@ -307,7 +329,7 @@
       "type": "impact_minor",
       "confirmed": true,
       "precision": "exact",
-      "title": "Interception debris falls near Zayed International Airport \u2014 1 killed, 7 injured",
+      "title": "Interception debris falls near Zayed International Airport — 1 killed, 7 injured",
       "location": "Zayed International Airport, Abu Dhabi",
       "lat": 24.433,
       "lon": 54.6511,
@@ -352,7 +374,7 @@
       "type": "impact_major",
       "confirmed": true,
       "precision": "exact",
-      "title": "Al Dhafra Air Base targeted \u2014 explosions in Corniche, Al Dhafra and Bateen districts",
+      "title": "Al Dhafra Air Base targeted — explosions in Corniche, Al Dhafra and Bateen districts",
       "location": "Al Dhafra Air Base",
       "lat": 24.2481,
       "lon": 54.5476,
