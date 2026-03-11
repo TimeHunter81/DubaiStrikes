@@ -6,7 +6,7 @@
       "id": "7912146dcd42",
       "datetime": "2026-03-11T11:18:05Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "Dubai issues new law to regulate shared housing with fines up to Dh500,000",
       "location": "Dubai",
@@ -17,12 +17,19 @@
           "url": "https://gulfnews.com/business/property/dubai-issues-new-law-to-regulate-shared-housing-with-fines-up-to-dh500000-1.500470912",
           "domain": "gulfnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://www.khaleejtimes.com/business/property/sheikh-mohammed-issues-new-law-to-regulate-shared-housing-in-dubai",
+          "domain": "khaleejtimes.com",
+          "tier": "wire"
         }
       ],
       "snippet": null,
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-09%2Flyczqh66%2FDubaiskyline2026?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1773231485.0
     },
     {
       "id": "ab4ec5a8f577",
@@ -44,7 +51,9 @@
       "snippet": null,
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-11%2F1r828l5l%2FLocal-Economy?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1773230353.0
     },
     {
       "id": "1228d8d7c755",
@@ -88,7 +97,9 @@
       "snippet": null,
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-11%2Fq14p6qa8%2Fgo-visual.jpg?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1773229755.0
     },
     {
       "id": "f47f70b722c1",
@@ -116,7 +127,7 @@
       "id": "6b9ba5826fa3",
       "datetime": "2026-03-11T10:46:00Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "Trump tells Fifa that Iran are 'welcome to compete' at World Cup",
       "location": "UAE",
@@ -127,12 +138,19 @@
           "url": "https://www.thenationalnews.com/sport/football/2026/03/11/trump-tells-fifa-that-iran-are-welcome-to-compete-at-world-cup/",
           "domain": "thenationalnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://www.reuters.com/sports/soccer/infantino-says-trump-welcomes-irans-world-cup-participation-2026-03-11/",
+          "domain": "reuters.com",
+          "tier": "wire"
         }
       ],
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/TDGGSSJ6IJLFOE2I4H3UW7U7SA.jpg?smart=true&amp;auth=07b9ce8c897ded71d74bf578a99555bb074f9e67a0ab9ec295e42ee74748cf2e&amp;width=1200&amp;height=630",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1773229560.0
     },
     {
       "id": "35b7d328ddd4",
