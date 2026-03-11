@@ -6,7 +6,7 @@
       "id": "074bfd429b87",
       "datetime": "2026-03-11T00:53:38Z",
       "type": "interception",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "UAE attempts to intercept latest Iranian salvo",
       "location": "UAE",
@@ -17,12 +17,19 @@
           "url": "https://www.middleeasteye.net/live-blog/live-blog-update/uae-attempts-intercept-latest-iranian-salvo",
           "domain": "middleeasteye.net",
           "tier": "local"
+        },
+        {
+          "url": "https://www.bbc.com/news/articles/c4g0pnnj8xyo",
+          "domain": "bbc.com",
+          "tier": "wire"
         }
       ],
       "snippet": "&lt;article data-history-node-id=\"435375\" about=\"https://www.middleeasteye.net/live-blog/live-blog-update/uae-attempts-intercept-latest-iranian-salvo\" class=\"live-blog-update default clearfix\"&gt;\n\n  \n      &lt;h2&gt;\n      &lt;a href=\"https://www.mi",
       "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/2026-03-10T191957Z_1721755784_RC2R1KAHXBYA_RTRMADP_3_IRAN-CRISIS-LEBANON-DISPLACED%20%281%29.JPG",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1773194018.0
     },
     {
       "id": "aebac9569d59",
