@@ -22,18 +22,20 @@
       "snippet": null,
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-11%2F8rv2f97e%2FDubaiskyline2026?rect=0%2C85%2C1200%2C630&amp;w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1773257518.0
     },
     {
       "id": "3dcd652b31db",
       "datetime": "2026-03-11T16:46:56Z",
       "type": "impact_minor",
-      "confirmed": false,
-      "precision": "city",
+      "confirmed": true,
+      "precision": "exact",
       "title": "Interception debris sparks fire at Abu Dhabi old airport",
-      "location": "Abu Dhabi (old airport)",
-      "lat": 24.4539,
-      "lon": 54.3773,
+      "location": "Al Bateen Executive Airport (Abu Dhabi old airport)",
+      "lat": 24.4271,
+      "lon": 54.4599,
       "sources": [
         {
           "url": "https://www.middleeasteye.net/live-blog/live-blog-update/fire-abu-dhabi-airport-under-control-after-interception",
@@ -44,14 +46,19 @@
           "url": "https://gulfnews.com/uae/fire-at-abu-dhabis-old-airport-contained-after-defence-ops-against-iranian-aggression-1.500471297",
           "domain": "gulfnews.com",
           "tier": "wire"
+        },
+        {
+          "url": "https://www.thenationalnews.com/news/uae/2026/03/11/four-injured-after-iranian-drone-strike-near-dubai-airport/",
+          "domain": "thenationalnews.com",
+          "tier": "wire"
         }
       ],
       "snippet": "&lt;article data-history-node-id=\"435454\" about=\"https://www.middleeasteye.net/live-blog/live-blog-update/fire-abu-dhabi-airport-under-control-after-interception\" class=\"live-blog-update default clearfix\"&gt;\n\n  \n      &lt;h2&gt;\n      &lt;a href=\"ht",
       "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/lebanon-civilians-taking-shelter-beirut-11march-2026-reuters.jpg",
       "_via": "rss",
       "confidence": "high",
-      "_search_count": 1,
-      "_next_search_at": 1773251216.0
+      "_search_count": 2,
+      "_next_search_at": 1773269216.0
     },
     {
       "id": "29ee3867aaa2",
