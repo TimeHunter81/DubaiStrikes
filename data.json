@@ -6,7 +6,7 @@
       "id": "230ba874420b",
       "datetime": "2026-03-11T16:01:27Z",
       "type": "impact_minor",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "Fire at Abu Dhabi old airport after air defence operations",
       "location": "Abu Dhabi",
@@ -22,14 +22,19 @@
           "url": "https://twitter.com/ADMediaOffice/status/2031756637590196404",
           "domain": "twitter.com",
           "tier": "wire"
+        },
+        {
+          "url": "https://www.dubaieye1038.com/news/local/authorities-control-fire-at-old-abu-dhabi-airport-after-air-defence-interception/",
+          "domain": "dubaieye1038.com",
+          "tier": "wire"
         }
       ],
       "snippet": null,
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-09%2F4axhnr8o%2FAbudhabiskyline-2026?rect=0%2C239%2C5733%2C3010&w=1200&ar=40:21&auto=format,compress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
       "_via": "rss",
       "confidence": "high",
-      "_search_count": 1,
-      "_next_search_at": 1773248487.0
+      "_search_count": 2,
+      "_next_search_at": 1773266487.0
     },
     {
       "id": "29ee3867aaa2",
