@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-11T01:50:00Z",
+  "last_updated": "2026-03-11T02:04:48Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -8,7 +8,7 @@
       "type": "interception",
       "confirmed": true,
       "precision": "country",
-      "title": "UAE intercepts latest Iranian salvo",
+      "title": "UAE intercepts Iranian missile salvo",
       "location": "UAE",
       "lat": null,
       "lon": null,
@@ -23,12 +23,7 @@
           "domain": "bbc.com",
           "tier": "wire"
         }
-      ],
-      "snippet": "UAE attempts to intercept latest Iranian salvo",
-      "_via": "rss",
-      "confidence": "high",
-      "_search_count": 1,
-      "_next_search_at": 1773194018.0
+      ]
     },
     {
       "id": "aebac9569d59",
@@ -61,11 +56,25 @@
           "domain": "bbc.com",
           "tier": "wire"
         }
-      ],
-      "_via": "rss",
-      "confidence": "high",
-      "_search_count": 2,
-      "_next_search_at": 1773168935.0
+      ]
+    },
+    {
+      "id": "ad57c0d07f6c",
+      "datetime": "2026-03-10T12:21:51Z",
+      "type": "impact_minor",
+      "confirmed": false,
+      "precision": "exact",
+      "title": "Fire at Ruwais complex after drone strike",
+      "location": "Uae",
+      "lat": 24.1072,
+      "lon": 52.7308,
+      "sources": [
+        {
+          "url": "https://www.thenationalnews.com/business/energy/2026/03/10/fire-breaks-out-at-al-ruwais-refinery-in-uae-after-drone-strike/",
+          "domain": "thenationalnews.com",
+          "tier": "local"
+        }
+      ]
     },
     {
       "id": "dd0d46268b72",
@@ -73,7 +82,7 @@
       "type": "impact_minor",
       "confirmed": true,
       "precision": "exact",
-      "title": "Drone strike sparks fire at Ruwais ADNOC refinery complex",
+      "title": "Drone strike sparks fire at Ruwais ADNOC refinery",
       "location": "Ruwais, Abu Dhabi",
       "lat": 24.1072,
       "lon": 52.7308,
@@ -98,9 +107,7 @@
           "domain": "thenationalnews.com",
           "tier": "local"
         }
-      ],
-      "_via": "rss",
-      "confidence": "high"
+      ]
     },
     {
       "id": "0d706451ed8c",
@@ -123,9 +130,7 @@
           "domain": "middleeasteye.net",
           "tier": "local"
         }
-      ],
-      "_via": "rss",
-      "confidence": "high"
+      ]
     },
     {
       "id": "780a01b87f72",
