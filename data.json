@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-11T09:55:00Z",
+  "last_updated": "2026-03-11T10:07:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -27,7 +27,7 @@
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/XL5HIYBS3VFXJEBDM2ULGGN5WA.jpg?smart=true&auth=29f76a5a2245d1c43a8f07ace5839c092f78f9599bd72664840e7bc9617de33f&width=1200&height=630",
       "_via": "rss",
-      "confidence": "low",
+      "confidence": "high",
       "_search_count": 1,
       "_next_search_at": 1773219788.0
     },
@@ -85,7 +85,7 @@
       "snippet": null,
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-11%2Fry9jig4z%2Fgulfnews2025-02-27pko7ihugDubai-International-Airport.avif?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
       "_via": "rss",
-      "confidence": "low",
+      "confidence": "high",
       "_search_count": 1,
       "_next_search_at": 1773218451.0
     },
@@ -209,7 +209,7 @@
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/JPWJTTDYPFCDNK4FJQWSMVU73A.JPG?smart=true&auth=d41c8e3727dcc59db7c7c4a7b00b3ca4328c1138cf1386abef98646738b4a78e&width=1200&height=630",
       "_via": "rss",
-      "confidence": "low",
+      "confidence": "high",
       "_search_count": 1,
       "_next_search_at": 1773199660.0
     },
