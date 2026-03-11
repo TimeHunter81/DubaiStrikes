@@ -6,7 +6,7 @@
       "id": "bb9bd36a099b",
       "datetime": "2026-03-11T16:17:15Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "Dubai's new shared housing rules come with Dh1m fine for repeat offenders",
       "location": "Dubai",
@@ -17,12 +17,19 @@
           "url": "https://www.thenationalnews.com/news/uae/2026/03/11/dubais-new-shared-housing-rules-come-with-dh1m-fine-for-repeat-offenders/",
           "domain": "thenationalnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://gulfbusiness.com/sheikh-mohammed-issues-new-dubai-shared-housing-law/",
+          "domain": "gulfbusiness.com",
+          "tier": "wire"
         }
       ],
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/MEC7VA2TMJDETMG6RV33WGTADA.jpg?smart=true&amp;auth=179e53bb6c35958b0daea29bf82a090149c6b963cc8ab84c4b365c60447c6346&amp;width=1200&amp;height=630",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1773249435.0
     },
     {
       "id": "c489f0fbe811",
@@ -44,7 +51,9 @@
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/ZW2FOD5K4HCIEFG4EABFX6A33Y.jpg?smart=true&amp;auth=35c6865ae0044572ac8a38da3cbf11960757d97b15f28180c13e8124cbd68500&amp;width=1200&amp;height=630",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1773248999.0
     },
     {
       "id": "13cf807a0680",
@@ -66,29 +75,38 @@
       "snippet": "&lt;article data-history-node-id=\"435443\" about=\"https://www.middleeasteye.net/news/iran-war-and-hormuz-shock-fuels-cost-living-crisis-across-south-asia\" class=\"story default clearfix\"&gt;\n\n  \n      &lt;h2&gt;\n      &lt;a href=\"https://www.middleeast",
       "preview_image": "https://www.middleeasteye.net/sites/default/files/images-story/south%20asia%20fuel%20crisis.jpg",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1773248746.0
     },
     {
       "id": "d19e4d879381",
       "datetime": "2026-03-11T16:01:40Z",
       "type": "security_alert",
-      "confirmed": false,
-      "precision": "country",
+      "confirmed": true,
+      "precision": "exact",
       "title": "Iran deploys mines in Strait of Hormuz, sources tell Reuters",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
+      "location": "Strait of Hormuz",
+      "lat": 26.5667,
+      "lon": 56.25,
       "sources": [
         {
           "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-deploys-mines-strait-hormuz-sources-tell-reuters",
           "domain": "middleeasteye.net",
           "tier": "local"
+        },
+        {
+          "url": "https://www.reuters.com/business/energy/iran-has-laid-about-dozen-mines-strait-hormuz-sources-say-2026-03-11/",
+          "domain": "reuters.com",
+          "tier": "wire"
         }
       ],
       "snippet": "&lt;article data-history-node-id=\"435450\" about=\"https://www.middleeasteye.net/live-blog/live-blog-update/iran-deploys-mines-strait-hormuz-sources-tell-reuters\" class=\"live-blog-update default clearfix\"&gt;\n\n  \n      &lt;h2&gt;\n      &lt;a href=\"http",
       "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/lebanon-civilians-taking-shelter-beirut-11march-2026-reuters.jpg",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1773248500.0
     },
     {
       "id": "230ba874420b",
