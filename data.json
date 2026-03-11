@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-03-11T16:58:47Z",
+  "last_updated": "2026-03-11T17:06:26Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
       "id": "230ba874420b",
       "datetime": "2026-03-11T16:01:27Z",
       "type": "impact_minor",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "city",
       "title": "Fire at Abu Dhabi old airport after air defence operations",
       "location": "Abu Dhabi",
@@ -27,7 +27,7 @@
       "snippet": null,
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-09%2F4axhnr8o%2FAbudhabiskyline-2026?rect=0%2C239%2C5733%2C3010&w=1200&ar=40:21&auto=format,compress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
       "_via": "rss",
-      "confidence": "low",
+      "confidence": "high",
       "_search_count": 1,
       "_next_search_at": 1773248487.0
     },
@@ -64,7 +64,7 @@
       "type": "impact_minor",
       "confirmed": true,
       "precision": "city",
-      "title": "Bulk carrier hit by projectile near Dubai — crew safe (UKMTO)",
+      "title": "Bulk carrier hit by projectile near Dubai — crew safe",
       "location": "Dubai",
       "lat": 25.2048,
       "lon": 55.2708,
@@ -95,7 +95,7 @@
       "type": "impact_minor",
       "confirmed": true,
       "precision": "country",
-      "title": "Vessel near UAE damaged by projectile (UKMTO)",
+      "title": "Vessel near UAE damaged by projectile — UKMTO",
       "location": "UAE",
       "lat": null,
       "lon": null,
@@ -114,39 +114,6 @@
       "_search_count": 1,
       "_next_search_at": 1773203027.0,
       "_via": "rss"
-    },
-    {
-      "id": "21c29691df70",
-      "title": "OSINT reports strike in Dubai",
-      "datetime": "2026-03-11T00:00:00Z",
-      "type": "impact_minor",
-      "confirmed": true,
-      "location": "Dubai International Airport (DXB)",
-      "lat": 25.2532,
-      "lon": 55.3657,
-      "precision": "exact",
-      "sources": [
-        {
-          "url": "https://x.com/no_itsmyturn/status/2031714578086731936?s=20",
-          "domain": "x.com",
-          "tier": "osint"
-        },
-        {
-          "url": "https://x.com/IranIntl/status/2031638244790501593",
-          "domain": "x.com",
-          "tier": "osint"
-        },
-        {
-          "url": "https://twitter.com/DXBMediaOffice/status/2031635783304753169",
-          "domain": "twitter.com",
-          "tier": "wire"
-        }
-      ],
-      "confidence": 0.85,
-      "_isw_id": 12068,
-      "_via": "isw",
-      "_next_search_at": 1773190800.0,
-      "_search_count": 1
     },
     {
       "id": "780a01b87f72",
