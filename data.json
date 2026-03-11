@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-11T04:06:00Z",
+  "last_updated": "2026-03-11T04:13:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -22,6 +22,31 @@
           "url": "https://www.bbc.com/news/articles/c4g0pnnj8xyo",
           "domain": "bbc.com",
           "tier": "wire"
+        }
+      ],
+      "confidence": "high",
+      "_via": "rss"
+    },
+    {
+      "id": "0d706451ed8c",
+      "datetime": "2026-03-10T11:23:15Z",
+      "type": "interception",
+      "confirmed": true,
+      "precision": "country",
+      "title": "UAE intercepts Iranian missiles and drones overnight",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.bbc.com/news/articles/c4g0pnnj8xyo",
+          "domain": "bbc.com",
+          "tier": "wire"
+        },
+        {
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/uae-qatar-intercept-iranian-attacks",
+          "domain": "middleeasteye.net",
+          "tier": "local"
         }
       ],
       "confidence": "high",
@@ -82,31 +107,6 @@
           "url": "https://www.reuters.com/world/middle-east/fire-hits-site-housing-abu-dhabi-national-oil-company-operations-after-drone-2026-03-10/",
           "domain": "reuters.com",
           "tier": "wire"
-        }
-      ],
-      "confidence": "high",
-      "_via": "rss"
-    },
-    {
-      "id": "0d706451ed8c",
-      "datetime": "2026-03-10T11:23:15Z",
-      "type": "interception",
-      "confirmed": true,
-      "precision": "country",
-      "title": "UAE intercepts Iranian missiles and drones overnight",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.bbc.com/news/articles/c4g0pnnj8xyo",
-          "domain": "bbc.com",
-          "tier": "wire"
-        },
-        {
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/uae-qatar-intercept-iranian-attacks",
-          "domain": "middleeasteye.net",
-          "tier": "local"
         }
       ],
       "confidence": "high",
