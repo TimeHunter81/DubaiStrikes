@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-11T21:18:00Z",
+  "last_updated": "2026-03-11T21:30:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -27,7 +27,7 @@
       "snippet": null,
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-11%2F8rv2f97e%2FDubaiskyline2026?rect=0%2C85%2C1200%2C630&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
       "_via": "rss",
-      "confidence": "low",
+      "confidence": "high",
       "_search_count": 2,
       "_next_search_at": 1773275518.0
     },
@@ -122,39 +122,6 @@
       "_search_count": 2,
       "_next_search_at": 1773235834.0,
       "_via": "rss"
-    },
-    {
-      "id": "21c29691df70",
-      "title": "Strike reported in Dubai (ISW/OSINT)",
-      "datetime": "2026-03-11T00:00:00Z",
-      "type": "impact_minor",
-      "confirmed": true,
-      "location": "Dubai",
-      "lat": 25.24288162,
-      "lon": 55.35463101,
-      "precision": "city",
-      "sources": [
-        {
-          "url": "https://x.com/no_itsmyturn/status/2031714578086731936?s=20",
-          "domain": "x.com",
-          "tier": "osint"
-        },
-        {
-          "url": "https://x.com/IranIntl/status/2031638244790501593",
-          "domain": "x.com",
-          "tier": "osint"
-        },
-        {
-          "url": "https://www.reuters.com/world/middle-east/two-drones-fall-vicinity-dubai-airport-iran-crisis-shows-no-sign-easing-2026-03-11/",
-          "domain": "reuters.com",
-          "tier": "wire"
-        }
-      ],
-      "confidence": 0.85,
-      "_isw_id": 12068,
-      "_via": "isw",
-      "_next_search_at": 1773190800.0,
-      "_search_count": 1
     },
     {
       "id": "780a01b87f72",
