@@ -1,64 +1,60 @@
 {
-  "last_updated": "2026-03-11T14:10:00Z",
+  "last_updated": "2026-03-11T14:17:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
-      "id": "29ee3867aaa2",
-      "datetime": "2026-03-11T08:03:10Z",
-      "type": "impact_minor",
+      "id": "074bfd429b87",
+      "datetime": "2026-03-11T00:53:38Z",
+      "type": "interception",
       "confirmed": true,
-      "precision": "exact",
-      "title": "Iranian drone strike near Dubai Airport — 4 injured",
-      "location": "Dubai",
-      "lat": 25.2528,
-      "lon": 55.3644,
+      "precision": "country",
+      "title": "UAE intercepts Iranian missile salvo",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
       "sources": [
         {
-          "url": "https://www.thenationalnews.com/news/uae/2026/03/11/four-injured-after-iranian-drone-strike-near-dubai-airport/",
-          "domain": "thenationalnews.com",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/uae-attempts-intercept-latest-iranian-salvo",
+          "domain": "middleeasteye.net",
           "tier": "local"
         },
         {
-          "url": "https://www.reuters.com/world/middle-east/two-drones-fall-vicinity-dubai-airport-iran-crisis-shows-no-sign-easing-2026-03-11/",
-          "domain": "reuters.com",
+          "url": "https://www.bbc.com/news/articles/c4g0pnnj8xyo",
+          "domain": "bbc.com",
           "tier": "wire"
         }
       ],
       "snippet": null,
-      "preview_image": "https://www.thenationalnews.com/resizer/v2/XL5HIYBS3VFXJEBDM2ULGGN5WA.jpg?smart=true&auth=29f76a5a2245d1c43a8f07ace5839c092f78f9599bd72664840e7bc9617de33f&width=1200&height=630",
       "_via": "rss",
-      "confidence": "high",
-      "_search_count": 1,
-      "_next_search_at": 1773219790.0
+      "confidence": "high"
     },
     {
-      "id": "b9f13e20ed74",
-      "datetime": "2026-03-11T07:40:51Z",
+      "id": "7960058bd39e",
+      "datetime": "2026-03-11T03:23:47Z",
       "type": "impact_minor",
       "confirmed": true,
-      "precision": "exact",
-      "title": "Two Iranian drones fall near Dubai Airport — 4 injured",
-      "location": "Dubai",
-      "lat": 25.2528,
-      "lon": 55.3644,
+      "precision": "country",
+      "title": "Vessel near UAE sustains damage from unknown projectile (UKMTO)",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
       "sources": [
         {
-          "url": "https://gulfnews.com/uae/two-drones-fall-near-dubai-airport-four-injured-1.500470654",
-          "domain": "gulfnews.com",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/vessel-near-uae-sustains-damage-unknown-object-ukmto-reports",
+          "domain": "middleeasteye.net",
           "tier": "local"
         },
         {
-          "url": "https://www.reuters.com/world/middle-east/two-drones-fall-vicinity-dubai-airport-iran-crisis-shows-no-sign-easing-2026-03-11/",
-          "domain": "reuters.com",
+          "url": "https://www.bbc.com/news/live/cd70wzw9vqlt",
+          "domain": "bbc.com",
           "tier": "wire"
         }
       ],
       "snippet": null,
-      "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-11%2Fry9jig4z%2Fgulfnews2025-02-27pko7ihugDubai-International-Airport.avif?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
       "_via": "rss",
       "confidence": "high",
       "_search_count": 1,
-      "_next_search_at": 1773218451.0
+      "_next_search_at": 1773203027.0
     },
     {
       "id": "1cf5af9d4ed6",
@@ -94,58 +90,62 @@
       "_next_search_at": 1773235834.0
     },
     {
-      "id": "7960058bd39e",
-      "datetime": "2026-03-11T03:23:47Z",
+      "id": "b9f13e20ed74",
+      "datetime": "2026-03-11T07:40:51Z",
       "type": "impact_minor",
       "confirmed": true,
-      "precision": "country",
-      "title": "Vessel near UAE sustains damage from unknown projectile (UKMTO)",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
+      "precision": "exact",
+      "title": "Two Iranian drones fall near Dubai Airport — 4 injured",
+      "location": "Dubai",
+      "lat": 25.2528,
+      "lon": 55.3644,
       "sources": [
         {
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/vessel-near-uae-sustains-damage-unknown-object-ukmto-reports",
-          "domain": "middleeasteye.net",
+          "url": "https://gulfnews.com/uae/two-drones-fall-near-dubai-airport-four-injured-1.500470654",
+          "domain": "gulfnews.com",
           "tier": "local"
         },
         {
-          "url": "https://www.bbc.com/news/live/cd70wzw9vqlt",
-          "domain": "bbc.com",
+          "url": "https://www.reuters.com/world/middle-east/two-drones-fall-vicinity-dubai-airport-iran-crisis-shows-no-sign-easing-2026-03-11/",
+          "domain": "reuters.com",
           "tier": "wire"
         }
       ],
       "snippet": null,
+      "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-11%2Fry9jig4z%2Fgulfnews2025-02-27pko7ihugDubai-International-Airport.avif?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
       "_via": "rss",
       "confidence": "high",
       "_search_count": 1,
-      "_next_search_at": 1773203027.0
+      "_next_search_at": 1773218451.0
     },
     {
-      "id": "074bfd429b87",
-      "datetime": "2026-03-11T00:53:38Z",
-      "type": "interception",
+      "id": "29ee3867aaa2",
+      "datetime": "2026-03-11T08:03:10Z",
+      "type": "impact_minor",
       "confirmed": true,
-      "precision": "country",
-      "title": "UAE intercepts Iranian missile salvo",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
+      "precision": "exact",
+      "title": "Iranian drone strike near Dubai Airport — 4 injured",
+      "location": "Dubai",
+      "lat": 25.2528,
+      "lon": 55.3644,
       "sources": [
         {
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/uae-attempts-intercept-latest-iranian-salvo",
-          "domain": "middleeasteye.net",
+          "url": "https://www.thenationalnews.com/news/uae/2026/03/11/four-injured-after-iranian-drone-strike-near-dubai-airport/",
+          "domain": "thenationalnews.com",
           "tier": "local"
         },
         {
-          "url": "https://www.bbc.com/news/articles/c4g0pnnj8xyo",
-          "domain": "bbc.com",
+          "url": "https://www.reuters.com/world/middle-east/two-drones-fall-vicinity-dubai-airport-iran-crisis-shows-no-sign-easing-2026-03-11/",
+          "domain": "reuters.com",
           "tier": "wire"
         }
       ],
       "snippet": null,
+      "preview_image": "https://www.thenationalnews.com/resizer/v2/XL5HIYBS3VFXJEBDM2ULGGN5WA.jpg?smart=true&auth=29f76a5a2245d1c43a8f07ace5839c092f78f9599bd72664840e7bc9617de33f&width=1200&height=630",
       "_via": "rss",
-      "confidence": "high"
+      "confidence": "high",
+      "_search_count": 1,
+      "_next_search_at": 1773219790.0
     },
     {
       "id": "780a01b87f72",
