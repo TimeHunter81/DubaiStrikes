@@ -6,7 +6,7 @@
       "id": "29ee3867aaa2",
       "datetime": "2026-03-11T08:03:08Z",
       "type": "impact_minor",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "exact",
       "title": "Four injured after Iranian drone strike near Dubai Airport",
       "location": "Dubai",
@@ -17,12 +17,19 @@
           "url": "https://www.thenationalnews.com/news/uae/2026/03/11/four-injured-after-iranian-drone-strike-near-dubai-airport/",
           "domain": "thenationalnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://www.reuters.com/world/middle-east/two-drones-fall-vicinity-dubai-airport-iran-crisis-shows-no-sign-easing-2026-03-11/",
+          "domain": "reuters.com",
+          "tier": "wire"
         }
       ],
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/XL5HIYBS3VFXJEBDM2ULGGN5WA.jpg?smart=true&auth=29f76a5a2245d1c43a8f07ace5839c092f78f9599bd72664840e7bc9617de33f&width=1200&height=630",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1773219788.0
     },
     {
       "id": "74444672720d",
@@ -57,7 +64,7 @@
       "id": "b9f13e20ed74",
       "datetime": "2026-03-11T07:40:51Z",
       "type": "impact_minor",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "exact",
       "title": "Two drones fall near Dubai airport, four injured",
       "location": "Dubai",
@@ -68,12 +75,19 @@
           "url": "https://gulfnews.com/uae/two-drones-fall-near-dubai-airport-four-injured-1.500470654",
           "domain": "gulfnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://www.reuters.com/world/middle-east/two-drones-fall-vicinity-dubai-airport-iran-crisis-shows-no-sign-easing-2026-03-11/",
+          "domain": "reuters.com",
+          "tier": "wire"
         }
       ],
       "snippet": null,
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-11%2Fry9jig4z%2Fgulfnews2025-02-27pko7ihugDubai-International-Airport.avif?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1773218451.0
     },
     {
       "id": "1cf5af9d4ed6",
@@ -174,7 +188,7 @@
       "id": "c26a7d615014",
       "datetime": "2026-03-11T02:27:40Z",
       "type": "impact_minor",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "exact",
       "title": "Four injured as Iranian drones strike Dubai airport area",
       "location": "Dubai",
@@ -185,12 +199,19 @@
           "url": "https://www.thenationalnews.com/news/mena/2026/03/10/live-iran-war-us-israel-uae-missile-attacks/",
           "domain": "thenationalnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://www.reuters.com/world/middle-east/two-drones-fall-vicinity-dubai-airport-iran-crisis-shows-no-sign-easing-2026-03-11/",
+          "domain": "reuters.com",
+          "tier": "wire"
         }
       ],
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/JPWJTTDYPFCDNK4FJQWSMVU73A.JPG?smart=true&auth=d41c8e3727dcc59db7c7c4a7b00b3ca4328c1138cf1386abef98646738b4a78e&width=1200&height=630",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1773199660.0
     },
     {
       "id": "074bfd429b87",
