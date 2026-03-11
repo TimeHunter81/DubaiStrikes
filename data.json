@@ -125,11 +125,11 @@
       "title": "Strike reported in Dubai, UAE",
       "datetime": "2026-03-11T00:00:00Z",
       "type": "impact_minor",
-      "confirmed": false,
-      "location": "Dubai",
-      "lat": 25.24288162,
-      "lon": 55.35463101,
-      "precision": "city",
+      "confirmed": true,
+      "location": "Dubai International Airport (DXB)",
+      "lat": 25.2532,
+      "lon": 55.3657,
+      "precision": "exact",
       "sources": [
         {
           "url": "https://x.com/no_itsmyturn/status/2031714578086731936?s=20",
@@ -140,13 +140,18 @@
           "url": "https://x.com/IranIntl/status/2031638244790501593",
           "domain": "x.com",
           "tier": "osint"
+        },
+        {
+          "url": "https://www.reuters.com/world/middle-east/two-drones-fall-vicinity-dubai-airport-iran-crisis-shows-no-sign-easing-2026-03-11/",
+          "domain": "reuters.com",
+          "tier": "wire"
         }
       ],
       "confidence": 0.85,
       "_isw_id": 12068,
       "_via": "isw",
-      "_next_search_at": 0,
-      "_search_count": 0
+      "_next_search_at": 1773190800.0,
+      "_search_count": 1
     },
     {
       "id": "780a01b87f72",
