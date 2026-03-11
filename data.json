@@ -6,7 +6,7 @@
       "id": "230ba874420b",
       "datetime": "2026-03-11T16:01:27Z",
       "type": "impact_minor",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "Fire at Abu Dhabi old airport after air defence operations",
       "location": "Abu Dhabi",
@@ -17,12 +17,19 @@
           "url": "https://gulfnews.com/uae/fire-at-abu-dhabis-old-airport-contained-after-defence-ops-against-iranian-aggression-1.500471297",
           "domain": "gulfnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://twitter.com/ADMediaOffice/status/2031756637590196404",
+          "domain": "twitter.com",
+          "tier": "wire"
         }
       ],
       "snippet": null,
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-09%2F4axhnr8o%2FAbudhabiskyline-2026?rect=0%2C239%2C5733%2C3010&w=1200&ar=40:21&auto=format,compress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1773248487.0
     },
     {
       "id": "29ee3867aaa2",
@@ -113,11 +120,11 @@
       "title": "OSINT reports strike in Dubai",
       "datetime": "2026-03-11T00:00:00Z",
       "type": "impact_minor",
-      "confirmed": false,
-      "location": "Dubai",
-      "lat": 25.2048,
-      "lon": 55.2708,
-      "precision": "city",
+      "confirmed": true,
+      "location": "Dubai International Airport (DXB)",
+      "lat": 25.2532,
+      "lon": 55.3657,
+      "precision": "exact",
       "sources": [
         {
           "url": "https://x.com/no_itsmyturn/status/2031714578086731936?s=20",
@@ -128,13 +135,18 @@
           "url": "https://x.com/IranIntl/status/2031638244790501593",
           "domain": "x.com",
           "tier": "osint"
+        },
+        {
+          "url": "https://twitter.com/DXBMediaOffice/status/2031635783304753169",
+          "domain": "twitter.com",
+          "tier": "wire"
         }
       ],
       "confidence": 0.85,
       "_isw_id": 12068,
       "_via": "isw",
-      "_next_search_at": 0,
-      "_search_count": 0
+      "_next_search_at": 1773190800.0,
+      "_search_count": 1
     },
     {
       "id": "780a01b87f72",
