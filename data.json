@@ -1,17 +1,17 @@
 {
-  "last_updated": "2026-03-11T22:20:00Z",
+  "last_updated": "2026-03-11T22:31:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
       "id": "ef9c234d13cc",
       "datetime": "2026-03-11T21:56:53Z",
       "type": "interception",
-      "confirmed": true,
-      "precision": "city",
+      "confirmed": false,
+      "precision": "country",
       "title": "UAE intercepts 6 ballistic missiles, 7 cruise missiles, 39 UAVs",
-      "location": "Dubai, UAE",
-      "lat": 25.2048,
-      "lon": 55.2708,
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
       "sources": [
         {
           "url": "https://gulfnews.com/uae/uae-air-defences-intercept-six-ballistic-missiles-seven-cruise-missiles-39-uavs-1.500471507",
@@ -27,7 +27,7 @@
       "snippet": "UAE air defences intercept six ballistic missiles, seven cruise missiles, 39 UAVs",
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-11%2F9s4s8bqa%2FMarch-11.jpg?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
       "_via": "rss",
-      "confidence": "low",
+      "confidence": "high",
       "_search_count": 1,
       "_next_search_at": 1773269813.0
     },
