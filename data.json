@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-11T00:00:00Z",
+  "last_updated": "2026-03-11T00:14:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -116,8 +116,8 @@
       "type": "impact_minor",
       "confirmed": true,
       "location": "Abu Dhabi",
-      "lat": 24.1124,
-      "lon": 52.6825,
+      "lat": 24.4539,
+      "lon": 54.3773,
       "precision": "city",
       "sources": [
         {
