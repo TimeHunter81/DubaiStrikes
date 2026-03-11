@@ -1,10 +1,10 @@
 {
-  "last_updated": "2026-03-11T10:39:39Z",
+  "last_updated": "2026-03-11T10:47:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
       "id": "29ee3867aaa2",
-      "datetime": "2026-03-11T08:03:08Z",
+      "datetime": "2026-03-11T08:03:28Z",
       "type": "impact_minor",
       "confirmed": true,
       "precision": "exact",
@@ -123,34 +123,6 @@
       "_next_search_at": 1773235834.0
     },
     {
-      "id": "7960058bd39e",
-      "datetime": "2026-03-11T03:23:47Z",
-      "type": "impact_minor",
-      "confirmed": true,
-      "precision": "country",
-      "title": "Vessel sustains damage near UAE — unknown projectile (UKMTO)",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/vessel-near-uae-sustains-damage-unknown-object-ukmto-reports",
-          "domain": "middleeasteye.net",
-          "tier": "local"
-        },
-        {
-          "url": "https://www.bbc.com/news/live/cd70wzw9vqlt",
-          "domain": "bbc.com",
-          "tier": "wire"
-        }
-      ],
-      "snippet": null,
-      "_via": "rss",
-      "confidence": "high",
-      "_search_count": 1,
-      "_next_search_at": 1773203027.0
-    },
-    {
       "id": "6a6f4345707d",
       "datetime": "2026-03-11T02:27:40Z",
       "type": "impact_minor",
@@ -212,6 +184,34 @@
       "confidence": "high",
       "_search_count": 1,
       "_next_search_at": 1773199660.0
+    },
+    {
+      "id": "7960058bd39e",
+      "datetime": "2026-03-11T03:23:47Z",
+      "type": "impact_minor",
+      "confirmed": true,
+      "precision": "country",
+      "title": "Vessel sustains damage near UAE — unknown projectile (UKMTO)",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/vessel-near-uae-sustains-damage-unknown-object-ukmto-reports",
+          "domain": "middleeasteye.net",
+          "tier": "local"
+        },
+        {
+          "url": "https://www.bbc.com/news/live/cd70wzw9vqlt",
+          "domain": "bbc.com",
+          "tier": "wire"
+        }
+      ],
+      "snippet": null,
+      "_via": "rss",
+      "confidence": "high",
+      "_search_count": 1,
+      "_next_search_at": 1773203027.0
     },
     {
       "id": "074bfd429b87",
