@@ -1,7 +1,33 @@
 {
-  "last_updated": "2026-03-11T08:14:00Z",
+  "last_updated": "2026-03-11T08:27:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
+    {
+      "id": "074bfd429b87",
+      "datetime": "2026-03-11T00:53:38Z",
+      "type": "interception",
+      "confirmed": true,
+      "precision": "country",
+      "title": "UAE intercepts Iranian missile salvo",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/uae-attempts-intercept-latest-iranian-salvo",
+          "domain": "middleeasteye.net",
+          "tier": "local"
+        },
+        {
+          "url": "https://www.bbc.com/news/articles/c4g0pnnj8xyo",
+          "domain": "bbc.com",
+          "tier": "wire"
+        }
+      ],
+      "snippet": null,
+      "_via": "rss",
+      "confidence": "high"
+    },
     {
       "id": "74444672720d",
       "datetime": "2026-03-11T07:50:47Z",
@@ -24,41 +50,12 @@
           "tier": "wire"
         }
       ],
-      "snippet": "&lt;article data-history-node-id=\"435395\" about=\"https://www.middleeasteye.net/live-blog/live-blog-update/two-drones-come-down-vicinity-dubai-airport-injuring-four-people\" class=\"live-blog-update default clearfix\"&gt;\n\n  \n      &lt;h2&gt;\n      &lt;a",
+      "snippet": null,
       "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/A%20man%20walks%20amidst%20debris%20near%20the%20site%20of%20an%20Israeli%20strike%20on%20an%20apartment%20building%2C%20in%20central%20Beirut%2C%20Lebanon%2C%2011%20March%2C%202026.%20%28REUTERS%3AEmilie%20Madi%29.JPG",
       "_via": "rss",
-      "confidence": "low",
+      "confidence": "high",
       "_search_count": 1,
       "_next_search_at": 1773219047.0
-    },
-    {
-      "id": "1cf5af9d4ed6",
-      "datetime": "2026-03-11T07:30:34Z",
-      "type": "impact_minor",
-      "confirmed": false,
-      "precision": "country",
-      "title": "Bulk carrier hit by projectile near Dubai — crew safe (UKMTO)",
-      "location": "Dubai",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/bulk-carrier-hit-projectile-near-dubai-crew-safe",
-          "domain": "middleeasteye.net",
-          "tier": "local"
-        },
-        {
-          "url": "https://www.devdiscourse.com/article/business/3833765-mystery-incident-in-dubai-waters-bulk-carrier-struck-by-unknown-projectile",
-          "domain": "devdiscourse.com",
-          "tier": "wire"
-        }
-      ],
-      "snippet": "&lt;article data-history-node-id=\"435394\" about=\"https://www.middleeasteye.net/live-blog/live-blog-update/bulk-carrier-hit-projectile-near-dubai-crew-safe\" class=\"live-blog-update default clearfix\"&gt;\n\n  \n      &lt;h2&gt;\n      &lt;a href=\"https://w",
-      "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/A%20man%20walks%20amidst%20debris%20near%20the%20site%20of%20an%20Israeli%20strike%20on%20an%20apartment%20building%2C%20in%20central%20Beirut%2C%20Lebanon%2C%2011%20March%2C%202026.%20%28REUTERS%3AEmilie%20Madi%29.JPG",
-      "_via": "rss",
-      "confidence": "low",
-      "_search_count": 1,
-      "_next_search_at": 1773217834.0
     },
     {
       "id": "7960058bd39e",
@@ -116,66 +113,39 @@
         }
       ],
       "snippet": null,
-      "preview_image": "https://www.thenationalnews.com/resizer/v2/IMM4JWTRCRGULC5ZU4NPD52VGU.jpg?smart=true&amp;auth=fb10c5598fc96ccdec8cba061010895e0a33ee94bdc68994869118ad5f09d94c&amp;width=1200&amp;height=630",
+      "preview_image": "https://www.thenationalnews.com/resizer/v2/IMM4JWTRCRGULC5ZU4NPD52VGU.jpg?smart=true&auth=fb10c5598fc96ccdec8cba061010895e0a33ee94bdc68994869118ad5f09d94c&width=1200&height=630",
       "_via": "rss",
-      "confidence": "low",
+      "confidence": "high",
       "_search_count": 2,
       "_next_search_at": 1773217660.0
     },
     {
-      "id": "074bfd429b87",
-      "datetime": "2026-03-11T00:53:38Z",
-      "type": "interception",
-      "confirmed": true,
+      "id": "1cf5af9d4ed6",
+      "datetime": "2026-03-11T07:30:34Z",
+      "type": "impact_minor",
+      "confirmed": false,
       "precision": "country",
-      "title": "UAE intercepts Iranian missile salvo",
+      "title": "Bulk carrier hit by projectile near Dubai — crew safe (UKMTO)",
       "location": "UAE",
       "lat": null,
       "lon": null,
       "sources": [
         {
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/uae-attempts-intercept-latest-iranian-salvo",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/bulk-carrier-hit-projectile-near-dubai-crew-safe",
           "domain": "middleeasteye.net",
           "tier": "local"
         },
         {
-          "url": "https://www.bbc.com/news/articles/c4g0pnnj8xyo",
-          "domain": "bbc.com",
+          "url": "https://www.devdiscourse.com/article/business/3833765-mystery-incident-in-dubai-waters-bulk-carrier-struck-by-unknown-projectile",
+          "domain": "devdiscourse.com",
           "tier": "wire"
         }
       ],
       "snippet": null,
-      "_via": "rss",
-      "confidence": "high"
-    },
-    {
-      "id": "ad57c0d07f6c",
-      "datetime": "2026-03-10T12:21:51Z",
-      "type": "impact_minor",
-      "confirmed": true,
-      "precision": "exact",
-      "title": "Drone strike sparks fire at Ruwais refinery complex, Abu Dhabi",
-      "location": "Ruwais, Abu Dhabi",
-      "lat": 24.0937,
-      "lon": 52.7298,
-      "sources": [
-        {
-          "url": "https://www.thenationalnews.com/business/energy/2026/03/10/fire-breaks-out-at-al-ruwais-refinery-in-uae-after-drone-strike/",
-          "domain": "thenationalnews.com",
-          "tier": "local"
-        },
-        {
-          "url": "https://www.reuters.com/world/middle-east/fire-hits-site-housing-abu-dhabi-national-oil-company-operations-after-drone-2026-03-10/",
-          "domain": "reuters.com",
-          "tier": "wire"
-        }
-      ],
-      "snippet": null,
-      "preview_image": "https://www.thenationalnews.com/resizer/v2/YEKS53QJ65EX3GUJT353QYVA4I.png?smart=true&auth=70aa34a30fed9c151f52d57dca3541ff98404a72a335c520aadeb5bd686d5688&width=1200&height=630",
       "_via": "rss",
       "confidence": "high",
       "_search_count": 1,
-      "_next_search_at": 1773148911.0
+      "_next_search_at": 1773217834.0
     },
     {
       "id": "780a01b87f72",
