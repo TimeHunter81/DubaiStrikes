@@ -123,7 +123,7 @@
       "id": "1cf5af9d4ed6",
       "datetime": "2026-03-11T07:30:34Z",
       "type": "impact_minor",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "Bulk carrier hit by projectile near Dubai — crew safe (UKMTO)",
       "location": "UAE",
@@ -139,13 +139,18 @@
           "url": "https://www.devdiscourse.com/article/business/3833765-mystery-incident-in-dubai-waters-bulk-carrier-struck-by-unknown-projectile",
           "domain": "devdiscourse.com",
           "tier": "wire"
+        },
+        {
+          "url": "https://apnews.com/live/iran-war-israel-trump--03-11-2026",
+          "domain": "apnews.com",
+          "tier": "wire"
         }
       ],
       "snippet": null,
       "_via": "rss",
       "confidence": "high",
-      "_search_count": 1,
-      "_next_search_at": 1773217834.0
+      "_search_count": 2,
+      "_next_search_at": 1773235834.0
     },
     {
       "id": "780a01b87f72",
