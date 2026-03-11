@@ -1,40 +1,14 @@
 {
-  "last_updated": "2026-03-11T08:45:00Z",
+  "last_updated": "2026-03-11T09:02:32Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
-    {
-      "id": "074bfd429b87",
-      "datetime": "2026-03-11T00:53:38Z",
-      "type": "interception",
-      "confirmed": true,
-      "precision": "country",
-      "title": "UAE intercepts Iranian missile salvo",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/uae-attempts-intercept-latest-iranian-salvo",
-          "domain": "middleeasteye.net",
-          "tier": "local"
-        },
-        {
-          "url": "https://www.bbc.com/news/articles/c4g0pnnj8xyo",
-          "domain": "bbc.com",
-          "tier": "wire"
-        }
-      ],
-      "snippet": null,
-      "_via": "rss",
-      "confidence": "high"
-    },
     {
       "id": "74444672720d",
       "datetime": "2026-03-11T07:50:47Z",
       "type": "impact_minor",
       "confirmed": true,
-      "precision": "airport",
-      "title": "Two drones fall near Dubai airport — 4 injured",
+      "precision": "exact",
+      "title": "Two Iranian drones fall near Dubai Airport — 4 injured",
       "location": "Dubai",
       "lat": 25.2528,
       "lon": 55.3644,
@@ -58,12 +32,45 @@
       "_next_search_at": 1773219047.0
     },
     {
+      "id": "1cf5af9d4ed6",
+      "datetime": "2026-03-11T07:30:34Z",
+      "type": "impact_minor",
+      "confirmed": true,
+      "precision": "city",
+      "title": "Bulk carrier struck by projectile near Dubai — crew safe (UKMTO)",
+      "location": "Dubai",
+      "lat": 25.2048,
+      "lon": 55.2708,
+      "sources": [
+        {
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/bulk-carrier-hit-projectile-near-dubai-crew-safe",
+          "domain": "middleeasteye.net",
+          "tier": "local"
+        },
+        {
+          "url": "https://www.devdiscourse.com/article/business/3833765-mystery-incident-in-dubai-waters-bulk-carrier-struck-by-unknown-projectile",
+          "domain": "devdiscourse.com",
+          "tier": "wire"
+        },
+        {
+          "url": "https://apnews.com/live/iran-war-israel-trump--03-11-2026",
+          "domain": "apnews.com",
+          "tier": "wire"
+        }
+      ],
+      "snippet": null,
+      "_via": "rss",
+      "confidence": "high",
+      "_search_count": 2,
+      "_next_search_at": 1773235834.0
+    },
+    {
       "id": "7960058bd39e",
       "datetime": "2026-03-11T03:23:47Z",
       "type": "impact_minor",
       "confirmed": true,
       "precision": "country",
-      "title": "Vessel near UAE hit by unknown object — damage (UKMTO/BBC)",
+      "title": "Vessel sustains damage near UAE — unknown projectile (UKMTO)",
       "location": "UAE",
       "lat": null,
       "lon": null,
@@ -120,37 +127,30 @@
       "_next_search_at": 1773217660.0
     },
     {
-      "id": "1cf5af9d4ed6",
-      "datetime": "2026-03-11T07:30:34Z",
-      "type": "impact_minor",
+      "id": "074bfd429b87",
+      "datetime": "2026-03-11T00:53:38Z",
+      "type": "interception",
       "confirmed": true,
-      "precision": "city",
-      "title": "Bulk carrier hit by projectile near Dubai — crew safe (UKMTO)",
-      "location": "Dubai",
-      "lat": 25.2048,
-      "lon": 55.2708,
+      "precision": "country",
+      "title": "UAE intercepts Iranian missile salvo",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
       "sources": [
         {
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/bulk-carrier-hit-projectile-near-dubai-crew-safe",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/uae-attempts-intercept-latest-iranian-salvo",
           "domain": "middleeasteye.net",
           "tier": "local"
         },
         {
-          "url": "https://www.devdiscourse.com/article/business/3833765-mystery-incident-in-dubai-waters-bulk-carrier-struck-by-unknown-projectile",
-          "domain": "devdiscourse.com",
-          "tier": "wire"
-        },
-        {
-          "url": "https://apnews.com/live/iran-war-israel-trump--03-11-2026",
-          "domain": "apnews.com",
+          "url": "https://www.bbc.com/news/articles/c4g0pnnj8xyo",
+          "domain": "bbc.com",
           "tier": "wire"
         }
       ],
       "snippet": null,
       "_via": "rss",
-      "confidence": "high",
-      "_search_count": 2,
-      "_next_search_at": 1773235834.0
+      "confidence": "high"
     },
     {
       "id": "780a01b87f72",
