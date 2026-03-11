@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-03-11T11:58:00Z",
+  "last_updated": "2026-03-11T12:07:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
       "id": "29ee3867aaa2",
-      "datetime": "2026-03-11T08:03:10Z",
+      "datetime": "2026-03-11T08:03:28Z",
       "type": "impact_minor",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "exact",
       "title": "Iranian drone strike near Dubai Airport — 4 injured",
       "location": "Dubai",
@@ -20,7 +20,7 @@
         }
       ],
       "snippet": null,
-      "preview_image": "https://www.thenationalnews.com/resizer/v2/XL5HIYBS3VFXJEBDM2ULGGN5WA.jpg?smart=true&amp;auth=29f76a5a2245d1c43a8f07ace5839c092f78f9599bd72664840e7bc9617de33f&amp;width=1200&amp;height=630",
+      "preview_image": "https://www.thenationalnews.com/resizer/v2/XL5HIYBS3VFXJEBDM2ULGGN5WA.jpg?smart=true&auth=29f76a5a2245d1c43a8f07ace5839c092f78f9599bd72664840e7bc9617de33f&width=1200&height=630",
       "_via": "rss",
       "confidence": "low",
       "_search_count": 1,
@@ -32,7 +32,7 @@
       "type": "impact_minor",
       "confirmed": true,
       "precision": "exact",
-      "title": "Two drones fall near Dubai airport, four injured",
+      "title": "Two Iranian drones fall near Dubai Airport — 4 injured",
       "location": "Dubai",
       "lat": 25.2528,
       "lon": 55.3644,
@@ -115,6 +115,28 @@
       "confidence": "high",
       "_search_count": 1,
       "_next_search_at": 1773203027.0
+    },
+    {
+      "id": "c26a7d615014",
+      "datetime": "2026-03-11T02:27:40Z",
+      "type": "impact_minor",
+      "confirmed": false,
+      "precision": "exact",
+      "title": "Two Iranian drones strike Dubai airport area — 4 injured",
+      "location": "Dubai",
+      "lat": 25.2528,
+      "lon": 55.3644,
+      "sources": [
+        {
+          "url": "https://www.thenationalnews.com/news/mena/2026/03/10/live-iran-war-us-israel-uae-missile-attacks/",
+          "domain": "thenationalnews.com",
+          "tier": "local"
+        }
+      ],
+      "snippet": null,
+      "preview_image": "https://www.thenationalnews.com/resizer/v2/JPWJTTDYPFCDNK4FJQWSMVU73A.JPG?smart=true&auth=d41c8e3727dcc59db7c7c4a7b00b3ca4328c1138cf1386abef98646738b4a78e&width=1200&height=630",
+      "_via": "rss",
+      "confidence": "low"
     },
     {
       "id": "074bfd429b87",
