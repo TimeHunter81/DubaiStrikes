@@ -6,7 +6,7 @@
       "id": "29ee3867aaa2",
       "datetime": "2026-03-11T08:03:28Z",
       "type": "impact_minor",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "exact",
       "title": "Iranian drone strike near Dubai Airport — 4 injured",
       "location": "Dubai",
@@ -23,8 +23,8 @@
       "preview_image": "https://www.thenationalnews.com/resizer/v2/XL5HIYBS3VFXJEBDM2ULGGN5WA.jpg?smart=true&auth=29f76a5a2245d1c43a8f07ace5839c092f78f9599bd72664840e7bc9617de33f&width=1200&height=630",
       "_via": "rss",
       "confidence": "low",
-      "_search_count": 1,
-      "_next_search_at": 1773219790.0
+      "_search_count": 2,
+      "_next_search_at": 1773237808.0
     },
     {
       "id": "b9f13e20ed74",
@@ -120,7 +120,7 @@
       "id": "c26a7d615014",
       "datetime": "2026-03-11T02:27:40Z",
       "type": "impact_minor",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "exact",
       "title": "Two Iranian drones strike Dubai airport area — 4 injured",
       "location": "Dubai",
@@ -136,7 +136,9 @@
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/JPWJTTDYPFCDNK4FJQWSMVU73A.JPG?smart=true&auth=d41c8e3727dcc59db7c7c4a7b00b3ca4328c1138cf1386abef98646738b4a78e&width=1200&height=630",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1773199660.0
     },
     {
       "id": "074bfd429b87",
