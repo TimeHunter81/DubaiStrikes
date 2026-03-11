@@ -6,7 +6,7 @@
       "id": "ef9c234d13cc",
       "datetime": "2026-03-11T21:56:53Z",
       "type": "interception",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "UAE intercepts 6 ballistic missiles, 7 cruise missiles, 39 UAVs",
       "location": "UAE",
@@ -22,14 +22,19 @@
           "url": "https://english.news.cn/20260311/d5172dd1b1614252ae0291b328de0585/c.html",
           "domain": "english.news.cn",
           "tier": "wire"
+        },
+        {
+          "url": "https://www.express.co.uk/news/world/2180912/dubai-explosions-live-strait-hormuz-iranian-missile",
+          "domain": "express.co.uk",
+          "tier": "wire"
         }
       ],
       "snippet": "UAE air defences intercept six ballistic missiles, seven cruise missiles, 39 UAVs",
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-11%2F9s4s8bqa%2FMarch-11.jpg?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
       "_via": "rss",
       "confidence": "high",
-      "_search_count": 1,
-      "_next_search_at": 1773269813.0
+      "_search_count": 2,
+      "_next_search_at": 1773287813.0
     },
     {
       "id": "42d7b49c91f6",
