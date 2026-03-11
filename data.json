@@ -1,33 +1,7 @@
 {
-  "last_updated": "2026-03-11T05:58:28Z",
+  "last_updated": "2026-03-11T06:05:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
-    {
-      "id": "074bfd429b87",
-      "datetime": "2026-03-11T00:53:38Z",
-      "type": "interception",
-      "confirmed": true,
-      "precision": "country",
-      "title": "UAE intercepts Iranian missile salvo",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/uae-attempts-intercept-latest-iranian-salvo",
-          "domain": "middleeasteye.net",
-          "tier": "local"
-        },
-        {
-          "url": "https://www.bbc.com/news/articles/c4g0pnnj8xyo",
-          "domain": "bbc.com",
-          "tier": "wire"
-        }
-      ],
-      "snippet": null,
-      "_via": "rss",
-      "confidence": "high"
-    },
     {
       "id": "aebac9569d59",
       "datetime": "2026-03-10T12:55:35Z",
@@ -65,35 +39,25 @@
       "confidence": "high"
     },
     {
-      "id": "dd0d46268b72",
-      "datetime": "2026-03-10T11:23:15Z",
-      "type": "impact_minor",
+      "id": "074bfd429b87",
+      "datetime": "2026-03-11T00:53:38Z",
+      "type": "interception",
       "confirmed": true,
-      "precision": "exact",
-      "title": "Drone strike sparks fire at Ruwais ADNOC refinery",
-      "location": "Ruwais, Abu Dhabi",
-      "lat": 24.1072,
-      "lon": 52.7308,
+      "precision": "country",
+      "title": "UAE intercepts Iranian missile salvo",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
       "sources": [
         {
-          "url": "https://www.reuters.com/world/middle-east/fire-hits-site-housing-abu-dhabi-national-oil-company-operations-after-drone-2026-03-10/",
-          "domain": "reuters.com",
-          "tier": "wire"
-        },
-        {
-          "url": "https://www.khaleejtimes.com/uae/emergencies/fire-breaks-out-in-abu-dhabis-ruwais-industrial-complex-after-drone-attack-2",
-          "domain": "khaleejtimes.com",
-          "tier": "wire"
-        },
-        {
-          "url": "https://gulfnews.com/uae/fire-breaks-out-in-ruwais-complex-in-abu-dhabi-after-drone-attack-1.500469721",
-          "domain": "gulfnews.com",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/uae-attempts-intercept-latest-iranian-salvo",
+          "domain": "middleeasteye.net",
           "tier": "local"
         },
         {
-          "url": "https://www.thenationalnews.com/business/energy/2026/03/10/fire-breaks-out-at-al-ruwais-refinery-in-uae-after-drone-strike/",
-          "domain": "thenationalnews.com",
-          "tier": "local"
+          "url": "https://www.bbc.com/news/articles/c4g0pnnj8xyo",
+          "domain": "bbc.com",
+          "tier": "wire"
         }
       ],
       "snippet": null,
