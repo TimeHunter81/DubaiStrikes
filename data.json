@@ -6,7 +6,7 @@
       "id": "3dcd652b31db",
       "datetime": "2026-03-11T16:46:56Z",
       "type": "impact_minor",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "Fire at Abu Dhabi airport under control after interception",
       "location": "Abu Dhabi",
@@ -17,12 +17,19 @@
           "url": "https://www.middleeasteye.net/live-blog/live-blog-update/fire-abu-dhabi-airport-under-control-after-interception",
           "domain": "middleeasteye.net",
           "tier": "local"
+        },
+        {
+          "url": "https://www.dubaieye1038.com/news/local/authorities-control-fire-at-old-abu-dhabi-airport-after-air-defence-interception/",
+          "domain": "dubaieye1038.com",
+          "tier": "wire"
         }
       ],
       "snippet": "&lt;article data-history-node-id=\"435454\" about=\"https://www.middleeasteye.net/live-blog/live-blog-update/fire-abu-dhabi-airport-under-control-after-interception\" class=\"live-blog-update default clearfix\"&gt;\n\n  \n      &lt;h2&gt;\n      &lt;a href=\"ht",
       "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/lebanon-civilians-taking-shelter-beirut-11march-2026-reuters.jpg",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1773251216.0
     },
     {
       "id": "230ba874420b",
