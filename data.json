@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-11T13:30:00Z",
+  "last_updated": "2026-03-11T13:38:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -27,7 +27,7 @@
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/XL5HIYBS3VFXJEBDM2ULGGN5WA.jpg?smart=true&auth=29f76a5a2245d1c43a8f07ace5839c092f78f9599bd72664840e7bc9617de33f&width=1200&height=630",
       "_via": "rss",
-      "confidence": "low",
+      "confidence": "high",
       "_search_count": 1,
       "_next_search_at": 1773219790.0
     },
