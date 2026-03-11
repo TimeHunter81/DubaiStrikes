@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-03-11T16:35:32Z",
+  "last_updated": "2026-03-11T16:48:11Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
       "id": "230ba874420b",
       "datetime": "2026-03-11T16:01:27Z",
       "type": "impact_minor",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "city",
       "title": "Fire at Abu Dhabi old airport after air defence operations",
       "location": "Abu Dhabi",
@@ -17,19 +17,12 @@
           "url": "https://gulfnews.com/uae/fire-at-abu-dhabis-old-airport-contained-after-defence-ops-against-iranian-aggression-1.500471297",
           "domain": "gulfnews.com",
           "tier": "local"
-        },
-        {
-          "url": "https://www.khaleejtimes.com/world/mena/day-12-us-israel-iran-war-live-updates",
-          "domain": "khaleejtimes.com",
-          "tier": "wire"
         }
       ],
       "snippet": null,
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-09%2F4axhnr8o%2FAbudhabiskyline-2026?rect=0%2C239%2C5733%2C3010&amp;w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
-      "confidence": "low",
-      "_search_count": 1,
-      "_next_search_at": 1773248487.0
+      "confidence": "low"
     },
     {
       "id": "29ee3867aaa2",
@@ -63,11 +56,11 @@
       "datetime": "2026-03-11T07:30:34Z",
       "type": "impact_minor",
       "confirmed": true,
-      "precision": "city",
+      "precision": "country",
       "title": "Bulk carrier hit by projectile near Dubai — crew safe (UKMTO)",
       "location": "Dubai",
-      "lat": 25.2048,
-      "lon": 55.2708,
+      "lat": null,
+      "lon": null,
       "sources": [
         {
           "url": "https://www.middleeasteye.net/live-blog/live-blog-update/bulk-carrier-hit-projectile-near-dubai-crew-safe",
