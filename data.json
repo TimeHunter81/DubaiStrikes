@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-11T15:28:00Z",
+  "last_updated": "2026-03-11T15:36:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -27,32 +27,6 @@
       "_search_count": 1,
       "_next_search_at": 1773219790.0,
       "confidence": "high",
-      "_via": "rss"
-    },
-    {
-      "id": "b9f13e20ed74",
-      "datetime": "2026-03-11T07:40:51Z",
-      "type": "impact_minor",
-      "confirmed": true,
-      "precision": "exact",
-      "title": "Two Iranian drones fall near Dubai Airport — 4 injured",
-      "location": "Dubai International Airport vicinity",
-      "lat": 25.2528,
-      "lon": 55.3644,
-      "sources": [
-        {
-          "url": "https://gulfnews.com/uae/two-drones-fall-near-dubai-airport-four-injured-1.500470654",
-          "domain": "gulfnews.com",
-          "tier": "local"
-        },
-        {
-          "url": "https://www.reuters.com/world/middle-east/two-drones-fall-vicinity-dubai-airport-iran-crisis-shows-no-sign-easing-2026-03-11/",
-          "domain": "reuters.com",
-          "tier": "wire"
-        }
-      ],
-      "_search_count": 1,
-      "_next_search_at": 1773218451.0,
       "_via": "rss"
     },
     {
