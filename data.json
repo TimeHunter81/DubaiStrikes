@@ -1,41 +1,7 @@
 {
-  "last_updated": "2026-03-11T17:26:45Z",
+  "last_updated": "2026-03-11T17:40:32Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
-    {
-      "id": "230ba874420b",
-      "datetime": "2026-03-11T16:01:27Z",
-      "type": "impact_minor",
-      "confirmed": false,
-      "precision": "city",
-      "title": "Fire at Abu Dhabi old airport after air defence operations",
-      "location": "Abu Dhabi (old airport)",
-      "lat": 24.4539,
-      "lon": 54.3773,
-      "sources": [
-        {
-          "url": "https://gulfnews.com/uae/fire-at-abu-dhabis-old-airport-contained-after-defence-ops-against-iranian-aggression-1.500471297",
-          "domain": "gulfnews.com",
-          "tier": "local"
-        },
-        {
-          "url": "https://twitter.com/ADMediaOffice/status/2031756637590196404",
-          "domain": "twitter.com",
-          "tier": "wire"
-        },
-        {
-          "url": "https://www.dubaieye1038.com/news/local/authorities-control-fire-at-old-abu-dhabi-airport-after-air-defence-interception/",
-          "domain": "dubaieye1038.com",
-          "tier": "wire"
-        }
-      ],
-      "snippet": null,
-      "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-09%2F4axhnr8o%2FAbudhabiskyline-2026?rect=0%2C239%2C5733%2C3010&w=1200&ar=40:21&auto=format,compress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
-      "_via": "rss",
-      "confidence": "high",
-      "_search_count": 2,
-      "_next_search_at": 1773266487.0
-    },
     {
       "id": "29ee3867aaa2",
       "datetime": "2026-03-11T08:03:10Z",
@@ -119,39 +85,6 @@
       "_search_count": 1,
       "_next_search_at": 1773203027.0,
       "_via": "rss"
-    },
-    {
-      "id": "21c29691df70",
-      "title": "Strike reported in Dubai, UAE",
-      "datetime": "2026-03-11T00:00:00Z",
-      "type": "impact_minor",
-      "confirmed": true,
-      "location": "Dubai International Airport (DXB)",
-      "lat": 25.2532,
-      "lon": 55.3657,
-      "precision": "exact",
-      "sources": [
-        {
-          "url": "https://x.com/no_itsmyturn/status/2031714578086731936?s=20",
-          "domain": "x.com",
-          "tier": "osint"
-        },
-        {
-          "url": "https://x.com/IranIntl/status/2031638244790501593",
-          "domain": "x.com",
-          "tier": "osint"
-        },
-        {
-          "url": "https://www.reuters.com/world/middle-east/two-drones-fall-vicinity-dubai-airport-iran-crisis-shows-no-sign-easing-2026-03-11/",
-          "domain": "reuters.com",
-          "tier": "wire"
-        }
-      ],
-      "confidence": 0.85,
-      "_isw_id": 12068,
-      "_via": "isw",
-      "_next_search_at": 1773190800.0,
-      "_search_count": 1
     },
     {
       "id": "780a01b87f72",
