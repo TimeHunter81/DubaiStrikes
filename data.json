@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-11T08:27:00Z",
+  "last_updated": "2026-03-11T08:34:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -124,11 +124,11 @@
       "datetime": "2026-03-11T07:30:34Z",
       "type": "impact_minor",
       "confirmed": true,
-      "precision": "country",
+      "precision": "city",
       "title": "Bulk carrier hit by projectile near Dubai — crew safe (UKMTO)",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
+      "location": "Dubai",
+      "lat": 25.2048,
+      "lon": 55.2708,
       "sources": [
         {
           "url": "https://www.middleeasteye.net/live-blog/live-blog-update/bulk-carrier-hit-projectile-near-dubai-crew-safe",
