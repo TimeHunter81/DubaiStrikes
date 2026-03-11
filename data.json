@@ -1,15 +1,15 @@
 {
-  "last_updated": "2026-03-11T18:28:31Z",
+  "last_updated": "2026-03-11T18:37:43Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
       "id": "3dcd652b31db",
       "datetime": "2026-03-11T16:46:56Z",
       "type": "impact_minor",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "city",
-      "title": "Abu Dhabi airport fire reported after interception",
-      "location": "Abu Dhabi",
+      "title": "Fire at Abu Dhabi old airport after interception debris",
+      "location": "Abu Dhabi (old airport)",
       "lat": 24.4539,
       "lon": 54.3773,
       "sources": [
