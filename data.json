@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-11T19:04:19Z",
+  "last_updated": "2026-03-11T19:17:06Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -30,7 +30,7 @@
       "id": "3dcd652b31db",
       "datetime": "2026-03-11T16:46:56Z",
       "type": "impact_minor",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "exact",
       "title": "Interception debris sparks fire at Abu Dhabi old airport",
       "location": "Al Bateen Executive Airport (Abu Dhabi old airport)",
@@ -63,7 +63,7 @@
     {
       "id": "29ee3867aaa2",
       "datetime": "2026-03-11T08:03:10Z",
-      "type": "impact_minor",
+      "type": "impact_major",
       "confirmed": true,
       "precision": "exact",
       "title": "Drone impact near Dubai Airport injures 4",
