@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-11T07:57:58Z",
+  "last_updated": "2026-03-11T08:08:30Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -64,7 +64,7 @@
       "id": "1cf5af9d4ed6",
       "datetime": "2026-03-11T07:30:34Z",
       "type": "impact_minor",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "country",
       "title": "Bulk carrier hit by projectile near Dubai — crew safe (UKMTO)",
       "location": "Dubai",
@@ -121,7 +121,7 @@
       "id": "6a6f4345707d",
       "datetime": "2026-03-11T02:27:40Z",
       "type": "impact_minor",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "country",
       "title": "Two vessels struck in Arabian Gulf — suspected Iranian attack",
       "location": "UAE",
