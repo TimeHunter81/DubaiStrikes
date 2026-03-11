@@ -62,7 +62,7 @@
       "id": "ad57c0d07f6c",
       "datetime": "2026-03-10T12:21:51Z",
       "type": "impact_minor",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "exact",
       "title": "Fire at Ruwais complex after drone strike",
       "location": "Uae",
@@ -73,8 +73,15 @@
           "url": "https://www.thenationalnews.com/business/energy/2026/03/10/fire-breaks-out-at-al-ruwais-refinery-in-uae-after-drone-strike/",
           "domain": "thenationalnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://www.reuters.com/world/middle-east/fire-hits-site-housing-abu-dhabi-national-oil-company-operations-after-drone-2026-03-10/",
+          "domain": "reuters.com",
+          "tier": "wire"
         }
-      ]
+      ],
+      "_search_count": 1,
+      "_next_search_at": 1773148911.0
     },
     {
       "id": "dd0d46268b72",
