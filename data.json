@@ -121,7 +121,7 @@
       "id": "6a6f4345707d",
       "datetime": "2026-03-11T02:27:40Z",
       "type": "impact_minor",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "Two vessels struck in Arabian Gulf — suspected Iranian attack",
       "location": "UAE",
@@ -137,14 +137,19 @@
           "url": "https://news.sky.com/story/iran-latest-israel-launches-preventative-attack-defence-minister-says-13509565",
           "domain": "news.sky.com",
           "tier": "wire"
+        },
+        {
+          "url": "https://www.bbc.com/news/articles/c75evve6l63o",
+          "domain": "bbc.com",
+          "tier": "wire"
         }
       ],
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/IMM4JWTRCRGULC5ZU4NPD52VGU.jpg?smart=true&amp;auth=fb10c5598fc96ccdec8cba061010895e0a33ee94bdc68994869118ad5f09d94c&amp;width=1200&amp;height=630",
       "_via": "rss",
       "confidence": "low",
-      "_search_count": 1,
-      "_next_search_at": 1773199660.0
+      "_search_count": 2,
+      "_next_search_at": 1773217660.0
     },
     {
       "id": "074bfd429b87",
