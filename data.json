@@ -6,7 +6,7 @@
       "id": "74444672720d",
       "datetime": "2026-03-11T07:50:47Z",
       "type": "impact_minor",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "airport",
       "title": "Two drones fall near Dubai airport — 4 injured",
       "location": "Dubai",
@@ -17,18 +17,25 @@
           "url": "https://www.middleeasteye.net/live-blog/live-blog-update/two-drones-come-down-vicinity-dubai-airport-injuring-four-people",
           "domain": "middleeasteye.net",
           "tier": "local"
+        },
+        {
+          "url": "https://www.bbc.com/news/live/cd70wzw9vqlt",
+          "domain": "bbc.com",
+          "tier": "wire"
         }
       ],
       "snippet": "&lt;article data-history-node-id=\"435395\" about=\"https://www.middleeasteye.net/live-blog/live-blog-update/two-drones-come-down-vicinity-dubai-airport-injuring-four-people\" class=\"live-blog-update default clearfix\"&gt;\n\n  \n      &lt;h2&gt;\n      &lt;a",
       "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/A%20man%20walks%20amidst%20debris%20near%20the%20site%20of%20an%20Israeli%20strike%20on%20an%20apartment%20building%2C%20in%20central%20Beirut%2C%20Lebanon%2C%2011%20March%2C%202026.%20%28REUTERS%3AEmilie%20Madi%29.JPG",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1773219047.0
     },
     {
       "id": "b9f13e20ed74",
       "datetime": "2026-03-11T07:40:51Z",
       "type": "impact_minor",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "airport",
       "title": "Two drones fall near Dubai airport — 4 injured (Gulf News)",
       "location": "Dubai",
@@ -39,18 +46,25 @@
           "url": "https://gulfnews.com/uae/two-drones-fall-near-dubai-airport-four-injured-1.500470654",
           "domain": "gulfnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://www.bbc.com/news/live/cd70wzw9vqlt",
+          "domain": "bbc.com",
+          "tier": "wire"
         }
       ],
       "snippet": null,
       "preview_image": "https://media.assettype.com/gulfnews%2F2025-05-15%2Fwybknqou%2FSTOCK-Breaking-News?rect=0%2C6%2C1200%2C630&amp;w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1773218451.0
     },
     {
       "id": "1cf5af9d4ed6",
       "datetime": "2026-03-11T07:30:34Z",
       "type": "impact_minor",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "Bulk carrier hit by projectile near Dubai — crew safe (UKMTO)",
       "location": "Dubai",
@@ -61,12 +75,19 @@
           "url": "https://www.middleeasteye.net/live-blog/live-blog-update/bulk-carrier-hit-projectile-near-dubai-crew-safe",
           "domain": "middleeasteye.net",
           "tier": "local"
+        },
+        {
+          "url": "https://www.devdiscourse.com/article/business/3833765-mystery-incident-in-dubai-waters-bulk-carrier-struck-by-unknown-projectile",
+          "domain": "devdiscourse.com",
+          "tier": "wire"
         }
       ],
       "snippet": "&lt;article data-history-node-id=\"435394\" about=\"https://www.middleeasteye.net/live-blog/live-blog-update/bulk-carrier-hit-projectile-near-dubai-crew-safe\" class=\"live-blog-update default clearfix\"&gt;\n\n  \n      &lt;h2&gt;\n      &lt;a href=\"https://w",
       "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/A%20man%20walks%20amidst%20debris%20near%20the%20site%20of%20an%20Israeli%20strike%20on%20an%20apartment%20building%2C%20in%20central%20Beirut%2C%20Lebanon%2C%2011%20March%2C%202026.%20%28REUTERS%3AEmilie%20Madi%29.JPG",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1773217834.0
     },
     {
       "id": "7960058bd39e",
@@ -100,7 +121,7 @@
       "id": "6a6f4345707d",
       "datetime": "2026-03-11T02:27:40Z",
       "type": "impact_minor",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "Two vessels struck in Arabian Gulf — suspected Iranian attack",
       "location": "UAE",
@@ -111,12 +132,19 @@
           "url": "https://www.thenationalnews.com/news/mena/2026/03/10/live-iran-war-us-israel-uae-missile-attacks/",
           "domain": "thenationalnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://news.sky.com/story/iran-latest-israel-launches-preventative-attack-defence-minister-says-13509565",
+          "domain": "news.sky.com",
+          "tier": "wire"
         }
       ],
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/IMM4JWTRCRGULC5ZU4NPD52VGU.jpg?smart=true&amp;auth=fb10c5598fc96ccdec8cba061010895e0a33ee94bdc68994869118ad5f09d94c&amp;width=1200&amp;height=630",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1773199660.0
     },
     {
       "id": "074bfd429b87",
