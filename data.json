@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-11T08:08:30Z",
+  "last_updated": "2026-03-11T08:14:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -30,35 +30,6 @@
       "confidence": "low",
       "_search_count": 1,
       "_next_search_at": 1773219047.0
-    },
-    {
-      "id": "b9f13e20ed74",
-      "datetime": "2026-03-11T07:40:51Z",
-      "type": "impact_minor",
-      "confirmed": true,
-      "precision": "airport",
-      "title": "Two drones fall near Dubai airport — 4 injured (Gulf News)",
-      "location": "Dubai",
-      "lat": 25.2528,
-      "lon": 55.3644,
-      "sources": [
-        {
-          "url": "https://gulfnews.com/uae/two-drones-fall-near-dubai-airport-four-injured-1.500470654",
-          "domain": "gulfnews.com",
-          "tier": "local"
-        },
-        {
-          "url": "https://www.bbc.com/news/live/cd70wzw9vqlt",
-          "domain": "bbc.com",
-          "tier": "wire"
-        }
-      ],
-      "snippet": null,
-      "preview_image": "https://media.assettype.com/gulfnews%2F2025-05-15%2Fwybknqou%2FSTOCK-Breaking-News?rect=0%2C6%2C1200%2C630&amp;w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
-      "_via": "rss",
-      "confidence": "low",
-      "_search_count": 1,
-      "_next_search_at": 1773218451.0
     },
     {
       "id": "1cf5af9d4ed6",
