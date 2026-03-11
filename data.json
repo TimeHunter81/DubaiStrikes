@@ -1,65 +1,7 @@
 {
-  "last_updated": "2026-03-11T10:55:00Z",
+  "last_updated": "2026-03-11T11:05:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
-    {
-      "id": "29ee3867aaa2",
-      "datetime": "2026-03-11T08:03:28Z",
-      "type": "impact_minor",
-      "confirmed": true,
-      "precision": "exact",
-      "title": "Four injured after Iranian drone strike near Dubai Airport",
-      "location": "Dubai",
-      "lat": 25.2528,
-      "lon": 55.3644,
-      "sources": [
-        {
-          "url": "https://www.thenationalnews.com/news/uae/2026/03/11/four-injured-after-iranian-drone-strike-near-dubai-airport/",
-          "domain": "thenationalnews.com",
-          "tier": "local"
-        },
-        {
-          "url": "https://www.reuters.com/world/middle-east/two-drones-fall-vicinity-dubai-airport-iran-crisis-shows-no-sign-easing-2026-03-11/",
-          "domain": "reuters.com",
-          "tier": "wire"
-        }
-      ],
-      "snippet": null,
-      "preview_image": "https://www.thenationalnews.com/resizer/v2/XL5HIYBS3VFXJEBDM2ULGGN5WA.jpg?smart=true&auth=29f76a5a2245d1c43a8f07ace5839c092f78f9599bd72664840e7bc9617de33f&width=1200&height=630",
-      "_via": "rss",
-      "confidence": "high",
-      "_search_count": 1,
-      "_next_search_at": 1773219788.0
-    },
-    {
-      "id": "74444672720d",
-      "datetime": "2026-03-11T07:50:47Z",
-      "type": "impact_minor",
-      "confirmed": true,
-      "precision": "exact",
-      "title": "Two Iranian drones fall near Dubai Airport — 4 injured",
-      "location": "Dubai",
-      "lat": 25.2528,
-      "lon": 55.3644,
-      "sources": [
-        {
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/two-drones-come-down-vicinity-dubai-airport-injuring-four-people",
-          "domain": "middleeasteye.net",
-          "tier": "local"
-        },
-        {
-          "url": "https://www.bbc.com/news/live/cd70wzw9vqlt",
-          "domain": "bbc.com",
-          "tier": "wire"
-        }
-      ],
-      "snippet": null,
-      "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/A%20man%20walks%20amidst%20debris%20near%20the%20site%20of%20an%20Israeli%20strike%20on%20an%20apartment%20building%2C%20in%20central%20Beirut%2C%20Lebanon%2C%2011%20March%2C%202026.%20%28REUTERS%3AEmilie%20Madi%29.JPG",
-      "_via": "rss",
-      "confidence": "high",
-      "_search_count": 1,
-      "_next_search_at": 1773219047.0
-    },
     {
       "id": "b9f13e20ed74",
       "datetime": "2026-03-11T07:40:51Z",
@@ -123,6 +65,34 @@
       "_next_search_at": 1773235834.0
     },
     {
+      "id": "7960058bd39e",
+      "datetime": "2026-03-11T03:23:47Z",
+      "type": "impact_minor",
+      "confirmed": true,
+      "precision": "country",
+      "title": "Vessel sustains damage near UAE — unknown projectile (UKMTO)",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/vessel-near-uae-sustains-damage-unknown-object-ukmto-reports",
+          "domain": "middleeasteye.net",
+          "tier": "local"
+        },
+        {
+          "url": "https://www.bbc.com/news/live/cd70wzw9vqlt",
+          "domain": "bbc.com",
+          "tier": "wire"
+        }
+      ],
+      "snippet": null,
+      "_via": "rss",
+      "confidence": "high",
+      "_search_count": 1,
+      "_next_search_at": 1773203027.0
+    },
+    {
       "id": "6a6f4345707d",
       "datetime": "2026-03-11T02:27:40Z",
       "type": "impact_minor",
@@ -155,63 +125,6 @@
       "confidence": "high",
       "_search_count": 2,
       "_next_search_at": 1773217660.0
-    },
-    {
-      "id": "c26a7d615014",
-      "datetime": "2026-03-11T02:27:40Z",
-      "type": "impact_minor",
-      "confirmed": true,
-      "precision": "exact",
-      "title": "Four injured as Iranian drones strike Dubai airport area",
-      "location": "Dubai",
-      "lat": 25.2528,
-      "lon": 55.3644,
-      "sources": [
-        {
-          "url": "https://www.thenationalnews.com/news/mena/2026/03/10/live-iran-war-us-israel-uae-missile-attacks/",
-          "domain": "thenationalnews.com",
-          "tier": "local"
-        },
-        {
-          "url": "https://www.reuters.com/world/middle-east/two-drones-fall-vicinity-dubai-airport-iran-crisis-shows-no-sign-easing-2026-03-11/",
-          "domain": "reuters.com",
-          "tier": "wire"
-        }
-      ],
-      "snippet": null,
-      "preview_image": "https://www.thenationalnews.com/resizer/v2/JPWJTTDYPFCDNK4FJQWSMVU73A.JPG?smart=true&auth=d41c8e3727dcc59db7c7c4a7b00b3ca4328c1138cf1386abef98646738b4a78e&width=1200&height=630",
-      "_via": "rss",
-      "confidence": "high",
-      "_search_count": 1,
-      "_next_search_at": 1773199660.0
-    },
-    {
-      "id": "7960058bd39e",
-      "datetime": "2026-03-11T03:23:47Z",
-      "type": "impact_minor",
-      "confirmed": true,
-      "precision": "country",
-      "title": "Vessel sustains damage near UAE — unknown projectile (UKMTO)",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/vessel-near-uae-sustains-damage-unknown-object-ukmto-reports",
-          "domain": "middleeasteye.net",
-          "tier": "local"
-        },
-        {
-          "url": "https://www.bbc.com/news/live/cd70wzw9vqlt",
-          "domain": "bbc.com",
-          "tier": "wire"
-        }
-      ],
-      "snippet": null,
-      "_via": "rss",
-      "confidence": "high",
-      "_search_count": 1,
-      "_next_search_at": 1773203027.0
     },
     {
       "id": "074bfd429b87",
