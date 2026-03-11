@@ -1,46 +1,17 @@
 {
-  "last_updated": "2026-03-11T17:19:37Z",
+  "last_updated": "2026-03-11T17:26:45Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
-    {
-      "id": "3dcd652b31db",
-      "datetime": "2026-03-11T16:46:56Z",
-      "type": "impact_minor",
-      "confirmed": true,
-      "precision": "country",
-      "title": "Fire at Abu Dhabi airport under control after interception",
-      "location": "Abu Dhabi",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/fire-abu-dhabi-airport-under-control-after-interception",
-          "domain": "middleeasteye.net",
-          "tier": "local"
-        },
-        {
-          "url": "https://www.dubaieye1038.com/news/local/authorities-control-fire-at-old-abu-dhabi-airport-after-air-defence-interception/",
-          "domain": "dubaieye1038.com",
-          "tier": "wire"
-        }
-      ],
-      "snippet": "&lt;article data-history-node-id=\"435454\" about=\"https://www.middleeasteye.net/live-blog/live-blog-update/fire-abu-dhabi-airport-under-control-after-interception\" class=\"live-blog-update default clearfix\"&gt;\n\n  \n      &lt;h2&gt;\n      &lt;a href=\"ht",
-      "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/lebanon-civilians-taking-shelter-beirut-11march-2026-reuters.jpg",
-      "_via": "rss",
-      "confidence": "low",
-      "_search_count": 1,
-      "_next_search_at": 1773251216.0
-    },
     {
       "id": "230ba874420b",
       "datetime": "2026-03-11T16:01:27Z",
       "type": "impact_minor",
       "confirmed": false,
-      "precision": "country",
+      "precision": "city",
       "title": "Fire at Abu Dhabi old airport after air defence operations",
-      "location": "Abu Dhabi",
-      "lat": null,
-      "lon": null,
+      "location": "Abu Dhabi (old airport)",
+      "lat": 24.4539,
+      "lon": 54.3773,
       "sources": [
         {
           "url": "https://gulfnews.com/uae/fire-at-abu-dhabis-old-airport-contained-after-defence-ops-against-iranian-aggression-1.500471297",
@@ -70,11 +41,11 @@
       "datetime": "2026-03-11T08:03:10Z",
       "type": "impact_minor",
       "confirmed": true,
-      "precision": "country",
+      "precision": "exact",
       "title": "Iranian drone hits near Dubai Airport — 4 injured",
       "location": "Dubai International Airport vicinity",
-      "lat": null,
-      "lon": null,
+      "lat": 25.2528,
+      "lon": 55.3644,
       "sources": [
         {
           "url": "https://www.thenationalnews.com/news/uae/2026/03/11/four-injured-after-iranian-drone-strike-near-dubai-airport/",
@@ -97,11 +68,11 @@
       "datetime": "2026-03-11T07:30:34Z",
       "type": "impact_minor",
       "confirmed": true,
-      "precision": "country",
+      "precision": "city",
       "title": "Bulk carrier hit by projectile near Dubai — crew safe",
-      "location": "Dubai",
-      "lat": null,
-      "lon": null,
+      "location": "Dubai waters",
+      "lat": 25.2048,
+      "lon": 55.2708,
       "sources": [
         {
           "url": "https://www.middleeasteye.net/live-blog/live-blog-update/bulk-carrier-hit-projectile-near-dubai-crew-safe",
@@ -148,6 +119,34 @@
       "_search_count": 1,
       "_next_search_at": 1773203027.0,
       "_via": "rss"
+    },
+    {
+      "id": "21c29691df70",
+      "title": "Strike reported in Dubai, UAE",
+      "datetime": "2026-03-11T00:00:00Z",
+      "type": "impact_minor",
+      "confirmed": false,
+      "location": "Dubai",
+      "lat": 25.24288162,
+      "lon": 55.35463101,
+      "precision": "city",
+      "sources": [
+        {
+          "url": "https://x.com/no_itsmyturn/status/2031714578086731936?s=20",
+          "domain": "x.com",
+          "tier": "osint"
+        },
+        {
+          "url": "https://x.com/IranIntl/status/2031638244790501593",
+          "domain": "x.com",
+          "tier": "osint"
+        }
+      ],
+      "confidence": 0.85,
+      "_isw_id": 12068,
+      "_via": "isw",
+      "_next_search_at": 0,
+      "_search_count": 0
     },
     {
       "id": "780a01b87f72",
