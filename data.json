@@ -1,7 +1,29 @@
 {
-  "last_updated": "2026-03-12T02:40:00Z",
+  "last_updated": "2026-03-12T02:52:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
+    {
+      "id": "7309fb6805a1",
+      "datetime": "2026-03-12T02:30:00Z",
+      "type": "impact_major",
+      "confirmed": false,
+      "precision": "city",
+      "title": "Iranian strike kills man in Abu Dhabi residential area",
+      "location": "Abu Dhabi",
+      "lat": 24.4539,
+      "lon": 54.3773,
+      "sources": [
+        {
+          "url": "https://www.thenationalnews.com/news/uae/2026/03/12/family-mourns-father-of-five-killed-in-iran-strike-in-abu-dhabi-residential-area/",
+          "domain": "thenationalnews.com",
+          "tier": "local"
+        }
+      ],
+      "snippet": null,
+      "preview_image": "https://www.thenationalnews.com/resizer/v2/OQKT6EQAIJHR7BBTRLCMSFBT6Y.JPG?smart=true&auth=43e0e43ff0385399d2773f4fcf256482f5d8065882d644ba640277b0c4b28382&width=1200&height=630",
+      "_via": "rss",
+      "confidence": "low"
+    },
     {
       "id": "a300ef5a9037",
       "datetime": "2026-03-12T01:03:58Z",
@@ -35,9 +57,9 @@
       "id": "f3555536ed5a",
       "datetime": "2026-03-12T00:47:43Z",
       "type": "impact_minor",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "city",
-      "title": "Iranian drone strikes residential tower in Dubai; fire extinguished",
+      "title": "Iranian drone strikes Dubai residential tower; fire extinguished",
       "location": "Dubai",
       "lat": 25.2048,
       "lon": 55.2708,
@@ -56,7 +78,7 @@
       "snippet": null,
       "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/lebanon-civilians-taking-shelter-beirut-11march-2026-reuters.jpg",
       "_via": "rss",
-      "confidence": "low",
+      "confidence": "medium",
       "_search_count": 2,
       "_next_search_at": 1773298063.0
     },
@@ -64,7 +86,7 @@
       "id": "ef9c234d13cc",
       "datetime": "2026-03-11T21:56:53Z",
       "type": "interception",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "UAE intercepts 6 ballistic missiles, 7 cruise missiles, 39 UAVs",
       "location": "UAE",
@@ -187,37 +209,6 @@
       "_search_count": 1,
       "_next_search_at": 1773219790.0,
       "confidence": "high",
-      "_via": "rss"
-    },
-    {
-      "id": "1cf5af9d4ed6",
-      "datetime": "2026-03-11T07:30:34Z",
-      "type": "impact_minor",
-      "confirmed": true,
-      "precision": "city",
-      "title": "Bulk carrier struck by projectile near Dubai; crew safe",
-      "location": "Dubai waters",
-      "lat": 25.2048,
-      "lon": 55.2708,
-      "sources": [
-        {
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/bulk-carrier-hit-projectile-near-dubai-crew-safe",
-          "domain": "middleeasteye.net",
-          "tier": "local"
-        },
-        {
-          "url": "https://www.devdiscourse.com/article/business/3833765-mystery-incident-in-dubai-waters-bulk-carrier-struck-by-unknown-projectile",
-          "domain": "devdiscourse.com",
-          "tier": "local"
-        },
-        {
-          "url": "https://apnews.com/live/iran-war-israel-trump--03-11-2026",
-          "domain": "apnews.com",
-          "tier": "wire"
-        }
-      ],
-      "_search_count": 2,
-      "_next_search_at": 1773235834.0,
       "_via": "rss"
     },
     {
