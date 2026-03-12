@@ -6,7 +6,7 @@
       "id": "c41e80168685",
       "datetime": "2026-03-12T09:28:56Z",
       "type": "impact_minor",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "Drone attack debris falls in Dubai; Kuwait airport also struck",
       "location": "Dubai",
@@ -22,13 +22,15 @@
       "snippet": null,
       "preview_image": null,
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1773311336.0
     },
     {
       "id": "cc6ceeba89c4",
       "datetime": "2026-03-12T09:02:05Z",
       "type": "impact_minor",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "neighborhood",
       "title": "Interception debris hits building on Sheikh Zayed Road, Dubai",
       "location": "Sheikh Zayed Road, Dubai",
@@ -50,8 +52,8 @@
       "preview_image": "https://media.assettype.com/gulfnews%2F2025-05-15%2Fwybknqou%2FSTOCK-Breaking-News?rect=0%2C6%2C1200%2C630&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
       "_via": "rss",
       "confidence": "high",
-      "_search_count": 1,
-      "_next_search_at": 1773309725.0
+      "_search_count": 2,
+      "_next_search_at": 1773327725.0
     },
     {
       "id": "708c5910d664",
