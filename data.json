@@ -1,7 +1,114 @@
 {
-  "last_updated": "2026-03-12T16:17:00Z",
+  "last_updated": "2026-03-12T16:31:42Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
+    {
+      "id": "8e574eaf8945",
+      "datetime": "2026-03-12T15:45:02Z",
+      "type": "impact_major",
+      "confirmed": false,
+      "precision": "country",
+      "title": "Father killed in Iranian strike on UAE",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.thenationalnews.com/news/uae/2026/03/12/broken-dreams-family-mourns-loss-after-father-killed-in-iranian-strike-on-uae/",
+          "domain": "thenationalnews.com",
+          "tier": "local"
+        }
+      ],
+      "snippet": null,
+      "preview_image": "https://www.thenationalnews.com/resizer/v2/UMKBFMRGG5HXHGW4AK4MNVK64E.JPG?smart=true&auth=6a8cde229b4239853f6a2f3a1db380482ed949d059cb9d2efbfa49bb2a2b4cb2&width=1200&height=630",
+      "_via": "rss",
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1773333902.0
+    },
+    {
+      "id": "38a2e0287587",
+      "datetime": "2026-03-12T10:01:57Z",
+      "type": "impact_minor",
+      "confirmed": true,
+      "precision": "city",
+      "title": "Dubai high-rise building damaged in overnight drone hit",
+      "location": "Dubai, UAE",
+      "lat": 25.2528,
+      "lon": 55.3644,
+      "sources": [
+        {
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/3/12/dubai-high-rise-building-damaged-in-overnight-drone-hit?traffic_source=rss",
+          "domain": "aljazeera.com",
+          "tier": "wire"
+        },
+        {
+          "url": "https://apnews.com/video/iranian-drone-hits-dubai-tower-as-attacks-reported-across-gulf-states-d0f85ac78d8e40d59ac2f177645db5aa",
+          "domain": "apnews.com",
+          "tier": "wire"
+        }
+      ],
+      "snippet": "Video shows damage to a Dubai high-rise building hit by a drone.",
+      "preview_image": "https://www.aljazeera.com/wp-content/uploads/2026/03/WIDE.00_00_13_13.Still006-1773313224.jpg?resize=1920%2C1080&quality=80",
+      "_via": "rss",
+      "confidence": "high",
+      "_search_count": 1,
+      "_next_search_at": 1773313317.0
+    },
+    {
+      "id": "c41e80168685",
+      "datetime": "2026-03-12T09:28:56Z",
+      "type": "impact_minor",
+      "confirmed": true,
+      "precision": "city",
+      "title": "Drone debris falls near Dubai Airport",
+      "location": "Dubai, UAE",
+      "lat": 25.2528,
+      "lon": 55.3644,
+      "sources": [
+        {
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/fallen-debris-dubai-after-drone-attack-kuwait-airport-hit",
+          "domain": "middleeasteye.net",
+          "tier": "local"
+        },
+        {
+          "url": "https://www.reuters.com/world/middle-east/two-drones-fall-vicinity-dubai-airport-iran-crisis-shows-no-sign-easing-2026-03-11/",
+          "domain": "reuters.com",
+          "tier": "wire"
+        }
+      ],
+      "_via": "rss",
+      "confidence": "high",
+      "_search_count": 1,
+      "_next_search_at": 1773311336.0
+    },
+    {
+      "id": "cc6ceeba89c4",
+      "datetime": "2026-03-12T09:02:05Z",
+      "type": "impact_minor",
+      "confirmed": false,
+      "precision": "city",
+      "title": "Interception debris hits building on Sheikh Zayed Rd, Dubai",
+      "location": "Dubai, UAE",
+      "lat": 25.2528,
+      "lon": 55.3644,
+      "sources": [
+        {
+          "url": "https://gulfnews.com/uae/government/debris-from-air-defence-interception-falls-on-a-building-on-dubais-sheikh-zayed-road-1.500471999",
+          "domain": "gulfnews.com",
+          "tier": "local"
+        },
+        {
+          "url": "https://www.khaleejtimes.com/uae/dubai-minor-drone-incident-al-badaa",
+          "domain": "khaleejtimes.com",
+          "tier": "local"
+        }
+      ],
+      "_via": "rss",
+      "confidence": "high",
+      "_search_count": 3,
+      "_next_search_at": 1773392525.0
+    },
     {
       "id": "f050168cca0d",
       "datetime": "2026-03-12T03:12:58Z",
@@ -30,171 +137,26 @@
       "_next_search_at": 1773288778.0
     },
     {
-      "id": "30b08ca92573",
-      "datetime": "2026-03-12T03:42:38Z",
-      "type": "impact_minor",
-      "confirmed": true,
-      "precision": "neighborhood",
-      "title": "Projectile hits vessel near Jebel Ali port — UKMTO",
-      "location": "Jebel Ali",
-      "lat": 25.0153,
-      "lon": 55.0613,
-      "sources": [
-        {
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/unidentified-projectile-hits-ship-near-uaes-jebel-ali-ukmto-says",
-          "domain": "middleeasteye.net",
-          "tier": "local"
-        },
-        {
-          "url": "https://www.bbc.com/news/articles/cr5l988qr47o",
-          "domain": "bbc.com",
-          "tier": "wire"
-        }
-      ],
-      "_via": "rss",
-      "confidence": "high",
-      "_search_count": 1,
-      "_next_search_at": 1773290558.0
-    },
-    {
-      "id": "708c5910d664",
-      "datetime": "2026-03-12T08:23:48Z",
-      "type": "impact_minor",
-      "confirmed": false,
-      "precision": "neighborhood",
-      "title": "Drone crash in Dubai Al Bada'a — no injuries reported",
-      "location": "Al Bada'a, Dubai",
-      "lat": 25.2041,
-      "lon": 55.2461,
-      "sources": [
-        {
-          "url": "https://gulfnews.com/uae/government/drone-crash-reported-in-dubais-al-bidaa-area-1.500471963",
-          "domain": "gulfnews.com",
-          "tier": "local"
-        },
-        {
-          "url": "https://www.dubaieye1038.com/news/local/no-injuries-after-drone-incident-in-dubais-al-badaa-area/",
-          "domain": "dubaieye1038.com",
-          "tier": "local"
-        },
-        {
-          "url": "https://www.khaleejtimes.com/uae/dubai-minor-drone-incident-al-badaa",
-          "domain": "khaleejtimes.com",
-          "tier": "local"
-        }
-      ],
-      "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-10%2Falwyuv8h%2FMissileThreat-1.jpg?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_width=100",
-      "_via": "rss",
-      "confidence": "high",
-      "_search_count": 3,
-      "_next_search_at": 1773390228.0
-    },
-    {
-      "id": "cc6ceeba89c4",
-      "datetime": "2026-03-12T09:02:05Z",
-      "type": "impact_minor",
-      "confirmed": false,
-      "precision": "neighborhood",
-      "title": "Interception debris hits building on Sheikh Zayed Rd, Dubai",
-      "location": "Sheikh Zayed Road, Dubai",
-      "lat": 25.196,
-      "lon": 55.273,
-      "sources": [
-        {
-          "url": "https://gulfnews.com/uae/government/debris-from-air-defence-interception-falls-on-a-building-on-dubais-sheikh-zayed-road-1.500471999",
-          "domain": "gulfnews.com",
-          "tier": "local"
-        },
-        {
-          "url": "https://www.khaleejtimes.com/uae/dubai-minor-drone-incident-al-badaa",
-          "domain": "khaleejtimes.com",
-          "tier": "local"
-        }
-      ],
-      "_via": "rss",
-      "confidence": "high",
-      "_search_count": 3,
-      "_next_search_at": 1773392525.0
-    },
-    {
-      "id": "c41e80168685",
-      "datetime": "2026-03-12T09:28:56Z",
-      "type": "impact_minor",
-      "confirmed": true,
-      "precision": "neighborhood",
-      "title": "Drone debris falls near Dubai Airport — two incidents",
-      "location": "Dubai Airport",
-      "lat": 25.2528,
-      "lon": 55.3644,
-      "sources": [
-        {
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/fallen-debris-dubai-after-drone-attack-kuwait-airport-hit",
-          "domain": "middleeasteye.net",
-          "tier": "local"
-        },
-        {
-          "url": "https://www.reuters.com/world/middle-east/two-drones-fall-vicinity-dubai-airport-iran-crisis-shows-no-sign-easing-2026-03-11/",
-          "domain": "reuters.com",
-          "tier": "wire"
-        }
-      ],
-      "_via": "rss",
-      "confidence": "high",
-      "_search_count": 1,
-      "_next_search_at": 1773311336.0
-    },
-    {
-      "id": "38a2e0287587",
-      "datetime": "2026-03-12T10:01:57Z",
-      "type": "impact_minor",
-      "confirmed": true,
-      "precision": "city",
-      "title": "Dubai high-rise building damaged in overnight drone hit",
-      "location": "Dubai",
-      "lat": 25.2048,
-      "lon": 55.2708,
-      "sources": [
-        {
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/3/12/dubai-high-rise-building-damaged-in-overnight-drone-hit?traffic_source=rss",
-          "domain": "aljazeera.com",
-          "tier": "wire"
-        },
-        {
-          "url": "https://apnews.com/video/iranian-drone-hits-dubai-tower-as-attacks-reported-across-gulf-states-d0f85ac78d8e40d59ac2f177645db5aa",
-          "domain": "apnews.com",
-          "tier": "wire"
-        }
-      ],
-      "snippet": "Video shows damage to a Dubai high-rise building hit by a drone.",
-      "preview_image": "https://www.aljazeera.com/wp-content/uploads/2026/03/WIDE.00_00_13_13.Still006-1773313224.jpg?resize=1920%2C1080&quality=80",
-      "_via": "rss",
-      "confidence": "high",
-      "_search_count": 1,
-      "_next_search_at": 1773313317.0
-    },
-    {
-      "id": "8e574eaf8945",
-      "datetime": "2026-03-12T15:45:02Z",
+      "id": "7309fb6805a1",
+      "datetime": "2026-03-12T02:30:00Z",
       "type": "impact_major",
       "confirmed": false,
       "precision": "city",
-      "title": "Father killed in Iranian strike on UAE — family mourns",
+      "title": "Family mourns father of five killed in Iran strike in Abu Dhabi residential area",
       "location": "Abu Dhabi, UAE",
       "lat": 24.4539,
       "lon": 54.3773,
       "sources": [
         {
-          "url": "https://www.thenationalnews.com/news/uae/2026/03/12/broken-dreams-family-mourns-loss-after-father-killed-in-iranian-strike-on-uae/",
+          "url": "https://www.thenationalnews.com/news/uae/2026/03/12/family-mourns-father-of-five-killed-in-iran-strike-in-abu-dhabi-residential-area/",
           "domain": "thenationalnews.com",
           "tier": "local"
         }
       ],
       "snippet": null,
-      "preview_image": "https://www.thenationalnews.com/resizer/v2/UMKBFMRGG5HXHGW4AK4MNVK64E.JPG?smart=true&auth=6a8cde229b4239853f6a2f3a1db380482ed949d059cb9d2efbfa49bb2a2b4cb2&width=1200&height=630",
+      "preview_image": "https://www.thenationalnews.com/resizer/v2/LYO4DP7NSVBMBGVPE2D3IXBPDQ.JPG?smart=true&amp;auth=c6717981c7bf208bbec0a68856703c0224610f1bf467d4504d6fd8f233eae28d&amp;width=1200&amp;height=630",
       "_via": "rss",
-      "confidence": "low",
-      "_search_count": 1,
-      "_next_search_at": 1773333902.0
+      "confidence": "low"
     },
     {
       "id": "780a01b87f72",
