@@ -873,14 +873,15 @@
   };
   const TYPE_SIZE = { impact_major: 24, impact_minor: 20, interception: 22, security_alert: 20, loc: 22 };
 
-  function makeEventIcon(type, confirmed) {
+  function makeEventIcon(type, confirmed, approximate) {
     const meta = TYPE_META[type] || TYPE_META['impact_major'];
     const paths = TYPE_SVG[type] || TYPE_SVG['impact_major'];
     const sz = TYPE_SIZE[type] || 22;
     const svgSz = Math.round(sz * 0.55);
+    const suspClass = (!confirmed || approximate) ? ' cm-suspected' : '';
     return L.divIcon({
       className: '',
-      html: `<div class="cm ${meta.mc}${!confirmed?' cm-suspected':''}"><svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" width="${svgSz}" height="${svgSz}">${paths}</svg></div>`,
+      html: `<div class="cm ${meta.mc}${suspClass}"><svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" width="${svgSz}" height="${svgSz}">${paths}</svg></div>`,
       iconSize: [sz, sz], iconAnchor: [sz/2, sz/2]
     });
   }
@@ -971,7 +972,9 @@
     }
 
     // Split: precise (on map) vs imprecise (sidebar only)
-    const isPrecise = e => e.lat && e.lon && (!e.precision || e.precision === 'exact');
+    // 'neighborhood' has good enough coords for a map pin (shown with dashed style)
+    const isPrecise = e => e.lat && e.lon && (!e.precision || e.precision === 'exact' || e.precision === 'neighborhood');
+    const isExact   = e => e.lat && e.lon && (!e.precision || e.precision === 'exact');
 
     list.innerHTML = filtered.map(e => {
       const tm = TYPE_META[e.type] || {};
@@ -981,7 +984,7 @@
         `<a class="src-tag" href="${s.url}" target="_blank">${s.domain}</a>`
       ).join('');
       const rel = relTime(e.datetime);
-      const approxBadge = !isPrecise(e)
+      const approxBadge = !isExact(e)
         ? `<span class="badge badge-approx">${ic('mapPin','ic-sm')} ${e.location || 'Area'}</span>` : '';
       const clickAttr = isPrecise(e)
         ? `onclick="flyTo(${e.lat},${e.lon})"` : '';
@@ -1007,7 +1010,7 @@
       const lat = e.lat + offsets[i].lat;
       const lon = e.lon + offsets[i].lon;
       const m = L.marker([lat, lon], {
-        icon: makeEventIcon(e.type, e.confirmed),
+        icon: makeEventIcon(e.type, e.confirmed, e.precision === 'neighborhood'),
         zIndexOffset: 500,
       })
         .addTo(map)
