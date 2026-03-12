@@ -1,12 +1,34 @@
 {
-  "last_updated": "2026-03-12T10:54:00Z",
+  "last_updated": "2026-03-12T11:09:09Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
+    {
+      "id": "c41e80168685",
+      "datetime": "2026-03-12T09:28:56Z",
+      "type": "impact_minor",
+      "confirmed": false,
+      "precision": "city",
+      "title": "Fallen debris in Dubai following drone attack",
+      "location": "Dubai",
+      "lat": 25.2048,
+      "lon": 55.2708,
+      "sources": [
+        {
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/fallen-debris-dubai-after-drone-attack-kuwait-airport-hit",
+          "domain": "middleeasteye.net",
+          "tier": "local"
+        }
+      ],
+      "snippet": "&lt;article data-history-node-id=\"435517\" about=\"https://www.middleeasteye.net/live-blog/live-blog-update/fallen-debris-dubai-after-drone-attack-kuwait-airport-hit\" class=\"live-blog-update default clearfix\"&gt;\n\n  \n      &lt;h2&gt;\n      &lt;a href=\"",
+      "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/2026-03-12T052917Z_1626185269_RC2D2KAM8P9D_RTRMADP_3_IRAN-CRISIS-LEBANON-AFTERMATH.JPG",
+      "_via": "rss",
+      "confidence": "low"
+    },
     {
       "id": "cc6ceeba89c4",
       "datetime": "2026-03-12T09:02:05Z",
       "type": "impact_minor",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "neighborhood",
       "title": "Interception debris hits building on Sheikh Zayed Road, Dubai",
       "location": "Sheikh Zayed Road, Dubai",
@@ -35,9 +57,9 @@
       "id": "708c5910d664",
       "datetime": "2026-03-12T08:23:48Z",
       "type": "impact_minor",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "neighborhood",
-      "title": "Drone crash in Dubai Al Bada'a — no injuries",
+      "title": "Drone crash in Dubai Al Bada'a — no injuries reported",
       "location": "Al Bada'a, Dubai",
       "lat": 25.2041,
       "lon": 55.2461,
@@ -277,35 +299,6 @@
       "confidence": "high",
       "_search_count": 3,
       "_next_search_at": 1773352613.0
-    },
-    {
-      "id": "42d7b49c91f6",
-      "datetime": "2026-03-11T18:31:58Z",
-      "type": "interception",
-      "confirmed": true,
-      "precision": "country",
-      "title": "UAE air defences intercept missiles and drones amid Iranian attack",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://gulfnews.com/uae/uae-air-defences-intercepted-missiles-drones-amid-iranian-attack-1.500471433",
-          "domain": "gulfnews.com",
-          "tier": "local"
-        },
-        {
-          "url": "https://www.reuters.com/world/middle-east/iranian-missiles-drones-fired-gulf-countries-2026-03-10/",
-          "domain": "reuters.com",
-          "tier": "wire"
-        }
-      ],
-      "snippet": null,
-      "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-11%2F8rv2f97e%2FDubaiskyline2026?rect=0%2C85%2C1200%2C630&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_width=100",
-      "_via": "rss",
-      "confidence": "high",
-      "_search_count": 2,
-      "_next_search_at": 1773275518.0
     },
     {
       "id": "780a01b87f72",
