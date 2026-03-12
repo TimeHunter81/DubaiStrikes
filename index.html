@@ -10,25 +10,22 @@
     @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 
     * { margin: 0; padding: 0; box-sizing: border-box; }
-    #card-preview {
-      display: none;
-      position: fixed;
-      left: 400px;
-      width: 264px;
-      background: rgba(10,14,20,0.97);
-      border: 1px solid rgba(255,255,255,0.1);
-      border-radius: 10px;
-      overflow: hidden;
-      box-shadow: 0 8px 40px rgba(0,0,0,0.6);
-      z-index: 9999;
-      pointer-events: none;
+    /* ── Event expand panel ── */
+    .event-expand { display: none; margin-top: 8px; padding-top: 8px; border-top: 1px solid rgba(255,255,255,0.06); }
+    .event-card.selected .event-expand { display: block; }
+    .event-expand-img { width: 100%; max-height: 130px; object-fit: cover; border-radius: 5px; margin-bottom: 6px; display: none; }
+    .event-expand-domain { font-size: 9px; color: #607a96; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 3px; display: flex; align-items: center; gap: 4px; }
+    .event-expand-domain img { width: 14px; height: 14px; border-radius: 2px; }
+    .event-expand-snippet { font-size: 10px; color: #7a94b0; line-height: 1.5; }
+    /* ── Selected card ── */
+    .event-card.selected { background: rgba(79,158,255,0.07); border-color: rgba(79,158,255,0.22); transform: translateX(2px); }
+    /* ── Radar pulse ── */
+    @keyframes radar-pulse {
+      0%   { transform: translate(-50%,-50%) scale(0.3); opacity: 0.85; }
+      100% { transform: translate(-50%,-50%) scale(4.5); opacity: 0; }
     }
-    #card-preview img { width: 100%; height: 150px; object-fit: cover; display: none; }
-    #preview-meta { padding: 8px 10px; }
-    #preview-domain { font-size: 9px; color: #607a96; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 3px; }
-    #preview-title { font-size: 11px; color: #d4e0f0; line-height: 1.4; font-weight: 500; margin-bottom: 4px; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
-    #preview-snippet { font-size: 10px; color: #7a94b0; line-height: 1.45; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
-    #preview-favicon { width: 16px; height: 16px; display: none; vertical-align: middle; margin-right: 4px; border-radius: 3px; }
+    .cm-pulse { width: 60px; height: 60px; position: relative; pointer-events: none; }
+    .cm-pulse-ring { position: absolute; top: 50%; left: 50%; width: 22px; height: 22px; border-radius: 50%; border: 2px solid white; animation: radar-pulse 2s ease-out infinite; }
     .ic { width: 13px; height: 13px; display: inline-block; vertical-align: middle; flex-shrink: 0; }
     .ic-sm { width: 11px; height: 11px; }
     .ic-md { width: 15px; height: 15px; }
@@ -315,12 +312,8 @@
       background: var(--card-accent, rgba(255,255,255,0.1));
       border-radius: 10px 0 0 10px;
     }
-    .event-card:hover {
-      background: rgba(255,255,255,0.05);
-      border-color: rgba(255,255,255,0.1);
-      transform: translateX(2px);
-      box-shadow: 0 4px 20px rgba(0,0,0,0.3);
-    }
+    .event-card:hover { background: rgba(255,255,255,0.04); border-color: rgba(255,255,255,0.08); }
+    .event-card { cursor: pointer; }
     .event-card[data-type="impact_major"]   { --card-accent: rgba(248,81,73,0.6); }
     .event-card[data-type="interception"]   { --card-accent: rgba(79,158,255,0.6); }
     .event-card[data-type="impact_minor"]   { --card-accent: rgba(240,168,32,0.6); }
@@ -569,14 +562,7 @@
     </div>
   </div>
 
-  <div id="card-preview">
-    <img id="preview-img" alt="" />
-    <div id="preview-meta">
-      <div id="preview-domain"><img id="preview-favicon" alt="" /><span id="preview-domain-text"></span></div>
-      <div id="preview-title"></div>
-      <div id="preview-snippet"></div>
-    </div>
-  </div>
+
 
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/lz-string@1.5.0/libs/lz-string.min.js"></script>
@@ -783,58 +769,51 @@
   let _eventsById  = {};
 
   // ─── CARD PREVIEW ─────────────────────────────────────────────────────
-  let _previewTimer = null;
-  function showCardPreview(id, el) {
-    if (window.innerWidth <= 700) return;  // mobile: no hover card
-    clearTimeout(_previewTimer);
-    _previewTimer = setTimeout(() => {
-      const e = _eventsById[id];
-      if (!e) return;
+  // ─── SELECTION + RADAR PULSE ───────────────────────────────────────────
+  let _selectedId  = null;
+  let _pulseMarker = null;
 
-      const pv       = document.getElementById('card-preview');
-      const pvImg    = document.getElementById('preview-img');
-      const pvFav    = document.getElementById('preview-favicon');
-      const pvDomain = document.getElementById('preview-domain-text');
-      const pvTitle  = document.getElementById('preview-title');
-      const pvSnip   = document.getElementById('preview-snippet');
+  const TYPE_PULSE_COLOR = {
+    impact_major:   '#ff5f57',
+    impact_minor:   '#f0a820',
+    interception:   '#6ab4ff',
+    security_alert: '#b48aff',
+  };
 
-      // Domain from first source
-      const domain = (e.sources && e.sources[0]) ? e.sources[0].domain : '';
-      pvDomain.textContent = domain;
-
-      // Favicon (always available)
-      if (domain) {
-        pvFav.src = `https://www.google.com/s2/favicons?sz=32&domain=${domain}`;
-        pvFav.style.display = 'inline-block';
-      } else {
-        pvFav.style.display = 'none';
-      }
-
-      // Hero image
-      if (e.preview_image) {
-        pvImg.src = e.preview_image;
-        pvImg.style.display = 'block';
-        pvImg.onerror = () => { pvImg.style.display = 'none'; };
-      } else {
-        pvImg.style.display = 'none';
-        pvImg.src = '';
-      }
-
-      pvTitle.textContent = e.title || '';
-      pvSnip.textContent  = e.snippet || '';
-      pvSnip.style.display = e.snippet ? 'block' : 'none';
-
-      // Position: right of sidebar, vertically near the hovered card
-      const rect = el.getBoundingClientRect();
-      const top  = Math.min(Math.max(rect.top, 8), window.innerHeight - 260);
-      pv.style.top  = top + 'px';
-      pv.style.display = 'block';
-    }, 180);
+  function makePulseIcon(color) {
+    const rings = [0, 0.67, 1.33].map(d =>
+      `<div class="cm-pulse-ring" style="border-color:${color};animation-delay:${d}s"></div>`
+    ).join('');
+    return L.divIcon({ className: '', html: `<div class="cm-pulse">${rings}</div>`, iconSize: [60, 60], iconAnchor: [30, 30] });
   }
 
-  function hideCardPreview() {
-    clearTimeout(_previewTimer);
-    document.getElementById('card-preview').style.display = 'none';
+  function selectEvent(id) {
+    // Deselect previous card
+    if (_selectedId) {
+      const prev = document.querySelector(`.event-card[data-id="${_selectedId}"]`);
+      if (prev) prev.classList.remove('selected');
+    }
+    // Remove existing pulse
+    if (_pulseMarker) { _pulseMarker.remove(); _pulseMarker = null; }
+
+    // Toggle off if same event clicked
+    if (_selectedId === id) { _selectedId = null; return; }
+
+    _selectedId = id;
+    const e = _eventsById[id];
+    if (!e) return;
+
+    // Highlight card
+    const card = document.querySelector(`.event-card[data-id="${id}"]`);
+    if (card) card.classList.add('selected');
+
+    // Fly to + pulse if has coords
+    if (e.lat && e.lon) {
+      map.flyTo([e.lat, e.lon], Math.max(map.getZoom(), 12), { duration: 0.8 });
+      const color = TYPE_PULSE_COLOR[e.type] || 'white';
+      _pulseMarker = L.marker([e.lat, e.lon], { icon: makePulseIcon(color), zIndexOffset: 1000, interactive: false })
+        .addTo(map);
+    }
   }
   let userLocs     = [];
   let eventMarkers = [];
@@ -986,9 +965,19 @@
       const rel = relTime(e.datetime);
       const approxBadge = !isExact(e)
         ? `<span class="badge badge-approx">${ic('mapPin','ic-sm')} ${e.location || 'Area'}</span>` : '';
-      const clickAttr = isPrecise(e)
-        ? `onclick="flyTo(${e.lat},${e.lon})"` : '';
-      return `<div class="event-card${!isPrecise(e) ? ' event-card-approx' : ''}" data-type="${e.type||''}" data-datetime="${e.datetime||''}" ${clickAttr} onmouseenter="showCardPreview('${e.id}',this)" onmouseleave="hideCardPreview()">
+      // Expand panel content
+      const domain = (e.sources && e.sources[0]) ? e.sources[0].domain : '';
+      const faviconHtml = domain
+        ? `<img src="https://www.google.com/s2/favicons?sz=32&domain=${domain}" alt="" onerror="this.style.display='none'" />${domain}`
+        : '';
+      const expandImg = e.preview_image
+        ? `<img class="event-expand-img" src="${e.preview_image}" alt="" style="display:block" onerror="this.style.display='none'" />` : '';
+      const expandSnippet = e.snippet ? `<div class="event-expand-snippet">${e.snippet}</div>` : '';
+      const expandSrcs = (e.sources||[]).map(s =>
+        `<a class="src-tag" href="${s.url}" target="_blank" onclick="event.stopPropagation()">${s.domain}</a>`
+      ).join('');
+      const isSelected = _selectedId === e.id;
+      return `<div class="event-card${!isPrecise(e) ? ' event-card-approx' : ''}${isSelected ? ' selected' : ''}" data-type="${e.type||''}" data-datetime="${e.datetime||''}" data-id="${e.id}" onclick="selectEvent('${e.id}')">
         <div class="event-badges">
           ${tm.label ? `<span class="badge ${tm.cls}">${tm.label}</span>` : ''}
           <span class="badge ${confClass}">${confLabel}</span>
@@ -996,9 +985,14 @@
         </div>
         ${rel ? `<div class="event-time"><span class="rel">${rel}</span></div>` : ''}
         <div class="event-title" id="title-${e.id}">${needsTranslation(e.title) ? (window._translations[e.id]?.translated || e.title) : e.title}</div>
-        ${needsTranslation(e.title) ? `<button class="translate-btn" id="trbtn-${e.id}" onclick="toggleOriginal(event,'${e.id}','${encodeURIComponent(e.title)}')">${window._translations[e.id]?.translated ? ic('globe')+' Original' : ''}</button>` : ''}
+        ${needsTranslation(e.title) ? `<button class="translate-btn" id="trbtn-${e.id}" onclick="event.stopPropagation();toggleOriginal(event,'${e.id}','${encodeURIComponent(e.title)}')">${window._translations[e.id]?.translated ? ic('globe')+' Original' : ''}</button>` : ''}
         <div class="event-meta">${e.location || 'UAE'}</div>
-        ${srcs ? `<div class="event-sources">${srcs}</div>` : ''}
+        ${expandSrcs ? `<div class="event-sources">${expandSrcs}</div>` : ''}
+        <div class="event-expand">
+          ${expandImg}
+          ${faviconHtml ? `<div class="event-expand-domain">${faviconHtml}</div>` : ''}
+          ${expandSnippet}
+        </div>
       </div>`;
     }).join('');
 
@@ -1013,14 +1007,13 @@
         icon: makeEventIcon(e.type, e.confirmed, e.precision === 'neighborhood'),
         zIndexOffset: 500,
       })
-        .addTo(map)
-        .bindPopup(popupHTML(e), { maxWidth: 260 });
-      m.on('mouseover click', function() { this.openPopup(); });
+        .addTo(map);
+      m.on('click', function() { selectEvent(e.id); });
       eventMarkers.push(m);
     });
   }
 
-  function flyTo(lat, lon) { map.flyTo([lat, lon], 12, { duration: 0.8 }); }
+
 
   // ─── VIEWPORT FILTER ───────────────────────────────────────────────────
   function eventInViewport(e) {
