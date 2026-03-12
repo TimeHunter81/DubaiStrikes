@@ -35,7 +35,7 @@
       "id": "db4a10b05403",
       "datetime": "2026-03-12T03:39:20Z",
       "type": "interception",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "UAE battles Iranian missile and drone threats",
       "location": "Uae",
@@ -46,18 +46,25 @@
           "url": "https://www.middleeasteye.net/live-blog/live-blog-update/uae-battles-missile-and-drone-threats-iran",
           "domain": "middleeasteye.net",
           "tier": "local"
+        },
+        {
+          "url": "https://www.hindustantimes.com/world-news/dubai-abu-dhabi-uae-war-news-live-updates-iran-us-saudi-qatar-middle-east-flights-airports-missiles-alert-latest-news-101773189886972.html",
+          "domain": "hindustantimes.com",
+          "tier": "wire"
         }
       ],
       "snippet": "&lt;article data-history-node-id=\"435495\" about=\"https://www.middleeasteye.net/live-blog/live-blog-update/uae-battles-missile-and-drone-threats-iran\" class=\"live-blog-update default clearfix\"&gt;\n\n  \n      &lt;h2&gt;\n      &lt;a href=\"https://www.mid",
       "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/lebanon-civilians-taking-shelter-beirut-11march-2026-reuters.jpg",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1773290360.0
     },
     {
       "id": "f050168cca0d",
       "datetime": "2026-03-12T03:12:58Z",
       "type": "interception",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "UAE intercepts Iranian missiles and drones; residents alerted",
       "location": "Uae",
@@ -68,12 +75,19 @@
           "url": "https://gulfnews.com/uae/uae-responds-to-iranian-missiles-and-drones-residents-receive-emergency-alerts-1.500471680",
           "domain": "gulfnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://www.reuters.com/world/middle-east/iranian-missiles-drones-fired-gulf-countries-2026-03-10/",
+          "domain": "reuters.com",
+          "tier": "wire"
         }
       ],
       "snippet": null,
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-10%2Foxjrgpgh%2Fgulfnews2026-03-057odx7i2wnewsmlafpcom20260305T175920Zdoca24n37y.avif?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1773288778.0
     },
     {
       "id": "7309fb6805a1",
