@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-12T11:34:00Z",
+  "last_updated": "2026-03-12T11:48:46Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -30,6 +30,28 @@
       "confidence": "high",
       "_search_count": 1,
       "_next_search_at": 1773313317.0
+    },
+    {
+      "id": "c41e80168685",
+      "datetime": "2026-03-12T09:28:56Z",
+      "type": "impact_minor",
+      "confirmed": false,
+      "precision": "city",
+      "title": "Fallen debris in Dubai after drone attack, Kuwait airport hit",
+      "location": "Dubai",
+      "lat": 25.2048,
+      "lon": 55.2708,
+      "sources": [
+        {
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/fallen-debris-dubai-after-drone-attack-kuwait-airport-hit",
+          "domain": "middleeasteye.net",
+          "tier": "local"
+        }
+      ],
+      "snippet": "&lt;article data-history-node-id=\"435517\" about=\"https://www.middleeasteye.net/live-blog/live-blog-update/fallen-debris-dubai-after-drone-attack-kuwait-airport-hit\" class=\"live-blog-update default clearfix\"&gt;\n\n  \n      &lt;h2&gt;\n      &lt;a href=\"",
+      "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/2026-03-12T052917Z_1626185269_RC2D2KAM8P9D_RTRMADP_3_IRAN-CRISIS-LEBANON-AFTERMATH.JPG",
+      "_via": "rss",
+      "confidence": "low"
     },
     {
       "id": "cc6ceeba89c4",
@@ -257,40 +279,6 @@
       "confidence": "high",
       "_search_count": 3,
       "_next_search_at": 1773362587.0
-    },
-    {
-      "id": "ef9c234d13cc",
-      "datetime": "2026-03-11T21:56:53Z",
-      "type": "interception",
-      "confirmed": false,
-      "precision": "country",
-      "title": "UAE intercepts 6 ballistic, 7 cruise missiles and 39 UAVs",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://gulfnews.com/uae/uae-air-defences-intercept-six-ballistic-missiles-seven-cruise-missiles-39-uavs-1.500471507",
-          "domain": "gulfnews.com",
-          "tier": "local"
-        },
-        {
-          "url": "https://english.news.cn/20260311/d5172dd1b1614252ae0291b328de0585/c.html",
-          "domain": "english.news.cn",
-          "tier": "wire"
-        },
-        {
-          "url": "https://www.express.co.uk/news/world/2180912/dubai-explosions-live-strait-hormuz-iranian-missile",
-          "domain": "express.co.uk",
-          "tier": "wire"
-        }
-      ],
-      "snippet": "UAE air defences intercept six ballistic missiles, seven cruise missiles, 39 UAVs",
-      "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-11%2F9s4s8bqa%2FMarch-11.jpg?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_width=100",
-      "_via": "rss",
-      "confidence": "high",
-      "_search_count": 3,
-      "_next_search_at": 1773352613.0
     },
     {
       "id": "780a01b87f72",
