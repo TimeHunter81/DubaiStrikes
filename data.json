@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-12T19:32:44Z",
+  "last_updated": "2026-03-12T19:38:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -9,7 +9,7 @@
       "confirmed": true,
       "precision": "country",
       "title": "UAE intercepts missiles and drones launched from Iran",
-      "location": "Uae",
+      "location": "UAE",
       "lat": null,
       "lon": null,
       "sources": [
@@ -24,10 +24,8 @@
           "tier": "wire"
         }
       ],
-      "snippet": "&lt;article data-history-node-id=\"435574\" about=\"https://www.middleeasteye.net/live-blog/live-blog-update/uae-says-it-intercepted-missiles-and-drones-launched-iran\" class=\"live-blog-update default clearfix\"&gt;\n\n  \n      &lt;h2&gt;\n      &lt;a href=\"",
-      "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/000_A2ZB8WR.jpg",
       "_via": "rss",
-      "confidence": "low",
+      "confidence": "high",
       "_search_count": 1,
       "_next_search_at": 1773346099.0
     },
