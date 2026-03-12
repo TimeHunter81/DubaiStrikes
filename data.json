@@ -35,7 +35,7 @@
       "id": "cacd0c5df6d2",
       "datetime": "2026-03-12T07:52:21Z",
       "type": "interception",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "neighborhood",
       "title": "Several explosions heard in Dubai downtown",
       "location": "Dubai Downtown",
@@ -51,14 +51,19 @@
           "url": "https://www.lbcgroup.tv/news/middleeastnews/913635/explosions-heard-in-downtown-dubai-afp-correspondent/en",
           "domain": "lbcgroup.tv",
           "tier": "wire"
+        },
+        {
+          "url": "https://www.financialexpress.com/world-news/dubai-iran-war-news-live-drone-hits-creek-harbour-irgc-fires-on-ships-in-hormuz-tech-companies-and-banks-on-irans-radar/4170030/",
+          "domain": "financialexpress.com",
+          "tier": "wire"
         }
       ],
       "snippet": null,
       "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/2026-03-12T052917Z_1626185269_RC2D2KAM8P9D_RTRMADP_3_IRAN-CRISIS-LEBANON-AFTERMATH.JPG",
       "_via": "rss",
       "confidence": "medium",
-      "_search_count": 1,
-      "_next_search_at": 1773305541.0
+      "_search_count": 2,
+      "_next_search_at": 1773323541.0
     },
     {
       "id": "30b08ca92573",
