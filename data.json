@@ -213,7 +213,7 @@
       "id": "7309fb6805a1",
       "datetime": "2026-03-12T02:30:00Z",
       "type": "impact_major",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "Iranian strike kills resident in Abu Dhabi residential area",
       "location": "Abu Dhabi",
@@ -227,7 +227,9 @@
         }
       ],
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1773286200.0
     },
     {
       "id": "780a01b87f72",
