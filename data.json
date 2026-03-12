@@ -89,7 +89,7 @@
       "id": "708c5910d664",
       "datetime": "2026-03-12T08:23:48Z",
       "type": "impact_minor",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "neighborhood",
       "title": "Drone crash in Dubai Al Bada'a — no injuries reported",
       "location": "Al Bada'a, Dubai",
@@ -105,13 +105,18 @@
           "url": "https://www.dubaieye1038.com/news/local/no-injuries-after-drone-incident-in-dubais-al-badaa-area/",
           "domain": "dubaieye1038.com",
           "tier": "wire"
+        },
+        {
+          "url": "https://www.khaleejtimes.com/uae/dubai-minor-drone-incident-al-badaa",
+          "domain": "khaleejtimes.com",
+          "tier": "wire"
         }
       ],
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-10%2Falwyuv8h%2FMissileThreat-1.jpg?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_width=100",
       "_via": "rss",
       "confidence": "high",
-      "_search_count": 2,
-      "_next_search_at": 1773325428.0
+      "_search_count": 3,
+      "_next_search_at": 1773390228.0
     },
     {
       "id": "cacd0c5df6d2",
