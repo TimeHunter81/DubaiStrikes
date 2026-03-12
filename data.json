@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-12T03:55:00Z",
+  "last_updated": "2026-03-12T04:06:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -27,7 +27,7 @@
       "snippet": null,
       "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/lebanon-civilians-taking-shelter-beirut-11march-2026-reuters.jpg",
       "_via": "rss",
-      "confidence": "low",
+      "confidence": "high",
       "_search_count": 1,
       "_next_search_at": 1773290558.0
     },
@@ -35,7 +35,7 @@
       "id": "3545eebfbde9",
       "datetime": "2026-03-12T03:12:58Z",
       "type": "security_alert",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "country",
       "title": "UAE responds to Iranian missiles and drones; residents get emergency alerts",
       "location": "UAE",
@@ -93,7 +93,7 @@
       "id": "784da98b2790",
       "datetime": "2026-03-12T02:20:04Z",
       "type": "impact_minor",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "city",
       "title": "Iranian drone hits Dubai residential tower — fire contained",
       "location": "Dubai",
@@ -167,7 +167,7 @@
       "snippet": null,
       "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/lebanon-civilians-taking-shelter-beirut-11march-2026-reuters.jpg",
       "_via": "rss",
-      "confidence": "low",
+      "confidence": "high",
       "_search_count": 1,
       "_next_search_at": 1773280063.0
     },
@@ -175,9 +175,9 @@
       "id": "3a4b4a67d2d1",
       "datetime": "2026-03-12T00:43:07Z",
       "type": "impact_minor",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "city",
-      "title": "Fire put out after Iranian drone hits Dubai residential tower",
+      "title": "Fire put out after Iranian drone slams into Dubai residential tower",
       "location": "Dubai",
       "lat": 25.2048,
       "lon": 55.2708,
