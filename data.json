@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-03-12T20:05:00Z",
+  "last_updated": "2026-03-12T20:10:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
       "id": "f1080a9b94ea",
       "datetime": "2026-03-12T19:08:19Z",
       "type": "interception",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "country",
       "title": "UAE intercepts missiles and drones launched from Iran",
       "location": "UAE",
@@ -60,9 +60,9 @@
       "id": "8e574eaf8945",
       "datetime": "2026-03-12T15:45:02Z",
       "type": "impact_major",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "city",
-      "title": "Father killed in Iranian strike on UAE — family mourns",
+      "title": "Father killed in Iranian strike on UAE",
       "location": "Abu Dhabi, UAE",
       "lat": 24.4539,
       "lon": 54.3773,
