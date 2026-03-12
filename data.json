@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-12T20:10:00Z",
+  "last_updated": "2026-03-12T20:26:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -8,7 +8,7 @@
       "type": "interception",
       "confirmed": true,
       "precision": "country",
-      "title": "UAE intercepts missiles and drones launched from Iran",
+      "title": "UAE intercepts 6 ballistic missiles, 7 cruise missiles, 39 UAVs",
       "location": "UAE",
       "lat": null,
       "lon": null,
@@ -29,6 +29,7 @@
           "tier": "wire"
         }
       ],
+      "snippet": null,
       "_via": "rss",
       "confidence": "high",
       "_search_count": 2,
@@ -84,7 +85,7 @@
         }
       ],
       "_via": "rss",
-      "confidence": "low",
+      "confidence": "high",
       "_search_count": 2,
       "_next_search_at": 1773351902.0
     },
