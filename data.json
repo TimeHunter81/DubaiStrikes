@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-12T08:59:16Z",
+  "last_updated": "2026-03-12T09:07:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -35,7 +35,7 @@
       "id": "cacd0c5df6d2",
       "datetime": "2026-03-12T07:52:21Z",
       "type": "interception",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "neighborhood",
       "title": "Several explosions heard in Dubai downtown",
       "location": "Dubai Downtown",
