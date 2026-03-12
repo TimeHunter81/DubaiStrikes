@@ -1,7 +1,51 @@
 {
-  "last_updated": "2026-03-12T16:58:40Z",
+  "last_updated": "2026-03-12T17:08:22Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
+    {
+      "id": "4a537abe017b",
+      "datetime": "2026-03-12T17:02:25Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "Iran says ships can pass Hormuz if they coordinate with navy",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-says-ships-can-pass-hormuz-if-they-coordinate-navy",
+          "domain": "middleeasteye.net",
+          "tier": "local"
+        }
+      ],
+      "snippet": "&lt;article data-history-node-id=\"435564\" about=\"https://www.middleeasteye.net/live-blog/live-blog-update/iran-says-ships-can-pass-hormuz-if-they-coordinate-navy\" class=\"live-blog-update default clearfix\"&gt;\n\n  \n      &lt;h2&gt;\n      &lt;a href=\"ht",
+      "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/Untitled_1.jpg",
+      "_via": "rss",
+      "confidence": "low"
+    },
+    {
+      "id": "ed53e8c02c28",
+      "datetime": "2026-03-12T16:59:00Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "city",
+      "title": "Abu Dhabi urban indicators record 75 million square metres of development in 2025",
+      "location": "Abu Dhabi",
+      "lat": 24.4539,
+      "lon": 54.3773,
+      "sources": [
+        {
+          "url": "https://gulfnews.com/uae/abu-dhabi-urban-indicators-record-75-million-square-metres-of-development-in-2025-1.500472524",
+          "domain": "gulfnews.com",
+          "tier": "local"
+        }
+      ],
+      "snippet": "Abu Dhabi urban indicators record 75 million square metres of development in 2025",
+      "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-09%2F8e22um5j%2FAbudhabiskyline-2026?rect=0%2C0%2C6240%2C3276&amp;w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
+      "_via": "rss",
+      "confidence": "low"
+    },
     {
       "id": "8d7b90e93d8a",
       "datetime": "2026-03-12T16:58:26Z",
@@ -34,6 +78,72 @@
       "_via": "gdelt",
       "_search_count": 1,
       "_next_search_at": 1773338306.0
+    },
+    {
+      "id": "786a15bb5166",
+      "datetime": "2026-03-12T16:54:17Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "Total shuts 15 percent of oil and gas output amid US-Israeli war on Iran",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/total-shuts-15-percent-oil-and-gas-output-amid-israeli-us-war",
+          "domain": "middleeasteye.net",
+          "tier": "local"
+        }
+      ],
+      "snippet": "&lt;article data-history-node-id=\"435563\" about=\"https://www.middleeasteye.net/live-blog/live-blog-update/total-shuts-15-percent-oil-and-gas-output-amid-israeli-us-war\" class=\"live-blog-update default clearfix\"&gt;\n\n  \n      &lt;h2&gt;\n      &lt;a hr",
+      "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/Untitled_1.jpg",
+      "_via": "rss",
+      "confidence": "low"
+    },
+    {
+      "id": "dfe6334e30b3",
+      "datetime": "2026-03-12T16:53:58Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "Who threatens the Arab world: Iran or the US and Israel?",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.middleeasteye.net/opinion/who-threatens-arab-world-iran-or-us-and-israel",
+          "domain": "middleeasteye.net",
+          "tier": "local"
+        }
+      ],
+      "snippet": "&lt;article data-history-node-id=\"435533\" about=\"https://www.middleeasteye.net/opinion/who-threatens-arab-world-iran-or-us-and-israel\" class=\"opinion default clearfix\"&gt;\n\n  \n      &lt;h2&gt;\n      &lt;a href=\"https://www.middleeasteye.net/opinion/w",
+      "preview_image": "https://www.middleeasteye.net/sites/default/files/images-story/000_A2PB266%282%29.jpg",
+      "_via": "rss",
+      "confidence": "low"
+    },
+    {
+      "id": "acb2635adc8f",
+      "datetime": "2026-03-12T16:53:11Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "Israeli military drops charges against soldiers accused of raping Palestinian",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.middleeasteye.net/news/israeli-military-drops-charges-against-soldiers-accused-raping-palestinian",
+          "domain": "middleeasteye.net",
+          "tier": "local"
+        }
+      ],
+      "snippet": "&lt;article data-history-node-id=\"435562\" about=\"https://www.middleeasteye.net/news/israeli-military-drops-charges-against-soldiers-accused-raping-palestinian\" class=\"story default clearfix\"&gt;\n\n  \n      &lt;h2&gt;\n      &lt;a href=\"https://www.midd",
+      "preview_image": "https://www.middleeasteye.net/sites/default/files/images-story/sde%20teiman%20israel%20reuters.jpg",
+      "_via": "rss",
+      "confidence": "low"
     },
     {
       "id": "d14dc0c42598",
@@ -2127,116 +2237,6 @@
       "preview_image": "https://www.thenationalnews.com/resizer/v2/ZNA6MPSE6JCVXINHLUVZFXRN7A.jpg?smart=true&amp;auth=5abc21b78823fded2bdd24b0c41ffd6a1e910e0698578aeb99884635c614f6ae&amp;width=1200&amp;height=630",
       "_via": "rss",
       "confidence": "low"
-    },
-    {
-      "id": "95c311956d95",
-      "datetime": "2026-03-12T06:38:55Z",
-      "type": "security_alert",
-      "confirmed": false,
-      "precision": "country",
-      "title": "At least eight killed in Israeli attack on Beirut beachfront, where displaced families sleep in tents",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.thenationalnews.com/news/mena/2026/03/12/at-least-eight-killed-in-israeli-attack-on-beirut-beachfront-where-displaced-families-slept-in-tents/",
-          "domain": "thenationalnews.com",
-          "tier": "local"
-        }
-      ],
-      "snippet": null,
-      "preview_image": "https://www.thenationalnews.com/resizer/v2/7SVQ5VG4QZABJHXMRNXZXY2CQU.JPG?smart=true&amp;auth=cde1b5865c96c60f392da187761db666bb5204f8baca25727fadaa035f801fd0&amp;width=1200&amp;height=630",
-      "_via": "rss",
-      "confidence": "low"
-    },
-    {
-      "id": "147cfa12c95d",
-      "datetime": "2026-03-12T06:30:00Z",
-      "type": "security_alert",
-      "confirmed": false,
-      "precision": "city",
-      "title": "Could UAE take Iran's place at Fifa World Cup?",
-      "location": "Uae",
-      "lat": 24.5,
-      "lon": 54.5,
-      "sources": [
-        {
-          "url": "https://www.thenationalnews.com/sport/football/2026/03/12/could-uae-take-irans-place-at-fifa-world-cup/",
-          "domain": "thenationalnews.com",
-          "tier": "local"
-        }
-      ],
-      "snippet": null,
-      "preview_image": "https://www.thenationalnews.com/resizer/v2/KQFBFBSXC5B3BAO267FSJJ76DQ?smart=true&amp;auth=778c1bccc4c5c6af3316ee2959c1baacbc55e756da4413fd86b56bea85396cde&amp;width=1200&amp;height=630",
-      "_via": "rss",
-      "confidence": "low"
-    },
-    {
-      "id": "d64bf00d636d",
-      "datetime": "2026-03-12T06:24:17Z",
-      "type": "security_alert",
-      "confirmed": false,
-      "precision": "country",
-      "title": "Ships attacked in Iraqi waters and Strait of Hormuz as war targets expand",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.thenationalnews.com/news/mena/2026/03/12/ships-attacked-in-iraqi-waters-and-strait-of-hormuz-as-war-targets-expand/",
-          "domain": "thenationalnews.com",
-          "tier": "local"
-        }
-      ],
-      "snippet": null,
-      "preview_image": "https://www.thenationalnews.com/resizer/v2/CB3F3YW5EM5NPYYDQQZ7EAFVCM.jpg?smart=true&amp;auth=1d89c1261dad2f8a7e56cda3bd02b0587c299f6146a55ff6503c3667fd772454&amp;width=1200&amp;height=630",
-      "_via": "rss",
-      "confidence": "low"
-    },
-    {
-      "id": "447f6e5ebe74",
-      "datetime": "2026-03-12T05:57:05Z",
-      "type": "security_alert",
-      "confirmed": true,
-      "precision": "country",
-      "title": "Thursday briefing: What an Iran negotiator thinks could happen next – and why Trump still has an off-ramp",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.theguardian.com/world/2026/mar/12/thursday-briefing-first-edition-trump-netanyahu-us-israel-war-in-iran-whats-next",
-          "domain": "theguardian.com",
-          "tier": "wire"
-        }
-      ],
-      "snippet": "&lt;p&gt;In today’s newsletter: Robert Malley, who led talks for the 2015 Iran nuclear deal, helps make sense of the war&lt;/p&gt;&lt;p&gt;Good morning, and apologies for the interruption to your usual programming. Stepping out from behind the editin",
-      "preview_image": "https://i.guim.co.uk/img/media/116c19c518428edfb0d29c8bbc62a6709d7868c6/499_0_4800_3840/master/4800.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=ee9c4e942c84c59ea22a7d6db9671275",
-      "_via": "rss",
-      "confidence": "medium"
-    },
-    {
-      "id": "a926c8d88ed8",
-      "datetime": "2026-03-12T05:00:12Z",
-      "type": "security_alert",
-      "confirmed": true,
-      "precision": "country",
-      "title": "Gordon Brown calls for international criminal court for crimes against children",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.theguardian.com/world/2026/mar/12/gordon-brown-calls-for-international-criminal-court-for-crimes-against-children",
-          "domain": "theguardian.com",
-          "tier": "wire"
-        }
-      ],
-      "snippet": "&lt;p&gt;Former PM says schools ‘deserve same moral status as hospitals’ after 168 schoolgirls killed in US-Israel war on Iran&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;a href=\"https://www.theguardian.com/commentisfree/2026/mar/12/children-killed-sch",
-      "preview_image": "https://i.guim.co.uk/img/media/e55edbebc37468e60ed2e5ad24e22415caa64079/135_0_1456_1165/master/1456.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=a3b294d6a01c2f9d51d3a7f96019c88c",
-      "_via": "rss",
-      "confidence": "medium"
     },
     {
       "id": "780a01b87f72",
