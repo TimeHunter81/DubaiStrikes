@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-12T03:00:00Z",
+  "last_updated": "2026-03-12T03:10:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -27,7 +27,7 @@
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/OQKT6EQAIJHR7BBTRLCMSFBT6Y.JPG?smart=true&auth=43e0e43ff0385399d2773f4fcf256482f5d8065882d644ba640277b0c4b28382&width=1200&height=630",
       "_via": "rss",
-      "confidence": "low",
+      "confidence": "high",
       "_search_count": 1,
       "_next_search_at": 1773286200.0
     },
@@ -93,7 +93,7 @@
       "id": "ef9c234d13cc",
       "datetime": "2026-03-11T21:56:53Z",
       "type": "interception",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "country",
       "title": "UAE intercepts 6 ballistic missiles, 7 cruise missiles, 39 UAVs",
       "location": "UAE",
