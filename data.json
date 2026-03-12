@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-12T15:58:00Z",
+  "last_updated": "2026-03-12T16:07:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -75,12 +75,12 @@
         {
           "url": "https://www.dubaieye1038.com/news/local/no-injuries-after-drone-incident-in-dubais-al-badaa-area/",
           "domain": "dubaieye1038.com",
-          "tier": "wire"
+          "tier": "local"
         },
         {
           "url": "https://www.khaleejtimes.com/uae/dubai-minor-drone-incident-al-badaa",
           "domain": "khaleejtimes.com",
-          "tier": "wire"
+          "tier": "local"
         }
       ],
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-10%2Falwyuv8h%2FMissileThreat-1.jpg?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_width=100",
@@ -108,7 +108,7 @@
         {
           "url": "https://www.khaleejtimes.com/uae/dubai-minor-drone-incident-al-badaa",
           "domain": "khaleejtimes.com",
-          "tier": "wire"
+          "tier": "local"
         }
       ],
       "_via": "rss",
@@ -176,7 +176,7 @@
       "id": "8e574eaf8945",
       "datetime": "2026-03-12T15:45:02Z",
       "type": "impact_major",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "city",
       "title": "Father killed in Iranian strike on UAE — family mourns",
       "location": "Abu Dhabi, UAE",
