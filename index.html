@@ -366,13 +366,13 @@
     #footer a:hover { color: #7eb8ff; }
 
     /* ── MARKERS ── */
-    .cm { border-radius: 50%; border: 2px solid rgba(255,255,255,0.35); }
-    .cm-interception  { background: radial-gradient(circle, #6ab4ff, #2d6ecc); width: 14px; height: 14px; box-shadow: 0 0 8px rgba(79,158,255,0.5); }
-    .cm-impact_minor  { background: radial-gradient(circle, #f0a820, #b07010); width: 12px; height: 12px; box-shadow: 0 0 6px rgba(240,168,32,0.4); }
-    .cm-impact_major  { background: radial-gradient(circle, #ff5f57, #c02020); width: 17px; height: 17px; box-shadow: 0 0 14px rgba(248,81,73,0.6), 0 0 4px rgba(248,81,73,0.4); }
-    .cm-security_alert{ background: radial-gradient(circle, #b48aff, #6040bb); width: 13px; height: 13px; box-shadow: 0 0 8px rgba(163,113,247,0.4); }
+    .cm { border-radius: 50%; border: 2px solid rgba(255,255,255,0.35); display: flex; align-items: center; justify-content: center; }
+    .cm-interception  { background: radial-gradient(circle, #6ab4ff, #2d6ecc); width: 22px; height: 22px; box-shadow: 0 0 8px rgba(79,158,255,0.5); }
+    .cm-impact_minor  { background: radial-gradient(circle, #f0a820, #b07010); width: 20px; height: 20px; box-shadow: 0 0 6px rgba(240,168,32,0.4); }
+    .cm-impact_major  { background: radial-gradient(circle, #ff5f57, #c02020); width: 24px; height: 24px; box-shadow: 0 0 14px rgba(248,81,73,0.6), 0 0 4px rgba(248,81,73,0.4); }
+    .cm-security_alert{ background: radial-gradient(circle, #b48aff, #6040bb); width: 20px; height: 20px; box-shadow: 0 0 8px rgba(163,113,247,0.4); }
     .cm-suspected { border-style: dashed; opacity: 0.65; }
-    .cm-loc { background: radial-gradient(circle, #4fd060, #1a8030); width: 16px; height: 16px; border: 2px solid rgba(255,255,255,0.6); box-shadow: 0 0 10px rgba(63,185,80,0.5); }
+    .cm-loc { background: radial-gradient(circle, #4fd060, #1a8030); width: 22px; height: 22px; border: 2px solid rgba(255,255,255,0.6); box-shadow: 0 0 10px rgba(63,185,80,0.5); }
 
     /* ── SCROLLBAR ── */
     .badge-approx {
@@ -864,19 +864,33 @@
   }
 
   // ─── ICONS ─────────────────────────────────────────────────────────────
+  const TYPE_SVG = {
+    impact_major:   '<path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"/>',
+    impact_minor:   '<path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3"/><path d="M12 9v4"/><path d="M12 17h.01"/>',
+    interception:   '<path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"/>',
+    security_alert: '<path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9"/><path d="M10.3 21a1.94 1.94 0 0 0 3.4 0"/>',
+    loc:            '<path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"/><circle cx="12" cy="10" r="3"/>',
+  };
+  const TYPE_SIZE = { impact_major: 24, impact_minor: 20, interception: 22, security_alert: 20, loc: 22 };
+
   function makeEventIcon(type, confirmed) {
     const meta = TYPE_META[type] || TYPE_META['impact_major'];
+    const paths = TYPE_SVG[type] || TYPE_SVG['impact_major'];
+    const sz = TYPE_SIZE[type] || 22;
+    const svgSz = Math.round(sz * 0.55);
     return L.divIcon({
       className: '',
-      html: `<div class="cm ${meta.mc}${!confirmed?' cm-suspected':''}"></div>`,
-      iconSize: [20, 20], iconAnchor: [10, 10]
+      html: `<div class="cm ${meta.mc}${!confirmed?' cm-suspected':''}"><svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" width="${svgSz}" height="${svgSz}">${paths}</svg></div>`,
+      iconSize: [sz, sz], iconAnchor: [sz/2, sz/2]
     });
   }
   function makeLocIcon() {
+    const sz = TYPE_SIZE.loc;
+    const svgSz = Math.round(sz * 0.55);
     return L.divIcon({
       className: '',
-      html: `<div class="cm cm-loc"></div>`,
-      iconSize: [20, 20], iconAnchor: [10, 10]
+      html: `<div class="cm cm-loc"><svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" width="${svgSz}" height="${svgSz}">${TYPE_SVG.loc}</svg></div>`,
+      iconSize: [sz, sz], iconAnchor: [sz/2, sz/2]
     });
   }
 
