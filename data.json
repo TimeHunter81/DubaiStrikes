@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-12T02:10:00Z",
+  "last_updated": "2026-03-12T02:19:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -30,64 +30,6 @@
       "confidence": "high",
       "_search_count": 1,
       "_next_search_at": 1773281038.0
-    },
-    {
-      "id": "f3555536ed5a",
-      "datetime": "2026-03-12T00:47:43Z",
-      "type": "impact_minor",
-      "confirmed": false,
-      "precision": "neighborhood",
-      "title": "Iranian drone strikes residential tower in Dubai Creek Harbour",
-      "location": "Dubai",
-      "lat": 25.2057,
-      "lon": 55.3517,
-      "sources": [
-        {
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iranian-drone-strikes-tower-dubai",
-          "domain": "middleeasteye.net",
-          "tier": "local"
-        },
-        {
-          "url": "https://www.thenationalnews.com/news/uae/2026/03/12/fire-put-out-after-iranian-drone-slams-into-dubai-residential-tower/",
-          "domain": "thenationalnews.com",
-          "tier": "local"
-        }
-      ],
-      "snippet": null,
-      "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/lebanon-civilians-taking-shelter-beirut-11march-2026-reuters.jpg",
-      "_via": "rss",
-      "confidence": "medium",
-      "_search_count": 2,
-      "_next_search_at": 1773298063.0
-    },
-    {
-      "id": "3a4b4a67d2d1",
-      "datetime": "2026-03-12T00:43:07Z",
-      "type": "impact_minor",
-      "confirmed": false,
-      "precision": "neighborhood",
-      "title": "Fire after drone hits Dubai Creek Harbour residential tower; contained",
-      "location": "Dubai",
-      "lat": 25.2057,
-      "lon": 55.3517,
-      "sources": [
-        {
-          "url": "https://www.thenationalnews.com/news/uae/2026/03/12/fire-put-out-after-iranian-drone-slams-into-dubai-residential-tower/",
-          "domain": "thenationalnews.com",
-          "tier": "local"
-        },
-        {
-          "url": "https://gulfnews.com/uae/drone-falls-on-building-in-dubais-creek-harbour-fire-contained-1.500471607",
-          "domain": "gulfnews.com",
-          "tier": "local"
-        }
-      ],
-      "snippet": null,
-      "preview_image": "https://www.thenationalnews.com/resizer/v2/OUWIOFJDAZEMROJHWHQ47GANXU.jpg?smart=true&auth=89d294ea23ca5de36b7fa00e67ae61ea78513b539789344e75098562053b6550&width=1200&height=630",
-      "_via": "rss",
-      "confidence": "high",
-      "_search_count": 2,
-      "_next_search_at": 1773297787.0
     },
     {
       "id": "ef9c234d13cc",
