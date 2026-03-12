@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-12T05:23:00Z",
+  "last_updated": "2026-03-12T05:36:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -30,35 +30,6 @@
       "confidence": "high",
       "_search_count": 1,
       "_next_search_at": 1773290558.0
-    },
-    {
-      "id": "3545eebfbde9",
-      "datetime": "2026-03-12T03:12:58Z",
-      "type": "security_alert",
-      "confirmed": true,
-      "precision": "country",
-      "title": "UAE activates emergency alerts as Iranian missiles and drones attack",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://gulfnews.com/uae/uae-responds-to-iranian-missiles-and-drones-residents-receive-emergency-alerts-1.500471680",
-          "domain": "gulfnews.com",
-          "tier": "local"
-        },
-        {
-          "url": "https://www.cbsnews.com/live-updates/iran-war-us-israel-strait-of-hormuz-ship-attacks-persian-gulf-drones-missiles/",
-          "domain": "cbsnews.com",
-          "tier": "wire"
-        }
-      ],
-      "snippet": null,
-      "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-10%2Foxjrgpgh%2Fgulfnews2026-03-057odx7i2wnewsmlafpcom20260305T175920Zdoca24n37y.avif?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_width=100",
-      "_via": "rss",
-      "confidence": "high",
-      "_search_count": 1,
-      "_next_search_at": 1773288778.0
     },
     {
       "id": "7309fb6805a1",
@@ -117,35 +88,6 @@
       "confidence": "high",
       "_search_count": 1,
       "_next_search_at": 1773281038.0
-    },
-    {
-      "id": "f3555536ed5a",
-      "datetime": "2026-03-12T00:47:43Z",
-      "type": "impact_minor",
-      "confirmed": true,
-      "precision": "city",
-      "title": "Iranian drone strikes tower in Dubai",
-      "location": "Dubai",
-      "lat": 25.2048,
-      "lon": 55.2708,
-      "sources": [
-        {
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iranian-drone-strikes-tower-dubai",
-          "domain": "middleeasteye.net",
-          "tier": "local"
-        },
-        {
-          "url": "https://www.bbc.com/news/live/cd70wzw9vqlt",
-          "domain": "bbc.com",
-          "tier": "wire"
-        }
-      ],
-      "snippet": null,
-      "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/lebanon-civilians-taking-shelter-beirut-11march-2026-reuters.jpg",
-      "_via": "rss",
-      "confidence": "high",
-      "_search_count": 1,
-      "_next_search_at": 1773280063.0
     },
     {
       "id": "ef9c234d13cc",
