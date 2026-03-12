@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-03-12T10:28:41Z",
+  "last_updated": "2026-03-12T10:34:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
       "id": "c41e80168685",
       "datetime": "2026-03-12T09:28:56Z",
       "type": "impact_minor",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "city",
       "title": "Drone attack debris falls in Dubai",
       "location": "Dubai",
