@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-12T23:20:00Z",
+  "last_updated": "2026-03-12T23:30:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -67,7 +67,7 @@
       "type": "impact_major",
       "confirmed": true,
       "precision": "city",
-      "title": "Father killed in Iranian strike on Abu Dhabi — family mourns",
+      "title": "Iranian strike kills resident in Abu Dhabi — family mourns",
       "location": "Abu Dhabi, UAE",
       "lat": 24.4539,
       "lon": 54.3773,
@@ -94,7 +94,7 @@
       "type": "impact_minor",
       "confirmed": true,
       "precision": "neighborhood",
-      "title": "Dubai high-rise damaged in overnight drone strike",
+      "title": "Dubai high-rise damaged in overnight drone strike, upper floors hit",
       "location": "Address Creek 2 Tower, Dubai Creek Harbour",
       "lat": 25.1985,
       "lon": 55.32,
