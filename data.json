@@ -1,14 +1,14 @@
 {
-  "last_updated": "2026-03-12T09:26:00Z",
+  "last_updated": "2026-03-12T09:34:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
       "id": "cc6ceeba89c4",
       "datetime": "2026-03-12T09:02:05Z",
       "type": "impact_minor",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "neighborhood",
-      "title": "Debris from air defence interception hits building on Sheikh Zayed Road",
+      "title": "Interception debris hits building on Sheikh Zayed Road, Dubai",
       "location": "Sheikh Zayed Road, Dubai",
       "lat": 25.196,
       "lon": 55.273,
@@ -27,7 +27,7 @@
       "snippet": null,
       "preview_image": "https://media.assettype.com/gulfnews%2F2025-05-15%2Fwybknqou%2FSTOCK-Breaking-News?rect=0%2C6%2C1200%2C630&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
       "_via": "rss",
-      "confidence": "low",
+      "confidence": "high",
       "_search_count": 1,
       "_next_search_at": 1773309725.0
     },
@@ -35,9 +35,9 @@
       "id": "708c5910d664",
       "datetime": "2026-03-12T08:23:48Z",
       "type": "impact_minor",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "neighborhood",
-      "title": "Drone crash reported in Dubai's Al Bada'a area — no injuries",
+      "title": "Drone crash in Dubai Al Bada'a — no injuries",
       "location": "Al Bada'a, Dubai",
       "lat": 25.2041,
       "lon": 55.2461,
