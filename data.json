@@ -6,7 +6,7 @@
       "id": "ded8bb2fd2d3",
       "datetime": "2026-03-12T18:03:45Z",
       "type": "interception",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "UAE air defences intercept 10 ballistic missiles and 26 drones",
       "location": "UAE",
@@ -17,12 +17,19 @@
           "url": "https://gulfnews.com/uae/uaes-air-defences-intercept-10-ballistic-missiles-and-26-drones-on-march-12-1.500472667",
           "domain": "gulfnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://www.khaleejtimes.com/world/mena/day-13-israel-us-iran-war-live-updates",
+          "domain": "khaleejtimes.com",
+          "tier": "wire"
         }
       ],
       "snippet": null,
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-09%2F6uhs0aec%2FAbudhabiskyline-2026?rect=0%2C402%2C5322%2C2794&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1773342225.0
     },
     {
       "id": "38a2e0287587",
