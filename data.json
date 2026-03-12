@@ -6,29 +6,36 @@
       "id": "cc6ceeba89c4",
       "datetime": "2026-03-12T09:02:05Z",
       "type": "impact_minor",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "neighborhood",
       "title": "Debris from air defence interception hits building on Sheikh Zayed Road",
       "location": "Sheikh Zayed Road, Dubai",
-      "lat": 25.1960,
-      "lon": 55.2730,
+      "lat": 25.196,
+      "lon": 55.273,
       "sources": [
         {
           "url": "https://gulfnews.com/uae/government/debris-from-air-defence-interception-falls-on-a-building-on-dubais-sheikh-zayed-road-1.500471999",
           "domain": "gulfnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://www.khaleejtimes.com/uae/dubai-minor-drone-incident-al-badaa",
+          "domain": "khaleejtimes.com",
+          "tier": "wire"
         }
       ],
       "snippet": null,
       "preview_image": "https://media.assettype.com/gulfnews%2F2025-05-15%2Fwybknqou%2FSTOCK-Breaking-News?rect=0%2C6%2C1200%2C630&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1773309725.0
     },
     {
       "id": "708c5910d664",
       "datetime": "2026-03-12T08:23:48Z",
       "type": "impact_minor",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "neighborhood",
       "title": "Drone crash reported in Dubai's Al Bada'a area — no injuries",
       "location": "Al Bada'a, Dubai",
@@ -50,8 +57,8 @@
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-10%2Falwyuv8h%2FMissileThreat-1.jpg?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_width=100",
       "_via": "rss",
       "confidence": "high",
-      "_search_count": 1,
-      "_next_search_at": 1773307428.0
+      "_search_count": 2,
+      "_next_search_at": 1773325428.0
     },
     {
       "id": "cacd0c5df6d2",
