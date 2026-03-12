@@ -1,36 +1,7 @@
 {
-  "last_updated": "2026-03-12T10:34:00Z",
+  "last_updated": "2026-03-12T10:49:23Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
-    {
-      "id": "c41e80168685",
-      "datetime": "2026-03-12T09:28:56Z",
-      "type": "impact_minor",
-      "confirmed": false,
-      "precision": "city",
-      "title": "Drone attack debris falls in Dubai",
-      "location": "Dubai",
-      "lat": 25.2048,
-      "lon": 55.2708,
-      "sources": [
-        {
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/fallen-debris-dubai-after-drone-attack-kuwait-airport-hit",
-          "domain": "middleeasteye.net",
-          "tier": "local"
-        },
-        {
-          "url": "https://www.thenationalnews.com/news/uae/2026/03/12/fire-put-out-after-iranian-drone-slams-into-dubai-residential-tower/",
-          "domain": "thenationalnews.com",
-          "tier": "wire"
-        }
-      ],
-      "snippet": null,
-      "preview_image": null,
-      "_via": "rss",
-      "confidence": "low",
-      "_search_count": 2,
-      "_next_search_at": 1773329336.0
-    },
     {
       "id": "cc6ceeba89c4",
       "datetime": "2026-03-12T09:02:05Z",
@@ -93,7 +64,7 @@
       "id": "cacd0c5df6d2",
       "datetime": "2026-03-12T07:52:21Z",
       "type": "interception",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "neighborhood",
       "title": "Several explosions heard over Downtown Dubai",
       "location": "Dubai Downtown",
