@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-12T10:08:46Z",
+  "last_updated": "2026-03-12T10:15:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -330,45 +330,6 @@
       "confidence": "high",
       "_search_count": 2,
       "_next_search_at": 1773275518.0
-    },
-    {
-      "id": "3dcd652b31db",
-      "datetime": "2026-03-11T16:46:56Z",
-      "type": "impact_minor",
-      "confirmed": false,
-      "precision": "exact",
-      "title": "Interception debris sparks fire at Al Bateen Airport, Abu Dhabi",
-      "location": "Al Bateen Executive Airport (Abu Dhabi old airport)",
-      "lat": 24.4271,
-      "lon": 54.4599,
-      "sources": [
-        {
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/fire-abu-dhabi-airport-under-control-after-interception",
-          "domain": "middleeasteye.net",
-          "tier": "local"
-        },
-        {
-          "url": "https://gulfnews.com/uae/fire-at-abu-dhabis-old-airport-contained-after-defence-ops-against-iranian-aggression-1.500471297",
-          "domain": "gulfnews.com",
-          "tier": "local"
-        },
-        {
-          "url": "https://www.thenationalnews.com/news/uae/2026/03/11/four-injured-after-iranian-drone-strike-near-dubai-airport/",
-          "domain": "thenationalnews.com",
-          "tier": "local"
-        },
-        {
-          "url": "https://www.dubaieye1038.com/news/local/authorities-control-fire-at-old-abu-dhabi-airport-after-air-defence-interception/",
-          "domain": "dubaieye1038.com",
-          "tier": "local"
-        }
-      ],
-      "snippet": null,
-      "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/lebanon-civilians-taking-shelter-beirut-11march-2026-reuters.jpg",
-      "_via": "rss",
-      "confidence": "high",
-      "_search_count": 3,
-      "_next_search_at": 1773334016.0
     },
     {
       "id": "780a01b87f72",
