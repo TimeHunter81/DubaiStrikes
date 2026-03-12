@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-12T03:20:00Z",
+  "last_updated": "2026-03-12T03:35:33Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -95,7 +95,7 @@
       "type": "interception",
       "confirmed": false,
       "precision": "country",
-      "title": "UAE intercepts 6 ballistic missiles, 7 cruise missiles, 39 UAVs",
+      "title": "UAE air defences intercept 6 ballistic, 7 cruise missiles, 39 UAVs",
       "location": "UAE",
       "lat": null,
       "lon": null,
@@ -158,7 +158,7 @@
       "type": "impact_minor",
       "confirmed": false,
       "precision": "exact",
-      "title": "Interception debris sparks fire at Abu Dhabi Al Bateen Airport",
+      "title": "Interception debris sparks fire at Al Bateen Airport, Abu Dhabi",
       "location": "Al Bateen Executive Airport (Abu Dhabi old airport)",
       "lat": 24.4271,
       "lon": 54.4599,
