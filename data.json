@@ -45,8 +45,6 @@
       "location": "UAE",
       "lat": null,
       "lon": null,
-      "lat": null,
-      "lon": null,
       "sources": [
         {
           "url": "https://gulfnews.com/uae/uaes-air-defences-intercept-10-ballistic-missiles-and-26-drones-on-march-12-1.500472667",
@@ -96,11 +94,11 @@
       "datetime": "2026-03-12T10:01:57Z",
       "type": "impact_minor",
       "confirmed": true,
-      "precision": "city",
+      "precision": "neighborhood",
       "title": "Dubai high-rise damaged in overnight drone strike",
-      "location": "Dubai, UAE",
-      "lat": 25.2048,
-      "lon": 55.2708,
+      "location": "Address Creek 2 Tower, Dubai Creek Harbour",
+      "lat": 25.1985,
+      "lon": 55.32,
       "sources": [
         {
           "url": "https://www.aljazeera.com/video/newsfeed/2026/3/12/dubai-high-rise-building-damaged-in-overnight-drone-hit?traffic_source=rss",
@@ -113,7 +111,7 @@
           "tier": "wire"
         }
       ],
-      "snippet": "Video shows damage to a Dubai high-rise building hit by a drone.",
+      "snippet": "Firefighters extinguished a blaze in two units at the Address Creek 2 Tower. The high-rise building showed some damage to its upper floors.",
       "_via": "rss",
       "confidence": "high",
       "_search_count": 1,
