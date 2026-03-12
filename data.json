@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-03-12T08:47:00Z",
+  "last_updated": "2026-03-12T08:59:16Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
       "id": "708c5910d664",
       "datetime": "2026-03-12T08:23:48Z",
       "type": "impact_minor",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "neighborhood",
       "title": "Drone crash reported in Dubai's Al Bada'a area",
       "location": "Al Bada'a, Dubai",
@@ -27,7 +27,7 @@
       "snippet": null,
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-10%2Falwyuv8h%2FMissileThreat-1.jpg?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
       "_via": "rss",
-      "confidence": "low",
+      "confidence": "high",
       "_search_count": 1,
       "_next_search_at": 1773307428.0
     },
@@ -214,7 +214,7 @@
       "id": "ef9c234d13cc",
       "datetime": "2026-03-11T21:56:53Z",
       "type": "interception",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "country",
       "title": "UAE intercepts 6 ballistic, 7 cruise missiles and 39 UAVs",
       "location": "UAE",
