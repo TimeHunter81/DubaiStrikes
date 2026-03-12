@@ -93,7 +93,7 @@
       "id": "784da98b2790",
       "datetime": "2026-03-12T02:20:04Z",
       "type": "impact_minor",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "Iranian drone hits Dubai residential tower — fire contained",
       "location": "Dubai",
@@ -110,8 +110,8 @@
       "preview_image": "https://www.thenationalnews.com/resizer/v2/OUWIOFJDAZEMROJHWHQ47GANXU.jpg?smart=true&auth=89d294ea23ca5de36b7fa00e67ae61ea78513b539789344e75098562053b6550&width=1200&height=630",
       "_via": "rss",
       "confidence": "low",
-      "_search_count": 1,
-      "_next_search_at": 1773285604.0
+      "_search_count": 2,
+      "_next_search_at": 1773303604.0
     },
     {
       "id": "a300ef5a9037",
@@ -175,7 +175,7 @@
       "id": "3a4b4a67d2d1",
       "datetime": "2026-03-12T00:43:07Z",
       "type": "impact_minor",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "Fire put out after Iranian drone slams into Dubai residential tower",
       "location": "Dubai",
@@ -192,14 +192,14 @@
       "preview_image": "https://www.thenationalnews.com/resizer/v2/OUWIOFJDAZEMROJHWHQ47GANXU.jpg?smart=true&auth=89d294ea23ca5de36b7fa00e67ae61ea78513b539789344e75098562053b6550&width=1200&height=630",
       "_via": "rss",
       "confidence": "low",
-      "_search_count": 1,
-      "_next_search_at": 1773279787.0
+      "_search_count": 2,
+      "_next_search_at": 1773297787.0
     },
     {
       "id": "ef9c234d13cc",
       "datetime": "2026-03-11T21:56:53Z",
       "type": "interception",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "UAE intercepts 6 ballistic, 7 cruise missiles and 39 UAVs",
       "location": "UAE",
@@ -226,8 +226,8 @@
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-11%2F9s4s8bqa%2FMarch-11.jpg?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
       "_via": "rss",
       "confidence": "high",
-      "_search_count": 2,
-      "_next_search_at": 1773287813.0
+      "_search_count": 3,
+      "_next_search_at": 1773352613.0
     },
     {
       "id": "42d7b49c91f6",
