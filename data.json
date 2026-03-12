@@ -1,7 +1,51 @@
 {
-  "last_updated": "2026-03-12T00:49:00Z",
+  "last_updated": "2026-03-12T01:03:28Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
+    {
+      "id": "f3555536ed5a",
+      "datetime": "2026-03-12T00:47:43Z",
+      "type": "impact_major",
+      "confirmed": false,
+      "precision": "city",
+      "title": "Iranian drone strikes residential tower in Dubai",
+      "location": "Dubai",
+      "lat": 25.2048,
+      "lon": 55.2708,
+      "sources": [
+        {
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iranian-drone-strikes-tower-dubai",
+          "domain": "middleeasteye.net",
+          "tier": "local"
+        }
+      ],
+      "snippet": "&lt;article data-history-node-id=\"435486\" about=\"https://www.middleeasteye.net/live-blog/live-blog-update/iranian-drone-strikes-tower-dubai\" class=\"live-blog-update default clearfix\"&gt;\n\n  \n      &lt;h2&gt;\n      &lt;a href=\"https://www.middleeastey",
+      "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/lebanon-civilians-taking-shelter-beirut-11march-2026-reuters.jpg",
+      "_via": "rss",
+      "confidence": "low"
+    },
+    {
+      "id": "3a4b4a67d2d1",
+      "datetime": "2026-03-12T00:43:07Z",
+      "type": "impact_major",
+      "confirmed": false,
+      "precision": "city",
+      "title": "Fire contained after drone hits Dubai residential tower",
+      "location": "Dubai",
+      "lat": 25.2048,
+      "lon": 55.2708,
+      "sources": [
+        {
+          "url": "https://www.thenationalnews.com/news/uae/2026/03/12/fire-put-out-after-iranian-drone-slams-into-dubai-residential-tower/",
+          "domain": "thenationalnews.com",
+          "tier": "local"
+        }
+      ],
+      "snippet": null,
+      "preview_image": "https://www.thenationalnews.com/resizer/v2/OUWIOFJDAZEMROJHWHQ47GANXU.jpg?smart=true&amp;auth=89d294ea23ca5de36b7fa00e67ae61ea78513b539789344e75098562053b6550&amp;width=1200&amp;height=630",
+      "_via": "rss",
+      "confidence": "low"
+    },
     {
       "id": "ef9c234d13cc",
       "datetime": "2026-03-11T21:56:53Z",
@@ -137,7 +181,7 @@
       "type": "impact_minor",
       "confirmed": true,
       "precision": "city",
-      "title": "Bulk carrier hit by projectile near Dubai; crew safe",
+      "title": "Bulk carrier struck by projectile near Dubai; crew safe",
       "location": "Dubai waters",
       "lat": 25.2048,
       "lon": 55.2708,
