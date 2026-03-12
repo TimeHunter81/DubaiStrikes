@@ -213,23 +213,28 @@
       "id": "7309fb6805a1",
       "datetime": "2026-03-12T02:30:00Z",
       "type": "impact_major",
-      "confirmed": false,
-      "precision": "city",
+      "confirmed": true,
+      "precision": "exact",
       "title": "Iranian strike kills resident in Abu Dhabi residential area",
-      "location": "Abu Dhabi",
-      "lat": 24.4539,
-      "lon": 54.3773,
+      "location": "Al Khalidiyah, Abu Dhabi",
+      "lat": 24.4693445,
+      "lon": 54.3488059,
       "sources": [
         {
           "url": "https://www.thenationalnews.com/news/uae/2026/03/12/family-mourns-father-of-five-killed-in-iran-strike-in-abu-dhabi-residential-area/",
           "domain": "thenationalnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://www.reuters.com/world/middle-east/four-injured-after-incident-dubai-international-airport-dubai-media-office-says-2026-02-28/",
+          "domain": "reuters.com",
+          "tier": "wire"
         }
       ],
       "_via": "rss",
       "confidence": "low",
-      "_search_count": 1,
-      "_next_search_at": 1773286200.0
+      "_search_count": 2,
+      "_next_search_at": 1773304200.0
     },
     {
       "id": "780a01b87f72",
