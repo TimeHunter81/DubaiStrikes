@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-12T04:06:00Z",
+  "last_updated": "2026-03-12T04:11:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -35,9 +35,9 @@
       "id": "3545eebfbde9",
       "datetime": "2026-03-12T03:12:58Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
-      "title": "UAE responds to Iranian missiles and drones; residents get emergency alerts",
+      "title": "UAE responds to Iranian missiles and drones; residents receive emergency alerts",
       "location": "UAE",
       "lat": null,
       "lon": null,
@@ -93,7 +93,7 @@
       "id": "784da98b2790",
       "datetime": "2026-03-12T02:20:04Z",
       "type": "impact_minor",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "city",
       "title": "Iranian drone hits Dubai residential tower — fire contained",
       "location": "Dubai",
@@ -175,7 +175,7 @@
       "id": "3a4b4a67d2d1",
       "datetime": "2026-03-12T00:43:07Z",
       "type": "impact_minor",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "city",
       "title": "Fire put out after Iranian drone slams into Dubai residential tower",
       "location": "Dubai",
@@ -223,7 +223,7 @@
         }
       ],
       "snippet": "UAE air defences intercept six ballistic missiles, seven cruise missiles, 39 UAVs",
-      "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-11%2F9s4s8bqa%2FMarch-11.jpg?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
+      "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-11%2F9s4s8bqa%2FMarch-11.jpg?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_width=100",
       "_via": "rss",
       "confidence": "high",
       "_search_count": 3,
@@ -252,7 +252,7 @@
         }
       ],
       "snippet": null,
-      "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-11%2F8rv2f97e%2FDubaiskyline2026?rect=0%2C85%2C1200%2C630&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
+      "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-11%2F8rv2f97e%2FDubaiskyline2026?rect=0%2C85%2C1200%2C630&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_width=100",
       "_via": "rss",
       "confidence": "high",
       "_search_count": 2,
