@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-12T06:25:00Z",
+  "last_updated": "2026-03-12T06:33:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -93,7 +93,7 @@
       "id": "784da98b2790",
       "datetime": "2026-03-12T02:20:04Z",
       "type": "impact_minor",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "city",
       "title": "Iranian drone hits Dubai residential tower; fire extinguished",
       "location": "Dubai",
@@ -146,7 +146,7 @@
       "id": "f3555536ed5a",
       "datetime": "2026-03-12T00:47:43Z",
       "type": "impact_minor",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "city",
       "title": "Iranian drone strikes tower in Dubai",
       "location": "Dubai",
@@ -175,7 +175,7 @@
       "id": "3a4b4a67d2d1",
       "datetime": "2026-03-12T00:43:07Z",
       "type": "impact_minor",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "city",
       "title": "Iranian drone hits Dubai residential tower; fire contained",
       "location": "Dubai",
