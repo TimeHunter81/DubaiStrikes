@@ -1,14 +1,36 @@
 {
-  "last_updated": "2026-03-12T19:18:00Z",
+  "last_updated": "2026-03-12T19:32:44Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
+    {
+      "id": "f1080a9b94ea",
+      "datetime": "2026-03-12T19:08:19Z",
+      "type": "interception",
+      "confirmed": false,
+      "precision": "country",
+      "title": "UAE intercepts missiles and drones launched from Iran",
+      "location": "Uae",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/uae-says-it-intercepted-missiles-and-drones-launched-iran",
+          "domain": "middleeasteye.net",
+          "tier": "local"
+        }
+      ],
+      "snippet": "&lt;article data-history-node-id=\"435574\" about=\"https://www.middleeasteye.net/live-blog/live-blog-update/uae-says-it-intercepted-missiles-and-drones-launched-iran\" class=\"live-blog-update default clearfix\"&gt;\n\n  \n      &lt;h2&gt;\n      &lt;a href=\"",
+      "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/000_A2ZB8WR.jpg",
+      "_via": "rss",
+      "confidence": "low"
+    },
     {
       "id": "ded8bb2fd2d3",
       "datetime": "2026-03-12T18:03:45Z",
       "type": "interception",
       "confirmed": false,
       "precision": "country",
-      "title": "UAE intercepts 10 ballistic missiles and 26 drones",
+      "title": "UAE air defences intercept 10 ballistic missiles and 26 drones",
       "location": "UAE",
       "lat": null,
       "lon": null,
@@ -63,7 +85,7 @@
       "type": "impact_minor",
       "confirmed": true,
       "precision": "exact",
-      "title": "Drone debris falls near Dubai Airport",
+      "title": "Drone debris falls near Dubai International Airport",
       "location": "Dubai International Airport",
       "lat": 25.2528,
       "lon": 55.3644,
