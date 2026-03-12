@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-12T06:53:00Z",
+  "last_updated": "2026-03-12T07:03:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -90,30 +90,6 @@
       "_next_search_at": 1773286200.0
     },
     {
-      "id": "784da98b2790",
-      "datetime": "2026-03-12T02:20:04Z",
-      "type": "impact_minor",
-      "confirmed": false,
-      "precision": "city",
-      "title": "Iranian drone hits Dubai residential tower; fire extinguished",
-      "location": "Dubai",
-      "lat": 25.2048,
-      "lon": 55.2708,
-      "sources": [
-        {
-          "url": "https://www.thenationalnews.com/news/mena/2026/03/11/live-iran-war-us-israel-uae-missile-attacks/",
-          "domain": "thenationalnews.com",
-          "tier": "local"
-        }
-      ],
-      "snippet": null,
-      "preview_image": "https://www.thenationalnews.com/resizer/v2/OUWIOFJDAZEMROJHWHQ47GANXU.jpg?smart=true&auth=89d294ea23ca5de36b7fa00e67ae61ea78513b539789344e75098562053b6550&width=1200&height=630",
-      "_via": "rss",
-      "confidence": "low",
-      "_search_count": 2,
-      "_next_search_at": 1773303604.0
-    },
-    {
       "id": "a300ef5a9037",
       "datetime": "2026-03-12T01:03:58Z",
       "type": "impact_minor",
@@ -141,35 +117,6 @@
       "confidence": "high",
       "_search_count": 1,
       "_next_search_at": 1773281038.0
-    },
-    {
-      "id": "f3555536ed5a",
-      "datetime": "2026-03-12T00:47:43Z",
-      "type": "impact_minor",
-      "confirmed": true,
-      "precision": "city",
-      "title": "Iranian drone strikes tower in Dubai",
-      "location": "Dubai",
-      "lat": 25.2048,
-      "lon": 55.2708,
-      "sources": [
-        {
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iranian-drone-strikes-tower-dubai",
-          "domain": "middleeasteye.net",
-          "tier": "local"
-        },
-        {
-          "url": "https://bnonews.com/index.php/2026/03/drone-strikes-residential-tower-in-dubai-no-injuries-reported/",
-          "domain": "bnonews.com",
-          "tier": "wire"
-        }
-      ],
-      "snippet": null,
-      "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/2026-03-12T052917Z_1626185269_RC2D2KAM8P9D_RTRMADP_3_IRAN-CRISIS-LEBANON-AFTERMATH.JPG",
-      "_via": "rss",
-      "confidence": "low",
-      "_search_count": 2,
-      "_next_search_at": 1773298063.0
     },
     {
       "id": "3a4b4a67d2d1",
@@ -209,7 +156,7 @@
       "id": "ef9c234d13cc",
       "datetime": "2026-03-11T21:56:53Z",
       "type": "interception",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "UAE intercepts 6 ballistic, 7 cruise missiles and 39 UAVs",
       "location": "UAE",
