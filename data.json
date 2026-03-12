@@ -1,14 +1,36 @@
 {
-  "last_updated": "2026-03-12T09:19:08Z",
+  "last_updated": "2026-03-12T09:26:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
+    {
+      "id": "cc6ceeba89c4",
+      "datetime": "2026-03-12T09:02:05Z",
+      "type": "impact_minor",
+      "confirmed": false,
+      "precision": "neighborhood",
+      "title": "Debris from air defence interception hits building on Sheikh Zayed Road",
+      "location": "Sheikh Zayed Road, Dubai",
+      "lat": 25.1960,
+      "lon": 55.2730,
+      "sources": [
+        {
+          "url": "https://gulfnews.com/uae/government/debris-from-air-defence-interception-falls-on-a-building-on-dubais-sheikh-zayed-road-1.500471999",
+          "domain": "gulfnews.com",
+          "tier": "local"
+        }
+      ],
+      "snippet": null,
+      "preview_image": "https://media.assettype.com/gulfnews%2F2025-05-15%2Fwybknqou%2FSTOCK-Breaking-News?rect=0%2C6%2C1200%2C630&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
+      "_via": "rss",
+      "confidence": "low"
+    },
     {
       "id": "708c5910d664",
       "datetime": "2026-03-12T08:23:48Z",
       "type": "impact_minor",
       "confirmed": false,
       "precision": "neighborhood",
-      "title": "Drone crash reported in Dubai's Al Bada'a area",
+      "title": "Drone crash reported in Dubai's Al Bada'a area — no injuries",
       "location": "Al Bada'a, Dubai",
       "lat": 25.2041,
       "lon": 55.2461,
@@ -25,7 +47,7 @@
         }
       ],
       "snippet": null,
-      "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-10%2Falwyuv8h%2FMissileThreat-1.jpg?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
+      "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-10%2Falwyuv8h%2FMissileThreat-1.jpg?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_width=100",
       "_via": "rss",
       "confidence": "high",
       "_search_count": 1,
@@ -37,10 +59,10 @@
       "type": "interception",
       "confirmed": false,
       "precision": "neighborhood",
-      "title": "Several explosions heard in Dubai downtown",
+      "title": "Several explosions heard over Dubai Downtown",
       "location": "Dubai Downtown",
-      "lat": 25.2131,
-      "lon": 55.2796,
+      "lat": 25.1972,
+      "lon": 55.2744,
       "sources": [
         {
           "url": "https://www.middleeasteye.net/live-blog/live-blog-update/several-explosions-heard-dubais-downtown",
@@ -100,7 +122,7 @@
       "type": "interception",
       "confirmed": true,
       "precision": "country",
-      "title": "UAE intercepts Iranian missiles and drones; residents alerted",
+      "title": "UAE intercepts Iranian missiles and drones; residents receive emergency alerts",
       "location": "UAE",
       "lat": null,
       "lon": null,
@@ -187,7 +209,7 @@
       "type": "impact_minor",
       "confirmed": true,
       "precision": "neighborhood",
-      "title": "Iranian drone hits Dubai Creek Harbour tower; fire contained",
+      "title": "Iranian drone hits Dubai Creek Harbour residential tower; fire contained",
       "location": "Dubai Creek Harbour",
       "lat": 25.2057,
       "lon": 55.3517,
