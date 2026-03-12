@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-12T04:21:00Z",
+  "last_updated": "2026-03-12T04:31:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -136,7 +136,7 @@
         }
       ],
       "snippet": null,
-      "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-12%2Fivat9qni%2FHDKqVPabQAE8m-T.jpg?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
+      "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-12%2Fivat9qni%2FHDKqVPabQAE8m-T.jpg?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_width=100",
       "_via": "rss",
       "confidence": "high",
       "_search_count": 1,
@@ -333,6 +333,7 @@
       "lon": 54.5,
       "sources": [
         {
+
           "url": "https://www.hindustantimes.com/world-news/dubai-abu-dhabi-uae-war-news-live-updates-us-iran-israel-attack-flight-status-missile-alert-explosion-strikes-qatar-101772845653054.html",
           "domain": "hindustantimes.com",
           "tier": "wire"
