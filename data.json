@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-03-12T01:03:28Z",
+  "last_updated": "2026-03-12T01:09:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
       "id": "f3555536ed5a",
       "datetime": "2026-03-12T00:47:43Z",
       "type": "impact_major",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "city",
       "title": "Iranian drone strikes residential tower in Dubai",
       "location": "Dubai",
@@ -21,7 +21,7 @@
         {
           "url": "https://www.thenationalnews.com/news/uae/2026/03/12/fire-put-out-after-iranian-drone-slams-into-dubai-residential-tower/",
           "domain": "thenationalnews.com",
-          "tier": "wire"
+          "tier": "local"
         }
       ],
       "snippet": "&lt;article data-history-node-id=\"435486\" about=\"https://www.middleeasteye.net/live-blog/live-blog-update/iranian-drone-strikes-tower-dubai\" class=\"live-blog-update default clearfix\"&gt;\n\n  \n      &lt;h2&gt;\n      &lt;a href=\"https://www.middleeastey",
@@ -35,7 +35,7 @@
       "id": "3a4b4a67d2d1",
       "datetime": "2026-03-12T00:43:07Z",
       "type": "impact_major",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "city",
       "title": "Fire contained after drone hits Dubai residential tower",
       "location": "Dubai",
@@ -59,7 +59,7 @@
       "id": "ef9c234d13cc",
       "datetime": "2026-03-11T21:56:53Z",
       "type": "interception",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "country",
       "title": "UAE intercepts 6 ballistic missiles, 7 cruise missiles, 39 UAVs",
       "location": "UAE",
@@ -147,7 +147,7 @@
         {
           "url": "https://www.dubaieye1038.com/news/local/authorities-control-fire-at-old-abu-dhabi-airport-after-air-defence-interception/",
           "domain": "dubaieye1038.com",
-          "tier": "wire"
+          "tier": "local"
         }
       ],
       "snippet": null,
@@ -203,7 +203,7 @@
         {
           "url": "https://www.devdiscourse.com/article/business/3833765-mystery-incident-in-dubai-waters-bulk-carrier-struck-by-unknown-projectile",
           "domain": "devdiscourse.com",
-          "tier": "wire"
+          "tier": "local"
         },
         {
           "url": "https://apnews.com/live/iran-war-israel-trump--03-11-2026",
