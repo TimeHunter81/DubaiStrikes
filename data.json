@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-12T06:33:00Z",
+  "last_updated": "2026-03-12T06:47:45Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -93,7 +93,7 @@
       "id": "784da98b2790",
       "datetime": "2026-03-12T02:20:04Z",
       "type": "impact_minor",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "city",
       "title": "Iranian drone hits Dubai residential tower; fire extinguished",
       "location": "Dubai",
@@ -175,7 +175,7 @@
       "id": "3a4b4a67d2d1",
       "datetime": "2026-03-12T00:43:07Z",
       "type": "impact_minor",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "city",
       "title": "Iranian drone hits Dubai residential tower; fire contained",
       "location": "Dubai",
@@ -196,7 +196,7 @@
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/OUWIOFJDAZEMROJHWHQ47GANXU.jpg?smart=true&auth=89d294ea23ca5de36b7fa00e67ae61ea78513b539789344e75098562053b6550&width=1200&height=630",
       "_via": "rss",
-      "confidence": "low",
+      "confidence": "high",
       "_search_count": 2,
       "_next_search_at": 1773297787.0
     },
