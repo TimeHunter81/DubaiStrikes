@@ -6,7 +6,7 @@
       "id": "a300ef5a9037",
       "datetime": "2026-03-12T01:03:58Z",
       "type": "impact_minor",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "neighborhood",
       "title": "Drone falls on Dubai Creek Harbour building; fire contained",
       "location": "Dubai",
@@ -17,12 +17,19 @@
           "url": "https://gulfnews.com/uae/drone-falls-on-building-in-dubais-creek-harbour-fire-contained-1.500471607",
           "domain": "gulfnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://www.bbc.com/news/live/cd70wzw9vqlt",
+          "domain": "bbc.com",
+          "tier": "wire"
         }
       ],
       "snippet": null,
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-12%2Fivat9qni%2FHDKqVPabQAE8m-T.jpg?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1773281038.0
     },
     {
       "id": "f3555536ed5a",
