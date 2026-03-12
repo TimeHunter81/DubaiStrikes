@@ -6,7 +6,7 @@
       "id": "f1080a9b94ea",
       "datetime": "2026-03-12T19:08:19Z",
       "type": "interception",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "UAE intercepts missiles and drones launched from Iran",
       "location": "UAE",
@@ -22,12 +22,17 @@
           "url": "https://gulfnews.com/uae/uae-air-defences-intercept-six-ballistic-missiles-seven-cruise-missiles-39-uavs-1.500471507",
           "domain": "gulfnews.com",
           "tier": "wire"
+        },
+        {
+          "url": "https://apnews.com/video/uae-releases-footage-showing-air-defenses-intercepting-and-destroying-drone-23275da8c04e4a98b2e9ee065cac7c85",
+          "domain": "apnews.com",
+          "tier": "wire"
         }
       ],
       "_via": "rss",
       "confidence": "high",
-      "_search_count": 1,
-      "_next_search_at": 1773346099.0
+      "_search_count": 2,
+      "_next_search_at": 1773364099.0
     },
     {
       "id": "ded8bb2fd2d3",
@@ -60,7 +65,7 @@
       "id": "8e574eaf8945",
       "datetime": "2026-03-12T15:45:02Z",
       "type": "impact_major",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "Father killed in Iranian strike on UAE",
       "location": "Abu Dhabi, UAE",
@@ -71,12 +76,17 @@
           "url": "https://www.thenationalnews.com/news/uae/2026/03/12/broken-dreams-family-mourns-loss-after-father-killed-in-iranian-strike-on-uae/",
           "domain": "thenationalnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://www.reuters.com/world/middle-east/iran-fires-missiles-gulf-arab-states-one-killed-abu-dhabi-2026-02-28/",
+          "domain": "reuters.com",
+          "tier": "wire"
         }
       ],
       "_via": "rss",
       "confidence": "low",
-      "_search_count": 1,
-      "_next_search_at": 1773333902.0
+      "_search_count": 2,
+      "_next_search_at": 1773351902.0
     },
     {
       "id": "38a2e0287587",
