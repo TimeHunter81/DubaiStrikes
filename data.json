@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-12T14:08:28Z",
+  "last_updated": "2026-03-12T14:15:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -38,7 +38,7 @@
       "confirmed": true,
       "precision": "neighborhood",
       "title": "Drone debris falls near Dubai Airport — two incidents",
-      "location": "Dubai",
+      "location": "Dubai Airport",
       "lat": 25.2528,
       "lon": 55.3644,
       "sources": [
@@ -62,7 +62,7 @@
       "id": "cc6ceeba89c4",
       "datetime": "2026-03-12T09:02:05Z",
       "type": "impact_minor",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "neighborhood",
       "title": "Interception debris hits building on Sheikh Zayed Road, Dubai",
       "location": "Sheikh Zayed Road, Dubai",
@@ -89,7 +89,7 @@
       "id": "708c5910d664",
       "datetime": "2026-03-12T08:23:48Z",
       "type": "impact_minor",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "neighborhood",
       "title": "Drone crash in Dubai Al Bada'a — no injuries reported",
       "location": "Al Bada'a, Dubai",
@@ -117,7 +117,7 @@
       "id": "cacd0c5df6d2",
       "datetime": "2026-03-12T07:52:21Z",
       "type": "interception",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "neighborhood",
       "title": "Several explosions heard over Downtown Dubai",
       "location": "Dubai Downtown",
