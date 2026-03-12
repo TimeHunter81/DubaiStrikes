@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-12T14:45:00Z",
+  "last_updated": "2026-03-12T14:58:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -208,92 +208,6 @@
       "confidence": "high",
       "_search_count": 1,
       "_next_search_at": 1773288778.0
-    },
-    {
-      "id": "a300ef5a9037",
-      "datetime": "2026-03-12T01:03:58Z",
-      "type": "impact_minor",
-      "confirmed": true,
-      "precision": "neighborhood",
-      "title": "Iranian drone hits Dubai Creek Harbour building; fire contained",
-      "location": "Dubai Creek Harbour",
-      "lat": 25.2057,
-      "lon": 55.3517,
-      "sources": [
-        {
-          "url": "https://gulfnews.com/uae/drone-falls-on-building-in-dubais-creek-harbour-fire-contained-1.500471607",
-          "domain": "gulfnews.com",
-          "tier": "local"
-        },
-        {
-          "url": "https://www.bbc.com/news/live/cd70wzw9vqlt",
-          "domain": "bbc.com",
-          "tier": "wire"
-        }
-      ],
-      "_via": "rss",
-      "confidence": "high",
-      "_search_count": 1,
-      "_next_search_at": 1773281038.0
-    },
-    {
-      "id": "3a4b4a67d2d1",
-      "datetime": "2026-03-12T00:43:07Z",
-      "type": "impact_minor",
-      "confirmed": true,
-      "precision": "neighborhood",
-      "title": "Iranian drone hits Dubai Creek Harbour residential tower; fire contained",
-      "location": "Dubai Creek Harbour",
-      "lat": 25.2057,
-      "lon": 55.3517,
-      "sources": [
-        {
-          "url": "https://www.thenationalnews.com/news/uae/2026/03/12/fire-put-out-after-iranian-drone-slams-into-dubai-residential-tower/",
-          "domain": "thenationalnews.com",
-          "tier": "local"
-        },
-        {
-          "url": "https://www.gulftoday.ae/news/2026/03/12/drone-falls-on-building-in-dubai-creek-harbour-minor-fire-quickly-controlled",
-          "domain": "gulftoday.ae",
-          "tier": "wire"
-        },
-        {
-          "url": "https://www.bbc.com/news/live/cd70wzw9vqlt",
-          "domain": "bbc.com",
-          "tier": "wire"
-        }
-      ],
-      "_via": "rss",
-      "confidence": "high",
-      "_search_count": 3,
-      "_next_search_at": 1773362587.0
-    },
-    {
-      "id": "7309fb6805a1",
-      "datetime": "2026-03-12T02:30:00Z",
-      "type": "impact_major",
-      "confirmed": true,
-      "precision": "city",
-      "title": "Father of five killed in Iranian strike on Abu Dhabi residential area",
-      "location": "Abu Dhabi",
-      "lat": 24.4539,
-      "lon": 54.3773,
-      "sources": [
-        {
-          "url": "https://www.thenationalnews.com/news/uae/2026/03/12/family-mourns-father-of-five-killed-in-iran-strike-in-abu-dhabi-residential-area/",
-          "domain": "thenationalnews.com",
-          "tier": "local"
-        },
-        {
-          "url": "https://www.reuters.com/world/middle-east/iran-fires-missiles-gulf-arab-states-one-killed-abu-dhabi-2026-02-28/",
-          "domain": "reuters.com",
-          "tier": "wire"
-        }
-      ],
-      "_via": "rss",
-      "confidence": "high",
-      "_search_count": 1,
-      "_next_search_at": 1773286200.0
     },
     {
       "id": "780a01b87f72",
