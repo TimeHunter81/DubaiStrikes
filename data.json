@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-12T00:09:00Z",
+  "last_updated": "2026-03-12T00:22:48Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -158,7 +158,6 @@
           "tier": "wire"
         }
       ],
-      "confirmed": true,
       "_search_count": 2,
       "_next_search_at": 1773235834.0,
       "_via": "rss"
