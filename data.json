@@ -31,7 +31,9 @@
       ],
       "confidence": "low",
       "preview_image": "https://media.cnn.com/api/v1/images/stellar/prod/ap26067484115759-20260311143008704.jpg?c=16x9&q=w_800,c_fill",
-      "_via": "gdelt"
+      "_via": "gdelt",
+      "_search_count": 1,
+      "_next_search_at": 1773338306.0
     },
     {
       "id": "d14dc0c42598",
@@ -53,7 +55,9 @@
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/A6DZSE6LRNGWZKC2PVE2FBK73Y.jpg?smart=true&amp;auth=ca6429a5a91b37114363643fe857b6b1f964d5dc7728af8c360739f7e19081ca&amp;width=1200&amp;height=630",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1773337771.0
     },
     {
       "id": "096af6aa191e",
@@ -75,7 +79,9 @@
       "snippet": "&lt;article data-history-node-id=\"435561\" about=\"https://www.middleeasteye.net/live-blog/live-blog-update/uk-base-iraq-hit-iranian-drones\" class=\"live-blog-update default clearfix\"&gt;\n\n  \n      &lt;h2&gt;\n      &lt;a href=\"https://www.middleeasteye.",
       "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/Untitled_1.jpg",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1773336647.0
     },
     {
       "id": "43fc29a75130",
@@ -97,7 +103,9 @@
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/WL76OOYVIIKJXW66POIIG3SPSQ.jpg?smart=true&amp;auth=72ed6eaf5b3acfa254b8379b5675534079e7373c3ac6a3eaa6a3775ec1b9bdab&amp;width=1200&amp;height=630",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1773335578.0
     },
     {
       "id": "355e99ce455e",
