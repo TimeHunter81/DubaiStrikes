@@ -35,7 +35,7 @@
       "id": "f3555536ed5a",
       "datetime": "2026-03-12T00:47:43Z",
       "type": "impact_minor",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "Iranian drone strikes residential tower in Dubai; fire extinguished",
       "location": "Dubai",
@@ -57,8 +57,8 @@
       "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/lebanon-civilians-taking-shelter-beirut-11march-2026-reuters.jpg",
       "_via": "rss",
       "confidence": "low",
-      "_search_count": 1,
-      "_next_search_at": 1773280063.0
+      "_search_count": 2,
+      "_next_search_at": 1773298063.0
     },
     {
       "id": "ef9c234d13cc",
