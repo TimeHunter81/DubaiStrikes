@@ -6,7 +6,7 @@
       "id": "38a2e0287587",
       "datetime": "2026-03-12T10:01:57Z",
       "type": "impact_minor",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "Dubai high-rise building damaged in overnight drone hit",
       "location": "Dubai",
@@ -17,12 +17,19 @@
           "url": "https://www.aljazeera.com/video/newsfeed/2026/3/12/dubai-high-rise-building-damaged-in-overnight-drone-hit?traffic_source=rss",
           "domain": "aljazeera.com",
           "tier": "wire"
+        },
+        {
+          "url": "https://apnews.com/video/iranian-drone-hits-dubai-tower-as-attacks-reported-across-gulf-states-d0f85ac78d8e40d59ac2f177645db5aa",
+          "domain": "apnews.com",
+          "tier": "wire"
         }
       ],
       "snippet": "Video shows damage to a Dubai high-rise building hit by a drone.",
       "preview_image": "https://www.aljazeera.com/wp-content/uploads/2026/03/WIDE.00_00_13_13.Still006-1773313224.jpg?resize=1920%2C1080&quality=80",
       "_via": "rss",
-      "confidence": "medium"
+      "confidence": "medium",
+      "_search_count": 1,
+      "_next_search_at": 1773313317.0
     },
     {
       "id": "cc6ceeba89c4",
