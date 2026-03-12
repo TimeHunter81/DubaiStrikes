@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-12T13:27:00Z",
+  "last_updated": "2026-03-12T13:35:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -53,8 +53,6 @@
           "tier": "wire"
         }
       ],
-      "snippet": "&lt;article data-history-node-id=\"435517\" about=\"https://www.middleeasteye.net/live-blog/live-blog-update/fallen-debris-dubai-after-drone-attack-kuwait-airport-hit\" class=\"live-blog-update default clearfix\"&gt;\n\n  \n      &lt;h2&gt;\n      &lt;a href=\"",
-      "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/2026-03-12T052917Z_1626185269_RC2D2KAM8P9D_RTRMADP_3_IRAN-CRISIS-LEBANON-AFTERMATH.JPG",
       "_via": "rss",
       "confidence": "high",
       "_search_count": 1,
@@ -88,34 +86,6 @@
       "_next_search_at": 1773327725.0
     },
     {
-      "id": "708c5910d664",
-      "datetime": "2026-03-12T08:23:48Z",
-      "type": "impact_minor",
-      "confirmed": false,
-      "precision": "neighborhood",
-      "title": "Drone crash in Dubai Al Bada'a — no injuries reported",
-      "location": "Al Bada'a, Dubai",
-      "lat": 25.2041,
-      "lon": 55.2461,
-      "sources": [
-        {
-          "url": "https://gulfnews.com/uae/government/drone-crash-reported-in-dubais-al-bidaa-area-1.500471963",
-          "domain": "gulfnews.com",
-          "tier": "local"
-        },
-        {
-          "url": "https://www.dubaieye1038.com/news/local/no-injuries-after-drone-incident-in-dubais-al-badaa-area/",
-          "domain": "dubaieye1038.com",
-          "tier": "wire"
-        }
-      ],
-      "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-10%2Falwyuv8h%2FMissileThreat-1.jpg?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_width=100",
-      "_via": "rss",
-      "confidence": "high",
-      "_search_count": 2,
-      "_next_search_at": 1773325428.0
-    },
-    {
       "id": "cacd0c5df6d2",
       "datetime": "2026-03-12T07:52:21Z",
       "type": "interception",
@@ -146,6 +116,54 @@
       "confidence": "high",
       "_search_count": 2,
       "_next_search_at": 1773323541.0
+    },
+    {
+      "id": "708c5910d664",
+      "datetime": "2026-03-12T08:23:48Z",
+      "type": "impact_minor",
+      "confirmed": false,
+      "precision": "neighborhood",
+      "title": "Drone crash in Dubai Al Bada'a — no injuries reported",
+      "location": "Al Bada'a, Dubai",
+      "lat": 25.2041,
+      "lon": 55.2461,
+      "sources": [
+        {
+          "url": "https://gulfnews.com/uae/government/drone-crash-reported-in-dubais-al-bidaa-area-1.500471963",
+          "domain": "gulfnews.com",
+          "tier": "local"
+        },
+        {
+          "url": "https://www.dubaieye1038.com/news/local/no-injuries-after-drone-incident-in-dubais-al-badaa-area/",
+          "domain": "dubaieye1038.com",
+          "tier": "wire"
+        }
+      ],
+      "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-10%2Falwyuv8h%2FMissileThreat-1.jpg?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_width=100",
+      "_via": "rss",
+      "confidence": "high",
+      "_search_count": 2,
+      "_next_search_at": 1773325428.0
+    },
+    {
+      "id": "7309fb6805a1",
+      "datetime": "2026-03-12T02:30:00Z",
+      "type": "impact_major",
+      "confirmed": false,
+      "precision": "city",
+      "title": "Father of five killed in Iranian strike on Abu Dhabi residential area",
+      "location": "Abu Dhabi",
+      "lat": 24.4539,
+      "lon": 54.3773,
+      "sources": [
+        {
+          "url": "https://www.thenationalnews.com/news/uae/2026/03/12/family-mourns-father-of-five-killed-in-iran-strike-in-abu-dhabi-residential-area/",
+          "domain": "thenationalnews.com",
+          "tier": "local"
+        }
+      ],
+      "_via": "rss",
+      "confidence": "medium"
     },
     {
       "id": "30b08ca92573",
