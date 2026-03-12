@@ -1,17 +1,39 @@
 {
-  "last_updated": "2026-03-12T01:19:00Z",
+  "last_updated": "2026-03-12T01:29:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
+    {
+      "id": "a300ef5a9037",
+      "datetime": "2026-03-12T01:03:58Z",
+      "type": "impact_minor",
+      "confirmed": false,
+      "precision": "neighborhood",
+      "title": "Drone falls on Dubai Creek Harbour building; fire contained",
+      "location": "Dubai",
+      "lat": 25.2057,
+      "lon": 55.3517,
+      "sources": [
+        {
+          "url": "https://gulfnews.com/uae/drone-falls-on-building-in-dubais-creek-harbour-fire-contained-1.500471607",
+          "domain": "gulfnews.com",
+          "tier": "local"
+        }
+      ],
+      "snippet": null,
+      "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-12%2Fivat9qni%2FHDKqVPabQAE8m-T.jpg?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
+      "_via": "rss",
+      "confidence": "low"
+    },
     {
       "id": "f3555536ed5a",
       "datetime": "2026-03-12T00:47:43Z",
       "type": "impact_major",
       "confirmed": false,
-      "precision": "city",
-      "title": "Iranian drone strikes residential tower in Dubai",
+      "precision": "neighborhood",
+      "title": "Iranian drone strikes residential tower in Dubai Creek Harbour",
       "location": "Dubai",
-      "lat": 25.2048,
-      "lon": 55.2708,
+      "lat": 25.2057,
+      "lon": 55.3517,
       "sources": [
         {
           "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iranian-drone-strikes-tower-dubai",
@@ -27,7 +49,7 @@
       "snippet": "&lt;article data-history-node-id=\"435486\" about=\"https://www.middleeasteye.net/live-blog/live-blog-update/iranian-drone-strikes-tower-dubai\" class=\"live-blog-update default clearfix\"&gt;\n\n  \n      &lt;h2&gt;\n      &lt;a href=\"https://www.middleeastey",
       "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/lebanon-civilians-taking-shelter-beirut-11march-2026-reuters.jpg",
       "_via": "rss",
-      "confidence": "low",
+      "confidence": "medium",
       "_search_count": 1,
       "_next_search_at": 1773280063.0
     },
@@ -36,11 +58,11 @@
       "datetime": "2026-03-12T00:43:07Z",
       "type": "impact_major",
       "confirmed": false,
-      "precision": "city",
-      "title": "Fire contained after drone hits Dubai residential tower",
+      "precision": "neighborhood",
+      "title": "Fire after drone hits Dubai Creek Harbour residential tower; contained",
       "location": "Dubai",
-      "lat": 25.2048,
-      "lon": 55.2708,
+      "lat": 25.2057,
+      "lon": 55.3517,
       "sources": [
         {
           "url": "https://www.thenationalnews.com/news/uae/2026/03/12/fire-put-out-after-iranian-drone-slams-into-dubai-residential-tower/",
