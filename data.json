@@ -6,7 +6,7 @@
       "id": "c41e80168685",
       "datetime": "2026-03-12T09:28:56Z",
       "type": "impact_minor",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "Fallen debris in Dubai following drone attack",
       "location": "Dubai",
@@ -17,12 +17,19 @@
           "url": "https://www.middleeasteye.net/live-blog/live-blog-update/fallen-debris-dubai-after-drone-attack-kuwait-airport-hit",
           "domain": "middleeasteye.net",
           "tier": "local"
+        },
+        {
+          "url": "https://english.alarabiya.net/News/gulf/2026/03/12/dubai-successfully-intercepts-attack-debris-hits-building-on-sheikh-zayed-road-",
+          "domain": "english.alarabiya.net",
+          "tier": "wire"
         }
       ],
       "snippet": "&lt;article data-history-node-id=\"435517\" about=\"https://www.middleeasteye.net/live-blog/live-blog-update/fallen-debris-dubai-after-drone-attack-kuwait-airport-hit\" class=\"live-blog-update default clearfix\"&gt;\n\n  \n      &lt;h2&gt;\n      &lt;a href=\"",
       "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/2026-03-12T052917Z_1626185269_RC2D2KAM8P9D_RTRMADP_3_IRAN-CRISIS-LEBANON-AFTERMATH.JPG",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1773311336.0
     },
     {
       "id": "cc6ceeba89c4",
