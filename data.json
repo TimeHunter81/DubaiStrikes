@@ -6,12 +6,12 @@
       "id": "8e574eaf8945",
       "datetime": "2026-03-12T15:45:02Z",
       "type": "impact_major",
-      "confirmed": false,
-      "precision": "country",
+      "confirmed": true,
+      "precision": "city",
       "title": "Father killed in Iranian strike on UAE",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
+      "location": "Abu Dhabi, UAE",
+      "lat": 24.4539,
+      "lon": 54.3773,
       "sources": [
         {
           "url": "https://www.thenationalnews.com/news/uae/2026/03/12/broken-dreams-family-mourns-loss-after-father-killed-in-iranian-strike-on-uae/",
@@ -23,8 +23,8 @@
       "preview_image": "https://www.thenationalnews.com/resizer/v2/UMKBFMRGG5HXHGW4AK4MNVK64E.JPG?smart=true&auth=6a8cde229b4239853f6a2f3a1db380482ed949d059cb9d2efbfa49bb2a2b4cb2&width=1200&height=630",
       "_via": "rss",
       "confidence": "low",
-      "_search_count": 1,
-      "_next_search_at": 1773333902.0
+      "_search_count": 2,
+      "_next_search_at": 1773351902.0
     },
     {
       "id": "38a2e0287587",
