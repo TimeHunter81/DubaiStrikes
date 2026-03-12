@@ -368,9 +368,9 @@
     /* ── MARKERS ── */
     .cm { border-radius: 50%; border: 2px solid rgba(255,255,255,0.35); display: flex; align-items: center; justify-content: center; }
     .cm-interception  { background: radial-gradient(circle, #6ab4ff, #2d6ecc); width: 22px; height: 22px; box-shadow: 0 0 8px rgba(79,158,255,0.5); }
-    .cm-impact_minor  { background: radial-gradient(circle, #f0a820, #b07010); width: 20px; height: 20px; box-shadow: 0 0 6px rgba(240,168,32,0.4); }
-    .cm-impact_major  { background: radial-gradient(circle, #ff5f57, #c02020); width: 24px; height: 24px; box-shadow: 0 0 14px rgba(248,81,73,0.6), 0 0 4px rgba(248,81,73,0.4); }
-    .cm-security_alert{ background: radial-gradient(circle, #b48aff, #6040bb); width: 20px; height: 20px; box-shadow: 0 0 8px rgba(163,113,247,0.4); }
+    .cm-impact_minor  { background: radial-gradient(circle, #f0a820, #b07010); width: 22px; height: 22px; box-shadow: 0 0 6px rgba(240,168,32,0.4); }
+    .cm-impact_major  { background: radial-gradient(circle, #ff5f57, #c02020); width: 22px; height: 22px; box-shadow: 0 0 14px rgba(248,81,73,0.6), 0 0 4px rgba(248,81,73,0.4); }
+    .cm-security_alert{ background: radial-gradient(circle, #b48aff, #6040bb); width: 22px; height: 22px; box-shadow: 0 0 8px rgba(163,113,247,0.4); }
     .cm-suspected { border-style: dashed; opacity: 0.65; }
     .cm-loc { background: radial-gradient(circle, #4fd060, #1a8030); width: 22px; height: 22px; border: 2px solid rgba(255,255,255,0.6); box-shadow: 0 0 10px rgba(63,185,80,0.5); }
 
@@ -871,7 +871,7 @@
     security_alert: '<path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9"/><path d="M10.3 21a1.94 1.94 0 0 0 3.4 0"/>',
     loc:            '<path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"/><circle cx="12" cy="10" r="3"/>',
   };
-  const TYPE_SIZE = { impact_major: 24, impact_minor: 20, interception: 22, security_alert: 20, loc: 22 };
+  const TYPE_SIZE = { impact_major: 22, impact_minor: 22, interception: 22, security_alert: 22, loc: 22 };
 
   function makeEventIcon(type, confirmed, approximate) {
     const meta = TYPE_META[type] || TYPE_META['impact_major'];
