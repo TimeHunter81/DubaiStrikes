@@ -1,224 +1,7 @@
 {
-  "last_updated": "2026-03-12T05:10:00Z",
+  "last_updated": "2026-03-12T05:16:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
-    {
-      "id": "30b08ca92573",
-      "datetime": "2026-03-12T03:42:38Z",
-      "type": "impact_minor",
-      "confirmed": true,
-      "precision": "neighborhood",
-      "title": "Projectile hits ship near UAE's Jebel Ali — UKMTO",
-      "location": "Jebel Ali",
-      "lat": 25.0153,
-      "lon": 55.0613,
-      "sources": [
-        {
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/unidentified-projectile-hits-ship-near-uaes-jebel-ali-ukmto-says",
-          "domain": "middleeasteye.net",
-          "tier": "local"
-        },
-        {
-          "url": "https://www.bbc.com/news/articles/cr5l988qr47o",
-          "domain": "bbc.com",
-          "tier": "wire"
-        }
-      ],
-      "snippet": null,
-      "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/lebanon-civilians-taking-shelter-beirut-11march-2026-reuters.jpg",
-      "_via": "rss",
-      "confidence": "high",
-      "_search_count": 1,
-      "_next_search_at": 1773290558.0
-    },
-    {
-      "id": "3545eebfbde9",
-      "datetime": "2026-03-12T03:12:58Z",
-      "type": "security_alert",
-      "confirmed": true,
-      "precision": "country",
-      "title": "UAE responds to Iranian missiles and drones; residents receive emergency alerts",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://gulfnews.com/uae/uae-responds-to-iranian-missiles-and-drones-residents-receive-emergency-alerts-1.500471680",
-          "domain": "gulfnews.com",
-          "tier": "local"
-        },
-        {
-          "url": "https://www.cbsnews.com/live-updates/iran-war-us-israel-strait-of-hormuz-ship-attacks-persian-gulf-drones-missiles/",
-          "domain": "cbsnews.com",
-          "tier": "wire"
-        }
-      ],
-      "snippet": null,
-      "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-10%2Foxjrgpgh%2Fgulfnews2026-03-057odx7i2wnewsmlafpcom20260305T175920Zdoca24n37y.avif?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
-      "_via": "rss",
-      "confidence": "high",
-      "_search_count": 1,
-      "_next_search_at": 1773288778.0
-    },
-    {
-      "id": "7309fb6805a1",
-      "datetime": "2026-03-12T02:30:00Z",
-      "type": "impact_major",
-      "confirmed": true,
-      "precision": "city",
-      "title": "Iranian strike kills man in Abu Dhabi residential area",
-      "location": "Abu Dhabi",
-      "lat": 24.4539,
-      "lon": 54.3773,
-      "sources": [
-        {
-          "url": "https://www.thenationalnews.com/news/uae/2026/03/12/family-mourns-father-of-five-killed-in-iran-strike-in-abu-dhabi-residential-area/",
-          "domain": "thenationalnews.com",
-          "tier": "local"
-        },
-        {
-          "url": "https://www.reuters.com/world/middle-east/iran-fires-missiles-gulf-arab-states-one-killed-abu-dhabi-2026-02-28/",
-          "domain": "reuters.com",
-          "tier": "wire"
-        }
-      ],
-      "snippet": null,
-      "preview_image": "https://www.thenationalnews.com/resizer/v2/OQKT6EQAIJHR7BBTRLCMSFBT6Y.JPG?smart=true&auth=43e0e43ff0385399d2773f4fcf256482f5d8065882d644ba640277b0c4b28382&width=1200&height=630",
-      "_via": "rss",
-      "confidence": "high",
-      "_search_count": 1,
-      "_next_search_at": 1773286200.0
-    },
-    {
-      "id": "780a01b87f72",
-      "title": "Strike in Abu Dhabi — Abu Dhabi Media Office report",
-      "datetime": "2026-03-10T00:00:00Z",
-      "type": "impact_minor",
-      "confirmed": true,
-      "location": "Abu Dhabi",
-      "lat": 24.4539,
-      "lon": 54.3773,
-      "precision": "city",
-      "sources": [
-        {
-          "url": "https://x.com/ADMediaOffice/status/2031332643586163042",
-          "domain": "x.com",
-          "tier": "osint"
-        }
-      ],
-      "confidence": "low",
-      "_isw_id": 11350,
-      "_via": "isw",
-      "_next_search_at": 0,
-      "_search_count": 0,
-      "_manual": true
-    },
-    {
-      "id": "784da98b2790",
-      "datetime": "2026-03-12T02:20:04Z",
-      "type": "impact_minor",
-      "confirmed": false,
-      "precision": "city",
-      "title": "Iranian drone hits Dubai residential tower — fire contained",
-      "location": "Dubai",
-      "lat": 25.2048,
-      "lon": 55.2708,
-      "sources": [
-        {
-          "url": "https://www.thenationalnews.com/news/mena/2026/03/11/live-iran-war-us-israel-uae-missile-attacks/",
-          "domain": "thenationalnews.com",
-          "tier": "local"
-        }
-      ],
-      "snippet": null,
-      "preview_image": "https://www.thenationalnews.com/resizer/v2/OUWIOFJDAZEMROJHWHQ47GANXU.jpg?smart=true&auth=89d294ea23ca5de36b7fa00e67ae61ea78513b539789344e75098562053b6550&width=1200&height=630",
-      "_via": "rss",
-      "confidence": "low",
-      "_search_count": 2,
-      "_next_search_at": 1773303604.0
-    },
-    {
-      "id": "a300ef5a9037",
-      "datetime": "2026-03-12T01:03:58Z",
-      "type": "impact_minor",
-      "confirmed": true,
-      "precision": "neighborhood",
-      "title": "Iranian drone hits Dubai Creek Harbour building; fire contained",
-      "location": "Dubai Creek Harbour",
-      "lat": 25.2057,
-      "lon": 55.3517,
-      "sources": [
-        {
-          "url": "https://gulfnews.com/uae/drone-falls-on-building-in-dubais-creek-harbour-fire-contained-1.500471607",
-          "domain": "gulfnews.com",
-          "tier": "local"
-        },
-        {
-          "url": "https://www.bbc.com/news/live/cd70wzw9vqlt",
-          "domain": "bbc.com",
-          "tier": "wire"
-        }
-      ],
-      "snippet": null,
-      "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-12%2Fivat9qni%2FHDKqVPabQAE8m-T.jpg?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_width=100",
-      "_via": "rss",
-      "confidence": "high",
-      "_search_count": 1,
-      "_next_search_at": 1773281038.0
-    },
-    {
-      "id": "f3555536ed5a",
-      "datetime": "2026-03-12T00:47:43Z",
-      "type": "impact_minor",
-      "confirmed": true,
-      "precision": "city",
-      "title": "Iranian drone strikes tower in Dubai",
-      "location": "Dubai",
-      "lat": 25.2048,
-      "lon": 55.2708,
-      "sources": [
-        {
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iranian-drone-strikes-tower-dubai",
-          "domain": "middleeasteye.net",
-          "tier": "local"
-        },
-        {
-          "url": "https://www.bbc.com/news/live/cd70wzw9vqlt",
-          "domain": "bbc.com",
-          "tier": "wire"
-        }
-      ],
-      "snippet": null,
-      "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/lebanon-civilians-taking-shelter-beirut-11march-2026-reuters.jpg",
-      "_via": "rss",
-      "confidence": "high",
-      "_search_count": 1,
-      "_next_search_at": 1773280063.0
-    },
-    {
-      "id": "3a4b4a67d2d1",
-      "datetime": "2026-03-12T00:43:07Z",
-      "type": "impact_minor",
-      "confirmed": false,
-      "precision": "city",
-      "title": "Fire put out after Iranian drone slams into Dubai residential tower",
-      "location": "Dubai",
-      "lat": 25.2048,
-      "lon": 55.2708,
-      "sources": [
-        {
-          "url": "https://www.thenationalnews.com/news/uae/2026/03/12/fire-put-out-after-iranian-drone-slams-into-dubai-residential-tower/",
-          "domain": "thenationalnews.com",
-          "tier": "local"
-        }
-      ],
-      "snippet": null,
-      "preview_image": "https://www.thenationalnews.com/resizer/v2/OUWIOFJDAZEMROJHWHQ47GANXU.jpg?smart=true&auth=89d294ea23ca5de36b7fa00e67ae61ea78513b539789344e75098562053b6550&width=1200&height=630",
-      "_via": "rss",
-      "confidence": "low",
-      "_search_count": 2,
-      "_next_search_at": 1773297787.0
-    },
     {
       "id": "ef9c234d13cc",
       "datetime": "2026-03-11T21:56:53Z",
@@ -320,6 +103,223 @@
       "confidence": "high",
       "_search_count": 3,
       "_next_search_at": 1773334016.0
+    },
+    {
+      "id": "7309fb6805a1",
+      "datetime": "2026-03-12T02:30:00Z",
+      "type": "impact_major",
+      "confirmed": true,
+      "precision": "city",
+      "title": "Iranian strike kills man in Abu Dhabi residential area",
+      "location": "Abu Dhabi",
+      "lat": 24.4539,
+      "lon": 54.3773,
+      "sources": [
+        {
+          "url": "https://www.thenationalnews.com/news/uae/2026/03/12/family-mourns-father-of-five-killed-in-iran-strike-in-abu-dhabi-residential-area/",
+          "domain": "thenationalnews.com",
+          "tier": "local"
+        },
+        {
+          "url": "https://www.reuters.com/world/middle-east/iran-fires-missiles-gulf-arab-states-one-killed-abu-dhabi-2026-02-28/",
+          "domain": "reuters.com",
+          "tier": "wire"
+        }
+      ],
+      "snippet": null,
+      "preview_image": "https://www.thenationalnews.com/resizer/v2/OQKT6EQAIJHR7BBTRLCMSFBT6Y.JPG?smart=true&auth=43e0e43ff0385399d2773f4fcf256482f5d8065882d644ba640277b0c4b28382&width=1200&height=630",
+      "_via": "rss",
+      "confidence": "high",
+      "_search_count": 1,
+      "_next_search_at": 1773286200.0
+    },
+    {
+      "id": "a300ef5a9037",
+      "datetime": "2026-03-12T01:03:58Z",
+      "type": "impact_minor",
+      "confirmed": true,
+      "precision": "neighborhood",
+      "title": "Iranian drone hits Dubai Creek Harbour building; fire contained",
+      "location": "Dubai Creek Harbour",
+      "lat": 25.2057,
+      "lon": 55.3517,
+      "sources": [
+        {
+          "url": "https://gulfnews.com/uae/drone-falls-on-building-in-dubais-creek-harbour-fire-contained-1.500471607",
+          "domain": "gulfnews.com",
+          "tier": "local"
+        },
+        {
+          "url": "https://www.bbc.com/news/live/cd70wzw9vqlt",
+          "domain": "bbc.com",
+          "tier": "wire"
+        }
+      ],
+      "snippet": null,
+      "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-12%2Fivat9qni%2FHDKqVPabQAE8m-T.jpg?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_width=100",
+      "_via": "rss",
+      "confidence": "high",
+      "_search_count": 1,
+      "_next_search_at": 1773281038.0
+    },
+    {
+      "id": "f3555536ed5a",
+      "datetime": "2026-03-12T00:47:43Z",
+      "type": "impact_minor",
+      "confirmed": true,
+      "precision": "city",
+      "title": "Iranian drone strikes tower in Dubai",
+      "location": "Dubai",
+      "lat": 25.2048,
+      "lon": 55.2708,
+      "sources": [
+        {
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iranian-drone-strikes-tower-dubai",
+          "domain": "middleeasteye.net",
+          "tier": "local"
+        },
+        {
+          "url": "https://www.bbc.com/news/live/cd70wzw9vqlt",
+          "domain": "bbc.com",
+          "tier": "wire"
+        }
+      ],
+      "snippet": null,
+      "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/lebanon-civilians-taking-shelter-beirut-11march-2026-reuters.jpg",
+      "_via": "rss",
+      "confidence": "high",
+      "_search_count": 1,
+      "_next_search_at": 1773280063.0
+    },
+    {
+      "id": "3a4b4a67d2d1",
+      "datetime": "2026-03-12T00:43:07Z",
+      "type": "impact_minor",
+      "confirmed": false,
+      "precision": "city",
+      "title": "Iranian drone slams into Dubai residential tower; fire contained",
+      "location": "Dubai",
+      "lat": 25.2048,
+      "lon": 55.2708,
+      "sources": [
+        {
+          "url": "https://www.thenationalnews.com/news/uae/2026/03/12/fire-put-out-after-iranian-drone-slams-into-dubai-residential-tower/",
+          "domain": "thenationalnews.com",
+          "tier": "local"
+        }
+      ],
+      "snippet": null,
+      "preview_image": "https://www.thenationalnews.com/resizer/v2/OUWIOFJDAZEMROJHWHQ47GANXU.jpg?smart=true&auth=89d294ea23ca5de36b7fa00e67ae61ea78513b539789344e75098562053b6550&width=1200&height=630",
+      "_via": "rss",
+      "confidence": "low",
+      "_search_count": 2,
+      "_next_search_at": 1773297787.0
+    },
+    {
+      "id": "3545eebfbde9",
+      "datetime": "2026-03-12T03:12:58Z",
+      "type": "security_alert",
+      "confirmed": true,
+      "precision": "country",
+      "title": "UAE activates emergency alerts as Iranian missiles and drones attack",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://gulfnews.com/uae/uae-responds-to-iranian-missiles-and-drones-residents-receive-emergency-alerts-1.500471680",
+          "domain": "gulfnews.com",
+          "tier": "local"
+        },
+        {
+          "url": "https://www.cbsnews.com/live-updates/iran-war-us-israel-strait-of-hormuz-ship-attacks-persian-gulf-drones-missiles/",
+          "domain": "cbsnews.com",
+          "tier": "wire"
+        }
+      ],
+      "snippet": null,
+      "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-10%2Foxjrgpgh%2Fgulfnews2026-03-057odx7i2wnewsmlafpcom20260305T175920Zdoca24n37y.avif?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_width=100",
+      "_via": "rss",
+      "confidence": "high",
+      "_search_count": 1,
+      "_next_search_at": 1773288778.0
+    },
+    {
+      "id": "30b08ca92573",
+      "datetime": "2026-03-12T03:42:38Z",
+      "type": "impact_minor",
+      "confirmed": true,
+      "precision": "neighborhood",
+      "title": "Projectile hits vessel near Jebel Ali port — UKMTO",
+      "location": "Jebel Ali",
+      "lat": 25.0153,
+      "lon": 55.0613,
+      "sources": [
+        {
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/unidentified-projectile-hits-ship-near-uaes-jebel-ali-ukmto-says",
+          "domain": "middleeasteye.net",
+          "tier": "local"
+        },
+        {
+          "url": "https://www.bbc.com/news/articles/cr5l988qr47o",
+          "domain": "bbc.com",
+          "tier": "wire"
+        }
+      ],
+      "snippet": null,
+      "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/lebanon-civilians-taking-shelter-beirut-11march-2026-reuters.jpg",
+      "_via": "rss",
+      "confidence": "high",
+      "_search_count": 1,
+      "_next_search_at": 1773290558.0
+    },
+    {
+      "id": "784da98b2790",
+      "datetime": "2026-03-12T02:20:04Z",
+      "type": "impact_minor",
+      "confirmed": false,
+      "precision": "city",
+      "title": "Iranian drone hits Dubai residential tower — fire contained",
+      "location": "Dubai",
+      "lat": 25.2048,
+      "lon": 55.2708,
+      "sources": [
+        {
+          "url": "https://www.thenationalnews.com/news/mena/2026/03/11/live-iran-war-us-israel-uae-missile-attacks/",
+          "domain": "thenationalnews.com",
+          "tier": "local"
+        }
+      ],
+      "snippet": null,
+      "preview_image": "https://www.thenationalnews.com/resizer/v2/OUWIOFJDAZEMROJHWHQ47GANXU.jpg?smart=true&auth=89d294ea23ca5de36b7fa00e67ae61ea78513b539789344e75098562053b6550&width=1200&height=630",
+      "_via": "rss",
+      "confidence": "low",
+      "_search_count": 2,
+      "_next_search_at": 1773303604.0
+    },
+    {
+      "id": "780a01b87f72",
+      "title": "Strike in Abu Dhabi — Abu Dhabi Media Office report",
+      "datetime": "2026-03-10T00:00:00Z",
+      "type": "impact_minor",
+      "confirmed": true,
+      "location": "Abu Dhabi",
+      "lat": 24.4539,
+      "lon": 54.3773,
+      "precision": "city",
+      "sources": [
+        {
+          "url": "https://x.com/ADMediaOffice/status/2031332643586163042",
+          "domain": "x.com",
+          "tier": "osint"
+        }
+      ],
+      "confidence": "low",
+      "_isw_id": 11350,
+      "_via": "isw",
+      "_next_search_at": 0,
+      "_search_count": 0,
+      "_manual": true
     },
     {
       "id": "a1b2c3d4e5f6",
