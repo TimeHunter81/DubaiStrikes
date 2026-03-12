@@ -1,7 +1,51 @@
 {
-  "last_updated": "2026-03-12T03:35:33Z",
+  "last_updated": "2026-03-12T03:44:55Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
+    {
+      "id": "db4a10b05403",
+      "datetime": "2026-03-12T03:39:20Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "UAE battles missile and drone threats from Iran",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/uae-battles-missile-and-drone-threats-iran",
+          "domain": "middleeasteye.net",
+          "tier": "local"
+        }
+      ],
+      "snippet": null,
+      "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/lebanon-civilians-taking-shelter-beirut-11march-2026-reuters.jpg",
+      "_via": "rss",
+      "confidence": "low"
+    },
+    {
+      "id": "3545eebfbde9",
+      "datetime": "2026-03-12T03:12:58Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "UAE responds to Iranian missiles and drones; residents receive emergency alerts",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://gulfnews.com/uae/uae-responds-to-iranian-missiles-and-drones-residents-receive-emergency-alerts-1.500471680",
+          "domain": "gulfnews.com",
+          "tier": "local"
+        }
+      ],
+      "snippet": null,
+      "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-10%2Foxjrgpgh%2Fgulfnews2026-03-057odx7i2wnewsmlafpcom20260305T175920Zdoca24n37y.avif?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
+      "_via": "rss",
+      "confidence": "low"
+    },
     {
       "id": "7309fb6805a1",
       "datetime": "2026-03-12T02:30:00Z",
@@ -37,7 +81,7 @@
       "type": "impact_minor",
       "confirmed": true,
       "precision": "neighborhood",
-      "title": "Drone hits Dubai Creek Harbour building; fire contained",
+      "title": "Iranian drone hits Dubai Creek Harbour building; fire contained",
       "location": "Dubai Creek Harbour",
       "lat": 25.2057,
       "lon": 55.3517,
@@ -61,41 +105,12 @@
       "_next_search_at": 1773281038.0
     },
     {
-      "id": "f3555536ed5a",
-      "datetime": "2026-03-12T00:47:43Z",
-      "type": "impact_minor",
-      "confirmed": false,
-      "precision": "city",
-      "title": "Iranian drone strikes Dubai residential tower; fire extinguished",
-      "location": "Dubai",
-      "lat": 25.2048,
-      "lon": 55.2708,
-      "sources": [
-        {
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iranian-drone-strikes-tower-dubai",
-          "domain": "middleeasteye.net",
-          "tier": "local"
-        },
-        {
-          "url": "https://www.thenationalnews.com/news/uae/2026/03/12/fire-put-out-after-iranian-drone-slams-into-dubai-residential-tower/",
-          "domain": "thenationalnews.com",
-          "tier": "local"
-        }
-      ],
-      "snippet": null,
-      "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/lebanon-civilians-taking-shelter-beirut-11march-2026-reuters.jpg",
-      "_via": "rss",
-      "confidence": "medium",
-      "_search_count": 2,
-      "_next_search_at": 1773298063.0
-    },
-    {
       "id": "ef9c234d13cc",
       "datetime": "2026-03-11T21:56:53Z",
       "type": "interception",
       "confirmed": false,
       "precision": "country",
-      "title": "UAE air defences intercept 6 ballistic, 7 cruise missiles, 39 UAVs",
+      "title": "UAE air defences intercept 6 ballistic, 7 cruise missiles and 39 UAVs",
       "location": "UAE",
       "lat": null,
       "lon": null,
@@ -190,33 +205,6 @@
       "confidence": "high",
       "_search_count": 3,
       "_next_search_at": 1773334016.0
-    },
-    {
-      "id": "29ee3867aaa2",
-      "datetime": "2026-03-11T08:03:10Z",
-      "type": "impact_major",
-      "confirmed": true,
-      "precision": "exact",
-      "title": "Drone impact near Dubai Airport — 4 injured",
-      "location": "Dubai International Airport vicinity",
-      "lat": 25.2528,
-      "lon": 55.3644,
-      "sources": [
-        {
-          "url": "https://www.thenationalnews.com/news/uae/2026/03/11/four-injured-after-iranian-drone-strike-near-dubai-airport/",
-          "domain": "thenationalnews.com",
-          "tier": "local"
-        },
-        {
-          "url": "https://www.reuters.com/world/middle-east/two-drones-fall-vicinity-dubai-airport-iran-crisis-shows-no-sign-easing-2026-03-11/",
-          "domain": "reuters.com",
-          "tier": "wire"
-        }
-      ],
-      "_search_count": 1,
-      "_next_search_at": 1773219790.0,
-      "confidence": "high",
-      "_via": "rss"
     },
     {
       "id": "780a01b87f72",
