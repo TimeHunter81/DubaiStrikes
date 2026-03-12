@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-12T05:57:00Z",
+  "last_updated": "2026-03-12T06:05:45Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -35,7 +35,7 @@
       "id": "db4a10b05403",
       "datetime": "2026-03-12T03:39:20Z",
       "type": "interception",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "country",
       "title": "UAE battles Iranian missile and drone threats",
       "location": "Uae",
