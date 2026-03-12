@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-12T12:15:00Z",
+  "last_updated": "2026-03-12T12:28:54Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -64,7 +64,7 @@
       "id": "cc6ceeba89c4",
       "datetime": "2026-03-12T09:02:05Z",
       "type": "impact_minor",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "neighborhood",
       "title": "Interception debris hits building on Sheikh Zayed Road, Dubai",
       "location": "Sheikh Zayed Road, Dubai",
@@ -119,7 +119,7 @@
       "id": "cacd0c5df6d2",
       "datetime": "2026-03-12T07:52:21Z",
       "type": "interception",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "neighborhood",
       "title": "Several explosions heard over Downtown Dubai",
       "location": "Dubai Downtown",
