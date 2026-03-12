@@ -1,7 +1,29 @@
 {
-  "last_updated": "2026-03-12T09:47:00Z",
+  "last_updated": "2026-03-12T10:00:45Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
+    {
+      "id": "c41e80168685",
+      "datetime": "2026-03-12T09:28:56Z",
+      "type": "impact_minor",
+      "confirmed": false,
+      "precision": "city",
+      "title": "Drone attack debris falls in Dubai; Kuwait airport also struck",
+      "location": "Dubai",
+      "lat": 25.2048,
+      "lon": 55.2708,
+      "sources": [
+        {
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/fallen-debris-dubai-after-drone-attack-kuwait-airport-hit",
+          "domain": "middleeasteye.net",
+          "tier": "local"
+        }
+      ],
+      "snippet": null,
+      "preview_image": null,
+      "_via": "rss",
+      "confidence": "low"
+    },
     {
       "id": "cc6ceeba89c4",
       "datetime": "2026-03-12T09:02:05Z",
