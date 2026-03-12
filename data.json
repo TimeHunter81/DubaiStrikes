@@ -149,7 +149,7 @@
       "id": "7309fb6805a1",
       "datetime": "2026-03-12T02:30:00Z",
       "type": "impact_major",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "Father of five killed in Iranian strike on Abu Dhabi residential area",
       "location": "Abu Dhabi",
@@ -160,10 +160,17 @@
           "url": "https://www.thenationalnews.com/news/uae/2026/03/12/family-mourns-father-of-five-killed-in-iran-strike-in-abu-dhabi-residential-area/",
           "domain": "thenationalnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://www.reuters.com/world/middle-east/iran-fires-missiles-gulf-arab-states-one-killed-abu-dhabi-2026-02-28/",
+          "domain": "reuters.com",
+          "tier": "wire"
         }
       ],
       "_via": "rss",
-      "confidence": "medium"
+      "confidence": "medium",
+      "_search_count": 1,
+      "_next_search_at": 1773286200.0
     },
     {
       "id": "30b08ca92573",
