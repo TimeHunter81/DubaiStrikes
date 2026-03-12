@@ -117,7 +117,7 @@
       "id": "cacd0c5df6d2",
       "datetime": "2026-03-12T07:52:21Z",
       "type": "interception",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "neighborhood",
       "title": "Several explosions heard over Downtown Dubai",
       "location": "Dubai Downtown",
@@ -138,12 +138,17 @@
           "url": "https://www.financialexpress.com/world-news/dubai-iran-war-news-live-drone-hits-creek-harbour-irgc-fires-on-ships-in-hormuz-tech-companies-and-banks-on-irans-radar/4170030/",
           "domain": "financialexpress.com",
           "tier": "wire"
+        },
+        {
+          "url": "https://zeenews.india.com/world/west-asia-war-loud-explosions-rock-downtown-dubai-near-burj-khalifa-3026120.html",
+          "domain": "zeenews.india.com",
+          "tier": "wire"
         }
       ],
       "_via": "rss",
       "confidence": "high",
-      "_search_count": 2,
-      "_next_search_at": 1773323541.0
+      "_search_count": 3,
+      "_next_search_at": 1773388341.0
     },
     {
       "id": "30b08ca92573",
