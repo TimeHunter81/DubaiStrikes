@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-12T15:05:00Z",
+  "last_updated": "2026-03-12T15:20:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -208,6 +208,26 @@
       "confidence": "high",
       "_search_count": 1,
       "_next_search_at": 1773288778.0
+    },
+    {
+      "id": "7309fb6805a1",
+      "datetime": "2026-03-12T02:30:00Z",
+      "type": "impact_major",
+      "confirmed": false,
+      "precision": "city",
+      "title": "Iranian strike kills resident in Abu Dhabi residential area",
+      "location": "Abu Dhabi",
+      "lat": 24.4539,
+      "lon": 54.3773,
+      "sources": [
+        {
+          "url": "https://www.thenationalnews.com/news/uae/2026/03/12/family-mourns-father-of-five-killed-in-iran-strike-in-abu-dhabi-residential-area/",
+          "domain": "thenationalnews.com",
+          "tier": "local"
+        }
+      ],
+      "_via": "rss",
+      "confidence": "low"
     },
     {
       "id": "780a01b87f72",
