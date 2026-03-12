@@ -1,0 +1,26 @@
+{
+  "name": "Dubai Strike Monitor",
+  "short_name": "DubaiStrikes",
+  "description": "Live map of strikes, interceptions and alerts in the UAE",
+  "start_url": "/DubaiStrikes/",
+  "scope": "/DubaiStrikes/",
+  "display": "standalone",
+  "background_color": "#080c14",
+  "theme_color": "#080c14",
+  "orientation": "any",
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["news", "utilities"]
+}

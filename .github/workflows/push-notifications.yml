@@ -1,0 +1,98 @@
+name: Push Notifications
+
+on:
+  push:
+    branches: [main]
+    paths: [data.json]
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2  # need previous commit to diff
+
+      - name: Find new events
+        id: diff
+        run: |
+          # Get previous version of data.json
+          git show HEAD~1:data.json > /tmp/data_prev.json 2>/dev/null || echo '{"events":[]}' > /tmp/data_prev.json
+
+          # Extract new event IDs (in current but not in previous)
+          node -e "
+          const prev = JSON.parse(require('fs').readFileSync('/tmp/data_prev.json','utf8'));
+          const curr = JSON.parse(require('fs').readFileSync('data.json','utf8'));
+          const prevIds = new Set(prev.events.map(e => e.id));
+          const newEvents = curr.events.filter(e => !prevIds.has(e.id));
+          console.log('NEW_EVENTS=' + JSON.stringify(newEvents));
+          process.stdout.write('');
+          " >> $GITHUB_ENV
+
+      - name: Send push notifications
+        if: env.NEW_EVENTS != '[]' && env.NEW_EVENTS != ''
+        env:
+          VAPID_PUBLIC_KEY:  ${{ secrets.VAPID_PUBLIC_KEY }}
+          VAPID_PRIVATE_KEY: ${{ secrets.VAPID_PRIVATE_KEY }}
+          CF_WORKER_URL:     ${{ secrets.CF_WORKER_URL }}
+          CF_ADMIN_SECRET:   ${{ secrets.CF_ADMIN_SECRET }}
+        run: |
+          npm install web-push --silent
+
+          node -e "
+          const webpush = require('web-push');
+          const https   = require('https');
+
+          webpush.setVapidDetails(
+            'mailto:gauthier@joyt.co',
+            process.env.VAPID_PUBLIC_KEY,
+            process.env.VAPID_PRIVATE_KEY
+          );
+
+          const TYPE_LABEL = {
+            impact_major:   'Strike',
+            impact_minor:   'Debris',
+            interception:   'Interception',
+            security_alert: 'Alert',
+          };
+
+          async function getSubscriptions() {
+            return new Promise((resolve, reject) => {
+              const url = new URL(process.env.CF_WORKER_URL + '/subscriptions');
+              const req = https.get(url, {
+                headers: { Authorization: 'Bearer ' + process.env.CF_ADMIN_SECRET }
+              }, res => {
+                let data = '';
+                res.on('data', c => data += c);
+                res.on('end', () => resolve(JSON.parse(data)));
+              });
+              req.on('error', reject);
+            });
+          }
+
+          (async () => {
+            const newEvents = JSON.parse(process.env.NEW_EVENTS);
+            if (!newEvents.length) { console.log('No new events'); return; }
+
+            const subs = await getSubscriptions();
+            console.log('Subscriptions:', subs.length, '| New events:', newEvents.length);
+
+            for (const event of newEvents) {
+              const typeLabel = TYPE_LABEL[event.type] || 'Alert';
+              const payload = JSON.stringify({
+                title:    event.title,
+                body:     event.location || 'UAE',
+                type:     event.type,
+                id:       event.id,
+                url:      'https://timehunter81.github.io/DubaiStrikes/',
+              });
+
+              const results = await Promise.allSettled(
+                subs.map(sub => webpush.sendNotification(sub, payload))
+              );
+              const ok  = results.filter(r => r.status === 'fulfilled').length;
+              const err = results.filter(r => r.status === 'rejected').length;
+              console.log('[' + typeLabel + '] ' + event.title.slice(0, 60) + ' → ' + ok + ' sent, ' + err + ' failed');
+            }
+          })().catch(e => { console.error(e); process.exit(1); });
+          "
