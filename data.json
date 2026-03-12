@@ -1,7 +1,29 @@
 {
-  "last_updated": "2026-03-12T07:53:00Z",
+  "last_updated": "2026-03-12T08:08:19Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
+    {
+      "id": "cacd0c5df6d2",
+      "datetime": "2026-03-12T07:52:21Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "city",
+      "title": "Several explosions heard in Dubai downtown",
+      "location": "Dubai",
+      "lat": 25.2048,
+      "lon": 55.2708,
+      "sources": [
+        {
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/several-explosions-heard-dubais-downtown",
+          "domain": "middleeasteye.net",
+          "tier": "local"
+        }
+      ],
+      "snippet": "&lt;article data-history-node-id=\"435509\" about=\"https://www.middleeasteye.net/live-blog/live-blog-update/several-explosions-heard-dubais-downtown\" class=\"live-blog-update default clearfix\"&gt;\n\n  \n      &lt;h2&gt;\n      &lt;a href=\"https://www.middl",
+      "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/2026-03-12T052917Z_1626185269_RC2D2KAM8P9D_RTRMADP_3_IRAN-CRISIS-LEBANON-AFTERMATH.JPG",
+      "_via": "rss",
+      "confidence": "low"
+    },
     {
       "id": "30b08ca92573",
       "datetime": "2026-03-12T03:42:38Z",
@@ -123,11 +145,11 @@
       "datetime": "2026-03-12T00:43:07Z",
       "type": "impact_minor",
       "confirmed": true,
-      "precision": "city",
-      "title": "Iranian drone hits Dubai residential tower; fire contained",
+      "precision": "neighborhood",
+      "title": "Iranian drone hits Dubai Creek Harbour tower; fire contained",
       "location": "Dubai",
-      "lat": 25.2048,
-      "lon": 55.2708,
+      "lat": 25.2057,
+      "lon": 55.3517,
       "sources": [
         {
           "url": "https://www.thenationalnews.com/news/uae/2026/03/12/fire-put-out-after-iranian-drone-slams-into-dubai-residential-tower/",
