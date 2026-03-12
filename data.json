@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-12T15:28:00Z",
+  "last_updated": "2026-03-12T15:42:24Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -119,43 +119,6 @@
       "_next_search_at": 1773390228.0
     },
     {
-      "id": "cacd0c5df6d2",
-      "datetime": "2026-03-12T07:52:21Z",
-      "type": "interception",
-      "confirmed": false,
-      "precision": "neighborhood",
-      "title": "Several explosions heard over Downtown Dubai",
-      "location": "Dubai Downtown",
-      "lat": 25.1972,
-      "lon": 55.2744,
-      "sources": [
-        {
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/several-explosions-heard-dubais-downtown",
-          "domain": "middleeasteye.net",
-          "tier": "local"
-        },
-        {
-          "url": "https://www.lbcgroup.tv/news/middleeastnews/913635/explosions-heard-in-downtown-dubai-afp-correspondent/en",
-          "domain": "lbcgroup.tv",
-          "tier": "wire"
-        },
-        {
-          "url": "https://www.financialexpress.com/world-news/dubai-iran-war-news-live-drone-hits-creek-harbour-irgc-fires-on-ships-in-hormuz-tech-companies-and-banks-on-irans-radar/4170030/",
-          "domain": "financialexpress.com",
-          "tier": "wire"
-        },
-        {
-          "url": "https://zeenews.india.com/world/west-asia-war-loud-explosions-rock-downtown-dubai-near-burj-khalifa-3026120.html",
-          "domain": "zeenews.india.com",
-          "tier": "wire"
-        }
-      ],
-      "_via": "rss",
-      "confidence": "high",
-      "_search_count": 3,
-      "_next_search_at": 1773388341.0
-    },
-    {
       "id": "30b08ca92573",
       "datetime": "2026-03-12T03:42:38Z",
       "type": "impact_minor",
@@ -208,33 +171,6 @@
       "confidence": "high",
       "_search_count": 1,
       "_next_search_at": 1773288778.0
-    },
-    {
-      "id": "7309fb6805a1",
-      "datetime": "2026-03-12T02:30:00Z",
-      "type": "impact_major",
-      "confirmed": true,
-      "precision": "exact",
-      "title": "Iranian strike kills resident in Abu Dhabi residential area",
-      "location": "Al Khalidiyah, Abu Dhabi",
-      "lat": 24.4693445,
-      "lon": 54.3488059,
-      "sources": [
-        {
-          "url": "https://www.thenationalnews.com/news/uae/2026/03/12/family-mourns-father-of-five-killed-in-iran-strike-in-abu-dhabi-residential-area/",
-          "domain": "thenationalnews.com",
-          "tier": "local"
-        },
-        {
-          "url": "https://www.reuters.com/world/middle-east/four-injured-after-incident-dubai-international-airport-dubai-media-office-says-2026-02-28/",
-          "domain": "reuters.com",
-          "tier": "wire"
-        }
-      ],
-      "_via": "rss",
-      "confidence": "low",
-      "_search_count": 2,
-      "_next_search_at": 1773304200.0
     },
     {
       "id": "780a01b87f72",
