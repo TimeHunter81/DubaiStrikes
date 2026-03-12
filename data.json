@@ -6,7 +6,7 @@
       "id": "7309fb6805a1",
       "datetime": "2026-03-12T02:30:00Z",
       "type": "impact_major",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "Iranian strike kills man in Abu Dhabi residential area",
       "location": "Abu Dhabi",
@@ -17,12 +17,19 @@
           "url": "https://www.thenationalnews.com/news/uae/2026/03/12/family-mourns-father-of-five-killed-in-iran-strike-in-abu-dhabi-residential-area/",
           "domain": "thenationalnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://www.reuters.com/world/middle-east/iran-fires-missiles-gulf-arab-states-one-killed-abu-dhabi-2026-02-28/",
+          "domain": "reuters.com",
+          "tier": "wire"
         }
       ],
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/OQKT6EQAIJHR7BBTRLCMSFBT6Y.JPG?smart=true&auth=43e0e43ff0385399d2773f4fcf256482f5d8065882d644ba640277b0c4b28382&width=1200&height=630",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1773286200.0
     },
     {
       "id": "a300ef5a9037",
