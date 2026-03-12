@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-12T19:50:00Z",
+  "last_updated": "2026-03-12T20:05:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -35,7 +35,7 @@
       "type": "interception",
       "confirmed": false,
       "precision": "country",
-      "title": "UAE air defences intercept 10 ballistic missiles and 26 drones",
+      "title": "UAE intercepts 10 ballistic missiles and 26 drones on Mar 12",
       "location": "UAE",
       "lat": null,
       "lon": null,
@@ -55,6 +55,26 @@
       "confidence": "medium",
       "_search_count": 2,
       "_next_search_at": 1773360225.0
+    },
+    {
+      "id": "8e574eaf8945",
+      "datetime": "2026-03-12T15:45:02Z",
+      "type": "impact_major",
+      "confirmed": false,
+      "precision": "country",
+      "title": "Father killed in Iranian strike on UAE — family mourns",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.thenationalnews.com/news/uae/2026/03/12/broken-dreams-family-mourns-loss-after-father-killed-in-iranian-strike-on-uae/",
+          "domain": "thenationalnews.com",
+          "tier": "local"
+        }
+      ],
+      "_via": "rss",
+      "confidence": "low"
     },
     {
       "id": "38a2e0287587",
