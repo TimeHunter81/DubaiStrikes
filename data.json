@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-12T11:30:00Z",
+  "last_updated": "2026-03-12T11:34:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -27,7 +27,7 @@
       "snippet": "Video shows damage to a Dubai high-rise building hit by a drone.",
       "preview_image": "https://www.aljazeera.com/wp-content/uploads/2026/03/WIDE.00_00_13_13.Still006-1773313224.jpg?resize=1920%2C1080&quality=80",
       "_via": "rss",
-      "confidence": "medium",
+      "confidence": "high",
       "_search_count": 1,
       "_next_search_at": 1773313317.0
     },
@@ -53,8 +53,6 @@
           "tier": "wire"
         }
       ],
-      "snippet": null,
-      "preview_image": "https://media.assettype.com/gulfnews%2F2025-05-15%2Fwybknqou%2FSTOCK-Breaking-News?rect=0%2C6%2C1200%2C630&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
       "_via": "rss",
       "confidence": "high",
       "_search_count": 2,
@@ -82,7 +80,6 @@
           "tier": "wire"
         }
       ],
-      "snippet": null,
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-10%2Falwyuv8h%2FMissileThreat-1.jpg?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_width=100",
       "_via": "rss",
       "confidence": "high",
@@ -116,8 +113,6 @@
           "tier": "wire"
         }
       ],
-      "snippet": null,
-      "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/2026-03-12T052917Z_1626185269_RC2D2KAM8P9D_RTRMADP_3_IRAN-CRISIS-LEBANON-AFTERMATH.JPG",
       "_via": "rss",
       "confidence": "high",
       "_search_count": 2,
@@ -145,8 +140,6 @@
           "tier": "wire"
         }
       ],
-      "snippet": null,
-      "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/lebanon-civilians-taking-shelter-beirut-11march-2026-reuters.jpg",
       "_via": "rss",
       "confidence": "high",
       "_search_count": 1,
@@ -174,8 +167,6 @@
           "tier": "wire"
         }
       ],
-      "snippet": null,
-      "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-10%2Foxjrgpgh%2Fgulfnews2026-03-057odx7i2wnewsmlafpcom20260305T175920Zdoca24n37y.avif?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_width=100",
       "_via": "rss",
       "confidence": "high",
       "_search_count": 1,
@@ -203,8 +194,6 @@
           "tier": "wire"
         }
       ],
-      "snippet": null,
-      "preview_image": "https://www.thenationalnews.com/resizer/v2/OQKT6EQAIJHR7BBTRLCMSFBT6Y.JPG?smart=true&auth=43e0e43ff0385399d2773f4fcf256482f5d8065882d644ba640277b0c4b28382&width=1200&height=630",
       "_via": "rss",
       "confidence": "high",
       "_search_count": 1,
@@ -232,8 +221,6 @@
           "tier": "wire"
         }
       ],
-      "snippet": null,
-      "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-12%2Fivat9qni%2FHDKqVPabQAE8m-T.jpg?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_width=100",
       "_via": "rss",
       "confidence": "high",
       "_search_count": 1,
@@ -266,8 +253,6 @@
           "tier": "wire"
         }
       ],
-      "snippet": null,
-      "preview_image": "https://www.thenationalnews.com/resizer/v2/OUWIOFJDAZEMROJHWHQ47GANXU.jpg?smart=true&auth=89d294ea23ca5de36b7fa00e67ae61ea78513b539789344e75098562053b6550&width=1200&height=630",
       "_via": "rss",
       "confidence": "high",
       "_search_count": 3,
