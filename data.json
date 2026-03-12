@@ -6,7 +6,7 @@
       "id": "f1080a9b94ea",
       "datetime": "2026-03-12T19:08:19Z",
       "type": "interception",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "UAE intercepts missiles and drones launched from Iran",
       "location": "Uae",
@@ -17,12 +17,19 @@
           "url": "https://www.middleeasteye.net/live-blog/live-blog-update/uae-says-it-intercepted-missiles-and-drones-launched-iran",
           "domain": "middleeasteye.net",
           "tier": "local"
+        },
+        {
+          "url": "https://gulfnews.com/uae/uae-air-defences-intercept-six-ballistic-missiles-seven-cruise-missiles-39-uavs-1.500471507",
+          "domain": "gulfnews.com",
+          "tier": "wire"
         }
       ],
       "snippet": "&lt;article data-history-node-id=\"435574\" about=\"https://www.middleeasteye.net/live-blog/live-blog-update/uae-says-it-intercepted-missiles-and-drones-launched-iran\" class=\"live-blog-update default clearfix\"&gt;\n\n  \n      &lt;h2&gt;\n      &lt;a href=\"",
       "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/000_A2ZB8WR.jpg",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1773346099.0
     },
     {
       "id": "ded8bb2fd2d3",
