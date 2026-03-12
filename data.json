@@ -6,7 +6,7 @@
       "id": "c41e80168685",
       "datetime": "2026-03-12T09:28:56Z",
       "type": "impact_minor",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "Drone attack debris falls in Dubai",
       "location": "Dubai",
@@ -17,14 +17,19 @@
           "url": "https://www.middleeasteye.net/live-blog/live-blog-update/fallen-debris-dubai-after-drone-attack-kuwait-airport-hit",
           "domain": "middleeasteye.net",
           "tier": "local"
+        },
+        {
+          "url": "https://www.thenationalnews.com/news/uae/2026/03/12/fire-put-out-after-iranian-drone-slams-into-dubai-residential-tower/",
+          "domain": "thenationalnews.com",
+          "tier": "wire"
         }
       ],
       "snippet": null,
       "preview_image": null,
       "_via": "rss",
       "confidence": "low",
-      "_search_count": 1,
-      "_next_search_at": 1773311336.0
+      "_search_count": 2,
+      "_next_search_at": 1773329336.0
     },
     {
       "id": "cc6ceeba89c4",
