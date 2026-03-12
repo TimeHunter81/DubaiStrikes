@@ -35,7 +35,7 @@
       "id": "db4a10b05403",
       "datetime": "2026-03-12T03:39:20Z",
       "type": "interception",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "UAE battles Iranian missile and drone threats",
       "location": "Uae",
@@ -51,14 +51,19 @@
           "url": "https://www.hindustantimes.com/world-news/dubai-abu-dhabi-uae-war-news-live-updates-iran-us-saudi-qatar-middle-east-flights-airports-missiles-alert-latest-news-101773189886972.html",
           "domain": "hindustantimes.com",
           "tier": "wire"
+        },
+        {
+          "url": "https://www.reuters.com/world/middle-east/iranian-missiles-drones-fired-gulf-countries-2026-03-10/",
+          "domain": "reuters.com",
+          "tier": "wire"
         }
       ],
       "snippet": "&lt;article data-history-node-id=\"435495\" about=\"https://www.middleeasteye.net/live-blog/live-blog-update/uae-battles-missile-and-drone-threats-iran\" class=\"live-blog-update default clearfix\"&gt;\n\n  \n      &lt;h2&gt;\n      &lt;a href=\"https://www.mid",
       "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/lebanon-civilians-taking-shelter-beirut-11march-2026-reuters.jpg",
       "_via": "rss",
       "confidence": "low",
-      "_search_count": 1,
-      "_next_search_at": 1773290360.0
+      "_search_count": 2,
+      "_next_search_at": 1773308360.0
     },
     {
       "id": "f050168cca0d",
