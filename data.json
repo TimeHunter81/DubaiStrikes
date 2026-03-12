@@ -1,35 +1,28 @@
 {
-  "last_updated": "2026-03-12T03:44:55Z",
+  "last_updated": "2026-03-12T03:55:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
-      "id": "db4a10b05403",
-      "datetime": "2026-03-12T03:39:20Z",
-      "type": "security_alert",
-      "confirmed": true,
-      "precision": "country",
-      "title": "UAE battles missile and drone threats from Iran",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
+      "id": "30b08ca92573",
+      "datetime": "2026-03-12T03:42:38Z",
+      "type": "impact_minor",
+      "confirmed": false,
+      "precision": "neighborhood",
+      "title": "Projectile hits ship near UAE's Jebel Ali — UKMTO",
+      "location": "Jebel Ali",
+      "lat": 25.0153,
+      "lon": 55.0613,
       "sources": [
         {
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/uae-battles-missile-and-drone-threats-iran",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/unidentified-projectile-hits-ship-near-uaes-jebel-ali-ukmto-says",
           "domain": "middleeasteye.net",
           "tier": "local"
-        },
-        {
-          "url": "https://www.cbsnews.com/live-updates/iran-war-us-israel-strait-of-hormuz-ship-attacks-persian-gulf-drones-missiles/",
-          "domain": "cbsnews.com",
-          "tier": "wire"
         }
       ],
       "snippet": null,
       "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/lebanon-civilians-taking-shelter-beirut-11march-2026-reuters.jpg",
       "_via": "rss",
-      "confidence": "low",
-      "_search_count": 1,
-      "_next_search_at": 1773290360.0
+      "confidence": "low"
     },
     {
       "id": "3545eebfbde9",
@@ -37,7 +30,7 @@
       "type": "security_alert",
       "confirmed": true,
       "precision": "country",
-      "title": "UAE responds to Iranian missiles and drones; residents receive emergency alerts",
+      "title": "UAE responds to Iranian missiles and drones; residents get emergency alerts",
       "location": "UAE",
       "lat": null,
       "lon": null,
@@ -56,7 +49,7 @@
       "snippet": null,
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-10%2Foxjrgpgh%2Fgulfnews2026-03-057odx7i2wnewsmlafpcom20260305T175920Zdoca24n37y.avif?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
       "_via": "rss",
-      "confidence": "low",
+      "confidence": "high",
       "_search_count": 1,
       "_next_search_at": 1773288778.0
     },
@@ -90,6 +83,28 @@
       "_next_search_at": 1773286200.0
     },
     {
+      "id": "784da98b2790",
+      "datetime": "2026-03-12T02:20:04Z",
+      "type": "impact_minor",
+      "confirmed": false,
+      "precision": "city",
+      "title": "Iranian drone hits Dubai residential tower — fire contained",
+      "location": "Dubai",
+      "lat": 25.2048,
+      "lon": 55.2708,
+      "sources": [
+        {
+          "url": "https://www.thenationalnews.com/news/mena/2026/03/11/live-iran-war-us-israel-uae-missile-attacks/",
+          "domain": "thenationalnews.com",
+          "tier": "local"
+        }
+      ],
+      "snippet": null,
+      "preview_image": "https://www.thenationalnews.com/resizer/v2/OUWIOFJDAZEMROJHWHQ47GANXU.jpg?smart=true&auth=89d294ea23ca5de36b7fa00e67ae61ea78513b539789344e75098562053b6550&width=1200&height=630",
+      "_via": "rss",
+      "confidence": "low"
+    },
+    {
       "id": "a300ef5a9037",
       "datetime": "2026-03-12T01:03:58Z",
       "type": "impact_minor",
@@ -119,12 +134,56 @@
       "_next_search_at": 1773281038.0
     },
     {
+      "id": "f3555536ed5a",
+      "datetime": "2026-03-12T00:47:43Z",
+      "type": "impact_minor",
+      "confirmed": false,
+      "precision": "city",
+      "title": "Iranian drone strikes tower in Dubai",
+      "location": "Dubai",
+      "lat": 25.2048,
+      "lon": 55.2708,
+      "sources": [
+        {
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iranian-drone-strikes-tower-dubai",
+          "domain": "middleeasteye.net",
+          "tier": "local"
+        }
+      ],
+      "snippet": null,
+      "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/lebanon-civilians-taking-shelter-beirut-11march-2026-reuters.jpg",
+      "_via": "rss",
+      "confidence": "low"
+    },
+    {
+      "id": "3a4b4a67d2d1",
+      "datetime": "2026-03-12T00:43:07Z",
+      "type": "impact_minor",
+      "confirmed": false,
+      "precision": "city",
+      "title": "Fire put out after Iranian drone hits Dubai residential tower",
+      "location": "Dubai",
+      "lat": 25.2048,
+      "lon": 55.2708,
+      "sources": [
+        {
+          "url": "https://www.thenationalnews.com/news/uae/2026/03/12/fire-put-out-after-iranian-drone-slams-into-dubai-residential-tower/",
+          "domain": "thenationalnews.com",
+          "tier": "local"
+        }
+      ],
+      "snippet": null,
+      "preview_image": "https://www.thenationalnews.com/resizer/v2/OUWIOFJDAZEMROJHWHQ47GANXU.jpg?smart=true&auth=89d294ea23ca5de36b7fa00e67ae61ea78513b539789344e75098562053b6550&width=1200&height=630",
+      "_via": "rss",
+      "confidence": "low"
+    },
+    {
       "id": "ef9c234d13cc",
       "datetime": "2026-03-11T21:56:53Z",
       "type": "interception",
       "confirmed": false,
       "precision": "country",
-      "title": "UAE air defences intercept 6 ballistic, 7 cruise missiles and 39 UAVs",
+      "title": "UAE intercepts 6 ballistic, 7 cruise missiles and 39 UAVs",
       "location": "UAE",
       "lat": null,
       "lon": null,
@@ -256,6 +315,7 @@
       "lon": 54.5,
       "sources": [
         {
+
           "url": "https://www.hindustantimes.com/world-news/dubai-abu-dhabi-uae-war-news-live-updates-us-iran-israel-attack-flight-status-missile-alert-explosion-strikes-qatar-101772845653054.html",
           "domain": "hindustantimes.com",
           "tier": "wire"
