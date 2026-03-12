@@ -175,7 +175,7 @@
       "id": "3a4b4a67d2d1",
       "datetime": "2026-03-12T00:43:07Z",
       "type": "impact_minor",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "Iranian drone hits Dubai residential tower; fire contained",
       "location": "Dubai",
@@ -191,14 +191,19 @@
           "url": "https://www.gulftoday.ae/news/2026/03/12/drone-falls-on-building-in-dubai-creek-harbour-minor-fire-quickly-controlled",
           "domain": "gulftoday.ae",
           "tier": "wire"
+        },
+        {
+          "url": "https://www.bbc.com/news/live/cd70wzw9vqlt",
+          "domain": "bbc.com",
+          "tier": "wire"
         }
       ],
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/OUWIOFJDAZEMROJHWHQ47GANXU.jpg?smart=true&auth=89d294ea23ca5de36b7fa00e67ae61ea78513b539789344e75098562053b6550&width=1200&height=630",
       "_via": "rss",
       "confidence": "high",
-      "_search_count": 2,
-      "_next_search_at": 1773297787.0
+      "_search_count": 3,
+      "_next_search_at": 1773362587.0
     },
     {
       "id": "ef9c234d13cc",
