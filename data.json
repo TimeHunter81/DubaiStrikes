@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-12T15:20:00Z",
+  "last_updated": "2026-03-12T15:28:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -64,7 +64,7 @@
       "type": "impact_minor",
       "confirmed": false,
       "precision": "neighborhood",
-      "title": "Interception debris hits building on Sheikh Zayed Road, Dubai",
+      "title": "Interception debris hits building on Sheikh Zayed Rd, Dubai",
       "location": "Sheikh Zayed Road, Dubai",
       "lat": 25.196,
       "lon": 55.273,
@@ -213,7 +213,7 @@
       "id": "7309fb6805a1",
       "datetime": "2026-03-12T02:30:00Z",
       "type": "impact_major",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "city",
       "title": "Iranian strike kills resident in Abu Dhabi residential area",
       "location": "Abu Dhabi",
