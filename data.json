@@ -1,12 +1,34 @@
 {
-  "last_updated": "2026-03-12T08:33:00Z",
+  "last_updated": "2026-03-12T08:47:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
+      "id": "708c5910d664",
+      "datetime": "2026-03-12T08:23:48Z",
+      "type": "impact_minor",
+      "confirmed": false,
+      "precision": "neighborhood",
+      "title": "Drone crash reported in Dubai's Al Bada'a area",
+      "location": "Al Bada'a, Dubai",
+      "lat": 25.2041,
+      "lon": 55.2461,
+      "sources": [
+        {
+          "url": "https://gulfnews.com/uae/government/drone-crash-reported-in-dubais-al-bidaa-area-1.500471963",
+          "domain": "gulfnews.com",
+          "tier": "local"
+        }
+      ],
+      "snippet": null,
+      "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-10%2Falwyuv8h%2FMissileThreat-1.jpg?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
+      "_via": "rss",
+      "confidence": "low"
+    },
+    {
       "id": "cacd0c5df6d2",
       "datetime": "2026-03-12T07:52:21Z",
-      "type": "impact_minor",
-      "confirmed": true,
+      "type": "interception",
+      "confirmed": false,
       "precision": "neighborhood",
       "title": "Several explosions heard in Dubai downtown",
       "location": "Dubai Downtown",
