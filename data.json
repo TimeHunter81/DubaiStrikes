@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-13T21:45:00Z",
+  "last_updated": "2026-03-13T21:59:44Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -226,10 +226,10 @@
       "title": "Strike reported in Dubai — OSINT source",
       "datetime": "2026-03-13T00:00:00Z",
       "type": "impact_minor",
-      "confirmed": true,
+      "confirmed": false,
       "location": "Dubai",
-      "lat": 25.207000732421875,
-      "lon": 55.275901794433594,
+      "lat": 25.207,
+      "lon": 55.2759,
       "precision": "city",
       "sources": [
         {
