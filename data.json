@@ -226,7 +226,7 @@
       "id": "f1f1ef3664f1",
       "datetime": "2026-03-13T04:53:33Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "Safety alerts issued in Abu Dhabi and Dubai on Friday evening",
       "location": "Abu Dhabi",
@@ -237,11 +237,18 @@
           "url": "https://www.thenationalnews.com/news/uae/2026/03/13/debris-hits-dubai-building-after-air-strike-intercepted-as-more-alerts-issued/",
           "domain": "thenationalnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://www.timeoutdubai.com/news/emergency-phone-alert-march",
+          "domain": "timeoutdubai.com",
+          "tier": "wire"
         }
       ],
       "preview_image": "https://www.thenationalnews.com/resizer/v2/JPY7BRDFTNB2PMYLUEYNZDPCWU.jpg?smart=true&auth=a50a51b690e150ca88bad9d37a1a0c1dd9dc843f5efedde16df325061ae59298&width=1200&height=630",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1773381213.0
     },
     {
       "id": "94052c6b503c",
