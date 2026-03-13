@@ -29,7 +29,7 @@
       "id": "4e64c0315a2b",
       "datetime": "2026-03-13T12:24:59Z",
       "type": "impact_minor",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "Fujairah oil zone fire during conflict; UAE energy supplies stable",
       "location": "Fujairah",
@@ -45,13 +45,18 @@
           "url": "https://www.financialexpress.com/world-news/worlddubai-abu-dhabi-us-iran-israel-war-live-updates-strikes-india-impact/4171769/",
           "domain": "financialexpress.com",
           "tier": "wire"
+        },
+        {
+          "url": "https://apnews.com/video/fire-and-smoke-rise-over-fujairah-oil-facility-in-uae-after-iranian-drone-attack-c3725fcba0114d9ebd7293aa09332df0",
+          "domain": "apnews.com",
+          "tier": "wire"
         }
       ],
       "confidence": "high",
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-03%2F03nkngnc%2Fnewsml_afp_com_20260303T135407Z_doc_99qr77e.jpeg?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
       "_via": "rss",
-      "_search_count": 1,
-      "_next_search_at": 1773408299.0
+      "_search_count": 2,
+      "_next_search_at": 1773426299.0
     },
     {
       "id": "3fbfc0b4ba37",
