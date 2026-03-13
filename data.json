@@ -1,7 +1,34 @@
 {
-  "last_updated": "2026-03-13T11:07:00Z",
+  "last_updated": "2026-03-13T11:22:08Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
+    {
+      "id": "3fbfc0b4ba37",
+      "datetime": "2026-03-13T10:51:44Z",
+      "type": "impact_minor",
+      "confirmed": false,
+      "precision": "district",
+      "title": "Dubai DIFC hit by intercepted drone debris — Iran threatens banks",
+      "location": "Dubai",
+      "lat": 25.2131,
+      "lon": 55.2796,
+      "sources": [
+        {
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/dubai-financial-hub-hit-intercepted-drone-after-iran-threatens-banks",
+          "domain": "middleeasteye.net",
+          "tier": "local"
+        },
+        {
+          "url": "https://www.middleeasteye.net/news/dubai-financial-hub-hit-intercepted-drone-iran-threatens-banks",
+          "domain": "middleeasteye.net",
+          "tier": "local"
+        }
+      ],
+      "snippet": "&lt;article data-history-node-id=\"435654\" about=\"https://www.middleeasteye.net/live-blog/live-blog-update/dubai-financial-hub-hit-intercepted-drone-after-iran-threatens-banks\" class=\"live-blog-update default clearfix\"&gt;\n\n  \n      &lt;h2&gt;\n      &",
+      "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/2026-03-13T095133Z_1080428378_RC2L3KA8XYWF_RTRMADP_3_ISRAEL-PALESTINIANS-ALQUDSDAY-IRAN.JPG",
+      "_via": "rss",
+      "confidence": "medium"
+    },
     {
       "id": "3a0ed83072d5",
       "datetime": "2026-03-13T10:39:40Z",
