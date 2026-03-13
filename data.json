@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-03-13T08:09:00Z",
+  "last_updated": "2026-03-13T08:14:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
       "id": "31d907d0daec",
       "datetime": "2026-03-13T07:04:25Z",
       "type": "impact_minor",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "district",
       "title": "Drone strike reported at Dubai DIFC",
       "location": "Dubai, DIFC",
@@ -92,7 +92,7 @@
       "id": "19916ebd07ab",
       "datetime": "2026-03-13T03:37:56Z",
       "type": "impact_minor",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "city",
       "title": "Interception debris hits Dubai building — no injuries",
       "location": "Dubai",
