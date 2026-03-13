@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-13T12:22:00Z",
+  "last_updated": "2026-03-13T12:31:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -44,7 +44,7 @@
       "id": "3a0ed83072d5",
       "datetime": "2026-03-13T10:39:40Z",
       "type": "impact_minor",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "district",
       "title": "Blasts in Dubai financial district — black smoke reported",
       "location": "Dubai, DIFC",
