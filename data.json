@@ -93,12 +93,12 @@
       "id": "d3f7f2a0c959",
       "datetime": "2026-03-12T23:25:01Z",
       "type": "interception",
-      "confirmed": false,
-      "precision": "country",
+      "confirmed": true,
+      "precision": "city",
       "title": "UAE air defences intercept 10 ballistic missiles, 26 UAVs",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
+      "location": "Abu Dhabi, UAE",
+      "lat": 24.4539,
+      "lon": 54.3773,
       "sources": [
         {
           "url": "https://gulfnews.com/uae/government/bz60hih-uae-air-defences-intercept-ballistic-missiles-1.500472669",
@@ -119,8 +119,8 @@
       "snippet": null,
       "_via": "rss",
       "confidence": "medium",
-      "_search_count": 2,
-      "_next_search_at": 1773379501.0
+      "_search_count": 3,
+      "_next_search_at": 1773444301.0
     },
     {
       "id": "f1080a9b94ea",
