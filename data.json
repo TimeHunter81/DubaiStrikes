@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-13T05:15:00Z",
+  "last_updated": "2026-03-13T05:22:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -37,7 +37,7 @@
       "type": "interception",
       "confirmed": true,
       "precision": "country",
-      "title": "UAE responds to Iranian missiles and drones; residents receive emergency alerts",
+      "title": "UAE intercepts Iranian missiles and drones, residents alerted",
       "location": "UAE",
       "lat": null,
       "lon": null,
