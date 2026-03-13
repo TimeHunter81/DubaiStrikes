@@ -6,7 +6,7 @@
       "id": "b2835929cc64",
       "datetime": "2026-03-13T04:00:28Z",
       "type": "impact_minor",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "Dubai reports damage to building from aerial interception",
       "location": "Dubai",
@@ -17,18 +17,25 @@
           "url": "https://www.middleeasteye.net/live-blog/live-blog-update/dubai-reports-damage-building-aerial-interception",
           "domain": "middleeasteye.net",
           "tier": "local"
+        },
+        {
+          "url": "https://gulfnews.com/uae/government/debris-from-air-defence-interception-falls-on-a-building-on-dubais-sheikh-zayed-road-1.500471999",
+          "domain": "gulfnews.com",
+          "tier": "wire"
         }
       ],
       "snippet": "",
       "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/000_A2T3663.jpg",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1773378028.0
     },
     {
       "id": "19916ebd07ab",
       "datetime": "2026-03-13T03:37:56Z",
       "type": "impact_minor",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "Dubai building hit by debris from interception, no injuries reported",
       "location": "Dubai",
@@ -44,7 +51,9 @@
       "snippet": null,
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-10%2Fb7ythppm%2FUAEflag?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1773376676.0
     },
     {
       "id": "d3f7f2a0c959",
