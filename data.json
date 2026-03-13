@@ -1,15 +1,15 @@
 {
-  "last_updated": "2026-03-12T23:54:44Z",
+  "last_updated": "2026-03-13T00:01:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
       "id": "d3f7f2a0c959",
       "datetime": "2026-03-12T23:25:01Z",
       "type": "interception",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "country",
       "title": "UAE air defences intercept 10 ballistic missiles, 26 UAVs",
-      "location": "Uae",
+      "location": "UAE",
       "lat": null,
       "lon": null,
       "sources": [
@@ -25,9 +25,9 @@
         }
       ],
       "snippet": "UAE air defences intercept 10 ballistic missiles, 26 UAVs",
-      "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-05%2F8bq374b5%2FOPN-UAE-DEBRIS-FROM-IRAN-ATTACK-Read-Only.jpg?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
+      "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-05%2F8bq374b5%2FOPN-UAE-DEBRIS-FROM-IRAN-ATTACK-Read-Only.jpg?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
       "_via": "rss",
-      "confidence": "low",
+      "confidence": "high",
       "_search_count": 1,
       "_next_search_at": 1773361501.0
     },
@@ -62,33 +62,6 @@
       "confidence": "high",
       "_search_count": 2,
       "_next_search_at": 1773364099.0
-    },
-    {
-      "id": "ded8bb2fd2d3",
-      "datetime": "2026-03-12T18:03:45Z",
-      "type": "interception",
-      "confirmed": false,
-      "precision": "country",
-      "title": "UAE air defences intercept 10 ballistic missiles and 26 drones",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://gulfnews.com/uae/uaes-air-defences-intercept-10-ballistic-missiles-and-26-drones-on-march-12-1.500472667",
-          "domain": "gulfnews.com",
-          "tier": "local"
-        },
-        {
-          "url": "https://www.khaleejtimes.com/world/mena/day-13-israel-us-iran-war-live-updates",
-          "domain": "khaleejtimes.com",
-          "tier": "local"
-        }
-      ],
-      "_via": "rss",
-      "confidence": "medium",
-      "_search_count": 2,
-      "_next_search_at": 1773360225.0
     },
     {
       "id": "8e574eaf8945",
@@ -144,33 +117,6 @@
       "confidence": "high",
       "_search_count": 1,
       "_next_search_at": 1773313317.0
-    },
-    {
-      "id": "c41e80168685",
-      "datetime": "2026-03-12T09:28:56Z",
-      "type": "impact_minor",
-      "confirmed": true,
-      "precision": "exact",
-      "title": "Drone debris falls near Dubai International Airport",
-      "location": "Dubai International Airport",
-      "lat": 25.2528,
-      "lon": 55.3644,
-      "sources": [
-        {
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/fallen-debris-dubai-after-drone-attack-kuwait-airport-hit",
-          "domain": "middleeasteye.net",
-          "tier": "local"
-        },
-        {
-          "url": "https://www.reuters.com/world/middle-east/two-drones-fall-vicinity-dubai-airport-iran-crisis-shows-no-sign-easing-2026-03-11/",
-          "domain": "reuters.com",
-          "tier": "wire"
-        }
-      ],
-      "_via": "rss",
-      "confidence": "high",
-      "_search_count": 1,
-      "_next_search_at": 1773311336.0
     },
     {
       "id": "780a01b87f72",
