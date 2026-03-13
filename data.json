@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-13T05:52:00Z",
+  "last_updated": "2026-03-13T06:06:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -7,11 +7,11 @@
       "datetime": "2026-03-13T04:53:33Z",
       "type": "impact_minor",
       "confirmed": true,
-      "precision": "city",
-      "title": "Debris hits Dubai building after air strike intercepted",
-      "location": "Dubai",
-      "lat": 25.2048,
-      "lon": 55.2708,
+      "precision": "district",
+      "title": "Interception debris hits Dubai building on Sheikh Zayed Rd",
+      "location": "Dubai, Sheikh Zayed Road",
+      "lat": 25.1992,
+      "lon": 55.2735,
       "sources": [
         {
           "url": "https://www.thenationalnews.com/news/uae/2026/03/13/debris-hits-dubai-building-after-air-strike-intercepted-as-more-alerts-issued/",
@@ -26,7 +26,7 @@
         {
           "url": "https://gulfnews.com/uae/government/debris-from-air-defence-interception-falls-on-a-building-on-dubais-sheikh-zayed-road-1.500471999",
           "domain": "gulfnews.com",
-          "tier": "wire"
+          "tier": "local"
         }
       ],
       "snippet": null,
@@ -64,35 +64,6 @@
       "confidence": "low",
       "_search_count": 1,
       "_next_search_at": 1773379125.0
-    },
-    {
-      "id": "b2835929cc64",
-      "datetime": "2026-03-13T04:00:28Z",
-      "type": "impact_minor",
-      "confirmed": false,
-      "precision": "district",
-      "title": "Interception debris damages building on Sheikh Zayed Rd, Dubai",
-      "location": "Dubai",
-      "lat": 25.1992,
-      "lon": 55.2735,
-      "sources": [
-        {
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/dubai-reports-damage-building-aerial-interception",
-          "domain": "middleeasteye.net",
-          "tier": "local"
-        },
-        {
-          "url": "https://gulfnews.com/uae/government/debris-from-air-defence-interception-falls-on-a-building-on-dubais-sheikh-zayed-road-1.500471999",
-          "domain": "gulfnews.com",
-          "tier": "local"
-        }
-      ],
-      "snippet": "",
-      "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/000_A2T3663.jpg",
-      "_via": "rss",
-      "confidence": "medium",
-      "_search_count": 2,
-      "_next_search_at": 1773396028.0
     },
     {
       "id": "d3f7f2a0c959",
