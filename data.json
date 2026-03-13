@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-13T07:42:00Z",
+  "last_updated": "2026-03-13T07:57:08Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -25,7 +25,7 @@
         }
       ],
       "_via": "rss",
-      "confidence": "low",
+      "confidence": "high",
       "_search_count": 1,
       "_next_search_at": 1773389065.0
     },
@@ -89,6 +89,28 @@
       "_next_search_at": 1773379125.0
     },
     {
+      "id": "19916ebd07ab",
+      "datetime": "2026-03-13T03:37:56Z",
+      "type": "impact_minor",
+      "confirmed": false,
+      "precision": "city",
+      "title": "Interception debris hits Dubai building — no injuries",
+      "location": "Dubai",
+      "lat": 25.2048,
+      "lon": 55.2708,
+      "sources": [
+        {
+          "url": "https://gulfnews.com/uae/debris-from-interception-hits-dubai-building-no-injuries-reported-1.500472922",
+          "domain": "gulfnews.com",
+          "tier": "local"
+        }
+      ],
+      "snippet": null,
+      "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-10%2Fb7ythppm%2FUAEflag?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
+      "_via": "rss",
+      "confidence": "low"
+    },
+    {
       "id": "d3f7f2a0c959",
       "datetime": "2026-03-12T23:25:01Z",
       "type": "interception",
@@ -126,7 +148,7 @@
       "type": "interception",
       "confirmed": true,
       "precision": "country",
-      "title": "UAE intercepts 6 ballistic missiles, 7 cruise missiles, 39 UAVs",
+      "title": "UAE intercepts 6 ballistic + 7 cruise missiles, 39 UAVs",
       "location": "UAE",
       "lat": null,
       "lon": null,
