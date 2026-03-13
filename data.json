@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-13T04:21:00Z",
+  "last_updated": "2026-03-13T04:36:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -7,11 +7,11 @@
       "datetime": "2026-03-13T04:00:28Z",
       "type": "impact_minor",
       "confirmed": false,
-      "precision": "city",
-      "title": "Dubai building damaged by aerial interception debris",
+      "precision": "district",
+      "title": "Interception debris damages building on Sheikh Zayed Rd, Dubai",
       "location": "Dubai",
-      "lat": 25.2048,
-      "lon": 55.2708,
+      "lat": 25.1992,
+      "lon": 55.2735,
       "sources": [
         {
           "url": "https://www.middleeasteye.net/live-blog/live-blog-update/dubai-reports-damage-building-aerial-interception",
@@ -21,7 +21,7 @@
         {
           "url": "https://gulfnews.com/uae/government/debris-from-air-defence-interception-falls-on-a-building-on-dubais-sheikh-zayed-road-1.500471999",
           "domain": "gulfnews.com",
-          "tier": "wire"
+          "tier": "local"
         }
       ],
       "snippet": "",
