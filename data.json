@@ -1,39 +1,35 @@
 {
-  "last_updated": "2026-03-13T18:24:15Z",
+  "last_updated": "2026-03-13T18:33:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
-      "id": "4e64c0315a2b",
-      "datetime": "2026-03-13T12:24:59Z",
+      "id": "3a0ed83072d5",
+      "datetime": "2026-03-13T10:39:40Z",
       "type": "impact_minor",
       "confirmed": true,
-      "precision": "city",
-      "title": "Iranian drone hits Fujairah oil facility; energy supplies stable",
-      "location": "Fujairah",
-      "lat": 25.1288,
-      "lon": 56.3265,
+      "precision": "district",
+      "title": "Black smoke seen after blasts in Dubai financial district",
+      "location": "Dubai, DIFC",
+      "lat": 25.2131,
+      "lon": 55.2796,
       "sources": [
         {
-          "url": "https://gulfnews.com/business/energy/uae-energy-supplies-stable-after-fujairah-oil-zone-fire-minister-says-1.500473470",
-          "domain": "gulfnews.com",
-          "tier": "local"
-        },
-        {
-          "url": "https://www.financialexpress.com/world-news/worlddubai-abu-dhabi-us-iran-israel-war-live-updates-strikes-india-impact/4171769/",
-          "domain": "financialexpress.com",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/3/13/black-smoke-seen-after-blasts-in-dubai-financial-district?traffic_source=rss",
+          "domain": "aljazeera.com",
           "tier": "wire"
         },
         {
-          "url": "https://apnews.com/video/fire-and-smoke-rise-over-fujairah-oil-facility-in-uae-after-iranian-drone-attack-c3725fcba0114d9ebd7293aa09332df0",
-          "domain": "apnews.com",
+          "url": "https://www.ndtv.com/world-news/iran-us-israel-war-video-fresh-explosions-in-central-dubai-black-smoke-seen-above-buildings-middle-east-conflict-11208742",
+          "domain": "ndtv.com",
           "tier": "wire"
         }
       ],
-      "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-03%2F03nkngnc%2Fnewsml_afp_com_20260303T135407Z_doc_99qr77e.jpeg?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
+      "snippet": "Black smoke seen after blasts in Dubai financial district",
+      "preview_image": "https://www.aljazeera.com/wp-content/uploads/2026/03/black-smoke-dubai-horizontal-thumb-1773398114.jpg?resize=1920%2C1080&quality=80",
       "_via": "rss",
       "confidence": "high",
       "_search_count": 2,
-      "_next_search_at": 1773426299.0
+      "_next_search_at": 1773419980.0
     },
     {
       "id": "3fbfc0b4ba37",
@@ -74,33 +70,37 @@
       "_next_search_at": 1773420704.0
     },
     {
-      "id": "3a0ed83072d5",
-      "datetime": "2026-03-13T10:39:40Z",
+      "id": "4e64c0315a2b",
+      "datetime": "2026-03-13T12:24:59Z",
       "type": "impact_minor",
       "confirmed": true,
-      "precision": "district",
-      "title": "Black smoke seen after blasts in Dubai financial district",
-      "location": "Dubai, DIFC",
-      "lat": 25.2131,
-      "lon": 55.2796,
+      "precision": "city",
+      "title": "Iranian drone hits Fujairah oil facility; energy supplies stable",
+      "location": "Fujairah",
+      "lat": 25.1288,
+      "lon": 56.3265,
       "sources": [
         {
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/3/13/black-smoke-seen-after-blasts-in-dubai-financial-district?traffic_source=rss",
-          "domain": "aljazeera.com",
+          "url": "https://gulfnews.com/business/energy/uae-energy-supplies-stable-after-fujairah-oil-zone-fire-minister-says-1.500473470",
+          "domain": "gulfnews.com",
+          "tier": "local"
+        },
+        {
+          "url": "https://www.financialexpress.com/world-news/worlddubai-abu-dhabi-us-iran-israel-war-live-updates-strikes-india-impact/4171769/",
+          "domain": "financialexpress.com",
           "tier": "wire"
         },
         {
-          "url": "https://www.ndtv.com/world-news/iran-us-israel-war-video-fresh-explosions-in-central-dubai-black-smoke-seen-above-buildings-middle-east-conflict-11208742",
-          "domain": "ndtv.com",
+          "url": "https://apnews.com/video/fire-and-smoke-rise-over-fujairah-oil-facility-in-uae-after-iranian-drone-attack-c3725fcba0114d9ebd7293aa09332df0",
+          "domain": "apnews.com",
           "tier": "wire"
         }
       ],
-      "snippet": "Black smoke seen after blasts in Dubai financial district",
-      "preview_image": "https://www.aljazeera.com/wp-content/uploads/2026/03/black-smoke-dubai-horizontal-thumb-1773398114.jpg?resize=1920%2C1080&quality=80",
+      "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-03%2F03nkngnc%2Fnewsml_afp_com_20260303T135407Z_doc_99qr77e.jpeg?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
       "_via": "rss",
       "confidence": "high",
       "_search_count": 2,
-      "_next_search_at": 1773419980.0
+      "_next_search_at": 1773426299.0
     },
     {
       "id": "f1f1ef3664f1",
@@ -166,7 +166,7 @@
       "id": "ebba47e7a230",
       "datetime": "2026-03-13T04:53:33Z",
       "type": "impact_minor",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "district",
       "title": "Interception debris hits building on Sheikh Zayed Road, Dubai",
       "location": "Dubai, Sheikh Zayed Road",
