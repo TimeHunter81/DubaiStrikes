@@ -6,7 +6,7 @@
       "id": "94052c6b503c",
       "datetime": "2026-03-13T04:18:45Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "UAE responds to Iranian missiles and drones; residents receive emergency alerts",
       "location": "UAE",
@@ -17,12 +17,19 @@
           "url": "https://gulfnews.com/uae/emergencies/uae-responds-to-iranian-missiles-and-drones-residents-receive-emergency-alerts-3-1.500472909",
           "domain": "gulfnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://www.reuters.com/world/middle-east/iranian-missiles-drones-fired-gulf-countries-2026-03-10/",
+          "domain": "reuters.com",
+          "tier": "wire"
         }
       ],
       "snippet": null,
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-04%2Fk2a3qz31%2FSTOCK-UAE-FLAG?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1773379125.0
     },
     {
       "id": "b2835929cc64",
