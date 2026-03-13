@@ -1,15 +1,15 @@
 {
-  "last_updated": "2026-03-13T11:22:08Z",
+  "last_updated": "2026-03-13T11:28:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
       "id": "3fbfc0b4ba37",
       "datetime": "2026-03-13T10:51:44Z",
       "type": "impact_minor",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "district",
-      "title": "Dubai DIFC hit by intercepted drone debris — Iran threatens banks",
-      "location": "Dubai",
+      "title": "Drone debris hits Dubai DIFC building after interception",
+      "location": "Dubai, DIFC",
       "lat": 25.2131,
       "lon": 55.2796,
       "sources": [
@@ -29,7 +29,6 @@
           "tier": "wire"
         }
       ],
-      "snippet": "&lt;article data-history-node-id=\"435654\" about=\"https://www.middleeasteye.net/live-blog/live-blog-update/dubai-financial-hub-hit-intercepted-drone-after-iran-threatens-banks\" class=\"live-blog-update default clearfix\"&gt;\n\n  \n      &lt;h2&gt;\n      &",
       "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/2026-03-13T095133Z_1080428378_RC2L3KA8XYWF_RTRMADP_3_ISRAEL-PALESTINIANS-ALQUDSDAY-IRAN.JPG",
       "_via": "rss",
       "confidence": "medium",
@@ -366,31 +365,6 @@
       "_manual": true
     },
     {
-      "id": "f6a1b2c3d4e5",
-      "datetime": "2026-02-28T21:00:00Z",
-      "type": "impact_major",
-      "confirmed": true,
-      "precision": "exact",
-      "title": "Shahed drone strike near Fairmont The Palm Hotel, Palm Jumeirah — 4 injured",
-      "location": "Palm Jumeirah",
-      "lat": 25.1124,
-      "lon": 55.139,
-      "sources": [
-        {
-          "url": "https://en.wikipedia.org/wiki/2026_Iranian_strikes_on_the_United_Arab_Emirates",
-          "domain": "en.wikipedia.org",
-          "tier": "wire"
-        },
-        {
-          "url": "https://www.euronews.com/2026/03/01/iranian-strikes-hit-dubai-and-abu-dhabi-damaging-airport-terminals-and-the-burj-al-arab",
-          "domain": "euronews.com",
-          "tier": "wire"
-        }
-      ],
-      "confidence": "high",
-      "_manual": true
-    },
-    {
       "id": "a2b3c4d5e6f7",
       "datetime": "2026-02-28T21:00:00Z",
       "type": "impact_minor",
@@ -409,6 +383,31 @@
         {
           "url": "https://en.wikipedia.org/wiki/2026_Iranian_strikes_on_the_United_Arab_Emirates",
           "domain": "en.wikipedia.org",
+          "tier": "wire"
+        }
+      ],
+      "confidence": "high",
+      "_manual": true
+    },
+    {
+      "id": "f6a1b2c3d4e5",
+      "datetime": "2026-02-28T21:00:00Z",
+      "type": "impact_major",
+      "confirmed": true,
+      "precision": "exact",
+      "title": "Shahed drone strike near Fairmont The Palm Hotel, Palm Jumeirah — 4 injured",
+      "location": "Palm Jumeirah",
+      "lat": 25.1124,
+      "lon": 55.139,
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/2026_Iranian_strikes_on_the_United_Arab_Emirates",
+          "domain": "en.wikipedia.org",
+          "tier": "wire"
+        },
+        {
+          "url": "https://www.euronews.com/2026/03/01/iranian-strikes-hit-dubai-and-abu-dhabi-damaging-airport-terminals-and-the-burj-al-arab",
+          "domain": "euronews.com",
           "tier": "wire"
         }
       ],
