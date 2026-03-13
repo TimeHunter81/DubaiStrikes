@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-13T03:01:00Z",
+  "last_updated": "2026-03-13T03:15:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -29,7 +29,7 @@
           "tier": "local"
         }
       ],
-      "snippet": "UAE air defences intercept 10 ballistic missiles, 26 UAVs",
+      "snippet": null,
       "_via": "rss",
       "confidence": "medium",
       "_search_count": 2,
@@ -93,34 +93,6 @@
       "confidence": "high",
       "_search_count": 2,
       "_next_search_at": 1773351902.0
-    },
-    {
-      "id": "38a2e0287587",
-      "datetime": "2026-03-12T10:01:57Z",
-      "type": "impact_minor",
-      "confirmed": true,
-      "precision": "neighborhood",
-      "title": "Dubai high-rise damaged in overnight drone strike, upper floors hit",
-      "location": "Address Creek 2 Tower, Dubai Creek Harbour",
-      "lat": 25.1985,
-      "lon": 55.32,
-      "sources": [
-        {
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/3/12/dubai-high-rise-building-damaged-in-overnight-drone-hit?traffic_source=rss",
-          "domain": "aljazeera.com",
-          "tier": "wire"
-        },
-        {
-          "url": "https://apnews.com/video/iranian-drone-hits-dubai-tower-as-attacks-reported-across-gulf-states-d0f85ac78d8e40d59ac2f177645db5aa",
-          "domain": "apnews.com",
-          "tier": "wire"
-        }
-      ],
-      "snippet": "Firefighters extinguished a blaze in two units at the Address Creek 2 Tower. The high-rise building showed some damage to its upper floors.",
-      "_via": "rss",
-      "confidence": "high",
-      "_search_count": 1,
-      "_next_search_at": 1773313317.0
     },
     {
       "id": "780a01b87f72",
