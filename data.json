@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-13T15:06:00Z",
+  "last_updated": "2026-03-13T15:18:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -62,6 +62,38 @@
       "_next_search_at": 1773379125.0
     },
     {
+      "id": "f1f1ef3664f1",
+      "datetime": "2026-03-13T04:53:33Z",
+      "type": "security_alert",
+      "confirmed": true,
+      "precision": "country",
+      "title": "Emergency shelter-in-place alerts sent to Abu Dhabi and Dubai residents",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.thenationalnews.com/news/uae/2026/03/13/debris-hits-dubai-building-after-air-strike-intercepted-as-more-alerts-issued/",
+          "domain": "thenationalnews.com",
+          "tier": "local"
+        },
+        {
+          "url": "https://www.timeoutdubai.com/news/emergency-phone-alert-march",
+          "domain": "timeoutdubai.com",
+          "tier": "wire"
+        },
+        {
+          "url": "https://ae.usembassy.gov/security-alert-u-s-mission-to-the-united-arab-emirates-march-13-2026/",
+          "domain": "ae.usembassy.gov",
+          "tier": "wire"
+        }
+      ],
+      "_via": "rss",
+      "confidence": "high",
+      "_search_count": 2,
+      "_next_search_at": 1773399213.0
+    },
+    {
       "id": "9f37f64dbab1",
       "datetime": "2026-03-13T04:53:33Z",
       "type": "interception",
@@ -90,45 +122,12 @@
       "_next_search_at": 1773381213.0
     },
     {
-      "id": "f1f1ef3664f1",
-      "datetime": "2026-03-13T04:53:33Z",
-      "type": "security_alert",
-      "confirmed": false,
-      "precision": "country",
-      "title": "Emergency safety alerts issued in Abu Dhabi and Dubai",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.thenationalnews.com/news/uae/2026/03/13/debris-hits-dubai-building-after-air-strike-intercepted-as-more-alerts-issued/",
-          "domain": "thenationalnews.com",
-          "tier": "local"
-        },
-        {
-          "url": "https://www.timeoutdubai.com/news/emergency-phone-alert-march",
-          "domain": "timeoutdubai.com",
-          "tier": "wire"
-        },
-        {
-          "url": "https://ae.usembassy.gov/security-alert-u-s-mission-to-the-united-arab-emirates-march-13-2026/",
-          "domain": "ae.usembassy.gov",
-          "tier": "wire"
-        }
-      ],
-      "preview_image": "https://www.thenationalnews.com/resizer/v2/JPY7BRDFTNB2PMYLUEYNZDPCWU.jpg?smart=true&auth=a50a51b690e150ca88bad9d37a1a0c1dd9dc843f5efedde16df325061ae59298&width=1200&height=630",
-      "_via": "rss",
-      "confidence": "high",
-      "_search_count": 2,
-      "_next_search_at": 1773399213.0
-    },
-    {
       "id": "ebba47e7a230",
       "datetime": "2026-03-13T04:53:33Z",
       "type": "impact_minor",
       "confirmed": false,
       "precision": "district",
-      "title": "Interception debris hits Dubai building on Sheikh Zayed Road",
+      "title": "Interception debris hits building on Sheikh Zayed Road, Dubai",
       "location": "Dubai, Sheikh Zayed Road",
       "lat": 25.1992,
       "lon": 55.2735,
@@ -153,72 +152,6 @@
       "confidence": "high",
       "_search_count": 3,
       "_next_search_at": 1773464013.0
-    },
-    {
-      "id": "31d907d0daec",
-      "datetime": "2026-03-13T07:01:00Z",
-      "type": "impact_minor",
-      "confirmed": false,
-      "precision": "district",
-      "title": "Drone strike reported at Dubai International Financial Centre",
-      "location": "Dubai, DIFC",
-      "lat": 25.2131,
-      "lon": 55.2796,
-      "sources": [
-        {
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/vide-drone-strike-reported-dubai-international-financial-centre",
-          "domain": "middleeasteye.net",
-          "tier": "local"
-        },
-        {
-          "url": "https://www.turkiyetoday.com/region/iranian-drone-strikes-dubai-international-financial-center-as-gulf-attacks-intensify-3216140",
-          "domain": "turkiyetoday.com",
-          "tier": "wire"
-        },
-        {
-          "url": "https://metro.co.uk/2026/03/13/kamikaze-drone-strikes-dubais-international-financial-centre-27403442/",
-          "domain": "metro.co.uk",
-          "tier": "wire"
-        }
-      ],
-      "_via": "rss",
-      "confidence": "high",
-      "_search_count": 3,
-      "_next_search_at": 1773471660.0
-    },
-    {
-      "id": "3a0ed83072d5",
-      "datetime": "2026-03-13T10:39:40Z",
-      "type": "impact_minor",
-      "confirmed": false,
-      "precision": "district",
-      "title": "Blasts and black smoke reported in Dubai financial district",
-      "location": "Dubai, DIFC",
-      "lat": 25.2131,
-      "lon": 55.2796,
-      "sources": [
-        {
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/3/13/black-smoke-seen-after-blasts-in-dubai-financial-district?traffic_source=rss",
-          "domain": "aljazeera.com",
-          "tier": "wire"
-        },
-        {
-          "url": "https://www.indiatoday.in/world/story/middle-east-war-dubai-financial-centre-building-damaged-as-city-thwarts-iran-drone-strikes-2881433-2026-03-13",
-          "domain": "indiatoday.in",
-          "tier": "wire"
-        },
-        {
-          "url": "https://www.ndtv.com/world-news/iran-us-israel-war-video-fresh-explosions-in-central-dubai-black-smoke-seen-above-buildings-middle-east-conflict-11208742",
-          "domain": "ndtv.com",
-          "tier": "wire"
-        }
-      ],
-      "snippet": "Black smoke seen after blasts in Dubai financial district",
-      "preview_image": "https://www.aljazeera.com/wp-content/uploads/2026/03/black-smoke-dubai-horizontal-thumb-1773398114.jpg?resize=1920%2C1080&quality=80",
-      "_via": "rss",
-      "confidence": "high",
-      "_search_count": 2,
-      "_next_search_at": 1773419980.0
     },
     {
       "id": "3fbfc0b4ba37",
@@ -285,34 +218,11 @@
           "tier": "wire"
         }
       ],
-      "confidence": "high",
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-03%2F03nkngnc%2Fnewsml_afp_com_20260303T135407Z_doc_99qr77e.jpeg?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
       "_via": "rss",
+      "confidence": "high",
       "_search_count": 2,
       "_next_search_at": 1773426299.0
-    },
-    {
-      "id": "3d07d94e37b7",
-      "datetime": "2026-03-13T12:44:42Z",
-      "type": "interception",
-      "confirmed": false,
-      "precision": "country",
-      "title": "UAE air defences intercept 7 ballistic missiles and 27 drones",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://gulfnews.com/uae/uae-air-defences-intercept-seven-ballistic-missiles-and-27-drones-1.500473508",
-          "domain": "gulfnews.com",
-          "tier": "local"
-        }
-      ],
-      "confidence": "low",
-      "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-13%2Fy0gbf0s2%2FUAEFlag?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
-      "_via": "rss",
-      "_search_count": 2,
-      "_next_search_at": 1773427482.0
     },
     {
       "id": "780a01b87f72",
