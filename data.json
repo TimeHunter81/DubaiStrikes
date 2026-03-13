@@ -1,15 +1,15 @@
 {
-  "last_updated": "2026-03-13T13:37:00Z",
+  "last_updated": "2026-03-13T13:45:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
       "id": "3d07d94e37b7",
       "datetime": "2026-03-13T12:44:42Z",
       "type": "interception",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "country",
       "title": "UAE air defences intercept 7 ballistic missiles and 27 drones",
-      "location": "Uae",
+      "location": "UAE",
       "lat": null,
       "lon": null,
       "sources": [
@@ -19,10 +19,9 @@
           "tier": "local"
         }
       ],
-      "snippet": null,
-      "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-13%2Fy0gbf0s2%2FUAEFlag?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
-      "_via": "rss",
       "confidence": "low",
+      "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-13%2Fy0gbf0s2%2FUAEFlag?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
+      "_via": "rss",
       "_search_count": 1,
       "_next_search_at": 1773409482.0
     },
@@ -32,7 +31,7 @@
       "type": "impact_minor",
       "confirmed": true,
       "precision": "city",
-      "title": "Fujairah oil zone fire reported amid active conflict; UAE supplies stable",
+      "title": "Fujairah oil zone fire during conflict; UAE energy supplies stable",
       "location": "Fujairah",
       "lat": 25.1288,
       "lon": 56.3265,
@@ -48,10 +47,9 @@
           "tier": "wire"
         }
       ],
-      "snippet": null,
-      "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-03%2F03nkngnc%2Fnewsml_afp_com_20260303T135407Z_doc_99qr77e.jpeg?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
+      "confidence": "high",
+      "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-03%2F03nkngnc%2Fnewsml_afp_com_20260303T135407Z_doc_99qr77e.jpeg?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
       "_via": "rss",
-      "confidence": "low",
       "_search_count": 1,
       "_next_search_at": 1773408299.0
     },
@@ -97,7 +95,7 @@
       "id": "3a0ed83072d5",
       "datetime": "2026-03-13T10:39:40Z",
       "type": "impact_minor",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "district",
       "title": "Blasts and black smoke reported in Dubai financial district",
       "location": "Dubai, DIFC",
@@ -213,7 +211,6 @@
           "tier": "wire"
         }
       ],
-      "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/JPY7BRDFTNB2PMYLUEYNZDPCWU.jpg?smart=true&auth=a50a51b690e150ca88bad9d37a1a0c1dd9dc843f5efedde16df325061ae59298&width=1200&height=630",
       "_via": "rss",
       "confidence": "high",
