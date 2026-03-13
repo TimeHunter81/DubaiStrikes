@@ -77,7 +77,7 @@
       "id": "3a0ed83072d5",
       "datetime": "2026-03-13T10:39:40Z",
       "type": "impact_minor",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "district",
       "title": "Black smoke seen after blasts in Dubai financial district",
       "location": "Dubai, DIFC",
@@ -99,8 +99,8 @@
       "preview_image": "https://www.aljazeera.com/wp-content/uploads/2026/03/black-smoke-dubai-horizontal-thumb-1773398114.jpg?resize=1920%2C1080&quality=80",
       "_via": "rss",
       "confidence": "high",
-      "_search_count": 2,
-      "_next_search_at": 1773419980.0
+      "_search_count": 3,
+      "_next_search_at": 1773484780.0
     },
     {
       "id": "f1f1ef3664f1",
