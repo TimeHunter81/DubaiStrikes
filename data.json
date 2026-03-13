@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-13T21:59:44Z",
+  "last_updated": "2026-03-13T22:07:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -47,11 +47,6 @@
       "lon": 55.2796,
       "sources": [
         {
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/dubai-financial-hub-hit-intercepted-drone-after-iran-threatens-banks",
-          "domain": "middleeasteye.net",
-          "tier": "local"
-        },
-        {
           "url": "https://www.middleeasteye.net/news/dubai-financial-hub-hit-intercepted-drone-iran-threatens-banks",
           "domain": "middleeasteye.net",
           "tier": "local"
@@ -65,25 +60,7 @@
           "url": "https://apnews.com/video/iranian-drone-hits-dubai-tower-as-attacks-reported-across-gulf-states-d0f85ac78d8e40d59ac2f177645db5aa",
           "domain": "apnews.com",
           "tier": "wire"
-        }
-      ],
-      "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/2026-03-13T095133Z_1080428378_RC2L3KA8XYWF_RTRMADP_3_ISRAEL-PALESTINIANS-ALQUDSDAY-IRAN.JPG",
-      "_via": "rss",
-      "confidence": "high",
-      "_search_count": 2,
-      "_next_search_at": 1773420704.0
-    },
-    {
-      "id": "3a0ed83072d5",
-      "datetime": "2026-03-13T10:39:40Z",
-      "type": "impact_minor",
-      "confirmed": false,
-      "precision": "district",
-      "title": "Black smoke and blasts reported in Dubai financial district",
-      "location": "Dubai, DIFC",
-      "lat": 25.2131,
-      "lon": 55.2796,
-      "sources": [
+        },
         {
           "url": "https://www.aljazeera.com/video/newsfeed/2026/3/13/black-smoke-seen-after-blasts-in-dubai-financial-district?traffic_source=rss",
           "domain": "aljazeera.com",
@@ -95,12 +72,11 @@
           "tier": "wire"
         }
       ],
-      "snippet": "Black smoke seen after blasts in Dubai financial district",
-      "preview_image": "https://www.aljazeera.com/wp-content/uploads/2026/03/black-smoke-dubai-horizontal-thumb-1773398114.jpg?resize=1920%2C1080&quality=80",
+      "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/2026-03-13T095133Z_1080428378_RC2L3KA8XYWF_RTRMADP_3_ISRAEL-PALESTINIANS-ALQUDSDAY-IRAN.JPG",
       "_via": "rss",
       "confidence": "high",
-      "_search_count": 3,
-      "_next_search_at": 1773484780.0
+      "_search_count": 2,
+      "_next_search_at": 1773420704.0
     },
     {
       "id": "f1f1ef3664f1",
@@ -154,6 +130,11 @@
           "url": "https://www.reuters.com/world/middle-east/iranian-missiles-drones-fired-gulf-countries-2026-03-10/",
           "domain": "reuters.com",
           "tier": "wire"
+        },
+        {
+          "url": "https://gulfnews.com/uae/emergencies/uae-responds-to-iranian-missiles-and-drones-residents-receive-emergency-alerts-3-1.500472909",
+          "domain": "gulfnews.com",
+          "tier": "local"
         }
       ],
       "preview_image": "https://www.thenationalnews.com/resizer/v2/JPY7BRDFTNB2PMYLUEYNZDPCWU.jpg?smart=true&auth=a50a51b690e150ca88bad9d37a1a0c1dd9dc843f5efedde16df325061ae59298&width=1200&height=630",
@@ -166,7 +147,7 @@
       "id": "ebba47e7a230",
       "datetime": "2026-03-13T04:53:33Z",
       "type": "impact_minor",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "district",
       "title": "Interception debris hits building on Sheikh Zayed Road, Dubai",
       "location": "Dubai, Sheikh Zayed Road",
@@ -193,66 +174,6 @@
       "confidence": "high",
       "_search_count": 3,
       "_next_search_at": 1773464013.0
-    },
-    {
-      "id": "94052c6b503c",
-      "datetime": "2026-03-13T04:18:45Z",
-      "type": "interception",
-      "confirmed": true,
-      "precision": "country",
-      "title": "UAE intercepts Iranian missiles and drones; emergency alerts sent",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://gulfnews.com/uae/emergencies/uae-responds-to-iranian-missiles-and-drones-residents-receive-emergency-alerts-3-1.500472909",
-          "domain": "gulfnews.com",
-          "tier": "local"
-        },
-        {
-          "url": "https://www.reuters.com/world/middle-east/iranian-missiles-drones-fired-gulf-countries-2026-03-10/",
-          "domain": "reuters.com",
-          "tier": "wire"
-        }
-      ],
-      "_via": "rss",
-      "confidence": "high",
-      "_search_count": 1,
-      "_next_search_at": 1773379125.0
-    },
-    {
-      "id": "5e04ec5785f4",
-      "title": "Strike reported in Dubai — OSINT source",
-      "datetime": "2026-03-13T00:00:00Z",
-      "type": "impact_minor",
-      "confirmed": true,
-      "location": "Dubai",
-      "lat": 25.207,
-      "lon": 55.2759,
-      "precision": "city",
-      "sources": [
-        {
-          "url": "https://x.com/EGYOSINT/status/2032312046977507443",
-          "domain": "x.com",
-          "tier": "osint"
-        },
-        {
-          "url": "https://www.thenationalnews.com/news/uae/2026/03/13/debris-hits-dubai-building-after-air-strike-intercepted-as-more-alerts-issued/",
-          "domain": "thenationalnews.com",
-          "tier": "wire"
-        },
-        {
-          "url": "https://www.turkiyetoday.com/region/iranian-drone-strikes-dubai-international-financial-center-as-gulf-attacks-intensify-3216140",
-          "domain": "turkiyetoday.com",
-          "tier": "wire"
-        }
-      ],
-      "confidence": 0.85,
-      "_isw_id": 19333,
-      "_via": "isw",
-      "_next_search_at": 1773446400.0,
-      "_search_count": 3
     },
     {
       "id": "780a01b87f72",
