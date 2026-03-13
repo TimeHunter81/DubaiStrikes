@@ -226,7 +226,7 @@
       "title": "Strike reported in Dubai — OSINT source",
       "datetime": "2026-03-13T00:00:00Z",
       "type": "impact_minor",
-      "confirmed": false,
+      "confirmed": true,
       "location": "Dubai",
       "lat": 25.207000732421875,
       "lon": 55.275901794433594,
@@ -236,13 +236,18 @@
           "url": "https://x.com/EGYOSINT/status/2032312046977507443",
           "domain": "x.com",
           "tier": "osint"
+        },
+        {
+          "url": "https://www.thenationalnews.com/news/uae/2026/03/13/debris-hits-dubai-building-after-air-strike-intercepted-as-more-alerts-issued/",
+          "domain": "thenationalnews.com",
+          "tier": "wire"
         }
       ],
       "confidence": 0.85,
       "_isw_id": 19333,
       "_via": "isw",
-      "_next_search_at": 0,
-      "_search_count": 0
+      "_next_search_at": 1773363600.0,
+      "_search_count": 1
     },
     {
       "id": "780a01b87f72",
