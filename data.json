@@ -1,7 +1,29 @@
 {
-  "last_updated": "2026-03-13T10:46:00Z",
+  "last_updated": "2026-03-13T10:58:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
+    {
+      "id": "3a0ed83072d5",
+      "datetime": "2026-03-13T10:39:40Z",
+      "type": "impact_minor",
+      "confirmed": true,
+      "precision": "district",
+      "title": "Blasts in Dubai financial district — black smoke reported",
+      "location": "Dubai, DIFC",
+      "lat": 25.2131,
+      "lon": 55.2796,
+      "sources": [
+        {
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/3/13/black-smoke-seen-after-blasts-in-dubai-financial-district?traffic_source=rss",
+          "domain": "aljazeera.com",
+          "tier": "wire"
+        }
+      ],
+      "snippet": "Black smoke seen after blasts in Dubai financial district",
+      "preview_image": "https://www.aljazeera.com/wp-content/uploads/2026/03/black-smoke-dubai-horizontal-thumb-1773398114.jpg?resize=1920%2C1080&amp;quality=80",
+      "_via": "rss",
+      "confidence": "medium"
+    },
     {
       "id": "31d907d0daec",
       "datetime": "2026-03-13T07:01:00Z",
@@ -33,7 +55,7 @@
       "id": "ebba47e7a230",
       "datetime": "2026-03-13T04:53:33Z",
       "type": "impact_minor",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "district",
       "title": "Interception debris hits Dubai building, Sheikh Zayed Rd",
       "location": "Dubai, Sheikh Zayed Road",
