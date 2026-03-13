@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-13T06:12:00Z",
+  "last_updated": "2026-03-13T06:27:26Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -29,8 +29,6 @@
           "tier": "local"
         }
       ],
-      "snippet": null,
-      "preview_image": "https://www.thenationalnews.com/resizer/v2/JPY7BRDFTNB2PMYLUEYNZDPCWU.jpg?smart=true&auth=a50a51b690e150ca88bad9d37a1a0c1dd9dc843f5efedde16df325061ae59298&width=1200&height=630",
       "_via": "rss",
       "confidence": "high",
       "_search_count": 2,
@@ -42,7 +40,7 @@
       "type": "interception",
       "confirmed": true,
       "precision": "country",
-      "title": "UAE intercepts Iranian missiles and drones, residents alerted",
+      "title": "UAE intercepts Iranian missiles and drones",
       "location": "UAE",
       "lat": null,
       "lon": null,
@@ -58,8 +56,6 @@
           "tier": "wire"
         }
       ],
-      "snippet": null,
-      "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-04%2Fk2a3qz31%2FSTOCK-UAE-FLAG?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
       "_via": "rss",
       "confidence": "low",
       "_search_count": 1,
@@ -70,11 +66,11 @@
       "datetime": "2026-03-12T23:25:01Z",
       "type": "interception",
       "confirmed": false,
-      "precision": "city",
+      "precision": "country",
       "title": "UAE air defences intercept 10 ballistic missiles, 26 UAVs",
-      "location": "Abu Dhabi, UAE",
-      "lat": 24.4539,
-      "lon": 54.3773,
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
       "sources": [
         {
           "url": "https://gulfnews.com/uae/government/bz60hih-uae-air-defences-intercept-ballistic-missiles-1.500472669",
@@ -92,7 +88,6 @@
           "tier": "local"
         }
       ],
-      "snippet": null,
       "_via": "rss",
       "confidence": "medium",
       "_search_count": 3,
