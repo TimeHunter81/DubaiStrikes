@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-13T06:32:00Z",
+  "last_updated": "2026-03-13T06:46:34Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -8,7 +8,7 @@
       "type": "impact_minor",
       "confirmed": false,
       "precision": "district",
-      "title": "Interception debris hits Dubai building on Sheikh Zayed Rd",
+      "title": "Interception debris hits Dubai building, Sheikh Zayed Rd",
       "location": "Dubai, Sheikh Zayed Road",
       "lat": 25.1992,
       "lon": 55.2735,
