@@ -6,7 +6,7 @@
       "id": "31d907d0daec",
       "datetime": "2026-03-13T07:04:25Z",
       "type": "impact_minor",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "district",
       "title": "Drone strike reported at Dubai DIFC",
       "location": "Dubai, DIFC",
@@ -26,8 +26,8 @@
       ],
       "_via": "rss",
       "confidence": "high",
-      "_search_count": 1,
-      "_next_search_at": 1773389065.0
+      "_search_count": 2,
+      "_next_search_at": 1773407065.0
     },
     {
       "id": "ebba47e7a230",
@@ -92,7 +92,7 @@
       "id": "19916ebd07ab",
       "datetime": "2026-03-13T03:37:56Z",
       "type": "impact_minor",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "Interception debris hits Dubai building — no injuries",
       "location": "Dubai",
@@ -103,12 +103,17 @@
           "url": "https://gulfnews.com/uae/debris-from-interception-hits-dubai-building-no-injuries-reported-1.500472922",
           "domain": "gulfnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://english.alarabiya.net/News/gulf/2026/03/12/dubai-successfully-intercepts-attack-debris-hits-building-on-sheikh-zayed-road-",
+          "domain": "alarabiya.net",
+          "tier": "wire"
         }
       ],
       "_via": "rss",
       "confidence": "low",
-      "_search_count": 1,
-      "_next_search_at": 1773376676.0
+      "_search_count": 2,
+      "_next_search_at": 1773394676.0
     },
     {
       "id": "d3f7f2a0c959",
