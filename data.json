@@ -1,40 +1,84 @@
 {
-  "last_updated": "2026-03-13T23:30:00Z",
+  "last_updated": "2026-03-13T23:42:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
-      "id": "f1f1ef3664f1",
-      "datetime": "2026-03-13T04:53:33Z",
-      "type": "security_alert",
+      "id": "4e64c0315a2b",
+      "datetime": "2026-03-13T12:23:35Z",
+      "type": "impact_minor",
       "confirmed": true,
-      "precision": "country",
-      "title": "Emergency shelter-in-place alerts issued for Abu Dhabi and Dubai",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
+      "precision": "city",
+      "title": "Iranian drone hits Fujairah oil facility; energy supplies stable",
+      "location": "Fujairah",
+      "lat": 25.1288,
+      "lon": 56.3265,
       "sources": [
         {
-          "url": "https://www.thenationalnews.com/news/uae/2026/03/13/debris-hits-dubai-building-after-air-strike-intercepted-as-more-alerts-issued/",
-          "domain": "thenationalnews.com",
+          "url": "https://gulfnews.com/business/energy/uae-energy-supplies-stable-after-fujairah-oil-zone-fire-minister-says-1.500473470",
+          "domain": "gulfnews.com",
           "tier": "local"
         },
         {
-          "url": "https://www.timeoutdubai.com/news/emergency-phone-alert-march",
-          "domain": "timeoutdubai.com",
+          "url": "https://www.financialexpress.com/world-news/worlddubai-abu-dhabi-us-iran-israel-war-live-updates-strikes-india-impact/4171769/",
+          "domain": "financialexpress.com",
           "tier": "wire"
         },
         {
-          "url": "https://ae.usembassy.gov/security-alert-u-s-mission-to-the-united-arab-emirates-march-13-2026/",
-          "domain": "ae.usembassy.gov",
+          "url": "https://apnews.com/video/fire-and-smoke-rise-over-fujairah-oil-facility-in-uae-after-iranian-drone-attack-c3725fcba0114d9ebd7293aa09332df0",
+          "domain": "apnews.com",
           "tier": "wire"
         }
       ],
       "snippet": null,
-      "preview_image": null,
+      "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-03%2F03nkngnc%2Fnewsml_afp_com_20260303T135407Z_doc_99qr77e.jpeg?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
       "_via": "rss",
       "confidence": "high",
-      "_search_count": 3,
-      "_next_search_at": 1773464013.0
+      "_search_count": 2,
+      "_next_search_at": 1773426299.0
+    },
+    {
+      "id": "3fbfc0b4ba37",
+      "datetime": "2026-03-13T10:51:44Z",
+      "type": "impact_minor",
+      "confirmed": true,
+      "precision": "district",
+      "title": "Drone debris hits Dubai DIFC building after interception",
+      "location": "Dubai, DIFC",
+      "lat": 25.2131,
+      "lon": 55.2796,
+      "sources": [
+        {
+          "url": "https://www.middleeasteye.net/news/dubai-financial-hub-hit-intercepted-drone-iran-threatens-banks",
+          "domain": "middleeasteye.net",
+          "tier": "local"
+        },
+        {
+          "url": "https://www.indiatoday.in/world/story/middle-east-war-dubai-financial-centre-building-damaged-as-city-thwarts-iran-drone-strikes-2881433-2026-03-13",
+          "domain": "indiatoday.in",
+          "tier": "wire"
+        },
+        {
+          "url": "https://apnews.com/video/iranian-drone-hits-dubai-tower-as-attacks-reported-across-gulf-states-d0f85ac78d8e40d59ac2f177645db5aa",
+          "domain": "apnews.com",
+          "tier": "wire"
+        },
+        {
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/3/13/black-smoke-seen-after-blasts-in-dubai-financial-district?traffic_source=rss",
+          "domain": "aljazeera.com",
+          "tier": "wire"
+        },
+        {
+          "url": "https://www.ndtv.com/world-news/iran-us-israel-war-video-fresh-explosions-in-central-dubai-black-smoke-seen-above-buildings-middle-east-conflict-11208742",
+          "domain": "ndtv.com",
+          "tier": "wire"
+        }
+      ],
+      "snippet": null,
+      "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/2026-03-13T095133Z_1080428378_RC2L3KA8XYWF_RTRMADP_3_ISRAEL-PALESTINIANS-ALQUDSDAY-IRAN.JPG",
+      "_via": "rss",
+      "confidence": "high",
+      "_search_count": 2,
+      "_next_search_at": 1773420704.0
     },
     {
       "id": "9f37f64dbab1",
@@ -102,84 +146,6 @@
       "confidence": "high",
       "_search_count": 3,
       "_next_search_at": 1773464013.0
-    },
-    {
-      "id": "3fbfc0b4ba37",
-      "datetime": "2026-03-13T10:51:44Z",
-      "type": "impact_minor",
-      "confirmed": true,
-      "precision": "district",
-      "title": "Drone debris hits Dubai DIFC building after interception",
-      "location": "Dubai, DIFC",
-      "lat": 25.2131,
-      "lon": 55.2796,
-      "sources": [
-        {
-          "url": "https://www.middleeasteye.net/news/dubai-financial-hub-hit-intercepted-drone-iran-threatens-banks",
-          "domain": "middleeasteye.net",
-          "tier": "local"
-        },
-        {
-          "url": "https://www.indiatoday.in/world/story/middle-east-war-dubai-financial-centre-building-damaged-as-city-thwarts-iran-drone-strikes-2881433-2026-03-13",
-          "domain": "indiatoday.in",
-          "tier": "wire"
-        },
-        {
-          "url": "https://apnews.com/video/iranian-drone-hits-dubai-tower-as-attacks-reported-across-gulf-states-d0f85ac78d8e40d59ac2f177645db5aa",
-          "domain": "apnews.com",
-          "tier": "wire"
-        },
-        {
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/3/13/black-smoke-seen-after-blasts-in-dubai-financial-district?traffic_source=rss",
-          "domain": "aljazeera.com",
-          "tier": "wire"
-        },
-        {
-          "url": "https://www.ndtv.com/world-news/iran-us-israel-war-video-fresh-explosions-in-central-dubai-black-smoke-seen-above-buildings-middle-east-conflict-11208742",
-          "domain": "ndtv.com",
-          "tier": "wire"
-        }
-      ],
-      "snippet": null,
-      "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/2026-03-13T095133Z_1080428378_RC2L3KA8XYWF_RTRMADP_3_ISRAEL-PALESTINIANS-ALQUDSDAY-IRAN.JPG",
-      "_via": "rss",
-      "confidence": "high",
-      "_search_count": 2,
-      "_next_search_at": 1773420704.0
-    },
-    {
-      "id": "4e64c0315a2b",
-      "datetime": "2026-03-13T12:24:59Z",
-      "type": "impact_minor",
-      "confirmed": true,
-      "precision": "city",
-      "title": "Iranian drone hits Fujairah oil facility; energy supplies stable",
-      "location": "Fujairah",
-      "lat": 25.1288,
-      "lon": 56.3265,
-      "sources": [
-        {
-          "url": "https://gulfnews.com/business/energy/uae-energy-supplies-stable-after-fujairah-oil-zone-fire-minister-says-1.500473470",
-          "domain": "gulfnews.com",
-          "tier": "local"
-        },
-        {
-          "url": "https://www.financialexpress.com/world-news/worlddubai-abu-dhabi-us-iran-israel-war-live-updates-strikes-india-impact/4171769/",
-          "domain": "financialexpress.com",
-          "tier": "wire"
-        },
-        {
-          "url": "https://apnews.com/video/fire-and-smoke-rise-over-fujairah-oil-facility-in-uae-after-iranian-drone-attack-c3725fcba0114d9ebd7293aa09332df0",
-          "domain": "apnews.com",
-          "tier": "wire"
-        }
-      ],
-      "snippet": null,
-      "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-03%2F03nkngnc%2Fnewsml_afp_com_20260303T135407Z_doc_99qr77e.jpeg?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
-      "_via": "rss",
-      "confidence": "high",
-      "_search_count": 2,
-      "_next_search_at": 1773426299.0
     },
     {
       "id": "780a01b87f72",
