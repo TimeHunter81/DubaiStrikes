@@ -226,7 +226,7 @@
       "title": "Strike reported in Dubai — OSINT source",
       "datetime": "2026-03-13T00:00:00Z",
       "type": "impact_minor",
-      "confirmed": false,
+      "confirmed": true,
       "location": "Dubai",
       "lat": 25.207,
       "lon": 55.2759,
@@ -251,8 +251,8 @@
       "confidence": 0.85,
       "_isw_id": 19333,
       "_via": "isw",
-      "_next_search_at": 1773381600.0,
-      "_search_count": 2
+      "_next_search_at": 1773446400.0,
+      "_search_count": 3
     },
     {
       "id": "780a01b87f72",
