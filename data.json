@@ -33,7 +33,7 @@
       "id": "ebba47e7a230",
       "datetime": "2026-03-13T04:53:33Z",
       "type": "impact_minor",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "district",
       "title": "Interception debris hits Dubai building, Sheikh Zayed Rd",
       "location": "Dubai, Sheikh Zayed Road",
@@ -58,8 +58,8 @@
       ],
       "_via": "rss",
       "confidence": "high",
-      "_search_count": 2,
-      "_next_search_at": 1773399213.0
+      "_search_count": 3,
+      "_next_search_at": 1773464013.0
     },
     {
       "id": "94052c6b503c",
