@@ -6,7 +6,7 @@
       "id": "ebba47e7a230",
       "datetime": "2026-03-13T04:53:33Z",
       "type": "impact_minor",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "Debris hits Dubai building after air strike intercepted as more alerts issued",
       "location": "Dubai",
@@ -17,12 +17,19 @@
           "url": "https://www.thenationalnews.com/news/uae/2026/03/13/debris-hits-dubai-building-after-air-strike-intercepted-as-more-alerts-issued/",
           "domain": "thenationalnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://indianexpress.com/article/world/dubai-abu-dhabi-news-live-updates-drone-building-dubai-creek-harbour-iran-attacks-gulf-kuwait-bahrain-qatar-10577627/",
+          "domain": "indianexpress.com",
+          "tier": "wire"
         }
       ],
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/JPY7BRDFTNB2PMYLUEYNZDPCWU.jpg?smart=true&auth=a50a51b690e150ca88bad9d37a1a0c1dd9dc843f5efedde16df325061ae59298&width=1200&height=630",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1773381213.0
     },
     {
       "id": "94052c6b503c",
@@ -57,7 +64,7 @@
       "id": "b2835929cc64",
       "datetime": "2026-03-13T04:00:28Z",
       "type": "impact_minor",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "district",
       "title": "Interception debris damages building on Sheikh Zayed Rd, Dubai",
       "location": "Dubai",
@@ -79,8 +86,8 @@
       "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/000_A2T3663.jpg",
       "_via": "rss",
       "confidence": "medium",
-      "_search_count": 1,
-      "_next_search_at": 1773378028.0
+      "_search_count": 2,
+      "_next_search_at": 1773396028.0
     },
     {
       "id": "d3f7f2a0c959",
