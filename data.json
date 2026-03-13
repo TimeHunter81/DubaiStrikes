@@ -39,7 +39,7 @@
       "id": "3a0ed83072d5",
       "datetime": "2026-03-13T10:39:40Z",
       "type": "impact_minor",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "district",
       "title": "Blasts in Dubai financial district — black smoke reported",
       "location": "Dubai, DIFC",
@@ -50,12 +50,19 @@
           "url": "https://www.aljazeera.com/video/newsfeed/2026/3/13/black-smoke-seen-after-blasts-in-dubai-financial-district?traffic_source=rss",
           "domain": "aljazeera.com",
           "tier": "wire"
+        },
+        {
+          "url": "https://www.indiatoday.in/world/story/middle-east-war-dubai-financial-centre-building-damaged-as-city-thwarts-iran-drone-strikes-2881433-2026-03-13",
+          "domain": "indiatoday.in",
+          "tier": "wire"
         }
       ],
       "snippet": "Black smoke seen after blasts in Dubai financial district",
       "preview_image": "https://www.aljazeera.com/wp-content/uploads/2026/03/black-smoke-dubai-horizontal-thumb-1773398114.jpg?resize=1920%2C1080&amp;quality=80",
       "_via": "rss",
-      "confidence": "medium"
+      "confidence": "medium",
+      "_search_count": 1,
+      "_next_search_at": 1773401980.0
     },
     {
       "id": "31d907d0daec",
