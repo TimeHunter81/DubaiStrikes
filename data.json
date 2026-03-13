@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-13T17:00:00Z",
+  "last_updated": "2026-03-13T17:10:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -98,7 +98,7 @@
       "snippet": "Black smoke seen after blasts in Dubai financial district",
       "preview_image": "https://www.aljazeera.com/wp-content/uploads/2026/03/black-smoke-dubai-horizontal-thumb-1773398114.jpg?resize=1920%2C1080&quality=80",
       "_via": "rss",
-      "confidence": "medium",
+      "confidence": "high",
       "_search_count": 1,
       "_next_search_at": 1773401980.0
     },
