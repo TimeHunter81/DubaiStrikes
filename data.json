@@ -6,7 +6,7 @@
       "id": "ebba47e7a230",
       "datetime": "2026-03-13T04:53:33Z",
       "type": "impact_minor",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "Debris hits Dubai building after air strike intercepted",
       "location": "Dubai",
@@ -22,14 +22,19 @@
           "url": "https://indianexpress.com/article/world/dubai-abu-dhabi-news-live-updates-drone-building-dubai-creek-harbour-iran-attacks-gulf-kuwait-bahrain-qatar-10577627/",
           "domain": "indianexpress.com",
           "tier": "wire"
+        },
+        {
+          "url": "https://gulfnews.com/uae/government/debris-from-air-defence-interception-falls-on-a-building-on-dubais-sheikh-zayed-road-1.500471999",
+          "domain": "gulfnews.com",
+          "tier": "wire"
         }
       ],
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/JPY7BRDFTNB2PMYLUEYNZDPCWU.jpg?smart=true&auth=a50a51b690e150ca88bad9d37a1a0c1dd9dc843f5efedde16df325061ae59298&width=1200&height=630",
       "_via": "rss",
       "confidence": "high",
-      "_search_count": 1,
-      "_next_search_at": 1773381213.0
+      "_search_count": 2,
+      "_next_search_at": 1773399213.0
     },
     {
       "id": "94052c6b503c",
