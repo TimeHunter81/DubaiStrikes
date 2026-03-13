@@ -1,11 +1,33 @@
 {
-  "last_updated": "2026-03-13T04:55:00Z",
+  "last_updated": "2026-03-13T05:05:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
+      "id": "ebba47e7a230",
+      "datetime": "2026-03-13T04:53:33Z",
+      "type": "impact_minor",
+      "confirmed": false,
+      "precision": "city",
+      "title": "Debris hits Dubai building after air strike intercepted as more alerts issued",
+      "location": "Dubai",
+      "lat": 25.2048,
+      "lon": 55.2708,
+      "sources": [
+        {
+          "url": "https://www.thenationalnews.com/news/uae/2026/03/13/debris-hits-dubai-building-after-air-strike-intercepted-as-more-alerts-issued/",
+          "domain": "thenationalnews.com",
+          "tier": "local"
+        }
+      ],
+      "snippet": null,
+      "preview_image": "https://www.thenationalnews.com/resizer/v2/JPY7BRDFTNB2PMYLUEYNZDPCWU.jpg?smart=true&auth=a50a51b690e150ca88bad9d37a1a0c1dd9dc843f5efedde16df325061ae59298&width=1200&height=630",
+      "_via": "rss",
+      "confidence": "low"
+    },
+    {
       "id": "94052c6b503c",
       "datetime": "2026-03-13T04:18:45Z",
-      "type": "security_alert",
+      "type": "interception",
       "confirmed": true,
       "precision": "country",
       "title": "UAE responds to Iranian missiles and drones; residents receive emergency alerts",
@@ -56,33 +78,9 @@
       "snippet": "",
       "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/000_A2T3663.jpg",
       "_via": "rss",
-      "confidence": "high",
+      "confidence": "medium",
       "_search_count": 1,
       "_next_search_at": 1773378028.0
-    },
-    {
-      "id": "19916ebd07ab",
-      "datetime": "2026-03-13T03:58:19Z",
-      "type": "impact_minor",
-      "confirmed": false,
-      "precision": "city",
-      "title": "Dubai building hit by interception debris, no injuries reported",
-      "location": "Dubai",
-      "lat": 25.2048,
-      "lon": 55.2708,
-      "sources": [
-        {
-          "url": "https://gulfnews.com/uae/debris-from-interception-hits-dubai-building-no-injuries-reported-1.500472922",
-          "domain": "gulfnews.com",
-          "tier": "local"
-        }
-      ],
-      "snippet": null,
-      "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-10%2Fb7ythppm%2FUAEflag?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
-      "_via": "rss",
-      "confidence": "low",
-      "_search_count": 2,
-      "_next_search_at": 1773394676.0
     },
     {
       "id": "d3f7f2a0c959",
