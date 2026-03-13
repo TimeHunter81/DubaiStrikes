@@ -1,65 +1,121 @@
 {
-  "last_updated": "2026-03-13T15:26:00Z",
+  "last_updated": "2026-03-13T15:38:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
-      "id": "d3f7f2a0c959",
-      "datetime": "2026-03-12T23:25:01Z",
+      "id": "3d07d94e37b7",
+      "datetime": "2026-03-13T12:44:42Z",
       "type": "interception",
       "confirmed": false,
       "precision": "country",
-      "title": "UAE air defences intercept 10 ballistic missiles and 26 UAVs",
+      "title": "UAE air defences intercept 7 ballistic missiles and 27 drones",
       "location": "UAE",
       "lat": null,
       "lon": null,
       "sources": [
         {
-          "url": "https://gulfnews.com/uae/government/bz60hih-uae-air-defences-intercept-ballistic-missiles-1.500472669",
+          "url": "https://gulfnews.com/uae/uae-air-defences-intercept-seven-ballistic-missiles-and-27-drones-1.500473508",
           "domain": "gulfnews.com",
-          "tier": "local"
-        },
-        {
-          "url": "https://www.khaleejtimes.com/uae/uae-air-defences-intercept-10-ballistic-missiles-26-uavs-on-march-12",
-          "domain": "khaleejtimes.com",
-          "tier": "local"
-        },
-        {
-          "url": "https://www.tag911.ae/news/local-news/uae-air-defences-intercept-10-ballistic-missiles-and-26-drones-on-thursday/",
-          "domain": "tag911.ae",
           "tier": "local"
         }
       ],
+      "snippet": null,
+      "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-13%2Fy0gbf0s2%2FUAEFlag?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
       "_via": "rss",
-      "confidence": "medium",
-      "_search_count": 3,
-      "_next_search_at": 1773444301.0
+      "confidence": "low"
     },
     {
-      "id": "94052c6b503c",
-      "datetime": "2026-03-13T04:18:45Z",
-      "type": "interception",
+      "id": "4e64c0315a2b",
+      "datetime": "2026-03-13T12:24:59Z",
+      "type": "impact_minor",
       "confirmed": true,
-      "precision": "country",
-      "title": "UAE intercepts Iranian missiles and drones; emergency alerts sent",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
+      "precision": "city",
+      "title": "Iranian drone hits Fujairah oil facility; energy supplies stable",
+      "location": "Fujairah",
+      "lat": 25.1288,
+      "lon": 56.3265,
       "sources": [
         {
-          "url": "https://gulfnews.com/uae/emergencies/uae-responds-to-iranian-missiles-and-drones-residents-receive-emergency-alerts-3-1.500472909",
+          "url": "https://gulfnews.com/business/energy/uae-energy-supplies-stable-after-fujairah-oil-zone-fire-minister-says-1.500473470",
           "domain": "gulfnews.com",
           "tier": "local"
         },
         {
-          "url": "https://www.reuters.com/world/middle-east/iranian-missiles-drones-fired-gulf-countries-2026-03-10/",
-          "domain": "reuters.com",
+          "url": "https://www.financialexpress.com/world-news/worlddubai-abu-dhabi-us-iran-israel-war-live-updates-strikes-india-impact/4171769/",
+          "domain": "financialexpress.com",
+          "tier": "wire"
+        },
+        {
+          "url": "https://apnews.com/video/fire-and-smoke-rise-over-fujairah-oil-facility-in-uae-after-iranian-drone-attack-c3725fcba0114d9ebd7293aa09332df0",
+          "domain": "apnews.com",
           "tier": "wire"
         }
       ],
+      "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-03%2F03nkngnc%2Fnewsml_afp_com_20260303T135407Z_doc_99qr77e.jpeg?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
       "_via": "rss",
       "confidence": "high",
-      "_search_count": 1,
-      "_next_search_at": 1773379125.0
+      "_search_count": 2,
+      "_next_search_at": 1773426299.0
+    },
+    {
+      "id": "3fbfc0b4ba37",
+      "datetime": "2026-03-13T10:51:44Z",
+      "type": "impact_minor",
+      "confirmed": true,
+      "precision": "district",
+      "title": "Drone debris hits Dubai DIFC building after interception",
+      "location": "Dubai, DIFC",
+      "lat": 25.2131,
+      "lon": 55.2796,
+      "sources": [
+        {
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/dubai-financial-hub-hit-intercepted-drone-after-iran-threatens-banks",
+          "domain": "middleeasteye.net",
+          "tier": "local"
+        },
+        {
+          "url": "https://www.middleeasteye.net/news/dubai-financial-hub-hit-intercepted-drone-iran-threatens-banks",
+          "domain": "middleeasteye.net",
+          "tier": "local"
+        },
+        {
+          "url": "https://www.indiatoday.in/world/story/middle-east-war-dubai-financial-centre-building-damaged-as-city-thwarts-iran-drone-strikes-2881433-2026-03-13",
+          "domain": "indiatoday.in",
+          "tier": "wire"
+        },
+        {
+          "url": "https://apnews.com/video/iranian-drone-hits-dubai-tower-as-attacks-reported-across-gulf-states-d0f85ac78d8e40d59ac2f177645db5aa",
+          "domain": "apnews.com",
+          "tier": "wire"
+        }
+      ],
+      "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/2026-03-13T095133Z_1080428378_RC2L3KA8XYWF_RTRMADP_3_ISRAEL-PALESTINIANS-ALQUDSDAY-IRAN.JPG",
+      "_via": "rss",
+      "confidence": "high",
+      "_search_count": 2,
+      "_next_search_at": 1773420704.0
+    },
+    {
+      "id": "3a0ed83072d5",
+      "datetime": "2026-03-13T10:39:40Z",
+      "type": "impact_minor",
+      "confirmed": true,
+      "precision": "district",
+      "title": "Black smoke seen after blasts in Dubai financial district",
+      "location": "Dubai, DIFC",
+      "lat": 25.2131,
+      "lon": 55.2796,
+      "sources": [
+        {
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/3/13/black-smoke-seen-after-blasts-in-dubai-financial-district?traffic_source=rss",
+          "domain": "aljazeera.com",
+          "tier": "wire"
+        }
+      ],
+      "snippet": "Black smoke seen after blasts in Dubai financial district",
+      "preview_image": "https://www.aljazeera.com/wp-content/uploads/2026/03/black-smoke-dubai-horizontal-thumb-1773398114.jpg?resize=1920%2C1080&quality=80",
+      "_via": "rss",
+      "confidence": "medium"
     },
     {
       "id": "f1f1ef3664f1",
@@ -154,75 +210,63 @@
       "_next_search_at": 1773464013.0
     },
     {
-      "id": "3fbfc0b4ba37",
-      "datetime": "2026-03-13T10:51:44Z",
-      "type": "impact_minor",
+      "id": "94052c6b503c",
+      "datetime": "2026-03-13T04:18:45Z",
+      "type": "interception",
       "confirmed": true,
-      "precision": "district",
-      "title": "Drone debris hits Dubai DIFC building after interception",
-      "location": "Dubai, DIFC",
-      "lat": 25.2131,
-      "lon": 55.2796,
+      "precision": "country",
+      "title": "UAE intercepts Iranian missiles and drones; emergency alerts sent",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
       "sources": [
         {
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/dubai-financial-hub-hit-intercepted-drone-after-iran-threatens-banks",
-          "domain": "middleeasteye.net",
-          "tier": "local"
-        },
-        {
-          "url": "https://www.middleeasteye.net/news/dubai-financial-hub-hit-intercepted-drone-iran-threatens-banks",
-          "domain": "middleeasteye.net",
-          "tier": "local"
-        },
-        {
-          "url": "https://www.indiatoday.in/world/story/middle-east-war-dubai-financial-centre-building-damaged-as-city-thwarts-iran-drone-strikes-2881433-2026-03-13",
-          "domain": "indiatoday.in",
-          "tier": "wire"
-        },
-        {
-          "url": "https://apnews.com/video/iranian-drone-hits-dubai-tower-as-attacks-reported-across-gulf-states-d0f85ac78d8e40d59ac2f177645db5aa",
-          "domain": "apnews.com",
-          "tier": "wire"
-        }
-      ],
-      "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/2026-03-13T095133Z_1080428378_RC2L3KA8XYWF_RTRMADP_3_ISRAEL-PALESTINIANS-ALQUDSDAY-IRAN.JPG",
-      "_via": "rss",
-      "confidence": "high",
-      "_search_count": 2,
-      "_next_search_at": 1773420704.0
-    },
-    {
-      "id": "4e64c0315a2b",
-      "datetime": "2026-03-13T12:24:59Z",
-      "type": "impact_minor",
-      "confirmed": true,
-      "precision": "city",
-      "title": "Iranian drone hits Fujairah oil facility; energy supplies stable",
-      "location": "Fujairah",
-      "lat": 25.1288,
-      "lon": 56.3265,
-      "sources": [
-        {
-          "url": "https://gulfnews.com/business/energy/uae-energy-supplies-stable-after-fujairah-oil-zone-fire-minister-says-1.500473470",
+          "url": "https://gulfnews.com/uae/emergencies/uae-responds-to-iranian-missiles-and-drones-residents-receive-emergency-alerts-3-1.500472909",
           "domain": "gulfnews.com",
           "tier": "local"
         },
         {
-          "url": "https://www.financialexpress.com/world-news/worlddubai-abu-dhabi-us-iran-israel-war-live-updates-strikes-india-impact/4171769/",
-          "domain": "financialexpress.com",
-          "tier": "wire"
-        },
-        {
-          "url": "https://apnews.com/video/fire-and-smoke-rise-over-fujairah-oil-facility-in-uae-after-iranian-drone-attack-c3725fcba0114d9ebd7293aa09332df0",
-          "domain": "apnews.com",
+          "url": "https://www.reuters.com/world/middle-east/iranian-missiles-drones-fired-gulf-countries-2026-03-10/",
+          "domain": "reuters.com",
           "tier": "wire"
         }
       ],
-      "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-03%2F03nkngnc%2Fnewsml_afp_com_20260303T135407Z_doc_99qr77e.jpeg?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
       "_via": "rss",
       "confidence": "high",
-      "_search_count": 2,
-      "_next_search_at": 1773426299.0
+      "_search_count": 1,
+      "_next_search_at": 1773379125.0
+    },
+    {
+      "id": "d3f7f2a0c959",
+      "datetime": "2026-03-12T23:25:01Z",
+      "type": "interception",
+      "confirmed": false,
+      "precision": "country",
+      "title": "UAE air defences intercept 10 ballistic missiles and 26 UAVs",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://gulfnews.com/uae/government/bz60hih-uae-air-defences-intercept-ballistic-missiles-1.500472669",
+          "domain": "gulfnews.com",
+          "tier": "local"
+        },
+        {
+          "url": "https://www.khaleejtimes.com/uae/uae-air-defences-intercept-10-ballistic-missiles-26-uavs-on-march-12",
+          "domain": "khaleejtimes.com",
+          "tier": "local"
+        },
+        {
+          "url": "https://www.tag911.ae/news/local-news/uae-air-defences-intercept-10-ballistic-missiles-and-26-drones-on-thursday/",
+          "domain": "tag911.ae",
+          "tier": "local"
+        }
+      ],
+      "_via": "rss",
+      "confidence": "medium",
+      "_search_count": 3,
+      "_next_search_at": 1773444301.0
     },
     {
       "id": "780a01b87f72",
