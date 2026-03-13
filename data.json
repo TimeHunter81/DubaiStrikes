@@ -6,7 +6,7 @@
       "id": "31d907d0daec",
       "datetime": "2026-03-13T07:04:25Z",
       "type": "impact_minor",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "district",
       "title": "Drone strike reported at Dubai DIFC",
       "location": "Dubai, DIFC",
@@ -17,12 +17,19 @@
           "url": "https://www.middleeasteye.net/live-blog/live-blog-update/vide-drone-strike-reported-dubai-international-financial-centre",
           "domain": "middleeasteye.net",
           "tier": "local"
+        },
+        {
+          "url": "https://www.turkiyetoday.com/region/iranian-drone-strikes-dubai-international-financial-center-as-gulf-attacks-intensify-3216140",
+          "domain": "turkiyetoday.com",
+          "tier": "wire"
         }
       ],
       "snippet": null,
       "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/000_A2X87NW.jpg",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1773389065.0
     },
     {
       "id": "ebba47e7a230",
