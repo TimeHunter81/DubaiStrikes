@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-13T01:41:00Z",
+  "last_updated": "2026-03-13T01:53:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -30,7 +30,6 @@
         }
       ],
       "snippet": "UAE air defences intercept 10 ballistic missiles, 26 UAVs",
-      "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-05%2F8bq374b5%2FOPN-UAE-DEBRIS-FROM-IRAN-ATTACK-Read-Only.jpg?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
       "_via": "rss",
       "confidence": "medium",
       "_search_count": 2,
