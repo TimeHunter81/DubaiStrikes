@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-13T13:59:13Z",
+  "last_updated": "2026-03-13T14:07:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -31,7 +31,7 @@
       "type": "impact_minor",
       "confirmed": true,
       "precision": "city",
-      "title": "Fujairah oil zone fire during conflict; UAE energy supplies stable",
+      "title": "Iranian drone hits Fujairah oil facility; UAE energy supplies stable",
       "location": "Fujairah",
       "lat": 25.1288,
       "lon": 56.3265,
@@ -100,7 +100,7 @@
       "id": "3a0ed83072d5",
       "datetime": "2026-03-13T10:39:40Z",
       "type": "impact_minor",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "district",
       "title": "Blasts and black smoke reported in Dubai financial district",
       "location": "Dubai, DIFC",
