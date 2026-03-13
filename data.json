@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-13T22:26:00Z",
+  "last_updated": "2026-03-13T22:37:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -29,6 +29,7 @@
           "tier": "wire"
         }
       ],
+      "snippet": null,
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-03%2F03nkngnc%2Fnewsml_afp_com_20260303T135407Z_doc_99qr77e.jpeg?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
       "_via": "rss",
       "confidence": "high",
@@ -72,6 +73,7 @@
           "tier": "wire"
         }
       ],
+      "snippet": null,
       "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/2026-03-13T095133Z_1080428378_RC2L3KA8XYWF_RTRMADP_3_ISRAEL-PALESTINIANS-ALQUDSDAY-IRAN.JPG",
       "_via": "rss",
       "confidence": "high",
@@ -105,6 +107,8 @@
           "tier": "wire"
         }
       ],
+      "snippet": null,
+      "preview_image": null,
       "_via": "rss",
       "confidence": "high",
       "_search_count": 3,
@@ -170,6 +174,8 @@
           "tier": "local"
         }
       ],
+      "snippet": null,
+      "preview_image": null,
       "_via": "rss",
       "confidence": "high",
       "_search_count": 3,
