@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-03-13T00:20:00Z",
+  "last_updated": "2026-03-13T00:30:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
       "id": "d3f7f2a0c959",
       "datetime": "2026-03-12T23:25:01Z",
       "type": "interception",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "country",
       "title": "UAE air defences intercept 10 ballistic missiles, 26 UAVs",
       "location": "UAE",
@@ -21,12 +21,12 @@
         {
           "url": "https://www.khaleejtimes.com/uae/uae-air-defences-intercept-10-ballistic-missiles-26-uavs-on-march-12",
           "domain": "khaleejtimes.com",
-          "tier": "wire"
+          "tier": "local"
         },
         {
           "url": "https://www.tag911.ae/news/local-news/uae-air-defences-intercept-10-ballistic-missiles-and-26-drones-on-thursday/",
           "domain": "tag911.ae",
-          "tier": "wire"
+          "tier": "local"
         }
       ],
       "snippet": "UAE air defences intercept 10 ballistic missiles, 26 UAVs",
@@ -55,7 +55,7 @@
         {
           "url": "https://gulfnews.com/uae/uae-air-defences-intercept-six-ballistic-missiles-seven-cruise-missiles-39-uavs-1.500471507",
           "domain": "gulfnews.com",
-          "tier": "wire"
+          "tier": "local"
         },
         {
           "url": "https://apnews.com/video/uae-releases-footage-showing-air-defenses-intercepting-and-destroying-drone-23275da8c04e4a98b2e9ee065cac7c85",
