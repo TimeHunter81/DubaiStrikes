@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-13T14:58:00Z",
+  "last_updated": "2026-03-13T15:06:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -93,7 +93,7 @@
       "id": "f1f1ef3664f1",
       "datetime": "2026-03-13T04:53:33Z",
       "type": "security_alert",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "country",
       "title": "Emergency safety alerts issued in Abu Dhabi and Dubai",
       "location": "UAE",
@@ -190,7 +190,7 @@
       "id": "3a0ed83072d5",
       "datetime": "2026-03-13T10:39:40Z",
       "type": "impact_minor",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "district",
       "title": "Blasts and black smoke reported in Dubai financial district",
       "location": "Dubai, DIFC",
