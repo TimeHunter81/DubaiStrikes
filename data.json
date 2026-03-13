@@ -1,14 +1,14 @@
 {
-  "last_updated": "2026-03-13T05:05:00Z",
+  "last_updated": "2026-03-13T05:15:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
       "id": "ebba47e7a230",
       "datetime": "2026-03-13T04:53:33Z",
       "type": "impact_minor",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "city",
-      "title": "Debris hits Dubai building after air strike intercepted as more alerts issued",
+      "title": "Debris hits Dubai building after air strike intercepted",
       "location": "Dubai",
       "lat": 25.2048,
       "lon": 55.2708,
@@ -27,7 +27,7 @@
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/JPY7BRDFTNB2PMYLUEYNZDPCWU.jpg?smart=true&auth=a50a51b690e150ca88bad9d37a1a0c1dd9dc843f5efedde16df325061ae59298&width=1200&height=630",
       "_via": "rss",
-      "confidence": "low",
+      "confidence": "high",
       "_search_count": 1,
       "_next_search_at": 1773381213.0
     },
@@ -64,7 +64,7 @@
       "id": "b2835929cc64",
       "datetime": "2026-03-13T04:00:28Z",
       "type": "impact_minor",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "district",
       "title": "Interception debris damages building on Sheikh Zayed Rd, Dubai",
       "location": "Dubai",
@@ -161,7 +161,7 @@
       "confirmed": true,
       "precision": "city",
       "title": "Iranian strike kills resident in Abu Dhabi",
-      "location": "Abu Dhabi, UAE",
+      "location": "Abu Dhabi",
       "lat": 24.4539,
       "lon": 54.3773,
       "sources": [
