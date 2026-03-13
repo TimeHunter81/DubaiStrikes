@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-13T11:28:00Z",
+  "last_updated": "2026-03-13T11:42:07Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -31,7 +31,7 @@
       ],
       "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/2026-03-13T095133Z_1080428378_RC2L3KA8XYWF_RTRMADP_3_ISRAEL-PALESTINIANS-ALQUDSDAY-IRAN.JPG",
       "_via": "rss",
-      "confidence": "medium",
+      "confidence": "high",
       "_search_count": 1,
       "_next_search_at": 1773402704.0
     },
@@ -39,7 +39,7 @@
       "id": "3a0ed83072d5",
       "datetime": "2026-03-13T10:39:40Z",
       "type": "impact_minor",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "district",
       "title": "Blasts in Dubai financial district — black smoke reported",
       "location": "Dubai, DIFC",
