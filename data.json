@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-03-13T13:10:00Z",
+  "last_updated": "2026-03-13T13:19:38Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
       "id": "3d07d94e37b7",
       "datetime": "2026-03-13T12:44:42Z",
       "type": "interception",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "country",
       "title": "UAE air defences intercept 7 ballistic missiles and 27 drones",
       "location": "UAE",
@@ -22,7 +22,7 @@
       "snippet": null,
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-13%2Fy0gbf0s2%2FUAEFlag?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
       "_via": "rss",
-      "confidence": "medium",
+      "confidence": "low",
       "_search_count": 1,
       "_next_search_at": 1773409482.0
     },
@@ -68,7 +68,7 @@
       "id": "3a0ed83072d5",
       "datetime": "2026-03-13T10:39:40Z",
       "type": "impact_minor",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "district",
       "title": "Blasts and black smoke in Dubai financial district",
       "location": "Dubai, DIFC",
@@ -102,7 +102,7 @@
       "id": "31d907d0daec",
       "datetime": "2026-03-13T07:01:00Z",
       "type": "impact_minor",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "district",
       "title": "Drone strike reported at Dubai DIFC",
       "location": "Dubai, DIFC",
@@ -187,7 +187,7 @@
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/JPY7BRDFTNB2PMYLUEYNZDPCWU.jpg?smart=true&auth=a50a51b690e150ca88bad9d37a1a0c1dd9dc843f5efedde16df325061ae59298&width=1200&height=630",
       "_via": "rss",
-      "confidence": "medium",
+      "confidence": "high",
       "_search_count": 1,
       "_next_search_at": 1773381213.0
     },
