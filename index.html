@@ -5,11 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Dubai Strike Monitor</title>
   <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23ef3340' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z'/%3E%3C/svg%3E" />
-  <link rel="manifest" href="manifest.json" />
-  <meta name="apple-mobile-web-app-capable" content="yes" />
-  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-  <meta name="apple-mobile-web-app-title" content="DubaiStrikes" />
-  <link rel="apple-touch-icon" href="icons/icon-192.png" />
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
@@ -156,10 +151,6 @@
       letter-spacing: 0.2px;
     }
     #share-nolocs-btn:hover { background: rgba(79,158,255,0.1); border-color: rgba(79,158,255,0.35); }
-    #notif-btn { background: none; border: 1px solid rgba(255,255,255,0.1); color: #8aaac8; border-radius: 6px; padding: 6px 10px; font-size: 11px; cursor: pointer; transition: all 0.15s; }
-    #notif-btn:hover { background: rgba(79,158,255,0.1); border-color: rgba(79,158,255,0.35); }
-    #notif-btn.subscribed { border-color: rgba(63,185,80,0.4); color: #3fb950; }
-    #notif-btn.subscribed:hover { background: rgba(63,185,80,0.08); }
 
     /* ── TIMELINE SLIDER ── */
     #timeline-section {
@@ -496,10 +487,6 @@
           Share
         </button>
         <button id="share-nolocs-btn" onclick="doShare(false, true)">Without locations</button>
-        <button id="notif-btn" onclick="toggleNotifications()" style="display:none;align-items:center;gap:5px">
-          <svg id="notif-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="14" height="14"><path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9"/><path d="M10.3 21a1.94 1.94 0 0 0 3.4 0"/></svg>
-          <span id="notif-label">Notify me</span>
-        </button>
       </div>
     </div>
 
@@ -964,8 +951,8 @@
     }
 
     // Split: precise (on map) vs imprecise (sidebar only)
-    // 'neighborhood' has good enough coords for a map pin (shown with dashed style)
-    const isPrecise = e => e.lat && e.lon && (!e.precision || e.precision === 'exact' || e.precision === 'neighborhood');
+    // 'neighborhood' and 'district' have specific enough coords for a map pin (shown with dashed style)
+    const isPrecise = e => e.lat && e.lon && (!e.precision || e.precision === 'exact' || e.precision === 'neighborhood' || e.precision === 'district');
     const isExact   = e => e.lat && e.lon && (!e.precision || e.precision === 'exact');
 
     list.innerHTML = filtered.map(e => {
@@ -1017,7 +1004,7 @@
       const lat = e.lat + offsets[i].lat;
       const lon = e.lon + offsets[i].lon;
       const m = L.marker([lat, lon], {
-        icon: makeEventIcon(e.type, e.confirmed, e.precision === 'neighborhood'),
+        icon: makeEventIcon(e.type, e.confirmed, e.precision === 'neighborhood' || e.precision === 'district'),
         zIndexOffset: 500,
       })
         .addTo(map);
@@ -1701,85 +1688,6 @@
       el.textContent = `· next update ${m}:${String(s).padStart(2,'0')}`;
     }
   }, 1000);
-  </script>
-
-  <script>
-  // ── PWA: Service Worker + Push Notifications ──────────────────────────
-  const VAPID_PUBLIC_KEY = 'BN5wHu9-58gB0rXIDuds1jnHsK75bFuG_NL4-SMukr0mE3FwrQvgvC4pjNzEzZdyF3wHbkX0wDYk6sd-AvDL0AQ';
-  const CF_WORKER = 'REPLACE_CF_WORKER_URL';  // set after deploying the CF Worker
-
-  let _swReg = null;
-
-  function urlBase64ToUint8Array(base64String) {
-    const padding = '='.repeat((4 - base64String.length % 4) % 4);
-    const base64 = (base64String + padding).replace(/-/g, '+').replace(/_/g, '/');
-    const rawData = atob(base64);
-    return Uint8Array.from([...rawData].map(c => c.charCodeAt(0)));
-  }
-
-  async function initSW() {
-    if (!('serviceWorker' in navigator) || !('PushManager' in window)) return;
-    try {
-      _swReg = await navigator.serviceWorker.register('./sw.js', { scope: '/DubaiStrikes/' });
-      // Show notification button
-      const btn = document.getElementById('notif-btn');
-      if (btn) btn.style.display = 'flex';
-      // Check existing subscription
-      const existing = await _swReg.pushManager.getSubscription();
-      updateNotifBtn(!!existing);
-    } catch (e) { console.warn('[SW]', e); }
-  }
-
-  function updateNotifBtn(subscribed) {
-    const btn   = document.getElementById('notif-btn');
-    const label = document.getElementById('notif-label');
-    const icon  = document.getElementById('notif-icon');
-    if (!btn) return;
-    if (subscribed) {
-      btn.classList.add('subscribed');
-      label.textContent = 'Notifications on';
-      icon.style.stroke = '#3fb950';
-    } else {
-      btn.classList.remove('subscribed');
-      label.textContent = 'Notify me';
-      icon.style.stroke = '';
-    }
-  }
-
-  async function toggleNotifications() {
-    if (!_swReg || CF_WORKER === 'REPLACE_CF_WORKER_URL') {
-      alert('Push notifications not yet configured.');
-      return;
-    }
-    const existing = await _swReg.pushManager.getSubscription();
-    if (existing) {
-      // Unsubscribe
-      await existing.unsubscribe();
-      await fetch(CF_WORKER + '/subscribe', {
-        method: 'DELETE',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ endpoint: existing.endpoint }),
-      });
-      updateNotifBtn(false);
-    } else {
-      // Subscribe
-      const permission = await Notification.requestPermission();
-      if (permission !== 'granted') return;
-      const sub = await _swReg.pushManager.subscribe({
-        userVisibleOnly: true,
-        applicationServerKey: urlBase64ToUint8Array(VAPID_PUBLIC_KEY),
-      });
-      await fetch(CF_WORKER + '/subscribe', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ subscription: sub }),
-      });
-      updateNotifBtn(true);
-    }
-  }
-
-  window.toggleNotifications = toggleNotifications;
-  window.addEventListener('load', initSW);
   </script>
 </body>
 </html>
