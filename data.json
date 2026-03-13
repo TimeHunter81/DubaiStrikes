@@ -6,7 +6,7 @@
       "id": "3d07d94e37b7",
       "datetime": "2026-03-13T12:44:42Z",
       "type": "interception",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "UAE air defences intercept 7 ballistic missiles and 27 drones",
       "location": "UAE",
@@ -22,7 +22,9 @@
       "snippet": null,
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-13%2Fy0gbf0s2%2FUAEFlag?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
       "_via": "rss",
-      "confidence": "medium"
+      "confidence": "medium",
+      "_search_count": 1,
+      "_next_search_at": 1773409482.0
     },
     {
       "id": "3fbfc0b4ba37",
@@ -100,7 +102,7 @@
       "id": "31d907d0daec",
       "datetime": "2026-03-13T07:01:00Z",
       "type": "impact_minor",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "district",
       "title": "Drone strike reported at Dubai DIFC",
       "location": "Dubai, DIFC",
@@ -116,12 +118,17 @@
           "url": "https://www.turkiyetoday.com/region/iranian-drone-strikes-dubai-international-financial-center-as-gulf-attacks-intensify-3216140",
           "domain": "turkiyetoday.com",
           "tier": "wire"
+        },
+        {
+          "url": "https://metro.co.uk/2026/03/13/kamikaze-drone-strikes-dubais-international-financial-centre-27403442/",
+          "domain": "metro.co.uk",
+          "tier": "wire"
         }
       ],
       "_via": "rss",
       "confidence": "high",
-      "_search_count": 2,
-      "_next_search_at": 1773407065.0
+      "_search_count": 3,
+      "_next_search_at": 1773471660.0
     },
     {
       "id": "ebba47e7a230",
@@ -159,7 +166,7 @@
       "id": "9f37f64dbab1",
       "datetime": "2026-03-13T04:53:33Z",
       "type": "interception",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "UAE air defences deal with 7 missiles and 27 drones from Iran",
       "location": "UAE",
@@ -170,12 +177,19 @@
           "url": "https://www.thenationalnews.com/news/uae/2026/03/13/debris-hits-dubai-building-after-air-strike-intercepted-as-more-alerts-issued/",
           "domain": "thenationalnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://www.reuters.com/world/middle-east/iranian-missiles-drones-fired-gulf-countries-2026-03-10/",
+          "domain": "reuters.com",
+          "tier": "wire"
         }
       ],
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/JPY7BRDFTNB2PMYLUEYNZDPCWU.jpg?smart=true&auth=a50a51b690e150ca88bad9d37a1a0c1dd9dc843f5efedde16df325061ae59298&width=1200&height=630",
       "_via": "rss",
-      "confidence": "medium"
+      "confidence": "medium",
+      "_search_count": 1,
+      "_next_search_at": 1773381213.0
     },
     {
       "id": "94052c6b503c",
