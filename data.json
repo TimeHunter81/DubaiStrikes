@@ -1,7 +1,32 @@
 {
-  "last_updated": "2026-03-14T02:53:00Z",
+  "last_updated": "2026-03-14T03:02:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
+    {
+      "id": "4e64c0315a2b",
+      "datetime": "2026-03-13T12:23:35Z",
+      "type": "impact_minor",
+      "confirmed": true,
+      "precision": "city",
+      "title": "Iranian drone hits Fujairah oil facility; energy supplies stable",
+      "location": "Fujairah",
+      "lat": 25.1288,
+      "lon": 56.3265,
+      "sources": [
+        {
+          "url": "https://gulfnews.com/business/energy/uae-energy-supplies-stable-after-fujairah-oil-zone-fire-minister-says-1.500473470",
+          "domain": "gulfnews.com",
+          "tier": "local"
+        },
+        {
+          "url": "https://apnews.com/video/fire-and-smoke-rise-over-fujairah-oil-facility-in-uae-after-iranian-drone-attack-c3725fcba0114d9ebd7293aa09332df0",
+          "domain": "apnews.com",
+          "tier": "wire"
+        }
+      ],
+      "_via": "rss",
+      "confidence": "high"
+    },
     {
       "id": "3fbfc0b4ba37",
       "datetime": "2026-03-13T10:51:44Z",
@@ -26,31 +51,6 @@
         {
           "url": "https://www.aljazeera.com/video/newsfeed/2026/3/13/black-smoke-seen-after-blasts-in-dubai-financial-district?traffic_source=rss",
           "domain": "aljazeera.com",
-          "tier": "wire"
-        }
-      ],
-      "_via": "rss",
-      "confidence": "high"
-    },
-    {
-      "id": "4e64c0315a2b",
-      "datetime": "2026-03-13T12:23:35Z",
-      "type": "impact_minor",
-      "confirmed": true,
-      "precision": "city",
-      "title": "Iranian drone hits Fujairah oil facility; energy supplies stable",
-      "location": "Fujairah",
-      "lat": 25.1288,
-      "lon": 56.3265,
-      "sources": [
-        {
-          "url": "https://gulfnews.com/business/energy/uae-energy-supplies-stable-after-fujairah-oil-zone-fire-minister-says-1.500473470",
-          "domain": "gulfnews.com",
-          "tier": "local"
-        },
-        {
-          "url": "https://apnews.com/video/fire-and-smoke-rise-over-fujairah-oil-facility-in-uae-after-iranian-drone-attack-c3725fcba0114d9ebd7293aa09332df0",
-          "domain": "apnews.com",
           "tier": "wire"
         }
       ],
