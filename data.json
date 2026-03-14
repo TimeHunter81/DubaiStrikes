@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-03-14T17:56:00Z",
+  "last_updated": "2026-03-14T18:10:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
       "id": "8a445c608d43",
       "datetime": "2026-03-14T11:20:49Z",
       "type": "interception",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "country",
       "title": "UAE intercepts 9 ballistic missiles and 33 drones — Mar 14",
       "location": "UAE",
@@ -32,31 +32,6 @@
           "url": "https://thepeninsulaqatar.com/article/14/03/2026/uae-air-defences-engage-9-ballistic-missiles-33-uavs",
           "domain": "thepeninsulaqatar.com",
           "tier": "wire"
-        }
-      ],
-      "_via": "rss",
-      "confidence": "high"
-    },
-    {
-      "id": "4cf787fd2ccb",
-      "datetime": "2026-03-14T03:00:02Z",
-      "type": "impact_minor",
-      "confirmed": true,
-      "precision": "city",
-      "title": "Missile interception debris hits Dubai building, no injuries",
-      "location": "Dubai",
-      "lat": 25.2048,
-      "lon": 55.2708,
-      "sources": [
-        {
-          "url": "https://www.bbc.com/news/live/c4gqjyk0vx3t?post=asset:9eace64a-2615-45f5-88c7-fd83e329e89d",
-          "domain": "bbc.com",
-          "tier": "wire"
-        },
-        {
-          "url": "https://gulfnews.com/uae/debris-from-missile-interception-hits-dubai-building-no-injuries-reported-1.500474064",
-          "domain": "gulfnews.com",
-          "tier": "local"
         }
       ],
       "_via": "rss",
@@ -95,6 +70,31 @@
         },
         {
           "url": "https://gulfnews.com/business/energy/uae-energy-supplies-stable-after-fujairah-oil-zone-fire-minister-says-1.500473470",
+          "domain": "gulfnews.com",
+          "tier": "local"
+        }
+      ],
+      "_via": "rss",
+      "confidence": "high"
+    },
+    {
+      "id": "4cf787fd2ccb",
+      "datetime": "2026-03-14T03:00:02Z",
+      "type": "impact_minor",
+      "confirmed": true,
+      "precision": "city",
+      "title": "Missile interception debris hits Dubai building, no injuries",
+      "location": "Dubai",
+      "lat": 25.2048,
+      "lon": 55.2708,
+      "sources": [
+        {
+          "url": "https://www.bbc.com/news/live/c4gqjyk0vx3t?post=asset:9eace64a-2615-45f5-88c7-fd83e329e89d",
+          "domain": "bbc.com",
+          "tier": "wire"
+        },
+        {
+          "url": "https://gulfnews.com/uae/debris-from-missile-interception-hits-dubai-building-no-injuries-reported-1.500474064",
           "domain": "gulfnews.com",
           "tier": "local"
         }
