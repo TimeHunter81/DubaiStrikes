@@ -1,41 +1,7 @@
 {
-  "last_updated": "2026-03-14T11:22:08Z",
+  "last_updated": "2026-03-14T11:30:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
-    {
-      "id": "2eb6ab867b54",
-      "datetime": "2026-03-14T08:55:05Z",
-      "type": "impact_minor",
-      "confirmed": true,
-      "precision": "city",
-      "title": "Drone interception debris causes fire at Fujairah port",
-      "location": "Fujairah",
-      "lat": 25.1288,
-      "lon": 56.3265,
-      "sources": [
-        {
-          "url": "https://gulfnews.com/uae/emergencies/fujairah-reports-fire-after-debris-fell-following-threat-interception-1.500474270",
-          "domain": "gulfnews.com",
-          "tier": "local"
-        },
-        {
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/fire-reported-oil-storage-tanks-uaes-fujairah-port",
-          "domain": "middleeasteye.net",
-          "tier": "local"
-        },
-        {
-          "url": "https://www.reuters.com/world/middle-east/fire-occurred-uaes-fujairah-after-debris-fell-during-interception-drone-no-2026-03-14/",
-          "domain": "reuters.com",
-          "tier": "wire"
-        }
-      ],
-      "snippet": null,
-      "preview_image": "https://media.assettype.com/gulfnews%2F2025-11-02%2Fvsm8v4ws%2Fr5x08i3x1k90wqfpo.jpg?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
-      "_via": "rss",
-      "confidence": "low",
-      "_search_count": 1,
-      "_next_search_at": 1773482105.0
-    },
     {
       "id": "4cf787fd2ccb",
       "datetime": "2026-03-14T03:00:02Z",
@@ -67,7 +33,7 @@
       "type": "impact_minor",
       "confirmed": true,
       "precision": "city",
-      "title": "Iranian drone hits Fujairah oil facility; energy supplies stable",
+      "title": "Iranian drone hits Fujairah oil facility; fire, energy supplies stable",
       "location": "Fujairah",
       "lat": 25.1288,
       "lon": 56.3265,
