@@ -1,14 +1,14 @@
 {
-  "last_updated": "2026-03-14T16:33:00Z",
+  "last_updated": "2026-03-14T16:45:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
       "id": "7bf2142198d5",
       "datetime": "2026-03-14T13:25:52Z",
       "type": "impact_minor",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "city",
-      "title": "Smoke rises from Fujairah oil facility — second strike today",
+      "title": "Fujairah oil facility struck again — smoke visible, second hit today",
       "location": "Fujairah",
       "lat": 25.1288,
       "lon": 56.3265,
@@ -33,7 +33,7 @@
       "id": "8a445c608d43",
       "datetime": "2026-03-14T11:20:49Z",
       "type": "interception",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "country",
       "title": "UAE intercepts 9 ballistic missiles and 33 drones — Mar 14",
       "location": "UAE",
@@ -61,10 +61,8 @@
           "tier": "wire"
         }
       ],
-      "confidence": "medium",
       "_via": "rss",
-      "_search_count": 1,
-      "_next_search_at": 1773490849.0
+      "confidence": "medium"
     },
     {
       "id": "4e64c0315a2b",
@@ -103,8 +101,8 @@
           "tier": "local"
         }
       ],
-      "confidence": "high",
-      "_via": "rss"
+      "_via": "rss",
+      "confidence": "high"
     },
     {
       "id": "4cf787fd2ccb",
@@ -128,8 +126,8 @@
           "tier": "local"
         }
       ],
-      "confidence": "high",
-      "_via": "rss"
+      "_via": "rss",
+      "confidence": "high"
     },
     {
       "id": "780a01b87f72",
