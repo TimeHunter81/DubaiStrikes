@@ -1,37 +1,7 @@
 {
-  "last_updated": "2026-03-14T10:27:00Z",
+  "last_updated": "2026-03-14T10:41:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
-    {
-      "id": "2eb6ab867b54",
-      "datetime": "2026-03-14T08:55:05Z",
-      "type": "impact_minor",
-      "confirmed": true,
-      "precision": "city",
-      "title": "Drone debris fire at Fujairah oil storage tanks after interception",
-      "location": "Fujairah",
-      "lat": 25.1288,
-      "lon": 56.3265,
-      "sources": [
-        {
-          "url": "https://gulfnews.com/uae/emergencies/fujairah-reports-fire-after-debris-fell-following-threat-interception-1.500474270",
-          "domain": "gulfnews.com",
-          "tier": "local"
-        },
-        {
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/fire-reported-oil-storage-tanks-uaes-fujairah-port",
-          "domain": "middleeasteye.net",
-          "tier": "local"
-        },
-        {
-          "url": "https://www.reuters.com/world/middle-east/fire-occurred-uaes-fujairah-after-debris-fell-during-interception-drone-no-2026-03-14/",
-          "domain": "reuters.com",
-          "tier": "wire"
-        }
-      ],
-      "confidence": "high",
-      "_via": "rss"
-    },
     {
       "id": "4cf787fd2ccb",
       "datetime": "2026-03-14T03:00:02Z",
@@ -77,6 +47,16 @@
           "url": "https://apnews.com/video/fire-and-smoke-rise-over-fujairah-oil-facility-in-uae-after-iranian-drone-attack-c3725fcba0114d9ebd7293aa09332df0",
           "domain": "apnews.com",
           "tier": "wire"
+        },
+        {
+          "url": "https://www.reuters.com/world/middle-east/fire-occurred-uaes-fujairah-after-debris-fell-during-interception-drone-no-2026-03-14/",
+          "domain": "reuters.com",
+          "tier": "wire"
+        },
+        {
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/fire-reported-oil-storage-tanks-uaes-fujairah-port",
+          "domain": "middleeasteye.net",
+          "tier": "local"
         }
       ],
       "confidence": "high",
