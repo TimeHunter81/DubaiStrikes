@@ -1,7 +1,29 @@
 {
-  "last_updated": "2026-03-14T16:54:00Z",
+  "last_updated": "2026-03-14T17:06:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
+    {
+      "id": "8ded5815d282",
+      "datetime": "2026-03-14T13:34:31Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "Iran warns UAE residents to evacuate port areas",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-warns-uae-residents-evacuate-port-areas",
+          "domain": "middleeasteye.net",
+          "tier": "local"
+        }
+      ],
+      "snippet": null,
+      "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/IRAN%20KHARG%20IMAGO-IMAGES.JPG",
+      "_via": "rss",
+      "confidence": "low"
+    },
     {
       "id": "7bf2142198d5",
       "datetime": "2026-03-14T13:25:52Z",
@@ -19,14 +41,14 @@
           "tier": "wire"
         },
         {
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/smoke-seen-rising-direction-uae-energy-facility-afp",
-          "domain": "middleeasteye.net",
-          "tier": "local"
-        },
-        {
           "url": "https://www.reuters.com/world/middle-east/fire-occurred-uaes-fujairah-after-debris-fell-during-interception-drone-no-2026-03-14/",
           "domain": "reuters.com",
           "tier": "wire"
+        },
+        {
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/smoke-seen-rising-direction-uae-energy-facility-afp",
+          "domain": "middleeasteye.net",
+          "tier": "local"
         }
       ],
       "snippet": "Smoke rises from Fujairah oil facility in UAE",
@@ -39,11 +61,11 @@
       "datetime": "2026-03-14T11:20:49Z",
       "type": "interception",
       "confirmed": true,
-      "precision": "city",
+      "precision": "country",
       "title": "UAE intercepts 9 ballistic missiles and 33 drones — Mar 14",
-      "location": "Dubai, UAE",
-      "lat": 25.2048,
-      "lon": 55.2708,
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
       "sources": [
         {
           "url": "https://gulfnews.com/uae/uae-downs-9-ballistic-missiles-33-drones-on-march-14-1.500474391",
@@ -67,7 +89,7 @@
         }
       ],
       "_via": "rss",
-      "confidence": "medium",
+      "confidence": "high",
       "_search_count": 1,
       "_next_search_at": 1773490849.0
     },
