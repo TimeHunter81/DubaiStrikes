@@ -38,7 +38,7 @@
       "id": "8a445c608d43",
       "datetime": "2026-03-14T11:20:49Z",
       "type": "interception",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "UAE intercepts 9 ballistic missiles and 33 drones — Mar 14",
       "location": "UAE",
@@ -68,8 +68,8 @@
       ],
       "_via": "rss",
       "confidence": "high",
-      "_search_count": 1,
-      "_next_search_at": 1773490849.0
+      "_search_count": 2,
+      "_next_search_at": 1773508849.0
     },
     {
       "id": "4e64c0315a2b",
