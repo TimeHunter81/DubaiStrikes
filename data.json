@@ -6,7 +6,7 @@
       "id": "4cf787fd2ccb",
       "datetime": "2026-03-14T03:00:59Z",
       "type": "impact_minor",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "Missile interception debris hits Dubai building, no injuries",
       "location": "Dubai",
@@ -17,12 +17,19 @@
           "url": "https://gulfnews.com/uae/debris-from-missile-interception-hits-dubai-building-no-injuries-reported-1.500474064",
           "domain": "gulfnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://www.thenationalnews.com/news/uae/2026/03/13/debris-hits-dubai-building-after-air-strike-intercepted-as-more-alerts-issued/",
+          "domain": "thenationalnews.com",
+          "tier": "wire"
         }
       ],
       "snippet": null,
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-10%2Fb7ythppm%2FUAEflag?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1773460859.0
     },
     {
       "id": "4e64c0315a2b",
