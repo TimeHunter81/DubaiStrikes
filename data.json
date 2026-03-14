@@ -1,7 +1,37 @@
 {
-  "last_updated": "2026-03-14T15:52:00Z",
+  "last_updated": "2026-03-14T16:10:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
+    {
+      "id": "8a445c608d43",
+      "datetime": "2026-03-14T11:20:49Z",
+      "type": "interception",
+      "confirmed": false,
+      "precision": "country",
+      "title": "UAE intercepts 9 ballistic missiles and 33 drones — Mar 14",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://gulfnews.com/uae/uae-downs-9-ballistic-missiles-33-drones-on-march-14-1.500474391",
+          "domain": "gulfnews.com",
+          "tier": "local"
+        },
+        {
+          "url": "https://www.emirates247.com/uae/uae-air-defences-intercept-9-ballistic-missiles-33-drones/220",
+          "domain": "emirates247.com",
+          "tier": "local"
+        },
+        {
+          "url": "https://www.thenationalnews.com/news/uae/2026/03/14/uae-intercepts-9-iranian-ballistic-missiles-and-33-drones-on-saturday/",
+          "domain": "thenationalnews.com",
+          "tier": "local"
+        }
+      ],
+      "confidence": "medium",
+      "_via": "rss"
+    },
     {
       "id": "7bf2142198d5",
       "datetime": "2026-03-14T13:25:52Z",
@@ -28,38 +58,6 @@
       "preview_image": "https://www.aljazeera.com/wp-content/uploads/2026/03/UAE-smoke-Horizontal-thumb-1773494575.jpg?resize=1920%2C1080&quality=80",
       "_via": "rss",
       "confidence": "high"
-    },
-    {
-      "id": "8a445c608d43",
-      "datetime": "2026-03-14T11:20:49Z",
-      "type": "interception",
-      "confirmed": false,
-      "precision": "country",
-      "title": "UAE intercepts 9 Iranian ballistic missiles and 33 drones",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://gulfnews.com/uae/uae-downs-9-ballistic-missiles-33-drones-on-march-14-1.500474391",
-          "domain": "gulfnews.com",
-          "tier": "local"
-        },
-        {
-          "url": "https://www.emirates247.com/uae/uae-air-defences-intercept-9-ballistic-missiles-33-drones/220",
-          "domain": "emirates247.com",
-          "tier": "local"
-        },
-        {
-          "url": "https://www.thenationalnews.com/news/uae/2026/03/14/uae-intercepts-9-iranian-ballistic-missiles-and-33-drones-on-saturday/",
-          "domain": "thenationalnews.com",
-          "tier": "local"
-        }
-      ],
-      "confidence": "medium",
-      "_via": "rss",
-      "_search_count": 2,
-      "_next_search_at": 1773508849.0
     },
     {
       "id": "4e64c0315a2b",
