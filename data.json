@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-13T23:47:00Z",
+  "last_updated": "2026-03-14T00:01:47Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -29,8 +29,6 @@
           "tier": "wire"
         }
       ],
-      "snippet": null,
-      "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-03%2F03nkngnc%2Fnewsml_afp_com_20260303T135407Z_doc_99qr77e.jpeg?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
       "_via": "rss",
       "confidence": "high",
       "_search_count": 2,
@@ -73,8 +71,6 @@
           "tier": "wire"
         }
       ],
-      "snippet": null,
-      "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/2026-03-13T095133Z_1080428378_RC2L3KA8XYWF_RTRMADP_3_ISRAEL-PALESTINIANS-ALQUDSDAY-IRAN.JPG",
       "_via": "rss",
       "confidence": "high",
       "_search_count": 2,
@@ -107,7 +103,6 @@
           "tier": "local"
         }
       ],
-      "preview_image": "https://www.thenationalnews.com/resizer/v2/JPY7BRDFTNB2PMYLUEYNZDPCWU.jpg?smart=true&auth=a50a51b690e150ca88bad9d37a1a0c1dd9dc843f5efedde16df325061ae59298&width=1200&height=630",
       "_via": "rss",
       "confidence": "high",
       "_search_count": 1,
@@ -140,8 +135,6 @@
           "tier": "local"
         }
       ],
-      "snippet": null,
-      "preview_image": null,
       "_via": "rss",
       "confidence": "high",
       "_search_count": 3,
@@ -149,7 +142,7 @@
     },
     {
       "id": "780a01b87f72",
-      "title": "Strike in Abu Dhabi — Abu Dhabi Media Office report",
+      "title": "Strike in Abu Dhabi \u2014 Abu Dhabi Media Office report",
       "datetime": "2026-03-10T00:00:00Z",
       "type": "impact_minor",
       "confirmed": true,
@@ -177,7 +170,7 @@
       "type": "interception",
       "confirmed": true,
       "precision": "exact",
-      "title": "UAE intercepts 15 of 16 ballistic missiles — 1 falls into sea",
+      "title": "UAE intercepts 15 of 16 ballistic missiles \u2014 1 falls into sea",
       "location": "UAE",
       "lat": 24.5,
       "lon": 54.5,
@@ -202,7 +195,7 @@
       "type": "impact_major",
       "confirmed": true,
       "precision": "exact",
-      "title": "IRGC drone attack on Al Dhafra Air Base — explosions reported",
+      "title": "IRGC drone attack on Al Dhafra Air Base \u2014 explosions reported",
       "location": "Al Dhafra Air Base",
       "lat": 24.2481,
       "lon": 54.5476,
@@ -290,7 +283,7 @@
       "type": "impact_minor",
       "confirmed": true,
       "precision": "exact",
-      "title": "Fire at Jebel Ali Port — attributed to aerial interception debris",
+      "title": "Fire at Jebel Ali Port \u2014 attributed to aerial interception debris",
       "location": "Jebel Ali Port",
       "lat": 25.0153,
       "lon": 55.0613,
@@ -310,7 +303,7 @@
       "type": "impact_minor",
       "confirmed": true,
       "precision": "exact",
-      "title": "Iranian missile fragments hit Burj Al Arab — structural damage",
+      "title": "Iranian missile fragments hit Burj Al Arab \u2014 structural damage",
       "location": "Burj Al Arab",
       "lat": 25.1412,
       "lon": 55.1853,
@@ -335,7 +328,7 @@
       "type": "impact_major",
       "confirmed": true,
       "precision": "exact",
-      "title": "Shahed drone strike near Fairmont The Palm Hotel, Palm Jumeirah — 4 injured",
+      "title": "Shahed drone strike near Fairmont The Palm Hotel, Palm Jumeirah \u2014 4 injured",
       "location": "Palm Jumeirah",
       "lat": 25.1124,
       "lon": 55.139,
@@ -360,7 +353,7 @@
       "type": "impact_major",
       "confirmed": true,
       "precision": "exact",
-      "title": "Dubai International Airport Terminal 3 struck — 4 staff injured, evacuation",
+      "title": "Dubai International Airport Terminal 3 struck \u2014 4 staff injured, evacuation",
       "location": "Dubai International Airport",
       "lat": 25.2532,
       "lon": 55.3657,
@@ -390,7 +383,7 @@
       "type": "impact_minor",
       "confirmed": true,
       "precision": "exact",
-      "title": "Interception debris falls near Zayed International Airport — 1 killed, 7 injured",
+      "title": "Interception debris falls near Zayed International Airport \u2014 1 killed, 7 injured",
       "location": "Zayed International Airport, Abu Dhabi",
       "lat": 24.433,
       "lon": 54.6511,
@@ -435,7 +428,7 @@
       "type": "impact_major",
       "confirmed": true,
       "precision": "exact",
-      "title": "Al Dhafra Air Base targeted — explosions in Corniche, Al Dhafra and Bateen districts",
+      "title": "Al Dhafra Air Base targeted \u2014 explosions in Corniche, Al Dhafra and Bateen districts",
       "location": "Al Dhafra Air Base",
       "lat": 24.2481,
       "lon": 54.5476,
