@@ -1,36 +1,7 @@
 {
-  "last_updated": "2026-03-14T09:26:00Z",
+  "last_updated": "2026-03-14T09:38:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
-    {
-      "id": "4d4aa589b4cb",
-      "datetime": "2026-03-14T08:55:05Z",
-      "type": "impact_minor",
-      "confirmed": true,
-      "precision": "city",
-      "title": "Fujairah reports fire after debris fell following interception",
-      "location": "Fujairah",
-      "lat": 25.1288,
-      "lon": 56.3265,
-      "sources": [
-        {
-          "url": "https://gulfnews.com/uae/emergencies/fujairah-reports-fire-after-debris-fell-following-threat-interception-1.500474270",
-          "domain": "gulfnews.com",
-          "tier": "local"
-        },
-        {
-          "url": "https://www.reuters.com/business/energy/surge-fujairah-bunker-prices-amid-mideast-conflict-drive-demand-elsewhere-2026-03-03/",
-          "domain": "reuters.com",
-          "tier": "wire"
-        }
-      ],
-      "snippet": null,
-      "preview_image": "https://media.assettype.com/gulfnews%2F2025-11-02%2Fvsm8v4ws%2Fr5x08i3x1k90wqfpo.jpg?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
-      "_via": "rss",
-      "confidence": "low",
-      "_search_count": 1,
-      "_next_search_at": 1773482105.0
-    },
     {
       "id": "4cf787fd2ccb",
       "datetime": "2026-03-14T03:00:02Z",
@@ -79,42 +50,9 @@
         }
       ],
       "_via": "rss",
-      "confidence": "high"
-    },
-    {
-      "id": "3fbfc0b4ba37",
-      "datetime": "2026-03-13T10:51:44Z",
-      "type": "impact_minor",
-      "confirmed": true,
-      "precision": "district",
-      "title": "Drone debris hits Dubai DIFC building after interception",
-      "location": "Dubai, DIFC",
-      "lat": 25.2131,
-      "lon": 55.2796,
-      "sources": [
-        {
-          "url": "https://www.middleeasteye.net/news/dubai-financial-hub-hit-intercepted-drone-iran-threatens-banks",
-          "domain": "middleeasteye.net",
-          "tier": "local"
-        },
-        {
-          "url": "https://apnews.com/video/iranian-drone-hits-dubai-tower-as-attacks-reported-across-gulf-states-d0f85ac78d8e40d59ac2f177645db5aa",
-          "domain": "apnews.com",
-          "tier": "wire"
-        },
-        {
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/3/13/black-smoke-seen-after-blasts-in-dubai-financial-district?traffic_source=rss",
-          "domain": "aljazeera.com",
-          "tier": "wire"
-        },
-        {
-          "url": "https://www.thenationalnews.com/news/uae/2026/03/13/debris-hits-dubai-building-after-air-strike-intercepted-as-more-alerts-issued/",
-          "domain": "thenationalnews.com",
-          "tier": "local"
-        }
-      ],
-      "_via": "rss",
-      "confidence": "high"
+      "confidence": "high",
+      "_search_count": 1,
+      "_next_search_at": 1773482105.0
     },
     {
       "id": "780a01b87f72",
