@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-14T07:26:00Z",
+  "last_updated": "2026-03-14T07:38:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -91,10 +91,10 @@
       "id": "f1f1ef3664f1",
       "datetime": "2026-03-13T04:53:33Z",
       "type": "security_alert",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "country",
       "title": "Safety alerts issued in Abu Dhabi and Dubai — incoming projectile threat",
-      "location": "Abu Dhabi and Dubai, UAE",
+      "location": "UAE",
       "lat": null,
       "lon": null,
       "sources": [
@@ -105,9 +105,7 @@
         }
       ],
       "confidence": "low",
-      "_via": "rss",
-      "_search_count": 1,
-      "_next_search_at": 1773381213.0
+      "_via": "rss"
     },
     {
       "id": "780a01b87f72",
