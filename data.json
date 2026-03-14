@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-14T16:45:00Z",
+  "last_updated": "2026-03-14T16:54:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -32,15 +32,13 @@
       "snippet": "Smoke rises from Fujairah oil facility in UAE",
       "preview_image": "https://www.aljazeera.com/wp-content/uploads/2026/03/UAE-smoke-Horizontal-thumb-1773494575.jpg?resize=1920%2C1080&quality=80",
       "_via": "rss",
-      "confidence": "high",
-      "_search_count": 1,
-      "_next_search_at": 1773498352.0
+      "confidence": "high"
     },
     {
       "id": "8a445c608d43",
       "datetime": "2026-03-14T11:20:49Z",
       "type": "interception",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "country",
       "title": "UAE intercepts 9 ballistic missiles and 33 drones — Mar 14",
       "location": "UAE",
@@ -69,9 +67,7 @@
         }
       ],
       "_via": "rss",
-      "confidence": "medium",
-      "_search_count": 1,
-      "_next_search_at": 1773490849.0
+      "confidence": "medium"
     },
     {
       "id": "4e64c0315a2b",
