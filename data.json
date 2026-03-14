@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-14T12:10:00Z",
+  "last_updated": "2026-03-14T12:20:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -21,7 +21,7 @@
         {
           "url": "https://www.emirates247.com/uae/uae-air-defences-intercept-9-ballistic-missiles-33-drones/220",
           "domain": "emirates247.com",
-          "tier": "wire"
+          "tier": "local"
         }
       ],
       "confidence": "high",
