@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-14T11:48:00Z",
+  "last_updated": "2026-03-14T11:58:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -42,6 +42,11 @@
       "lat": 25.1288,
       "lon": 56.3265,
       "sources": [
+        {
+          "url": "https://gulfnews.com/uae/emergencies/fujairah-reports-fire-after-debris-fell-following-threat-interception-1.500474270",
+          "domain": "gulfnews.com",
+          "tier": "local"
+        },
         {
           "url": "https://gulfnews.com/business/energy/uae-energy-supplies-stable-after-fujairah-oil-zone-fire-minister-says-1.500473470",
           "domain": "gulfnews.com",
