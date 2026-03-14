@@ -6,7 +6,7 @@
       "id": "2eb6ab867b54",
       "datetime": "2026-03-14T08:55:05Z",
       "type": "impact_minor",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "Drone interception debris causes fire at Fujairah port",
       "location": "Fujairah",
@@ -22,12 +22,19 @@
           "url": "https://www.middleeasteye.net/live-blog/live-blog-update/fire-reported-oil-storage-tanks-uaes-fujairah-port",
           "domain": "middleeasteye.net",
           "tier": "local"
+        },
+        {
+          "url": "https://www.reuters.com/world/middle-east/fire-occurred-uaes-fujairah-after-debris-fell-during-interception-drone-no-2026-03-14/",
+          "domain": "reuters.com",
+          "tier": "wire"
         }
       ],
       "snippet": null,
       "preview_image": "https://media.assettype.com/gulfnews%2F2025-11-02%2Fvsm8v4ws%2Fr5x08i3x1k90wqfpo.jpg?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1773482105.0
     },
     {
       "id": "4cf787fd2ccb",
