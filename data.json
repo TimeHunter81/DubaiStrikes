@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-14T02:30:00Z",
+  "last_updated": "2026-03-14T02:41:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -56,68 +56,6 @@
       ],
       "_via": "rss",
       "confidence": "high"
-    },
-    {
-      "id": "9f37f64dbab1",
-      "datetime": "2026-03-13T04:53:33Z",
-      "type": "interception",
-      "confirmed": true,
-      "precision": "country",
-      "title": "UAE air defences intercept 7 missiles and 27 drones from Iran",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.thenationalnews.com/news/uae/2026/03/13/debris-hits-dubai-building-after-air-strike-intercepted-as-more-alerts-issued/",
-          "domain": "thenationalnews.com",
-          "tier": "local"
-        },
-        {
-          "url": "https://www.reuters.com/world/middle-east/iranian-missiles-drones-fired-gulf-countries-2026-03-10/",
-          "domain": "reuters.com",
-          "tier": "wire"
-        },
-        {
-          "url": "https://gulfnews.com/uae/emergencies/uae-responds-to-iranian-missiles-and-drones-residents-receive-emergency-alerts-3-1.500472909",
-          "domain": "gulfnews.com",
-          "tier": "local"
-        }
-      ],
-      "_via": "rss",
-      "confidence": "high"
-    },
-    {
-      "id": "ebba47e7a230",
-      "datetime": "2026-03-13T04:53:33Z",
-      "type": "impact_minor",
-      "confirmed": true,
-      "precision": "district",
-      "title": "Interception debris hits building on Sheikh Zayed Road, Dubai",
-      "location": "Dubai, Sheikh Zayed Road",
-      "lat": 25.1992,
-      "lon": 55.2735,
-      "sources": [
-        {
-          "url": "https://www.thenationalnews.com/news/uae/2026/03/13/debris-hits-dubai-building-after-air-strike-intercepted-as-more-alerts-issued/",
-          "domain": "thenationalnews.com",
-          "tier": "local"
-        },
-        {
-          "url": "https://gulfnews.com/uae/government/debris-from-air-defence-interception-falls-on-a-building-on-dubais-sheikh-zayed-road-1.500471999",
-          "domain": "gulfnews.com",
-          "tier": "local"
-        },
-        {
-          "url": "https://english.alarabiya.net/News/gulf/2026/03/12/dubai-successfully-intercepts-attack-debris-hits-building-on-sheikh-zayed-road-",
-          "domain": "english.alarabiya.net",
-          "tier": "wire"
-        }
-      ],
-      "_via": "rss",
-      "confidence": "high",
-      "_search_count": 2,
-      "_next_search_at": 1773399213.0
     },
     {
       "id": "780a01b87f72",
