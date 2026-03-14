@@ -1,14 +1,14 @@
 {
-  "last_updated": "2026-03-14T11:42:00Z",
+  "last_updated": "2026-03-14T11:48:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
       "id": "8a445c608d43",
       "datetime": "2026-03-14T11:20:49Z",
       "type": "interception",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "country",
-      "title": "UAE intercepts 9 ballistic missiles, 33 drones on March 14",
+      "title": "UAE air defences intercept 9 ballistic missiles, 33 drones",
       "location": "UAE",
       "lat": null,
       "lon": null,
@@ -27,34 +27,9 @@
       "snippet": null,
       "preview_image": "https://media.assettype.com/gulfnews%2Fimport%2F2018%2F7%2F29%2F1_16a084eef64.2258720_1635811449_16a084eef64_large.jpg?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
       "_via": "rss",
-      "confidence": "medium",
+      "confidence": "high",
       "_search_count": 1,
       "_next_search_at": 1773490849.0
-    },
-    {
-      "id": "4cf787fd2ccb",
-      "datetime": "2026-03-14T03:00:02Z",
-      "type": "impact_minor",
-      "confirmed": true,
-      "precision": "city",
-      "title": "Missile interception debris hits Dubai building, no injuries",
-      "location": "Dubai",
-      "lat": 25.2048,
-      "lon": 55.2708,
-      "sources": [
-        {
-          "url": "https://gulfnews.com/uae/debris-from-missile-interception-hits-dubai-building-no-injuries-reported-1.500474064",
-          "domain": "gulfnews.com",
-          "tier": "local"
-        },
-        {
-          "url": "https://www.bbc.com/news/live/c4gqjyk0vx3t?post=asset:9eace64a-2615-45f5-88c7-fd83e329e89d",
-          "domain": "bbc.com",
-          "tier": "wire"
-        }
-      ],
-      "confidence": "high",
-      "_via": "rss"
     },
     {
       "id": "4e64c0315a2b",
@@ -62,7 +37,7 @@
       "type": "impact_minor",
       "confirmed": true,
       "precision": "city",
-      "title": "Iranian drone hits Fujairah oil facility; fire, energy supplies stable",
+      "title": "Iranian drone hits Fujairah oil facility; fire contained",
       "location": "Fujairah",
       "lat": 25.1288,
       "lon": 56.3265,
@@ -86,6 +61,31 @@
           "url": "https://www.middleeasteye.net/live-blog/live-blog-update/fire-reported-oil-storage-tanks-uaes-fujairah-port",
           "domain": "middleeasteye.net",
           "tier": "local"
+        }
+      ],
+      "confidence": "high",
+      "_via": "rss"
+    },
+    {
+      "id": "4cf787fd2ccb",
+      "datetime": "2026-03-14T03:00:02Z",
+      "type": "impact_minor",
+      "confirmed": true,
+      "precision": "city",
+      "title": "Missile interception debris hits Dubai building, no injuries",
+      "location": "Dubai",
+      "lat": 25.2048,
+      "lon": 55.2708,
+      "sources": [
+        {
+          "url": "https://gulfnews.com/uae/debris-from-missile-interception-hits-dubai-building-no-injuries-reported-1.500474064",
+          "domain": "gulfnews.com",
+          "tier": "local"
+        },
+        {
+          "url": "https://www.bbc.com/news/live/c4gqjyk0vx3t?post=asset:9eace64a-2615-45f5-88c7-fd83e329e89d",
+          "domain": "bbc.com",
+          "tier": "wire"
         }
       ],
       "confidence": "high",
