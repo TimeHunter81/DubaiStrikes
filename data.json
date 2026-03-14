@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-14T07:14:00Z",
+  "last_updated": "2026-03-14T07:26:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -92,11 +92,11 @@
       "datetime": "2026-03-13T04:53:33Z",
       "type": "security_alert",
       "confirmed": true,
-      "precision": "city",
-      "title": "Safety alerts issued in Abu Dhabi and Dubai amid incoming projectile threat",
+      "precision": "country",
+      "title": "Safety alerts issued in Abu Dhabi and Dubai — incoming projectile threat",
       "location": "Abu Dhabi and Dubai, UAE",
-      "lat": 25.2048,
-      "lon": 55.2708,
+      "lat": null,
+      "lon": null,
       "sources": [
         {
           "url": "https://www.thenationalnews.com/news/uae/2026/03/13/debris-hits-dubai-building-after-air-strike-intercepted-as-more-alerts-issued/",
