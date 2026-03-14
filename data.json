@@ -6,7 +6,7 @@
       "id": "7bf2142198d5",
       "datetime": "2026-03-14T13:25:52Z",
       "type": "impact_minor",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "Fujairah oil facility struck again — smoke visible, second hit today",
       "location": "Fujairah",
@@ -22,18 +22,25 @@
           "url": "https://www.middleeasteye.net/live-blog/live-blog-update/smoke-seen-rising-direction-uae-energy-facility-afp",
           "domain": "middleeasteye.net",
           "tier": "local"
+        },
+        {
+          "url": "https://www.reuters.com/world/middle-east/fire-occurred-uaes-fujairah-after-debris-fell-during-interception-drone-no-2026-03-14/",
+          "domain": "reuters.com",
+          "tier": "wire"
         }
       ],
       "snippet": "Smoke rises from Fujairah oil facility in UAE",
       "preview_image": "https://www.aljazeera.com/wp-content/uploads/2026/03/UAE-smoke-Horizontal-thumb-1773494575.jpg?resize=1920%2C1080&quality=80",
       "_via": "rss",
-      "confidence": "high"
+      "confidence": "high",
+      "_search_count": 1,
+      "_next_search_at": 1773498352.0
     },
     {
       "id": "8a445c608d43",
       "datetime": "2026-03-14T11:20:49Z",
       "type": "interception",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "UAE intercepts 9 ballistic missiles and 33 drones — Mar 14",
       "location": "UAE",
@@ -62,7 +69,9 @@
         }
       ],
       "_via": "rss",
-      "confidence": "medium"
+      "confidence": "medium",
+      "_search_count": 1,
+      "_next_search_at": 1773490849.0
     },
     {
       "id": "4e64c0315a2b",
