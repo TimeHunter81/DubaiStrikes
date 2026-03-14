@@ -1,7 +1,29 @@
 {
-  "last_updated": "2026-03-14T09:05:00Z",
+  "last_updated": "2026-03-14T09:20:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
+    {
+      "id": "4d4aa589b4cb",
+      "datetime": "2026-03-14T08:55:05Z",
+      "type": "impact_minor",
+      "confirmed": false,
+      "precision": "city",
+      "title": "Fujairah reports fire after debris fell following interception",
+      "location": "Fujairah",
+      "lat": 25.1288,
+      "lon": 56.3265,
+      "sources": [
+        {
+          "url": "https://gulfnews.com/uae/emergencies/fujairah-reports-fire-after-debris-fell-following-threat-interception-1.500474270",
+          "domain": "gulfnews.com",
+          "tier": "local"
+        }
+      ],
+      "snippet": null,
+      "preview_image": "https://media.assettype.com/gulfnews%2F2025-11-02%2Fvsm8v4ws%2Fr5x08i3x1k90wqfpo.jpg?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
+      "_via": "rss",
+      "confidence": "low"
+    },
     {
       "id": "4cf787fd2ccb",
       "datetime": "2026-03-14T03:00:02Z",
