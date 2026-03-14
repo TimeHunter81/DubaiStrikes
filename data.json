@@ -1,7 +1,29 @@
 {
-  "last_updated": "2026-03-14T13:49:00Z",
+  "last_updated": "2026-03-14T14:00:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
+    {
+      "id": "7bf2142198d5",
+      "datetime": "2026-03-14T13:25:52Z",
+      "type": "impact_minor",
+      "confirmed": true,
+      "precision": "city",
+      "title": "Smoke rises from Fujairah oil facility — second incident today",
+      "location": "Fujairah",
+      "lat": 25.1288,
+      "lon": 56.3265,
+      "sources": [
+        {
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/3/14/smoke-rises-from-fujairah-oil-facility-in-uae?traffic_source=rss",
+          "domain": "aljazeera.com",
+          "tier": "wire"
+        }
+      ],
+      "snippet": "Smoke rises from Fujairah oil facility in UAE",
+      "preview_image": "https://www.aljazeera.com/wp-content/uploads/2026/03/UAE-smoke-Horizontal-thumb-1773494575.jpg?resize=1920%2C1080&quality=80",
+      "_via": "rss",
+      "confidence": "medium"
+    },
     {
       "id": "8a445c608d43",
       "datetime": "2026-03-14T11:20:49Z",
@@ -21,6 +43,11 @@
         {
           "url": "https://www.emirates247.com/uae/uae-air-defences-intercept-9-ballistic-missiles-33-drones/220",
           "domain": "emirates247.com",
+          "tier": "local"
+        },
+        {
+          "url": "https://www.thenationalnews.com/news/uae/2026/03/14/uae-intercepts-9-iranian-ballistic-missiles-and-33-drones-on-saturday/",
+          "domain": "thenationalnews.com",
           "tier": "local"
         }
       ],
