@@ -1,36 +1,7 @@
 {
-  "last_updated": "2026-03-14T17:06:00Z",
+  "last_updated": "2026-03-14T17:14:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
-    {
-      "id": "8ded5815d282",
-      "datetime": "2026-03-14T13:34:31Z",
-      "type": "security_alert",
-      "confirmed": true,
-      "precision": "country",
-      "title": "Iran warns UAE residents to evacuate port areas",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-warns-uae-residents-evacuate-port-areas",
-          "domain": "middleeasteye.net",
-          "tier": "local"
-        },
-        {
-          "url": "https://www.reuters.com/world/middle-east/trump-threatens-strike-irans-kharg-island-oil-network-if-shipping-lanes-remain-2026-03-14/",
-          "domain": "reuters.com",
-          "tier": "wire"
-        }
-      ],
-      "snippet": null,
-      "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/IRAN%20KHARG%20IMAGO-IMAGES.JPG",
-      "_via": "rss",
-      "confidence": "low",
-      "_search_count": 1,
-      "_next_search_at": 1773498871.0
-    },
     {
       "id": "7bf2142198d5",
       "datetime": "2026-03-14T13:25:52Z",
@@ -67,7 +38,7 @@
       "id": "8a445c608d43",
       "datetime": "2026-03-14T11:20:49Z",
       "type": "interception",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "country",
       "title": "UAE intercepts 9 ballistic missiles and 33 drones — Mar 14",
       "location": "UAE",
