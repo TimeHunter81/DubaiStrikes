@@ -1,66 +1,7 @@
 {
-  "last_updated": "2026-03-14T01:42:00Z",
+  "last_updated": "2026-03-14T01:55:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
-    {
-      "id": "4e64c0315a2b",
-      "datetime": "2026-03-13T12:23:35Z",
-      "type": "impact_minor",
-      "confirmed": true,
-      "precision": "city",
-      "title": "Iranian drone hits Fujairah oil facility; energy supplies stable",
-      "location": "Fujairah",
-      "lat": 25.1288,
-      "lon": 56.3265,
-      "sources": [
-        {
-          "url": "https://gulfnews.com/business/energy/uae-energy-supplies-stable-after-fujairah-oil-zone-fire-minister-says-1.500473470",
-          "domain": "gulfnews.com",
-          "tier": "local"
-        },
-        {
-          "url": "https://apnews.com/video/fire-and-smoke-rise-over-fujairah-oil-facility-in-uae-after-iranian-drone-attack-c3725fcba0114d9ebd7293aa09332df0",
-          "domain": "apnews.com",
-          "tier": "wire"
-        }
-      ],
-      "_via": "rss",
-      "confidence": "high",
-      "_search_count": 2,
-      "_next_search_at": 1773426299.0
-    },
-    {
-      "id": "3fbfc0b4ba37",
-      "datetime": "2026-03-13T10:51:44Z",
-      "type": "impact_minor",
-      "confirmed": true,
-      "precision": "district",
-      "title": "Drone debris hits Dubai DIFC building after interception",
-      "location": "Dubai, DIFC",
-      "lat": 25.2131,
-      "lon": 55.2796,
-      "sources": [
-        {
-          "url": "https://www.middleeasteye.net/news/dubai-financial-hub-hit-intercepted-drone-iran-threatens-banks",
-          "domain": "middleeasteye.net",
-          "tier": "local"
-        },
-        {
-          "url": "https://apnews.com/video/iranian-drone-hits-dubai-tower-as-attacks-reported-across-gulf-states-d0f85ac78d8e40d59ac2f177645db5aa",
-          "domain": "apnews.com",
-          "tier": "wire"
-        },
-        {
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/3/13/black-smoke-seen-after-blasts-in-dubai-financial-district?traffic_source=rss",
-          "domain": "aljazeera.com",
-          "tier": "wire"
-        }
-      ],
-      "_via": "rss",
-      "confidence": "high",
-      "_search_count": 2,
-      "_next_search_at": 1773420704.0
-    },
     {
       "id": "9f37f64dbab1",
       "datetime": "2026-03-13T04:53:33Z",
@@ -119,6 +60,65 @@
       "confidence": "high",
       "_search_count": 3,
       "_next_search_at": 1773464013.0
+    },
+    {
+      "id": "3fbfc0b4ba37",
+      "datetime": "2026-03-13T10:51:44Z",
+      "type": "impact_minor",
+      "confirmed": true,
+      "precision": "district",
+      "title": "Drone debris hits Dubai DIFC building after interception",
+      "location": "Dubai, DIFC",
+      "lat": 25.2131,
+      "lon": 55.2796,
+      "sources": [
+        {
+          "url": "https://www.middleeasteye.net/news/dubai-financial-hub-hit-intercepted-drone-iran-threatens-banks",
+          "domain": "middleeasteye.net",
+          "tier": "local"
+        },
+        {
+          "url": "https://apnews.com/video/iranian-drone-hits-dubai-tower-as-attacks-reported-across-gulf-states-d0f85ac78d8e40d59ac2f177645db5aa",
+          "domain": "apnews.com",
+          "tier": "wire"
+        },
+        {
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/3/13/black-smoke-seen-after-blasts-in-dubai-financial-district?traffic_source=rss",
+          "domain": "aljazeera.com",
+          "tier": "wire"
+        }
+      ],
+      "_via": "rss",
+      "confidence": "high",
+      "_search_count": 2,
+      "_next_search_at": 1773420704.0
+    },
+    {
+      "id": "4e64c0315a2b",
+      "datetime": "2026-03-13T12:23:35Z",
+      "type": "impact_minor",
+      "confirmed": true,
+      "precision": "city",
+      "title": "Iranian drone hits Fujairah oil facility; energy supplies stable",
+      "location": "Fujairah",
+      "lat": 25.1288,
+      "lon": 56.3265,
+      "sources": [
+        {
+          "url": "https://gulfnews.com/business/energy/uae-energy-supplies-stable-after-fujairah-oil-zone-fire-minister-says-1.500473470",
+          "domain": "gulfnews.com",
+          "tier": "local"
+        },
+        {
+          "url": "https://apnews.com/video/fire-and-smoke-rise-over-fujairah-oil-facility-in-uae-after-iranian-drone-attack-c3725fcba0114d9ebd7293aa09332df0",
+          "domain": "apnews.com",
+          "tier": "wire"
+        }
+      ],
+      "_via": "rss",
+      "confidence": "high",
+      "_search_count": 2,
+      "_next_search_at": 1773426299.0
     },
     {
       "id": "780a01b87f72",
