@@ -6,7 +6,7 @@
       "id": "8a445c608d43",
       "datetime": "2026-03-14T11:20:49Z",
       "type": "interception",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "UAE intercepts 9 ballistic missiles and 33 drones — Mar 14",
       "location": "UAE",
@@ -27,10 +27,17 @@
           "url": "https://www.thenationalnews.com/news/uae/2026/03/14/uae-intercepts-9-iranian-ballistic-missiles-and-33-drones-on-saturday/",
           "domain": "thenationalnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://thepeninsulaqatar.com/article/14/03/2026/uae-air-defences-engage-9-ballistic-missiles-33-uavs",
+          "domain": "thepeninsulaqatar.com",
+          "tier": "wire"
         }
       ],
       "confidence": "medium",
-      "_via": "rss"
+      "_via": "rss",
+      "_search_count": 1,
+      "_next_search_at": 1773490849.0
     },
     {
       "id": "7bf2142198d5",
