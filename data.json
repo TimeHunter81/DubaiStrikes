@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-14T14:09:00Z",
+  "last_updated": "2026-03-14T14:20:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -17,6 +17,11 @@
           "url": "https://www.aljazeera.com/video/newsfeed/2026/3/14/smoke-rises-from-fujairah-oil-facility-in-uae?traffic_source=rss",
           "domain": "aljazeera.com",
           "tier": "wire"
+        },
+        {
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/smoke-seen-rising-direction-uae-energy-facility-afp",
+          "domain": "middleeasteye.net",
+          "tier": "local"
         }
       ],
       "snippet": "Smoke rises from Fujairah oil facility in UAE",
