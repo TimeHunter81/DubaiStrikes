@@ -1,14 +1,41 @@
 {
-  "last_updated": "2026-03-14T14:35:00Z",
+  "last_updated": "2026-03-14T14:41:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
+    {
+      "id": "7bf2142198d5",
+      "datetime": "2026-03-14T13:25:52Z",
+      "type": "impact_minor",
+      "confirmed": true,
+      "precision": "city",
+      "title": "Smoke over Fujairah oil facility — second strike today",
+      "location": "Fujairah",
+      "lat": 25.1288,
+      "lon": 56.3265,
+      "sources": [
+        {
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/3/14/smoke-rises-from-fujairah-oil-facility-in-uae?traffic_source=rss",
+          "domain": "aljazeera.com",
+          "tier": "wire"
+        },
+        {
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/smoke-seen-rising-direction-uae-energy-facility-afp",
+          "domain": "middleeasteye.net",
+          "tier": "local"
+        }
+      ],
+      "snippet": "Smoke rises from Fujairah oil facility in UAE",
+      "preview_image": "https://www.aljazeera.com/wp-content/uploads/2026/03/UAE-smoke-Horizontal-thumb-1773494575.jpg?resize=1920%2C1080&quality=80",
+      "_via": "rss",
+      "confidence": "high"
+    },
     {
       "id": "8a445c608d43",
       "datetime": "2026-03-14T11:20:49Z",
       "type": "interception",
       "confirmed": false,
       "precision": "country",
-      "title": "UAE air defences intercept 9 ballistic missiles, 33 drones",
+      "title": "UAE intercepts 9 ballistic missiles, 33 drones",
       "location": "UAE",
       "lat": null,
       "lon": null,
@@ -33,33 +60,6 @@
       "_via": "rss",
       "_search_count": 2,
       "_next_search_at": 1773508849.0
-    },
-    {
-      "id": "7bf2142198d5",
-      "datetime": "2026-03-14T13:25:52Z",
-      "type": "impact_minor",
-      "confirmed": true,
-      "precision": "city",
-      "title": "Smoke rises from Fujairah oil facility — second incident today",
-      "location": "Fujairah",
-      "lat": 25.1288,
-      "lon": 56.3265,
-      "sources": [
-        {
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/3/14/smoke-rises-from-fujairah-oil-facility-in-uae?traffic_source=rss",
-          "domain": "aljazeera.com",
-          "tier": "wire"
-        },
-        {
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/smoke-seen-rising-direction-uae-energy-facility-afp",
-          "domain": "middleeasteye.net",
-          "tier": "local"
-        }
-      ],
-      "snippet": "Smoke rises from Fujairah oil facility in UAE",
-      "preview_image": "https://www.aljazeera.com/wp-content/uploads/2026/03/UAE-smoke-Horizontal-thumb-1773494575.jpg?resize=1920%2C1080&quality=80",
-      "_via": "rss",
-      "confidence": "high"
     },
     {
       "id": "4e64c0315a2b",
