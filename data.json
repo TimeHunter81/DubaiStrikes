@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-14T19:25:00Z",
+  "last_updated": "2026-03-14T19:37:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -74,8 +74,8 @@
           "tier": "local"
         },
         {
-          "url": "https://gulfnews.com/business/energy/uae-energy-supplies-stable-after-fujairah-oil-zone-fire-minister-says-1.500473470",
-          "domain": "gulfnews.com",
+          "url": "https://www.middleeasteye.net/news/iran-hits-uae-oil-hub-vows-retaliation-us-attack-kharg-island",
+          "domain": "middleeasteye.net",
           "tier": "local"
         }
       ],
