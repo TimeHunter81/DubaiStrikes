@@ -6,7 +6,7 @@
       "id": "4d4aa589b4cb",
       "datetime": "2026-03-14T08:55:05Z",
       "type": "impact_minor",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "Fujairah reports fire after debris fell following interception",
       "location": "Fujairah",
@@ -17,12 +17,19 @@
           "url": "https://gulfnews.com/uae/emergencies/fujairah-reports-fire-after-debris-fell-following-threat-interception-1.500474270",
           "domain": "gulfnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://www.reuters.com/business/energy/surge-fujairah-bunker-prices-amid-mideast-conflict-drive-demand-elsewhere-2026-03-03/",
+          "domain": "reuters.com",
+          "tier": "wire"
         }
       ],
       "snippet": null,
       "preview_image": "https://media.assettype.com/gulfnews%2F2025-11-02%2Fvsm8v4ws%2Fr5x08i3x1k90wqfpo.jpg?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1773482105.0
     },
     {
       "id": "4cf787fd2ccb",
