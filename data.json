@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-03-14T03:20:00Z",
+  "last_updated": "2026-03-14T03:32:44Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
       "id": "4cf787fd2ccb",
       "datetime": "2026-03-14T03:00:59Z",
       "type": "impact_minor",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "city",
       "title": "Missile interception debris hits Dubai building, no injuries",
       "location": "Dubai",
@@ -21,7 +21,7 @@
         {
           "url": "https://www.thenationalnews.com/news/uae/2026/03/13/debris-hits-dubai-building-after-air-strike-intercepted-as-more-alerts-issued/",
           "domain": "thenationalnews.com",
-          "tier": "wire"
+          "tier": "local"
         }
       ],
       "snippet": null,
