@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-14T01:35:00Z",
+  "last_updated": "2026-03-14T01:42:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -17,11 +17,6 @@
           "url": "https://gulfnews.com/business/energy/uae-energy-supplies-stable-after-fujairah-oil-zone-fire-minister-says-1.500473470",
           "domain": "gulfnews.com",
           "tier": "local"
-        },
-        {
-          "url": "https://www.financialexpress.com/world-news/worlddubai-abu-dhabi-us-iran-israel-war-live-updates-strikes-india-impact/4171769/",
-          "domain": "financialexpress.com",
-          "tier": "wire"
         },
         {
           "url": "https://apnews.com/video/fire-and-smoke-rise-over-fujairah-oil-facility-in-uae-after-iranian-drone-attack-c3725fcba0114d9ebd7293aa09332df0",
@@ -51,11 +46,6 @@
           "tier": "local"
         },
         {
-          "url": "https://www.indiatoday.in/world/story/middle-east-war-dubai-financial-centre-building-damaged-as-city-thwarts-iran-drone-strikes-2881433-2026-03-13",
-          "domain": "indiatoday.in",
-          "tier": "wire"
-        },
-        {
           "url": "https://apnews.com/video/iranian-drone-hits-dubai-tower-as-attacks-reported-across-gulf-states-d0f85ac78d8e40d59ac2f177645db5aa",
           "domain": "apnews.com",
           "tier": "wire"
@@ -63,11 +53,6 @@
         {
           "url": "https://www.aljazeera.com/video/newsfeed/2026/3/13/black-smoke-seen-after-blasts-in-dubai-financial-district?traffic_source=rss",
           "domain": "aljazeera.com",
-          "tier": "wire"
-        },
-        {
-          "url": "https://www.ndtv.com/world-news/iran-us-israel-war-video-fresh-explosions-in-central-dubai-black-smoke-seen-above-buildings-middle-east-conflict-11208742",
-          "domain": "ndtv.com",
           "tier": "wire"
         }
       ],
@@ -123,11 +108,6 @@
           "url": "https://www.thenationalnews.com/news/uae/2026/03/13/debris-hits-dubai-building-after-air-strike-intercepted-as-more-alerts-issued/",
           "domain": "thenationalnews.com",
           "tier": "local"
-        },
-        {
-          "url": "https://indianexpress.com/article/world/dubai-abu-dhabi-uae-war-news-live-updates-drone-building-dubai-creek-harbour-iran-attacks-gulf-kuwait-bahrain-qatar-10577627/",
-          "domain": "indianexpress.com",
-          "tier": "wire"
         },
         {
           "url": "https://gulfnews.com/uae/government/debris-from-air-defence-interception-falls-on-a-building-on-dubais-sheikh-zayed-road-1.500471999",
