@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-14T12:49:00Z",
+  "last_updated": "2026-03-14T13:00:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -25,9 +25,7 @@
         }
       ],
       "confidence": "medium",
-      "_via": "rss",
-      "_search_count": 2,
-      "_next_search_at": 1773508849.0
+      "_via": "rss"
     },
     {
       "id": "4e64c0315a2b",
@@ -41,16 +39,6 @@
       "lon": 56.3265,
       "sources": [
         {
-          "url": "https://gulfnews.com/uae/emergencies/fujairah-reports-fire-after-debris-fell-following-threat-interception-1.500474270",
-          "domain": "gulfnews.com",
-          "tier": "local"
-        },
-        {
-          "url": "https://gulfnews.com/business/energy/uae-energy-supplies-stable-after-fujairah-oil-zone-fire-minister-says-1.500473470",
-          "domain": "gulfnews.com",
-          "tier": "local"
-        },
-        {
           "url": "https://apnews.com/video/fire-and-smoke-rise-over-fujairah-oil-facility-in-uae-after-iranian-drone-attack-c3725fcba0114d9ebd7293aa09332df0",
           "domain": "apnews.com",
           "tier": "wire"
@@ -59,6 +47,16 @@
           "url": "https://www.reuters.com/world/middle-east/fire-occurred-uaes-fujairah-after-debris-fell-during-interception-drone-no-2026-03-14/",
           "domain": "reuters.com",
           "tier": "wire"
+        },
+        {
+          "url": "https://gulfnews.com/uae/emergencies/fujairah-reports-fire-after-debris-fell-following-threat-interception-1.500474270",
+          "domain": "gulfnews.com",
+          "tier": "local"
+        },
+        {
+          "url": "https://gulfnews.com/business/energy/uae-energy-supplies-stable-after-fujairah-oil-zone-fire-minister-says-1.500473470",
+          "domain": "gulfnews.com",
+          "tier": "local"
         },
         {
           "url": "https://www.middleeasteye.net/live-blog/live-blog-update/fire-reported-oil-storage-tanks-uaes-fujairah-port",
@@ -81,14 +79,14 @@
       "lon": 55.2708,
       "sources": [
         {
-          "url": "https://gulfnews.com/uae/debris-from-missile-interception-hits-dubai-building-no-injuries-reported-1.500474064",
-          "domain": "gulfnews.com",
-          "tier": "local"
-        },
-        {
           "url": "https://www.bbc.com/news/live/c4gqjyk0vx3t?post=asset:9eace64a-2615-45f5-88c7-fd83e329e89d",
           "domain": "bbc.com",
           "tier": "wire"
+        },
+        {
+          "url": "https://gulfnews.com/uae/debris-from-missile-interception-hits-dubai-building-no-injuries-reported-1.500474064",
+          "domain": "gulfnews.com",
+          "tier": "local"
         }
       ],
       "confidence": "high",
@@ -114,8 +112,6 @@
       "confidence": "low",
       "_isw_id": 11350,
       "_via": "isw",
-      "_next_search_at": 0,
-      "_search_count": 0,
       "_manual": true
     },
     {
