@@ -6,7 +6,7 @@
       "id": "8a445c608d43",
       "datetime": "2026-03-14T11:20:49Z",
       "type": "interception",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "UAE intercepts 9 ballistic missiles and 33 drones — Mar 14",
       "location": "UAE",
@@ -32,10 +32,17 @@
           "url": "https://thepeninsulaqatar.com/article/14/03/2026/uae-air-defences-engage-9-ballistic-missiles-33-uavs",
           "domain": "thepeninsulaqatar.com",
           "tier": "wire"
+        },
+        {
+          "url": "https://apnews.com/live/iran-war-israel-trump-03-14-2026",
+          "domain": "apnews.com",
+          "tier": "wire"
         }
       ],
       "_via": "rss",
-      "confidence": "high"
+      "confidence": "high",
+      "_search_count": 1,
+      "_next_search_at": 1773490849.0
     },
     {
       "id": "4e64c0315a2b",
