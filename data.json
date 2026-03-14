@@ -91,7 +91,7 @@
       "id": "ebba47e7a230",
       "datetime": "2026-03-13T04:53:33Z",
       "type": "impact_minor",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "district",
       "title": "Interception debris hits building on Sheikh Zayed Road, Dubai",
       "location": "Dubai, Sheikh Zayed Road",
@@ -107,12 +107,17 @@
           "url": "https://gulfnews.com/uae/government/debris-from-air-defence-interception-falls-on-a-building-on-dubais-sheikh-zayed-road-1.500471999",
           "domain": "gulfnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://english.alarabiya.net/News/gulf/2026/03/12/dubai-successfully-intercepts-attack-debris-hits-building-on-sheikh-zayed-road-",
+          "domain": "english.alarabiya.net",
+          "tier": "wire"
         }
       ],
       "_via": "rss",
       "confidence": "high",
-      "_search_count": 1,
-      "_next_search_at": 1773381213.0
+      "_search_count": 2,
+      "_next_search_at": 1773399213.0
     },
     {
       "id": "780a01b87f72",
