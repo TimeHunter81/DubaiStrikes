@@ -6,7 +6,7 @@
       "id": "e7cf0151c6d6",
       "datetime": "2026-03-15T12:03:51Z",
       "type": "interception",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "UAE air defences intercept 4 ballistic missiles, 6 drones — Mar 15",
       "location": "UAE",
@@ -22,16 +22,23 @@
           "url": "https://indianexpress.com/article/world/uae-dubai-us-iran-israel-middle-east-drones-flights-live-updates-10580967/",
           "domain": "indianexpress.com",
           "tier": "wire"
+        },
+        {
+          "url": "https://www.timesofisrael.com/liveblog-march-15-2026/",
+          "domain": "timesofisrael.com",
+          "tier": "wire"
         }
       ],
       "_via": "rss",
-      "confidence": "high"
+      "confidence": "high",
+      "_search_count": 1,
+      "_next_search_at": 1773579831.0
     },
     {
       "id": "43214bb0e740",
       "datetime": "2026-03-15T06:46:15Z",
       "type": "interception",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "district",
       "title": "IRGC claims missiles and drones launched targeting UAE airbase",
       "location": "Al Dhafra Air Base, UAE",
@@ -42,10 +49,17 @@
           "url": "https://www.middleeasteye.net/live-blog/live-blog-update/irgc-says-it-launched-missiles-and-drones-targeting-us-airbase-uae",
           "domain": "middleeasteye.net",
           "tier": "local"
+        },
+        {
+          "url": "https://abcnews.com/International/live-updates/iran-live-updates/?id=130893022",
+          "domain": "abcnews.com",
+          "tier": "wire"
         }
       ],
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1773560775.0
     },
     {
       "id": "f238ecf9b2b",
