@@ -6,7 +6,7 @@
       "id": "a84a453be842",
       "datetime": "2026-03-15T00:32:58Z",
       "type": "impact_minor",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "exact",
       "title": "Drone hits Ruwais industrial complex, fire contained",
       "location": "Ruwais, Abu Dhabi",
@@ -17,18 +17,25 @@
           "url": "https://gulfnews.com/uae/abu-dhabi-authorities-contain-fire-at-ruwais-complex-after-drone-incident-1.500474856",
           "domain": "gulfnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://www.reuters.com/world/middle-east/fire-hits-site-housing-abu-dhabi-national-oil-company-operations-after-drone-2026-03-10/",
+          "domain": "reuters.com",
+          "tier": "wire"
         }
       ],
       "snippet": null,
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-09%2F25edr5q3%2Fzvp01xk01ka05t6po.jpg?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1773538378.0
     },
     {
       "id": "00030061e54d",
       "datetime": "2026-03-14T23:50:25Z",
       "type": "interception",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "exact",
       "title": "Air defence interception over Dubai Marina / Al Sufouh",
       "location": "Dubai Marina",
@@ -49,12 +56,17 @@
           "url": "https://www.theweek.in/news/middle-east/2026/03/14/dubai-financial-hub-missile-strike-impact.html",
           "domain": "theweek.in",
           "tier": "wire"
+        },
+        {
+          "url": "https://www.reuters.com/world/middle-east/fire-occurred-uaes-fujairah-after-debris-fell-during-interception-drone-no-2026-03-14/",
+          "domain": "reuters.com",
+          "tier": "wire"
         }
       ],
       "confidence": "high",
       "_via": "rss",
-      "_search_count": 1,
-      "_next_search_at": 1773535825.0
+      "_search_count": 2,
+      "_next_search_at": 1773553825.0
     },
     {
       "id": "8a445c608d43",
