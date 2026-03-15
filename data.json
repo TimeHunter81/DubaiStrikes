@@ -1,36 +1,7 @@
 {
-  "last_updated": "2026-03-15T07:02:29Z",
+  "last_updated": "2026-03-15T07:14:19Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
-    {
-      "id": "43214bb0e740",
-      "datetime": "2026-03-15T06:46:15Z",
-      "type": "security_alert",
-      "confirmed": true,
-      "precision": "country",
-      "title": "IRGC claims missile/drone launch targeting US airbase in UAE",
-      "location": "Uae",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/irgc-says-it-launched-missiles-and-drones-targeting-us-airbase-uae",
-          "domain": "middleeasteye.net",
-          "tier": "local"
-        },
-        {
-          "url": "https://www.aljazeera.com/news/2026/3/7/iranian-missiles-intercepted-over-saudi-jordan-drones-launched-at-qatar",
-          "domain": "aljazeera.com",
-          "tier": "wire"
-        }
-      ],
-      "snippet": "&lt;article data-history-node-id=\"435802\" about=\"https://www.middleeasteye.net/live-blog/live-blog-update/irgc-says-it-launched-missiles-and-drones-targeting-us-airbase-uae\" class=\"live-blog-update default clearfix\"&gt;\n\n  \n      &lt;h2&gt;\n      &lt",
-      "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/000_A2VF9VD.jpg",
-      "_via": "rss",
-      "confidence": "low",
-      "_search_count": 1,
-      "_next_search_at": 1773560775.0
-    },
     {
       "id": "f238ecf9b2b",
       "datetime": "2026-03-15T03:40:10Z",
@@ -55,6 +26,11 @@
         {
           "url": "https://www.thenationalnews.com/news/uae/2026/03/13/debris-hits-dubai-building-after-air-strike-intercepted-as-more-alerts-issued/",
           "domain": "thenationalnews.com",
+          "tier": "local"
+        },
+        {
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/irgc-says-it-launched-missiles-and-drones-targeting-us-airbase-uae",
+          "domain": "middleeasteye.net",
           "tier": "local"
         }
       ],
