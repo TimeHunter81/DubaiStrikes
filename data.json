@@ -1,7 +1,29 @@
 {
-  "last_updated": "2026-03-15T21:07:00Z",
+  "last_updated": "2026-03-15T21:22:12Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
+    {
+      "id": "fb71efe3c093",
+      "datetime": "2026-03-15T21:02:53Z",
+      "type": "interception",
+      "confirmed": false,
+      "precision": "country",
+      "title": "British forces intercept multiple Iranian drones over UAE",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://gulfnews.com/world/mena/british-counter-drone-fighters-hit-multiple-iranian-drones-1.500475578",
+          "domain": "gulfnews.com",
+          "tier": "local"
+        }
+      ],
+      "snippet": null,
+      "preview_image": "https://media.assettype.com/gulfnews%2F2025-10-05%2Fn35q1gu6%2FANI_20251005092040.jpg?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
+      "_via": "rss",
+      "confidence": "low"
+    },
     {
       "id": "e7cf0151c6d6",
       "datetime": "2026-03-15T12:03:51Z",
