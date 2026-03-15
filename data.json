@@ -48,7 +48,7 @@
       "id": "43214bb0e740",
       "datetime": "2026-03-15T06:46:15Z",
       "type": "interception",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "district",
       "title": "IRGC claims missiles and drones launched targeting UAE airbase",
       "location": "Al Dhafra Air Base, UAE",
@@ -64,12 +64,17 @@
           "url": "https://abcnews.com/International/live-updates/iran-live-updates/?id=130893022",
           "domain": "abcnews.com",
           "tier": "wire"
+        },
+        {
+          "url": "https://www.aljazeera.com/news/2026/3/7/iranian-missiles-intercepted-over-saudi-jordan-drones-launched-at-qatar",
+          "domain": "aljazeera.com",
+          "tier": "wire"
         }
       ],
       "_via": "rss",
       "confidence": "low",
-      "_search_count": 2,
-      "_next_search_at": 1773578775.0
+      "_search_count": 3,
+      "_next_search_at": 1773643575.0
     },
     {
       "id": "f238ecf9b2b",
