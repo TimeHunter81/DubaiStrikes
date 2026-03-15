@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-15T12:55:00Z",
+  "last_updated": "2026-03-15T13:06:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -25,7 +25,27 @@
         }
       ],
       "_via": "rss",
-      "confidence": "medium"
+      "confidence": "high"
+    },
+    {
+      "id": "43214bb0e740",
+      "datetime": "2026-03-15T06:46:15Z",
+      "type": "interception",
+      "confirmed": false,
+      "precision": "district",
+      "title": "IRGC claims missiles and drones launched targeting UAE airbase",
+      "location": "Al Dhafra Air Base, UAE",
+      "lat": 24.2481,
+      "lon": 54.5478,
+      "sources": [
+        {
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/irgc-says-it-launched-missiles-and-drones-targeting-us-airbase-uae",
+          "domain": "middleeasteye.net",
+          "tier": "local"
+        }
+      ],
+      "_via": "rss",
+      "confidence": "low"
     },
     {
       "id": "f238ecf9b2b",
