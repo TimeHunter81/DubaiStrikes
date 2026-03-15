@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-15T04:07:00Z",
+  "last_updated": "2026-03-15T04:20:56Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -8,7 +8,7 @@
       "type": "interception",
       "confirmed": true,
       "precision": "city",
-      "title": "UAE air defences respond to missile threat, residents urged to stay safe",
+      "title": "UAE air defences intercept missiles, residents alerted — Mar 15",
       "location": "Dubai, UAE",
       "lat": 25.2048,
       "lon": 55.2708,
@@ -40,7 +40,7 @@
       "type": "impact_minor",
       "confirmed": true,
       "precision": "district",
-      "title": "Fire at Ruwais industrial complex after drone incident — contained",
+      "title": "Drone hits Ruwais industrial complex — fire contained, Abu Dhabi",
       "location": "Ruwais, Abu Dhabi",
       "lat": 24.1072,
       "lon": 52.729,
@@ -100,24 +100,39 @@
       "_via": "rss"
     },
     {
-      "id": "4cf787fd2ccb",
-      "datetime": "2026-03-14T03:00:02Z",
-      "type": "impact_minor",
+      "id": "8a445c608d43",
+      "datetime": "2026-03-14T10:10:04Z",
+      "type": "interception",
       "confirmed": true,
-      "precision": "city",
-      "title": "Missile interception debris hits Dubai building, no injuries",
-      "location": "Dubai",
-      "lat": 25.2048,
-      "lon": 55.2708,
+      "precision": "country",
+      "title": "UAE air defences intercept 9 ballistic missiles, 33 drones — Mar 14",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
       "sources": [
         {
-          "url": "https://www.bbc.com/news/live/c4gqjyk0vx3t?post=asset:9eace64a-2615-45f5-88c7-fd83e329e89d",
-          "domain": "bbc.com",
+          "url": "https://apnews.com/live/iran-war-israel-trump-03-14-2026",
+          "domain": "apnews.com",
           "tier": "wire"
         },
         {
-          "url": "https://gulfnews.com/uae/debris-from-missile-interception-hits-dubai-building-no-injuries-reported-1.500474064",
+          "url": "https://thepeninsulaqatar.com/article/14/03/2026/uae-air-defences-engage-9-ballistic-missiles-33-uavs",
+          "domain": "thepeninsulaqatar.com",
+          "tier": "wire"
+        },
+        {
+          "url": "https://gulfnews.com/uae/uae-downs-9-ballistic-missiles-33-drones-on-march-14-1.500474391",
           "domain": "gulfnews.com",
+          "tier": "local"
+        },
+        {
+          "url": "https://emirates247.com/uae/uae-air-defences-intercept-9-ballistic-missiles-33-drones/220",
+          "domain": "emirates247.com",
+          "tier": "local"
+        },
+        {
+          "url": "https://www.thenationalnews.com/news/uae/2026/03/14/uae-intercepts-9-iranian-ballistic-missiles-and-33-drones-on-saturday/",
+          "domain": "thenationalnews.com",
           "tier": "local"
         }
       ],
@@ -165,39 +180,24 @@
       "_via": "rss"
     },
     {
-      "id": "8a445c608d43",
-      "datetime": "2026-03-14T10:10:04Z",
-      "type": "interception",
+      "id": "4cf787fd2ccb",
+      "datetime": "2026-03-14T03:00:02Z",
+      "type": "impact_minor",
       "confirmed": true,
-      "precision": "country",
-      "title": "UAE air defences intercept 9 ballistic missiles, 33 drones — Mar 14",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
+      "precision": "city",
+      "title": "Interception debris hits Dubai building, no injuries",
+      "location": "Dubai",
+      "lat": 25.2048,
+      "lon": 55.2708,
       "sources": [
         {
-          "url": "https://apnews.com/live/iran-war-israel-trump-03-14-2026",
-          "domain": "apnews.com",
+          "url": "https://www.bbc.com/news/live/c4gqjyk0vx3t?post=asset:9eace64a-2615-45f5-88c7-fd83e329e89d",
+          "domain": "bbc.com",
           "tier": "wire"
         },
         {
-          "url": "https://thepeninsulaqatar.com/article/14/03/2026/uae-air-defences-engage-9-ballistic-missiles-33-uavs",
-          "domain": "thepeninsulaqatar.com",
-          "tier": "wire"
-        },
-        {
-          "url": "https://gulfnews.com/uae/uae-downs-9-ballistic-missiles-33-drones-on-march-14-1.500474391",
+          "url": "https://gulfnews.com/uae/debris-from-missile-interception-hits-dubai-building-no-injuries-reported-1.500474064",
           "domain": "gulfnews.com",
-          "tier": "local"
-        },
-        {
-          "url": "https://emirates247.com/uae/uae-air-defences-intercept-9-ballistic-missiles-33-drones/220",
-          "domain": "emirates247.com",
-          "tier": "local"
-        },
-        {
-          "url": "https://www.thenationalnews.com/news/uae/2026/03/14/uae-intercepts-9-iranian-ballistic-missiles-and-33-drones-on-saturday/",
-          "domain": "thenationalnews.com",
           "tier": "local"
         }
       ],
