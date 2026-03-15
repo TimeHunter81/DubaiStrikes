@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-03-15T12:45:41Z",
+  "last_updated": "2026-03-15T12:55:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
       "id": "e7cf0151c6d6",
       "datetime": "2026-03-15T12:03:51Z",
       "type": "interception",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "country",
       "title": "UAE air defences intercept 4 ballistic missiles, 6 drones — Mar 15",
       "location": "UAE",
@@ -25,9 +25,7 @@
         }
       ],
       "_via": "rss",
-      "confidence": "low",
-      "_search_count": 1,
-      "_next_search_at": 1773579831.0
+      "confidence": "medium"
     },
     {
       "id": "f238ecf9b2b",
