@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-03-15T21:22:12Z",
+  "last_updated": "2026-03-15T21:32:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
       "id": "fb71efe3c093",
       "datetime": "2026-03-15T21:02:53Z",
       "type": "interception",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "country",
       "title": "British forces intercept multiple Iranian drones over UAE",
       "location": "UAE",
@@ -24,10 +24,8 @@
           "tier": "wire"
         }
       ],
-      "snippet": null,
-      "preview_image": "https://media.assettype.com/gulfnews%2F2025-10-05%2Fn35q1gu6%2FANI_20251005092040.jpg?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
-      "confidence": "low",
+      "confidence": "high",
       "_search_count": 1,
       "_next_search_at": 1773612173.0
     },
@@ -77,7 +75,7 @@
       "id": "43214bb0e740",
       "datetime": "2026-03-15T06:46:15Z",
       "type": "interception",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "district",
       "title": "IRGC launches missiles and drones at Al Dhafra Air Base",
       "location": "Al Dhafra Air Base, UAE",
