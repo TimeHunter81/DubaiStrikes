@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-15T22:11:59Z",
+  "last_updated": "2026-03-15T22:21:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -8,7 +8,7 @@
       "type": "interception",
       "confirmed": false,
       "precision": "country",
-      "title": "British forces intercept multiple Iranian drones over UAE",
+      "title": "British forces intercept Iranian drones over UAE",
       "location": "UAE",
       "lat": null,
       "lon": null,
@@ -25,9 +25,7 @@
         }
       ],
       "_via": "rss",
-      "confidence": "high",
-      "_search_count": 2,
-      "_next_search_at": 1773630173.0
+      "confidence": "high"
     },
     {
       "id": "e7cf0151c6d6",
@@ -66,8 +64,8 @@
           "tier": "wire"
         }
       ],
-      "confidence": "high",
-      "_via": "rss"
+      "_via": "rss",
+      "confidence": "high"
     },
     {
       "id": "43214bb0e740",
@@ -101,10 +99,8 @@
           "tier": "wire"
         }
       ],
-      "confidence": "medium",
       "_via": "rss",
-      "_search_count": 2,
-      "_next_search_at": 1773578775.0
+      "confidence": "medium"
     },
     {
       "id": "f238ecf9b2b",
@@ -143,8 +139,8 @@
           "tier": "local"
         }
       ],
-      "confidence": "high",
-      "_via": "rss"
+      "_via": "rss",
+      "confidence": "high"
     },
     {
       "id": "a84a453be842",
@@ -168,8 +164,8 @@
           "tier": "wire"
         }
       ],
-      "confidence": "high",
-      "_via": "rss"
+      "_via": "rss",
+      "confidence": "high"
     },
     {
       "id": "00030061e54d",
@@ -208,8 +204,8 @@
           "tier": "local"
         }
       ],
-      "confidence": "high",
-      "_via": "rss"
+      "_via": "rss",
+      "confidence": "high"
     },
     {
       "id": "8a445c608d43",
@@ -248,8 +244,8 @@
           "tier": "local"
         }
       ],
-      "confidence": "high",
-      "_via": "rss"
+      "_via": "rss",
+      "confidence": "high"
     },
     {
       "id": "4e64c0315a2b",
@@ -288,8 +284,8 @@
           "tier": "local"
         }
       ],
-      "confidence": "high",
-      "_via": "rss"
+      "_via": "rss",
+      "confidence": "high"
     },
     {
       "id": "4cf787fd2ccb",
@@ -313,8 +309,8 @@
           "tier": "local"
         }
       ],
-      "confidence": "high",
-      "_via": "rss"
+      "_via": "rss",
+      "confidence": "high"
     },
     {
       "id": "780a01b87f72",
