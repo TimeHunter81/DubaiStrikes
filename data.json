@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-15T11:31:31Z",
+  "last_updated": "2026-03-15T11:42:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -29,14 +29,14 @@
           "tier": "local"
         },
         {
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/irgc-says-it-launched-missiles-and-drones-targeting-us-airbase-uae",
-          "domain": "middleeasteye.net",
-          "tier": "local"
-        },
-        {
           "url": "https://www.reuters.com/world/middle-east/trump-threatens-strike-irans-kharg-island-oil-network-if-shipping-lanes-remain-2026-03-14/",
           "domain": "reuters.com",
           "tier": "wire"
+        },
+        {
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/irgc-says-it-launched-missiles-and-drones-targeting-us-airbase-uae",
+          "domain": "middleeasteye.net",
+          "tier": "local"
         }
       ],
       "_via": "rss",
@@ -84,8 +84,8 @@
           "tier": "local"
         },
         {
-          "url": "https://thepeninsulaqatar.com/article/14/03/2026/live-updates-qatar-intercept-missile-attacks-issues-evacuation-notice-in-some-areas",
-          "domain": "thepeninsulaqatar.com",
+          "url": "https://www.reuters.com/world/middle-east/fire-occurred-uaes-fujairah-after-debris-fell-during-interception-drone-no-2026-03-14/",
+          "domain": "reuters.com",
           "tier": "wire"
         },
         {
@@ -94,8 +94,8 @@
           "tier": "wire"
         },
         {
-          "url": "https://www.reuters.com/world/middle-east/fire-occurred-uaes-fujairah-after-debris-fell-during-interception-drone-no-2026-03-14/",
-          "domain": "reuters.com",
+          "url": "https://thepeninsulaqatar.com/article/14/03/2026/live-updates-qatar-intercept-missile-attacks-issues-evacuation-notice-in-some-areas",
+          "domain": "thepeninsulaqatar.com",
           "tier": "wire"
         },
         {
