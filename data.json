@@ -1,7 +1,29 @@
 {
-  "last_updated": "2026-03-15T06:48:00Z",
+  "last_updated": "2026-03-15T07:02:29Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
+    {
+      "id": "43214bb0e740",
+      "datetime": "2026-03-15T06:46:15Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "IRGC claims missile/drone launch targeting US airbase in UAE",
+      "location": "Uae",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/irgc-says-it-launched-missiles-and-drones-targeting-us-airbase-uae",
+          "domain": "middleeasteye.net",
+          "tier": "local"
+        }
+      ],
+      "snippet": "&lt;article data-history-node-id=\"435802\" about=\"https://www.middleeasteye.net/live-blog/live-blog-update/irgc-says-it-launched-missiles-and-drones-targeting-us-airbase-uae\" class=\"live-blog-update default clearfix\"&gt;\n\n  \n      &lt;h2&gt;\n      &lt",
+      "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/000_A2VF9VD.jpg",
+      "_via": "rss",
+      "confidence": "low"
+    },
     {
       "id": "f238ecf9b2b",
       "datetime": "2026-03-15T03:40:10Z",
