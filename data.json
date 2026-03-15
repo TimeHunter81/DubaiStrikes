@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-03-15T07:20:00Z",
+  "last_updated": "2026-03-15T07:29:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
       "id": "f238ecf9b2b",
       "datetime": "2026-03-15T03:40:10Z",
       "type": "interception",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "city",
       "title": "UAE air defences intercept missiles over Dubai — Mar 15",
       "location": "Dubai, UAE",
