@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-15T06:18:00Z",
+  "last_updated": "2026-03-15T06:30:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -26,13 +26,33 @@
         {
           "url": "https://www.thenationalnews.com/news/uae/2026/03/13/debris-hits-dubai-building-after-air-strike-intercepted-as-more-alerts-issued/",
           "domain": "thenationalnews.com",
-          "tier": "wire"
+          "tier": "local"
         }
       ],
       "_via": "rss",
       "confidence": "high",
       "_search_count": 1,
       "_next_search_at": 1773549610.0
+    },
+    {
+      "id": "a84a453be842",
+      "datetime": "2026-03-15T00:32:58Z",
+      "type": "impact_minor",
+      "confirmed": false,
+      "precision": "district",
+      "title": "Fire at Ruwais industrial complex contained after drone incident",
+      "location": "Ruwais, Abu Dhabi",
+      "lat": 24.1085,
+      "lon": 52.7289,
+      "sources": [
+        {
+          "url": "https://gulfnews.com/uae/abu-dhabi-authorities-contain-fire-at-ruwais-complex-after-drone-incident-1.500474856",
+          "domain": "gulfnews.com",
+          "tier": "local"
+        }
+      ],
+      "_via": "rss",
+      "confidence": "low"
     },
     {
       "id": "00030061e54d",
