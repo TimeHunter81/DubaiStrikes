@@ -1,7 +1,29 @@
 {
-  "last_updated": "2026-03-15T00:01:00Z",
+  "last_updated": "2026-03-15T00:14:25Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
+    {
+      "id": "00030061e54d",
+      "datetime": "2026-03-14T23:50:25Z",
+      "type": "interception",
+      "confirmed": false,
+      "precision": "exact",
+      "title": "Air defence interception over Dubai Marina / Al Sufouh",
+      "location": "Dubai Marina",
+      "lat": 25.0819,
+      "lon": 55.1367,
+      "sources": [
+        {
+          "url": "https://gulfnews.com/uae/loud-sounds-in-dubai-marina-al-sufouh-after-air-defence-interception-1.500474846",
+          "domain": "gulfnews.com",
+          "tier": "local"
+        }
+      ],
+      "snippet": null,
+      "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-06%2F2cx9y26d%2FDubai-Marina.jpg?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
+      "_via": "rss",
+      "confidence": "low"
+    },
     {
       "id": "8a445c608d43",
       "datetime": "2026-03-14T10:10:04Z",
