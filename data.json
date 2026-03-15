@@ -6,7 +6,7 @@
       "id": "00030061e54d",
       "datetime": "2026-03-14T23:50:25Z",
       "type": "interception",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "exact",
       "title": "Air defence interception over Dubai Marina / Al Sufouh",
       "location": "Dubai Marina",
@@ -22,12 +22,19 @@
           "url": "https://thepeninsulaqatar.com/article/14/03/2026/live-updates-qatar-intercept-missile-attacks-issues-evacuation-notice-in-some-areas",
           "domain": "thepeninsulaqatar.com",
           "tier": "wire"
+        },
+        {
+          "url": "https://www.theweek.in/news/middle-east/2026/03/14/dubai-financial-hub-missile-strike-impact.html",
+          "domain": "theweek.in",
+          "tier": "wire"
         }
       ],
       "snippet": null,
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-06%2F2cx9y26d%2FDubai-Marina.jpg?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
       "_via": "rss",
-      "confidence": "high"
+      "confidence": "high",
+      "_search_count": 1,
+      "_next_search_at": 1773535825.0
     },
     {
       "id": "8a445c608d43",
