@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-15T23:09:00Z",
+  "last_updated": "2026-03-15T23:25:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -25,9 +25,7 @@
         }
       ],
       "_via": "rss",
-      "confidence": "high",
-      "_search_count": 2,
-      "_next_search_at": 1773633761.0
+      "confidence": "high"
     },
     {
       "id": "e7cf0151c6d6",
@@ -75,7 +73,7 @@
       "type": "interception",
       "confirmed": true,
       "precision": "district",
-      "title": "IRGC launches missiles and drones at Al Dhafra Air Base",
+      "title": "IRGC fires missiles and drones at Al Dhafra Air Base — Mar 15",
       "location": "Al Dhafra Air Base, UAE",
       "lat": 24.2481,
       "lon": 54.5478,
@@ -102,7 +100,7 @@
         }
       ],
       "_via": "rss",
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "f238ecf9b2b",
