@@ -31,7 +31,9 @@
       ],
       "confidence": "low",
       "preview_image": "https://media.cnn.com/api/v1/images/stellar/prod/ap26067484115759-20260311143008704.jpg?c=16x9&q=w_800,c_fill",
-      "_via": "gdelt"
+      "_via": "gdelt",
+      "_search_count": 1,
+      "_next_search_at": 1773594711.0
     },
     {
       "id": "0a56ba61b8ae",
@@ -97,7 +99,9 @@
       "snippet": null,
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-15%2F0z1pzzqw%2FSilver-coin?rect=0%2C11%2C435%2C228&amp;w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1773589558.0
     },
     {
       "id": "a0057a2d54e7",
@@ -119,7 +123,9 @@
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/XUG26GMQQQMXJPVD47UXR65ISY.jpg?smart=true&amp;auth=20a3dc29135041c23dfc92dc45ddea3f523d6fde0f218d6bc781ff329fbe0494&amp;width=1200&amp;height=630",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1773589298.0
     },
     {
       "id": "9a10f10805e5",
@@ -229,7 +235,9 @@
       "snippet": null,
       "preview_image": "https://media.assettype.com/gulfnews%2Fimport%2F2021%2F03%2F09%2FStock-Dubai-courts-and-Public-Prosecution_17817bae0a8_large.JPG?rect=0%2C51%2C750%2C394&amp;w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1773584405.0
     },
     {
       "id": "367573f8ed06",
