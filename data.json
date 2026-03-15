@@ -1,10 +1,10 @@
 {
-  "last_updated": "2026-03-15T11:12:00Z",
+  "last_updated": "2026-03-15T11:25:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
       "id": "f238ecf9b2b",
-      "datetime": "2026-03-15T03:40:10Z",
+      "datetime": "2026-03-15T03:40:00Z",
       "type": "interception",
       "confirmed": true,
       "precision": "city",
