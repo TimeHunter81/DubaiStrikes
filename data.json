@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-15T01:38:00Z",
+  "last_updated": "2026-03-15T01:44:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -33,7 +33,7 @@
     },
     {
       "id": "00030061e54d",
-      "datetime": "2026-03-14T23:50:25Z",
+      "datetime": "2026-03-14T23:49:00Z",
       "type": "interception",
       "confirmed": true,
       "precision": "exact",
