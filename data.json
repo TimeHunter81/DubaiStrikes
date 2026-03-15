@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-15T01:04:00Z",
+  "last_updated": "2026-03-15T01:17:51Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -27,7 +27,7 @@
       "snippet": null,
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-09%2F25edr5q3%2Fzvp01xk01ka05t6po.jpg?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
       "_via": "rss",
-      "confidence": "low",
+      "confidence": "high",
       "_search_count": 1,
       "_next_search_at": 1773538378.0
     },
@@ -61,6 +61,11 @@
           "url": "https://www.reuters.com/world/middle-east/fire-occurred-uaes-fujairah-after-debris-fell-during-interception-drone-no-2026-03-14/",
           "domain": "reuters.com",
           "tier": "wire"
+        },
+        {
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/dubai-reports-successful-air-defense-interceptions-after-loud-sounds",
+          "domain": "middleeasteye.net",
+          "tier": "local"
         }
       ],
       "confidence": "high",
