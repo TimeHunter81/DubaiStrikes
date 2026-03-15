@@ -6,7 +6,7 @@
       "id": "e7cf0151c6d6",
       "datetime": "2026-03-15T12:03:51Z",
       "type": "interception",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "UAE air defences intercept 4 ballistic missiles, 6 drones — Mar 15",
       "location": "UAE",
@@ -32,18 +32,23 @@
           "url": "https://www.middleeasteye.net/live-blog/live-blog-update/uae-intercepts-four-ballistic-missiles-six-drones",
           "domain": "middleeasteye.net",
           "tier": "local"
+        },
+        {
+          "url": "https://www.bbc.com/news/live/ckg1w1jp8kjt",
+          "domain": "bbc.com",
+          "tier": "wire"
         }
       ],
       "_via": "rss",
       "confidence": "high",
-      "_search_count": 1,
-      "_next_search_at": 1773579831.0
+      "_search_count": 2,
+      "_next_search_at": 1773597831.0
     },
     {
       "id": "43214bb0e740",
       "datetime": "2026-03-15T06:46:15Z",
       "type": "interception",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "district",
       "title": "IRGC claims missiles and drones launched targeting UAE airbase",
       "location": "Al Dhafra Air Base, UAE",
@@ -63,8 +68,8 @@
       ],
       "_via": "rss",
       "confidence": "low",
-      "_search_count": 1,
-      "_next_search_at": 1773560775.0
+      "_search_count": 2,
+      "_next_search_at": 1773578775.0
     },
     {
       "id": "f238ecf9b2b",
