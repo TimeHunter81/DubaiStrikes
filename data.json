@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-15T18:03:00Z",
+  "last_updated": "2026-03-15T18:18:01Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -39,8 +39,8 @@
           "tier": "wire"
         }
       ],
-      "_via": "rss",
       "confidence": "high",
+      "_via": "rss",
       "_search_count": 2,
       "_next_search_at": 1773597831.0
     },
@@ -48,9 +48,9 @@
       "id": "43214bb0e740",
       "datetime": "2026-03-15T06:46:15Z",
       "type": "interception",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "district",
-      "title": "IRGC targets Al Dhafra Air Base with missiles and drones",
+      "title": "IRGC claims missile/drone launch targeting Al Dhafra Air Base",
       "location": "Al Dhafra Air Base, UAE",
       "lat": 24.2481,
       "lon": 54.5478,
@@ -64,15 +64,10 @@
           "url": "https://abcnews.com/International/live-updates/iran-live-updates/?id=130893022",
           "domain": "abcnews.com",
           "tier": "wire"
-        },
-        {
-          "url": "https://www.aljazeera.com/news/2026/3/7/iranian-missiles-intercepted-over-saudi-jordan-drones-launched-at-qatar",
-          "domain": "aljazeera.com",
-          "tier": "wire"
         }
       ],
-      "_via": "rss",
       "confidence": "medium",
+      "_via": "rss",
       "_search_count": 3,
       "_next_search_at": 1773643575.0
     },
@@ -113,8 +108,8 @@
           "tier": "local"
         }
       ],
-      "_via": "rss",
-      "confidence": "high"
+      "confidence": "high",
+      "_via": "rss"
     },
     {
       "id": "a84a453be842",
@@ -138,8 +133,8 @@
           "tier": "wire"
         }
       ],
-      "_via": "rss",
-      "confidence": "high"
+      "confidence": "high",
+      "_via": "rss"
     },
     {
       "id": "00030061e54d",
