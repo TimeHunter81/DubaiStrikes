@@ -25,7 +25,9 @@
         }
       ],
       "_via": "rss",
-      "confidence": "high"
+      "confidence": "high",
+      "_search_count": 1,
+      "_next_search_at": 1773612173.0
     },
     {
       "id": "e7cf0151c6d6",
@@ -71,7 +73,7 @@
       "id": "43214bb0e740",
       "datetime": "2026-03-15T06:46:15Z",
       "type": "interception",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "district",
       "title": "IRGC launches missiles and drones at Al Dhafra Air Base",
       "location": "Al Dhafra Air Base, UAE",
@@ -87,10 +89,17 @@
           "url": "https://abcnews.com/International/live-updates/iran-live-updates/?id=130893022",
           "domain": "abcnews.com",
           "tier": "wire"
+        },
+        {
+          "url": "https://www.wionews.com/videos/irgc-launches-53rd-wave-missiles-and-drones-strike-al-dhafra-1773575990857",
+          "domain": "wionews.com",
+          "tier": "wire"
         }
       ],
       "confidence": "medium",
-      "_via": "rss"
+      "_via": "rss",
+      "_search_count": 1,
+      "_next_search_at": 1773560775.0
     },
     {
       "id": "f238ecf9b2b",
