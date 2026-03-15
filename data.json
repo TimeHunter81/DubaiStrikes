@@ -6,7 +6,7 @@
       "id": "f238ecf91e2b",
       "datetime": "2026-03-15T03:40:10Z",
       "type": "interception",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "UAE air defences respond to missile threat, residents urged to stay safe",
       "location": "Dubai, UAE",
@@ -22,10 +22,17 @@
           "url": "https://www.aljazeera.com/news/2026/3/14/iran-continues-intensified-attacks-across-gulf-in-us-israel-war-fallout",
           "domain": "aljazeera.com",
           "tier": "wire"
+        },
+        {
+          "url": "https://www.thenationalnews.com/news/uae/2026/03/13/debris-hits-dubai-building-after-air-strike-intercepted-as-more-alerts-issued/",
+          "domain": "thenationalnews.com",
+          "tier": "wire"
         }
       ],
       "_via": "rss",
-      "confidence": "high"
+      "confidence": "high",
+      "_search_count": 1,
+      "_next_search_at": 1773549610.0
     },
     {
       "id": "a84a453be842",
