@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-15T23:03:17Z",
+  "last_updated": "2026-03-15T23:09:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -8,7 +8,7 @@
       "type": "interception",
       "confirmed": false,
       "precision": "country",
-      "title": "British forces intercept Iranian drones over UAE",
+      "title": "British Typhoon/F-35 jets intercept Iranian drones over UAE",
       "location": "UAE",
       "lat": null,
       "lon": null,
