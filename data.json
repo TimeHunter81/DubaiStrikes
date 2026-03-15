@@ -6,7 +6,7 @@
       "id": "fb71efe3c093",
       "datetime": "2026-03-15T21:02:53Z",
       "type": "interception",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "British forces intercept multiple Iranian drones over UAE",
       "location": "UAE",
@@ -17,12 +17,19 @@
           "url": "https://gulfnews.com/world/mena/british-counter-drone-fighters-hit-multiple-iranian-drones-1.500475578",
           "domain": "gulfnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://en.defence-ua.com/news/uk_defense_intelligence_typhoon_and_f_35_jets_fly_first_air_defense_patrols_over_bahrain_defend_qatar_cyprus_uae_and_jordan_drones_shot_down_after_iraq_base_attacks_400_air_defense_personnel_deployed-17825.html",
+          "domain": "en.defence-ua.com",
+          "tier": "wire"
         }
       ],
       "snippet": null,
       "preview_image": "https://media.assettype.com/gulfnews%2F2025-10-05%2Fn35q1gu6%2FANI_20251005092040.jpg?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1773612173.0
     },
     {
       "id": "e7cf0151c6d6",
