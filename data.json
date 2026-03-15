@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-15T08:12:00Z",
+  "last_updated": "2026-03-15T08:21:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -48,7 +48,7 @@
       "type": "impact_minor",
       "confirmed": true,
       "precision": "district",
-      "title": "Fire at Ruwais industrial complex contained after drone incident",
+      "title": "Fire at Ruwais industrial complex after drone incident",
       "location": "Ruwais, Abu Dhabi",
       "lat": 24.1085,
       "lon": 52.7289,
