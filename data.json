@@ -6,12 +6,12 @@
       "id": "fb71efe3c093",
       "datetime": "2026-03-15T22:02:41Z",
       "type": "interception",
-      "confirmed": false,
-      "precision": "country",
+      "confirmed": true,
+      "precision": "city",
       "title": "British Typhoon/F-35 jets intercept Iranian drones over UAE",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
+      "location": "Dubai, UAE",
+      "lat": 25.2048,
+      "lon": 55.2708,
       "sources": [
         {
           "url": "https://gulfnews.com/world/mena/british-counter-drone-fighters-hit-multiple-iranian-drones-1.500475578",
@@ -30,7 +30,9 @@
         }
       ],
       "_via": "rss",
-      "confidence": "high"
+      "confidence": "high",
+      "_search_count": 1,
+      "_next_search_at": 1773615761.0
     },
     {
       "id": "e7cf0151c6d6",
