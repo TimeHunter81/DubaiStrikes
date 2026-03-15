@@ -6,7 +6,7 @@
       "id": "e7cf0151c6d6",
       "datetime": "2026-03-15T12:03:51Z",
       "type": "interception",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "UAE air defences intercept 4 ballistic missiles, 6 drones — Mar 15",
       "location": "UAE",
@@ -17,10 +17,17 @@
           "url": "https://gulfnews.com/uae/government/uae-air-defences-intercept-4-iranian-ballistic-missiles-and-6-drones-today-1.500475234",
           "domain": "gulfnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://indianexpress.com/article/world/uae-dubai-us-iran-israel-middle-east-drones-flights-live-updates-10580967/",
+          "domain": "indianexpress.com",
+          "tier": "wire"
         }
       ],
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1773579831.0
     },
     {
       "id": "f238ecf9b2b",
