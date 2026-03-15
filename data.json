@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-15T06:08:00Z",
+  "last_updated": "2026-03-15T06:18:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -33,31 +33,6 @@
       "confidence": "high",
       "_search_count": 1,
       "_next_search_at": 1773549610.0
-    },
-    {
-      "id": "a84a453be842",
-      "datetime": "2026-03-15T00:32:58Z",
-      "type": "impact_minor",
-      "confirmed": true,
-      "precision": "district",
-      "title": "Drone hits Ruwais industrial complex — fire contained, Abu Dhabi",
-      "location": "Ruwais, Abu Dhabi",
-      "lat": 24.1072,
-      "lon": 52.729,
-      "sources": [
-        {
-          "url": "https://gulfnews.com/uae/abu-dhabi-authorities-contain-fire-at-ruwais-complex-after-drone-incident-1.500474856",
-          "domain": "gulfnews.com",
-          "tier": "local"
-        },
-        {
-          "url": "https://www.reuters.com/world/middle-east/fire-hits-site-housing-abu-dhabi-national-oil-company-operations-after-drone-2026-03-10/",
-          "domain": "reuters.com",
-          "tier": "wire"
-        }
-      ],
-      "_via": "rss",
-      "confidence": "high"
     },
     {
       "id": "00030061e54d",
