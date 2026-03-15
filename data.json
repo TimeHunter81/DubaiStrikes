@@ -6,7 +6,7 @@
       "id": "fb71efe3c093",
       "datetime": "2026-03-15T22:02:41Z",
       "type": "interception",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "British Typhoon/F-35 jets intercept Iranian drones over UAE",
       "location": "UAE",
@@ -22,10 +22,17 @@
           "url": "https://en.defence-ua.com/news/uk_defense_intelligence_typhoon_and_f_35_jets_fly_first_air_defense_patrols_over_bahrain_defend_qatar_cyprus_uae_and_jordan_drones_shot_down_after_iraq_base_attacks_400_air_defense_personnel_deployed-17825.html",
           "domain": "en.defence-ua.com",
           "tier": "wire"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/2026_Iranian_strikes_on_the_United_Arab_Emirates",
+          "domain": "en.wikipedia.org",
+          "tier": "wire"
         }
       ],
       "_via": "rss",
-      "confidence": "high"
+      "confidence": "high",
+      "_search_count": 1,
+      "_next_search_at": 1773615761.0
     },
     {
       "id": "e7cf0151c6d6",
