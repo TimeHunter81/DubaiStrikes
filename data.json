@@ -1,7 +1,32 @@
 {
-  "last_updated": "2026-03-16T07:05:00Z",
+  "last_updated": "2026-03-16T07:16:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
+    {
+      "id": "80803aaba953",
+      "datetime": "2026-03-16T07:00:37Z",
+      "type": "impact_major",
+      "confirmed": false,
+      "precision": "city",
+      "title": "Iranian missile hits civilian car in Abu Dhabi — 1 killed",
+      "location": "Abu Dhabi",
+      "lat": 24.4539,
+      "lon": 54.3773,
+      "sources": [
+        {
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/one-person-killed-missile-attack-civilian-car-abu-dhabi-statement",
+          "domain": "middleeasteye.net",
+          "tier": "local"
+        },
+        {
+          "url": "https://www.thenationalnews.com/news/mena/2026/03/16/live-us-israel-iran-war-dubai-airport/",
+          "domain": "thenationalnews.com",
+          "tier": "local"
+        }
+      ],
+      "_via": "rss",
+      "confidence": "low"
+    },
     {
       "id": "f8207d6bd9d4",
       "datetime": "2026-03-16T00:06:12Z",
