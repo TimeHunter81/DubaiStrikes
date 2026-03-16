@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-16T17:39:12Z",
+  "last_updated": "2026-03-16T17:46:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -196,7 +196,7 @@
       "confirmed": true,
       "precision": "country",
       "title": "UAE intercepts 9 ballistic missiles, 33 drones on Saturday",
-      "location": "Uae",
+      "location": "UAE",
       "lat": null,
       "lon": null,
       "sources": [
@@ -212,9 +212,9 @@
         }
       ],
       "snippet": null,
-      "preview_image": "https://www.thenationalnews.com/resizer/v2/NKLJKAPUQ5DTHF7ATVGQZCF22Y.jpg?smart=true&amp;auth=f7bf02e824e83f6de0ea7a60e5ac745e85bbe54569ff4e6fabcd09e2b14aa28f&amp;width=1200&amp;height=630",
+      "preview_image": null,
       "_via": "rss",
-      "confidence": "low",
+      "confidence": "high",
       "_search_count": 1,
       "_next_search_at": 1773498875.0
     },
