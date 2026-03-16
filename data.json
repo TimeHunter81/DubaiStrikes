@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-16T19:03:00Z",
+  "last_updated": "2026-03-16T19:15:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -27,9 +27,7 @@
       "snippet": null,
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-16%2Fipx5fw2k%2FUAEflag?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
       "_via": "rss",
-      "confidence": "low",
-      "_search_count": 1,
-      "_next_search_at": 1773689745.0
+      "confidence": "high"
     },
     {
       "id": "1c8e4738182d",
@@ -210,7 +208,7 @@
       "id": "ed3b0ade7acc",
       "datetime": "2026-03-14T13:34:35Z",
       "type": "interception",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "country",
       "title": "UAE intercepts 9 Iranian ballistic missiles and 33 drones on Saturday",
       "location": "UAE",
@@ -224,9 +222,7 @@
         }
       ],
       "confidence": "low",
-      "_via": "rss",
-      "_search_count": 1,
-      "_next_search_at": 1773498875.0
+      "_via": "rss"
     },
     {
       "id": "780a01b87f72",
