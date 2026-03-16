@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-03-16T02:47:00Z",
+  "last_updated": "2026-03-16T02:56:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
       "id": "f8207d6bd9d4",
       "datetime": "2026-03-16T00:06:12Z",
       "type": "impact_minor",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "exact",
       "title": "Drone hits fuel tank near Dubai Intl Airport — fire",
       "location": "Dubai International Airport",
