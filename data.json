@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-03-16T06:14:00Z",
+  "last_updated": "2026-03-16T06:27:33Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
       "id": "83f22bf68d8e",
       "datetime": "2026-03-16T05:28:37Z",
       "type": "interception",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "city",
       "title": "UAE air defences intercepting Iranian missiles and drones — Mar 16",
       "location": "Dubai, UAE",
