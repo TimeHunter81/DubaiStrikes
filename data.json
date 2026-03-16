@@ -205,12 +205,12 @@
       "id": "ed3b0ade7acc",
       "datetime": "2026-03-14T13:34:35Z",
       "type": "interception",
-      "confirmed": false,
-      "precision": "country",
+      "confirmed": true,
+      "precision": "city",
       "title": "UAE intercepts 9 Iranian ballistic missiles and 33 drones — Saturday wave",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
+      "location": "Dubai, UAE",
+      "lat": 25.2048,
+      "lon": 55.2708,
       "sources": [
         {
           "url": "https://www.thenationalnews.com/news/uae/2026/03/14/uae-intercepts-9-iranian-ballistic-missiles-and-33-drones-on-saturday/",
@@ -220,8 +220,8 @@
       ],
       "_via": "rss",
       "confidence": "low",
-      "_search_count": 1,
-      "_next_search_at": 1773498875.0
+      "_search_count": 2,
+      "_next_search_at": 1773516875.0
     },
     {
       "id": "780a01b87f72",
