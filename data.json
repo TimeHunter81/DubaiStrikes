@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-03-16T12:10:50Z",
+  "last_updated": "2026-03-16T11:16:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
       "id": "1c8e4738182d",
       "datetime": "2026-03-16T10:37:47Z",
       "type": "impact_minor",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "city",
       "title": "Drone strikes building in Umm Al Quwain — fire, no injuries",
       "location": "Umm Al Quwain",
@@ -208,10 +208,10 @@
       "id": "ed3b0ade7acc",
       "datetime": "2026-03-14T13:34:35Z",
       "type": "interception",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "country",
       "title": "UAE intercepts 9 ballistic missiles, 33 drones — Mar 14",
-      "location": "Uae",
+      "location": "UAE",
       "lat": null,
       "lon": null,
       "sources": [
@@ -221,10 +221,8 @@
           "tier": "local"
         }
       ],
-      "snippet": null,
-      "preview_image": "https://www.thenationalnews.com/resizer/v2/NKLJKAPUQ5DTHF7ATVGQZCF22Y.jpg?smart=true&amp;auth=f7bf02e824e83f6de0ea7a60e5ac745e85bbe54569ff4e6fabcd09e2b14aa28f&amp;width=1200&amp;height=630",
-      "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_via": "rss"
     },
     {
       "id": "780a01b87f72",
