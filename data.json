@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-16T16:20:00Z",
+  "last_updated": "2026-03-16T16:24:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -29,10 +29,10 @@
           "tier": "local"
         }
       ],
-      "confidence": "low",
+      "snippet": null,
+      "preview_image": null,
       "_via": "rss",
-      "_search_count": 2,
-      "_next_search_at": 1773679067.0
+      "confidence": "low"
     },
     {
       "id": "518e9d7748ee",
@@ -61,6 +61,8 @@
           "tier": "wire"
         }
       ],
+      "snippet": null,
+      "preview_image": null,
       "confidence": "high",
       "_via": "rss"
     },
@@ -96,6 +98,8 @@
           "tier": "wire"
         }
       ],
+      "snippet": null,
+      "preview_image": null,
       "confidence": "high",
       "_via": "rss"
     },
@@ -136,6 +140,8 @@
           "tier": "wire"
         }
       ],
+      "snippet": null,
+      "preview_image": null,
       "confidence": "high",
       "_via": "rss"
     },
@@ -171,32 +177,10 @@
           "tier": "wire"
         }
       ],
+      "snippet": null,
+      "preview_image": null,
       "confidence": "high",
       "_via": "rss"
-    },
-    {
-      "id": "ed3b0ade7acc",
-      "datetime": "2026-03-14T13:34:35Z",
-      "type": "interception",
-      "confirmed": true,
-      "precision": "city",
-      "title": "UAE intercepts 9 ballistic missiles and 33 drones on Saturday",
-      "location": "Abu Dhabi, UAE",
-      "lat": 24.4539,
-      "lon": 54.3773,
-      "sources": [
-        {
-          "url": "https://www.thenationalnews.com/news/uae/2026/03/14/uae-intercepts-9-iranian-ballistic-missiles-and-33-drones-on-saturday/",
-          "domain": "thenationalnews.com",
-          "tier": "local"
-        }
-      ],
-      "snippet": null,
-      "preview_image": "https://www.thenationalnews.com/resizer/v2/NKLJKAPUQ5DTHF7ATVGQZCF22Y.jpg?smart=true&auth=f7bf02e824e83f6de0ea7a60e5ac745e85bbe54569ff4e6fabcd09e2b14aa28f&width=1200&height=630",
-      "_via": "rss",
-      "confidence": "low",
-      "_search_count": 1,
-      "_next_search_at": 1773498875.0
     },
     {
       "id": "780a01b87f72",
