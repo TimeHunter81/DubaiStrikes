@@ -1,7 +1,29 @@
 {
-  "last_updated": "2026-03-16T13:54:08Z",
+  "last_updated": "2026-03-16T14:14:34Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
+    {
+      "id": "a732b2defe2b",
+      "datetime": "2026-03-16T14:00:00Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "city",
+      "title": "Dubai's Cinema Akil and its beautiful, thick-skinned community",
+      "location": "Dubai",
+      "lat": 25.2048,
+      "lon": 55.2708,
+      "sources": [
+        {
+          "url": "https://www.thenationalnews.com/opinion/comment/2026/03/16/dubai-uae-iran-israel-us-war-middle-east-cinema-art-film-culture/",
+          "domain": "thenationalnews.com",
+          "tier": "local"
+        }
+      ],
+      "snippet": null,
+      "preview_image": "https://www.thenationalnews.com/resizer/v2/N4S2PVDGNRDF5MYMEVHQZZCEH4.jpg?smart=true&amp;auth=338b1a48a6478012c7b9be9fc38ca263082246f8fbeffab9a4f5fd5d8d682ded&amp;width=1200&amp;height=630",
+      "_via": "rss",
+      "confidence": "low"
+    },
     {
       "id": "cc271c54888c",
       "datetime": "2026-03-16T13:43:19Z",
@@ -34,6 +56,28 @@
       "_via": "gdelt",
       "_search_count": 1,
       "_next_search_at": 1773672199.0
+    },
+    {
+      "id": "72031633a274",
+      "datetime": "2026-03-16T13:39:55Z",
+      "type": "security_alert",
+      "confirmed": true,
+      "precision": "country",
+      "title": "The US-Israeli strategy against Iran is working. Here is why",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.aljazeera.com/opinions/2026/3/16/the-us-israeli-strategy-against-iran-is-working-here-is-why?traffic_source=rss",
+          "domain": "aljazeera.com",
+          "tier": "wire"
+        }
+      ],
+      "snippet": "Every aspect of Iran’s ability to project regional power is being successfully degraded.",
+      "preview_image": "https://www.aljazeera.com/wp-content/uploads/2026/03/us_strikes_iran_kharg_island_airport_airbase-1773461350.jpg?resize=1920%2C1371&amp;quality=80",
+      "_via": "rss",
+      "confidence": "medium"
     },
     {
       "id": "f00a97ff729a",
@@ -130,7 +174,7 @@
       "snippet": null,
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-16%2Fa144u0p5%2Fcybr-2.jpeg?rect=0%2C56%2C712%2C374&amp;w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
-      "confidence": "low",
+      "confidence": "high",
       "_search_count": 1,
       "_next_search_at": 1773670560.0
     },
@@ -2232,50 +2276,6 @@
       ],
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/3DHZLGM52ZZFJWFXSHCFFWCU5A.jpg?smart=true&amp;auth=f5db52dd659779e0be3d5a24704feff941deb82b89195efec1beddaa4441993d&amp;width=1200&amp;height=630",
-      "_via": "rss",
-      "confidence": "low"
-    },
-    {
-      "id": "e6bc7d2cd331",
-      "datetime": "2026-03-15T05:32:50Z",
-      "type": "security_alert",
-      "confirmed": false,
-      "precision": "country",
-      "title": "Three more Iranian women players to return home after changing minds on asylum in Australia",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.thenationalnews.com/sport/football/2026/03/15/three-iranian-womens-players-to-return-home-after-seeking-asylum-in-australia/",
-          "domain": "thenationalnews.com",
-          "tier": "local"
-        }
-      ],
-      "snippet": null,
-      "preview_image": "https://www.thenationalnews.com/resizer/v2/J7LYD3W2E5EFNC4LW3PMXFSK3Q?smart=true&amp;auth=0b7ad279e3e9cadb7903b540769386f1d604745fd551a2149a7b0ff53f0ad81e&amp;width=1200&amp;height=630",
-      "_via": "rss",
-      "confidence": "low"
-    },
-    {
-      "id": "75dac932d099",
-      "datetime": "2026-03-15T04:41:17Z",
-      "type": "security_alert",
-      "confirmed": false,
-      "precision": "country",
-      "title": "F1 calls off Bahrain and Saudi Arabia Grands Prix due to Iran war",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.thenationalnews.com/sport/f1/2026/03/15/f1-officially-cancels-bahrain-and-saudi-arabia-grands-prix-due-to-iran-war/",
-          "domain": "thenationalnews.com",
-          "tier": "local"
-        }
-      ],
-      "snippet": null,
-      "preview_image": "https://www.thenationalnews.com/resizer/v2/7ZQYKNC5HVDALJRFKEMMPDUZU4?smart=true&amp;auth=c75fd874e103dc098deca848e0e1d66050f5641c7437612e9ac8214ce26f5e77&amp;width=1200&amp;height=630",
       "_via": "rss",
       "confidence": "low"
     },
