@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-16T10:20:00Z",
+  "last_updated": "2026-03-16T10:30:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -218,6 +218,26 @@
       ],
       "_via": "rss",
       "confidence": "high"
+    },
+    {
+      "id": "ed3b0ade7acc",
+      "datetime": "2026-03-14T13:34:35Z",
+      "type": "interception",
+      "confirmed": false,
+      "precision": "country",
+      "title": "UAE intercepts 9 ballistic missiles, 33 drones — Mar 14",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.thenationalnews.com/news/uae/2026/03/14/uae-intercepts-9-iranian-ballistic-missiles-and-33-drones-on-saturday/",
+          "domain": "thenationalnews.com",
+          "tier": "local"
+        }
+      ],
+      "_via": "rss",
+      "confidence": "low"
     },
     {
       "id": "780a01b87f72",
