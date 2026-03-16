@@ -6,7 +6,7 @@
       "id": "f8207d6bd9d4",
       "datetime": "2026-03-16T00:06:12Z",
       "type": "impact_minor",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "exact",
       "title": "Fire near Dubai International Airport after drone incident",
       "location": "Dubai International Airport",
@@ -17,11 +17,18 @@
           "url": "https://gulfnews.com/uae/fire-reported-near-dubai-international-airport-following-drone-incident-1.500475657",
           "domain": "gulfnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://www.dubaieye1038.com/news/local/fire-reported-after-drone-incident-near-dubai-airport/",
+          "domain": "dubaieye1038.com",
+          "tier": "wire"
         }
       ],
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-16%2F6w1pvvie%2FBreaking-NEWS-GN.jpeg?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1773623172.0
     },
     {
       "id": "fb71efe3c093",
