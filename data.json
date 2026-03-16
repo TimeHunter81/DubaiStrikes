@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-16T09:01:00Z",
+  "last_updated": "2026-03-16T09:14:22Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -31,7 +31,7 @@
       "id": "80803aaba953",
       "datetime": "2026-03-16T07:01:14Z",
       "type": "impact_major",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "city",
       "title": "Iranian missile kills 1 civilian in Abu Dhabi",
       "location": "Abu Dhabi",
@@ -99,7 +99,6 @@
           "tier": "wire"
         }
       ],
-      "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-16%2F6w1pvvie%2FBreaking-NEWS-GN.jpeg?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
       "_via": "rss",
       "confidence": "high"
     },
@@ -277,73 +276,6 @@
       ],
       "_via": "rss",
       "confidence": "high"
-    },
-    {
-      "id": "00030061e54d",
-      "datetime": "2026-03-14T23:09:00Z",
-      "type": "interception",
-      "confirmed": true,
-      "precision": "exact",
-      "title": "Air defence interception over Dubai Marina / Al Sufouh",
-      "location": "Dubai Marina",
-      "lat": 25.0819,
-      "lon": 55.1367,
-      "sources": [
-        {
-          "url": "https://gulfnews.com/uae/loud-sounds-in-dubai-marina-al-sufouh-after-air-defence-interception-1.500474846",
-          "domain": "gulfnews.com",
-          "tier": "local"
-        },
-        {
-          "url": "https://www.reuters.com/world/middle-east/fire-occurred-uaes-fujairah-after-debris-fell-during-interception-drone-no-2026-03-14/",
-          "domain": "reuters.com",
-          "tier": "wire"
-        },
-        {
-          "url": "https://www.theweek.in/news/middle-east/2026/03/14/dubai-financial-hub-missile-strike-impact.html",
-          "domain": "theweek.in",
-          "tier": "wire"
-        },
-        {
-          "url": "https://thepeninsulaqatar.com/article/14/03/2026/live-updates-qatar-intercept-missile-attacks-issues-evacuation-notice-in-some-areas",
-          "domain": "thepeninsulaqatar.com",
-          "tier": "wire"
-        },
-        {
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/dubai-reports-successful-air-defense-interceptions-after-loud-sounds",
-          "domain": "middleeasteye.net",
-          "tier": "local"
-        }
-      ],
-      "_via": "rss",
-      "confidence": "high"
-    },
-    {
-      "id": "ed3b0ade7acc",
-      "datetime": "2026-03-14T13:34:35Z",
-      "type": "interception",
-      "confirmed": true,
-      "precision": "country",
-      "title": "UAE intercepts 9 ballistic missiles, 33 drones — Mar 14",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.thenationalnews.com/news/uae/2026/03/14/uae-intercepts-9-iranian-ballistic-missiles-and-33-drones-on-saturday/",
-          "domain": "thenationalnews.com",
-          "tier": "local"
-        },
-        {
-          "url": "https://gulfnews.com/uae/uae-downs-9-ballistic-missiles-33-drones-on-march-14-1.500474391",
-          "domain": "gulfnews.com",
-          "tier": "wire"
-        }
-      ],
-      "_via": "rss",
-      "confidence": "medium",
-      "_search_count": 1,
-      "_next_search_at": 1773498875.0
     },
     {
       "id": "780a01b87f72",
