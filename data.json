@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-03-16T12:53:00Z",
+  "last_updated": "2026-03-16T13:10:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
       "id": "1c8e4738182d",
       "datetime": "2026-03-16T10:37:47Z",
       "type": "impact_minor",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "city",
       "title": "Drone strikes building in Umm Al Quwain — fire, no injuries",
       "location": "Umm Al Quwain",
@@ -25,9 +25,7 @@
         }
       ],
       "confidence": "low",
-      "_via": "rss",
-      "_search_count": 1,
-      "_next_search_at": 1773661067.0
+      "_via": "rss"
     },
     {
       "id": "518e9d7748ee",
@@ -48,6 +46,11 @@
         {
           "url": "https://www.reuters.com/world/middle-east/fire-occurred-uaes-fujairah-after-debris-fell-during-interception-drone-no-2026-03-14/",
           "domain": "reuters.com",
+          "tier": "wire"
+        },
+        {
+          "url": "https://www.bbc.com/news/articles/crl4gxgkkylo",
+          "domain": "bbc.com",
           "tier": "wire"
         }
       ],
@@ -106,9 +109,9 @@
           "tier": "local"
         },
         {
-          "url": "https://www.dubaieye1038.com/news/local/fire-reported-after-drone-incident-near-dubai-airport/",
-          "domain": "dubaieye1038.com",
-          "tier": "local"
+          "url": "https://www.bbc.com/news/articles/crl4gxgkkylo",
+          "domain": "bbc.com",
+          "tier": "wire"
         },
         {
           "url": "https://www.middleeasteye.net/live-blog/live-blog-update/dubai-says-drone-related-incident-ignites-fire-near-airport",
