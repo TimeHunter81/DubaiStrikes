@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-16T16:38:00Z",
+  "last_updated": "2026-03-16T16:47:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -27,19 +27,12 @@
           "url": "https://www.gulftoday.ae/news/2026/03/16/drone-strikes-a-building-in-umm-al-quwain-no-injuries-reported",
           "domain": "gulftoday.ae",
           "tier": "local"
-        },
-        {
-          "url": "https://www.thenationalnews.com/news/uae/2026/03/16/fire-near-dubai-airport-after-drone-strike-hits-fuel-tank/",
-          "domain": "thenationalnews.com",
-          "tier": "wire"
         }
       ],
       "snippet": null,
       "preview_image": null,
       "_via": "rss",
-      "confidence": "low",
-      "_search_count": 2,
-      "_next_search_at": 1773679067.0
+      "confidence": "medium"
     },
     {
       "id": "518e9d7748ee",
@@ -187,6 +180,28 @@
       "snippet": null,
       "preview_image": null,
       "confidence": "high",
+      "_via": "rss"
+    },
+    {
+      "id": "ed3b0ade7acc",
+      "datetime": "2026-03-14T13:34:35Z",
+      "type": "interception",
+      "confirmed": false,
+      "precision": "country",
+      "title": "UAE intercepts 9 ballistic missiles and 33 drones — Sat 14 Mar",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.thenationalnews.com/news/uae/2026/03/14/uae-intercepts-9-iranian-ballistic-missiles-and-33-drones-on-saturday/",
+          "domain": "thenationalnews.com",
+          "tier": "local"
+        }
+      ],
+      "snippet": null,
+      "preview_image": null,
+      "confidence": "medium",
       "_via": "rss"
     },
     {
