@@ -31,7 +31,7 @@
       "id": "80803aaba953",
       "datetime": "2026-03-16T07:01:14Z",
       "type": "impact_major",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "Iranian missile kills 1 civilian in Abu Dhabi",
       "location": "Abu Dhabi",
@@ -60,7 +60,9 @@
         }
       ],
       "_via": "rss",
-      "confidence": "high"
+      "confidence": "high",
+      "_search_count": 1,
+      "_next_search_at": 1773648074.0
     },
     {
       "id": "f8207d6bd9d4",
