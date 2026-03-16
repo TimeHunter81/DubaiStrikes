@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-16T23:20:00Z",
+  "last_updated": "2026-03-16T23:32:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -200,33 +200,6 @@
         }
       ],
       "_via": "rss"
-    },
-    {
-      "id": "ed3b0ade7acc",
-      "datetime": "2026-03-14T13:34:35Z",
-      "type": "interception",
-      "confirmed": true,
-      "precision": "country",
-      "title": "UAE intercepts 9 ballistic missiles and 33 drones on Saturday",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.thenationalnews.com/news/uae/2026/03/14/uae-intercepts-9-iranian-ballistic-missiles-and-33-drones-on-saturday/",
-          "domain": "thenationalnews.com",
-          "tier": "local"
-        },
-        {
-          "url": "https://www.aljazeera.com/news/2026/3/14/iran-continues-intensified-attacks-across-gulf-in-us-israel-war-fallout",
-          "domain": "aljazeera.com",
-          "tier": "wire"
-        }
-      ],
-      "_via": "rss",
-      "confidence": "low",
-      "_search_count": 3,
-      "_next_search_at": 1773581675.0
     },
     {
       "id": "780a01b87f72",
