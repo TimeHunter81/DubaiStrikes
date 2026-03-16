@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-16T07:27:00Z",
+  "last_updated": "2026-03-16T07:40:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -8,7 +8,7 @@
       "type": "impact_major",
       "confirmed": false,
       "precision": "city",
-      "title": "Iranian missile hits civilian car in Abu Dhabi — 1 killed",
+      "title": "Iranian missile kills 1 civilian in Abu Dhabi",
       "location": "Abu Dhabi",
       "lat": 24.4539,
       "lon": 54.3773,
@@ -79,7 +79,7 @@
       "type": "interception",
       "confirmed": true,
       "precision": "country",
-      "title": "UK Typhoon/F-35 jets intercept Iranian drones over UAE",
+      "title": "UK Typhoon/F-35s intercept Iranian drones over UAE",
       "location": "UAE",
       "lat": null,
       "lon": null,
@@ -154,7 +154,7 @@
       "type": "interception",
       "confirmed": true,
       "precision": "district",
-      "title": "IRGC fires missiles and drones at Al Dhafra Air Base — Mar 15",
+      "title": "IRGC fires missiles & drones at Al Dhafra Air Base — Mar 15",
       "location": "Al Dhafra Air Base, UAE",
       "lat": 24.2481,
       "lon": 54.5478,
@@ -229,7 +229,7 @@
       "type": "impact_minor",
       "confirmed": true,
       "precision": "district",
-      "title": "Fire at Ruwais industrial complex after drone incident",
+      "title": "Fire at Ruwais industrial complex after drone strike",
       "location": "Ruwais, Abu Dhabi",
       "lat": 24.1085,
       "lon": 52.7289,
