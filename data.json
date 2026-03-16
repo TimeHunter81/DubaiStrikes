@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-16T09:29:00Z",
+  "last_updated": "2026-03-16T09:44:15Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -249,31 +249,6 @@
           "url": "https://www.middleeasteye.net/live-blog/live-blog-update/irgc-says-it-launched-missiles-and-drones-targeting-us-airbase-uae",
           "domain": "middleeasteye.net",
           "tier": "local"
-        }
-      ],
-      "_via": "rss",
-      "confidence": "high"
-    },
-    {
-      "id": "a84a453be842",
-      "datetime": "2026-03-15T00:32:58Z",
-      "type": "impact_minor",
-      "confirmed": true,
-      "precision": "district",
-      "title": "Fire at Ruwais industrial complex after drone strike",
-      "location": "Ruwais, Abu Dhabi",
-      "lat": 24.1085,
-      "lon": 52.7289,
-      "sources": [
-        {
-          "url": "https://gulfnews.com/uae/abu-dhabi-authorities-contain-fire-at-ruwais-complex-after-drone-incident-1.500474856",
-          "domain": "gulfnews.com",
-          "tier": "local"
-        },
-        {
-          "url": "https://www.reuters.com/world/middle-east/fire-hits-site-housing-abu-dhabi-national-oil-company-operations-after-drone-2026-03-10/",
-          "domain": "reuters.com",
-          "tier": "wire"
         }
       ],
       "_via": "rss",
