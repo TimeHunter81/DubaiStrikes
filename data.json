@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-16T10:12:00Z",
+  "last_updated": "2026-03-16T10:20:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -57,6 +57,11 @@
           "url": "https://www.reuters.com/world/middle-east/iran-fires-missiles-gulf-arab-states-one-killed-abu-dhabi-2026-02-28/",
           "domain": "reuters.com",
           "tier": "wire"
+        },
+        {
+          "url": "https://www.thenationalnews.com/news/uae/2026/03/16/one-person-killed-following-iranian-missile-attack-on-abu-dhabi/",
+          "domain": "thenationalnews.com",
+          "tier": "local"
         }
       ],
       "_via": "rss",
