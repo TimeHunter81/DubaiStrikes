@@ -6,7 +6,7 @@
       "id": "7c3cdb5de2ac",
       "datetime": "2026-03-16T18:35:45Z",
       "type": "impact_minor",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "Drone strike triggers fire at Shah oil field in Abu Dhabi",
       "location": "Abu Dhabi",
@@ -17,12 +17,19 @@
           "url": "https://gulfnews.com/uae/government/drone-strike-triggers-fire-at-shah-oil-field-in-abu-dhabi-1.500476722",
           "domain": "gulfnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://www.reuters.com/world/middle-east/fire-abu-dhabi-shah-oil-field-caused-by-drone-attack-abu-dhabi-media-office-says-2026-03-16/",
+          "domain": "reuters.com",
+          "tier": "wire"
         }
       ],
       "snippet": null,
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-16%2Fipx5fw2k%2FUAEflag?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1773689745.0
     },
     {
       "id": "1c8e4738182d",
@@ -203,7 +210,7 @@
       "id": "ed3b0ade7acc",
       "datetime": "2026-03-14T13:34:35Z",
       "type": "interception",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "UAE intercepts 9 Iranian ballistic missiles and 33 drones on Saturday",
       "location": "UAE",
@@ -217,7 +224,9 @@
         }
       ],
       "confidence": "low",
-      "_via": "rss"
+      "_via": "rss",
+      "_search_count": 1,
+      "_next_search_at": 1773498875.0
     },
     {
       "id": "780a01b87f72",
