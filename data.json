@@ -1,14 +1,14 @@
 {
-  "last_updated": "2026-03-16T11:20:00Z",
+  "last_updated": "2026-03-16T11:31:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
       "id": "1c8e4738182d",
       "datetime": "2026-03-16T10:37:47Z",
       "type": "impact_minor",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "city",
-      "title": "Drone strike triggers building fire in Umm Al Quwain",
+      "title": "Drone strikes building in Umm Al Quwain — fire, no injuries",
       "location": "Umm Al Quwain",
       "lat": 25.5647,
       "lon": 55.5553,
@@ -24,10 +24,8 @@
           "tier": "local"
         }
       ],
-      "snippet": null,
-      "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-16%2Fql76vvn2%2FUmmAlQuwainskyline?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
-      "_via": "rss",
       "confidence": "low",
+      "_via": "rss",
       "_search_count": 1,
       "_next_search_at": 1773661067.0
     },
@@ -53,8 +51,8 @@
           "tier": "wire"
         }
       ],
-      "_via": "rss",
-      "confidence": "high"
+      "confidence": "high",
+      "_via": "rss"
     },
     {
       "id": "80803aaba953",
@@ -62,7 +60,7 @@
       "type": "impact_major",
       "confirmed": true,
       "precision": "city",
-      "title": "Iranian missile kills 1 civilian in Abu Dhabi",
+      "title": "Iranian missile strikes civilian car in Abu Dhabi — 1 killed",
       "location": "Abu Dhabi",
       "lat": 24.4539,
       "lon": 54.3773,
@@ -88,8 +86,8 @@
           "tier": "wire"
         }
       ],
-      "_via": "rss",
-      "confidence": "high"
+      "confidence": "high",
+      "_via": "rss"
     },
     {
       "id": "f8207d6bd9d4",
@@ -97,7 +95,7 @@
       "type": "impact_minor",
       "confirmed": true,
       "precision": "exact",
-      "title": "Drone hits fuel tank near Dubai Intl Airport — fire",
+      "title": "Drone hits fuel tank near Dubai Intl Airport — fire, flights suspended",
       "location": "Dubai International Airport",
       "lat": 25.2528,
       "lon": 55.3644,
@@ -128,8 +126,8 @@
           "tier": "wire"
         }
       ],
-      "_via": "rss",
-      "confidence": "high"
+      "confidence": "high",
+      "_via": "rss"
     },
     {
       "id": "fb71efe3c093",
@@ -163,8 +161,8 @@
           "tier": "wire"
         }
       ],
-      "_via": "rss",
-      "confidence": "high"
+      "confidence": "high",
+      "_via": "rss"
     },
     {
       "id": "e7cf0151c6d6",
@@ -172,7 +170,7 @@
       "type": "interception",
       "confirmed": true,
       "precision": "country",
-      "title": "UAE intercepts 4 ballistic missiles, 6 drones — Mar 15",
+      "title": "UAE air defences intercept 4 ballistic missiles, 6 drones — Mar 15",
       "location": "UAE",
       "lat": null,
       "lon": null,
@@ -203,70 +201,8 @@
           "tier": "wire"
         }
       ],
-      "_via": "rss",
-      "confidence": "high"
-    },
-    {
-      "id": "43214bb0e740",
-      "datetime": "2026-03-15T06:46:15Z",
-      "type": "interception",
-      "confirmed": true,
-      "precision": "district",
-      "title": "IRGC fires missiles & drones at Al Dhafra Air Base — Mar 15",
-      "location": "Al Dhafra Air Base, UAE",
-      "lat": 24.2481,
-      "lon": 54.5478,
-      "sources": [
-        {
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/irgc-says-it-launched-missiles-and-drones-targeting-us-airbase-uae",
-          "domain": "middleeasteye.net",
-          "tier": "local"
-        },
-        {
-          "url": "https://abcnews.com/International/live-updates/iran-live-updates/?id=130893022",
-          "domain": "abcnews.com",
-          "tier": "wire"
-        },
-        {
-          "url": "https://www.wionews.com/videos/irgc-launches-53rd-wave-missiles-and-drones-strike-al-dhafra-1773575990857",
-          "domain": "wionews.com",
-          "tier": "wire"
-        },
-        {
-          "url": "https://www.reuters.com/world/middle-east/iran-fires-missiles-gulf-arab-states-one-killed-abu-dhabi-2026-02-28/",
-          "domain": "reuters.com",
-          "tier": "wire"
-        }
-      ],
-      "_via": "rss",
-      "confidence": "high"
-    },
-    {
-      "id": "ed3b0ade7acc",
-      "datetime": "2026-03-14T13:34:35Z",
-      "type": "interception",
-      "confirmed": true,
-      "precision": "country",
-      "title": "UAE intercepts 9 ballistic missiles, 33 drones — Mar 14",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.thenationalnews.com/news/uae/2026/03/14/uae-intercepts-9-iranian-ballistic-missiles-and-33-drones-on-saturday/",
-          "domain": "thenationalnews.com",
-          "tier": "local"
-        },
-        {
-          "url": "https://gulfnews.com/uae/uae-downs-9-ballistic-missiles-33-drones-on-march-14-1.500474391",
-          "domain": "gulfnews.com",
-          "tier": "local"
-        }
-      ],
-      "_via": "rss",
       "confidence": "high",
-      "_search_count": 1,
-      "_next_search_at": 1773498875.0
+      "_via": "rss"
     },
     {
       "id": "780a01b87f72",
