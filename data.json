@@ -49,7 +49,7 @@
       "id": "fb71efe3c093",
       "datetime": "2026-03-15T22:02:41Z",
       "type": "interception",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "UK Typhoon/F-35 jets intercept Iranian drones over UAE",
       "location": "UAE",
@@ -70,12 +70,17 @@
           "url": "https://en.wikipedia.org/wiki/2026_Iranian_strikes_on_the_United_Arab_Emirates",
           "domain": "en.wikipedia.org",
           "tier": "wire"
+        },
+        {
+          "url": "https://www.bbc.com/news/articles/c0k1yyg475ko",
+          "domain": "bbc.com",
+          "tier": "wire"
         }
       ],
       "_via": "rss",
       "confidence": "high",
-      "_search_count": 2,
-      "_next_search_at": 1773633761.0
+      "_search_count": 3,
+      "_next_search_at": 1773698561.0
     },
     {
       "id": "e7cf0151c6d6",
