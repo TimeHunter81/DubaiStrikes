@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-16T11:09:00Z",
+  "last_updated": "2026-03-16T11:20:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -21,15 +21,13 @@
         {
           "url": "https://www.khaleejtimes.com/uae/fire-breaks-umm-al-quwain-building-targeted-no-injuries",
           "domain": "khaleejtimes.com",
-          "tier": "wire"
+          "tier": "local"
         }
       ],
       "snippet": null,
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-16%2Fql76vvn2%2FUmmAlQuwainskyline?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
       "_via": "rss",
-      "confidence": "low",
-      "_search_count": 1,
-      "_next_search_at": 1773661067.0
+      "confidence": "low"
     },
     {
       "id": "518e9d7748ee",
@@ -73,7 +71,7 @@
           "tier": "local"
         },
         {
-          "url": "https://www.thenationalnews.com/news/mena/2026/03/16/live-us-israel-iran-war-dubai-airport/",
+          "url": "https://www.thenationalnews.com/news/uae/2026/03/16/one-person-killed-following-iranian-missile-attack-on-abu-dhabi/",
           "domain": "thenationalnews.com",
           "tier": "local"
         },
@@ -86,17 +84,10 @@
           "url": "https://www.reuters.com/world/middle-east/iran-fires-missiles-gulf-arab-states-one-killed-abu-dhabi-2026-02-28/",
           "domain": "reuters.com",
           "tier": "wire"
-        },
-        {
-          "url": "https://www.thenationalnews.com/news/uae/2026/03/16/one-person-killed-following-iranian-missile-attack-on-abu-dhabi/",
-          "domain": "thenationalnews.com",
-          "tier": "local"
         }
       ],
       "_via": "rss",
-      "confidence": "high",
-      "_search_count": 1,
-      "_next_search_at": 1773648074.0
+      "confidence": "high"
     },
     {
       "id": "f8207d6bd9d4",
@@ -125,11 +116,6 @@
           "tier": "local"
         },
         {
-          "url": "https://www.thenationalnews.com/news/uae/2026/03/16/fire-near-dubai-airport-after-drone-strike-hits-fuel-tank/",
-          "domain": "thenationalnews.com",
-          "tier": "local"
-        },
-        {
           "url": "https://www.aljazeera.com/video/newsfeed/2026/3/16/fire-erupts-at-dubai-airport-following-drone-attack?traffic_source=rss",
           "domain": "aljazeera.com",
           "tier": "wire"
@@ -141,9 +127,7 @@
         }
       ],
       "_via": "rss",
-      "confidence": "high",
-      "_search_count": 1,
-      "_next_search_at": 1773623172.0
+      "confidence": "high"
     },
     {
       "id": "fb71efe3c093",
@@ -259,7 +243,7 @@
       "id": "ed3b0ade7acc",
       "datetime": "2026-03-14T13:34:35Z",
       "type": "interception",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "country",
       "title": "UAE intercepts 9 ballistic missiles, 33 drones — Mar 14",
       "location": "UAE",
@@ -274,13 +258,11 @@
         {
           "url": "https://gulfnews.com/uae/uae-downs-9-ballistic-missiles-33-drones-on-march-14-1.500474391",
           "domain": "gulfnews.com",
-          "tier": "wire"
+          "tier": "local"
         }
       ],
       "_via": "rss",
-      "confidence": "high",
-      "_search_count": 2,
-      "_next_search_at": 1773516875.0
+      "confidence": "high"
     },
     {
       "id": "780a01b87f72",
