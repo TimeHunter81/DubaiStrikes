@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-16T09:50:00Z",
+  "last_updated": "2026-03-16T10:02:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -209,46 +209,6 @@
           "url": "https://www.reuters.com/world/middle-east/iran-fires-missiles-gulf-arab-states-one-killed-abu-dhabi-2026-02-28/",
           "domain": "reuters.com",
           "tier": "wire"
-        }
-      ],
-      "_via": "rss",
-      "confidence": "high"
-    },
-    {
-      "id": "f238ecf9b2b",
-      "datetime": "2026-03-15T03:40:00Z",
-      "type": "interception",
-      "confirmed": true,
-      "precision": "city",
-      "title": "UAE air defences intercept missiles over Dubai — Mar 15",
-      "location": "Dubai, UAE",
-      "lat": 25.2048,
-      "lon": 55.2708,
-      "sources": [
-        {
-          "url": "https://gulfnews.com/uae/uae-air-defences-respond-to-missile-threat-residents-urged-to-stay-safe-1.500474922",
-          "domain": "gulfnews.com",
-          "tier": "local"
-        },
-        {
-          "url": "https://www.aljazeera.com/news/2026/3/14/iran-continues-intensified-attacks-across-gulf-in-us-israel-war-fallout",
-          "domain": "aljazeera.com",
-          "tier": "wire"
-        },
-        {
-          "url": "https://www.thenationalnews.com/news/uae/2026/03/13/debris-hits-dubai-building-after-air-strike-intercepted-as-more-alerts-issued/",
-          "domain": "thenationalnews.com",
-          "tier": "local"
-        },
-        {
-          "url": "https://www.reuters.com/world/middle-east/trump-threatens-strike-irans-kharg-island-oil-network-if-shipping-lanes-remain-2026-03-14/",
-          "domain": "reuters.com",
-          "tier": "wire"
-        },
-        {
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/irgc-says-it-launched-missiles-and-drones-targeting-us-airbase-uae",
-          "domain": "middleeasteye.net",
-          "tier": "local"
         }
       ],
       "_via": "rss",
