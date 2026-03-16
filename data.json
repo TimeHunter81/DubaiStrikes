@@ -205,7 +205,7 @@
       "id": "ed3b0ade7acc",
       "datetime": "2026-03-14T13:34:35Z",
       "type": "interception",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "UAE intercepts 9 ballistic missiles and 33 drones on Saturday",
       "location": "UAE",
@@ -219,7 +219,9 @@
         }
       ],
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1773498875.0
     },
     {
       "id": "780a01b87f72",
