@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-16T13:43:33Z",
+  "last_updated": "2026-03-16T13:54:08Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -32,6 +32,50 @@
       "confidence": "low",
       "preview_image": "https://media.cnn.com/api/v1/images/stellar/prod/ap26067484115759-20260311143008704.jpg?c=16x9&q=w_800,c_fill",
       "_via": "gdelt"
+    },
+    {
+      "id": "f00a97ff729a",
+      "datetime": "2026-03-16T13:36:59Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "city",
+      "title": "Sharjah Taxi distributes 21,000 iftar meals to drivers during Ramadan",
+      "location": "Sharjah",
+      "lat": 25.3463,
+      "lon": 55.4209,
+      "sources": [
+        {
+          "url": "https://gulfnews.com/uae/sharjah-taxi-distributes-21000-iftar-meals-to-drivers-during-ramadan-1.500476443",
+          "domain": "gulfnews.com",
+          "tier": "local"
+        }
+      ],
+      "snippet": null,
+      "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-16%2F0at8gp40%2FSharjah-Taxi?rect=0%2C119%2C1536%2C806&amp;w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
+      "_via": "rss",
+      "confidence": "low"
+    },
+    {
+      "id": "c2d288760f42",
+      "datetime": "2026-03-16T13:28:35Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "city",
+      "title": "Young traveller thanks Dubai for safety in touching handwritten note",
+      "location": "Dubai",
+      "lat": 25.2048,
+      "lon": 55.2708,
+      "sources": [
+        {
+          "url": "https://gulfnews.com/uae/young-traveller-thanks-dubai-for-safety-in-touching-handwritten-note-1.500476431",
+          "domain": "gulfnews.com",
+          "tier": "local"
+        }
+      ],
+      "snippet": null,
+      "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-16%2Fuml5ez7g%2FDubai-airport.jpg?rect=0%2C276%2C1072%2C563&amp;w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
+      "_via": "rss",
+      "confidence": "low"
     },
     {
       "id": "1f74eabf8182",
@@ -2221,50 +2265,6 @@
       "preview_image": "https://www.thenationalnews.com/resizer/v2/7ZQYKNC5HVDALJRFKEMMPDUZU4?smart=true&amp;auth=c75fd874e103dc098deca848e0e1d66050f5641c7437612e9ac8214ce26f5e77&amp;width=1200&amp;height=630",
       "_via": "rss",
       "confidence": "low"
-    },
-    {
-      "id": "68799719ced0",
-      "datetime": "2026-03-14T23:09:00Z",
-      "type": "security_alert",
-      "confirmed": false,
-      "precision": "country",
-      "title": "Iran ramps up proxy co-ordination despite Israeli infiltration",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.thenationalnews.com/news/mena/2026/03/14/iran-ramps-up-proxy-co-ordination-despite-israeli-infiltration/",
-          "domain": "thenationalnews.com",
-          "tier": "local"
-        }
-      ],
-      "snippet": null,
-      "preview_image": "https://www.thenationalnews.com/resizer/v2/XTXOIR65N65YJSUTPVTQYXBPIE.jpg?smart=true&amp;auth=7d0784eed8ce1d793710703aef23c1d8c830cb56150138c70da5404ca3e676f8&amp;width=1200&amp;height=630",
-      "_via": "rss",
-      "confidence": "low"
-    },
-    {
-      "id": "ab4e671d944d",
-      "datetime": "2026-03-14T21:55:40Z",
-      "type": "security_alert",
-      "confirmed": true,
-      "precision": "country",
-      "title": "BBC visits aftermath of Israeli strike on Lebanon that killed family as IDF targets Hezbollah",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.bbc.com/news/articles/c20lvn0ex6yo?at_medium=RSS&amp;at_campaign=rss",
-          "domain": "bbc.com",
-          "tier": "wire"
-        }
-      ],
-      "snippet": "A relative tells BBC those killed were civilians and not Hezbollah operatives, but the Israel Defense Forces says it was targeting \"terrorist infrastructure\".",
-      "preview_image": "https://ichef.bbci.co.uk/news/1024/branded_news/e9bb/live/986d6330-1fea-11f1-9436-9505a8c587fc.jpg",
-      "_via": "rss",
-      "confidence": "medium"
     },
     {
       "id": "780a01b87f72",
