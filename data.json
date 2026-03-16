@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-16T03:06:00Z",
+  "last_updated": "2026-03-16T03:17:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -291,46 +291,6 @@
         {
           "url": "https://www.thenationalnews.com/news/uae/2026/03/14/uae-intercepts-9-iranian-ballistic-missiles-and-33-drones-on-saturday/",
           "domain": "thenationalnews.com",
-          "tier": "local"
-        }
-      ],
-      "_via": "rss",
-      "confidence": "high"
-    },
-    {
-      "id": "4e64c0315a2b",
-      "datetime": "2026-03-14T07:06:00Z",
-      "type": "impact_minor",
-      "confirmed": true,
-      "precision": "city",
-      "title": "Iranian drone hits Fujairah oil facility; fire contained",
-      "location": "Fujairah",
-      "lat": 25.1288,
-      "lon": 56.3265,
-      "sources": [
-        {
-          "url": "https://apnews.com/video/fire-and-smoke-rise-over-fujairah-oil-facility-in-uae-after-iranian-drone-attack-c3725fcba0114d9ebd7293aa09332df0",
-          "domain": "apnews.com",
-          "tier": "wire"
-        },
-        {
-          "url": "https://www.reuters.com/world/middle-east/fire-occurred-uaes-fujairah-after-debris-fell-during-interception-drone-no-2026-03-14/",
-          "domain": "reuters.com",
-          "tier": "wire"
-        },
-        {
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/3/14/smoke-rises-from-fujairah-oil-facility-in-uae",
-          "domain": "aljazeera.com",
-          "tier": "wire"
-        },
-        {
-          "url": "https://gulfnews.com/uae/emergencies/fujairah-reports-fire-after-debris-fell-following-threat-interception-1.500474270",
-          "domain": "gulfnews.com",
-          "tier": "local"
-        },
-        {
-          "url": "https://www.middleeasteye.net/news/iran-hits-uae-oil-hub-vows-retaliation-us-attack-kharg-island",
-          "domain": "middleeasteye.net",
           "tier": "local"
         }
       ],
