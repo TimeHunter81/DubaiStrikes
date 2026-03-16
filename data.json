@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-16T03:42:00Z",
+  "last_updated": "2026-03-16T03:51:52Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -34,7 +34,7 @@
           "tier": "local"
         },
         {
-          "url": "https://www.aljazeera.com/news/liveblog/2026/3/16/iran-war-live-tehran-rejects-trump-claim-on-talks-gulf-attacks-continue?traffic_source=rss",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/3/16/fire-erupts-at-dubai-airport-following-drone-attack?traffic_source=rss",
           "domain": "aljazeera.com",
           "tier": "wire"
         }
