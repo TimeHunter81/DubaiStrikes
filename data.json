@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-16T22:12:08Z",
+  "last_updated": "2026-03-16T22:25:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -200,33 +200,6 @@
         }
       ],
       "_via": "rss"
-    },
-    {
-      "id": "ed3b0ade7acc",
-      "datetime": "2026-03-14T13:34:35Z",
-      "type": "interception",
-      "confirmed": true,
-      "precision": "city",
-      "title": "UAE intercepts 9 Iranian ballistic missiles and 33 drones — Saturday wave",
-      "location": "Abu Dhabi, UAE",
-      "lat": 24.4539,
-      "lon": 54.3773,
-      "sources": [
-        {
-          "url": "https://www.thenationalnews.com/news/uae/2026/03/14/uae-intercepts-9-iranian-ballistic-missiles-and-33-drones-on-saturday/",
-          "domain": "thenationalnews.com",
-          "tier": "local"
-        },
-        {
-          "url": "https://gulfnews.com/uae/uae-downs-9-ballistic-missiles-33-drones-on-march-14-1.500474391",
-          "domain": "gulfnews.com",
-          "tier": "wire"
-        }
-      ],
-      "_via": "rss",
-      "_search_count": 3,
-      "_next_search_at": 1773581675.0,
-      "confidence": "high"
     },
     {
       "id": "780a01b87f72",
