@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-03-16T07:16:00Z",
+  "last_updated": "2026-03-16T07:27:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
       "id": "80803aaba953",
       "datetime": "2026-03-16T07:00:37Z",
       "type": "impact_major",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "city",
       "title": "Iranian missile hits civilian car in Abu Dhabi — 1 killed",
       "location": "Abu Dhabi",
@@ -26,13 +26,11 @@
         {
           "url": "https://gulfnews.com/uae/one-killed-after-missile-falls-on-civilian-car-in-abu-dhabi-1.500475956",
           "domain": "gulfnews.com",
-          "tier": "wire"
+          "tier": "local"
         }
       ],
       "_via": "rss",
-      "confidence": "low",
-      "_search_count": 1,
-      "_next_search_at": 1773648037.0
+      "confidence": "high"
     },
     {
       "id": "f8207d6bd9d4",
