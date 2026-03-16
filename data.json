@@ -6,7 +6,7 @@
       "id": "80803aaba953",
       "datetime": "2026-03-16T07:00:37Z",
       "type": "impact_major",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "Iranian missile hits civilian car in Abu Dhabi — 1 killed",
       "location": "Abu Dhabi",
@@ -22,10 +22,17 @@
           "url": "https://www.thenationalnews.com/news/mena/2026/03/16/live-us-israel-iran-war-dubai-airport/",
           "domain": "thenationalnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://gulfnews.com/uae/one-killed-after-missile-falls-on-civilian-car-in-abu-dhabi-1.500475956",
+          "domain": "gulfnews.com",
+          "tier": "wire"
         }
       ],
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1773648037.0
     },
     {
       "id": "f8207d6bd9d4",
