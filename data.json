@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-16T19:41:00Z",
+  "last_updated": "2026-03-16T19:55:42Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -7,11 +7,11 @@
       "datetime": "2026-03-16T18:35:45Z",
       "type": "impact_minor",
       "confirmed": true,
-      "precision": "city",
-      "title": "Drone strike triggers fire at Shah oil field in Abu Dhabi",
-      "location": "Abu Dhabi",
-      "lat": 24.4539,
-      "lon": 54.3773,
+      "precision": "area",
+      "title": "Drone strikes Shah gas field in Abu Dhabi — fire reported",
+      "location": "Shah Gas Field, Abu Dhabi",
+      "lat": 23.09,
+      "lon": 53.42,
       "sources": [
         {
           "url": "https://gulfnews.com/uae/government/drone-strike-triggers-fire-at-shah-oil-field-in-abu-dhabi-1.500476722",
@@ -22,12 +22,15 @@
           "url": "https://www.reuters.com/world/middle-east/fire-abu-dhabi-shah-oil-field-caused-by-drone-attack-abu-dhabi-media-office-says-2026-03-16/",
           "domain": "reuters.com",
           "tier": "wire"
+        },
+        {
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/drone-attack-sparks-fire-uaes-shah-oil-and-gas-field",
+          "domain": "middleeasteye.net",
+          "tier": "local"
         }
       ],
-      "snippet": null,
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-16%2Fipx5fw2k%2FUAEflag?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
-      "_via": "rss",
-      "confidence": "high"
+      "_via": "rss"
     },
     {
       "id": "1c8e4738182d",
@@ -61,7 +64,6 @@
           "tier": "wire"
         }
       ],
-      "confidence": "medium",
       "_via": "rss"
     },
     {
@@ -91,7 +93,6 @@
           "tier": "wire"
         }
       ],
-      "confidence": "high",
       "_via": "rss"
     },
     {
@@ -126,7 +127,6 @@
           "tier": "wire"
         }
       ],
-      "confidence": "high",
       "_via": "rss"
     },
     {
@@ -166,7 +166,6 @@
           "tier": "wire"
         }
       ],
-      "confidence": "high",
       "_via": "rss"
     },
     {
@@ -201,30 +200,7 @@
           "tier": "wire"
         }
       ],
-      "confidence": "high",
       "_via": "rss"
-    },
-    {
-      "id": "ed3b0ade7acc",
-      "datetime": "2026-03-14T13:34:35Z",
-      "type": "interception",
-      "precision": "country",
-      "title": "UAE intercepts 9 Iranian ballistic missiles and 33 drones on Saturday",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.thenationalnews.com/news/uae/2026/03/14/uae-intercepts-9-iranian-ballistic-missiles-and-33-drones-on-saturday/",
-          "domain": "thenationalnews.com",
-          "tier": "local"
-        }
-      ],
-      "confirmed": true,
-      "confidence": "low",
-      "_via": "rss",
-      "_search_count": 3,
-      "_next_search_at": 1773581675.0
     },
     {
       "id": "780a01b87f72",
