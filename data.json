@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-03-16T13:33:00Z",
+  "last_updated": "2026-03-16T13:35:45Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
       "id": "1c8e4738182d",
       "datetime": "2026-03-16T10:37:47Z",
       "type": "impact_minor",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "city",
       "title": "Drone strikes building in Umm Al Quwain — fire, no injuries",
       "location": "Umm Al Quwain",
@@ -160,46 +160,6 @@
         },
         {
           "url": "https://www.bbc.com/news/articles/c0k1yyg475ko",
-          "domain": "bbc.com",
-          "tier": "wire"
-        }
-      ],
-      "confidence": "high",
-      "_via": "rss"
-    },
-    {
-      "id": "e7cf0151c6d6",
-      "datetime": "2026-03-15T12:03:51Z",
-      "type": "interception",
-      "confirmed": true,
-      "precision": "country",
-      "title": "UAE air defences intercept 4 ballistic missiles, 6 drones — Mar 15",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://gulfnews.com/uae/government/uae-air-defences-intercept-4-iranian-ballistic-missiles-and-6-drones-today-1.500475234",
-          "domain": "gulfnews.com",
-          "tier": "local"
-        },
-        {
-          "url": "https://indianexpress.com/article/world/uae-dubai-us-iran-israel-middle-east-drones-flights-live-updates-10580967/",
-          "domain": "indianexpress.com",
-          "tier": "wire"
-        },
-        {
-          "url": "https://www.timesofisrael.com/liveblog-march-15-2026/",
-          "domain": "timesofisrael.com",
-          "tier": "wire"
-        },
-        {
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/uae-intercepts-four-ballistic-missiles-six-drones",
-          "domain": "middleeasteye.net",
-          "tier": "local"
-        },
-        {
-          "url": "https://www.bbc.com/news/live/ckg1w1jp8kjt",
           "domain": "bbc.com",
           "tier": "wire"
         }
