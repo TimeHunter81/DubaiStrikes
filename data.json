@@ -1,7 +1,29 @@
 {
-  "last_updated": "2026-03-16T06:08:55Z",
+  "last_updated": "2026-03-16T06:14:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
+    {
+      "id": "83f22bf68d8e",
+      "datetime": "2026-03-16T05:28:37Z",
+      "type": "interception",
+      "confirmed": false,
+      "precision": "country",
+      "title": "UAE air defences intercepting Iranian missiles and drones — Mar 16",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/uae-says-air-defence-systems-intercepting-iranian-missiles-and-drones",
+          "domain": "middleeasteye.net",
+          "tier": "local"
+        }
+      ],
+      "snippet": null,
+      "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/IRAN-CRISIS-EMIRATES-INCIDENT.JPG",
+      "_via": "rss",
+      "confidence": "low"
+    },
     {
       "id": "f8207d6bd9d4",
       "datetime": "2026-03-16T00:06:12Z",
