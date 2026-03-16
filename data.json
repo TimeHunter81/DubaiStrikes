@@ -102,7 +102,7 @@
       "id": "f8207d6bd9d4",
       "datetime": "2026-03-16T00:06:12Z",
       "type": "impact_minor",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "exact",
       "title": "Drone hits fuel tank near Dubai Intl Airport — fire",
       "location": "Dubai International Airport",
@@ -133,10 +133,17 @@
           "url": "https://www.aljazeera.com/video/newsfeed/2026/3/16/fire-erupts-at-dubai-airport-following-drone-attack?traffic_source=rss",
           "domain": "aljazeera.com",
           "tier": "wire"
+        },
+        {
+          "url": "https://www.reuters.com/world/middle-east/fire-breaks-out-vicinity-dubai-international-airport-after-drone-attack-dubai-2026-03-16/",
+          "domain": "reuters.com",
+          "tier": "wire"
         }
       ],
       "_via": "rss",
-      "confidence": "high"
+      "confidence": "high",
+      "_search_count": 1,
+      "_next_search_at": 1773623172.0
     },
     {
       "id": "fb71efe3c093",
@@ -252,7 +259,7 @@
       "id": "ed3b0ade7acc",
       "datetime": "2026-03-14T13:34:35Z",
       "type": "interception",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "UAE intercepts 9 ballistic missiles, 33 drones — Mar 14",
       "location": "UAE",
@@ -272,8 +279,8 @@
       ],
       "_via": "rss",
       "confidence": "high",
-      "_search_count": 1,
-      "_next_search_at": 1773498875.0
+      "_search_count": 2,
+      "_next_search_at": 1773516875.0
     },
     {
       "id": "780a01b87f72",
