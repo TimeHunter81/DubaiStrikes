@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-16T00:11:00Z",
+  "last_updated": "2026-03-16T00:22:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -7,11 +7,11 @@
       "datetime": "2026-03-15T22:02:41Z",
       "type": "interception",
       "confirmed": false,
-      "precision": "city",
-      "title": "British Typhoon/F-35 jets intercept Iranian drones over UAE",
-      "location": "Dubai, UAE",
-      "lat": 25.2048,
-      "lon": 55.2708,
+      "precision": "country",
+      "title": "UK jets intercept Iranian drones over UAE",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
       "sources": [
         {
           "url": "https://gulfnews.com/world/mena/british-counter-drone-fighters-hit-multiple-iranian-drones-1.500475578",
@@ -288,31 +288,6 @@
         {
           "url": "https://www.middleeasteye.net/news/iran-hits-uae-oil-hub-vows-retaliation-us-attack-kharg-island",
           "domain": "middleeasteye.net",
-          "tier": "local"
-        }
-      ],
-      "_via": "rss",
-      "confidence": "high"
-    },
-    {
-      "id": "4cf787fd2ccb",
-      "datetime": "2026-03-14T03:00:02Z",
-      "type": "impact_minor",
-      "confirmed": true,
-      "precision": "city",
-      "title": "Interception debris hits Dubai building, no injuries",
-      "location": "Dubai",
-      "lat": 25.2048,
-      "lon": 55.2708,
-      "sources": [
-        {
-          "url": "https://www.bbc.com/news/live/c4gqjyk0vx3t?post=asset:9eace64a-2615-45f5-88c7-fd83e329e89d",
-          "domain": "bbc.com",
-          "tier": "wire"
-        },
-        {
-          "url": "https://gulfnews.com/uae/debris-from-missile-interception-hits-dubai-building-no-injuries-reported-1.500474064",
-          "domain": "gulfnews.com",
           "tier": "local"
         }
       ],
