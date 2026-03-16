@@ -6,7 +6,7 @@
       "id": "1c8e4738182d",
       "datetime": "2026-03-16T10:37:47Z",
       "type": "impact_minor",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "Drone strike triggers building fire in Umm Al Quwain",
       "location": "Umm Al Quwain",
@@ -17,12 +17,19 @@
           "url": "https://gulfnews.com/uae/fire-breaks-out-in-umm-al-quwain-building-after-drone-strike-1.500476195",
           "domain": "gulfnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://www.khaleejtimes.com/uae/fire-breaks-umm-al-quwain-building-targeted-no-injuries",
+          "domain": "khaleejtimes.com",
+          "tier": "wire"
         }
       ],
       "snippet": null,
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-16%2Fql76vvn2%2FUmmAlQuwainskyline?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1773661067.0
     },
     {
       "id": "518e9d7748ee",
