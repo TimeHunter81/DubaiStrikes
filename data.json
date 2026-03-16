@@ -6,7 +6,7 @@
       "id": "cc271c54888c",
       "datetime": "2026-03-16T13:43:19Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "Why Trump Gulf allies are resisting pressure to join the Iran war",
       "location": "UAE",
@@ -31,7 +31,9 @@
       ],
       "confidence": "low",
       "preview_image": "https://media.cnn.com/api/v1/images/stellar/prod/ap26067484115759-20260311143008704.jpg?c=16x9&q=w_800,c_fill",
-      "_via": "gdelt"
+      "_via": "gdelt",
+      "_search_count": 1,
+      "_next_search_at": 1773672199.0
     },
     {
       "id": "f00a97ff729a",
@@ -53,7 +55,9 @@
       "snippet": null,
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-16%2F0at8gp40%2FSharjah-Taxi?rect=0%2C119%2C1536%2C806&amp;w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1773671819.0
     },
     {
       "id": "c2d288760f42",
@@ -75,7 +79,9 @@
       "snippet": null,
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-16%2Fuml5ez7g%2FDubai-airport.jpg?rect=0%2C276%2C1072%2C563&amp;w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1773671315.0
     },
     {
       "id": "1f74eabf8182",
@@ -103,7 +109,7 @@
       "id": "ec4cbaf6680d",
       "datetime": "2026-03-16T13:16:00Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "UAE Cyber Security Council conducts specialised cyber exercise",
       "location": "Uae",
@@ -114,12 +120,19 @@
           "url": "https://gulfnews.com/uae/uae-cyber-security-council-conducts-specialised-cyber-exercise-1.500476410",
           "domain": "gulfnews.com",
           "tier": "local"
+        },
+        {
+          "url": "http://www.bignewsnetwork.com/news/278925430/cyber-security-council-conducts-crisis-simulation-exercise-with-immersive",
+          "domain": "bignewsnetwork.com",
+          "tier": "wire"
         }
       ],
       "snippet": null,
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-16%2Fa144u0p5%2Fcybr-2.jpeg?rect=0%2C56%2C712%2C374&amp;w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1773670560.0
     },
     {
       "id": "b0d63c44039f",
