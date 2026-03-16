@@ -6,23 +6,30 @@
       "id": "83f22bf68d8e",
       "datetime": "2026-03-16T05:28:37Z",
       "type": "interception",
-      "confirmed": false,
-      "precision": "country",
+      "confirmed": true,
+      "precision": "city",
       "title": "UAE air defences intercepting Iranian missiles and drones — Mar 16",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
+      "location": "Dubai, UAE",
+      "lat": 25.2048,
+      "lon": 55.2708,
       "sources": [
         {
           "url": "https://www.middleeasteye.net/live-blog/live-blog-update/uae-says-air-defence-systems-intercepting-iranian-missiles-and-drones",
           "domain": "middleeasteye.net",
           "tier": "local"
+        },
+        {
+          "url": "https://gulfnews.com/uae/government/uae-air-defences-intercept-4-iranian-ballistic-missiles-and-6-drones-today-1.500475234",
+          "domain": "gulfnews.com",
+          "tier": "wire"
         }
       ],
       "snippet": null,
       "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/IRAN-CRISIS-EMIRATES-INCIDENT.JPG",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1773642517.0
     },
     {
       "id": "f8207d6bd9d4",
