@@ -1,7 +1,50 @@
 {
-  "last_updated": "2026-03-16T05:24:00Z",
+  "last_updated": "2026-03-16T05:36:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
+    {
+      "id": "f8207d6bd9d4",
+      "datetime": "2026-03-16T00:06:12Z",
+      "type": "impact_minor",
+      "confirmed": true,
+      "precision": "exact",
+      "title": "Drone hits fuel tank near Dubai Intl Airport — fire",
+      "location": "Dubai International Airport",
+      "lat": 25.2528,
+      "lon": 55.3644,
+      "sources": [
+        {
+          "url": "https://gulfnews.com/uae/fire-reported-near-dubai-international-airport-following-drone-incident-1.500475657",
+          "domain": "gulfnews.com",
+          "tier": "local"
+        },
+        {
+          "url": "https://www.dubaieye1038.com/news/local/fire-reported-after-drone-incident-near-dubai-airport/",
+          "domain": "dubaieye1038.com",
+          "tier": "wire"
+        },
+        {
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/dubai-says-drone-related-incident-ignites-fire-near-airport",
+          "domain": "middleeasteye.net",
+          "tier": "local"
+        },
+        {
+          "url": "https://www.thenationalnews.com/news/uae/2026/03/16/fire-near-dubai-airport-after-drone-strike-hits-fuel-tank/",
+          "domain": "thenationalnews.com",
+          "tier": "local"
+        },
+        {
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/3/16/fire-erupts-at-dubai-airport-following-drone-attack?traffic_source=rss",
+          "domain": "aljazeera.com",
+          "tier": "wire"
+        }
+      ],
+      "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-16%2F6w1pvvie%2FBreaking-NEWS-GN.jpeg?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
+      "_via": "rss",
+      "confidence": "high",
+      "_search_count": 2,
+      "_next_search_at": 1773641172.0
+    },
     {
       "id": "fb71efe3c093",
       "datetime": "2026-03-15T22:02:41Z",
@@ -178,49 +221,6 @@
       ],
       "_via": "rss",
       "confidence": "high"
-    },
-    {
-      "id": "f8207d6bd9d4",
-      "datetime": "2026-03-16T00:06:12Z",
-      "type": "impact_minor",
-      "confirmed": true,
-      "precision": "exact",
-      "title": "Drone hits fuel tank near Dubai Intl Airport — fire",
-      "location": "Dubai International Airport",
-      "lat": 25.2528,
-      "lon": 55.3644,
-      "sources": [
-        {
-          "url": "https://gulfnews.com/uae/fire-reported-near-dubai-international-airport-following-drone-incident-1.500475657",
-          "domain": "gulfnews.com",
-          "tier": "local"
-        },
-        {
-          "url": "https://www.dubaieye1038.com/news/local/fire-reported-after-drone-incident-near-dubai-airport/",
-          "domain": "dubaieye1038.com",
-          "tier": "wire"
-        },
-        {
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/dubai-says-drone-related-incident-ignites-fire-near-airport",
-          "domain": "middleeasteye.net",
-          "tier": "local"
-        },
-        {
-          "url": "https://www.thenationalnews.com/news/uae/2026/03/16/fire-near-dubai-airport-after-drone-strike-hits-fuel-tank/",
-          "domain": "thenationalnews.com",
-          "tier": "local"
-        },
-        {
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/3/16/fire-erupts-at-dubai-airport-following-drone-attack?traffic_source=rss",
-          "domain": "aljazeera.com",
-          "tier": "wire"
-        }
-      ],
-      "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-16%2F6w1pvvie%2FBreaking-NEWS-GN.jpeg?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
-      "_via": "rss",
-      "confidence": "high",
-      "_search_count": 2,
-      "_next_search_at": 1773641172.0
     },
     {
       "id": "00030061e54d",
