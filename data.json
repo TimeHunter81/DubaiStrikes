@@ -6,7 +6,7 @@
       "id": "1c8e4738182d",
       "datetime": "2026-03-16T10:37:47Z",
       "type": "impact_minor",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "Drone strikes building in Umm Al Quwain — fire, no injuries",
       "location": "Umm Al Quwain",
@@ -25,7 +25,9 @@
         }
       ],
       "confidence": "low",
-      "_via": "rss"
+      "_via": "rss",
+      "_search_count": 1,
+      "_next_search_at": 1773661067.0
     },
     {
       "id": "518e9d7748ee",
