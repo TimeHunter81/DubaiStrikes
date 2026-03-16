@@ -6,7 +6,7 @@
       "id": "1c8e4738182d",
       "datetime": "2026-03-16T10:37:47Z",
       "type": "impact_minor",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "Drone strikes building in Umm Al Quwain — fire, no injuries",
       "location": "Umm Al Quwain",
@@ -27,14 +27,19 @@
           "url": "https://www.gulftoday.ae/news/2026/03/16/drone-strikes-a-building-in-umm-al-quwain-no-injuries-reported",
           "domain": "gulftoday.ae",
           "tier": "local"
+        },
+        {
+          "url": "https://www.reuters.com/world/middle-east/fire-breaks-out-vicinity-dubai-international-airport-after-drone-attack-dubai-2026-03-16/",
+          "domain": "reuters.com",
+          "tier": "wire"
         }
       ],
       "snippet": null,
       "preview_image": null,
       "_via": "rss",
       "confidence": "medium",
-      "_search_count": 1,
-      "_next_search_at": 1773661067.0
+      "_search_count": 2,
+      "_next_search_at": 1773679067.0
     },
     {
       "id": "518e9d7748ee",
