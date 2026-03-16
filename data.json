@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-16T17:46:00Z",
+  "last_updated": "2026-03-16T17:59:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -34,12 +34,8 @@
           "tier": "wire"
         }
       ],
-      "snippet": null,
-      "preview_image": null,
-      "_via": "rss",
       "confidence": "medium",
-      "_search_count": 2,
-      "_next_search_at": 1773679067.0
+      "_via": "rss"
     },
     {
       "id": "518e9d7748ee",
@@ -68,8 +64,6 @@
           "tier": "wire"
         }
       ],
-      "snippet": null,
-      "preview_image": null,
       "confidence": "high",
       "_via": "rss"
     },
@@ -105,8 +99,6 @@
           "tier": "wire"
         }
       ],
-      "snippet": null,
-      "preview_image": null,
       "confidence": "high",
       "_via": "rss"
     },
@@ -147,8 +139,6 @@
           "tier": "wire"
         }
       ],
-      "snippet": null,
-      "preview_image": null,
       "confidence": "high",
       "_via": "rss"
     },
@@ -184,8 +174,6 @@
           "tier": "wire"
         }
       ],
-      "snippet": null,
-      "preview_image": null,
       "confidence": "high",
       "_via": "rss"
     },
@@ -211,12 +199,8 @@
           "tier": "wire"
         }
       ],
-      "snippet": null,
-      "preview_image": null,
-      "_via": "rss",
       "confidence": "high",
-      "_search_count": 1,
-      "_next_search_at": 1773498875.0
+      "_via": "rss"
     },
     {
       "id": "780a01b87f72",
