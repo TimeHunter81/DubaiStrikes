@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-16T06:39:35Z",
+  "last_updated": "2026-03-16T06:48:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -21,7 +21,7 @@
         {
           "url": "https://www.dubaieye1038.com/news/local/fire-reported-after-drone-incident-near-dubai-airport/",
           "domain": "dubaieye1038.com",
-          "tier": "wire"
+          "tier": "local"
         },
         {
           "url": "https://www.middleeasteye.net/live-blog/live-blog-update/dubai-says-drone-related-incident-ignites-fire-near-airport",
