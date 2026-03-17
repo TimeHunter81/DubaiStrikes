@@ -6,7 +6,7 @@
       "id": "a95d0f031002",
       "datetime": "2026-03-17T11:51:09Z",
       "type": "interception",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "UAE air defences intercept 10 missiles and 45 drones",
       "location": "UAE",
@@ -17,8 +17,15 @@
           "url": "https://gulfnews.com/uae/uae-air-defences-intercept-10-ballistic-missiles-and-45-drones-on-tuesday-1.500477481",
           "domain": "gulfnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://apnews.com/live/iran-war-israel-trump-03-17-2026",
+          "domain": "apnews.com",
+          "tier": "wire"
         }
-      ]
+      ],
+      "_search_count": 1,
+      "_next_search_at": 1773751869.0
     },
     {
       "id": "25f2eb99d3ec",
