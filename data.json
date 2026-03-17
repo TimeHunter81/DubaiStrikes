@@ -6,7 +6,7 @@
       "id": "c307357ef40b",
       "datetime": "2026-03-17T05:47:43Z",
       "type": "impact_major",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "Interception debris kills 1 in Abu Dhabi",
       "location": "Abu Dhabi",
@@ -35,13 +35,15 @@
         }
       ],
       "_via": "rss",
-      "confidence": "high"
+      "confidence": "high",
+      "_search_count": 1,
+      "_next_search_at": 1773730063.0
     },
     {
       "id": "679ef66690f2",
       "datetime": "2026-03-17T03:37:32Z",
       "type": "impact_minor",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "Interception debris hits Dubai building",
       "location": "Dubai",
@@ -62,9 +64,16 @@
           "url": "https://www.hindustantimes.com/world-news/dubai-abu-dhabi-news-live-updates-uae-middle-east-airports-saudi-flights-fujairah-iran-us-war-israel-missile-strikes-101773625394355.html",
           "domain": "hindustantimes.com",
           "tier": "wire"
+        },
+        {
+          "url": "https://www.reutersconnect.com/item/a-damaged-building-in-difc-dubai-after-debris-from-a-successful-interception-caused-minor-damage-to-the-facade-amid-the-us-israeli-conflict-with-iran-in-dubai/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX1JDMkgzS0FERTJHRg",
+          "domain": "reutersconnect.com",
+          "tier": "wire"
         }
       ],
-      "_via": "rss"
+      "_via": "rss",
+      "_search_count": 1,
+      "_next_search_at": 1773722252.0
     },
     {
       "id": "92eecd52878f",
