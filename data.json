@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-17T14:08:16Z",
+  "last_updated": "2026-03-17T14:15:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -18,12 +18,7 @@
           "domain": "gulfnews.com",
           "tier": "local"
         }
-      ],
-      "preview_image": "https://media.assettype.com/gulfnews%2F2026-02-13%2F24qm98x1%2FDubai?rect=0%2C531%2C3872%2C2033&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
-      "_via": "rss",
-      "_search_count": 2,
-      "_next_search_at": 1773769869.0,
-      "confidence": "low"
+      ]
     },
     {
       "id": "25f2eb99d3ec",
@@ -41,8 +36,7 @@
           "domain": "aljazeera.com",
           "tier": "wire"
         }
-      ],
-      "_via": "rss"
+      ]
     },
     {
       "id": "c307357ef40b",
@@ -75,10 +69,7 @@
           "domain": "aljazeera.com",
           "tier": "wire"
         }
-      ],
-      "_via": "rss",
-      "_search_count": 2,
-      "_next_search_at": 1773748063.0
+      ]
     },
     {
       "id": "679ef66690f2",
@@ -111,10 +102,7 @@
           "domain": "reutersconnect.com",
           "tier": "wire"
         }
-      ],
-      "_via": "rss",
-      "_search_count": 1,
-      "_next_search_at": 1773722252.0
+      ]
     },
     {
       "id": "92eecd52878f",
@@ -142,8 +130,7 @@
           "domain": "gulfnews.com",
           "tier": "local"
         }
-      ],
-      "_via": "rss"
+      ]
     },
     {
       "id": "7c3cdb5de2ac",
@@ -176,8 +163,7 @@
           "domain": "thenationalnews.com",
           "tier": "local"
         }
-      ],
-      "_via": "rss"
+      ]
     },
     {
       "id": "780a01b87f72",
