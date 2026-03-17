@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-17T09:49:08Z",
+  "last_updated": "2026-03-17T10:13:30Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -44,11 +44,11 @@
       "datetime": "2026-03-17T03:37:32Z",
       "type": "impact_minor",
       "confirmed": true,
-      "precision": "city",
-      "title": "Interception debris hits Dubai building",
-      "location": "Dubai",
-      "lat": 25.2048,
-      "lon": 55.2708,
+      "precision": "area",
+      "title": "Interception debris damages DIFC building, Dubai",
+      "location": "DIFC, Dubai",
+      "lat": 25.2131,
+      "lon": 55.2796,
       "sources": [
         {
           "url": "https://gulfnews.com/uae/uae-air-defenses-respond-to-missile-threat-1.500476947",
@@ -74,6 +74,27 @@
       "_via": "rss",
       "_search_count": 1,
       "_next_search_at": 1773722252.0
+    },
+    {
+      "id": "25f2eb99d3ec",
+      "datetime": "2026-03-17T06:35:15Z",
+      "type": "impact_minor",
+      "confirmed": true,
+      "precision": "city",
+      "title": "Iranian drone sparks fire at Fujairah oil hub",
+      "location": "Fujairah",
+      "lat": 25.1288,
+      "lon": 56.3264,
+      "sources": [
+        {
+          "url": "https://www.aljazeera.com/news/2026/3/17/drone-sparks-fire-at-uae-oil-site-as-gulf-takes-more-hits-amid-iran-war?traffic_source=rss",
+          "domain": "aljazeera.com",
+          "tier": "wire"
+        }
+      ],
+      "snippet": "The Fujairah oil hub has been hit repeatedly by Iranian drones as the US-Israeli war continues to ignite instability.",
+      "_via": "rss",
+      "confidence": "medium"
     },
     {
       "id": "92eecd52878f",
@@ -201,6 +222,26 @@
         }
       ],
       "_via": "rss"
+    },
+    {
+      "id": "7d4b48f061b3",
+      "datetime": "2026-03-16T08:12:00Z",
+      "type": "impact_major",
+      "confirmed": false,
+      "precision": "city",
+      "title": "Iranian missile strikes Abu Dhabi — 1 killed",
+      "location": "Abu Dhabi",
+      "lat": 24.4539,
+      "lon": 54.3773,
+      "sources": [
+        {
+          "url": "https://www.thenationalnews.com/news/uae/2026/03/16/one-person-killed-following-iranian-missile-attack-on-abu-dhabi/",
+          "domain": "thenationalnews.com",
+          "tier": "local"
+        }
+      ],
+      "_via": "rss",
+      "confidence": "low"
     },
     {
       "id": "780a01b87f72",
