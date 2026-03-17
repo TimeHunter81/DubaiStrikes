@@ -1,7 +1,32 @@
 {
-  "last_updated": "2026-03-17T03:33:02Z",
+  "last_updated": "2026-03-17T03:42:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
+    {
+      "id": "78cc4dff83fe",
+      "datetime": "2026-03-17T00:58:10Z",
+      "type": "impact_minor",
+      "confirmed": false,
+      "precision": "city",
+      "title": "Drone hits Fujairah Oil Industry Zone — fire reported",
+      "location": "Fujairah",
+      "lat": 25.1288,
+      "lon": 56.3265,
+      "sources": [
+        {
+          "url": "https://gulfnews.com/uae/fire-hits-fujairah-oil-industry-zone-after-drone-strike-1.500476866",
+          "domain": "gulfnews.com",
+          "tier": "local"
+        },
+        {
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/fire-erupts-uaes-fujairah-oil-zone-after-drone-strike",
+          "domain": "middleeasteye.net",
+          "tier": "local"
+        }
+      ],
+      "_via": "rss",
+      "confidence": "low"
+    },
     {
       "id": "92eecd52878f",
       "datetime": "2026-03-16T23:45:41Z",
@@ -69,7 +94,7 @@
     },
     {
       "id": "b31d132c24e2",
-      "datetime": "2026-03-16T11:43:32Z",
+      "datetime": "2026-03-16T11:15:00Z",
       "type": "impact_minor",
       "confirmed": true,
       "precision": "exact",
@@ -152,11 +177,6 @@
           "url": "https://www.bbc.com/news/articles/crl4gxgkkylo",
           "domain": "bbc.com",
           "tier": "wire"
-        },
-        {
-          "url": "https://gulfnews.com/uae/fire-hits-fujairah-oil-industry-zone-after-drone-strike-1.500476866",
-          "domain": "gulfnews.com",
-          "tier": "local"
         }
       ],
       "_via": "rss",
