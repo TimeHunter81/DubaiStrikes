@@ -6,7 +6,7 @@
       "id": "d2955975b863",
       "datetime": "2026-03-17T22:07:12Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "UAE air defences responding to Iran missile, drone threats",
       "location": "UAE",
@@ -21,7 +21,9 @@
       ],
       "snippet": null,
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1773788832.0
     },
     {
       "id": "a95d0f031002",
