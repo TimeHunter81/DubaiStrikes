@@ -6,7 +6,7 @@
       "id": "c307357ef40b",
       "datetime": "2026-03-17T05:47:43Z",
       "type": "impact_minor",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "One killed by falling debris from intercepted missile in Abu Dhabi",
       "location": "Abu Dhabi",
@@ -27,16 +27,23 @@
           "url": "https://gulfnews.com/uae/one-killed-in-abu-dhabi-as-shrapnel-falls-after-missile-intercept-1.500477034",
           "domain": "gulfnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://www.aljazeera.com/amp/news/2026/3/16/drone-strike-disrupts-dubai-flights-as-iran-continues-gulf-attacks",
+          "domain": "aljazeera.com",
+          "tier": "wire"
         }
       ],
       "confidence": "low",
-      "_via": "rss"
+      "_via": "rss",
+      "_search_count": 1,
+      "_next_search_at": 1773730063.0
     },
     {
       "id": "679ef66690f2",
       "datetime": "2026-03-17T03:37:32Z",
       "type": "impact_minor",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "Interception debris hits Dubai building",
       "location": "Dubai",
@@ -60,7 +67,9 @@
         }
       ],
       "_via": "rss",
-      "confidence": "high"
+      "confidence": "high",
+      "_search_count": 1,
+      "_next_search_at": 1773722252.0
     },
     {
       "id": "92eecd52878f",
