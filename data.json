@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-17T20:18:00Z",
+  "last_updated": "2026-03-17T20:31:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -181,26 +181,6 @@
       ],
       "_via": "rss",
       "confidence": "high"
-    },
-    {
-      "id": "b31d132c24e2",
-      "datetime": "2026-03-16T11:43:32Z",
-      "type": "impact_minor",
-      "confirmed": true,
-      "precision": "exact",
-      "title": "Iran hits Fujairah oil port and Dubai airport",
-      "location": "Dubai Airport",
-      "lat": 25.2528,
-      "lon": 55.3644,
-      "sources": [
-        {
-          "url": "https://www.bbc.com/news/articles/crl4gxgkkylo?at_medium=RSS&at_campaign=rss",
-          "domain": "bbc.com",
-          "tier": "wire"
-        }
-      ],
-      "_via": "rss",
-      "confidence": "medium"
     },
     {
       "id": "780a01b87f72",
