@@ -1,7 +1,51 @@
 {
-  "last_updated": "2026-03-17T09:17:29Z",
+  "last_updated": "2026-03-17T09:26:27Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
+    {
+      "id": "7e45b58dc3d4",
+      "datetime": "2026-03-17T09:18:11Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "Iran seek to have World Cup matches moved from the United States to Mexico",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.thenationalnews.com/sport/football/2026/03/17/iran-seek-to-have-world-cup-matches-moved-from-the-united-states-to-mexico/",
+          "domain": "thenationalnews.com",
+          "tier": "local"
+        }
+      ],
+      "snippet": null,
+      "preview_image": "https://www.thenationalnews.com/resizer/v2/E5L6CDOWF5ENBXAHP7Q6WD44UI.jpg?smart=true&amp;auth=22b7c0cb4e88ed4a018738315233de70ef3b7db5c6842d14a0932708459be36b&amp;width=1200&amp;height=630",
+      "_via": "rss",
+      "confidence": "low"
+    },
+    {
+      "id": "9938235383d4",
+      "datetime": "2026-03-17T09:16:57Z",
+      "type": "security_alert",
+      "confirmed": true,
+      "precision": "country",
+      "title": "Gulf economies suffer brunt of Iran war as recession risk looms",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.aljazeera.com/economy/2026/3/17/gulf-economies-suffer-brunt-of-iran-war-as-recession-risk-looms?traffic_source=rss",
+          "domain": "aljazeera.com",
+          "tier": "wire"
+        }
+      ],
+      "snippet": "From energy exports to tourism, the economies of Gulf nations are at risk from a prolonged conflict in the Middle East.",
+      "preview_image": "https://www.aljazeera.com/wp-content/uploads/2026/03/AFP__20260313__A33K8ZH__v2__MidRes__TopshotUaeIranUsIsraelWar-1773709131_239608-1773720728.jpg?resize=1200%2C630&amp;quality=80",
+      "_via": "rss",
+      "confidence": "medium"
+    },
     {
       "id": "a7a356c1ea41",
       "datetime": "2026-03-17T09:11:35Z",
@@ -47,6 +91,28 @@
       "confidence": "low"
     },
     {
+      "id": "ad4b6ffda339",
+      "datetime": "2026-03-17T09:05:17Z",
+      "type": "security_alert",
+      "confirmed": true,
+      "precision": "country",
+      "title": "Why the Iranian regime did not collapse after Khamenei’s assassination",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.aljazeera.com/opinions/2026/3/17/why-the-iranian-regime-did-not-collapse-after-khameneis-assassination?traffic_source=rss",
+          "domain": "aljazeera.com",
+          "tier": "wire"
+        }
+      ],
+      "snippet": "The Iranian regime is designed to survive power vacuums. That, however, does not mean it will survive the war unscathed.",
+      "preview_image": "https://www.aljazeera.com/wp-content/uploads/2026/03/2026-03-13T085230Z_1665870248_RC2K3KASOO17_RTRMADP_3_ISRAEL-PALESTINIANS-ALQUDSDAY-IRAN-1773410301.jpg?resize=1920%2C1440",
+      "_via": "rss",
+      "confidence": "medium"
+    },
+    {
       "id": "90a634244a97",
       "datetime": "2026-03-17T09:04:52Z",
       "type": "security_alert",
@@ -67,6 +133,28 @@
       "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/000_A3FB27R_0.jpg",
       "_via": "rss",
       "confidence": "low"
+    },
+    {
+      "id": "0cbef092de67",
+      "datetime": "2026-03-17T09:00:52Z",
+      "type": "security_alert",
+      "confirmed": true,
+      "precision": "country",
+      "title": "Israel claims to have assassinated commander of Iran’s Basij militia unit",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.aljazeera.com/news/2026/3/17/israel-claims-to-have-assassinated-commander-of-irans-basij-militia-unit?traffic_source=rss",
+          "domain": "aljazeera.com",
+          "tier": "wire"
+        }
+      ],
+      "snippet": "If confirmed, Soleimani would be highest level assassination in war since US-Israeli killed Ali Khamenei.",
+      "preview_image": "https://www.aljazeera.com/wp-content/uploads/2026/03/AFP__20191124__1MJ451__v1__HighRes__IranPoliticsProtestGuards-1773737823.jpg?resize=1920%2C1440",
+      "_via": "rss",
+      "confidence": "medium"
     },
     {
       "id": "e088df5a9f9a",
@@ -2201,94 +2289,6 @@
         }
       ],
       "_via": "rss"
-    },
-    {
-      "id": "592d9a4ad81e",
-      "datetime": "2026-03-16T05:30:05Z",
-      "type": "security_alert",
-      "confirmed": false,
-      "precision": "country",
-      "title": "Isaac del Toro clinches 'very special' Tirreno-Adriatico victory for UAE Team Emirates",
-      "location": "Uae",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.thenationalnews.com/sport/2026/03/16/isaac-del-toro-clinches-very-special-tirreno-adriatico-victory-for-uae-team-emirates/",
-          "domain": "thenationalnews.com",
-          "tier": "local"
-        }
-      ],
-      "snippet": null,
-      "preview_image": "https://www.thenationalnews.com/resizer/v2/H7MTOVEWEQ3B2RFJ5LXAPYJ76U.jpg?smart=true&amp;auth=c02f1412a6e63b7760106e5b4e4477d4bb68f50aec2d04a989ea5261587e4320&amp;width=1200&amp;height=630",
-      "_via": "rss",
-      "confidence": "low"
-    },
-    {
-      "id": "951b89a69391",
-      "datetime": "2026-03-16T05:00:11Z",
-      "type": "security_alert",
-      "confirmed": true,
-      "precision": "country",
-      "title": "War in Iran, chaos in the Gulf, repression in the west: and the thread that binds them all is Palestine | Nesrine Malik",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.theguardian.com/commentisfree/2026/mar/16/war-iran-gulf-west-palestine-occupation-us",
-          "domain": "theguardian.com",
-          "tier": "wire"
-        }
-      ],
-      "snippet": "&lt;p&gt;In the Middle East, the occupation is the original sin. And those who banked on this US-backed ‘stability’ now find it giving way beneath them &lt;/p&gt;&lt;p&gt;A war &lt;a href=\"https://www.theguardian.com/world/2026/mar/14/how-iran-war-es",
-      "preview_image": "https://i.guim.co.uk/img/media/1a462b0cfada88a58836d1e5daf5473b39c272ef/468_0_4680_3744/master/4680.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctb3BpbmlvbnMucG5n&enable=upscale&s=cbdadc21f8e353d6f1912b86c81cc721",
-      "_via": "rss",
-      "confidence": "medium"
-    },
-    {
-      "id": "35b4faabc9e7",
-      "datetime": "2026-03-16T04:14:45Z",
-      "type": "security_alert",
-      "confirmed": true,
-      "precision": "country",
-      "title": "'A new norm': BBC visits Doha market starting to fill up again two weeks into Iran war",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.bbc.com/news/videos/cp32gez414yo?at_medium=RSS&amp;at_campaign=rss",
-          "domain": "bbc.com",
-          "tier": "wire"
-        }
-      ],
-      "snippet": "The BBC's International News correspondent, Barbara Plett Usher, visits Doha's Souq Waqif market as strikes in the region continue.",
-      "preview_image": "https://ichef.bbci.co.uk/news/1024/branded_news/f3ba/live/cc0fefa0-20b2-11f1-801d-ed3cff6bf876.jpg",
-      "_via": "rss",
-      "confidence": "medium"
-    },
-    {
-      "id": "bf23d8811f7b",
-      "datetime": "2026-03-16T04:00:00Z",
-      "type": "security_alert",
-      "confirmed": false,
-      "precision": "country",
-      "title": "Iran war brings new danger to Federal Reserve's high-wire act",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.thenationalnews.com/business/economy/2026/03/13/iran-war-brings-new-danger-to-federal-reserves-high-wire-act/",
-          "domain": "thenationalnews.com",
-          "tier": "local"
-        }
-      ],
-      "snippet": null,
-      "preview_image": "https://www.thenationalnews.com/resizer/v2/GETCJQHPGHZILP2JR75LUIA6SA.jpg?smart=true&amp;auth=2f5bdd5bd98dfb38a8651b98f333945dd161a4aeedb592763caaf246a16ab278&amp;width=1200&amp;height=630",
-      "_via": "rss",
-      "confidence": "low"
     },
     {
       "id": "780a01b87f72",
