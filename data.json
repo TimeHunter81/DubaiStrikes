@@ -6,7 +6,7 @@
       "id": "78cc4dff83fe",
       "datetime": "2026-03-17T00:58:10Z",
       "type": "impact_minor",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "Drone hits Fujairah Oil Industry Zone — fire reported",
       "location": "Fujairah",
@@ -22,10 +22,17 @@
           "url": "https://www.middleeasteye.net/live-blog/live-blog-update/fire-erupts-uaes-fujairah-oil-zone-after-drone-strike",
           "domain": "middleeasteye.net",
           "tier": "local"
+        },
+        {
+          "url": "https://www.reuters.com/world/middle-east/fire-occurred-uaes-fujairah-after-debris-fell-during-interception-drone-no-2026-03-14/",
+          "domain": "reuters.com",
+          "tier": "wire"
         }
       ],
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1773712690.0
     },
     {
       "id": "92eecd52878f",
