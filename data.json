@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-17T22:35:54Z",
+  "last_updated": "2026-03-17T22:44:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -9,7 +9,7 @@
       "confirmed": false,
       "precision": "country",
       "title": "UAE air defences responding to Iran missile, drone threats",
-      "location": "Uae",
+      "location": "UAE",
       "lat": null,
       "lon": null,
       "sources": [
@@ -20,7 +20,6 @@
         }
       ],
       "snippet": null,
-      "preview_image": "https://media.assettype.com/gulfnews%2F2025-09-26%2Fgm0abpok%2FANI_20250926173759.jpg?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
       "confidence": "low"
     },
