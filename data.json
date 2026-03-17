@@ -6,7 +6,7 @@
       "id": "e9fe62686536",
       "datetime": "2026-03-17T05:19:34Z",
       "type": "impact_major",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "1 killed in Abu Dhabi as shrapnel falls after missile intercept",
       "location": "Abu Dhabi",
@@ -17,10 +17,17 @@
           "url": "https://gulfnews.com/uae/one-killed-in-abu-dhabi-as-shrapnel-falls-after-missile-intercept-1.500477034",
           "domain": "gulfnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://www.thenationalnews.com/news/uae/2026/03/16/one-person-killed-following-iranian-missile-attack-on-abu-dhabi/",
+          "domain": "thenationalnews.com",
+          "tier": "wire"
         }
       ],
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1773728374.0
     },
     {
       "id": "679ef66690f2",
