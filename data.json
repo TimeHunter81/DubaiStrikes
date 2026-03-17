@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-17T17:13:00Z",
+  "last_updated": "2026-03-17T17:27:37Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -24,7 +24,6 @@
           "tier": "wire"
         }
       ],
-      "confidence": "high",
       "_via": "rss"
     },
     {
@@ -44,7 +43,6 @@
           "tier": "wire"
         }
       ],
-      "confidence": "high",
       "_via": "rss"
     },
     {
@@ -79,7 +77,6 @@
           "tier": "wire"
         }
       ],
-      "confidence": "high",
       "_via": "rss"
     },
     {
@@ -114,7 +111,6 @@
           "tier": "wire"
         }
       ],
-      "confidence": "high",
       "_via": "rss"
     },
     {
@@ -144,7 +140,6 @@
           "tier": "local"
         }
       ],
-      "confidence": "high",
       "_via": "rss"
     },
     {
@@ -179,7 +174,6 @@
           "tier": "local"
         }
       ],
-      "confidence": "high",
       "_via": "rss"
     },
     {
