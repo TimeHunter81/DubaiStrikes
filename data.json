@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-17T13:21:45Z",
+  "last_updated": "2026-03-17T13:34:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -8,7 +8,7 @@
       "type": "interception",
       "confirmed": false,
       "precision": "country",
-      "title": "UAE intercepts 10 ballistic missiles and 45 drones (Tue)",
+      "title": "UAE air defences intercept 10 ballistic missiles and 45 drones",
       "location": "UAE",
       "lat": null,
       "lon": null,
@@ -154,7 +154,7 @@
       "type": "impact_minor",
       "confirmed": true,
       "precision": "area",
-      "title": "Drone strike sparks fire at Shah gas field, Abu Dhabi",
+      "title": "Iranian drone strike sparks fire at Shah gas field, Abu Dhabi",
       "location": "Shah Gas Field, Abu Dhabi",
       "lat": 23.09,
       "lon": 53.42,
