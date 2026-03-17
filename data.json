@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-16T23:52:00Z",
+  "last_updated": "2026-03-17T00:00:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -7,11 +7,11 @@
       "datetime": "2026-03-16T23:45:41Z",
       "type": "security_alert",
       "confirmed": true,
-      "precision": "city",
-      "title": "UAE closes airspace as missile and drone head towards country",
-      "location": "Dubai, UAE",
-      "lat": 25.2532,
-      "lon": 55.3657,
+      "precision": "country",
+      "title": "UAE closes airspace as missile and drone inbound",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
       "sources": [
         {
           "url": "https://www.middleeasteye.net/live-blog/live-blog-update/uae-closes-airspace-missile-and-drone-head-towards-country",
@@ -25,8 +25,7 @@
         }
       ],
       "_via": "rss",
-      "_search_count": 1,
-      "_next_search_at": 1773708341.0
+      "confidence": "high"
     },
     {
       "id": "7c3cdb5de2ac",
