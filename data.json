@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-17T23:33:00Z",
+  "last_updated": "2026-03-17T23:47:59Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -8,7 +8,7 @@
       "type": "interception",
       "confirmed": true,
       "precision": "country",
-      "title": "UAE air defences intercept new Iran missile/drone salvo",
+      "title": "UAE intercepts new Iranian missile/drone salvo",
       "location": "UAE",
       "lat": null,
       "lon": null,
@@ -53,6 +53,28 @@
       "confidence": "high"
     },
     {
+      "id": "e965c0896f64",
+      "datetime": "2026-03-17T07:30:07Z",
+      "type": "impact_minor",
+      "confirmed": false,
+      "precision": "city",
+      "title": "Drone attack halts operations at Abu Dhabi Shah gas plant",
+      "location": "Abu Dhabi",
+      "lat": 24.4539,
+      "lon": 54.3773,
+      "sources": [
+        {
+          "url": "https://www.thenationalnews.com/business/2026/03/17/abu-dhabi-oil-gas-drone-attack-iran/",
+          "domain": "thenationalnews.com",
+          "tier": "local"
+        }
+      ],
+      "snippet": null,
+      "preview_image": "https://www.thenationalnews.com/resizer/v2/ZLTN4MFEGWDDY77TEQMZ6YKSL4.jpg?smart=true&amp;auth=c53f8fb42ee684cafdf3d43dffb274e7a5982864e3009f7a9ca6119610f601d8&amp;width=1200&amp;height=630",
+      "_via": "rss",
+      "confidence": "low"
+    },
+    {
       "id": "25f2eb99d3ec",
       "datetime": "2026-03-17T06:35:15Z",
       "type": "impact_minor",
@@ -78,7 +100,7 @@
       "type": "impact_major",
       "confirmed": true,
       "precision": "city",
-      "title": "Interception debris kills 1 in Abu Dhabi",
+      "title": "Interception debris kills 1 person in Abu Dhabi",
       "location": "Abu Dhabi",
       "lat": 24.4539,
       "lon": 54.3773,
