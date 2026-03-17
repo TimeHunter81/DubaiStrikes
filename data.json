@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-17T00:40:00Z",
+  "last_updated": "2026-03-17T00:52:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -64,7 +64,8 @@
           "tier": "local"
         }
       ],
-      "_via": "rss"
+      "_via": "rss",
+      "confidence": "high"
     },
     {
       "id": "1c8e4738182d",
@@ -98,7 +99,8 @@
           "tier": "wire"
         }
       ],
-      "_via": "rss"
+      "_via": "rss",
+      "confidence": "high"
     },
     {
       "id": "518e9d7748ee",
@@ -127,7 +129,8 @@
           "tier": "wire"
         }
       ],
-      "_via": "rss"
+      "_via": "rss",
+      "confidence": "high"
     },
     {
       "id": "80803aaba953",
@@ -161,7 +164,8 @@
           "tier": "wire"
         }
       ],
-      "_via": "rss"
+      "_via": "rss",
+      "confidence": "high"
     },
     {
       "id": "f8207d6bd9d4",
@@ -200,7 +204,8 @@
           "tier": "wire"
         }
       ],
-      "_via": "rss"
+      "_via": "rss",
+      "confidence": "high"
     },
     {
       "id": "780a01b87f72",
