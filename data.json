@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-17T07:44:00Z",
+  "last_updated": "2026-03-17T07:52:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -65,7 +65,7 @@
       "id": "679ef66690f2",
       "datetime": "2026-03-17T03:37:32Z",
       "type": "impact_minor",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "city",
       "title": "Interception debris hits Dubai building",
       "location": "Dubai",
