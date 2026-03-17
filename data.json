@@ -126,8 +126,8 @@
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-17%2F2zygrgw4%2FAkcel-Holding.jpg?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
       "confidence": "low",
-      "_search_count": 1,
-      "_next_search_at": 1773747354.0
+      "_search_count": 2,
+      "_next_search_at": 1773765354.0
     },
     {
       "id": "39bdab955363",
@@ -159,8 +159,8 @@
       "confidence": "low",
       "preview_image": "https://media.cnn.com/api/v1/images/stellar/prod/ap26067484115759-20260311143008704.jpg?c=16x9&q=w_800,c_fill",
       "_via": "gdelt",
-      "_search_count": 1,
-      "_next_search_at": 1773746409.0
+      "_search_count": 2,
+      "_next_search_at": 1773764409.0
     },
     {
       "id": "a2189dd3a9be",
@@ -183,8 +183,8 @@
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-02-17%2F1knkrxnn%2FZakat?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
       "confidence": "low",
-      "_search_count": 1,
-      "_next_search_at": 1773746282.0
+      "_search_count": 2,
+      "_next_search_at": 1773764282.0
     },
     {
       "id": "889540f0cdc5",
@@ -206,7 +206,9 @@
       "snippet": "&lt;article data-history-node-id=\"436013\" about=\"https://www.middleeasteye.net/live-blog/live-blog-update/ali-larijani-attacked-americas-epstein-class-recent-posts\" class=\"live-blog-update default clearfix\"&gt;\n\n  \n      &lt;h2&gt;\n      &lt;a href=\"",
       "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/000_69FF47X.jpg",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1773746212.0
     },
     {
       "id": "5d10a739f248",
