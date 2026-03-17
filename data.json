@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-17T19:38:00Z",
+  "last_updated": "2026-03-17T19:52:51Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -188,7 +188,7 @@
       "type": "impact_minor",
       "confirmed": true,
       "precision": "exact",
-      "title": "Iran hits key UAE oil port (Fujairah) and Dubai airport",
+      "title": "Iran hits Fujairah oil port and Dubai airport",
       "location": "Dubai Airport",
       "lat": 25.2528,
       "lon": 55.3644,
