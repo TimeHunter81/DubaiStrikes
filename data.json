@@ -56,7 +56,7 @@
       "id": "e965c0896f64",
       "datetime": "2026-03-17T07:30:07Z",
       "type": "impact_minor",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "Drone attack halts operations at Abu Dhabi Shah gas plant",
       "location": "Abu Dhabi",
@@ -67,12 +67,19 @@
           "url": "https://www.thenationalnews.com/business/2026/03/17/abu-dhabi-oil-gas-drone-attack-iran/",
           "domain": "thenationalnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://www.reuters.com/world/middle-east/fire-abu-dhabi-shah-oil-field-caused-by-drone-attack-abu-dhabi-media-office-says-2026-03-16/",
+          "domain": "reuters.com",
+          "tier": "wire"
         }
       ],
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/ZLTN4MFEGWDDY77TEQMZ6YKSL4.jpg?smart=true&amp;auth=c53f8fb42ee684cafdf3d43dffb274e7a5982864e3009f7a9ca6119610f601d8&amp;width=1200&amp;height=630",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1773736207.0
     },
     {
       "id": "25f2eb99d3ec",
