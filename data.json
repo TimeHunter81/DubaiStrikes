@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-03-17T07:15:00Z",
+  "last_updated": "2026-03-17T07:37:15Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
       "id": "25f2eb99d3ec",
       "datetime": "2026-03-17T06:35:15Z",
       "type": "impact_minor",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "city",
       "title": "Drone sparks fire at Fujairah oil hub",
       "location": "Fujairah",
@@ -19,16 +19,14 @@
           "tier": "wire"
         }
       ],
-      "snippet": "The Fujairah oil hub has been hit repeatedly by Iranian drones as the US-Israeli war continues to ignite instability.",
       "preview_image": "https://www.aljazeera.com/wp-content/uploads/2026/03/AP26073429527349-1773728140.jpg?resize=1920%2C1440",
-      "_via": "rss",
-      "confidence": "medium"
+      "_via": "rss"
     },
     {
       "id": "c307357ef40b",
       "datetime": "2026-03-17T05:47:43Z",
       "type": "impact_major",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "city",
       "title": "Intercepted Iranian missile debris kills 1 in Abu Dhabi",
       "location": "Abu Dhabi",
@@ -56,16 +54,13 @@
           "tier": "wire"
         }
       ],
-      "confidence": "high",
-      "_via": "rss",
-      "_search_count": 1,
-      "_next_search_at": 1773730063.0
+      "_via": "rss"
     },
     {
       "id": "679ef66690f2",
       "datetime": "2026-03-17T03:37:32Z",
       "type": "impact_minor",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "city",
       "title": "Interception debris hits Dubai building",
       "location": "Dubai",
@@ -88,10 +83,7 @@
           "tier": "wire"
         }
       ],
-      "_via": "rss",
-      "confidence": "high",
-      "_search_count": 1,
-      "_next_search_at": 1773722252.0
+      "_via": "rss"
     },
     {
       "id": "92eecd52878f",
@@ -125,8 +117,7 @@
           "tier": "local"
         }
       ],
-      "_via": "rss",
-      "confidence": "high"
+      "_via": "rss"
     },
     {
       "id": "7c3cdb5de2ac",
@@ -155,8 +146,7 @@
           "tier": "local"
         }
       ],
-      "_via": "rss",
-      "confidence": "high"
+      "_via": "rss"
     },
     {
       "id": "b31d132c24e2",
@@ -180,8 +170,7 @@
           "tier": "local"
         }
       ],
-      "_via": "rss",
-      "confidence": "high"
+      "_via": "rss"
     },
     {
       "id": "1c8e4738182d",
@@ -215,8 +204,7 @@
           "tier": "wire"
         }
       ],
-      "_via": "rss",
-      "confidence": "high"
+      "_via": "rss"
     },
     {
       "id": "518e9d7748ee",
@@ -250,8 +238,7 @@
           "tier": "local"
         }
       ],
-      "_via": "rss",
-      "confidence": "high"
+      "_via": "rss"
     },
     {
       "id": "80803aaba953",
@@ -285,8 +272,7 @@
           "tier": "wire"
         }
       ],
-      "_via": "rss",
-      "confidence": "high"
+      "_via": "rss"
     },
     {
       "id": "780a01b87f72",
