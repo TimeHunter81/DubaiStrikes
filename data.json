@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-17T02:07:00Z",
+  "last_updated": "2026-03-17T02:18:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -8,7 +8,7 @@
       "type": "interception",
       "confirmed": true,
       "precision": "city",
-      "title": "UAE intercepts Iranian missiles and drones over Dubai — airspace closed",
+      "title": "UAE intercepts Iranian missiles and drones over Dubai",
       "location": "Dubai",
       "lat": 25.2048,
       "lon": 55.2708,
@@ -66,6 +66,28 @@
       ],
       "_via": "rss",
       "confidence": "high"
+    },
+    {
+      "id": "b31d132c24e2",
+      "datetime": "2026-03-16T11:43:32Z",
+      "type": "impact_minor",
+      "confirmed": true,
+      "precision": "exact",
+      "title": "Iran hits key UAE oil port and Dubai airport",
+      "location": "Dubai Airport",
+      "lat": 25.2528,
+      "lon": 55.3644,
+      "sources": [
+        {
+          "url": "https://www.bbc.com/news/articles/crl4gxgkkylo?at_medium=RSS&at_campaign=rss",
+          "domain": "bbc.com",
+          "tier": "wire"
+        }
+      ],
+      "snippet": "The port of Fujairah plays a crucial role in helping keep global supplies moving when the Strait of Hormuz is blocked.",
+      "preview_image": "https://ichef.bbci.co.uk/news/1024/branded_news/16d1/live/62f891c0-2125-11f1-821c-5783b4f9d6f9.jpg",
+      "_via": "rss",
+      "confidence": "medium"
     },
     {
       "id": "1c8e4738182d",
@@ -165,46 +187,6 @@
         },
         {
           "url": "https://www.reuters.com/world/middle-east/iran-fires-missiles-gulf-arab-states-one-killed-abu-dhabi-2026-02-28/",
-          "domain": "reuters.com",
-          "tier": "wire"
-        }
-      ],
-      "_via": "rss",
-      "confidence": "high"
-    },
-    {
-      "id": "f8207d6bd9d4",
-      "datetime": "2026-03-16T00:06:12Z",
-      "type": "impact_minor",
-      "confirmed": true,
-      "precision": "exact",
-      "title": "Drone hits fuel tank near Dubai Intl Airport — fire, flights suspended",
-      "location": "Dubai International Airport",
-      "lat": 25.2528,
-      "lon": 55.3644,
-      "sources": [
-        {
-          "url": "https://gulfnews.com/uae/fire-reported-near-dubai-international-airport-following-drone-incident-1.500475657",
-          "domain": "gulfnews.com",
-          "tier": "local"
-        },
-        {
-          "url": "https://www.bbc.com/news/articles/crl4gxgkkylo",
-          "domain": "bbc.com",
-          "tier": "wire"
-        },
-        {
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/dubai-says-drone-related-incident-ignites-fire-near-airport",
-          "domain": "middleeasteye.net",
-          "tier": "local"
-        },
-        {
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/3/16/fire-erupts-at-dubai-airport-following-drone-attack?traffic_source=rss",
-          "domain": "aljazeera.com",
-          "tier": "wire"
-        },
-        {
-          "url": "https://www.reuters.com/world/middle-east/fire-breaks-out-vicinity-dubai-international-airport-after-drone-attack-dubai-2026-03-16/",
           "domain": "reuters.com",
           "tier": "wire"
         }
