@@ -6,7 +6,7 @@
       "id": "3b1d4a9b8dcb",
       "datetime": "2026-03-17T14:28:55Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "Israeli military issues alert for incoming Iranian missile attack",
       "location": "UAE",
@@ -17,40 +17,54 @@
           "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-military-issues-alert-incoming-iranian-missile-attack",
           "domain": "middleeasteye.net",
           "tier": "local"
+        },
+        {
+          "url": "https://www.theguardian.com/world/live/2026/mar/16/iran-war-live-updates-news-oil-trump-hormuz-dubai-airport-israel-targets",
+          "domain": "theguardian.com",
+          "tier": "wire"
         }
       ],
       "snippet": "&lt;article data-history-node-id=\"436036\" about=\"https://www.middleeasteye.net/live-blog/live-blog-update/israeli-military-issues-alert-incoming-iranian-missile-attack\" class=\"live-blog-update default clearfix\"&gt;\n\n  \n      &lt;h2&gt;\n      &lt;a hr",
       "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/000_69FF47X.jpg",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1773761335.0
     },
     {
       "id": "b424e5041997",
       "datetime": "2026-03-17T14:27:43Z",
       "type": "security_alert",
-      "confirmed": false,
-      "precision": "country",
+      "confirmed": true,
+      "precision": "city",
       "title": "UAE travel update: Etihad expands flights, GCAA reopens airspace after brief disruption",
-      "location": "Uae",
-      "lat": null,
-      "lon": null,
+      "location": "Dubai",
+      "lat": 25.2532,
+      "lon": 55.3657,
       "sources": [
         {
           "url": "https://gulfnews.com/business/aviation/uae-travel-update-etihad-expands-flights-gcaa-reopens-airspace-after-brief-disruption-1.500477681",
           "domain": "gulfnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://www.travelpirates.com/captains-log/dubai-airport-march-17-2026-uae-airspace-reopened-iran-attacks",
+          "domain": "travelpirates.com",
+          "tier": "wire"
         }
       ],
       "snippet": null,
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-01%2F8qzb1p7w%2FEK-Collage.jpeg?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1773761263.0
     },
     {
       "id": "8e8fd3f8f382",
       "datetime": "2026-03-17T14:26:31Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "US National Counterterrorism Center director resigns over war in Iran",
       "location": "UAE",
@@ -61,12 +75,19 @@
           "url": "https://www.middleeasteye.net/live-blog/live-blog-update/us-national-counterterrorism-center-director-resigns-over-war-iran",
           "domain": "middleeasteye.net",
           "tier": "local"
+        },
+        {
+          "url": "https://www.reuters.com/world/middle-east/us-national-counterterrorism-center-director-resigns-over-war-iran-2026-03-17/",
+          "domain": "reuters.com",
+          "tier": "wire"
         }
       ],
       "snippet": "&lt;article data-history-node-id=\"436034\" about=\"https://www.middleeasteye.net/live-blog/live-blog-update/us-national-counterterrorism-center-director-resigns-over-war-iran\" class=\"live-blog-update default clearfix\"&gt;\n\n  \n      &lt;h2&gt;\n      &lt",
       "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/000_69FF47X.jpg",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1773761191.0
     },
     {
       "id": "8c4f3a6dcd7c",
@@ -94,7 +115,7 @@
       "id": "b9bd9f684b0a",
       "datetime": "2026-03-17T13:52:08Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "Hezbollah claims attack on Israeli forces in southern Lebanon",
       "location": "UAE",
@@ -105,12 +126,19 @@
           "url": "https://www.middleeasteye.net/live-blog/live-blog-update/hezbollah-claims-attack-israeli-forces-southern-lebanon",
           "domain": "middleeasteye.net",
           "tier": "local"
+        },
+        {
+          "url": "https://www.aljazeera.com/news/2026/3/17/israeli-strikes-target-beirut-southern-lebanon-one-million-displaced",
+          "domain": "aljazeera.com",
+          "tier": "wire"
         }
       ],
       "snippet": "&lt;article data-history-node-id=\"436032\" about=\"https://www.middleeasteye.net/live-blog/live-blog-update/hezbollah-claims-attack-israeli-forces-southern-lebanon\" class=\"live-blog-update default clearfix\"&gt;\n\n  \n      &lt;h2&gt;\n      &lt;a href=\"ht",
       "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/000_69FF47X.jpg",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1773759128.0
     },
     {
       "id": "05ebb4660062",
