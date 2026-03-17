@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-17T07:01:00Z",
+  "last_updated": "2026-03-17T07:15:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -30,7 +30,7 @@
       "type": "impact_major",
       "confirmed": true,
       "precision": "city",
-      "title": "One killed by falling debris from intercepted missile in Abu Dhabi",
+      "title": "Intercepted Iranian missile debris kills 1 in Abu Dhabi",
       "location": "Abu Dhabi",
       "lat": 24.4539,
       "lon": 54.3773,
@@ -160,7 +160,7 @@
     },
     {
       "id": "b31d132c24e2",
-      "datetime": "2026-03-16T11:15:00Z",
+      "datetime": "2026-03-16T11:15:25Z",
       "type": "impact_minor",
       "confirmed": true,
       "precision": "exact",
