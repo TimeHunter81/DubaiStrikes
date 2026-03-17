@@ -1,39 +1,17 @@
 {
-  "last_updated": "2026-03-17T00:34:46Z",
+  "last_updated": "2026-03-17T00:40:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
-      "id": "306aa86e27d0",
-      "datetime": "2026-03-17T00:08:03Z",
+      "id": "92eecd52878f",
+      "datetime": "2026-03-16T23:45:41Z",
       "type": "interception",
       "confirmed": true,
       "precision": "city",
-      "title": "Sounds heard across Dubai — UAE confirms successful defence interceptions",
+      "title": "UAE intercepts missiles and drones — airspace closed, explosions over Dubai",
       "location": "Dubai",
       "lat": 25.2048,
       "lon": 55.2708,
-      "sources": [
-        {
-          "url": "https://gulfnews.com/uae/sounds-heard-in-various-areas-of-dubai-due-to-successful-defence-ops-authorities-1.500476855",
-          "domain": "gulfnews.com",
-          "tier": "local"
-        }
-      ],
-      "snippet": null,
-      "preview_image": "https://media.assettype.com/gulfnews%2F2024-11-18%2F2woh4xe9%2Freader_picture__17e34d6aabb_original_ratio.jpg?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
-      "_via": "rss",
-      "confidence": "high"
-    },
-    {
-      "id": "92eecd52878f",
-      "datetime": "2026-03-16T23:45:41Z",
-      "type": "security_alert",
-      "confirmed": true,
-      "precision": "country",
-      "title": "UAE closes airspace as missiles and drones inbound",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
       "sources": [
         {
           "url": "https://www.middleeasteye.net/live-blog/live-blog-update/uae-closes-airspace-missile-and-drone-head-towards-country",
@@ -47,6 +25,11 @@
         },
         {
           "url": "https://gulfnews.com/uae/uae-temporarily-closes-its-airspace-to-ensure-safety-security-1.500476853",
+          "domain": "gulfnews.com",
+          "tier": "local"
+        },
+        {
+          "url": "https://gulfnews.com/uae/sounds-heard-in-various-areas-of-dubai-due-to-successful-defence-ops-authorities-1.500476855",
           "domain": "gulfnews.com",
           "tier": "local"
         }
