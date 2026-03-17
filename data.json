@@ -47,7 +47,7 @@
       "id": "c307357ef40b",
       "datetime": "2026-03-17T05:47:43Z",
       "type": "impact_minor",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "Interception debris kills 1 in Abu Dhabi",
       "location": "Abu Dhabi",
@@ -76,8 +76,8 @@
         }
       ],
       "_via": "rss",
-      "_search_count": 1,
-      "_next_search_at": 1773730063.0
+      "_search_count": 2,
+      "_next_search_at": 1773748063.0
     },
     {
       "id": "679ef66690f2",
