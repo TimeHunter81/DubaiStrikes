@@ -1,38 +1,28 @@
 {
-  "last_updated": "2026-03-17T03:48:00Z",
+  "last_updated": "2026-03-17T04:02:40Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
-      "id": "78cc4dff83fe",
-      "datetime": "2026-03-17T00:58:10Z",
-      "type": "impact_minor",
-      "confirmed": true,
-      "precision": "city",
-      "title": "Drone hits Fujairah Oil Industry Zone — fire reported",
-      "location": "Fujairah",
-      "lat": 25.1288,
-      "lon": 56.3265,
+      "id": "679ef66690f2",
+      "datetime": "2026-03-17T03:37:32Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "UAE air defences respond to missile threat, residents alerted",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
       "sources": [
         {
-          "url": "https://gulfnews.com/uae/fire-hits-fujairah-oil-industry-zone-after-drone-strike-1.500476866",
+          "url": "https://gulfnews.com/uae/uae-air-defenses-respond-to-missile-threat-1.500476947",
           "domain": "gulfnews.com",
           "tier": "local"
-        },
-        {
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/fire-erupts-uaes-fujairah-oil-zone-after-drone-strike",
-          "domain": "middleeasteye.net",
-          "tier": "local"
-        },
-        {
-          "url": "https://www.reuters.com/world/middle-east/fire-occurred-uaes-fujairah-after-debris-fell-during-interception-drone-no-2026-03-14/",
-          "domain": "reuters.com",
-          "tier": "wire"
         }
       ],
+      "snippet": null,
+      "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-16%2Fipx5fw2k%2FUAEflag?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
       "_via": "rss",
-      "confidence": "low",
-      "_search_count": 1,
-      "_next_search_at": 1773712690.0
+      "confidence": "low"
     },
     {
       "id": "92eecd52878f",
@@ -184,6 +174,11 @@
           "url": "https://www.bbc.com/news/articles/crl4gxgkkylo",
           "domain": "bbc.com",
           "tier": "wire"
+        },
+        {
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/fire-erupts-uaes-fujairah-oil-zone-after-drone-strike",
+          "domain": "middleeasteye.net",
+          "tier": "local"
         }
       ],
       "_via": "rss",
