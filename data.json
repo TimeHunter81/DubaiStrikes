@@ -1,7 +1,227 @@
 {
-  "last_updated": "2026-03-17T11:10:18Z",
+  "last_updated": "2026-03-17T11:40:47Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
+    {
+      "id": "2c9057c5c9ec",
+      "datetime": "2026-03-17T11:36:05Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "UN warns Israeli-US war on Iran could push 45 million into hunger",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/un-warns-israeli-us-war-iran-could-push-45-million-hunger",
+          "domain": "middleeasteye.net",
+          "tier": "local"
+        }
+      ],
+      "snippet": "&lt;article data-history-node-id=\"436023\" about=\"https://www.middleeasteye.net/live-blog/live-blog-update/un-warns-israeli-us-war-iran-could-push-45-million-hunger\" class=\"live-blog-update default clearfix\"&gt;\n\n  \n      &lt;h2&gt;\n      &lt;a href=\"",
+      "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/000_69FF47X.jpg",
+      "_via": "rss",
+      "confidence": "low"
+    },
+    {
+      "id": "cf7584909ca2",
+      "datetime": "2026-03-17T11:31:01Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "Iraq in discussions with Iran to secure safe passage for tankers via Hormuz",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.thenationalnews.com/business/2026/03/17/iraq-in-discussions-with-iran-to-secure-safe-passage-for-tankers-via-hormuz/",
+          "domain": "thenationalnews.com",
+          "tier": "local"
+        }
+      ],
+      "snippet": null,
+      "preview_image": "https://www.thenationalnews.com/resizer/v2/DPN47ZPPDZE7JGTD3DR3MRRUGM.JPG?smart=true&amp;auth=47823a60bdd5e8f7eec783cf4326d8bed0ee280a96033ac15aa3ecd0fc330f1a&amp;width=1200&amp;height=630",
+      "_via": "rss",
+      "confidence": "low"
+    },
+    {
+      "id": "d606bc5f30a7",
+      "datetime": "2026-03-17T11:25:08Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "Iran “negotiating” with FIFA to move their World Cup matches",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://gulfnews.com/sport/iran-negotiating-with-fifa-to-move-their-world-cup-matches-1.500477437",
+          "domain": "gulfnews.com",
+          "tier": "local"
+        }
+      ],
+      "snippet": null,
+      "preview_image": "https://media.assettype.com/gulfnews%2F2025-12-05%2Fa9qiquf8%2Fnewsml_afp_com_20251205T000000Z_PH_GTY_2250189226.jpeg?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
+      "_via": "rss",
+      "confidence": "low"
+    },
+    {
+      "id": "a7ea1667ef46",
+      "datetime": "2026-03-17T11:23:34Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "Kuwait detains 16 with alleged ties to Hezbollah",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.thenationalnews.com/news/gulf/2026/03/17/kuwait-detains-16-with-alleged-ties-to-hezbollah/",
+          "domain": "thenationalnews.com",
+          "tier": "local"
+        }
+      ],
+      "snippet": null,
+      "preview_image": "https://www.thenationalnews.com/resizer/v2/BDQGYTJVT5EEPL6MJAOYIUGFYM.jpg?smart=true&amp;auth=8dc7ae9d1e8033d79a0f9369d6ac18b00ce38f771e61e66951b162d3f70844b7&amp;width=1200&amp;height=630",
+      "_via": "rss",
+      "confidence": "low"
+    },
+    {
+      "id": "87d36ea5e0b9",
+      "datetime": "2026-03-17T11:20:39Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "Who is Ali Larijani? The power broker behind Iran’s wartime strategy Israel says it killed",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://gulfnews.com/world/mena/who-is-ali-larijani-the-power-broker-behind-irans-wartime-strategy-israel-says-it-killed-1.500477375",
+          "domain": "gulfnews.com",
+          "tier": "local"
+        }
+      ],
+      "snippet": null,
+      "preview_image": "https://media.assettype.com/gulfnews%2F2026-02-24%2F6f5lciot%2Fnewsml_afp_com_20260224T165430Z_doc_98td763.jpeg?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
+      "_via": "rss",
+      "confidence": "low"
+    },
+    {
+      "id": "08c477b2a361",
+      "datetime": "2026-03-17T11:20:09Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "Flights resumed in hours — so what does recovery look like for UAE, Gulf aviation?",
+      "location": "Uae",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://gulfnews.com/business/aviation/flights-resumed-in-hours-so-what-does-recovery-look-like-for-uae-gulf-aviation-1.500477410",
+          "domain": "gulfnews.com",
+          "tier": "local"
+        }
+      ],
+      "snippet": null,
+      "preview_image": "https://media.assettype.com/gulfnews%2F2025-02-27%2Fuejawp68%2FDubai-International-Airport?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
+      "_via": "rss",
+      "confidence": "low"
+    },
+    {
+      "id": "306e52a7725a",
+      "datetime": "2026-03-17T11:19:56Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "Iran says it seized hundreds of Starlink devices",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-says-it-seized-hundreds-starlink-devices",
+          "domain": "middleeasteye.net",
+          "tier": "local"
+        }
+      ],
+      "snippet": "&lt;article data-history-node-id=\"436022\" about=\"https://www.middleeasteye.net/live-blog/live-blog-update/iran-says-it-seized-hundreds-starlink-devices\" class=\"live-blog-update default clearfix\"&gt;\n\n  \n      &lt;h2&gt;\n      &lt;a href=\"https://www.",
+      "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/000_69FF47X.jpg",
+      "_via": "rss",
+      "confidence": "low"
+    },
+    {
+      "id": "fb40dd67b925",
+      "datetime": "2026-03-17T11:15:16Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "UAE rejects characterisation of Iran’s attacks as ‘retaliatory’, affirms its inherent right to self-defence before Human Rights Council",
+      "location": "Uae",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://gulfnews.com/uae/government/uae-rejects-characterisation-of-irans-attacks-as-retaliatory-affirms-its-inherent-right-to-self-defence-before-human-rights-council-1.500477421",
+          "domain": "gulfnews.com",
+          "tier": "local"
+        }
+      ],
+      "snippet": "UAE rejects characterisation of Iran’s attacks as ‘retaliatory’, affirms its inherent right to self-defence before Human Rights Council",
+      "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-17%2Fg3sfva28%2Fdco0247q1ka15vupo.jpg?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
+      "_via": "rss",
+      "confidence": "low"
+    },
+    {
+      "id": "f0ec97197525",
+      "datetime": "2026-03-17T11:13:14Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "Gulf states turn to machinegun fire to tackle Iranian drones over cities",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.thenationalnews.com/news/mena/2026/03/02/how-irans-shahed-drone-threat-can-be-countered/",
+          "domain": "thenationalnews.com",
+          "tier": "local"
+        }
+      ],
+      "snippet": null,
+      "preview_image": "https://www.thenationalnews.com/resizer/v2/SQ4KSADZYBG6VKT5JBYPABWVGI.jpg?smart=true&amp;auth=bd8f7455a0b71390e545754ac8cd08866fbace18ae696044b0e71038266e18dc&amp;width=1200&amp;height=630",
+      "_via": "rss",
+      "confidence": "low"
+    },
+    {
+      "id": "e2f3ca718220",
+      "datetime": "2026-03-17T11:08:12Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "Labour violations fall in UAE as compliance improves",
+      "location": "Uae",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://gulfnews.com/uae/labour-violations-drop-in-the-uae-find-out-how-1.500477402",
+          "domain": "gulfnews.com",
+          "tier": "local"
+        }
+      ],
+      "snippet": "Labour violations drop in the UAE; find out how",
+      "preview_image": "https://media.assettype.com/gulfnews%2F2025-12-21%2F5szfq44n%2FIMG2709.jpeg?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
+      "_via": "rss",
+      "confidence": "low"
+    },
     {
       "id": "d9032033d959",
       "datetime": "2026-03-17T10:55:50Z",
@@ -27,7 +247,7 @@
       "snippet": "&lt;article data-history-node-id=\"436020\" about=\"https://www.middleeasteye.net/live-blog/live-blog-update/iran-says-hormuz-tensions-tied-us-israeli-war\" class=\"live-blog-update default clearfix\"&gt;\n\n  \n      &lt;h2&gt;\n      &lt;a href=\"https://www.",
       "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/000_69FF47X.jpg",
       "_via": "rss",
-      "confidence": "low",
+      "confidence": "high",
       "_search_count": 1,
       "_next_search_at": 1773748550.0
     },
@@ -82,6 +302,28 @@
       "_via": "gdelt",
       "_search_count": 1,
       "_next_search_at": 1773747613.0
+    },
+    {
+      "id": "f9827ab3144f",
+      "datetime": "2026-03-17T10:40:06Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "Lebanese soldier killed by Israeli strike as air and ground assault intensifies",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.thenationalnews.com/news/mena/2026/03/17/five-lebanese-soldiers-injured-as-israeli-air-and-ground-assault-intensifies/",
+          "domain": "thenationalnews.com",
+          "tier": "local"
+        }
+      ],
+      "snippet": null,
+      "preview_image": "https://www.thenationalnews.com/resizer/v2/2AM3JHLEWCRVEJZN22BQTTCOCY.jpg?smart=true&amp;auth=6cf5fc6805c869cc8ad8074de425926e88321e1aeb6c90097404602dfb525c68&amp;width=1200&amp;height=630",
+      "_via": "rss",
+      "confidence": "low"
     },
     {
       "id": "c1a753037762",
@@ -2055,248 +2297,6 @@
       "preview_image": "https://i.guim.co.uk/img/media/df736f8d19aa6a622039e9959c0a1dd31fe893fb/456_0_4560_3648/master/4560.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=b90408300cbd65b8162a7975548a97de",
       "_via": "rss",
       "confidence": "medium"
-    },
-    {
-      "id": "27dd9ccb8615",
-      "datetime": "2026-03-16T18:29:20Z",
-      "type": "security_alert",
-      "confirmed": true,
-      "precision": "country",
-      "title": "Starmer distances UK from Iran war as EU leaders rule out sending warships",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.theguardian.com/world/2026/mar/16/starmer-distances-uk-from-iran-war-as-eu-leaders-rule-out-sending-warships",
-          "domain": "theguardian.com",
-          "tier": "wire"
-        }
-      ],
-      "snippet": "&lt;p&gt;PM refuses to be drawn into wider conflict as Germany and Italy defy Trump’s call to help reopen strait of Hormuz&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;a href=\"https://www.theguardian.com/world/live/2026/mar/16/iran-war-live-updates-news",
-      "preview_image": "https://i.guim.co.uk/img/media/2df25216b2da2b3142ddc470115dd84345678fd5/98_0_3270_2616/master/3270.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=597a053ef4f094abb33c2722eb7e4d29",
-      "_via": "rss",
-      "confidence": "medium"
-    },
-    {
-      "id": "3e1d9997f32c",
-      "datetime": "2026-03-16T17:52:04Z",
-      "type": "security_alert",
-      "confirmed": true,
-      "precision": "country",
-      "title": "Sri Lanka brings in four-day week to eke out stocks of oil and gas hit by Iran war",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.theguardian.com/world/2026/mar/16/sri-lanka-four-day-week-oil-and-gas-iran-war",
-          "domain": "theguardian.com",
-          "tier": "wire"
-        }
-      ],
-      "snippet": "&lt;p&gt;Effective closure of strait of Hormuz also affecting Bangladesh, India and Pakistan, which have brought in crisis measures&lt;/p&gt;&lt;p&gt;Sri Lanka is introducing a shorter four-day working week to preserve its shrinking fuel and gas rese",
-      "preview_image": "https://i.guim.co.uk/img/media/9dfdaf97beff1ba52cbf94d92f9c043f5a73096e/820_0_6449_5162/master/6449.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=4c7a1e3dd9afe69bbe35b4854db10f51",
-      "_via": "rss",
-      "confidence": "medium"
-    },
-    {
-      "id": "67ad28cd6c85",
-      "datetime": "2026-03-16T17:48:59Z",
-      "type": "security_alert",
-      "confirmed": true,
-      "precision": "country",
-      "title": "Two charged in death of anti-Iranian regime activist in Canada",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.bbc.com/news/articles/c7952qyqwz4o?at_medium=RSS&amp;at_campaign=rss",
-          "domain": "bbc.com",
-          "tier": "wire"
-        }
-      ],
-      "snippet": "Police say the motive remains under investigation but noted the three had disputes on social media.",
-      "preview_image": "https://ichef.bbci.co.uk/news/1024/branded_news/6625/live/6cb7a9c0-2167-11f1-acd4-19401d702267.jpg",
-      "_via": "rss",
-      "confidence": "medium"
-    },
-    {
-      "id": "6ecc40130952",
-      "datetime": "2026-03-16T17:41:09Z",
-      "type": "security_alert",
-      "confirmed": true,
-      "precision": "country",
-      "title": "The Guardian view on Trump’s war with Iran: if the US is winning, why ask Nato for help? | Editorial",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.theguardian.com/commentisfree/2026/mar/16/the-guardian-view-on-trumps-war-with-iran-if-the-us-is-winning-why-ask-nato-for-help",
-          "domain": "theguardian.com",
-          "tier": "wire"
-        }
-      ],
-      "snippet": "&lt;p&gt;The US has overwhelming military power. Yet the battle has moved to oil routes, alliances and domestic politics – where Tehran is testing western unity&lt;/p&gt;&lt;p&gt;Donald Trump would like you to know that he is winning&amp;nbsp;the war",
-      "preview_image": "https://i.guim.co.uk/img/media/0ab4c075f3027517912b87532d9b163197adc363/167_0_1711_1369/master/1711.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctb3BpbmlvbnMucG5n&enable=upscale&s=72276137cc2ea6bc50b76a0d1ed4a87b",
-      "_via": "rss",
-      "confidence": "medium"
-    },
-    {
-      "id": "d3c8596a7f55",
-      "datetime": "2026-03-16T17:31:52Z",
-      "type": "security_alert",
-      "confirmed": true,
-      "precision": "country",
-      "title": "Israel’s plan to expand Lebanon ground campaign fuels fears of prolonged occupation",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.theguardian.com/world/2026/mar/16/israel-expansion-lebanon-ground-campaign-fears-prolonged-occupation",
-          "domain": "theguardian.com",
-          "tier": "wire"
-        }
-      ],
-      "snippet": "&lt;p&gt;Israeli defence minister says IDF instructed to destroy ‘terror infrastructure’ in southern villages&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;a href=\"https://www.theguardian.com/world/live/2026/mar/17/iran-war-live-updates-news-israel-trump",
-      "preview_image": "https://i.guim.co.uk/img/media/1597e479d1cd70d515f270d20f030b6c06063876/401_0_3333_2667/master/3333.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=2f35bdec1c45ea4e8cc41b7ff1ca2965",
-      "_via": "rss",
-      "confidence": "medium"
-    },
-    {
-      "id": "1d0f4da766ec",
-      "datetime": "2026-03-16T17:04:01Z",
-      "type": "security_alert",
-      "confirmed": true,
-      "precision": "country",
-      "title": "Trump’s threats to Nato reveal glaring absence of any strategy on Iran",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.theguardian.com/world/2026/mar/16/donald-trump-nato-threats-glaring-absence-iran-strategy",
-          "domain": "theguardian.com",
-          "tier": "wire"
-        }
-      ],
-      "snippet": "&lt;p&gt;White House seems to have failed to anticipate that Tehran would fight back by trying to impose costs on the west&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;a href=\"https://www.theguardian.com/world/live/2026/mar/17/iran-war-live-updates-news",
-      "preview_image": "https://i.guim.co.uk/img/media/f9404a7dc2edcfa5ac57f954732d68ace168ab45/500_0_5000_4000/master/5000.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=f77ba285e83844d0fb99894d72176676",
-      "_via": "rss",
-      "confidence": "medium"
-    },
-    {
-      "id": "a91467669902",
-      "datetime": "2026-03-16T16:51:21Z",
-      "type": "security_alert",
-      "confirmed": true,
-      "precision": "country",
-      "title": "IEA to consider release of more oil reserves as Iran war keeps prices high",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.theguardian.com/business/2026/mar/16/iea-release-oil-reserves-iran-war-prices-strait-of-hormuz",
-          "domain": "theguardian.com",
-          "tier": "wire"
-        }
-      ],
-      "snippet": "&lt;p&gt;Head of world’s energy watchdog says it will take time for markets to recover from ongoing crisis in strait of Hormuz&lt;/p&gt;&lt;p&gt;The world’s energy watchdog will consider releasing further emergency crude stocks into the global market",
-      "preview_image": "https://i.guim.co.uk/img/media/816e6f3bf9bff0cf8fae3a0178bacbec7bf021c3/25_0_2500_2000/master/2500.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=56191ac17dbddbe462b00cbfcdd922d4",
-      "_via": "rss",
-      "confidence": "medium"
-    },
-    {
-      "id": "f552468208d5",
-      "datetime": "2026-03-16T16:45:50Z",
-      "type": "security_alert",
-      "confirmed": true,
-      "precision": "country",
-      "title": "Ben Jennings on Donald Trump’s plea for European support for his war on Iran – cartoon",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.theguardian.com/commentisfree/picture/2026/mar/16/ben-jennings-donald-trumps-plea-european-support-for-his-war-on-iran-cartoon",
-          "domain": "theguardian.com",
-          "tier": "wire"
-        }
-      ],
-      "snippet": "&lt;a href=\"https://www.theguardian.com/commentisfree/picture/2026/mar/16/ben-jennings-donald-trumps-plea-european-support-for-his-war-on-iran-cartoon\"&gt;Continue reading...&lt;/a&gt;",
-      "preview_image": "https://i.guim.co.uk/img/media/6fef0f148dc6891e9bd3e48fa09da4c6c11b8dec/0_0_5000_4000/master/5000.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctb3BpbmlvbnMucG5n&enable=upscale&s=83ee0cdffb8ab803b34fde1f63b65b0a",
-      "_via": "rss",
-      "confidence": "medium"
-    },
-    {
-      "id": "e70d08f9edd4",
-      "datetime": "2026-03-16T16:34:13Z",
-      "type": "security_alert",
-      "confirmed": true,
-      "precision": "country",
-      "title": "Wary allies show there's no quick fix to Trump's Iran crisis",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.bbc.com/news/articles/c8r17plnvy3o?at_medium=RSS&amp;at_campaign=rss",
-          "domain": "bbc.com",
-          "tier": "wire"
-        }
-      ],
-      "snippet": "European leaders are hesitant to help Trump secure the Strait of Hormuz, but they know inaction on the Iran war is not really an option.",
-      "preview_image": "https://ichef.bbci.co.uk/news/1024/branded_news/f521/live/30b2ab10-214d-11f1-8771-8f3ba04352de.jpg",
-      "_via": "rss",
-      "confidence": "medium"
-    },
-    {
-      "id": "7f0cec246e3c",
-      "datetime": "2026-03-16T16:23:21Z",
-      "type": "security_alert",
-      "confirmed": false,
-      "precision": "country",
-      "title": "Iranian cyber attacks at full force even as Tehran imposes internet blackout",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.thenationalnews.com/future/technology/2026/03/16/iran-cyberattacks-internet-access-stryker/",
-          "domain": "thenationalnews.com",
-          "tier": "local"
-        }
-      ],
-      "snippet": null,
-      "preview_image": "https://www.thenationalnews.com/resizer/v2/ALGQG6HHVLSALBXYJ4MHB7RUDA.jpg?smart=true&amp;auth=7ff6e53d7e4c37ba6c9ef45067a9d8f1885a0631b8319ff6c9143bc3bb8759c8&amp;width=1200&amp;height=630",
-      "_via": "rss",
-      "confidence": "low"
-    },
-    {
-      "id": "e0e4c5d9c03e",
-      "datetime": "2026-03-16T16:04:20Z",
-      "type": "security_alert",
-      "confirmed": false,
-      "precision": "country",
-      "title": "Gulf stocks fall as Iran conflict rattles investor confidence",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.thenationalnews.com/business/markets/2026/03/16/gulf-stocks-fall-as-iran-conflict-rattles-investor-confidence/",
-          "domain": "thenationalnews.com",
-          "tier": "local"
-        }
-      ],
-      "snippet": null,
-      "preview_image": "https://www.thenationalnews.com/resizer/v2/YIIUK42VFKMCEYIACQSSZLJTQ4.jpg?smart=true&amp;auth=030981596486d05b0e5428141d339396fa4fcdde1d22b870ab43bdf64d72eaed&amp;width=1200&amp;height=630",
-      "_via": "rss",
-      "confidence": "low"
     },
     {
       "id": "780a01b87f72",
