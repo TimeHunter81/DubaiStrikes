@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-17T08:13:07Z",
+  "last_updated": "2026-03-17T08:25:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -660,28 +660,6 @@
       "_via": "rss",
       "_search_count": 1,
       "_next_search_at": 1773722252.0
-    },
-    {
-      "id": "7576905fae79",
-      "datetime": "2026-03-17T03:37:32Z",
-      "type": "security_alert",
-      "confirmed": false,
-      "precision": "country",
-      "title": "UAE responds to missile, drone threats; residents alerted safe",
-      "location": "Uae",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://gulfnews.com/uae/uae-residents-told-situation-safe-after-alert-1.500476947",
-          "domain": "gulfnews.com",
-          "tier": "local"
-        }
-      ],
-      "snippet": null,
-      "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-16%2Fipx5fw2k%2FUAEflag?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
-      "_via": "rss",
-      "confidence": "low"
     },
     {
       "id": "95908071bcc7",
@@ -2283,6 +2261,28 @@
       ],
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/45OV2LEAABGNTGUAIWXCTAKDXI.jpg?smart=true&amp;auth=531c2e328f29375cbcd922c517f0bf44b4907941f54c556f19bc09252f64b332&amp;width=1200&amp;height=630",
+      "_via": "rss",
+      "confidence": "low"
+    },
+    {
+      "id": "1a09fbfdbf3e",
+      "datetime": "2026-03-15T10:01:18Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "Gulf Air reroutes flights through Saudi Arabia as Bahrain airspace remains closed – Middle East flight updates",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.thenationalnews.com/travel/2026/03/15/iran-war-middle-east-flight-status/",
+          "domain": "thenationalnews.com",
+          "tier": "local"
+        }
+      ],
+      "snippet": null,
+      "preview_image": "https://www.thenationalnews.com/resizer/v2/233SXUC75FCLPBQMFOCV6E5NZA.jpg?smart=true&amp;auth=c7b4a09712da9078c941d3f35ea448e9cd9f346579ad5b7597a514e2f92933ad&amp;width=1200&amp;height=630",
       "_via": "rss",
       "confidence": "low"
     },
