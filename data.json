@@ -6,7 +6,7 @@
       "id": "a95d0f031002",
       "datetime": "2026-03-17T11:51:09Z",
       "type": "interception",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "UAE air defences intercept 10 ballistic missiles and 45 drones",
       "location": "Uae",
@@ -22,7 +22,9 @@
       "snippet": null,
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-02-13%2F24qm98x1%2FDubai?rect=0%2C531%2C3872%2C2033&amp;w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1773751869.0
     },
     {
       "id": "25f2eb99d3ec",
