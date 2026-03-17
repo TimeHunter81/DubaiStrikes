@@ -1,39 +1,14 @@
 {
-  "last_updated": "2026-03-17T07:52:00Z",
+  "last_updated": "2026-03-17T08:06:12Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
-      "id": "25f2eb99d3ec",
-      "datetime": "2026-03-17T06:35:15Z",
+      "id": "c307357ef40b",
+      "datetime": "2026-03-17T05:47:43Z",
       "type": "impact_minor",
       "confirmed": true,
       "precision": "city",
-      "title": "Drone sparks fire at Fujairah oil hub",
-      "location": "Fujairah",
-      "lat": 25.1288,
-      "lon": 56.3265,
-      "sources": [
-        {
-          "url": "https://www.aljazeera.com/news/2026/3/17/drone-sparks-fire-at-uae-oil-site-as-gulf-takes-more-hits-amid-iran-war?traffic_source=rss",
-          "domain": "aljazeera.com",
-          "tier": "wire"
-        },
-        {
-          "url": "https://www.reuters.com/world/middle-east/fire-occurred-uaes-fujairah-after-debris-fell-during-interception-drone-no-2026-03-14/",
-          "domain": "reuters.com",
-          "tier": "wire"
-        }
-      ],
-      "preview_image": "https://www.aljazeera.com/wp-content/uploads/2026/03/AP26073429527349-1773728140.jpg?resize=1920%2C1440",
-      "_via": "rss"
-    },
-    {
-      "id": "c307357ef40b",
-      "datetime": "2026-03-17T05:47:43Z",
-      "type": "impact_major",
-      "confirmed": true,
-      "precision": "city",
-      "title": "Intercepted Iranian missile debris kills 1 in Abu Dhabi",
+      "title": "Interception debris kills 1 in Abu Dhabi — shrapnel from intercepted Iranian missile",
       "location": "Abu Dhabi",
       "lat": 24.4539,
       "lon": 54.3773,
@@ -177,7 +152,8 @@
           "tier": "local"
         }
       ],
-      "_via": "rss"
+      "_via": "rss",
+      "confidence": "high"
     },
     {
       "id": "1c8e4738182d",
@@ -243,6 +219,11 @@
           "url": "https://www.middleeasteye.net/live-blog/live-blog-update/fire-erupts-uaes-fujairah-oil-zone-after-drone-strike",
           "domain": "middleeasteye.net",
           "tier": "local"
+        },
+        {
+          "url": "https://www.aljazeera.com/news/2026/3/17/drone-sparks-fire-at-uae-oil-site-as-gulf-takes-more-hits-amid-iran-war",
+          "domain": "aljazeera.com",
+          "tier": "wire"
         }
       ],
       "_via": "rss"
