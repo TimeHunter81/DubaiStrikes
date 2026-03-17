@@ -31,7 +31,9 @@
       ],
       "confidence": "low",
       "preview_image": "https://media.cnn.com/api/v1/images/stellar/prod/ap26067484115759-20260311143008704.jpg?c=16x9&q=w_800,c_fill",
-      "_via": "gdelt"
+      "_via": "gdelt",
+      "_search_count": 1,
+      "_next_search_at": 1773746409.0
     },
     {
       "id": "8f3da4736d70",
@@ -53,7 +55,9 @@
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/Z5FFIRW7B5ESXFCMET26YEINJM?smart=true&amp;auth=79caed72c2b035bd4c821707a9367b69536e950e23c4ffa50e5fe3765d171b4f&amp;width=1200&amp;height=630",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1773745767.0
     },
     {
       "id": "1692f5ee562d",
@@ -97,7 +101,9 @@
       "snippet": null,
       "preview_image": "https://media.assettype.com/gulfnews%2F2024-11-18%2Fn2p1lgg8%2FOPN_EDITS_17ff8bfefe6_original_ratio.jpg?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1773744927.0
     },
     {
       "id": "fe5c9ed11f01",
@@ -119,7 +125,9 @@
       "snippet": null,
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-17%2Fmhadiplf%2FUntitled-design-59.jpg?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1773744804.0
     },
     {
       "id": "e829e04e196f",
