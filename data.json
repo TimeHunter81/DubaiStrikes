@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-17T12:58:00Z",
+  "last_updated": "2026-03-17T13:08:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -8,7 +8,7 @@
       "type": "interception",
       "confirmed": false,
       "precision": "country",
-      "title": "UAE air defences intercept 10 ballistic missiles and 45 drones",
+      "title": "UAE intercepts 10 ballistic missiles and 45 drones (Tuesday)",
       "location": "UAE",
       "lat": null,
       "lon": null,
@@ -52,7 +52,7 @@
       "type": "impact_major",
       "confirmed": true,
       "precision": "city",
-      "title": "Interception debris kills 1 in Abu Dhabi",
+      "title": "Interception debris kills 1 person in Abu Dhabi",
       "location": "Abu Dhabi",
       "lat": 24.4539,
       "lon": 54.3773,
@@ -89,7 +89,7 @@
       "type": "impact_minor",
       "confirmed": true,
       "precision": "area",
-      "title": "Interception debris damages DIFC building",
+      "title": "Interception debris damages building in DIFC, Dubai",
       "location": "DIFC, Dubai",
       "lat": 25.2131,
       "lon": 55.2796,
@@ -154,7 +154,7 @@
       "type": "impact_minor",
       "confirmed": true,
       "precision": "area",
-      "title": "Drone strike sparks fire at Shah gas field",
+      "title": "Drone strike sparks fire at Shah gas field, Abu Dhabi",
       "location": "Shah Gas Field, Abu Dhabi",
       "lat": 23.09,
       "lon": 53.42,
