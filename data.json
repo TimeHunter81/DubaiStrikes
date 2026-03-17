@@ -6,7 +6,7 @@
       "id": "d9032033d959",
       "datetime": "2026-03-17T10:55:50Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "Iran says Hormuz tensions tied to US-Israeli war",
       "location": "UAE",
@@ -17,12 +17,19 @@
           "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-says-hormuz-tensions-tied-us-israeli-war",
           "domain": "middleeasteye.net",
           "tier": "local"
+        },
+        {
+          "url": "https://www.reuters.com/world/middle-east/trump-calls-allies-help-secure-strait-hormuz-iran-vows-step-up-retaliation-2026-03-15/",
+          "domain": "reuters.com",
+          "tier": "wire"
         }
       ],
       "snippet": "&lt;article data-history-node-id=\"436020\" about=\"https://www.middleeasteye.net/live-blog/live-blog-update/iran-says-hormuz-tensions-tied-us-israeli-war\" class=\"live-blog-update default clearfix\"&gt;\n\n  \n      &lt;h2&gt;\n      &lt;a href=\"https://www.",
       "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/000_69FF47X.jpg",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1773748550.0
     },
     {
       "id": "884acf18b868",
@@ -44,13 +51,15 @@
       "snippet": null,
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-17%2Fnpikgszu%2FNKEY-Architects-Luxury-Villa-Project-in-Dubai.jpg?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1773748149.0
     },
     {
       "id": "e161873e6b55",
       "datetime": "2026-03-17T10:40:13Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "Live updates : Iran war ; Trump criticizes allies who rebuffed his calls to help secure Strait of Hormuz",
       "location": "UAE",
@@ -61,11 +70,18 @@
           "url": "https://www.cnn.com/world/live-news/iran-war-us-israel-trump-03-17-26",
           "domain": "cnn.com",
           "tier": "unverified"
+        },
+        {
+          "url": "https://www.reuters.com/world/iran-war-live-dubai-airport-drone-attack-trump-demands-help-open-strait-hormuz-2026-03-16/",
+          "domain": "reuters.com",
+          "tier": "wire"
         }
       ],
       "confidence": "low",
       "preview_image": "https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-2266458925.jpg?c=16x9&q=w_800,c_fill",
-      "_via": "gdelt"
+      "_via": "gdelt",
+      "_search_count": 1,
+      "_next_search_at": 1773747613.0
     },
     {
       "id": "c1a753037762",
@@ -109,7 +125,9 @@
       "snippet": null,
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-17%2F2zygrgw4%2FAkcel-Holding.jpg?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1773747354.0
     },
     {
       "id": "39bdab955363",
