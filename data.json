@@ -1,7 +1,28 @@
 {
-  "last_updated": "2026-03-17T10:29:45Z",
+  "last_updated": "2026-03-17T10:40:27Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
+    {
+      "id": "e161873e6b55",
+      "datetime": "2026-03-17T10:40:13Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "Live updates : Iran war ; Trump criticizes allies who rebuffed his calls to help secure Strait of Hormuz",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.cnn.com/world/live-news/iran-war-us-israel-trump-03-17-26",
+          "domain": "cnn.com",
+          "tier": "unverified"
+        }
+      ],
+      "confidence": "low",
+      "preview_image": "https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-2266458925.jpg?c=16x9&q=w_800,c_fill",
+      "_via": "gdelt"
+    },
     {
       "id": "39bdab955363",
       "datetime": "2026-03-17T10:20:09Z",
@@ -60,6 +81,50 @@
       "_next_search_at": 1773746282.0
     },
     {
+      "id": "889540f0cdc5",
+      "datetime": "2026-03-17T10:16:52Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "Ali Larijani attacked Americas 'Epstein class' in recent posts",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/ali-larijani-attacked-americas-epstein-class-recent-posts",
+          "domain": "middleeasteye.net",
+          "tier": "local"
+        }
+      ],
+      "snippet": "&lt;article data-history-node-id=\"436013\" about=\"https://www.middleeasteye.net/live-blog/live-blog-update/ali-larijani-attacked-americas-epstein-class-recent-posts\" class=\"live-blog-update default clearfix\"&gt;\n\n  \n      &lt;h2&gt;\n      &lt;a href=\"",
+      "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/000_69FF47X.jpg",
+      "_via": "rss",
+      "confidence": "low"
+    },
+    {
+      "id": "5d10a739f248",
+      "datetime": "2026-03-17T10:12:56Z",
+      "type": "security_alert",
+      "confirmed": true,
+      "precision": "country",
+      "title": "Could the Iran war trigger a global recession?",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.aljazeera.com/video/counting-the-cost/2026/3/17/could-the-iran-war-trigger-a-global-recession?traffic_source=rss",
+          "domain": "aljazeera.com",
+          "tier": "wire"
+        }
+      ],
+      "snippet": "Energy prices are surging as the Iran war disrupts supply, raising risks for the US, China and Europe.",
+      "preview_image": "https://www.aljazeera.com/wp-content/uploads/2026/03/web-1773742352.jpg?resize=1920%2C1080&amp;quality=80",
+      "_via": "rss",
+      "confidence": "medium"
+    },
+    {
       "id": "8f3da4736d70",
       "datetime": "2026-03-17T10:09:27Z",
       "type": "security_alert",
@@ -82,6 +147,28 @@
       "confidence": "low",
       "_search_count": 1,
       "_next_search_at": 1773745767.0
+    },
+    {
+      "id": "f8ad897a00ec",
+      "datetime": "2026-03-17T10:06:20Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "Larijani releases handwritten message honouring Iranian navy sailors killed by US",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/larijani-releases-handwritten-message-honouring-iranian-navy-sailors",
+          "domain": "middleeasteye.net",
+          "tier": "local"
+        }
+      ],
+      "snippet": "&lt;article data-history-node-id=\"436012\" about=\"https://www.middleeasteye.net/live-blog/live-blog-update/larijani-releases-handwritten-message-honouring-iranian-navy-sailors\" class=\"live-blog-update default clearfix\"&gt;\n\n  \n      &lt;h2&gt;\n      &",
+      "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/000_69FF47X.jpg",
+      "_via": "rss",
+      "confidence": "low"
     },
     {
       "id": "1692f5ee562d",
@@ -154,6 +241,28 @@
       "_next_search_at": 1773744804.0
     },
     {
+      "id": "56734bc20013",
+      "datetime": "2026-03-17T09:53:03Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "Israel says missiles launched from Iran towards its territory",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israel-says-missiles-launched-iran-towards-its-territory",
+          "domain": "middleeasteye.net",
+          "tier": "local"
+        }
+      ],
+      "snippet": "&lt;article data-history-node-id=\"436011\" about=\"https://www.middleeasteye.net/live-blog/live-blog-update/israel-says-missiles-launched-iran-towards-its-territory\" class=\"live-blog-update default clearfix\"&gt;\n\n  \n      &lt;h2&gt;\n      &lt;a href=\"h",
+      "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/000_69FF47X.jpg",
+      "_via": "rss",
+      "confidence": "low"
+    },
+    {
       "id": "e829e04e196f",
       "datetime": "2026-03-17T09:52:09Z",
       "type": "security_alert",
@@ -202,6 +311,50 @@
       "_next_search_at": 1773744469.0
     },
     {
+      "id": "3151411e604c",
+      "datetime": "2026-03-17T09:46:49Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "Iran’s Larijani to release message shortly, Tasnim reports",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/irans-larijani-release-message-shortly-tasnim-reports",
+          "domain": "middleeasteye.net",
+          "tier": "local"
+        }
+      ],
+      "snippet": "&lt;article data-history-node-id=\"436010\" about=\"https://www.middleeasteye.net/live-blog/live-blog-update/irans-larijani-release-message-shortly-tasnim-reports\" class=\"live-blog-update default clearfix\"&gt;\n\n  \n      &lt;h2&gt;\n      &lt;a href=\"http",
+      "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/000_69FF47X.jpg",
+      "_via": "rss",
+      "confidence": "low"
+    },
+    {
+      "id": "f25195d10409",
+      "datetime": "2026-03-17T09:46:32Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "Iran security chief Ali Larijani killed, claims Israeli defence minister",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.middleeasteye.net/news/iran-security-chief-targeted-ali-larijani-strike",
+          "domain": "middleeasteye.net",
+          "tier": "local"
+        }
+      ],
+      "snippet": "&lt;article data-history-node-id=\"436009\" about=\"https://www.middleeasteye.net/news/iran-security-chief-targeted-ali-larijani-strike\" class=\"story default clearfix\"&gt;\n\n  \n      &lt;h2&gt;\n      &lt;a href=\"https://www.middleeasteye.net/news/iran-se",
+      "preview_image": "https://www.middleeasteye.net/sites/default/files/images-story/ali-larijani-afp.jpg",
+      "_via": "rss",
+      "confidence": "low"
+    },
+    {
       "id": "739f0dea43c5",
       "datetime": "2026-03-17T09:39:37Z",
       "type": "security_alert",
@@ -248,6 +401,50 @@
       "confidence": "low"
     },
     {
+      "id": "cda381a1b0fc",
+      "datetime": "2026-03-17T09:39:32Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "Iran's security chief Ali Larijani killed in air strike, Israeli defence minister says",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.thenationalnews.com/news/2026/03/17/irans-security-chief-ali-larijani-killed-israeli-defence-minister-says/",
+          "domain": "thenationalnews.com",
+          "tier": "local"
+        }
+      ],
+      "snippet": null,
+      "preview_image": "https://www.thenationalnews.com/resizer/v2/RVCSY7CGGNHG7HQIV77AYD63BA.jpg?smart=true&amp;auth=92a607b676446f0edd6d22edf24653e47e472b722a608cf04a9d922b86fd201e&amp;width=1200&amp;height=630",
+      "_via": "rss",
+      "confidence": "low"
+    },
+    {
+      "id": "663a952739bf",
+      "datetime": "2026-03-17T09:37:49Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "Israel says Iran’s security chief Ali Larijani assassinated in Tehran strike",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israel-says-irans-security-chief-ali-larijani-assassinated-tehran-strike",
+          "domain": "middleeasteye.net",
+          "tier": "local"
+        }
+      ],
+      "snippet": "&lt;article data-history-node-id=\"436008\" about=\"https://www.middleeasteye.net/live-blog/live-blog-update/israel-says-irans-security-chief-ali-larijani-assassinated-tehran-strike\" class=\"live-blog-update default clearfix\"&gt;\n\n  \n      &lt;h2&gt;\n   ",
+      "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/000_69FF47X.jpg",
+      "_via": "rss",
+      "confidence": "low"
+    },
+    {
       "id": "bf43ff6ab4d8",
       "datetime": "2026-03-17T09:32:52Z",
       "type": "security_alert",
@@ -266,6 +463,50 @@
       ],
       "snippet": "Israel’s Defence Minister Katz has claimed that Iran’s security chief has been assassinated",
       "preview_image": "https://www.aljazeera.com/wp-content/uploads/2026/03/AFP__20200216__1P17FA__v2__HighRes__SyriaIranDiplomacy-1-3-1773741103.jpg?resize=1200%2C630",
+      "_via": "rss",
+      "confidence": "medium"
+    },
+    {
+      "id": "3f8bfbdbfb6f",
+      "datetime": "2026-03-17T09:32:52Z",
+      "type": "security_alert",
+      "confirmed": true,
+      "precision": "country",
+      "title": "Israel says it’s killed Larijani, Iran’s security chief and Basij commander",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.aljazeera.com/news/2026/3/17/israel-says-it-has-killed-ali-larijani-irans-top-security-official?traffic_source=rss",
+          "domain": "aljazeera.com",
+          "tier": "wire"
+        }
+      ],
+      "snippet": "Israel’s Defence Minister Katz has claimed that Iran’s security chief has been assassinated",
+      "preview_image": "https://www.aljazeera.com/wp-content/uploads/2026/03/AFP__20200216__1P17FA__v2__HighRes__SyriaIranDiplomacy-1-3-1773741103.jpg?resize=1200%2C630",
+      "_via": "rss",
+      "confidence": "medium"
+    },
+    {
+      "id": "4c73b2a4dd33",
+      "datetime": "2026-03-17T09:31:03Z",
+      "type": "security_alert",
+      "confirmed": true,
+      "precision": "country",
+      "title": "Iran’s security chief, Ali Larijani, killed in airstrike, Israel says",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.theguardian.com/world/2026/mar/17/irans-security-chief-ali-larijani-killed-in-airstrike-israel-says",
+          "domain": "theguardian.com",
+          "tier": "wire"
+        }
+      ],
+      "snippet": "&lt;p&gt;If confirmed, death would make Larijani the most senior Iranian figure to be killed since Ali Khamenei on first day of war&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;a href=\"https://www.theguardian.com/world/live/2026/mar/17/iran-war-live-upd",
+      "preview_image": "https://i.guim.co.uk/img/media/61357e876223ce41b2bb2834e38dc2e0479a6214/414_0_4099_3280/master/4099.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=e7be69f98223382d891a985cafdbaa76",
       "_via": "rss",
       "confidence": "medium"
     },
@@ -314,6 +555,28 @@
       "confidence": "low"
     },
     {
+      "id": "553e1219315b",
+      "datetime": "2026-03-17T09:17:47Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "Israeli strike in south Lebanon wounds five soldiers",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-strike-south-lebanon-wounds-five-soldiers",
+          "domain": "middleeasteye.net",
+          "tier": "local"
+        }
+      ],
+      "snippet": "&lt;article data-history-node-id=\"436006\" about=\"https://www.middleeasteye.net/live-blog/live-blog-update/israeli-strike-south-lebanon-wounds-five-soldiers\" class=\"live-blog-update default clearfix\"&gt;\n\n  \n      &lt;h2&gt;\n      &lt;a href=\"https://",
+      "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/000_69FF47X.jpg",
+      "_via": "rss",
+      "confidence": "low"
+    },
+    {
       "id": "9938235383d4",
       "datetime": "2026-03-17T09:16:57Z",
       "type": "security_alert",
@@ -334,6 +597,50 @@
       "preview_image": "https://www.aljazeera.com/wp-content/uploads/2026/03/AFP__20260313__A33K8ZH__v2__MidRes__TopshotUaeIranUsIsraelWar-1773709131_239608-1773720728.jpg?resize=1200%2C630&amp;quality=80",
       "_via": "rss",
       "confidence": "medium"
+    },
+    {
+      "id": "a7a356c1ea41",
+      "datetime": "2026-03-17T09:11:35Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "From Gaza to Tehran, Palestinians and Iranians compare life under the bombs",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.middleeasteye.net/news/gaza-tehran-palestinians-and-iranians-compare-life-under-bombs",
+          "domain": "middleeasteye.net",
+          "tier": "local"
+        }
+      ],
+      "snippet": "&lt;article data-history-node-id=\"435932\" about=\"https://www.middleeasteye.net/news/gaza-tehran-palestinians-and-iranians-compare-life-under-bombs\" class=\"story default clearfix\"&gt;\n\n  \n      &lt;h2&gt;\n      &lt;a href=\"https://www.middleeasteye.ne",
+      "preview_image": "https://www.middleeasteye.net/sites/default/files/images-story/gaza%20tehran%20afp.jpg",
+      "_via": "rss",
+      "confidence": "low"
+    },
+    {
+      "id": "e8dd5afcae14",
+      "datetime": "2026-03-17T09:08:31Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "Israel says Basij commander killed in Tehran strike",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israel-says-basij-commander-killed-tehran-strike",
+          "domain": "middleeasteye.net",
+          "tier": "local"
+        }
+      ],
+      "snippet": "&lt;article data-history-node-id=\"436005\" about=\"https://www.middleeasteye.net/live-blog/live-blog-update/israel-says-basij-commander-killed-tehran-strike\" class=\"live-blog-update default clearfix\"&gt;\n\n  \n      &lt;h2&gt;\n      &lt;a href=\"https://w",
+      "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/000_69FF47X.jpg",
+      "_via": "rss",
+      "confidence": "low"
     },
     {
       "id": "ad4b6ffda339",
@@ -358,6 +665,28 @@
       "confidence": "medium"
     },
     {
+      "id": "90a634244a97",
+      "datetime": "2026-03-17T09:04:52Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "Israeli strike on Bint Jbeil kills three and wounds several",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-strike-bint-jbeil-kills-three-and-wounds-several",
+          "domain": "middleeasteye.net",
+          "tier": "local"
+        }
+      ],
+      "snippet": "&lt;article data-history-node-id=\"436004\" about=\"https://www.middleeasteye.net/live-blog/live-blog-update/israeli-strike-bint-jbeil-kills-three-and-wounds-several\" class=\"live-blog-update default clearfix\"&gt;\n\n  \n      &lt;h2&gt;\n      &lt;a href=\"h",
+      "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/000_69FF47X.jpg",
+      "_via": "rss",
+      "confidence": "low"
+    },
+    {
       "id": "0cbef092de67",
       "datetime": "2026-03-17T09:00:52Z",
       "type": "security_alert",
@@ -378,6 +707,28 @@
       "preview_image": "https://www.aljazeera.com/wp-content/uploads/2026/03/AFP__20191124__1MJ451__v1__HighRes__IranPoliticsProtestGuards-1773737823.jpg?resize=1920%2C1440",
       "_via": "rss",
       "confidence": "medium"
+    },
+    {
+      "id": "e088df5a9f9a",
+      "datetime": "2026-03-17T08:57:16Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "Israeli military strike targeted Iran's security chief Larijani, fate unclear, officials say",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-military-strike-targeted-irans-security-chief-larijani-fate",
+          "domain": "middleeasteye.net",
+          "tier": "local"
+        }
+      ],
+      "snippet": "&lt;article data-history-node-id=\"436003\" about=\"https://www.middleeasteye.net/live-blog/live-blog-update/israeli-military-strike-targeted-irans-security-chief-larijani-fate\" class=\"live-blog-update default clearfix\"&gt;\n\n  \n      &lt;h2&gt;\n      &l",
+      "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/000_69FF47X.jpg",
+      "_via": "rss",
+      "confidence": "low"
     },
     {
       "id": "b5839beb6171",
@@ -510,6 +861,50 @@
       "preview_image": "https://ichef.bbci.co.uk/news/1024/branded_news/bc9c/live/e6859790-1ba3-11f1-9f65-e32170917420.jpg",
       "_via": "rss",
       "confidence": "medium"
+    },
+    {
+      "id": "5f3ba02e77cd",
+      "datetime": "2026-03-17T07:54:35Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "China to provide humanitarian assistance to Iran, Middle East nations",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/china-says-provide-humanitarian-assistance-iran-middle-east-nations",
+          "domain": "middleeasteye.net",
+          "tier": "local"
+        }
+      ],
+      "snippet": "&lt;article data-history-node-id=\"436002\" about=\"https://www.middleeasteye.net/live-blog/live-blog-update/china-says-provide-humanitarian-assistance-iran-middle-east-nations\" class=\"live-blog-update default clearfix\"&gt;\n\n  \n      &lt;h2&gt;\n      &l",
+      "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/000_69FF47X.jpg",
+      "_via": "rss",
+      "confidence": "low"
+    },
+    {
+      "id": "bf62ecb49832",
+      "datetime": "2026-03-17T07:48:41Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "Bloomberg: Iran allows Turkish and Indian ships to pass through Hormuz",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/bloomberg-iran-allows-turkish-and-indian-ships-pass-through-hormuz",
+          "domain": "middleeasteye.net",
+          "tier": "local"
+        }
+      ],
+      "snippet": "&lt;article data-history-node-id=\"436001\" about=\"https://www.middleeasteye.net/live-blog/live-blog-update/bloomberg-iran-allows-turkish-and-indian-ships-pass-through-hormuz\" class=\"live-blog-update default clearfix\"&gt;\n\n  \n      &lt;h2&gt;\n      &lt",
+      "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/000_69FF47X.jpg",
+      "_via": "rss",
+      "confidence": "low"
     },
     {
       "id": "af6743aa5e0b",
@@ -1880,417 +2275,6 @@
       ],
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/NWT3WRJWA2KQAP4TVJSXFWWFBI.jpg?smart=true&amp;auth=3af323cc1b2f0024b9a2390d64e1c798effc77fe5d9df222fbb8a7500cf47641&amp;width=1200&amp;height=630",
-      "_via": "rss",
-      "confidence": "low"
-    },
-    {
-      "id": "642f4389548c",
-      "datetime": "2026-03-16T12:40:22Z",
-      "type": "security_alert",
-      "confirmed": true,
-      "precision": "country",
-      "title": "Iranian footballer says 'everything will be fine' as she trains with Australian team",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.bbc.com/news/articles/clyxwgll758o?at_medium=RSS&amp;at_campaign=rss",
-          "domain": "bbc.com",
-          "tier": "wire"
-        }
-      ],
-      "snippet": "Several players were granted Australian visas after concerns the team would face repercussions at home.",
-      "preview_image": "https://ichef.bbci.co.uk/news/1024/branded_news/c5ac/live/a77ce7c0-21c9-11f1-b11c-d1b0fefaa8b5.jpg",
-      "_via": "rss",
-      "confidence": "medium"
-    },
-    {
-      "id": "3a957c77a216",
-      "datetime": "2026-03-16T12:25:59Z",
-      "type": "security_alert",
-      "confirmed": false,
-      "precision": "country",
-      "title": "Italian Foreign Minister backs 'restrained and measured' UAE posture in Iran conflict",
-      "location": "Uae",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.thenationalnews.com/news/europe/2026/03/16/italian-foreign-minister-backs-restrained-and-measured-uae-posture-in-iran-conflict/",
-          "domain": "thenationalnews.com",
-          "tier": "local"
-        }
-      ],
-      "snippet": null,
-      "preview_image": "https://www.thenationalnews.com/resizer/v2/357WQJWMKVHQTLGEIYEK67TSZA.JPG?smart=true&amp;auth=bb8fa6d1d282cd4f5391870681e36843bc9e27477de0d1413c221608b885edbf&amp;width=1200&amp;height=630",
-      "_via": "rss",
-      "confidence": "low"
-    },
-    {
-      "id": "2d15ce1537f0",
-      "datetime": "2026-03-16T12:14:55Z",
-      "type": "security_alert",
-      "confirmed": false,
-      "precision": "country",
-      "title": "Iranians embrace AI singer Nava's revolutionary anthem",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.thenationalnews.com/news/uk/2026/03/16/iranians-embrace-ai-singer-navas-revolutionary-anthem/",
-          "domain": "thenationalnews.com",
-          "tier": "local"
-        }
-      ],
-      "snippet": null,
-      "preview_image": "https://www.thenationalnews.com/resizer/v2/TQFGX6Q4LZHGBNF4PU662MYCNE.jpg?smart=true&amp;auth=0c68f126e4e15de68381b5f541acabeab7150dec09d6041c5713817c1d3cbb5c&amp;width=1200&amp;height=630",
-      "_via": "rss",
-      "confidence": "low"
-    },
-    {
-      "id": "daf4f96f3e69",
-      "datetime": "2026-03-16T11:56:25Z",
-      "type": "security_alert",
-      "confirmed": true,
-      "precision": "country",
-      "title": "What is the strait of Hormuz and can the US stop Iran from blocking it?",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.theguardian.com/world/2026/mar/16/what-is-the-strait-of-hormuz-can-us-stop-iran-blocking-it",
-          "domain": "theguardian.com",
-          "tier": "wire"
-        }
-      ],
-      "snippet": "&lt;p&gt;Energy prices have soared as Iranian strikes and reports of mines prevent ships from transiting the chokepoint&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;a href=\"https://www.theguardian.com/world/live/2026/mar/16/iran-war-live-updates-news-oi",
-      "preview_image": "https://i.guim.co.uk/img/media/b932da42d1a80939609b7dcc699d9dfcd3bf8c76/220_0_4773_3818/master/4773.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=02425d4c34891d24759f7b94168f0ef5",
-      "_via": "rss",
-      "confidence": "medium"
-    },
-    {
-      "id": "b31d132c24e2",
-      "datetime": "2026-03-16T11:15:25Z",
-      "type": "impact_minor",
-      "confirmed": true,
-      "precision": "exact",
-      "title": "Drone hits fuel tanks near Dubai Airport",
-      "location": "Dubai Airport",
-      "lat": 25.2528,
-      "lon": 55.3644,
-      "sources": [
-        {
-          "url": "https://www.bbc.com/news/articles/crl4gxgkkylo?at_medium=RSS&at_campaign=rss",
-          "domain": "bbc.com",
-          "tier": "wire"
-        },
-        {
-          "url": "https://www.thenationalnews.com/news/uae/2026/03/16/fire-near-dubai-airport-after-drone-strike-hits-fuel-tank/",
-          "domain": "thenationalnews.com",
-          "tier": "local"
-        }
-      ],
-      "_via": "rss",
-      "confidence": "high"
-    },
-    {
-      "id": "df40b8928c5f",
-      "datetime": "2026-03-16T11:15:25Z",
-      "type": "security_alert",
-      "confirmed": false,
-      "precision": "country",
-      "title": "Egyptian Foreign Minister meets Gulf leaders on solidarity tour",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.thenationalnews.com/news/mena/2026/03/16/egyptian-foreign-minister-meets-gulf-leaders-on-solidarity-tour/",
-          "domain": "thenationalnews.com",
-          "tier": "local"
-        }
-      ],
-      "snippet": null,
-      "preview_image": "https://www.thenationalnews.com/resizer/v2/PWC4VP7QJRGMRFBTMCTZ63UACU.jpg?smart=true&amp;auth=adcd41d956436ed5d32a91e3114d52d9e18d9bde79e19c44ce090d5c4b023a9d&amp;width=1200&amp;height=630",
-      "_via": "rss",
-      "confidence": "low"
-    },
-    {
-      "id": "1c8e4738182d",
-      "datetime": "2026-03-16T10:37:47Z",
-      "type": "impact_minor",
-      "confirmed": true,
-      "precision": "city",
-      "title": "Drone strikes building in Umm Al Quwain",
-      "location": "Umm Al Quwain",
-      "lat": 25.5647,
-      "lon": 55.5553,
-      "sources": [
-        {
-          "url": "https://gulfnews.com/uae/fire-breaks-out-in-umm-al-quwain-building-after-drone-strike-1.500476195",
-          "domain": "gulfnews.com",
-          "tier": "local"
-        },
-        {
-          "url": "https://www.khaleejtimes.com/uae/fire-breaks-umm-al-quwain-building-targeted-no-injuries",
-          "domain": "khaleejtimes.com",
-          "tier": "local"
-        },
-        {
-          "url": "https://www.gulftoday.ae/news/2026/03/16/drone-strikes-a-building-in-umm-al-quwain-no-injuries-reported",
-          "domain": "gulftoday.ae",
-          "tier": "local"
-        },
-        {
-          "url": "https://www.reuters.com/world/middle-east/fire-breaks-out-vicinity-dubai-international-airport-after-drone-attack-dubai-2026-03-16/",
-          "domain": "reuters.com",
-          "tier": "wire"
-        }
-      ],
-      "_via": "rss"
-    },
-    {
-      "id": "26b96052affa",
-      "datetime": "2026-03-16T10:00:03Z",
-      "type": "security_alert",
-      "confirmed": true,
-      "precision": "country",
-      "title": "Who wants what from the Iran war?",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.bbc.com/news/articles/cgk2lm5znyro?at_medium=RSS&amp;at_campaign=rss",
-          "domain": "bbc.com",
-          "tier": "wire"
-        }
-      ],
-      "snippet": "Most people, although not everybody, want this war to end as quickly as possible. But on what terms?",
-      "preview_image": "https://ichef.bbci.co.uk/news/1024/branded_news/d3c0/live/047c9c00-2133-11f1-a79a-77e93010d956.jpg",
-      "_via": "rss",
-      "confidence": "medium"
-    },
-    {
-      "id": "055aa57f4886",
-      "datetime": "2026-03-16T09:14:09Z",
-      "type": "security_alert",
-      "confirmed": false,
-      "precision": "country",
-      "title": "'Unhinged' attacks on Gulf states continue as Iran war enters third week",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.thenationalnews.com/news/gulf/2026/03/16/unhinged-attacks-on-gulf-states-continue-as-iran-war-enters-third-week/",
-          "domain": "thenationalnews.com",
-          "tier": "local"
-        }
-      ],
-      "snippet": null,
-      "preview_image": "https://www.thenationalnews.com/resizer/v2/X4QSBO7MO3OIKTIRRH6DLX3KIQ.jpg?smart=true&amp;auth=df39707b594d905868fdba29e0172ed1956f21535dd25ccd05fc6ae8e506cd99&amp;width=1200&amp;height=630",
-      "_via": "rss",
-      "confidence": "low"
-    },
-    {
-      "id": "312ba03fb2a0",
-      "datetime": "2026-03-16T09:00:13Z",
-      "type": "security_alert",
-      "confirmed": true,
-      "precision": "country",
-      "title": "US citizens: Trump had no ‘backup’ plan to help them leave Middle East after Iran strike",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.theguardian.com/world/2026/mar/16/us-citizens-middle-east-iran-war",
-          "domain": "theguardian.com",
-          "tier": "wire"
-        }
-      ],
-      "snippet": "&lt;p&gt;Americans criticize US state department, with one person saying she felt ‘betrayed’ and treated like ‘an afterthought’&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;a href=\"https://www.theguardian.com/world/live/2026/mar/16/iran-war-live-updates",
-      "preview_image": "https://i.guim.co.uk/img/media/73e2a7f2f19cde10be7eb31d8be67ee762ea4e13/428_0_4266_3415/master/4266.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=de9368c6519b74cf1b067cacad653b7a",
-      "_via": "rss",
-      "confidence": "medium"
-    },
-    {
-      "id": "2ef0bf71ddd8",
-      "datetime": "2026-03-16T08:20:08Z",
-      "type": "security_alert",
-      "confirmed": false,
-      "precision": "country",
-      "title": "President Sheikh Mohamed discusses Iranian attacks on region with Saudi Crown Prince",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.thenationalnews.com/news/uae/2026/03/16/president-sheikh-mohamed-discusses-iranian-attacks-on-region-with-saudi-crown-prince/",
-          "domain": "thenationalnews.com",
-          "tier": "local"
-        }
-      ],
-      "snippet": null,
-      "preview_image": "https://www.thenationalnews.com/resizer/v2/W6V4WQAEFFBWXLXUS4XERUZICU.jpg?smart=true&amp;auth=21ec306c87d0f013a3463979b36b482b97caa563b7b46553e815d1f2779f8496&amp;width=1200&amp;height=630",
-      "_via": "rss",
-      "confidence": "low"
-    },
-    {
-      "id": "7d4b48f061b3",
-      "datetime": "2026-03-16T08:12:00Z",
-      "type": "impact_major",
-      "confirmed": false,
-      "precision": "city",
-      "title": "Iranian missile strikes Abu Dhabi — 1 killed",
-      "location": "Abu Dhabi",
-      "lat": 24.4539,
-      "lon": 54.3773,
-      "sources": [
-        {
-          "url": "https://www.thenationalnews.com/news/uae/2026/03/16/one-person-killed-following-iranian-missile-attack-on-abu-dhabi/",
-          "domain": "thenationalnews.com",
-          "tier": "local"
-        }
-      ],
-      "_via": "rss",
-      "confidence": "low",
-      "_search_count": 1,
-      "_next_search_at": 1773652320.0
-    },
-    {
-      "id": "592d9a4ad81e",
-      "datetime": "2026-03-16T05:30:05Z",
-      "type": "security_alert",
-      "confirmed": false,
-      "precision": "country",
-      "title": "Isaac del Toro clinches 'very special' Tirreno-Adriatico victory for UAE Team Emirates",
-      "location": "Uae",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.thenationalnews.com/sport/2026/03/16/isaac-del-toro-clinches-very-special-tirreno-adriatico-victory-for-uae-team-emirates/",
-          "domain": "thenationalnews.com",
-          "tier": "local"
-        }
-      ],
-      "snippet": null,
-      "preview_image": "https://www.thenationalnews.com/resizer/v2/H7MTOVEWEQ3B2RFJ5LXAPYJ76U.jpg?smart=true&amp;auth=c02f1412a6e63b7760106e5b4e4477d4bb68f50aec2d04a989ea5261587e4320&amp;width=1200&amp;height=630",
-      "_via": "rss",
-      "confidence": "low"
-    },
-    {
-      "id": "951b89a69391",
-      "datetime": "2026-03-16T05:00:11Z",
-      "type": "security_alert",
-      "confirmed": true,
-      "precision": "country",
-      "title": "War in Iran, chaos in the Gulf, repression in the west: and the thread that binds them all is Palestine | Nesrine Malik",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.theguardian.com/commentisfree/2026/mar/16/war-iran-gulf-west-palestine-occupation-us",
-          "domain": "theguardian.com",
-          "tier": "wire"
-        }
-      ],
-      "snippet": "&lt;p&gt;In the Middle East, the occupation is the original sin. And those who banked on this US-backed ‘stability’ now find it giving way beneath them &lt;/p&gt;&lt;p&gt;A war &lt;a href=\"https://www.theguardian.com/world/2026/mar/14/how-iran-war-es",
-      "preview_image": "https://i.guim.co.uk/img/media/1a462b0cfada88a58836d1e5daf5473b39c272ef/468_0_4680_3744/master/4680.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctb3BpbmlvbnMucG5n&enable=upscale&s=cbdadc21f8e353d6f1912b86c81cc721",
-      "_via": "rss",
-      "confidence": "medium"
-    },
-    {
-      "id": "35b4faabc9e7",
-      "datetime": "2026-03-16T04:14:45Z",
-      "type": "security_alert",
-      "confirmed": true,
-      "precision": "country",
-      "title": "'A new norm': BBC visits Doha market starting to fill up again two weeks into Iran war",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.bbc.com/news/videos/cp32gez414yo?at_medium=RSS&amp;at_campaign=rss",
-          "domain": "bbc.com",
-          "tier": "wire"
-        }
-      ],
-      "snippet": "The BBC's International News correspondent, Barbara Plett Usher, visits Doha's Souq Waqif market as strikes in the region continue.",
-      "preview_image": "https://ichef.bbci.co.uk/news/1024/branded_news/f3ba/live/cc0fefa0-20b2-11f1-801d-ed3cff6bf876.jpg",
-      "_via": "rss",
-      "confidence": "medium"
-    },
-    {
-      "id": "bf23d8811f7b",
-      "datetime": "2026-03-16T04:00:00Z",
-      "type": "security_alert",
-      "confirmed": false,
-      "precision": "country",
-      "title": "Iran war brings new danger to Federal Reserve's high-wire act",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.thenationalnews.com/business/economy/2026/03/13/iran-war-brings-new-danger-to-federal-reserves-high-wire-act/",
-          "domain": "thenationalnews.com",
-          "tier": "local"
-        }
-      ],
-      "snippet": null,
-      "preview_image": "https://www.thenationalnews.com/resizer/v2/GETCJQHPGHZILP2JR75LUIA6SA.jpg?smart=true&amp;auth=2f5bdd5bd98dfb38a8651b98f333945dd161a4aeedb592763caaf246a16ab278&amp;width=1200&amp;height=630",
-      "_via": "rss",
-      "confidence": "low"
-    },
-    {
-      "id": "449f510c46b4",
-      "datetime": "2026-03-16T03:43:43Z",
-      "type": "security_alert",
-      "confirmed": true,
-      "precision": "country",
-      "title": "Iran taking steps to prevent anti-establishment protests, Tehran residents tell BBC",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.bbc.com/news/articles/clygdwqw5dvo?at_medium=RSS&amp;at_campaign=rss",
-          "domain": "bbc.com",
-          "tier": "wire"
-        }
-      ],
-      "snippet": "Residents describe new security checkpoints around the capital, where they say people are stopped and searched.",
-      "preview_image": "https://ichef.bbci.co.uk/news/1024/branded_news/a11a/live/30940050-211d-11f1-b048-c9424b2cf5fd.jpg",
-      "_via": "rss",
-      "confidence": "medium"
-    },
-    {
-      "id": "ed245fc25794",
-      "datetime": "2026-03-16T03:00:00Z",
-      "type": "security_alert",
-      "confirmed": false,
-      "precision": "country",
-      "title": "This war is an attack on the Gulf's environment",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.thenationalnews.com/opinion/editorial/2026/03/16/iran-us-israel-war-gulf-environment-oil/",
-          "domain": "thenationalnews.com",
-          "tier": "local"
-        }
-      ],
-      "snippet": null,
-      "preview_image": "https://www.thenationalnews.com/resizer/v2/DPN47ZPPDZE7JGTD3DR3MRRUGM.JPG?smart=true&amp;auth=47823a60bdd5e8f7eec783cf4326d8bed0ee280a96033ac15aa3ecd0fc330f1a&amp;width=1200&amp;height=630",
       "_via": "rss",
       "confidence": "low"
     },
