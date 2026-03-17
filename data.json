@@ -6,7 +6,7 @@
       "id": "d2955975b863",
       "datetime": "2026-03-17T22:07:12Z",
       "type": "interception",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "UAE air defences respond to incoming Iran missiles and drones",
       "location": "UAE",
@@ -17,10 +17,17 @@
           "url": "https://gulfnews.com/uae/uae-air-defences-currently-responding-to-iran-missile-drone-threats-1.500478038",
           "domain": "gulfnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://www.aljazeera.com/news/2026/3/17/drone-sparks-fire-at-uae-oil-site-as-gulf-takes-more-hits-amid-iran-war",
+          "domain": "aljazeera.com",
+          "tier": "wire"
         }
       ],
       "snippet": null,
-      "_via": "rss"
+      "_via": "rss",
+      "_search_count": 1,
+      "_next_search_at": 1773788832.0
     },
     {
       "id": "a95d0f031002",
