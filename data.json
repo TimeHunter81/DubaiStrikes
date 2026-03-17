@@ -65,7 +65,7 @@
       "id": "679ef66690f2",
       "datetime": "2026-03-17T03:37:32Z",
       "type": "impact_minor",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "Interception debris hits Dubai building",
       "location": "Dubai",
@@ -88,7 +88,9 @@
           "tier": "wire"
         }
       ],
-      "_via": "rss"
+      "_via": "rss",
+      "_search_count": 1,
+      "_next_search_at": 1773722252.0
     },
     {
       "id": "92eecd52878f",
