@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-17T19:09:00Z",
+  "last_updated": "2026-03-17T19:21:42Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -23,8 +23,7 @@
           "domain": "apnews.com",
           "tier": "wire"
         }
-      ],
-      "_via": "rss"
+      ]
     },
     {
       "id": "25f2eb99d3ec",
@@ -42,8 +41,7 @@
           "domain": "aljazeera.com",
           "tier": "wire"
         }
-      ],
-      "_via": "rss"
+      ]
     },
     {
       "id": "c307357ef40b",
@@ -76,8 +74,7 @@
           "domain": "aljazeera.com",
           "tier": "wire"
         }
-      ],
-      "_via": "rss"
+      ]
     },
     {
       "id": "679ef66690f2",
@@ -110,8 +107,7 @@
           "domain": "reutersconnect.com",
           "tier": "wire"
         }
-      ],
-      "_via": "rss"
+      ]
     },
     {
       "id": "92eecd52878f",
@@ -139,8 +135,7 @@
           "domain": "gulfnews.com",
           "tier": "local"
         }
-      ],
-      "_via": "rss"
+      ]
     },
     {
       "id": "7c3cdb5de2ac",
@@ -173,8 +168,7 @@
           "domain": "thenationalnews.com",
           "tier": "local"
         }
-      ],
-      "_via": "rss"
+      ]
     },
     {
       "id": "780a01b87f72",
