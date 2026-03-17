@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-17T23:17:25Z",
+  "last_updated": "2026-03-17T23:25:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -8,7 +8,7 @@
       "type": "interception",
       "confirmed": true,
       "precision": "country",
-      "title": "UAE air defences respond to incoming Iran missiles and drones",
+      "title": "UAE air defences intercept new Iran missile/drone salvo",
       "location": "UAE",
       "lat": null,
       "lon": null,
@@ -127,11 +127,6 @@
           "url": "https://www.thenationalnews.com/news/uae/2026/03/13/debris-hits-dubai-building-after-air-strike-intercepted-as-more-alerts-issued/",
           "domain": "thenationalnews.com",
           "tier": "local"
-        },
-        {
-          "url": "https://www.hindustantimes.com/world-news/dubai-abu-dhabi-news-live-updates-uae-middle-east-airports-saudi-flights-fujairah-iran-us-war-israel-missile-strikes-101773625394355.html",
-          "domain": "hindustantimes.com",
-          "tier": "wire"
         },
         {
           "url": "https://www.reutersconnect.com/item/a-damaged-building-in-difc-dubai-after-debris-from-a-successful-interception-caused-minor-damage-to-the-facade-amid-the-us-israeli-conflict-with-iran-in-dubai/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX1JDMkgzS0FERTJHRg",
