@@ -50,23 +50,30 @@
       "id": "b424e5041997",
       "datetime": "2026-03-17T14:27:43Z",
       "type": "security_alert",
-      "confirmed": false,
-      "precision": "country",
+      "confirmed": true,
+      "precision": "city",
       "title": "UAE travel update: Etihad expands flights, GCAA reopens airspace after brief disruption",
-      "location": "Uae",
-      "lat": null,
-      "lon": null,
+      "location": "Abu Dhabi, UAE",
+      "lat": 24.4539,
+      "lon": 54.3773,
       "sources": [
         {
           "url": "https://gulfnews.com/business/aviation/uae-travel-update-etihad-expands-flights-gcaa-reopens-airspace-after-brief-disruption-1.500477681",
           "domain": "gulfnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://www.paddleyourownkanoo.com/2026/03/17/uae-regulators-announce-complete-closure-of-countrys-airspace-as-flights-continue-to-operate/",
+          "domain": "paddleyourownkanoo.com",
+          "tier": "wire"
         }
       ],
       "snippet": null,
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-01%2F8qzb1p7w%2FEK-Collage.jpeg?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1773761263.0
     },
     {
       "id": "8c4f3a6dcd7c",
@@ -132,7 +139,9 @@
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/V6NVCLVXHBF63CKIIV3K7HB2UE.jpg?smart=true&amp;auth=ff18f436f30b725b0f59311c4a18fe05b163b6af133af8adecadd5a8f7dcc4ca&amp;width=1200&amp;height=630",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1773757005.0
     },
     {
       "id": "48db70735cf5",
@@ -198,7 +207,9 @@
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/AMG2T4IGO5EZ62XVJEGHT7IQSE.jpg?smart=true&amp;auth=75076701576f071d4c78917f670f4f9db640768e16a2fe55afa8c7ea26f24072&amp;width=1200&amp;height=630",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1773756478.0
     },
     {
       "id": "6766b3ab484e",
@@ -308,7 +319,9 @@
       "snippet": "Kabul drug rehab clinic in ruins after Pakistan strikes on Afghanistan",
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-17%2Ft6kedstk%2FKabul?rect=0%2C105%2C980%2C515&amp;w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1773754795.0
     },
     {
       "id": "980692a546a1",
