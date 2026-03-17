@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-17T17:47:00Z",
+  "last_updated": "2026-03-17T17:57:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -172,6 +172,25 @@
           "url": "https://www.thenationalnews.com/business/2026/03/17/shah-field-a-vital-gas-and-sulphur-asset-attacked-by-iranian-drones/",
           "domain": "thenationalnews.com",
           "tier": "local"
+        }
+      ],
+      "_via": "rss"
+    },
+    {
+      "id": "b31d132c24e2",
+      "datetime": "2026-03-16T11:43:32Z",
+      "type": "impact_minor",
+      "confirmed": true,
+      "precision": "country",
+      "title": "Iran hits Fujairah oil port and Dubai airport",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.bbc.com/news/articles/crl4gxgkkylo?at_medium=RSS&amp;at_campaign=rss",
+          "domain": "bbc.com",
+          "tier": "wire"
         }
       ],
       "_via": "rss"
