@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-17T13:46:00Z",
+  "last_updated": "2026-03-17T13:58:55Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -8,7 +8,7 @@
       "type": "interception",
       "confirmed": false,
       "precision": "country",
-      "title": "UAE air defences intercept 10 ballistic missiles and 45 drones",
+      "title": "UAE air defences intercept 10 missiles and 45 drones",
       "location": "UAE",
       "lat": null,
       "lon": null,
@@ -19,7 +19,6 @@
           "tier": "local"
         }
       ],
-      "confidence": "low",
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-02-13%2F24qm98x1%2FDubai?rect=0%2C531%2C3872%2C2033&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
       "_via": "rss",
       "_search_count": 2,
@@ -42,17 +41,15 @@
           "tier": "wire"
         }
       ],
-      "snippet": "The Fujairah oil hub has been hit repeatedly by Iranian drones as the US-Israeli war continues to ignite instability.",
-      "_via": "rss",
-      "confidence": "medium"
+      "_via": "rss"
     },
     {
       "id": "c307357ef40b",
       "datetime": "2026-03-17T05:47:43Z",
-      "type": "impact_major",
+      "type": "impact_minor",
       "confirmed": false,
       "precision": "city",
-      "title": "Interception debris kills 1 person in Abu Dhabi",
+      "title": "Interception debris kills 1 in Abu Dhabi",
       "location": "Abu Dhabi",
       "lat": 24.4539,
       "lon": 54.3773,
@@ -79,7 +76,6 @@
         }
       ],
       "_via": "rss",
-      "confidence": "high",
       "_search_count": 1,
       "_next_search_at": 1773730063.0
     },
