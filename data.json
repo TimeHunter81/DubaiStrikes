@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-17T10:20:22Z",
+  "last_updated": "2026-03-17T10:29:45Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -34,6 +34,28 @@
       "_via": "gdelt",
       "_search_count": 1,
       "_next_search_at": 1773746409.0
+    },
+    {
+      "id": "a2189dd3a9be",
+      "datetime": "2026-03-17T10:18:02Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "Ramadan in UAE: What is the difference between Zakat Al Mal and Zakat Al Fitr?",
+      "location": "Uae",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://gulfnews.com/living-in-uae/ask-us/ramadan-in-uae-what-is-the-difference-between-zakat-al-mal-and-zakat-al-fitr-1.500477349",
+          "domain": "gulfnews.com",
+          "tier": "local"
+        }
+      ],
+      "snippet": null,
+      "preview_image": "https://media.assettype.com/gulfnews%2F2026-02-17%2F1knkrxnn%2FZakat?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
+      "_via": "rss",
+      "confidence": "low"
     },
     {
       "id": "8f3da4736d70",
@@ -2261,28 +2283,6 @@
       ],
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/DPN47ZPPDZE7JGTD3DR3MRRUGM.JPG?smart=true&amp;auth=47823a60bdd5e8f7eec783cf4326d8bed0ee280a96033ac15aa3ecd0fc330f1a&amp;width=1200&amp;height=630",
-      "_via": "rss",
-      "confidence": "low"
-    },
-    {
-      "id": "d2a4444fa598",
-      "datetime": "2026-03-16T02:54:18Z",
-      "type": "security_alert",
-      "confirmed": false,
-      "precision": "country",
-      "title": "Oscars 2026: Stars display Iran war and Gaza messages on red carpet",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.thenationalnews.com/arts-culture/film-tv/2026/03/16/oscars-2026-stars-display-iran-war-and-gaza-messages-on-red-carpet/",
-          "domain": "thenationalnews.com",
-          "tier": "local"
-        }
-      ],
-      "snippet": null,
-      "preview_image": "https://www.thenationalnews.com/resizer/v2/QUYF4TJ6SZACXMVOBBYTUPBS6Q?smart=true&amp;auth=84631eb62699133b2959986f866c24c63ae43bcffe71ca39ce08ca879b309098&amp;width=1200&amp;height=630",
       "_via": "rss",
       "confidence": "low"
     },
