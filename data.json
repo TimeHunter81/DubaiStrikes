@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-17T11:00:56Z",
+  "last_updated": "2026-03-17T11:10:18Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -25,6 +25,28 @@
       "confidence": "low"
     },
     {
+      "id": "884acf18b868",
+      "datetime": "2026-03-17T10:49:09Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "city",
+      "title": "NKEY Architects strengthens UAE presence with 250+ active projects from Dubai HQ",
+      "location": "Dubai",
+      "lat": 25.2048,
+      "lon": 55.2708,
+      "sources": [
+        {
+          "url": "https://gulfnews.com/business/corporate-news/nkey-architects-strengthens-uae-presence-with-250-active-projects-from-dubai-hq-1.500477381",
+          "domain": "gulfnews.com",
+          "tier": "local"
+        }
+      ],
+      "snippet": null,
+      "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-17%2Fnpikgszu%2FNKEY-Architects-Luxury-Villa-Project-in-Dubai.jpg?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
+      "_via": "rss",
+      "confidence": "low"
+    },
+    {
       "id": "e161873e6b55",
       "datetime": "2026-03-17T10:40:13Z",
       "type": "security_alert",
@@ -44,6 +66,28 @@
       "confidence": "low",
       "preview_image": "https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-2266458925.jpg?c=16x9&q=w_800,c_fill",
       "_via": "gdelt"
+    },
+    {
+      "id": "c1a753037762",
+      "datetime": "2026-03-17T10:36:18Z",
+      "type": "security_alert",
+      "confirmed": true,
+      "precision": "country",
+      "title": "Building burns in Israel after rocket attack from Lebanon",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/3/17/building-burns-in-israel-after-rocket-attack-from-lebanon?traffic_source=rss",
+          "domain": "aljazeera.com",
+          "tier": "wire"
+        }
+      ],
+      "snippet": "A building in the northern Israeli city of Nahariyya caught fire on Monday after a rocket attack launched from Lebanon.",
+      "preview_image": "https://www.aljazeera.com/wp-content/uploads/2026/03/horizontol-clip-thumb-1773743711.jpg?resize=1920%2C1080&amp;quality=80",
+      "_via": "rss",
+      "confidence": "medium"
     },
     {
       "id": "dcb129c76ade",
@@ -233,6 +277,28 @@
       ],
       "snippet": "Israel’s Defence Minister Israel Katz says Ali Larijani, Iran’s security chief, has been killed in an Israeli strike.",
       "preview_image": "https://www.aljazeera.com/wp-content/uploads/2026/03/2026-03-01T081908Z_1538485101_RC2K18A1YIPJ_RTRMADP_3_IRAN-CRISIS-LARIJANI-1773741661.jpg?resize=1920%2C1440",
+      "_via": "rss",
+      "confidence": "medium"
+    },
+    {
+      "id": "b15b43a18989",
+      "datetime": "2026-03-17T10:00:45Z",
+      "type": "security_alert",
+      "confirmed": true,
+      "precision": "country",
+      "title": "Trump’s Iran war has cost Americans at least $11bn already. And that’s just the start | Arwa Mahdawi",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.theguardian.com/commentisfree/2026/mar/17/trump-iran-war-cost-americans-11-billion",
+          "domain": "theguardian.com",
+          "tier": "wire"
+        }
+      ],
+      "snippet": "&lt;p&gt;That $11.3bn doesn’t include any estimate of repairing facilities or replacing losses&lt;/p&gt;&lt;p&gt;Generally speaking, when you bomb another country, and that country retaliates, you call it a “war”. Very simple word. Three letters. Eve",
+      "preview_image": "https://i.guim.co.uk/img/media/9e6757faf1feba8f9be859ababeb468c916fea68/0_0_4840_3872/master/4840.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctb3BpbmlvbnMucG5n&enable=upscale&s=9a7f5a8533736641a6e6a4698bed1a75",
       "_via": "rss",
       "confidence": "medium"
     },
@@ -528,6 +594,28 @@
         }
       ],
       "snippet": "Israel’s Defence Minister Katz has claimed that Iran’s security chief has been assassinated",
+      "preview_image": "https://www.aljazeera.com/wp-content/uploads/2026/03/AFP__20200216__1P17FA__v2__HighRes__SyriaIranDiplomacy-1-3-1773741103.jpg?resize=1200%2C630",
+      "_via": "rss",
+      "confidence": "medium"
+    },
+    {
+      "id": "8c480da0cff5",
+      "datetime": "2026-03-17T09:32:52Z",
+      "type": "security_alert",
+      "confirmed": true,
+      "precision": "country",
+      "title": "Israel says it’s killed Iran’s security chief Larijani and Basij commander",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.aljazeera.com/news/2026/3/17/israel-says-it-has-killed-ali-larijani-irans-top-security-official?traffic_source=rss",
+          "domain": "aljazeera.com",
+          "tier": "wire"
+        }
+      ],
+      "snippet": "Israel’s Defence Minister Katz has claimed that Iran’s security chief has been assassinated.",
       "preview_image": "https://www.aljazeera.com/wp-content/uploads/2026/03/AFP__20200216__1P17FA__v2__HighRes__SyriaIranDiplomacy-1-3-1773741103.jpg?resize=1200%2C630",
       "_via": "rss",
       "confidence": "medium"
@@ -2187,94 +2275,6 @@
       ],
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/YIIUK42VFKMCEYIACQSSZLJTQ4.jpg?smart=true&amp;auth=030981596486d05b0e5428141d339396fa4fcdde1d22b870ab43bdf64d72eaed&amp;width=1200&amp;height=630",
-      "_via": "rss",
-      "confidence": "low"
-    },
-    {
-      "id": "71751687222b",
-      "datetime": "2026-03-16T15:50:24Z",
-      "type": "security_alert",
-      "confirmed": true,
-      "precision": "country",
-      "title": "Could Trump blow up Nato over Iran war? – The Latest",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.theguardian.com/news/audio/2026/mar/16/could-trump-blow-up-nato-over-iran-war-the-latest",
-          "domain": "theguardian.com",
-          "tier": "wire"
-        }
-      ],
-      "snippet": "&lt;p&gt;Donald Trump is pressuring European allies to protect the strait of Hormuz, warning that Nato faces a ‘very bad’ future if members fail to offer assistance.&lt;/p&gt;&lt;p&gt;The strait of Hormuz is one of the most important shipping routes ",
-      "preview_image": "https://i.guim.co.uk/img/media/484300b6aaa5a9ee7c70e3ebcfd5674c99efb21f/449_0_4481_3586/master/4481.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=52ab0b7fc42dec8e492d78c4eacd4b8b",
-      "_via": "rss",
-      "confidence": "medium"
-    },
-    {
-      "id": "6199bc2087cf",
-      "datetime": "2026-03-16T15:21:47Z",
-      "type": "security_alert",
-      "confirmed": true,
-      "precision": "country",
-      "title": "In maps: Attacks across Iran and the Middle East enter third week",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.bbc.com/news/articles/c4g0pnnj8xyo?at_medium=RSS&amp;at_campaign=rss",
-          "domain": "bbc.com",
-          "tier": "wire"
-        }
-      ],
-      "snippet": "The US-Israeli war with Iran has seen sustained attacks on Tehran and Beirut as  retaliatory strikes are felt in Israel and Gulf states",
-      "preview_image": "https://ichef.bbci.co.uk/news/1024/branded_news/9e7e/live/f63e3020-1e00-11f1-b048-c9424b2cf5fd.png",
-      "_via": "rss",
-      "confidence": "medium"
-    },
-    {
-      "id": "72267e6b6eaf",
-      "datetime": "2026-03-16T14:49:46Z",
-      "type": "security_alert",
-      "confirmed": true,
-      "precision": "country",
-      "title": "Iran’s Hormuz blockade is its most powerful card against Trump and Israel. It won’t back down easily | Jack Watling",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.theguardian.com/commentisfree/2026/mar/16/iran-strait-of-hormuz-blockade-trump-israel",
-          "domain": "theguardian.com",
-          "tier": "wire"
-        }
-      ],
-      "snippet": "&lt;p&gt;By imposing massive costs on the global economy, the Iranian government hopes to cause the US to back down&lt;/p&gt;&lt;p&gt;The US and Israeli decision to attack Iran has sent economic shockwaves around the world. About 20% of global oil su",
-      "preview_image": "https://i.guim.co.uk/img/media/ece76e903cd92e26d169ec9708bb754756206d24/897_636_4206_3364/master/4206.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctb3BpbmlvbnMucG5n&enable=upscale&s=5a40cbbd6b4571f16a0ca5b30acf67d4",
-      "_via": "rss",
-      "confidence": "medium"
-    },
-    {
-      "id": "e40fb76511e1",
-      "datetime": "2026-03-16T14:42:58Z",
-      "type": "security_alert",
-      "confirmed": false,
-      "precision": "city",
-      "title": "Dubai Ruler says UAE philanthropy will endure amid adversity as Ramadan drive raises Dh2.8bn",
-      "location": "Dubai",
-      "lat": 25.2048,
-      "lon": 55.2708,
-      "sources": [
-        {
-          "url": "https://www.thenationalnews.com/news/uae/2026/03/16/dubai-ruler-says-uae-philanthropy-will-endure-amid-adversity-as-ramadan-drive-raises-dh28bn/",
-          "domain": "thenationalnews.com",
-          "tier": "local"
-        }
-      ],
-      "snippet": null,
-      "preview_image": "https://www.thenationalnews.com/resizer/v2/I6NBD2QO5BEAVEPAT2GMYQFF4Y.jpg?smart=true&amp;auth=ba524552ef255c9534d168d12db042ed7a4ede42e0e599f9db24e622cd139861&amp;width=1200&amp;height=630",
       "_via": "rss",
       "confidence": "low"
     },
