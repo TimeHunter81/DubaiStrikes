@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-17T10:40:27Z",
+  "last_updated": "2026-03-17T10:50:08Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -22,6 +22,28 @@
       "confidence": "low",
       "preview_image": "https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-2266458925.jpg?c=16x9&q=w_800,c_fill",
       "_via": "gdelt"
+    },
+    {
+      "id": "dcb129c76ade",
+      "datetime": "2026-03-17T10:35:54Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "AKCEL Holding, XRange to develop Dh1B Golf Entertainment venues in UAE",
+      "location": "Uae",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://gulfnews.com/business/corporate-news/akcel-holding-xrange-to-develop-dh1b-golf-entertainment-venues-in-uae-1.500477344",
+          "domain": "gulfnews.com",
+          "tier": "local"
+        }
+      ],
+      "snippet": null,
+      "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-17%2F2zygrgw4%2FAkcel-Holding.jpg?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
+      "_via": "rss",
+      "confidence": "low"
     },
     {
       "id": "39bdab955363",
@@ -2253,28 +2275,6 @@
       ],
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/N4S2PVDGNRDF5MYMEVHQZZCEH4.jpg?smart=true&amp;auth=338b1a48a6478012c7b9be9fc38ca263082246f8fbeffab9a4f5fd5d8d682ded&amp;width=1200&amp;height=630",
-      "_via": "rss",
-      "confidence": "low"
-    },
-    {
-      "id": "afad6851d8f9",
-      "datetime": "2026-03-16T13:00:00Z",
-      "type": "security_alert",
-      "confirmed": false,
-      "precision": "country",
-      "title": "Restaurants shut as Iran energy crisis reaches India",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.thenationalnews.com/news/2026/03/16/restaurants-shut-as-iran-energy-crisis-reaches-india/",
-          "domain": "thenationalnews.com",
-          "tier": "local"
-        }
-      ],
-      "snippet": null,
-      "preview_image": "https://www.thenationalnews.com/resizer/v2/NWT3WRJWA2KQAP4TVJSXFWWFBI.jpg?smart=true&amp;auth=3af323cc1b2f0024b9a2390d64e1c798effc77fe5d9df222fbb8a7500cf47641&amp;width=1200&amp;height=630",
       "_via": "rss",
       "confidence": "low"
     },
