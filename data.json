@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-17T02:47:00Z",
+  "last_updated": "2026-03-17T02:58:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -89,10 +89,8 @@
           "tier": "local"
         }
       ],
-      "snippet": "The port of Fujairah plays a crucial role in helping keep global supplies moving when the Strait of Hormuz is blocked.",
-      "preview_image": "https://ichef.bbci.co.uk/news/1024/branded_news/16d1/live/62f891c0-2125-11f1-821c-5783b4f9d6f9.jpg",
       "_via": "rss",
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "1c8e4738182d",
