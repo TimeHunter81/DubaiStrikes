@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-17T04:30:00Z",
+  "last_updated": "2026-03-17T04:40:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -24,12 +24,30 @@
           "tier": "wire"
         }
       ],
-      "snippet": null,
-      "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-16%2Fipx5fw2k%2FUAEflag?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
       "_via": "rss",
       "confidence": "high",
       "_search_count": 1,
       "_next_search_at": 1773722252.0
+    },
+    {
+      "id": "78cc4dff83fe",
+      "datetime": "2026-03-17T00:58:10Z",
+      "type": "impact_minor",
+      "confirmed": false,
+      "precision": "city",
+      "title": "Fire hits Fujairah Oil Industry Zone after drone strike",
+      "location": "Fujairah",
+      "lat": 25.1288,
+      "lon": 56.3265,
+      "sources": [
+        {
+          "url": "https://gulfnews.com/uae/fire-hits-fujairah-oil-industry-zone-after-drone-strike-1.500476866",
+          "domain": "gulfnews.com",
+          "tier": "local"
+        }
+      ],
+      "_via": "rss",
+      "confidence": "low"
     },
     {
       "id": "92eecd52878f",
