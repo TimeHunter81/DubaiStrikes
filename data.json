@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-17T15:21:00Z",
+  "last_updated": "2026-03-17T15:33:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -24,8 +24,8 @@
           "tier": "wire"
         }
       ],
-      "_via": "rss",
-      "confidence": "high"
+      "confidence": "high",
+      "_via": "rss"
     },
     {
       "id": "25f2eb99d3ec",
@@ -44,8 +44,8 @@
           "tier": "wire"
         }
       ],
-      "_via": "rss",
-      "confidence": "high"
+      "confidence": "high",
+      "_via": "rss"
     },
     {
       "id": "c307357ef40b",
@@ -79,8 +79,8 @@
           "tier": "wire"
         }
       ],
-      "_via": "rss",
-      "confidence": "high"
+      "confidence": "high",
+      "_via": "rss"
     },
     {
       "id": "679ef66690f2",
@@ -114,8 +114,8 @@
           "tier": "wire"
         }
       ],
-      "_via": "rss",
-      "confidence": "high"
+      "confidence": "high",
+      "_via": "rss"
     },
     {
       "id": "92eecd52878f",
@@ -144,8 +144,8 @@
           "tier": "local"
         }
       ],
-      "_via": "rss",
-      "confidence": "high"
+      "confidence": "high",
+      "_via": "rss"
     },
     {
       "id": "7c3cdb5de2ac",
@@ -179,8 +179,8 @@
           "tier": "local"
         }
       ],
-      "_via": "rss",
-      "confidence": "high"
+      "confidence": "high",
+      "_via": "rss"
     },
     {
       "id": "780a01b87f72",
