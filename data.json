@@ -1,14 +1,36 @@
 {
-  "last_updated": "2026-03-17T00:20:00Z",
+  "last_updated": "2026-03-17T00:34:46Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
+    {
+      "id": "306aa86e27d0",
+      "datetime": "2026-03-17T00:08:03Z",
+      "type": "interception",
+      "confirmed": true,
+      "precision": "city",
+      "title": "Sounds heard across Dubai — UAE confirms successful defence interceptions",
+      "location": "Dubai",
+      "lat": 25.2048,
+      "lon": 55.2708,
+      "sources": [
+        {
+          "url": "https://gulfnews.com/uae/sounds-heard-in-various-areas-of-dubai-due-to-successful-defence-ops-authorities-1.500476855",
+          "domain": "gulfnews.com",
+          "tier": "local"
+        }
+      ],
+      "snippet": null,
+      "preview_image": "https://media.assettype.com/gulfnews%2F2024-11-18%2F2woh4xe9%2Freader_picture__17e34d6aabb_original_ratio.jpg?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
+      "_via": "rss",
+      "confidence": "high"
+    },
     {
       "id": "92eecd52878f",
       "datetime": "2026-03-16T23:45:41Z",
       "type": "security_alert",
       "confirmed": true,
       "precision": "country",
-      "title": "UAE closes airspace as missile and drone inbound",
+      "title": "UAE closes airspace as missiles and drones inbound",
       "location": "UAE",
       "lat": null,
       "lon": null,
@@ -22,6 +44,11 @@
           "url": "https://www.reuters.com/world/middle-east/fire-breaks-out-vicinity-dubai-international-airport-after-drone-attack-dubai-2026-03-16/",
           "domain": "reuters.com",
           "tier": "wire"
+        },
+        {
+          "url": "https://gulfnews.com/uae/uae-temporarily-closes-its-airspace-to-ensure-safety-security-1.500476853",
+          "domain": "gulfnews.com",
+          "tier": "local"
         }
       ],
       "_via": "rss",
@@ -187,40 +214,6 @@
         {
           "url": "https://www.reuters.com/world/middle-east/fire-breaks-out-vicinity-dubai-international-airport-after-drone-attack-dubai-2026-03-16/",
           "domain": "reuters.com",
-          "tier": "wire"
-        }
-      ],
-      "_via": "rss"
-    },
-    {
-      "id": "fb71efe3c093",
-      "datetime": "2026-03-15T22:02:41Z",
-      "type": "interception",
-      "confirmed": true,
-      "precision": "country",
-      "title": "UK Typhoon/F-35s intercept Iranian drones over UAE",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://gulfnews.com/world/mena/british-counter-drone-fighters-hit-multiple-iranian-drones-1.500475578",
-          "domain": "gulfnews.com",
-          "tier": "local"
-        },
-        {
-          "url": "https://en.defence-ua.com/news/uk_defense_intelligence_typhoon_and_f_35_jets_fly_first_air_defense_patrols_over_bahrain_defend_qatar_cyprus_uae_and_jordan_drones_shot_down_after_iraq_base_attacks_400_air_defense_personnel_deployed-17825.html",
-          "domain": "en.defence-ua.com",
-          "tier": "wire"
-        },
-        {
-          "url": "https://en.wikipedia.org/wiki/2026_Iranian_strikes_on_the_United_Arab_Emirates",
-          "domain": "en.wikipedia.org",
-          "tier": "wire"
-        },
-        {
-          "url": "https://www.bbc.com/news/articles/c0k1yyg475ko",
-          "domain": "bbc.com",
           "tier": "wire"
         }
       ],
