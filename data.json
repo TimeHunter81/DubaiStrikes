@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-17T18:18:20Z",
+  "last_updated": "2026-03-17T18:28:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -137,40 +137,6 @@
         {
           "url": "https://gulfnews.com/uae/uae-temporarily-closes-its-airspace-to-ensure-safety-security-1.500476853",
           "domain": "gulfnews.com",
-          "tier": "local"
-        }
-      ],
-      "_via": "rss"
-    },
-    {
-      "id": "7c3cdb5de2ac",
-      "datetime": "2026-03-16T18:35:45Z",
-      "type": "impact_minor",
-      "confirmed": true,
-      "precision": "area",
-      "title": "Iranian drone strike sparks fire at Shah gas field, Abu Dhabi",
-      "location": "Shah Gas Field, Abu Dhabi",
-      "lat": 23.09,
-      "lon": 53.42,
-      "sources": [
-        {
-          "url": "https://gulfnews.com/uae/government/drone-strike-triggers-fire-at-shah-oil-field-in-abu-dhabi-1.500476722",
-          "domain": "gulfnews.com",
-          "tier": "local"
-        },
-        {
-          "url": "https://www.reuters.com/world/middle-east/fire-abu-dhabi-shah-oil-field-caused-by-drone-attack-abu-dhabi-media-office-says-2026-03-16/",
-          "domain": "reuters.com",
-          "tier": "wire"
-        },
-        {
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/drone-attack-sparks-fire-uaes-shah-oil-and-gas-field",
-          "domain": "middleeasteye.net",
-          "tier": "local"
-        },
-        {
-          "url": "https://www.thenationalnews.com/business/2026/03/17/shah-field-a-vital-gas-and-sulphur-asset-attacked-by-iranian-drones/",
-          "domain": "thenationalnews.com",
           "tier": "local"
         }
       ],
@@ -455,6 +421,40 @@
       ],
       "confidence": "high",
       "_manual": true
+    },
+    {
+      "id": "7c3cdb5de2ac",
+      "datetime": "2026-03-16T18:35:45Z",
+      "type": "impact_minor",
+      "confirmed": true,
+      "precision": "area",
+      "title": "Iranian drone strike sparks fire at Shah gas field, Abu Dhabi",
+      "location": "Shah Gas Field, Abu Dhabi",
+      "lat": 23.09,
+      "lon": 53.42,
+      "sources": [
+        {
+          "url": "https://gulfnews.com/uae/government/drone-strike-triggers-fire-at-shah-oil-field-in-abu-dhabi-1.500476722",
+          "domain": "gulfnews.com",
+          "tier": "local"
+        },
+        {
+          "url": "https://www.reuters.com/world/middle-east/fire-abu-dhabi-shah-oil-field-caused-by-drone-attack-abu-dhabi-media-office-says-2026-03-16/",
+          "domain": "reuters.com",
+          "tier": "wire"
+        },
+        {
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/drone-attack-sparks-fire-uaes-shah-oil-and-gas-field",
+          "domain": "middleeasteye.net",
+          "tier": "local"
+        },
+        {
+          "url": "https://www.thenationalnews.com/business/2026/03/17/shah-field-a-vital-gas-and-sulphur-asset-attacked-by-iranian-drones/",
+          "domain": "thenationalnews.com",
+          "tier": "local"
+        }
+      ],
+      "_via": "rss"
     },
     {
       "id": "f7a2b3c4d5e6",
