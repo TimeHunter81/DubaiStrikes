@@ -1,7 +1,29 @@
 {
-  "last_updated": "2026-03-17T06:33:00Z",
+  "last_updated": "2026-03-17T06:45:22Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
+    {
+      "id": "25f2eb99d3ec",
+      "datetime": "2026-03-17T06:35:15Z",
+      "type": "impact_minor",
+      "confirmed": true,
+      "precision": "city",
+      "title": "Drone sparks fire at Fujairah oil hub",
+      "location": "Fujairah",
+      "lat": 25.1288,
+      "lon": 56.3265,
+      "sources": [
+        {
+          "url": "https://www.aljazeera.com/news/2026/3/17/drone-sparks-fire-at-uae-oil-site-as-gulf-takes-more-hits-amid-iran-war?traffic_source=rss",
+          "domain": "aljazeera.com",
+          "tier": "wire"
+        }
+      ],
+      "snippet": "The Fujairah oil hub has been hit repeatedly by Iranian drones as the US-Israeli war continues to ignite instability.",
+      "preview_image": "https://www.aljazeera.com/wp-content/uploads/2026/03/AP26073429527349-1773728140.jpg?resize=1920%2C1440",
+      "_via": "rss",
+      "confidence": "medium"
+    },
     {
       "id": "c307357ef40b",
       "datetime": "2026-03-17T05:47:43Z",
