@@ -6,7 +6,7 @@
       "id": "679ef66690f2",
       "datetime": "2026-03-17T03:37:32Z",
       "type": "interception",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "UAE air defences respond to missile threat, residents alerted",
       "location": "Dubai / Abu Dhabi, UAE",
@@ -22,18 +22,23 @@
           "url": "https://www.thenationalnews.com/news/uae/2026/03/13/debris-hits-dubai-building-after-air-strike-intercepted-as-more-alerts-issued/",
           "domain": "thenationalnews.com",
           "tier": "wire"
+        },
+        {
+          "url": "https://www.hindustantimes.com/world-news/dubai-abu-dhabi-news-live-updates-uae-middle-east-airports-saudi-flights-fujairah-iran-us-war-israel-missile-strikes-101773625394355.html",
+          "domain": "hindustantimes.com",
+          "tier": "wire"
         }
       ],
       "_via": "rss",
       "confidence": "high",
-      "_search_count": 1,
-      "_next_search_at": 1773722252.0
+      "_search_count": 2,
+      "_next_search_at": 1773740252.0
     },
     {
       "id": "78cc4dff83fe",
       "datetime": "2026-03-17T00:58:10Z",
       "type": "impact_minor",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "Fire hits Fujairah Oil Industry Zone after drone strike",
       "location": "Fujairah",
@@ -44,10 +49,17 @@
           "url": "https://gulfnews.com/uae/fire-hits-fujairah-oil-industry-zone-after-drone-strike-1.500476866",
           "domain": "gulfnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://www.reuters.com/world/middle-east/fire-occurred-uaes-fujairah-after-debris-fell-during-interception-drone-no-2026-03-14/",
+          "domain": "reuters.com",
+          "tier": "wire"
         }
       ],
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1773712690.0
     },
     {
       "id": "92eecd52878f",
