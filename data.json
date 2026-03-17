@@ -1,7 +1,37 @@
 {
-  "last_updated": "2026-03-17T06:13:00Z",
+  "last_updated": "2026-03-17T06:25:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
+    {
+      "id": "c307357ef40b",
+      "datetime": "2026-03-17T05:47:43Z",
+      "type": "impact_minor",
+      "confirmed": false,
+      "precision": "city",
+      "title": "One killed by falling debris from intercepted missile in Abu Dhabi",
+      "location": "Abu Dhabi",
+      "lat": 24.4539,
+      "lon": 54.3773,
+      "sources": [
+        {
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/one-killed-falling-debris-intercepted-missile-abu-dhabi",
+          "domain": "middleeasteye.net",
+          "tier": "local"
+        },
+        {
+          "url": "https://www.thenationalnews.com/news/uae/2026/03/17/one-person-killed-as-debris-falls-from-intercepted-iranian-missile-in-abu-dhabi/",
+          "domain": "thenationalnews.com",
+          "tier": "local"
+        },
+        {
+          "url": "https://gulfnews.com/uae/one-killed-in-abu-dhabi-as-shrapnel-falls-after-missile-intercept-1.500477034",
+          "domain": "gulfnews.com",
+          "tier": "local"
+        }
+      ],
+      "confidence": "low",
+      "_via": "rss"
+    },
     {
       "id": "679ef66690f2",
       "datetime": "2026-03-17T03:37:32Z",
@@ -30,9 +60,7 @@
         }
       ],
       "_via": "rss",
-      "confidence": "high",
-      "_search_count": 2,
-      "_next_search_at": 1773740252.0
+      "confidence": "high"
     },
     {
       "id": "92eecd52878f",
@@ -68,33 +96,6 @@
       ],
       "_via": "rss",
       "confidence": "high"
-    },
-    {
-      "id": "78cc4dff83fe",
-      "datetime": "2026-03-17T00:58:10Z",
-      "type": "impact_minor",
-      "confirmed": true,
-      "precision": "city",
-      "title": "Drone strike causes fire at Fujairah Oil Industry Zone",
-      "location": "Fujairah",
-      "lat": 25.1288,
-      "lon": 56.3265,
-      "sources": [
-        {
-          "url": "https://gulfnews.com/uae/fire-hits-fujairah-oil-industry-zone-after-drone-strike-1.500476866",
-          "domain": "gulfnews.com",
-          "tier": "local"
-        },
-        {
-          "url": "https://www.reuters.com/world/middle-east/fire-occurred-uaes-fujairah-after-debris-fell-during-interception-drone-no-2026-03-14/",
-          "domain": "reuters.com",
-          "tier": "wire"
-        }
-      ],
-      "_via": "rss",
-      "confidence": "high",
-      "_search_count": 1,
-      "_next_search_at": 1773712690.0
     },
     {
       "id": "7c3cdb5de2ac",
