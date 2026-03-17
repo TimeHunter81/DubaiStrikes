@@ -6,7 +6,7 @@
       "id": "25f2eb99d3ec",
       "datetime": "2026-03-17T06:35:15Z",
       "type": "impact_minor",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "Drone sparks fire at Fujairah oil hub",
       "location": "Fujairah",
@@ -17,16 +17,23 @@
           "url": "https://www.aljazeera.com/news/2026/3/17/drone-sparks-fire-at-uae-oil-site-as-gulf-takes-more-hits-amid-iran-war?traffic_source=rss",
           "domain": "aljazeera.com",
           "tier": "wire"
+        },
+        {
+          "url": "https://www.reuters.com/world/middle-east/fire-occurred-uaes-fujairah-after-debris-fell-during-interception-drone-no-2026-03-14/",
+          "domain": "reuters.com",
+          "tier": "wire"
         }
       ],
       "preview_image": "https://www.aljazeera.com/wp-content/uploads/2026/03/AP26073429527349-1773728140.jpg?resize=1920%2C1440",
-      "_via": "rss"
+      "_via": "rss",
+      "_search_count": 1,
+      "_next_search_at": 1773732915.0
     },
     {
       "id": "c307357ef40b",
       "datetime": "2026-03-17T05:47:43Z",
       "type": "impact_major",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "Intercepted Iranian missile debris kills 1 in Abu Dhabi",
       "location": "Abu Dhabi",
@@ -54,13 +61,15 @@
           "tier": "wire"
         }
       ],
-      "_via": "rss"
+      "_via": "rss",
+      "_search_count": 1,
+      "_next_search_at": 1773730063.0
     },
     {
       "id": "679ef66690f2",
       "datetime": "2026-03-17T03:37:32Z",
       "type": "impact_minor",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "Interception debris hits Dubai building",
       "location": "Dubai",
@@ -83,7 +92,9 @@
           "tier": "wire"
         }
       ],
-      "_via": "rss"
+      "_via": "rss",
+      "_search_count": 1,
+      "_next_search_at": 1773722252.0
     },
     {
       "id": "92eecd52878f",
