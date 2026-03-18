@@ -1,14 +1,14 @@
 {
-  "last_updated": "2026-03-18T21:08:00Z",
+  "last_updated": "2026-03-18T21:17:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
       "id": "e902d32170f8",
       "datetime": "2026-03-18T09:32:34Z",
-      "type": "impact_minor",
-      "confirmed": true,
+      "type": "impact_major",
+      "confirmed": false,
       "precision": "city",
-      "title": "Palestinian woman killed by falling missile in Abu Dhabi",
+      "title": "Palestinian woman killed by missile debris in Abu Dhabi",
       "location": "Abu Dhabi",
       "lat": 24.4539,
       "lon": 54.3773,
@@ -22,9 +22,7 @@
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/EVK4VENPGRAAXEU5OI6TQZ3ENQ.jpg?smart=true&auth=bea671afea2eb3e05578e18e0d6e05f8ffb97530d1e5cbc4d236693783fcc47a&width=1200&height=630",
       "_via": "rss",
-      "confidence": "low",
-      "_search_count": 1,
-      "_next_search_at": 1773829954.0
+      "confidence": "low"
     },
     {
       "id": "780a01b87f72",
