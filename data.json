@@ -6,7 +6,7 @@
       "id": "e697006bb77e",
       "datetime": "2026-03-18T22:09:52Z",
       "type": "impact_minor",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "Abu Dhabi: two shrapnel fallout incidents reported",
       "location": "Abu Dhabi",
@@ -17,12 +17,19 @@
           "url": "https://gulfnews.com/uae/authorities-in-abu-dhabi-are-dealing-with-two-incidents-1.500479318",
           "domain": "gulfnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://www.thenationalnews.com/news/uae/2026/03/17/one-person-killed-as-debris-falls-from-intercepted-iranian-missile-in-abu-dhabi/",
+          "domain": "thenationalnews.com",
+          "tier": "wire"
         }
       ],
       "snippet": null,
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-18%2Fj01yvlmt%2FBreaking-NEWS-GN.jpeg?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1773875392.0
     },
     {
       "id": "e902d32170f8",
