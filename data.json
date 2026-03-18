@@ -6,7 +6,7 @@
       "id": "a0b074ce7c11",
       "datetime": "2026-03-18T02:52:10Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "UAE residents get emergency alert over missile threat",
       "location": "UAE",
@@ -20,7 +20,9 @@
         }
       ],
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1773805930.0
     },
     {
       "id": "ca31fc8fa365",
