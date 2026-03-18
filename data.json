@@ -6,7 +6,7 @@
       "id": "e902d32170f8",
       "datetime": "2026-03-18T09:32:34Z",
       "type": "impact_minor",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "Missile debris kills Palestinian woman in Abu Dhabi",
       "location": "Abu Dhabi",
@@ -17,9 +17,16 @@
           "url": "https://www.thenationalnews.com/news/uae/2026/03/18/funeral-takes-place-for-palestinian-woman-killed-by-missile-attack-in-abu-dhabi/",
           "domain": "thenationalnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://www.bbc.com/news/articles/crl4gxgkkylo",
+          "domain": "bbc.com",
+          "tier": "wire"
         }
       ],
-      "_via": "rss"
+      "_via": "rss",
+      "_search_count": 1,
+      "_next_search_at": 1773829954.0
     },
     {
       "id": "a0b074ce7c11",
