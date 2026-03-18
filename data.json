@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-18T15:14:00Z",
+  "last_updated": "2026-03-18T15:25:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -35,26 +35,6 @@
         },
         {
           "url": "https://www.aljazeera.com/news/2026/3/18/iran-fires-missiles-drones-across-gulf-region-remains-in-war-crosshairs?traffic_source=rss",
-          "domain": "aljazeera.com",
-          "tier": "wire"
-        }
-      ],
-      "confidence": "high",
-      "_via": "rss"
-    },
-    {
-      "id": "ca31fc8fa365",
-      "datetime": "2026-03-18T00:50:54Z",
-      "type": "impact_minor",
-      "confirmed": true,
-      "precision": "city",
-      "title": "Burning interception debris showers Dubai — Mar 18",
-      "location": "Dubai",
-      "lat": 25.2048,
-      "lon": 55.2708,
-      "sources": [
-        {
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/3/18/burning-debris-from-missile-interceptions-showers-dubai?traffic_source=rss",
           "domain": "aljazeera.com",
           "tier": "wire"
         }
