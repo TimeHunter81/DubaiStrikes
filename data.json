@@ -1,7 +1,29 @@
 {
-  "last_updated": "2026-03-18T03:05:00Z",
+  "last_updated": "2026-03-18T03:18:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
+    {
+      "id": "a0b074ce7c11",
+      "datetime": "2026-03-18T02:52:10Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "UAE residents get emergency alert over missile threat",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://gulfnews.com/uae/uae-residents-get-emergency-alert-over-missile-threat-3-1.500478165",
+          "domain": "gulfnews.com",
+          "tier": "local"
+        }
+      ],
+      "snippet": null,
+      "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-17%2Fqejtwpyv%2FUAE-EMERGENCY-ALERT-STOCK?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
+      "_via": "rss",
+      "confidence": "low"
+    },
     {
       "id": "ca31fc8fa365",
       "datetime": "2026-03-18T00:50:54Z",
@@ -148,36 +170,6 @@
         {
           "url": "https://www.aljazeera.com/amp/news/2026/3/16/drone-strike-disrupts-dubai-flights-as-iran-continues-gulf-attacks",
           "domain": "aljazeera.com",
-          "tier": "wire"
-        }
-      ],
-      "_via": "rss",
-      "confidence": "high"
-    },
-    {
-      "id": "679ef66690f2",
-      "datetime": "2026-03-17T03:37:32Z",
-      "type": "impact_minor",
-      "confirmed": true,
-      "precision": "area",
-      "title": "Interception debris damages building in DIFC, Dubai",
-      "location": "DIFC, Dubai",
-      "lat": 25.2131,
-      "lon": 55.2796,
-      "sources": [
-        {
-          "url": "https://gulfnews.com/uae/uae-air-defenses-respond-to-missile-threat-1.500476947",
-          "domain": "gulfnews.com",
-          "tier": "local"
-        },
-        {
-          "url": "https://www.thenationalnews.com/news/uae/2026/03/13/debris-hits-dubai-building-after-air-strike-intercepted-as-more-alerts-issued/",
-          "domain": "thenationalnews.com",
-          "tier": "local"
-        },
-        {
-          "url": "https://www.reutersconnect.com/item/a-damaged-building-in-difc-dubai-after-debris-from-a-successful-interception-caused-minor-damage-to-the-facade-amid-the-us-israeli-conflict-with-iran-in-dubai/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX1JDMkgzS0FERTJHRg",
-          "domain": "reutersconnect.com",
           "tier": "wire"
         }
       ],
