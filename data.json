@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-03-18T11:07:00Z",
+  "last_updated": "2026-03-18T11:20:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
       "id": "e902d32170f8",
       "datetime": "2026-03-18T09:32:34Z",
       "type": "impact_minor",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "city",
       "title": "Palestinian woman killed by falling missile in Abu Dhabi",
       "location": "Abu Dhabi",
@@ -20,9 +20,7 @@
         }
       ],
       "_via": "rss",
-      "confidence": "low",
-      "_search_count": 2,
-      "_next_search_at": 1773847954.0
+      "confidence": "low"
     },
     {
       "id": "3038ae61bbae",
