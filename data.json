@@ -1,10 +1,10 @@
 {
-  "last_updated": "2026-03-18T06:55:00Z",
+  "last_updated": "2026-03-18T07:03:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
       "id": "3038ae61bbae",
-      "datetime": "2026-03-18T05:52:26Z",
+      "datetime": "2026-03-18T05:49:45Z",
       "type": "interception",
       "confirmed": true,
       "precision": "city",
@@ -30,10 +30,32 @@
       "confidence": "high"
     },
     {
+      "id": "133b1f0e2223",
+      "datetime": "2026-03-18T04:26:16Z",
+      "type": "impact_major",
+      "confirmed": false,
+      "precision": "country",
+      "title": "UAE's civilian victims of Iran missile attacks named",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.thenationalnews.com/news/uae/2026/03/18/names-released-of-civilian-victims-of-iran-missile-attacks-in-uae/",
+          "domain": "thenationalnews.com",
+          "tier": "local"
+        }
+      ],
+      "snippet": null,
+      "preview_image": "https://www.thenationalnews.com/resizer/v2/TTKG6KR5AVE63IU5TBYJTLMX7E.jpg?smart=true&auth=3b73d3f7fdb351ae21b616723530403678f0500444761bcf5de2b75da42fa079&width=1200&height=630",
+      "_via": "rss",
+      "confidence": "low"
+    },
+    {
       "id": "2a343a96edee",
       "datetime": "2026-03-18T04:13:21Z",
       "type": "interception",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "country",
       "title": "UAE, Saudi Arabia intercept Iranian drones and missiles",
       "location": "UAE",
@@ -52,7 +74,7 @@
         }
       ],
       "_via": "rss",
-      "confidence": "medium",
+      "confidence": "high",
       "_search_count": 1,
       "_next_search_at": 1773810801.0
     },
