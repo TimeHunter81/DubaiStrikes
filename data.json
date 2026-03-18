@@ -191,7 +191,7 @@
       "id": "e5c1ed62dec0",
       "datetime": "2026-03-17T05:59:21Z",
       "type": "impact_minor",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "Interception debris kills 1 in Abu Dhabi; 2,000 total projectiles",
       "location": "Abu Dhabi",
@@ -207,8 +207,8 @@
       "preview_image": "https://www.thenationalnews.com/resizer/v2/JHGCX7UZWFCLTD6Y7PQ2F6IH6I.jpg?smart=true&auth=99cc8c5b54ea3cbde7427dc480a32ed7bfdeea12c710db89ab1b83e54db2a121&width=1200&height=630",
       "_via": "rss",
       "confidence": "low",
-      "_search_count": 1,
-      "_next_search_at": 1773730761.0
+      "_search_count": 2,
+      "_next_search_at": 1773748761.0
     },
     {
       "id": "780a01b87f72",
