@@ -6,7 +6,7 @@
       "id": "2a343a96edee",
       "datetime": "2026-03-18T04:13:21Z",
       "type": "interception",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "UAE, Saudi Arabia intercept drones and missiles amid Iran attacks",
       "location": "UAE",
@@ -17,10 +17,17 @@
           "url": "https://www.middleeasteye.net/live-blog/live-blog-update/uae-saudi-arabia-intercept-drones-and-missiles-amid-iran-attacks",
           "domain": "middleeasteye.net",
           "tier": "local"
+        },
+        {
+          "url": "https://www.bbc.com/audio/play/w172zssmfxcrtjw",
+          "domain": "bbc.com",
+          "tier": "wire"
         }
       ],
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1773810801.0
     },
     {
       "id": "a0b074ce7c11",
