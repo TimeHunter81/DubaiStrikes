@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-18T05:39:00Z",
+  "last_updated": "2026-03-18T05:52:53Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -30,7 +30,7 @@
     {
       "id": "a0b074ce7c11",
       "datetime": "2026-03-18T02:52:10Z",
-      "type": "security_alert",
+      "type": "interception",
       "confirmed": true,
       "precision": "country",
       "title": "UAE emergency alert: active missile threat, air defences engaging",
