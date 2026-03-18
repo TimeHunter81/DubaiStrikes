@@ -1,7 +1,32 @@
 {
-  "last_updated": "2026-03-18T16:15:00Z",
+  "last_updated": "2026-03-18T16:25:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
+    {
+      "id": "e902d32170f8",
+      "datetime": "2026-03-18T09:32:34Z",
+      "type": "impact_minor",
+      "confirmed": true,
+      "precision": "city",
+      "title": "Missile debris kills Palestinian woman in Abu Dhabi",
+      "location": "Abu Dhabi",
+      "lat": 24.4539,
+      "lon": 54.3773,
+      "sources": [
+        {
+          "url": "https://www.thenationalnews.com/news/uae/2026/03/18/funeral-takes-place-for-palestinian-woman-killed-by-missile-attack-in-abu-dhabi/",
+          "domain": "thenationalnews.com",
+          "tier": "local"
+        },
+        {
+          "url": "https://www.bbc.com/news/articles/crl4gxgkkylo",
+          "domain": "bbc.com",
+          "tier": "wire"
+        }
+      ],
+      "_via": "rss",
+      "confidence": "high"
+    },
     {
       "id": "a0b074ce7c11",
       "datetime": "2026-03-18T02:00:00Z",
@@ -41,31 +66,6 @@
       ],
       "confidence": "high",
       "_via": "rss"
-    },
-    {
-      "id": "e902d32170f8",
-      "datetime": "2026-03-18T09:32:34Z",
-      "type": "impact_minor",
-      "confirmed": true,
-      "precision": "city",
-      "title": "Missile debris kills Palestinian woman in Abu Dhabi",
-      "location": "Abu Dhabi",
-      "lat": 24.4539,
-      "lon": 54.3773,
-      "sources": [
-        {
-          "url": "https://www.thenationalnews.com/news/uae/2026/03/18/funeral-takes-place-for-palestinian-woman-killed-by-missile-attack-in-abu-dhabi/",
-          "domain": "thenationalnews.com",
-          "tier": "local"
-        },
-        {
-          "url": "https://www.bbc.com/news/articles/crl4gxgkkylo",
-          "domain": "bbc.com",
-          "tier": "wire"
-        }
-      ],
-      "_via": "rss",
-      "confidence": "high"
     },
     {
       "id": "780a01b87f72",
