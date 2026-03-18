@@ -1,7 +1,54 @@
 {
-  "last_updated": "2026-03-18T06:42:00Z",
+  "last_updated": "2026-03-18T06:55:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
+    {
+      "id": "3038ae61bbae",
+      "datetime": "2026-03-18T05:52:26Z",
+      "type": "interception",
+      "confirmed": true,
+      "precision": "city",
+      "title": "UAE air defences intercept Iranian salvo; blasts reported across Gulf",
+      "location": "Dubai",
+      "lat": 25.2048,
+      "lon": 55.2708,
+      "sources": [
+        {
+          "url": "https://www.aljazeera.com/news/2026/3/18/iran-fires-missiles-drones-across-gulf-region-remains-in-war-crosshairs?traffic_source=rss",
+          "domain": "aljazeera.com",
+          "tier": "wire"
+        },
+        {
+          "url": "https://gulfnews.com/uae/dubai-confirms-success-of-air-defence-interceptions-1.500478320",
+          "domain": "gulfnews.com",
+          "tier": "local"
+        }
+      ],
+      "snippet": "Qatar, UAE, Kuwait and Saudi Arabia report new blasts, interceptions, with war edging to 3-week mark.",
+      "preview_image": "https://www.aljazeera.com/wp-content/uploads/2026/03/AFP__20260301__99EA3NK__v1__MidRes__QatarIranIsraelUsConflict-1773709210.jpg?resize=1799%2C1080",
+      "_via": "rss",
+      "confidence": "high"
+    },
+    {
+      "id": "2a343a96edee",
+      "datetime": "2026-03-18T04:13:21Z",
+      "type": "interception",
+      "confirmed": false,
+      "precision": "country",
+      "title": "UAE, Saudi Arabia intercept Iranian drones and missiles",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/uae-saudi-arabia-intercept-drones-and-missiles-amid-iran-attacks",
+          "domain": "middleeasteye.net",
+          "tier": "local"
+        }
+      ],
+      "_via": "rss",
+      "confidence": "medium"
+    },
     {
       "id": "a0b074ce7c11",
       "datetime": "2026-03-18T02:52:10Z",
@@ -101,31 +148,6 @@
         {
           "url": "https://apnews.com/live/iran-war-israel-trump-03-17-2026",
           "domain": "apnews.com",
-          "tier": "wire"
-        }
-      ],
-      "_via": "rss",
-      "confidence": "high"
-    },
-    {
-      "id": "e965c0896f64",
-      "datetime": "2026-03-17T07:30:07Z",
-      "type": "impact_minor",
-      "confirmed": true,
-      "precision": "city",
-      "title": "Drone hits Abu Dhabi Shah gas plant — operations halted",
-      "location": "Abu Dhabi",
-      "lat": 24.4539,
-      "lon": 54.3773,
-      "sources": [
-        {
-          "url": "https://www.thenationalnews.com/business/2026/03/17/abu-dhabi-oil-gas-drone-attack-iran/",
-          "domain": "thenationalnews.com",
-          "tier": "local"
-        },
-        {
-          "url": "https://www.reuters.com/world/middle-east/fire-abu-dhabi-shah-oil-field-caused-by-drone-attack-abu-dhabi-media-office-says-2026-03-16/",
-          "domain": "reuters.com",
           "tier": "wire"
         }
       ],
