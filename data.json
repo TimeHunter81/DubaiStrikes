@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-18T07:35:00Z",
+  "last_updated": "2026-03-18T07:45:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -7,11 +7,11 @@
       "datetime": "2026-03-18T05:49:45Z",
       "type": "interception",
       "confirmed": true,
-      "precision": "city",
+      "precision": "country",
       "title": "UAE air defences intercept Iranian salvo; blasts across Gulf",
-      "location": "Dubai",
-      "lat": 25.2048,
-      "lon": 55.2708,
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
       "sources": [
         {
           "url": "https://www.aljazeera.com/news/2026/3/18/iran-fires-missiles-drones-across-gulf-region-remains-in-war-crosshairs?traffic_source=rss",
@@ -168,7 +168,7 @@
       "id": "e5c1ed62dec0",
       "datetime": "2026-03-17T05:59:21Z",
       "type": "impact_minor",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "city",
       "title": "Interception debris kills 1 in Abu Dhabi; 2,000 total projectiles",
       "location": "Abu Dhabi",
