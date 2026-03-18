@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-18T08:31:24Z",
+  "last_updated": "2026-03-18T08:41:40Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -8,7 +8,7 @@
       "type": "interception",
       "confirmed": true,
       "precision": "country",
-      "title": "UAE air defences intercept Iranian salvo; blasts across Gulf",
+      "title": "UAE air defences intercept Iranian missile and drone salvo",
       "location": "UAE",
       "lat": null,
       "lon": null,
@@ -24,7 +24,9 @@
           "tier": "local"
         }
       ],
-      "preview_image": "https://www.aljazeera.com/wp-content/uploads/2026/03/AFP__20260301__99EA3NK__v1__MidRes__QatarIranIsraelUsConflict-1773709210.jpg?resize=1799%2C1080"
+      "preview_image": "https://www.aljazeera.com/wp-content/uploads/2026/03/AFP__20260301__99EA3NK__v1__MidRes__QatarIranIsraelUsConflict-1773709210.jpg?resize=1799%2C1080",
+      "confidence": "high",
+      "_via": "rss"
     },
     {
       "id": "2a343a96edee",
@@ -32,7 +34,7 @@
       "type": "interception",
       "confirmed": true,
       "precision": "country",
-      "title": "UAE, Saudi Arabia intercept drones and missiles amid Iran attacks",
+      "title": "UAE and Saudi Arabia intercept Iranian drones and missiles",
       "location": "UAE",
       "lat": null,
       "lon": null,
@@ -48,7 +50,9 @@
           "tier": "wire"
         }
       ],
-      "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/Untitled_2.jpg"
+      "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/Untitled_2.jpg",
+      "confidence": "high",
+      "_via": "rss"
     },
     {
       "id": "a0b074ce7c11",
@@ -81,7 +85,9 @@
           "domain": "bbc.com",
           "tier": "wire"
         }
-      ]
+      ],
+      "confidence": "high",
+      "_via": "rss"
     },
     {
       "id": "ca31fc8fa365",
@@ -99,7 +105,9 @@
           "domain": "aljazeera.com",
           "tier": "wire"
         }
-      ]
+      ],
+      "confidence": "high",
+      "_via": "rss"
     },
     {
       "id": "d2955975b863",
@@ -107,7 +115,7 @@
       "type": "interception",
       "confirmed": true,
       "precision": "country",
-      "title": "UAE air defences engage Iranian missile/drone salvo",
+      "title": "UAE air defences engage Iranian missile and drone salvo",
       "location": "UAE",
       "lat": null,
       "lon": null,
@@ -122,7 +130,9 @@
           "domain": "aljazeera.com",
           "tier": "wire"
         }
-      ]
+      ],
+      "confidence": "high",
+      "_via": "rss"
     },
     {
       "id": "a95d0f031002",
@@ -145,7 +155,9 @@
           "domain": "apnews.com",
           "tier": "wire"
         }
-      ]
+      ],
+      "confidence": "high",
+      "_via": "rss"
     },
     {
       "id": "780a01b87f72",
