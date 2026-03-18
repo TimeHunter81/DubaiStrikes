@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-18T05:52:53Z",
+  "last_updated": "2026-03-18T06:03:22Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -24,8 +24,7 @@
           "tier": "wire"
         }
       ],
-      "_via": "rss",
-      "confidence": "high"
+      "_via": "rss"
     },
     {
       "id": "a0b074ce7c11",
@@ -33,7 +32,7 @@
       "type": "interception",
       "confirmed": true,
       "precision": "country",
-      "title": "UAE emergency alert: active missile threat, air defences engaging",
+      "title": "UAE emergency alert: air defences engaging active missile threat",
       "location": "UAE",
       "lat": null,
       "lon": null,
@@ -49,8 +48,7 @@
           "tier": "wire"
         }
       ],
-      "_via": "rss",
-      "confidence": "high"
+      "_via": "rss"
     },
     {
       "id": "ca31fc8fa365",
@@ -58,7 +56,7 @@
       "type": "impact_minor",
       "confirmed": true,
       "precision": "city",
-      "title": "Burning debris showers Dubai after missile interceptions",
+      "title": "Burning interception debris showers Dubai",
       "location": "Dubai",
       "lat": 25.2048,
       "lon": 55.2708,
@@ -69,8 +67,7 @@
           "tier": "wire"
         }
       ],
-      "_via": "rss",
-      "confidence": "medium"
+      "_via": "rss"
     },
     {
       "id": "d2955975b863",
@@ -94,8 +91,7 @@
           "tier": "wire"
         }
       ],
-      "_via": "rss",
-      "confidence": "high"
+      "_via": "rss"
     },
     {
       "id": "a95d0f031002",
@@ -119,8 +115,7 @@
           "tier": "wire"
         }
       ],
-      "_via": "rss",
-      "confidence": "high"
+      "_via": "rss"
     },
     {
       "id": "e965c0896f64",
@@ -144,8 +139,7 @@
           "tier": "wire"
         }
       ],
-      "_via": "rss",
-      "confidence": "high"
+      "_via": "rss"
     },
     {
       "id": "780a01b87f72",
