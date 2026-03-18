@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-18T05:26:00Z",
+  "last_updated": "2026-03-18T05:27:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -8,7 +8,7 @@
       "type": "interception",
       "confirmed": true,
       "precision": "country",
-      "title": "UAE, Saudi Arabia intercept drones and missiles amid Iran attacks",
+      "title": "UAE and Saudi Arabia intercept Iranian drones and missiles",
       "location": "UAE",
       "lat": null,
       "lon": null,
@@ -141,26 +141,6 @@
         {
           "url": "https://www.reuters.com/world/middle-east/fire-abu-dhabi-shah-oil-field-caused-by-drone-attack-abu-dhabi-media-office-says-2026-03-16/",
           "domain": "reuters.com",
-          "tier": "wire"
-        }
-      ],
-      "_via": "rss",
-      "confidence": "high"
-    },
-    {
-      "id": "25f2eb99d3ec",
-      "datetime": "2026-03-17T06:35:15Z",
-      "type": "impact_minor",
-      "confirmed": true,
-      "precision": "city",
-      "title": "Iranian drone sparks fire at Fujairah oil storage hub",
-      "location": "Fujairah",
-      "lat": 25.1288,
-      "lon": 56.3264,
-      "sources": [
-        {
-          "url": "https://www.aljazeera.com/news/2026/3/17/drone-sparks-fire-at-uae-oil-site-as-gulf-takes-more-hits-amid-iran-war?traffic_source=rss",
-          "domain": "aljazeera.com",
           "tier": "wire"
         }
       ],
