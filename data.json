@@ -1,34 +1,7 @@
 {
-  "last_updated": "2026-03-18T18:10:00Z",
+  "last_updated": "2026-03-18T18:20:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
-    {
-      "id": "e902d32170f8",
-      "datetime": "2026-03-18T09:32:34Z",
-      "type": "impact_minor",
-      "confirmed": true,
-      "precision": "city",
-      "title": "Palestinian woman killed by missile debris in Abu Dhabi",
-      "location": "Abu Dhabi",
-      "lat": 24.4539,
-      "lon": 54.3773,
-      "sources": [
-        {
-          "url": "https://www.thenationalnews.com/news/uae/2026/03/18/funeral-takes-place-for-palestinian-woman-killed-by-missile-attack-in-abu-dhabi/",
-          "domain": "thenationalnews.com",
-          "tier": "local"
-        },
-        {
-          "url": "https://www.aljazeera.com/news/2026/3/16/drone-strike-disrupts-dubai-flights-as-iran-continues-gulf-attacks",
-          "domain": "aljazeera.com",
-          "tier": "wire"
-        }
-      ],
-      "snippet": null,
-      "preview_image": "https://www.thenationalnews.com/resizer/v2/EVK4VENPGRAAXEU5OI6TQZ3ENQ.jpg?smart=true&auth=bea671afea2eb3e05578e18e0d6e05f8ffb97530d1e5cbc4d236693783fcc47a&width=1200&height=630",
-      "_via": "rss",
-      "confidence": "high"
-    },
     {
       "id": "a0b074ce7c11",
       "datetime": "2026-03-18T02:00:00Z",
@@ -68,6 +41,33 @@
       ],
       "confidence": "high",
       "_via": "rss"
+    },
+    {
+      "id": "e902d32170f8",
+      "datetime": "2026-03-16T00:00:00Z",
+      "type": "impact_minor",
+      "confirmed": true,
+      "precision": "city",
+      "title": "Civilian killed by Iranian missile debris in Abu Dhabi",
+      "location": "Abu Dhabi",
+      "lat": 24.4539,
+      "lon": 54.3773,
+      "sources": [
+        {
+          "url": "https://www.thenationalnews.com/news/uae/2026/03/18/funeral-takes-place-for-palestinian-woman-killed-by-missile-attack-in-abu-dhabi/",
+          "domain": "thenationalnews.com",
+          "tier": "local"
+        },
+        {
+          "url": "https://www.aljazeera.com/news/2026/3/16/drone-strike-disrupts-dubai-flights-as-iran-continues-gulf-attacks",
+          "domain": "aljazeera.com",
+          "tier": "wire"
+        }
+      ],
+      "snippet": null,
+      "preview_image": "https://www.thenationalnews.com/resizer/v2/EVK4VENPGRAAXEU5OI6TQZ3ENQ.jpg?smart=true&auth=bea671afea2eb3e05578e18e0d6e05f8ffb97530d1e5cbc4d236693783fcc47a&width=1200&height=630",
+      "_via": "rss",
+      "confidence": "high"
     },
     {
       "id": "780a01b87f72",
