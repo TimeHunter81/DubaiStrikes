@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-18T07:13:00Z",
+  "last_updated": "2026-03-18T07:23:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -8,7 +8,7 @@
       "type": "interception",
       "confirmed": true,
       "precision": "city",
-      "title": "UAE air defences intercept Iranian salvo; blasts reported across Gulf",
+      "title": "UAE air defences intercept Iranian salvo; blasts across Gulf",
       "location": "Dubai",
       "lat": 25.2048,
       "lon": 55.2708,
@@ -183,7 +183,7 @@
       ],
       "preview_image": "https://www.thenationalnews.com/resizer/v2/ZLTN4MFEGWDDY77TEQMZ6YKSL4.jpg?smart=true&auth=c53f8fb42ee684cafdf3d43dffb274e7a5982864e3009f7a9ca6119610f601d8&width=1200&height=630",
       "_via": "rss",
-      "confidence": "low",
+      "confidence": "high",
       "_search_count": 1,
       "_next_search_at": 1773736207.0
     },
@@ -191,7 +191,7 @@
       "id": "e5c1ed62dec0",
       "datetime": "2026-03-17T05:59:21Z",
       "type": "impact_minor",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "city",
       "title": "Interception debris kills 1 in Abu Dhabi; 2,000 total projectiles",
       "location": "Abu Dhabi",
