@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-18T09:57:00Z",
+  "last_updated": "2026-03-18T10:07:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -29,7 +29,6 @@
           "tier": "local"
         }
       ],
-      "preview_image": "https://www.aljazeera.com/wp-content/uploads/2026/03/AFP__20260301__99EA3NK__v1__MidRes__QatarIranIsraelUsConflict-1773709210.jpg?resize=1799%2C1080",
       "confidence": "high",
       "_via": "rss"
     },
