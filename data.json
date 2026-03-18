@@ -311,7 +311,7 @@
       "id": "e902d32170f8",
       "datetime": "2026-03-18T09:32:34Z",
       "type": "impact_major",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "Palestinian woman killed by falling missile in Abu Dhabi",
       "location": "Abu Dhabi",
@@ -327,7 +327,9 @@
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/EVK4VENPGRAAXEU5OI6TQZ3ENQ.jpg?smart=true&amp;auth=bea671afea2eb3e05578e18e0d6e05f8ffb97530d1e5cbc4d236693783fcc47a&amp;width=1200&amp;height=630",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1773829954.0
     }
   ]
 }
