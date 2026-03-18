@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-18T02:26:00Z",
+  "last_updated": "2026-03-18T02:39:19Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -22,7 +22,7 @@
       "snippet": "Witness videos captured missile interceptors launching and burning debris raining from the sky in Dubai.",
       "preview_image": "https://www.aljazeera.com/wp-content/uploads/2026/03/dubai_missile_interceptions_18_mar_2026-1773794857.jpg?resize=1920%2C1080&quality=80",
       "_via": "rss",
-      "confidence": "high"
+      "confidence": "medium"
     },
     {
       "id": "d2955975b863",
