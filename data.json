@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-18T13:09:00Z",
+  "last_updated": "2026-03-18T13:19:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -33,7 +33,7 @@
       "type": "interception",
       "confirmed": true,
       "precision": "country",
-      "title": "UAE downs 13 ballistic missiles, 27 UAVs on March 18",
+      "title": "UAE downs 13 ballistic missiles, 27 UAVs — Mar 18",
       "location": "UAE",
       "lat": null,
       "lon": null,
