@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-18T23:10:22Z",
+  "last_updated": "2026-03-18T23:17:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -8,7 +8,7 @@
       "type": "impact_minor",
       "confirmed": true,
       "precision": "city",
-      "title": "Abu Dhabi: 2 debris incidents — 1 killed, Habshan facilities shut",
+      "title": "Abu Dhabi: debris from intercepted missile — 1 killed, Habshan shut",
       "location": "Abu Dhabi",
       "lat": 24.4539,
       "lon": 54.3773,
@@ -34,12 +34,10 @@
           "tier": "wire"
         }
       ],
-      "snippet": null,
+      "snippet": "One person killed as debris falls from intercepted Iranian missile; UAE suspends operations at Habshan gas facilities.",
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-18%2Fj01yvlmt%2FBreaking-NEWS-GN.jpeg?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
       "_via": "rss",
-      "confidence": "high",
-      "_search_count": 2,
-      "_next_search_at": 1773893392.0
+      "confidence": "high"
     },
     {
       "id": "780a01b87f72",
