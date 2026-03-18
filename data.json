@@ -1,7 +1,27 @@
 {
-  "last_updated": "2026-03-18T04:11:19Z",
+  "last_updated": "2026-03-18T04:20:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
+    {
+      "id": "2a343a96edee",
+      "datetime": "2026-03-18T04:13:21Z",
+      "type": "interception",
+      "confirmed": false,
+      "precision": "country",
+      "title": "UAE, Saudi Arabia intercept drones and missiles amid Iran attacks",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/uae-saudi-arabia-intercept-drones-and-missiles-amid-iran-attacks",
+          "domain": "middleeasteye.net",
+          "tier": "local"
+        }
+      ],
+      "_via": "rss",
+      "confidence": "low"
+    },
     {
       "id": "a0b074ce7c11",
       "datetime": "2026-03-18T02:52:10Z",
@@ -44,7 +64,6 @@
           "tier": "wire"
         }
       ],
-      "snippet": "Witness videos captured missile interceptors launching and burning debris raining from the sky in Dubai.",
       "preview_image": "https://www.aljazeera.com/wp-content/uploads/2026/03/dubai_missile_interceptions_18_mar_2026-1773794857.jpg?resize=1920%2C1080&quality=80",
       "_via": "rss",
       "confidence": "medium"
