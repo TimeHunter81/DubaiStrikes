@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-18T08:06:00Z",
+  "last_updated": "2026-03-18T08:20:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -28,6 +28,28 @@
       "preview_image": "https://www.aljazeera.com/wp-content/uploads/2026/03/AFP__20260301__99EA3NK__v1__MidRes__QatarIranIsraelUsConflict-1773709210.jpg?resize=1799%2C1080",
       "_via": "rss",
       "confidence": "high"
+    },
+    {
+      "id": "2a343a96edee",
+      "datetime": "2026-03-18T04:13:21Z",
+      "type": "interception",
+      "confirmed": false,
+      "precision": "country",
+      "title": "UAE, Saudi Arabia intercept drones and missiles amid Iran attacks",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/uae-saudi-arabia-intercept-drones-and-missiles-amid-iran-attacks",
+          "domain": "middleeasteye.net",
+          "tier": "local"
+        }
+      ],
+      "snippet": null,
+      "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/Untitled_2.jpg",
+      "_via": "rss",
+      "confidence": "low"
     },
     {
       "id": "a0b074ce7c11",
@@ -135,57 +157,6 @@
       "confidence": "high",
       "_search_count": 1,
       "_next_search_at": 1773736207.0
-    },
-    {
-      "id": "e965c0896f64",
-      "datetime": "2026-03-17T07:30:07Z",
-      "type": "impact_major",
-      "confirmed": true,
-      "precision": "city",
-      "title": "Drone attack forces Abu Dhabi Shah gas plant to halt operations",
-      "location": "Abu Dhabi",
-      "lat": 24.4539,
-      "lon": 54.3773,
-      "sources": [
-        {
-          "url": "https://www.thenationalnews.com/business/2026/03/17/abu-dhabi-oil-gas-drone-attack-iran/",
-          "domain": "thenationalnews.com",
-          "tier": "local"
-        },
-        {
-          "url": "https://www.reuters.com/business/energy/operations-uaes-shah-gas-field-suspended-after-drone-attack-media-office-says-2026-03-16/",
-          "domain": "reuters.com",
-          "tier": "wire"
-        }
-      ],
-      "preview_image": "https://www.thenationalnews.com/resizer/v2/ZLTN4MFEGWDDY77TEQMZ6YKSL4.jpg?smart=true&auth=c53f8fb42ee684cafdf3d43dffb274e7a5982864e3009f7a9ca6119610f601d8&width=1200&height=630",
-      "_via": "rss",
-      "confidence": "high",
-      "_search_count": 1,
-      "_next_search_at": 1773736207.0
-    },
-    {
-      "id": "e5c1ed62dec0",
-      "datetime": "2026-03-17T05:59:21Z",
-      "type": "impact_minor",
-      "confirmed": true,
-      "precision": "city",
-      "title": "Interception debris kills 1 in Abu Dhabi; 2,000 total projectiles",
-      "location": "Abu Dhabi",
-      "lat": 24.4539,
-      "lon": 54.3773,
-      "sources": [
-        {
-          "url": "https://www.thenationalnews.com/news/uae/2026/03/17/one-person-killed-as-debris-falls-from-intercepted-iranian-missile-in-abu-dhabi/",
-          "domain": "thenationalnews.com",
-          "tier": "local"
-        }
-      ],
-      "preview_image": "https://www.thenationalnews.com/resizer/v2/JHGCX7UZWFCLTD6Y7PQ2F6IH6I.jpg?smart=true&auth=99cc8c5b54ea3cbde7427dc480a32ed7bfdeea12c710db89ab1b83e54db2a121&width=1200&height=630",
-      "_via": "rss",
-      "confidence": "low",
-      "_search_count": 3,
-      "_next_search_at": 1773813561.0
     },
     {
       "id": "780a01b87f72",
