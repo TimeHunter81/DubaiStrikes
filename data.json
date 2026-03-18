@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-18T03:58:00Z",
+  "last_updated": "2026-03-18T04:11:19Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -8,7 +8,7 @@
       "type": "security_alert",
       "confirmed": true,
       "precision": "country",
-      "title": "UAE residents receive emergency alert over missile threat",
+      "title": "UAE emergency alert: active missile threat, air defences engaging",
       "location": "UAE",
       "lat": null,
       "lon": null,
@@ -25,9 +25,7 @@
         }
       ],
       "_via": "rss",
-      "confidence": "medium",
-      "_search_count": 2,
-      "_next_search_at": 1773823930.0
+      "confidence": "medium"
     },
     {
       "id": "ca31fc8fa365",
