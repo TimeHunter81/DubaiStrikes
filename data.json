@@ -1,66 +1,14 @@
 {
-  "last_updated": "2026-03-18T11:41:46Z",
+  "last_updated": "2026-03-18T11:52:17Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
-    {
-      "id": "e902d32170f8",
-      "datetime": "2026-03-18T09:32:34Z",
-      "type": "impact_minor",
-      "confirmed": true,
-      "precision": "city",
-      "title": "Palestinian woman killed by falling missile in Abu Dhabi",
-      "location": "Abu Dhabi",
-      "lat": 24.4539,
-      "lon": 54.3773,
-      "sources": [
-        {
-          "url": "https://www.thenationalnews.com/news/uae/2026/03/18/funeral-takes-place-for-palestinian-woman-killed-by-missile-attack-in-abu-dhabi/",
-          "domain": "thenationalnews.com",
-          "tier": "local"
-        }
-      ],
-      "_via": "rss",
-      "confidence": "low",
-      "_search_count": 1,
-      "_next_search_at": 1773829954.0
-    },
-    {
-      "id": "3038ae61bbae",
-      "datetime": "2026-03-18T05:49:45Z",
-      "type": "interception",
-      "confirmed": true,
-      "precision": "country",
-      "title": "UAE air defences intercept Iranian missile and drone salvo",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.aljazeera.com/news/2026/3/18/iran-fires-missiles-drones-across-gulf-region-remains-in-war-crosshairs?traffic_source=rss",
-          "domain": "aljazeera.com",
-          "tier": "wire"
-        },
-        {
-          "url": "https://gulfnews.com/uae/dubai-confirms-success-of-air-defence-interceptions-1.500478320",
-          "domain": "gulfnews.com",
-          "tier": "local"
-        },
-        {
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/uae-saudi-arabia-intercept-drones-and-missiles-amid-iran-attacks",
-          "domain": "middleeasteye.net",
-          "tier": "local"
-        }
-      ],
-      "confidence": "high",
-      "_via": "rss"
-    },
     {
       "id": "a0b074ce7c11",
       "datetime": "2026-03-18T02:52:10Z",
       "type": "interception",
       "confirmed": true,
       "precision": "country",
-      "title": "UAE emergency alert: air defences engage active missile threat",
+      "title": "UAE downs 13 ballistic missiles, 27 UAVs on March 18",
       "location": "UAE",
       "lat": null,
       "lon": null,
@@ -83,6 +31,11 @@
         {
           "url": "https://www.bbc.com/audio/play/w172zssmfxcrtjw",
           "domain": "bbc.com",
+          "tier": "wire"
+        },
+        {
+          "url": "https://www.aljazeera.com/news/2026/3/18/iran-fires-missiles-drones-across-gulf-region-remains-in-war-crosshairs?traffic_source=rss",
+          "domain": "aljazeera.com",
           "tier": "wire"
         }
       ],
@@ -115,7 +68,7 @@
       "type": "impact_minor",
       "confirmed": true,
       "precision": "country",
-      "title": "Drone strikes UAE oil facility — fire reported; air defences intercept salvo",
+      "title": "Drone strikes UAE oil facility — fire reported",
       "location": "UAE",
       "lat": null,
       "lon": null,
