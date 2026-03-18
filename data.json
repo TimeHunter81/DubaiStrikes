@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-18T04:20:00Z",
+  "last_updated": "2026-03-18T04:31:12Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -25,9 +25,7 @@
         }
       ],
       "_via": "rss",
-      "confidence": "low",
-      "_search_count": 1,
-      "_next_search_at": 1773810801.0
+      "confidence": "high"
     },
     {
       "id": "a0b074ce7c11",
@@ -52,7 +50,7 @@
         }
       ],
       "_via": "rss",
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "ca31fc8fa365",
@@ -163,41 +161,6 @@
       "sources": [
         {
           "url": "https://www.aljazeera.com/news/2026/3/17/drone-sparks-fire-at-uae-oil-site-as-gulf-takes-more-hits-amid-iran-war?traffic_source=rss",
-          "domain": "aljazeera.com",
-          "tier": "wire"
-        }
-      ],
-      "_via": "rss",
-      "confidence": "high"
-    },
-    {
-      "id": "c307357ef40b",
-      "datetime": "2026-03-17T05:47:43Z",
-      "type": "impact_major",
-      "confirmed": true,
-      "precision": "city",
-      "title": "Interception debris kills 1 in Abu Dhabi",
-      "location": "Abu Dhabi",
-      "lat": 24.4539,
-      "lon": 54.3773,
-      "sources": [
-        {
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/one-killed-falling-debris-intercepted-missile-abu-dhabi",
-          "domain": "middleeasteye.net",
-          "tier": "local"
-        },
-        {
-          "url": "https://www.thenationalnews.com/news/uae/2026/03/17/one-person-killed-as-debris-falls-from-intercepted-iranian-missile-in-abu-dhabi/",
-          "domain": "thenationalnews.com",
-          "tier": "local"
-        },
-        {
-          "url": "https://gulfnews.com/uae/one-killed-in-abu-dhabi-as-shrapnel-falls-after-missile-intercept-1.500477034",
-          "domain": "gulfnews.com",
-          "tier": "local"
-        },
-        {
-          "url": "https://www.aljazeera.com/amp/news/2026/3/16/drone-strike-disrupts-dubai-flights-as-iran-continues-gulf-attacks",
           "domain": "aljazeera.com",
           "tier": "wire"
         }
