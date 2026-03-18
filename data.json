@@ -1,14 +1,36 @@
 {
-  "last_updated": "2026-03-18T01:15:00Z",
+  "last_updated": "2026-03-18T01:27:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
+    {
+      "id": "ca31fc8fa365",
+      "datetime": "2026-03-18T00:50:54Z",
+      "type": "impact_minor",
+      "confirmed": true,
+      "precision": "city",
+      "title": "Interception debris showers Dubai — witness videos",
+      "location": "Dubai",
+      "lat": 25.2048,
+      "lon": 55.2708,
+      "sources": [
+        {
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/3/18/burning-debris-from-missile-interceptions-showers-dubai?traffic_source=rss",
+          "domain": "aljazeera.com",
+          "tier": "wire"
+        }
+      ],
+      "snippet": "Witness videos captured missile interceptors launching and burning debris raining from the sky in Dubai.",
+      "preview_image": "https://www.aljazeera.com/wp-content/uploads/2026/03/dubai_missile_interceptions_18_mar_2026-1773794857.jpg?resize=1920%2C1080&amp;quality=80",
+      "_via": "rss",
+      "confidence": "medium"
+    },
     {
       "id": "d2955975b863",
       "datetime": "2026-03-17T22:07:12Z",
       "type": "interception",
       "confirmed": true,
       "precision": "country",
-      "title": "UAE air defences respond to new Iranian missile/drone salvo",
+      "title": "UAE air defences respond to Iranian missile/drone salvo",
       "location": "UAE",
       "lat": null,
       "lon": null,
@@ -33,7 +55,7 @@
       "type": "interception",
       "confirmed": true,
       "precision": "country",
-      "title": "UAE air defences intercept 10 missiles and 45 drones",
+      "title": "UAE intercepts 10 missiles and 45 drones — official count",
       "location": "UAE",
       "lat": null,
       "lon": null,
@@ -58,7 +80,7 @@
       "type": "impact_minor",
       "confirmed": true,
       "precision": "city",
-      "title": "Drone attack halts operations at Abu Dhabi Shah gas plant",
+      "title": "Drone hits Abu Dhabi Shah gas plant — operations halted",
       "location": "Abu Dhabi",
       "lat": 24.4539,
       "lon": 54.3773,
@@ -83,7 +105,7 @@
       "type": "impact_minor",
       "confirmed": true,
       "precision": "city",
-      "title": "Iranian drone sparks fire at Fujairah oil hub",
+      "title": "Iranian drone sparks fire at Fujairah oil storage hub",
       "location": "Fujairah",
       "lat": 25.1288,
       "lon": 56.3264,
