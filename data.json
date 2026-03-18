@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-18T07:23:00Z",
+  "last_updated": "2026-03-18T07:35:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -26,31 +26,6 @@
       ],
       "snippet": "Qatar, UAE, Kuwait and Saudi Arabia report new blasts, interceptions, with war edging to 3-week mark.",
       "preview_image": "https://www.aljazeera.com/wp-content/uploads/2026/03/AFP__20260301__99EA3NK__v1__MidRes__QatarIranIsraelUsConflict-1773709210.jpg?resize=1799%2C1080",
-      "_via": "rss",
-      "confidence": "high"
-    },
-    {
-      "id": "2a343a96edee",
-      "datetime": "2026-03-18T04:13:21Z",
-      "type": "interception",
-      "confirmed": true,
-      "precision": "country",
-      "title": "UAE, Saudi Arabia intercept Iranian drones and missiles",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/uae-saudi-arabia-intercept-drones-and-missiles-amid-iran-attacks",
-          "domain": "middleeasteye.net",
-          "tier": "local"
-        },
-        {
-          "url": "https://www.politico.com/news/2026/03/15/gulf-arab-states-intercept-new-missiles-and-drones-as-iran-threatens-to-widen-war-00829221",
-          "domain": "politico.com",
-          "tier": "wire"
-        }
-      ],
       "_via": "rss",
       "confidence": "high"
     },
@@ -157,7 +132,9 @@
         }
       ],
       "_via": "rss",
-      "confidence": "high"
+      "confidence": "high",
+      "_search_count": 1,
+      "_next_search_at": 1773736207.0
     },
     {
       "id": "e965c0896f64",
