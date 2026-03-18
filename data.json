@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-17T23:54:00Z",
+  "last_updated": "2026-03-18T00:05:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -74,10 +74,8 @@
           "tier": "wire"
         }
       ],
-      "snippet": null,
-      "preview_image": "https://www.thenationalnews.com/resizer/v2/ZLTN4MFEGWDDY77TEQMZ6YKSL4.jpg?smart=true&amp;auth=c53f8fb42ee684cafdf3d43dffb274e7a5982864e3009f7a9ca6119610f601d8&amp;width=1200&amp;height=630",
       "_via": "rss",
-      "confidence": "low",
+      "confidence": "high",
       "_search_count": 1,
       "_next_search_at": 1773736207.0
     },
@@ -161,36 +159,6 @@
           "url": "https://www.reutersconnect.com/item/a-damaged-building-in-difc-dubai-after-debris-from-a-successful-interception-caused-minor-damage-to-the-facade-amid-the-us-israeli-conflict-with-iran-in-dubai/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX1JDMkgzS0FERTJHRg",
           "domain": "reutersconnect.com",
           "tier": "wire"
-        }
-      ],
-      "_via": "rss",
-      "confidence": "high"
-    },
-    {
-      "id": "92eecd52878f",
-      "datetime": "2026-03-16T23:45:41Z",
-      "type": "interception",
-      "confirmed": true,
-      "precision": "city",
-      "title": "UAE intercepts missiles and drones over Dubai",
-      "location": "Dubai",
-      "lat": 25.2048,
-      "lon": 55.2708,
-      "sources": [
-        {
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/uae-closes-airspace-missile-and-drone-head-towards-country",
-          "domain": "middleeasteye.net",
-          "tier": "local"
-        },
-        {
-          "url": "https://www.reuters.com/world/middle-east/fire-breaks-out-vicinity-dubai-international-airport-after-drone-attack-dubai-2026-03-16/",
-          "domain": "reuters.com",
-          "tier": "wire"
-        },
-        {
-          "url": "https://gulfnews.com/uae/uae-temporarily-closes-its-airspace-to-ensure-safety-security-1.500476853",
-          "domain": "gulfnews.com",
-          "tier": "local"
         }
       ],
       "_via": "rss",
