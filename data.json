@@ -6,7 +6,7 @@
       "id": "a0b074ce7c11",
       "datetime": "2026-03-18T02:52:10Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "UAE residents get emergency alert over missile threat",
       "location": "UAE",
@@ -22,7 +22,9 @@
       "snippet": null,
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-17%2Fqejtwpyv%2FUAE-EMERGENCY-ALERT-STOCK?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1773805930.0
     },
     {
       "id": "ca31fc8fa365",
