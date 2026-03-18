@@ -1,30 +1,26 @@
 {
-  "last_updated": "2026-03-18T06:03:22Z",
+  "last_updated": "2026-03-18T06:12:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
-      "id": "2a343a96edee",
-      "datetime": "2026-03-18T04:13:21Z",
-      "type": "interception",
+      "id": "ca31fc8fa365",
+      "datetime": "2026-03-18T00:50:54Z",
+      "type": "impact_minor",
       "confirmed": true,
-      "precision": "country",
-      "title": "UAE and Saudi Arabia intercept Iranian drones and missiles",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
+      "precision": "city",
+      "title": "Burning interception debris showers Dubai",
+      "location": "Dubai",
+      "lat": 25.2048,
+      "lon": 55.2708,
       "sources": [
         {
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/uae-saudi-arabia-intercept-drones-and-missiles-amid-iran-attacks",
-          "domain": "middleeasteye.net",
-          "tier": "local"
-        },
-        {
-          "url": "https://www.bbc.com/audio/play/w172zssmfxcrtjw",
-          "domain": "bbc.com",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/3/18/burning-debris-from-missile-interceptions-showers-dubai?traffic_source=rss",
+          "domain": "aljazeera.com",
           "tier": "wire"
         }
       ],
-      "_via": "rss"
+      "_via": "rss",
+      "confidence": "medium"
     },
     {
       "id": "a0b074ce7c11",
@@ -46,76 +42,20 @@
           "url": "https://www.reuters.com/world/middle-east/uae-temporarily-closes-its-airspace-an-exceptional-precautionary-measure-2026-03-17/",
           "domain": "reuters.com",
           "tier": "wire"
-        }
-      ],
-      "_via": "rss"
-    },
-    {
-      "id": "ca31fc8fa365",
-      "datetime": "2026-03-18T00:50:54Z",
-      "type": "impact_minor",
-      "confirmed": true,
-      "precision": "city",
-      "title": "Burning interception debris showers Dubai",
-      "location": "Dubai",
-      "lat": 25.2048,
-      "lon": 55.2708,
-      "sources": [
+        },
         {
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/3/18/burning-debris-from-missile-interceptions-showers-dubai?traffic_source=rss",
-          "domain": "aljazeera.com",
-          "tier": "wire"
-        }
-      ],
-      "_via": "rss"
-    },
-    {
-      "id": "d2955975b863",
-      "datetime": "2026-03-17T22:07:12Z",
-      "type": "interception",
-      "confirmed": true,
-      "precision": "country",
-      "title": "UAE air defences engage Iranian missile/drone salvo",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://gulfnews.com/uae/uae-air-defences-currently-responding-to-iran-missile-drone-threats-1.500478038",
-          "domain": "gulfnews.com",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/uae-saudi-arabia-intercept-drones-and-missiles-amid-iran-attacks",
+          "domain": "middleeasteye.net",
           "tier": "local"
         },
         {
-          "url": "https://www.aljazeera.com/news/2026/3/17/drone-sparks-fire-at-uae-oil-site-as-gulf-takes-more-hits-amid-iran-war",
-          "domain": "aljazeera.com",
+          "url": "https://www.bbc.com/audio/play/w172zssmfxcrtjw",
+          "domain": "bbc.com",
           "tier": "wire"
         }
       ],
-      "_via": "rss"
-    },
-    {
-      "id": "a95d0f031002",
-      "datetime": "2026-03-17T11:51:09Z",
-      "type": "interception",
-      "confirmed": true,
-      "precision": "country",
-      "title": "UAE intercepts 10 ballistic missiles and 45 drones — official count",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://gulfnews.com/uae/uae-air-defences-intercept-10-ballistic-missiles-and-45-drones-on-tuesday-1.500477481",
-          "domain": "gulfnews.com",
-          "tier": "local"
-        },
-        {
-          "url": "https://apnews.com/live/iran-war-israel-trump-03-17-2026",
-          "domain": "apnews.com",
-          "tier": "wire"
-        }
-      ],
-      "_via": "rss"
+      "_via": "rss",
+      "confidence": "high"
     },
     {
       "id": "e965c0896f64",
@@ -139,7 +79,58 @@
           "tier": "wire"
         }
       ],
-      "_via": "rss"
+      "_via": "rss",
+      "confidence": "high"
+    },
+    {
+      "id": "a95d0f031002",
+      "datetime": "2026-03-17T11:51:09Z",
+      "type": "interception",
+      "confirmed": true,
+      "precision": "country",
+      "title": "UAE intercepts 10 ballistic missiles and 45 drones — official count",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://gulfnews.com/uae/uae-air-defences-intercept-10-ballistic-missiles-and-45-drones-on-tuesday-1.500477481",
+          "domain": "gulfnews.com",
+          "tier": "local"
+        },
+        {
+          "url": "https://apnews.com/live/iran-war-israel-trump-03-17-2026",
+          "domain": "apnews.com",
+          "tier": "wire"
+        }
+      ],
+      "_via": "rss",
+      "confidence": "high"
+    },
+    {
+      "id": "d2955975b863",
+      "datetime": "2026-03-17T22:07:12Z",
+      "type": "interception",
+      "confirmed": true,
+      "precision": "country",
+      "title": "UAE air defences engage Iranian missile/drone salvo",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://gulfnews.com/uae/uae-air-defences-currently-responding-to-iran-missile-drone-threats-1.500478038",
+          "domain": "gulfnews.com",
+          "tier": "local"
+        },
+        {
+          "url": "https://www.aljazeera.com/news/2026/3/17/drone-sparks-fire-at-uae-oil-site-as-gulf-takes-more-hits-amid-iran-war",
+          "domain": "aljazeera.com",
+          "tier": "wire"
+        }
+      ],
+      "_via": "rss",
+      "confidence": "high"
     },
     {
       "id": "780a01b87f72",
