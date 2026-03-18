@@ -6,7 +6,7 @@
       "id": "e902d32170f8",
       "datetime": "2026-03-18T09:32:34Z",
       "type": "impact_minor",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "Palestinian woman killed by falling missile debris in Abu Dhabi",
       "location": "Abu Dhabi",
@@ -17,12 +17,19 @@
           "url": "https://www.thenationalnews.com/news/uae/2026/03/18/funeral-takes-place-for-palestinian-woman-killed-by-missile-attack-in-abu-dhabi/",
           "domain": "thenationalnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://www.aljazeera.com/news/2026/3/16/drone-strike-disrupts-dubai-flights-as-iran-continues-gulf-attacks",
+          "domain": "aljazeera.com",
+          "tier": "wire"
         }
       ],
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/EVK4VENPGRAAXEU5OI6TQZ3ENQ.jpg?smart=true&auth=bea671afea2eb3e05578e18e0d6e05f8ffb97530d1e5cbc4d236693783fcc47a&width=1200&height=630",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1773829954.0
     },
     {
       "id": "a0b074ce7c11",
