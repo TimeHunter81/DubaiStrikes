@@ -66,7 +66,7 @@
       "id": "e902d32170f8",
       "datetime": "2026-03-18T09:32:34Z",
       "type": "impact_minor",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "Palestinian woman killed by falling missile debris in Abu Dhabi",
       "location": "Abu Dhabi",
@@ -80,7 +80,9 @@
         }
       ],
       "confidence": "medium",
-      "_via": "rss"
+      "_via": "rss",
+      "_search_count": 1,
+      "_next_search_at": 1773829954.0
     },
     {
       "id": "d2955975b863",
