@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-18T09:47:00Z",
+  "last_updated": "2026-03-18T09:57:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -107,31 +107,6 @@
         {
           "url": "https://www.aljazeera.com/news/2026/3/17/drone-sparks-fire-at-uae-oil-site-as-gulf-takes-more-hits-amid-iran-war",
           "domain": "aljazeera.com",
-          "tier": "wire"
-        }
-      ],
-      "confidence": "high",
-      "_via": "rss"
-    },
-    {
-      "id": "a95d0f031002",
-      "datetime": "2026-03-17T11:51:09Z",
-      "type": "interception",
-      "confirmed": true,
-      "precision": "country",
-      "title": "UAE intercepts 10 ballistic missiles and 45 drones — official count",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://gulfnews.com/uae/uae-air-defences-intercept-10-ballistic-missiles-and-45-drones-on-tuesday-1.500477481",
-          "domain": "gulfnews.com",
-          "tier": "local"
-        },
-        {
-          "url": "https://apnews.com/live/iran-war-israel-trump-03-17-2026",
-          "domain": "apnews.com",
           "tier": "wire"
         }
       ],
