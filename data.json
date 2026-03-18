@@ -1,14 +1,14 @@
 {
-  "last_updated": "2026-03-18T00:16:24Z",
+  "last_updated": "2026-03-18T00:26:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
       "id": "d2955975b863",
       "datetime": "2026-03-17T22:07:12Z",
       "type": "interception",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "country",
-      "title": "UAE intercepts new Iranian missile/drone salvo",
+      "title": "UAE air defences respond to new Iranian missile/drone salvo",
       "location": "UAE",
       "lat": null,
       "lon": null,
@@ -17,15 +17,10 @@
           "url": "https://gulfnews.com/uae/uae-air-defences-currently-responding-to-iran-missile-drone-threats-1.500478038",
           "domain": "gulfnews.com",
           "tier": "local"
-        },
-        {
-          "url": "https://www.aljazeera.com/news/2026/3/17/drone-sparks-fire-at-uae-oil-site-as-gulf-takes-more-hits-amid-iran-war",
-          "domain": "aljazeera.com",
-          "tier": "wire"
         }
       ],
       "_via": "rss",
-      "confidence": "high"
+      "confidence": "medium"
     },
     {
       "id": "a95d0f031002",
