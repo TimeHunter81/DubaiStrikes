@@ -1,32 +1,7 @@
 {
-  "last_updated": "2026-03-19T11:38:00Z",
+  "last_updated": "2026-03-19T11:47:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
-    {
-      "id": "a4b4b70a60bb",
-      "datetime": "2026-03-19T04:49:41Z",
-      "type": "security_alert",
-      "confirmed": true,
-      "precision": "country",
-      "title": "US Embassy issues missile alert for Dubai and Abu Dhabi",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.thenationalnews.com/news/uae/2026/03/19/missile-warning-sent-to-residents-in-dubai-and-abu-dhabi-on-thursday-morning/",
-          "domain": "thenationalnews.com",
-          "tier": "local"
-        },
-        {
-          "url": "https://ae.usembassy.gov/security-alert-u-s-mission-to-the-united-arab-emirates-march-18-2026/",
-          "domain": "ae.usembassy.gov",
-          "tier": "wire"
-        }
-      ],
-      "confidence": "high",
-      "_via": "rss"
-    },
     {
       "id": "faed091a7ffe",
       "datetime": "2026-03-19T03:34:54Z",
@@ -57,6 +32,31 @@
           "url": "https://gulfnews.com/uae/uae-responds-to-incoming-missile-and-drone-threats-from-iran-1.500479474",
           "domain": "gulfnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://www.thenationalnews.com/news/uae/2026/03/19/missile-warning-sent-to-residents-in-dubai-and-abu-dhabi-on-thursday-morning/",
+          "domain": "thenationalnews.com",
+          "tier": "local"
+        }
+      ],
+      "confidence": "high",
+      "_via": "rss"
+    },
+    {
+      "id": "a4b4b70a60bb",
+      "datetime": "2026-03-19T04:49:41Z",
+      "type": "security_alert",
+      "confirmed": true,
+      "precision": "country",
+      "title": "US Embassy issues missile alert for Dubai and Abu Dhabi",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://ae.usembassy.gov/security-alert-u-s-mission-to-the-united-arab-emirates-march-18-2026/",
+          "domain": "ae.usembassy.gov",
+          "tier": "wire"
         },
         {
           "url": "https://www.thenationalnews.com/news/uae/2026/03/19/missile-warning-sent-to-residents-in-dubai-and-abu-dhabi-on-thursday-morning/",
