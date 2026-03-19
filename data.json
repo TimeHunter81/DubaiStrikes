@@ -1,7 +1,84 @@
 {
-  "last_updated": "2026-03-19T07:00:00Z",
+  "last_updated": "2026-03-19T07:09:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
+    {
+      "id": "a4b4b70a60bb",
+      "datetime": "2026-03-19T04:49:41Z",
+      "type": "security_alert",
+      "confirmed": true,
+      "precision": "country",
+      "title": "US Embassy issues missile warning for Dubai and Abu Dhabi",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.thenationalnews.com/news/uae/2026/03/19/missile-warning-sent-to-residents-in-dubai-and-abu-dhabi-on-thursday-morning/",
+          "domain": "thenationalnews.com",
+          "tier": "local"
+        },
+        {
+          "url": "https://ae.usembassy.gov/security-alert-u-s-mission-to-the-united-arab-emirates-march-18-2026/",
+          "domain": "ae.usembassy.gov",
+          "tier": "wire"
+        }
+      ],
+      "confidence": "high",
+      "_via": "rss"
+    },
+    {
+      "id": "faed091a7ffe",
+      "datetime": "2026-03-19T03:34:54Z",
+      "type": "interception",
+      "confirmed": true,
+      "precision": "country",
+      "title": "UAE air defences intercept Iranian attacks; residents told safe",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://gulfnews.com/uae/uae-responds-to-incoming-missile-and-drone-threats-from-iran-1.500479474",
+          "domain": "gulfnews.com",
+          "tier": "local"
+        },
+        {
+          "url": "https://www.bbc.com/news/articles/crl4gxgkkylo",
+          "domain": "bbc.com",
+          "tier": "wire"
+        }
+      ],
+      "confidence": "high",
+      "_via": "rss"
+    },
+    {
+      "id": "8b3dcc5af1af",
+      "datetime": "2026-03-19T02:00:00Z",
+      "type": "impact_major",
+      "confirmed": true,
+      "precision": "city",
+      "title": "Iranian airstrike kills civilian in Dubai",
+      "location": "Dubai",
+      "lat": 25.2048,
+      "lon": 55.2708,
+      "sources": [
+        {
+          "url": "https://www.thenationalnews.com/news/uae/2026/03/19/devoted-father-killed-in-iranian-air-strike-in-dubai-had-dreams-for-his-family/",
+          "domain": "thenationalnews.com",
+          "tier": "local"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/2026_Iranian_strikes_on_the_United_Arab_Emirates",
+          "domain": "en.wikipedia.org",
+          "tier": "wire"
+        }
+      ],
+      "confidence": "high",
+      "_via": "rss",
+      "_search_count": 1,
+      "_next_search_at": 1773889200.0
+    },
     {
       "id": "cd23afb5fde8",
       "datetime": "2026-03-19T00:15:53Z",
@@ -70,83 +147,6 @@
         }
       ],
       "snippet": "Debris from intercepted Iranian missile kills one person in Abu Dhabi; UAE suspends operations at Habshan gas facilities.",
-      "confidence": "high",
-      "_via": "rss"
-    },
-    {
-      "id": "8b3dcc5af1af",
-      "datetime": "2026-03-19T02:00:00Z",
-      "type": "impact_major",
-      "confirmed": true,
-      "precision": "city",
-      "title": "Iranian airstrike kills civilian in Dubai",
-      "location": "Dubai",
-      "lat": 25.2048,
-      "lon": 55.2708,
-      "sources": [
-        {
-          "url": "https://www.thenationalnews.com/news/uae/2026/03/19/devoted-father-killed-in-iranian-air-strike-in-dubai-had-dreams-for-his-family/",
-          "domain": "thenationalnews.com",
-          "tier": "local"
-        },
-        {
-          "url": "https://en.wikipedia.org/wiki/2026_Iranian_strikes_on_the_United_Arab_Emirates",
-          "domain": "en.wikipedia.org",
-          "tier": "wire"
-        }
-      ],
-      "confidence": "high",
-      "_via": "rss",
-      "_search_count": 1,
-      "_next_search_at": 1773889200.0
-    },
-    {
-      "id": "faed091a7ffe",
-      "datetime": "2026-03-19T03:34:54Z",
-      "type": "interception",
-      "confirmed": true,
-      "precision": "country",
-      "title": "UAE air defences intercept Iranian attacks; residents told safe",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://gulfnews.com/uae/uae-responds-to-incoming-missile-and-drone-threats-from-iran-1.500479474",
-          "domain": "gulfnews.com",
-          "tier": "local"
-        },
-        {
-          "url": "https://www.bbc.com/news/articles/crl4gxgkkylo",
-          "domain": "bbc.com",
-          "tier": "wire"
-        }
-      ],
-      "confidence": "high",
-      "_via": "rss"
-    },
-    {
-      "id": "a4b4b70a60bb",
-      "datetime": "2026-03-19T04:49:41Z",
-      "type": "security_alert",
-      "confirmed": true,
-      "precision": "country",
-      "title": "US Embassy issues missile warning for Dubai and Abu Dhabi",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.thenationalnews.com/news/uae/2026/03/19/missile-warning-sent-to-residents-in-dubai-and-abu-dhabi-on-thursday-morning/",
-          "domain": "thenationalnews.com",
-          "tier": "local"
-        },
-        {
-          "url": "https://ae.usembassy.gov/security-alert-u-s-mission-to-the-united-arab-emirates-march-18-2026/",
-          "domain": "ae.usembassy.gov",
-          "tier": "wire"
-        }
-      ],
       "confidence": "high",
       "_via": "rss"
     },
