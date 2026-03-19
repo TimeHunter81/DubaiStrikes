@@ -1,14 +1,14 @@
 {
-  "last_updated": "2026-03-19T02:22:00Z",
+  "last_updated": "2026-03-19T02:34:26Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
       "id": "8b3dcc5af1af",
       "datetime": "2026-03-19T02:00:01Z",
       "type": "impact_major",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "city",
-      "title": "Civilian killed in Iranian air strike in Dubai",
+      "title": "Civilian killed in Iranian strike in Dubai",
       "location": "Dubai",
       "lat": 25.2048,
       "lon": 55.2708,
@@ -27,7 +27,7 @@
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/VGD44SEFQJGSJCSRXBAMDGACRI.jpg?smart=true&auth=e0ea17cc3e847f65e405e30820ce3c9e9128193c59f5da698ca4310412626400&width=1200&height=630",
       "_via": "rss",
-      "confidence": "low",
+      "confidence": "high",
       "_search_count": 1,
       "_next_search_at": 1773889201.0
     },
@@ -71,7 +71,7 @@
       "type": "impact_major",
       "confirmed": true,
       "precision": "city",
-      "title": "Abu Dhabi: debris from intercepted missile kills 1, Habshan gas facility shut",
+      "title": "Abu Dhabi: intercepted missile debris kills 1, Habshan gas facility shut",
       "location": "Abu Dhabi",
       "lat": 24.4539,
       "lon": 54.3773,
