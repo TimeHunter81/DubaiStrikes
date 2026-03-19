@@ -30,7 +30,7 @@
       "id": "faed091a7ffe",
       "datetime": "2026-03-19T03:34:54Z",
       "type": "interception",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "UAE air defences intercept Iranian attacks, residents told safe",
       "location": "UAE",
@@ -41,12 +41,19 @@
           "url": "https://gulfnews.com/uae/uae-responds-to-incoming-missile-and-drone-threats-from-iran-1.500479474",
           "domain": "gulfnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://www.bbc.com/news/articles/crl4gxgkkylo",
+          "domain": "bbc.com",
+          "tier": "wire"
         }
       ],
       "snippet": null,
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-17%2Fqejtwpyv%2FUAE-EMERGENCY-ALERT-STOCK?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1773894894.0
     },
     {
       "id": "8b3dcc5af1af",
