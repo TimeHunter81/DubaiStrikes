@@ -84,7 +84,7 @@
       "id": "e902d32170f8",
       "datetime": "2026-03-18T09:32:34Z",
       "type": "impact_minor",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "Palestinian woman killed by missile debris in Abu Dhabi",
       "location": "Abu Dhabi",
@@ -101,8 +101,8 @@
       "preview_image": "https://www.thenationalnews.com/resizer/v2/EVK4VENPGRAAXEU5OI6TQZ3ENQ.jpg?smart=true&auth=bea671afea2eb3e05578e18e0d6e05f8ffb97530d1e5cbc4d236693783fcc47a&width=1200&height=630",
       "_via": "rss",
       "confidence": "low",
-      "_search_count": 1,
-      "_next_search_at": 1773829954.0
+      "_search_count": 2,
+      "_next_search_at": 1773847954.0
     },
     {
       "id": "780a01b87f72",
