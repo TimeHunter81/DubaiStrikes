@@ -47,7 +47,7 @@
       "id": "8b3dcc5af1af",
       "datetime": "2026-03-19T02:00:01Z",
       "type": "impact_major",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "Iranian air strike in Dubai kills resident",
       "location": "Dubai",
@@ -58,12 +58,19 @@
           "url": "https://www.thenationalnews.com/news/uae/2026/03/19/devoted-father-killed-in-iranian-air-strike-in-dubai-had-dreams-for-his-family/",
           "domain": "thenationalnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://www.bbc.com/news/live/ceqvwrydzpqt",
+          "domain": "bbc.com",
+          "tier": "wire"
         }
       ],
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/VGD44SEFQJGSJCSRXBAMDGACRI.jpg?smart=true&amp;auth=e0ea17cc3e847f65e405e30820ce3c9e9128193c59f5da698ca4310412626400&amp;width=1200&amp;height=630",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1773889201.0
     },
     {
       "id": "780a01b87f72",
