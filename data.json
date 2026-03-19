@@ -1,14 +1,36 @@
 {
-  "last_updated": "2026-03-19T04:56:38Z",
+  "last_updated": "2026-03-19T05:05:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
+    {
+      "id": "a4b4b70a60bb",
+      "datetime": "2026-03-19T04:49:41Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "city",
+      "title": "Missile warning issued to Dubai and Abu Dhabi residents",
+      "location": "Dubai / Abu Dhabi",
+      "lat": 24.4539,
+      "lon": 54.3773,
+      "sources": [
+        {
+          "url": "https://www.thenationalnews.com/news/uae/2026/03/19/missile-warning-sent-to-residents-in-dubai-and-abu-dhabi-on-thursday-morning/",
+          "domain": "thenationalnews.com",
+          "tier": "local"
+        }
+      ],
+      "snippet": null,
+      "preview_image": "https://www.thenationalnews.com/resizer/v2/TTKG6KR5AVE63IU5TBYJTLMX7E.jpg?smart=true&auth=3b73d3f7fdb351ae21b616723530403678f0500444761bcf5de2b75da42fa079&width=1200&height=630",
+      "_via": "rss",
+      "confidence": "low"
+    },
     {
       "id": "8b3dcc5af1af",
       "datetime": "2026-03-19T02:00:00Z",
       "type": "impact_major",
       "confirmed": false,
       "precision": "city",
-      "title": "Civilian killed in Iranian strike on Dubai",
+      "title": "Iranian airstrike kills civilian in Dubai",
       "location": "Dubai",
       "lat": 25.2048,
       "lon": 55.2708,
