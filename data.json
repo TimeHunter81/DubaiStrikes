@@ -6,7 +6,7 @@
       "id": "a4b4b70a60bb",
       "datetime": "2026-03-19T04:49:41Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "Missile warning issued to Dubai and Abu Dhabi residents",
       "location": "UAE",
@@ -20,7 +20,9 @@
         }
       ],
       "confidence": "low",
-      "_via": "rss"
+      "_via": "rss",
+      "_search_count": 1,
+      "_next_search_at": 1773899381.0
     },
     {
       "id": "faed091a7ffe",
