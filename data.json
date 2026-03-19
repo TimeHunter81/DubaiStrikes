@@ -6,7 +6,7 @@
       "id": "a4b4b70a60bb",
       "datetime": "2026-03-19T04:49:41Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "Missile warning issued to Dubai and Abu Dhabi residents",
       "location": "Dubai / Abu Dhabi",
@@ -22,7 +22,9 @@
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/TTKG6KR5AVE63IU5TBYJTLMX7E.jpg?smart=true&auth=3b73d3f7fdb351ae21b616723530403678f0500444761bcf5de2b75da42fa079&width=1200&height=630",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1773899381.0
     },
     {
       "id": "8b3dcc5af1af",
