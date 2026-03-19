@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-19T01:50:00Z",
+  "last_updated": "2026-03-19T01:59:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -39,7 +39,7 @@
     {
       "id": "e697006bb77e",
       "datetime": "2026-03-18T22:09:52Z",
-      "type": "impact_minor",
+      "type": "impact_major",
       "confirmed": true,
       "precision": "city",
       "title": "Abu Dhabi: debris from intercepted missile kills 1, Habshan gas facility shut",
