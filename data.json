@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-19T16:18:48Z",
+  "last_updated": "2026-03-19T16:26:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -8,7 +8,7 @@
       "type": "interception",
       "confirmed": true,
       "precision": "country",
-      "title": "UAE intercepts 7 Iranian ballistic missiles, 15 UAVs",
+      "title": "UAE intercepts 7 Iranian ballistic missiles and 15 UAVs",
       "location": "UAE",
       "lat": null,
       "lon": null,
@@ -68,46 +68,6 @@
           "url": "https://www.bbc.com/news/live/ceqvwrydzpqt",
           "domain": "bbc.com",
           "tier": "wire"
-        }
-      ],
-      "confidence": "high",
-      "_via": "rss"
-    },
-    {
-      "id": "e697006bb77e",
-      "datetime": "2026-03-18T22:09:52Z",
-      "type": "impact_major",
-      "confirmed": true,
-      "precision": "city",
-      "title": "Missile debris kills 1, Habshan gas facilities shut — Abu Dhabi",
-      "location": "Abu Dhabi",
-      "lat": 24.4539,
-      "lon": 54.3773,
-      "sources": [
-        {
-          "url": "https://gulfnews.com/uae/authorities-in-abu-dhabi-are-dealing-with-two-incidents-1.500479318",
-          "domain": "gulfnews.com",
-          "tier": "local"
-        },
-        {
-          "url": "https://www.thenationalnews.com/news/uae/2026/03/17/one-person-killed-as-debris-falls-from-intercepted-iranian-missile-in-abu-dhabi/",
-          "domain": "thenationalnews.com",
-          "tier": "local"
-        },
-        {
-          "url": "https://www.timesofisrael.com/liveblog_entry/uae-suspends-operations-at-gas-facility-after-missile-interception/",
-          "domain": "timesofisrael.com",
-          "tier": "wire"
-        },
-        {
-          "url": "https://www.reuters.com/world/middle-east/qatarenergy-reports-extensive-damage-after-missile-attacks-ras-laffan-industrial-2026-03-18/",
-          "domain": "reuters.com",
-          "tier": "wire"
-        },
-        {
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/uae-shuts-habshan-gas-facilities-after-falling-debris",
-          "domain": "middleeasteye.net",
-          "tier": "local"
         }
       ],
       "confidence": "high",
