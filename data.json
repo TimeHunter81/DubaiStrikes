@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-03-19T05:47:00Z",
+  "last_updated": "2026-03-19T05:58:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
       "id": "a4b4b70a60bb",
       "datetime": "2026-03-19T04:49:41Z",
       "type": "security_alert",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "country",
       "title": "Missile warning issued to Dubai and Abu Dhabi residents",
       "location": "UAE",
@@ -20,9 +20,7 @@
         }
       ],
       "confidence": "low",
-      "_via": "rss",
-      "_search_count": 1,
-      "_next_search_at": 1773899381.0
+      "_via": "rss"
     },
     {
       "id": "faed091a7ffe",
@@ -53,7 +51,7 @@
       "id": "8b3dcc5af1af",
       "datetime": "2026-03-19T02:00:00Z",
       "type": "impact_major",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "city",
       "title": "Iranian airstrike kills civilian in Dubai",
       "location": "Dubai",
@@ -72,9 +70,7 @@
         }
       ],
       "confidence": "high",
-      "_via": "rss",
-      "_search_count": 1,
-      "_next_search_at": 1773889200.0
+      "_via": "rss"
     },
     {
       "id": "cd23afb5fde8",
