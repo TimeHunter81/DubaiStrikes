@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-19T04:00:00Z",
+  "last_updated": "2026-03-19T04:15:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -34,7 +34,7 @@
     {
       "id": "cd23afb5fde8",
       "datetime": "2026-03-19T00:15:53Z",
-      "type": "security_alert",
+      "type": "interception",
       "confirmed": true,
       "precision": "country",
       "title": "UAE air defenses activated; missile alarms triggered nationwide",
