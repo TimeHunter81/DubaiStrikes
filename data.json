@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-19T08:55:00Z",
+  "last_updated": "2026-03-19T09:04:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -8,7 +8,7 @@
       "type": "security_alert",
       "confirmed": true,
       "precision": "country",
-      "title": "US Embassy issues missile warning for Dubai and Abu Dhabi",
+      "title": "US Embassy issues missile alert for Dubai and Abu Dhabi",
       "location": "UAE",
       "lat": null,
       "lon": null,
