@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-19T04:33:44Z",
+  "last_updated": "2026-03-19T04:44:31Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -8,7 +8,7 @@
       "type": "impact_major",
       "confirmed": false,
       "precision": "city",
-      "title": "Civilian killed in Iranian strike in Dubai",
+      "title": "Civilian killed in Iranian strike on Dubai",
       "location": "Dubai",
       "lat": 25.2048,
       "lon": 55.2708,
@@ -71,7 +71,7 @@
       "type": "impact_major",
       "confirmed": true,
       "precision": "city",
-      "title": "Abu Dhabi: intercepted missile debris kills 1, Habshan gas facility shut",
+      "title": "Abu Dhabi: intercepted missile debris kills 1, Habshan gas shut",
       "location": "Abu Dhabi",
       "lat": 24.4539,
       "lon": 54.3773,
