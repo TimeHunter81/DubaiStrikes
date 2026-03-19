@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-03-19T00:58:00Z",
+  "last_updated": "2026-03-19T01:13:05Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
       "id": "cd23afb5fde8",
       "datetime": "2026-03-19T00:15:53Z",
       "type": "security_alert",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "country",
       "title": "UAE air defenses activated; missile alarms triggered nationwide",
       "location": "UAE",
@@ -33,9 +33,9 @@
       "id": "e697006bb77e",
       "datetime": "2026-03-18T22:09:52Z",
       "type": "impact_minor",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "city",
-      "title": "Abu Dhabi: debris from intercepted missile — 1 killed, Habshan shut",
+      "title": "Abu Dhabi: debris from intercepted missile kills 1, Habshan gas facility shut",
       "location": "Abu Dhabi",
       "lat": 24.4539,
       "lon": 54.3773,
