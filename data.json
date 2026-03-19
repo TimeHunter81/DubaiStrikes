@@ -1,31 +1,7 @@
 {
-  "last_updated": "2026-03-19T05:27:00Z",
+  "last_updated": "2026-03-19T05:39:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
-    {
-      "id": "a4b4b70a60bb",
-      "datetime": "2026-03-19T04:49:41Z",
-      "type": "security_alert",
-      "confirmed": false,
-      "precision": "country",
-      "title": "Missile warning issued to Dubai and Abu Dhabi residents",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.thenationalnews.com/news/uae/2026/03/19/missile-warning-sent-to-residents-in-dubai-and-abu-dhabi-on-thursday-morning/",
-          "domain": "thenationalnews.com",
-          "tier": "local"
-        }
-      ],
-      "snippet": null,
-      "preview_image": "https://www.thenationalnews.com/resizer/v2/TTKG6KR5AVE63IU5TBYJTLMX7E.jpg?smart=true&auth=3b73d3f7fdb351ae21b616723530403678f0500444761bcf5de2b75da42fa079&width=1200&height=630",
-      "_via": "rss",
-      "confidence": "low",
-      "_search_count": 1,
-      "_next_search_at": 1773899381.0
-    },
     {
       "id": "faed091a7ffe",
       "datetime": "2026-03-19T03:34:54Z",
@@ -48,12 +24,8 @@
           "tier": "wire"
         }
       ],
-      "snippet": null,
-      "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-17%2Fqejtwpyv%2FUAE-EMERGENCY-ALERT-STOCK?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
-      "_via": "rss",
-      "confidence": "low",
-      "_search_count": 1,
-      "_next_search_at": 1773894894.0
+      "confidence": "high",
+      "_via": "rss"
     },
     {
       "id": "8b3dcc5af1af",
@@ -77,12 +49,8 @@
           "tier": "wire"
         }
       ],
-      "snippet": null,
-      "preview_image": "https://www.thenationalnews.com/resizer/v2/VGD44SEFQJGSJCSRXBAMDGACRI.jpg?smart=true&auth=e0ea17cc3e847f65e405e30820ce3c9e9128193c59f5da698ca4310412626400&width=1200&height=630",
-      "_via": "rss",
       "confidence": "high",
-      "_search_count": 2,
-      "_next_search_at": 1773907200.0
+      "_via": "rss"
     },
     {
       "id": "cd23afb5fde8",
@@ -90,7 +58,7 @@
       "type": "interception",
       "confirmed": true,
       "precision": "country",
-      "title": "UAE air defenses activated; missile alarms triggered nationwide",
+      "title": "UAE air defences activated; missile alarms triggered nationwide",
       "location": "UAE",
       "lat": null,
       "lon": null,
@@ -113,10 +81,8 @@
       ],
       "snippet": "UAE activates air defenses; missile threat triggers alarms across the country.",
       "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/000_A3PH8RC.jpg",
-      "_via": "rss",
       "confidence": "high",
-      "_search_count": 1,
-      "_next_search_at": 1773882953.0
+      "_via": "rss"
     },
     {
       "id": "e697006bb77e",
@@ -157,10 +123,8 @@
       ],
       "snippet": "Debris from intercepted Iranian missile kills one person in Abu Dhabi; UAE suspends operations at Habshan gas facilities.",
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-18%2Fj01yvlmt%2FBreaking-NEWS-GN.jpeg?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
-      "_via": "rss",
       "confidence": "high",
-      "_search_count": 1,
-      "_next_search_at": 1773875392.0
+      "_via": "rss"
     },
     {
       "id": "780a01b87f72",
