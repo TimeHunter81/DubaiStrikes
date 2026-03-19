@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-19T05:20:00Z",
+  "last_updated": "2026-03-19T05:27:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -7,11 +7,11 @@
       "datetime": "2026-03-19T04:49:41Z",
       "type": "security_alert",
       "confirmed": false,
-      "precision": "city",
+      "precision": "country",
       "title": "Missile warning issued to Dubai and Abu Dhabi residents",
-      "location": "Dubai / Abu Dhabi",
-      "lat": 24.4539,
-      "lon": 54.3773,
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
       "sources": [
         {
           "url": "https://www.thenationalnews.com/news/uae/2026/03/19/missile-warning-sent-to-residents-in-dubai-and-abu-dhabi-on-thursday-morning/",
@@ -25,6 +25,28 @@
       "confidence": "low",
       "_search_count": 1,
       "_next_search_at": 1773899381.0
+    },
+    {
+      "id": "faed091a7ffe",
+      "datetime": "2026-03-19T03:34:54Z",
+      "type": "interception",
+      "confirmed": false,
+      "precision": "country",
+      "title": "UAE air defences intercept Iranian attacks, residents told safe",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://gulfnews.com/uae/uae-responds-to-incoming-missile-and-drone-threats-from-iran-1.500479474",
+          "domain": "gulfnews.com",
+          "tier": "local"
+        }
+      ],
+      "snippet": null,
+      "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-17%2Fqejtwpyv%2FUAE-EMERGENCY-ALERT-STOCK?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
+      "_via": "rss",
+      "confidence": "low"
     },
     {
       "id": "8b3dcc5af1af",
