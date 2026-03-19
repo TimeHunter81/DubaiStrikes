@@ -26,7 +26,9 @@
       ],
       "confidence": "low",
       "preview_image": "https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-2266703130.jpg?c=16x9&q=w_800,c_fill",
-      "_via": "gdelt"
+      "_via": "gdelt",
+      "_search_count": 1,
+      "_next_search_at": 1773905945.0
     },
     {
       "id": "20bebe213247",
@@ -48,7 +50,9 @@
       "snippet": "&lt;article data-history-node-id=\"436191\" about=\"https://www.middleeasteye.net/live-blog/live-blog-update/missile-fire-kills-three-palestinians-west-bank\" class=\"live-blog-update default clearfix\"&gt;\n\n  \n      &lt;h2&gt;\n      &lt;a href=\"https://ww",
       "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/000_A3PH8RC.jpg",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1773905691.0
     },
     {
       "id": "63c532f12e3a",
@@ -70,7 +74,9 @@
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/T3IYVK5KL5EJXIUQAD72XI7LFQ.jpg?smart=true&amp;auth=903754cd7db31cb5d748d29debcb24f1daf3767a5392c628dbd53a6384eb65c4&amp;width=1200&amp;height=630",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1773904557.0
     },
     {
       "id": "a83ccf0435ba",
@@ -92,7 +98,9 @@
       "snippet": null,
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-19%2Fghieyeam%2FInas.jpeg?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1773904501.0
     },
     {
       "id": "c455b40f0afd",
