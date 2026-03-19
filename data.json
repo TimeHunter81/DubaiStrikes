@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-03-19T02:59:00Z",
+  "last_updated": "2026-03-19T03:15:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
       "id": "8b3dcc5af1af",
       "datetime": "2026-03-19T02:00:00Z",
       "type": "impact_major",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "city",
       "title": "Civilian killed in Iranian strike in Dubai",
       "location": "Dubai",
@@ -87,11 +87,6 @@
           "tier": "local"
         },
         {
-          "url": "https://www.thenationalnews.com/news/uae/2026/03/18/funeral-takes-place-for-palestinian-woman-killed-by-missile-attack-in-abu-dhabi/",
-          "domain": "thenationalnews.com",
-          "tier": "local"
-        },
-        {
           "url": "https://www.timesofisrael.com/liveblog_entry/uae-suspends-operations-at-gas-facility-after-missile-interception/",
           "domain": "timesofisrael.com",
           "tier": "wire"
@@ -100,6 +95,11 @@
           "url": "https://www.reuters.com/world/middle-east/qatarenergy-reports-extensive-damage-after-missile-attacks-ras-laffan-industrial-2026-03-18/",
           "domain": "reuters.com",
           "tier": "wire"
+        },
+        {
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/uae-shuts-habshan-gas-facilities-after-falling-debris",
+          "domain": "middleeasteye.net",
+          "tier": "local"
         }
       ],
       "snippet": "Debris from intercepted Iranian missile kills one person in Abu Dhabi; UAE suspends operations at Habshan gas facilities.",
