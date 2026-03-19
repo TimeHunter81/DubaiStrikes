@@ -6,7 +6,7 @@
       "id": "a4b4b70a60bb",
       "datetime": "2026-03-19T04:49:41Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "Missile warning issued to Dubai and Abu Dhabi residents",
       "location": "UAE",
@@ -17,10 +17,17 @@
           "url": "https://www.thenationalnews.com/news/uae/2026/03/19/missile-warning-sent-to-residents-in-dubai-and-abu-dhabi-on-thursday-morning/",
           "domain": "thenationalnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://ae.usembassy.gov/security-alert-u-s-mission-to-the-united-arab-emirates-march-18-2026/",
+          "domain": "ae.usembassy.gov",
+          "tier": "wire"
         }
       ],
       "confidence": "low",
-      "_via": "rss"
+      "_via": "rss",
+      "_search_count": 1,
+      "_next_search_at": 1773899381.0
     },
     {
       "id": "faed091a7ffe",
@@ -70,7 +77,9 @@
         }
       ],
       "confidence": "high",
-      "_via": "rss"
+      "_via": "rss",
+      "_search_count": 1,
+      "_next_search_at": 1773889200.0
     },
     {
       "id": "cd23afb5fde8",
