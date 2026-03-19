@@ -1,7 +1,27 @@
 {
-  "last_updated": "2026-03-19T05:39:00Z",
+  "last_updated": "2026-03-19T05:47:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
+    {
+      "id": "a4b4b70a60bb",
+      "datetime": "2026-03-19T04:49:41Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "Missile warning issued to Dubai and Abu Dhabi residents",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.thenationalnews.com/news/uae/2026/03/19/missile-warning-sent-to-residents-in-dubai-and-abu-dhabi-on-thursday-morning/",
+          "domain": "thenationalnews.com",
+          "tier": "local"
+        }
+      ],
+      "confidence": "low",
+      "_via": "rss"
+    },
     {
       "id": "faed091a7ffe",
       "datetime": "2026-03-19T03:34:54Z",
