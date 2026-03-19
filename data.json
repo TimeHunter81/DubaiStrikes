@@ -22,13 +22,15 @@
       "snippet": "Like our earlier reports on the combat situation in Ukraine, this article reviews recent battlefield developments based on open-source information. Meduza has condemned Russia’s invasion of Ukraine from the outset, and our military analyses reflect o",
       "preview_image": "https://meduza.io/imgly/share/1773933815/en/feature/2026/03/19/ukraine-s-counteroffensive-brings-gains-in-the-south-but-weakens-other-sectors-of-the-front-meduza-analyzes-the-latest-battlefield-developments",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1773937415.0
     },
     {
       "id": "a64596f21e57",
       "datetime": "2026-03-19T14:57:54Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "Trump’s South Pars remarks: Are US and Israel in sync on Iran war strategy?",
       "location": "UAE",
@@ -39,34 +41,48 @@
           "url": "https://gulfnews.com/world/mena/trumps-south-pars-remarks-are-us-and-israel-in-sync-on-iran-war-strategy-1.500480187",
           "domain": "gulfnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://www.reuters.com/world/middle-east/trump-says-israel-attacked-iran-gas-field-without-us-qatari-involvement-warns-2026-03-19/",
+          "domain": "reuters.com",
+          "tier": "wire"
         }
       ],
       "snippet": null,
       "preview_image": "https://media.assettype.com/gulfnews%2F2024-11-17%2Fbw93pjg3%2F20200901_Top_News_donald_trump_174490d977e_original_ratio.jpg?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1773935874.0
     },
     {
       "id": "92480bcbc2ca",
       "datetime": "2026-03-19T14:57:06Z",
       "type": "security_alert",
-      "confirmed": false,
-      "precision": "country",
+      "confirmed": true,
+      "precision": "city",
       "title": "Iran attacks could knock out 17% of Qatar's LNG exports for up to five years",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
+      "location": "Ras Laffan, Qatar",
+      "lat": 25.9073,
+      "lon": 51.5544,
       "sources": [
         {
           "url": "https://www.thenationalnews.com/business/energy/2026/03/19/iran-attacks-could-knock-out-fifth-of-qatars-lng-exports-for-up-to-five-years/",
           "domain": "thenationalnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://www.reuters.com/business/energy/iran-attack-damage-wipes-out-17-qatars-lng-capacity-three-five-years-qatarenergy-2026-03-19/",
+          "domain": "reuters.com",
+          "tier": "wire"
         }
       ],
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/C5H6CGSXTRSBQ3OVHCR2YUW2FE.jpg?smart=true&amp;auth=bf71059210ac26cf7a6fe5ba1526446067d6832edf59022190f3b05ab536cbee&amp;width=1200&amp;height=630",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1773935826.0
     },
     {
       "id": "abd3b9df4474",
@@ -88,7 +104,9 @@
       "snippet": "NCM forecasts unstable weather, varying rainfall across UAE until March 27",
       "preview_image": "https://media.assettype.com/gulfnews%2F2025-11-20%2Fbhdxtlcd%2FWhatsApp-Image-2025-11-20-at-03.34.17-1.jpeg?rect=0%2C20%2C1280%2C672&amp;w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1773935567.0
     },
     {
       "id": "bc6650ade19c",
