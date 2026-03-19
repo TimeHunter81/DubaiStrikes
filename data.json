@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-03-19T05:05:00Z",
+  "last_updated": "2026-03-19T05:20:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
       "id": "a4b4b70a60bb",
       "datetime": "2026-03-19T04:49:41Z",
       "type": "security_alert",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "city",
       "title": "Missile warning issued to Dubai and Abu Dhabi residents",
       "location": "Dubai / Abu Dhabi",
