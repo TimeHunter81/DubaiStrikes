@@ -6,23 +6,30 @@
       "id": "cd23afb5fde8",
       "datetime": "2026-03-19T00:15:53Z",
       "type": "security_alert",
-      "confirmed": false,
-      "precision": "country",
+      "confirmed": true,
+      "precision": "city",
       "title": "UAE air defenses activated as missile threat triggers alarms",
-      "location": "Uae",
-      "lat": null,
-      "lon": null,
+      "location": "Dubai",
+      "lat": 25.2048,
+      "lon": 55.2708,
       "sources": [
         {
           "url": "https://www.middleeasteye.net/live-blog/live-blog-update/uae-activates-air-defenses-missile-threat-triggers-alarms",
           "domain": "middleeasteye.net",
           "tier": "local"
+        },
+        {
+          "url": "https://www.aljazeera.com/news/2026/3/18/iran-fires-missiles-drones-across-gulf-region-remains-in-war-crosshairs",
+          "domain": "aljazeera.com",
+          "tier": "wire"
         }
       ],
       "snippet": "UAE activates air defenses; missile threat triggers alarms across the country.",
       "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/000_A3PH8RC.jpg",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1773882953.0
     },
     {
       "id": "e697006bb77e",
