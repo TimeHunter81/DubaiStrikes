@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-20T10:19:00Z",
+  "last_updated": "2026-03-20T10:35:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -69,6 +69,28 @@
       "confidence": "medium",
       "_search_count": 3,
       "_next_search_at": 1774058941.0
+    },
+    {
+      "id": "be88388faa8c",
+      "datetime": "2026-03-19T04:49:41Z",
+      "type": "interception",
+      "confirmed": false,
+      "precision": "country",
+      "title": "UAE intercepts a further seven Iranian ballistic missiles and 15 drones",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.thenationalnews.com/news/uae/2026/03/19/missile-warning-sent-to-residents-in-dubai-and-abu-dhabi-on-thursday-morning/",
+          "domain": "thenationalnews.com",
+          "tier": "local"
+        }
+      ],
+      "snippet": null,
+      "preview_image": "https://www.thenationalnews.com/resizer/v2/TTKG6KR5AVE63IU5TBYJTLMX7E.jpg?smart=true&auth=3b73d3f7fdb351ae21b616723530403678f0500444761bcf5de2b75da42fa079&width=1200&height=630",
+      "_via": "rss",
+      "confidence": "medium"
     },
     {
       "id": "780a01b87f72",
