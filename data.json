@@ -6,7 +6,7 @@
       "id": "cdacb355e249",
       "datetime": "2026-03-20T20:26:11Z",
       "type": "interception",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "UAE air defences engage Iranian missile and drone threat (evening wave)",
       "location": "UAE",
@@ -26,8 +26,8 @@
       ],
       "_via": "rss",
       "confidence": "high",
-      "_search_count": 1,
-      "_next_search_at": 1774041971.0
+      "_search_count": 2,
+      "_next_search_at": 1774059971.0
     },
     {
       "id": "ac5448515b08",
