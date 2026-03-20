@@ -6,23 +6,30 @@
       "id": "ac5448515b08",
       "datetime": "2026-03-20T08:24:51Z",
       "type": "interception",
-      "confirmed": false,
-      "precision": "country",
+      "confirmed": true,
+      "precision": "city",
       "title": "Gulf states intercept fresh wave of Iranian attacks on Eid morning",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
+      "location": "Dubai, UAE",
+      "lat": 25.2048,
+      "lon": 55.2708,
       "sources": [
         {
           "url": "https://www.thenationalnews.com/news/gulf/2026/03/20/gulf-countries-respond-to-iranian-attacks-as-eid-holiday-begins/",
           "domain": "thenationalnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://www.hindustantimes.com/world-news/abu-dhabi-dubai-news-live-updates-uae-war-news-march-20-drone-missile-attack-qatar-strait-of-hormuz-iran-israel-us-101773969074036.html",
+          "domain": "hindustantimes.com",
+          "tier": "wire"
         }
       ],
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/NDPARRTGKU3YSLPSV2BUDBCCQM.jpg?smart=true&auth=bb23efc6a482ac97c525847af45a69f68a21fb7a7ea8c73b954db28836307445&width=1200&height=630",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1773998691.0
     },
     {
       "id": "2108c7d6dd85",
