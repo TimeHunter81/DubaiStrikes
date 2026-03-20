@@ -40,7 +40,7 @@
       "id": "be88388faa8c",
       "datetime": "2026-03-19T04:49:41Z",
       "type": "interception",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "UAE intercepts 7 Iranian ballistic missiles and 15 drones",
       "location": "Uae",
@@ -56,7 +56,9 @@
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/TTKG6KR5AVE63IU5TBYJTLMX7E.jpg?smart=true&amp;auth=3b73d3f7fdb351ae21b616723530403678f0500444761bcf5de2b75da42fa079&amp;width=1200&amp;height=630",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1773899381.0
     },
     {
       "id": "780a01b87f72",
