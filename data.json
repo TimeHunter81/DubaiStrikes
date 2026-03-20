@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-20T20:20:00Z",
+  "last_updated": "2026-03-20T20:30:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -35,6 +35,26 @@
         }
       ],
       "confidence": "high",
+      "_via": "rss"
+    },
+    {
+      "id": "565442bafe54",
+      "datetime": "2026-03-20T04:56:19Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "UAE airports suspend flights amid missile and drone attack",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.thenationalnews.com/travel/2026/03/20/which-flights-are-suspended-or-delayed-at-dubai-and-abu-dhabi-airports/",
+          "domain": "thenationalnews.com",
+          "tier": "local"
+        }
+      ],
+      "confidence": "low",
       "_via": "rss"
     },
     {
