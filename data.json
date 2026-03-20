@@ -35,7 +35,7 @@
       "id": "be88388faa8c",
       "datetime": "2026-03-19T04:49:41Z",
       "type": "interception",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "UAE intercepts 7 Iranian ballistic missiles and 15 drones",
       "location": "UAE",
@@ -46,18 +46,25 @@
           "url": "https://www.thenationalnews.com/news/uae/2026/03/19/missile-warning-sent-to-residents-in-dubai-and-abu-dhabi-on-thursday-morning/",
           "domain": "thenationalnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://www.timesofisrael.com/liveblog_entry/uae-intercepts-7-ballistic-missiles-15-drones/",
+          "domain": "timesofisrael.com",
+          "tier": "wire"
         }
       ],
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/TTKG6KR5AVE63IU5TBYJTLMX7E.jpg?smart=true&auth=3b73d3f7fdb351ae21b616723530403678f0500444761bcf5de2b75da42fa079&width=1200&height=630",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1773899381.0
     },
     {
       "id": "8b3dcc5af1af",
       "datetime": "2026-03-19T02:00:01Z",
       "type": "impact_major",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "Devoted father killed in Iranian air strike in Dubai",
       "location": "Dubai",
@@ -73,7 +80,9 @@
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/VGD44SEFQJGSJCSRXBAMDGACRI.jpg?smart=true&auth=e0ea17cc3e847f65e405e30820ce3c9e9128193c59f5da698ca4310412626400&width=1200&height=630",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1773889201.0
     },
     {
       "id": "780a01b87f72",
