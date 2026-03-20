@@ -6,7 +6,7 @@
       "id": "1de63aed51f5",
       "datetime": "2026-03-20T06:20:40Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "Cyberattack targets Mossad-linked official, documents allegedly leaked",
       "location": "UAE",
@@ -17,34 +17,48 @@
           "url": "https://www.middleeasteye.net/live-blog/live-blog-update/cyberattack-targets-mossad-linked-official-documents-allegedly-leaked",
           "domain": "middleeasteye.net",
           "tier": "local"
+        },
+        {
+          "url": "https://cybernews.com/security/handala-ex-mossad-research-head-emails-leaked-stryker-contained/",
+          "domain": "cybernews.com",
+          "tier": "wire"
         }
       ],
       "snippet": "&lt;article data-history-node-id=\"436281\" about=\"https://www.middleeasteye.net/live-blog/live-blog-update/cyberattack-targets-mossad-linked-official-documents-allegedly-leaked\" class=\"live-blog-update default clearfix\"&gt;\n\n  \n      &lt;h2&gt;\n      ",
       "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/A%20man%20walks%20near%20a%20burning%20vehicle%20that%20was%20targeted%20by%20Israeli%20bombardment%20in%20Lebanon%27s%20southern%20coastal%20city%20of%20Sidon%20on%20March%2018%2C%202026..jpg",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1773991240.0
     },
     {
       "id": "5b2521f41035",
       "datetime": "2026-03-20T06:14:06Z",
       "type": "security_alert",
-      "confirmed": false,
-      "precision": "country",
+      "confirmed": true,
+      "precision": "city",
       "title": "Report: Qatar LNG attack reshapes global gas market",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
+      "location": "Ras Laffan, Qatar",
+      "lat": 25.9012,
+      "lon": 51.551,
       "sources": [
         {
           "url": "https://www.middleeasteye.net/live-blog/live-blog-update/report-qatar-lng-attack-reshapes-global-gas-market",
           "domain": "middleeasteye.net",
           "tier": "local"
+        },
+        {
+          "url": "https://www.bloomberg.com/news/features/2026-03-19/iran-war-strikes-on-qatar-s-lng-crown-jewel-reshape-the-future-of-gas",
+          "domain": "bloomberg.com",
+          "tier": "wire"
         }
       ],
       "snippet": "&lt;article data-history-node-id=\"436279\" about=\"https://www.middleeasteye.net/live-blog/live-blog-update/report-qatar-lng-attack-reshapes-global-gas-market\" class=\"live-blog-update default clearfix\"&gt;\n\n  \n      &lt;h2&gt;\n      &lt;a href=\"https:/",
       "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/A%20man%20walks%20near%20a%20burning%20vehicle%20that%20was%20targeted%20by%20Israeli%20bombardment%20in%20Lebanon%27s%20southern%20coastal%20city%20of%20Sidon%20on%20March%2018%2C%202026..jpg",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1773990846.0
     },
     {
       "id": "9615d0e5b8e6",
@@ -88,29 +102,38 @@
       "snippet": null,
       "preview_image": "https://media.assettype.com/gulfnews%2F2025-10-29%2Fe8wafnk4%2Fnewsml_afp_com_20251029T074215Z_doc_82cl3d2.jpeg?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1773989109.0
     },
     {
       "id": "380bdf2978ae",
       "datetime": "2026-03-20T05:42:12Z",
       "type": "security_alert",
-      "confirmed": false,
-      "precision": "country",
+      "confirmed": true,
+      "precision": "city",
       "title": "Shabab Al Ahli striker Sardar Azmoun thrown out of Iran squad for UAE support",
-      "location": "Uae",
-      "lat": null,
-      "lon": null,
+      "location": "Dubai, UAE",
+      "lat": 25.2048,
+      "lon": 55.2708,
       "sources": [
         {
           "url": "https://www.thenationalnews.com/sport/football/2026/03/20/shabab-al-ahli-striker-sardar-azmoun-thrown-out-of-iran-squad-for-uae-support/",
           "domain": "thenationalnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://www.aljazeera.com/sports/2026/3/20/iran-footballer-azmoun-kicked-off-national-team-for-disloyalty-say-reports",
+          "domain": "aljazeera.com",
+          "tier": "wire"
         }
       ],
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/RYCPPEHT5NBKJPDCKNOCQPWDLY.jpg?smart=true&amp;auth=397e5feac1789d9889ca4fda4e3039fb7a33a44028101046543509466d4e020f&amp;width=1200&amp;height=630",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1773988932.0
     },
     {
       "id": "71d3a20749e6",
