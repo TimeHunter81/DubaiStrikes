@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-20T12:05:00Z",
+  "last_updated": "2026-03-20T12:20:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -40,40 +40,6 @@
       "confidence": "high",
       "_search_count": 2,
       "_next_search_at": 1774016691.0
-    },
-    {
-      "id": "2108c7d6dd85",
-      "datetime": "2026-03-20T02:09:01Z",
-      "type": "interception",
-      "confirmed": false,
-      "precision": "city",
-      "title": "Dubai air defence confirms interceptions after loud sounds reported",
-      "location": "Dubai",
-      "lat": 25.2048,
-      "lon": 55.2708,
-      "sources": [
-        {
-          "url": "https://gulfnews.com/uae/dubai-confirms-air-defence-interceptions-after-loud-sounds-reported-1.500480603",
-          "domain": "gulfnews.com",
-          "tier": "local"
-        },
-        {
-          "url": "https://gulfnews.com/uae/uae-air-defence-systems-are-currently-responding-to-an-iranian-missile-threat-1.500480592",
-          "domain": "gulfnews.com",
-          "tier": "local"
-        },
-        {
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/uae-warns-public-saudi-intercepts-drones-kuwait-targeted",
-          "domain": "middleeasteye.net",
-          "tier": "local"
-        }
-      ],
-      "snippet": null,
-      "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-16%2F4r3s285l%2FUAEflag?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
-      "_via": "rss",
-      "confidence": "medium",
-      "_search_count": 3,
-      "_next_search_at": 1774058941.0
     },
     {
       "id": "780a01b87f72",
