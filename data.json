@@ -1,36 +1,7 @@
 {
-  "last_updated": "2026-03-20T05:33:00Z",
+  "last_updated": "2026-03-20T05:41:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
-    {
-      "id": "2108c7d6dd85",
-      "datetime": "2026-03-20T02:09:01Z",
-      "type": "interception",
-      "confirmed": false,
-      "precision": "city",
-      "title": "Dubai confirms air defence interceptions after loud sounds reported",
-      "location": "Dubai",
-      "lat": 25.2048,
-      "lon": 55.2708,
-      "sources": [
-        {
-          "url": "https://gulfnews.com/uae/dubai-confirms-air-defence-interceptions-after-loud-sounds-reported-1.500480603",
-          "domain": "gulfnews.com",
-          "tier": "local"
-        },
-        {
-          "url": "https://gulfnews.com/uae/uae-air-defence-systems-are-currently-responding-to-an-iranian-missile-threat-1.500480592",
-          "domain": "gulfnews.com",
-          "tier": "local"
-        }
-      ],
-      "snippet": null,
-      "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-16%2F4r3s285l%2FUAEflag?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
-      "_via": "rss",
-      "confidence": "medium",
-      "_search_count": 2,
-      "_next_search_at": 1773994141.0
-    },
     {
       "id": "be88388faa8c",
       "datetime": "2026-03-19T04:49:41Z",
@@ -59,6 +30,35 @@
       "confidence": "high",
       "_search_count": 3,
       "_next_search_at": 1773982181.0
+    },
+    {
+      "id": "2108c7d6dd85",
+      "datetime": "2026-03-20T02:09:01Z",
+      "type": "interception",
+      "confirmed": false,
+      "precision": "city",
+      "title": "Dubai confirms air defence interceptions after loud sounds reported",
+      "location": "Dubai",
+      "lat": 25.2048,
+      "lon": 55.2708,
+      "sources": [
+        {
+          "url": "https://gulfnews.com/uae/dubai-confirms-air-defence-interceptions-after-loud-sounds-reported-1.500480603",
+          "domain": "gulfnews.com",
+          "tier": "local"
+        },
+        {
+          "url": "https://gulfnews.com/uae/uae-air-defence-systems-are-currently-responding-to-an-iranian-missile-threat-1.500480592",
+          "domain": "gulfnews.com",
+          "tier": "local"
+        }
+      ],
+      "snippet": null,
+      "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-16%2F4r3s285l%2FUAEflag?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
+      "_via": "rss",
+      "confidence": "medium",
+      "_search_count": 2,
+      "_next_search_at": 1773994141.0
     },
     {
       "id": "780a01b87f72",
