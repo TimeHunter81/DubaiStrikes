@@ -6,7 +6,7 @@
       "id": "911c5c002c89",
       "datetime": "2026-03-19T23:44:25Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "Netanyahu says Iran &apos;decimated,&apos; Mojtaba Khamenei &apos;has not shown his face&apos;",
       "location": "UAE",
@@ -17,18 +17,25 @@
           "url": "https://gulfnews.com/world/mena/netanyahu-says-iran-decimated-mojtaba-khamenei-has-not-shown-his-face-1.500479561",
           "domain": "gulfnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://www.cnbc.com/2026/03/19/netanyahu-trump-us-israel-iran-ground-component.html",
+          "domain": "cnbc.com",
+          "tier": "wire"
         }
       ],
       "snippet": "Trump threatens to destroy Iran&apos;s largest gas field",
       "preview_image": "https://media.assettype.com/gulfnews%2Fimport%2F2019%2F12%2F06%2FOPN-191206-Netanyahu-1575629900963_16edadc4ca3_large.jpg?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1773967465.0
     },
     {
       "id": "0726aa044fbc",
       "datetime": "2026-03-19T23:33:26Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "IRGC announces new wave of attacks on Israel",
       "location": "UAE",
@@ -39,18 +46,25 @@
           "url": "https://www.middleeasteye.net/live-blog/live-blog-update/irgc-announces-new-wave-attacks-israel",
           "domain": "middleeasteye.net",
           "tier": "local"
+        },
+        {
+          "url": "https://iranwire.com/en/news/150246-irgc-announces-its-most-extensive-attacks-on-israel/",
+          "domain": "iranwire.com",
+          "tier": "wire"
         }
       ],
       "snippet": "&lt;article data-history-node-id=\"436255\" about=\"https://www.middleeasteye.net/live-blog/live-blog-update/irgc-announces-new-wave-attacks-israel\" class=\"live-blog-update default clearfix\"&gt;\n\n  \n      &lt;h2&gt;\n      &lt;a href=\"https://www.middlee",
       "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/A%20man%20walks%20near%20a%20burning%20vehicle%20that%20was%20targeted%20by%20Israeli%20bombardment%20in%20Lebanon%27s%20southern%20coastal%20city%20of%20Sidon%20on%20March%2018%2C%202026..jpg",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1773966806.0
     },
     {
       "id": "880aebb3094a",
       "datetime": "2026-03-19T23:21:31Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "UK, France, Germany, Netherlands, Italy, Japan condemn Iranian attacks on Gulf infrastructure",
       "location": "UAE",
@@ -61,12 +75,19 @@
           "url": "https://gulfnews.com/world/gulf/uk-france-germany-netherlands-italy-japan-condemn-iranian-attacks-on-gulf-infrastructure-1.500480486",
           "domain": "gulfnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://www.reuters.com/world/asia-pacific/joint-statement-strait-hormuz-by-european-nations-japan-2026-03-19/",
+          "domain": "reuters.com",
+          "tier": "wire"
         }
       ],
       "snippet": "UK, France, Germany, Netherlands, Italy, Japan condemn Iranian attacks on Gulf infrastructure",
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-19%2Fyxza2rez%2Fpreview.jpg?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1773966091.0
     },
     {
       "id": "5069e9ff4607",
@@ -94,7 +115,7 @@
       "id": "c868575f22da",
       "datetime": "2026-03-19T23:10:00Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "Iran war: Groceries and retail goods face early pressure from shipping costs",
       "location": "UAE",
@@ -105,12 +126,19 @@
           "url": "https://gulfnews.com/business/retail/iran-war-groceries-and-retail-goods-face-early-pressure-from-shipping-costs-1.500479520",
           "domain": "gulfnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://www.reuters.com/world/middle-east/gulf-food-strategy-tested-iran-war-snarls-shipping-routes-2026-03-05/",
+          "domain": "reuters.com",
+          "tier": "wire"
         }
       ],
       "snippet": null,
       "preview_image": "https://media.assettype.com/gulfnews%2F2025-08-11%2F4as9u9x6%2FOPN-TRADE-3-Read-Only.jpg?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1773965400.0
     },
     {
       "id": "60dd22b17676",
