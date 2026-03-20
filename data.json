@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-20T22:29:00Z",
+  "last_updated": "2026-03-20T22:43:17Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -25,9 +25,7 @@
         }
       ],
       "_via": "rss",
-      "confidence": "high",
-      "_search_count": 2,
-      "_next_search_at": 1774059971.0
+      "confidence": "high"
     },
     {
       "id": "ac5448515b08",
