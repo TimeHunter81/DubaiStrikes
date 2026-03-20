@@ -6,7 +6,7 @@
       "id": "763eebd6abc8",
       "datetime": "2026-03-20T08:24:51Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "Gulf countries respond to Iranian attacks as Eid holiday begins",
       "location": "UAE",
@@ -17,12 +17,19 @@
           "url": "https://www.thenationalnews.com/news/gulf/2026/03/20/gulf-countries-respond-to-iranian-attacks-as-eid-holiday-begins/",
           "domain": "thenationalnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://www.reuters.com/world/middle-east/gulf-states-press-us-neutralise-iran-good-hormuz-crisis-deepens-2026-03-16/",
+          "domain": "reuters.com",
+          "tier": "wire"
         }
       ],
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/NDPARRTGKU3YSLPSV2BUDBCCQM.jpg?smart=true&amp;auth=bb23efc6a482ac97c525847af45a69f68a21fb7a7ea8c73b954db28836307445&amp;width=1200&amp;height=630",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1773998691.0
     },
     {
       "id": "add101b8dd6e",
@@ -44,7 +51,9 @@
       "snippet": null,
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-20%2Fxqvamrfy%2Fnewsml_afp_com_20260320T063817Z_doc_a3zt6t7.jpeg?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1773997811.0
     },
     {
       "id": "08ad168c600c",
@@ -72,7 +81,7 @@
       "id": "1d05bf5fed95",
       "datetime": "2026-03-20T08:03:59Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "Report: Iran developing vetting system for selective Hormuz transit access",
       "location": "UAE",
@@ -83,18 +92,25 @@
           "url": "https://www.middleeasteye.net/live-blog/live-blog-update/report-iran-developing-vetting-system-selective-hormuz-transit-access",
           "domain": "middleeasteye.net",
           "tier": "local"
+        },
+        {
+          "url": "https://www.agbi.com/logistics/2026/03/ships-test-iran-approved-hormuz-corridor/",
+          "domain": "agbi.com",
+          "tier": "wire"
         }
       ],
       "snippet": "&lt;article data-history-node-id=\"436287\" about=\"https://www.middleeasteye.net/live-blog/live-blog-update/report-iran-developing-vetting-system-selective-hormuz-transit-access\" class=\"live-blog-update default clearfix\"&gt;\n\n  \n      &lt;h2&gt;\n      ",
       "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/A%20man%20walks%20near%20a%20burning%20vehicle%20that%20was%20targeted%20by%20Israeli%20bombardment%20in%20Lebanon%27s%20southern%20coastal%20city%20of%20Sidon%20on%20March%2018%2C%202026..jpg",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1773997439.0
     },
     {
       "id": "7bafe43eff38",
       "datetime": "2026-03-20T07:57:01Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "Fresh wave of Israeli strikes on Iran threaten to unsettle energy markets",
       "location": "UAE",
@@ -105,12 +121,19 @@
           "url": "https://www.thenationalnews.com/business/energy/2026/03/20/fresh-wave-of-israeli-strikes-on-iran-threaten-to-unsettle-energy-markets/",
           "domain": "thenationalnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://apnews.com/article/iran-iraq-us-israel-trump-march-19-2026-52e94398f2432b3aba9b02b51fbe5000",
+          "domain": "apnews.com",
+          "tier": "wire"
         }
       ],
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/DYDXOUNF65CYY7RIFBK7GFYYSQ.jpg?smart=true&amp;auth=178687119964b9006b036b32d80fb2090bc0ee6bd6b245542da3cd2ff8f4b5ed&amp;width=1200&amp;height=630",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1773997021.0
     },
     {
       "id": "955ee86acecf",
