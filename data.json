@@ -6,7 +6,7 @@
       "id": "ac5448515b08",
       "datetime": "2026-03-20T08:24:51Z",
       "type": "interception",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "UAE intercepts Iranian Eid-morning wave of drones and missiles",
       "location": "UAE",
@@ -22,14 +22,19 @@
           "url": "https://www.hindustantimes.com/world-news/abu-dhabi-dubai-news-live-updates-uae-war-news-march-20-drone-missile-attack-qatar-strait-of-hormuz-iran-israel-us-101773969074036.html",
           "domain": "hindustantimes.com",
           "tier": "wire"
+        },
+        {
+          "url": "https://www.bbc.com/news/live/c24d410m3g4t",
+          "domain": "bbc.com",
+          "tier": "wire"
         }
       ],
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/NDPARRTGKU3YSLPSV2BUDBCCQM.jpg?smart=true&auth=bb23efc6a482ac97c525847af45a69f68a21fb7a7ea8c73b954db28836307445&width=1200&height=630",
       "_via": "rss",
       "confidence": "high",
-      "_search_count": 1,
-      "_next_search_at": 1773998691.0
+      "_search_count": 2,
+      "_next_search_at": 1774016691.0
     },
     {
       "id": "2108c7d6dd85",
