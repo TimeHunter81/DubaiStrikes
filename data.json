@@ -21,7 +21,9 @@
       ],
       "confidence": "low",
       "preview_image": "https://media.cnn.com/api/v1/images/stellar/prod/2017-02-07t120000z-539149990-rc1910c79b40-rtrmadp-3-qatar-finance-20260320062414442.jpg?c=16x9&q=w_800,c_fill",
-      "_via": "gdelt"
+      "_via": "gdelt",
+      "_search_count": 1,
+      "_next_search_at": 1774003396.0
     },
     {
       "id": "4086d50b9e7c",
@@ -87,7 +89,9 @@
       "snippet": "Sharjah Ruler performs Eid Al Fitr prayer at Sharjah Mosque",
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-20%2Fpwfd7s3x%2Fwml027c81ka0up0po.jpg?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774000862.0
     },
     {
       "id": "53dbce2a07e3",
@@ -109,7 +113,9 @@
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/TCJM2J2M3FD2XJ6C74IHGN72JA.jpg?smart=true&amp;auth=1e493d4bad27e8a2d7e71c6b495c67314f65e2477dd912ceb78d373935543561&amp;width=1200&amp;height=630",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774000800.0
     },
     {
       "id": "dc5db169af76",
@@ -131,7 +137,9 @@
       "snippet": "Sharjah Ruler receives Eid Al-Fitr well-wishers",
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-20%2F3bxqqmzq%2F2dd027kr1ka0vmtpo.jpg?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774000416.0
     },
     {
       "id": "60ee1bddc443",
