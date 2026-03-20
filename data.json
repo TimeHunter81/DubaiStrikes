@@ -6,7 +6,7 @@
       "id": "cdacb355e249",
       "datetime": "2026-03-20T20:26:11Z",
       "type": "interception",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "UAE air defences engage Iranian missiles and drones",
       "location": "UAE",
@@ -22,12 +22,17 @@
           "url": "https://www.hindustantimes.com/world-news/abu-dhabi-dubai-news-live-updates-uae-war-news-march-20-drone-missile-attack-qatar-strait-of-hormuz-iran-israel-us-101773969074036.html",
           "domain": "hindustantimes.com",
           "tier": "wire"
+        },
+        {
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/uae-says-air-defences-intercepted-iranian-missiles-and-drones",
+          "domain": "middleeasteye.net",
+          "tier": "wire"
         }
       ],
       "_via": "rss",
       "confidence": "high",
-      "_search_count": 1,
-      "_next_search_at": 1774041971.0
+      "_search_count": 2,
+      "_next_search_at": 1774059971.0
     },
     {
       "id": "ac5448515b08",
