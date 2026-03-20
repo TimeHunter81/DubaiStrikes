@@ -22,13 +22,15 @@
       "snippet": "&lt;article data-history-node-id=\"436285\" about=\"https://www.middleeasteye.net/live-blog/live-blog-update/israeli-air-strikes-pound-lebanon-towns-death-toll-surpasses-1000\" class=\"live-blog-update default clearfix\"&gt;\n\n  \n      &lt;h2&gt;\n      &lt;",
       "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/A%20man%20walks%20near%20a%20burning%20vehicle%20that%20was%20targeted%20by%20Israeli%20bombardment%20in%20Lebanon%27s%20southern%20coastal%20city%20of%20Sidon%20on%20March%2018%2C%202026..jpg",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1773995362.0
     },
     {
       "id": "1df54ac2d8c1",
       "datetime": "2026-03-20T07:24:20Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "Gulf countries restrict outdoor Eid prayers amid regional war tensions",
       "location": "UAE",
@@ -39,18 +41,25 @@
           "url": "https://www.middleeasteye.net/live-blog/live-blog-update/gulf-countries-restrict-outdoor-eid-prayers-amid-regional-war-tensions",
           "domain": "middleeasteye.net",
           "tier": "local"
+        },
+        {
+          "url": "https://timesofindia.indiatimes.com/world/middle-east/eid-ul-fitr-2026-alert-in-the-uae-kuwait-qatar-no-open-grounds-prayers-only-inside-mosques-as-gulf-countries-announce-new-guidelines-amid-iran-vs-us-israel-war/articleshow/129645061.cms",
+          "domain": "timesofindia.indiatimes.com",
+          "tier": "wire"
         }
       ],
       "snippet": "&lt;article data-history-node-id=\"436284\" about=\"https://www.middleeasteye.net/live-blog/live-blog-update/gulf-countries-restrict-outdoor-eid-prayers-amid-regional-war-tensions\" class=\"live-blog-update default clearfix\"&gt;\n\n  \n      &lt;h2&gt;\n     ",
       "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/A%20man%20walks%20near%20a%20burning%20vehicle%20that%20was%20targeted%20by%20Israeli%20bombardment%20in%20Lebanon%27s%20southern%20coastal%20city%20of%20Sidon%20on%20March%2018%2C%202026..jpg",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1773995060.0
     },
     {
       "id": "f25ddf07e846",
       "datetime": "2026-03-20T07:11:36Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "Dubai boosts Eid security with patrols, drones and emergency teams",
       "location": "Dubai",
@@ -61,12 +70,19 @@
           "url": "https://gulfnews.com/uae/ramadan/dubai-boosts-eid-security-with-patrols-drones-and-emergency-teams-1.500480806",
           "domain": "gulfnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://www.virginradiodubai.com/trending/uae/dubai-rolls-out-comprehensive-security-plan-for-eid-al-fitr/",
+          "domain": "virginradiodubai.com",
+          "tier": "wire"
         }
       ],
       "snippet": null,
       "preview_image": "https://media.assettype.com/gulfnews%2F2025-03-30%2Fzq0f1eti%2FSTAFFNAT_250330_Eid_Prayer_Dubai_VSAKLANI__15_1743317766274.jpg?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1773994296.0
     },
     {
       "id": "6248b8dbbc40",
@@ -88,7 +104,9 @@
       "snippet": null,
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-04%2F3fmwcxo5%2FSTAFFNAT_260304_Tourist_Deira_VSAKLANI_11772622932063.jpg?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1773993035.0
     },
     {
       "id": "883af285d4b3",
