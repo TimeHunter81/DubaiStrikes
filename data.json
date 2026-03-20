@@ -6,7 +6,7 @@
       "id": "2108c7d6dd85",
       "datetime": "2026-03-20T02:09:01Z",
       "type": "interception",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "Dubai confirms air defence interceptions after loud sounds reported",
       "location": "Dubai",
@@ -23,8 +23,8 @@
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-16%2F4r3s285l%2FUAEflag?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
       "_via": "rss",
       "confidence": "low",
-      "_search_count": 1,
-      "_next_search_at": 1773976141.0
+      "_search_count": 2,
+      "_next_search_at": 1773994141.0
     },
     {
       "id": "be88388faa8c",
