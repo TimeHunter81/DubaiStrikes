@@ -74,7 +74,7 @@
       "id": "be88388faa8c",
       "datetime": "2026-03-19T04:49:41Z",
       "type": "interception",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "UAE intercepts a further seven Iranian ballistic missiles and 15 drones",
       "location": "UAE",
@@ -85,12 +85,19 @@
           "url": "https://www.thenationalnews.com/news/uae/2026/03/19/missile-warning-sent-to-residents-in-dubai-and-abu-dhabi-on-thursday-morning/",
           "domain": "thenationalnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://www.timesofisrael.com/liveblog_entry/uae-intercepts-7-ballistic-missiles-15-drones/",
+          "domain": "timesofisrael.com",
+          "tier": "wire"
         }
       ],
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/TTKG6KR5AVE63IU5TBYJTLMX7E.jpg?smart=true&auth=3b73d3f7fdb351ae21b616723530403678f0500444761bcf5de2b75da42fa079&width=1200&height=630",
       "_via": "rss",
-      "confidence": "medium"
+      "confidence": "medium",
+      "_search_count": 1,
+      "_next_search_at": 1773899381.0
     },
     {
       "id": "780a01b87f72",
