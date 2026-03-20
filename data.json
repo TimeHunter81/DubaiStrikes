@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-20T02:30:11Z",
+  "last_updated": "2026-03-20T02:40:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -27,45 +27,26 @@
       "_next_search_at": 1773976141.0
     },
     {
-      "id": "faed091a7ffe",
-      "datetime": "2026-03-19T03:34:54Z",
+      "id": "be88388faa8c",
+      "datetime": "2026-03-19T04:49:41Z",
       "type": "interception",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "country",
-      "title": "UAE intercepts 7 Iranian ballistic missiles and 15 UAVs",
+      "title": "UAE intercepts seven Iranian ballistic missiles and 15 drones",
       "location": "UAE",
       "lat": null,
       "lon": null,
       "sources": [
-        {
-          "url": "https://www.bbc.com/news/articles/crl4gxgkkylo",
-          "domain": "bbc.com",
-          "tier": "wire"
-        },
-        {
-          "url": "https://apnews.com/article/iran-iraq-us-israel-trump-march-18-2026-d7ca062ba1bf99d1f8dc00c8073cf10f",
-          "domain": "apnews.com",
-          "tier": "wire"
-        },
-        {
-          "url": "https://www.aljazeera.com/news/2026/3/18/iran-fires-missiles-drones-across-gulf-region-remains-in-war-crosshairs",
-          "domain": "aljazeera.com",
-          "tier": "wire"
-        },
-        {
-          "url": "https://ae.usembassy.gov/security-alert-u-s-mission-to-the-united-arab-emirates-march-18-2026/",
-          "domain": "ae.usembassy.gov",
-          "tier": "wire"
-        },
         {
           "url": "https://www.thenationalnews.com/news/uae/2026/03/19/missile-warning-sent-to-residents-in-dubai-and-abu-dhabi-on-thursday-morning/",
           "domain": "thenationalnews.com",
           "tier": "local"
         }
       ],
-      "snippet": "UAE air defences intercepted 7 Iranian ballistic missiles and 15 UAVs overnight. US Embassy issued missile alert for Dubai and Abu Dhabi.",
-      "confidence": "high",
-      "_via": "rss"
+      "snippet": null,
+      "preview_image": "https://www.thenationalnews.com/resizer/v2/TTKG6KR5AVE63IU5TBYJTLMX7E.jpg?smart=true&auth=3b73d3f7fdb351ae21b616723530403678f0500444761bcf5de2b75da42fa079&width=1200&height=630",
+      "_via": "rss",
+      "confidence": "low"
     },
     {
       "id": "780a01b87f72",
