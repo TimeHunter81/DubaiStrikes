@@ -1,7 +1,29 @@
 {
-  "last_updated": "2026-03-20T20:42:00Z",
+  "last_updated": "2026-03-20T21:01:40Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
+    {
+      "id": "cdacb355e249",
+      "datetime": "2026-03-20T20:26:11Z",
+      "type": "interception",
+      "confirmed": false,
+      "precision": "country",
+      "title": "UAE air defences engage Iranian missile and drone threat (evening wave)",
+      "location": "Uae",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://gulfnews.com/uae/uae-air-defences-responding-to-iranian-missile-and-drone-threats-1.500481490",
+          "domain": "gulfnews.com",
+          "tier": "local"
+        }
+      ],
+      "snippet": null,
+      "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-10%2Foxjrgpgh%2Fgulfnews2026-03-057odx7i2wnewsmlafpcom20260305T175920Zdoca24n37y.avif?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
+      "_via": "rss",
+      "confidence": "low"
+    },
     {
       "id": "ac5448515b08",
       "datetime": "2026-03-20T08:24:51Z",
@@ -35,26 +57,6 @@
         }
       ],
       "confidence": "high",
-      "_via": "rss"
-    },
-    {
-      "id": "565442bafe54",
-      "datetime": "2026-03-20T04:56:19Z",
-      "type": "security_alert",
-      "confirmed": false,
-      "precision": "country",
-      "title": "UAE airports suspend flights amid missile and drone attack",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.thenationalnews.com/travel/2026/03/20/which-flights-are-suspended-or-delayed-at-dubai-and-abu-dhabi-airports/",
-          "domain": "thenationalnews.com",
-          "tier": "local"
-        }
-      ],
-      "confidence": "low",
       "_via": "rss"
     },
     {
