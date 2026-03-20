@@ -1,14 +1,14 @@
 {
-  "last_updated": "2026-03-20T23:30:00Z",
+  "last_updated": "2026-03-20T23:45:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
       "id": "cdacb355e249",
       "datetime": "2026-03-20T20:26:11Z",
       "type": "interception",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "country",
-      "title": "UAE air defences engage Iranian missiles and drones",
+      "title": "UAE air defences intercept Iranian missiles and drones — evening wave",
       "location": "UAE",
       "lat": null,
       "lon": null,
@@ -26,7 +26,7 @@
         {
           "url": "https://www.middleeasteye.net/live-blog/live-blog-update/uae-says-air-defences-intercepted-iranian-missiles-and-drones",
           "domain": "middleeasteye.net",
-          "tier": "wire"
+          "tier": "local"
         }
       ],
       "_via": "rss",
