@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-03-20T04:39:00Z",
+  "last_updated": "2026-03-20T04:52:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
       "id": "2108c7d6dd85",
       "datetime": "2026-03-20T02:09:01Z",
       "type": "interception",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "city",
       "title": "Dubai confirms air defence interceptions after loud sounds reported",
       "location": "Dubai",
