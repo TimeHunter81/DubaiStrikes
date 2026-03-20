@@ -1,14 +1,14 @@
 {
-  "last_updated": "2026-03-20T09:48:00Z",
+  "last_updated": "2026-03-20T10:00:46Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
       "id": "ac5448515b08",
       "datetime": "2026-03-20T08:24:51Z",
       "type": "interception",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "country",
-      "title": "UAE among Gulf states intercepting Iranian Eid morning wave",
+      "title": "UAE intercepts Iranian Eid-morning wave of drones and missiles",
       "location": "UAE",
       "lat": null,
       "lon": null,
@@ -35,7 +35,7 @@
       "type": "interception",
       "confirmed": false,
       "precision": "city",
-      "title": "Dubai air defence confirms interceptions after loud sounds reported",
+      "title": "Dubai air defence confirms interceptions after loud sounds",
       "location": "Dubai",
       "lat": 25.2048,
       "lon": 55.2708,
@@ -62,6 +62,28 @@
       "confidence": "medium",
       "_search_count": 3,
       "_next_search_at": 1774058941.0
+    },
+    {
+      "id": "be88388faa8c",
+      "datetime": "2026-03-19T04:49:41Z",
+      "type": "interception",
+      "confirmed": false,
+      "precision": "country",
+      "title": "UAE intercepts 7 ballistic missiles and 15 drones in new wave",
+      "location": "Uae",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.thenationalnews.com/news/uae/2026/03/19/missile-warning-sent-to-residents-in-dubai-and-abu-dhabi-on-thursday-morning/",
+          "domain": "thenationalnews.com",
+          "tier": "local"
+        }
+      ],
+      "snippet": null,
+      "preview_image": "https://www.thenationalnews.com/resizer/v2/TTKG6KR5AVE63IU5TBYJTLMX7E.jpg?smart=true&amp;auth=3b73d3f7fdb351ae21b616723530403678f0500444761bcf5de2b75da42fa079&amp;width=1200&amp;height=630",
+      "_via": "rss",
+      "confidence": "low"
     },
     {
       "id": "780a01b87f72",
