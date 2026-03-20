@@ -6,7 +6,7 @@
       "id": "380bdf2978ae",
       "datetime": "2026-03-20T05:42:12Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "Shabab Al Ahli striker Sardar Azmoun thrown out of Iran squad for UAE support",
       "location": "Uae",
@@ -17,18 +17,25 @@
           "url": "https://www.thenationalnews.com/sport/football/2026/03/20/shabab-al-ahli-striker-sardar-azmoun-thrown-out-of-iran-squad-for-uae-support/",
           "domain": "thenationalnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://www.aljazeera.com/sports/2026/3/20/iran-footballer-azmoun-kicked-off-national-team-for-disloyalty-say-reports",
+          "domain": "aljazeera.com",
+          "tier": "wire"
         }
       ],
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/RYCPPEHT5NBKJPDCKNOCQPWDLY.jpg?smart=true&amp;auth=397e5feac1789d9889ca4fda4e3039fb7a33a44028101046543509466d4e020f&amp;width=1200&amp;height=630",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1773988932.0
     },
     {
       "id": "71d3a20749e6",
       "datetime": "2026-03-20T05:32:42Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "Kuwait Petroleum Corp reports drone attacks targeting Mina Al-Ahmadi Refinery",
       "location": "UAE",
@@ -39,12 +46,19 @@
           "url": "https://gulfnews.com/world/gulf/kuwait/174oe4y-kuwait-petroleum-corporation-reports-drone-attacks-1.500480729",
           "domain": "gulfnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://www.usnews.com/news/us/articles/2026-03-20/kuwait-says-its-mina-al-ahmadi-refinery-again-hit-in-iranian-drone-attacks-starting-fire",
+          "domain": "usnews.com",
+          "tier": "wire"
         }
       ],
       "snippet": "Kuwait Petroleum Corporation reports drone attacks targeting Mina Al-Ahmadi Refinery",
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-20%2Fqow8bkrc%2F93q027th1ka0py1po.jpg?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1773988362.0
     },
     {
       "id": "138f9fc382d9",
@@ -66,7 +80,9 @@
       "snippet": null,
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-01-17%2Fl4u8swj5%2FMBZ.jpg?rect=0%2C0%2C1200%2C630&amp;w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1773988046.0
     },
     {
       "id": "27e039c3abb8",
@@ -88,7 +104,9 @@
       "snippet": null,
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-20%2Fmv5ldvpw%2FThe-family-with-the-first-Eid-baby-is-celebrating-a-moment-of-happiness-and-new-beginnings.jpg?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1773987948.0
     },
     {
       "id": "ee7e6a34eb59",
