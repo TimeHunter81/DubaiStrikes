@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-03-20T09:04:00Z",
+  "last_updated": "2026-03-20T08:14:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
       "id": "2108c7d6dd85",
       "datetime": "2026-03-20T02:09:01Z",
       "type": "interception",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "city",
       "title": "Dubai air defence confirms interceptions after loud sounds reported",
       "location": "Dubai",
@@ -328,7 +328,7 @@
           "tier": "wire"
         },
         {
-          "url": "https://www.aljazeera.com/news/2026/3/1/more-blasts-rock-dubai-doha-and-manama-as-iran-targets-us-assets-in-gulf",
+          "url": "https://www.aljazeera.com/news/2026/3/1/more-blasts-rock-dubai-doha-and-manama-as-iran-targets-us-assets-in-Gulf",
           "domain": "aljazeera.com",
           "tier": "wire"
         }
