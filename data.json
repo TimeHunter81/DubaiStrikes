@@ -28,29 +28,36 @@
       "id": "84fdefb50f22",
       "datetime": "2026-03-20T00:15:20Z",
       "type": "security_alert",
-      "confirmed": false,
-      "precision": "country",
+      "confirmed": true,
+      "precision": "city",
       "title": "Hazza bin Zayed congratulates UAE leaders on Eid Al-Fitr",
-      "location": "Uae",
-      "lat": null,
-      "lon": null,
+      "location": "Al Ain, UAE",
+      "lat": 24.2075,
+      "lon": 55.7447,
       "sources": [
         {
           "url": "https://gulfnews.com/uae/hazza-bin-zayed-congratulates-uae-leaders-on-eid-al-fitr-1.500480540",
           "domain": "gulfnews.com",
           "tier": "local"
+        },
+        {
+          "url": "http://www.iraqsun.com/news/278932813/hazza-bin-zayed-congratulates-uae-leaders-on-eid-al-fitr",
+          "domain": "iraqsun.com",
+          "tier": "wire"
         }
       ],
       "snippet": "Hazza bin Zayed congratulates UAE leaders on Eid Al-Fitr",
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-20%2F42sq6aim%2Fll5027kl1ka06shpo.jpg?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1773969320.0
     },
     {
       "id": "cc9c1fbe7206",
       "datetime": "2026-03-20T00:12:15Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "US expedites sale of air defence and weapons package to UAE",
       "location": "Uae",
@@ -61,12 +68,19 @@
           "url": "https://www.thenationalnews.com/news/us/2026/03/20/us-expedites-sale-of-air-defence-and-weapons-package-to-uae/",
           "domain": "thenationalnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://www.reuters.com/business/aerospace-defense/us-approves-billions-arms-sales-middle-east-countries-2026-03-19/",
+          "domain": "reuters.com",
+          "tier": "wire"
         }
       ],
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/UZGFXDCIZPWEKMMC52TYW7TS7Q.jpg?smart=true&amp;auth=757a9516b5b0def876ede1954fbe0841c00fe77ec8a56e803c51380a443c1273&amp;width=1200&amp;height=630",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1773969135.0
     },
     {
       "id": "796ec88250d3",
@@ -94,7 +108,7 @@
       "id": "98541f0dc0b1",
       "datetime": "2026-03-19T23:56:45Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "Hamdan bin Zayed congratulates UAE leaders on Eid Al-Fitr",
       "location": "Uae",
@@ -105,12 +119,19 @@
           "url": "https://gulfnews.com/uae/hamdan-bin-zayed-congratulates-uae-leaders-on-eid-al-fitr-1.500480538",
           "domain": "gulfnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://www.nma.gov.ae/en/news/uae-president-receive-mohammed-bin-rashid",
+          "domain": "nma.gov.ae",
+          "tier": "wire"
         }
       ],
       "snippet": "Hamdan bin Zayed congratulates UAE leaders on Eid Al-Fitr",
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-19%2Fypf14z9t%2F3bd027c51ka06nwpo.jpg?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1773968205.0
     },
     {
       "id": "e7cc3785137c",
@@ -138,7 +159,7 @@
       "id": "911c5c002c89",
       "datetime": "2026-03-19T23:44:25Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "Netanyahu says Iran &apos;decimated,&apos; Mojtaba Khamenei &apos;has not shown his face&apos;",
       "location": "UAE",
@@ -149,12 +170,19 @@
           "url": "https://gulfnews.com/world/mena/netanyahu-says-iran-decimated-mojtaba-khamenei-has-not-shown-his-face-1.500479561",
           "domain": "gulfnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://www.thehindu.com/news/international/iran-israel-usa-war-live-updates-march-19-2026/article70760463.ece",
+          "domain": "thehindu.com",
+          "tier": "wire"
         }
       ],
       "snippet": "Trump threatens to destroy Iran&apos;s largest gas field",
       "preview_image": "https://media.assettype.com/gulfnews%2Fimport%2F2019%2F12%2F06%2FOPN-191206-Netanyahu-1575629900963_16edadc4ca3_large.jpg?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1773967465.0
     },
     {
       "id": "880aebb3094a",
