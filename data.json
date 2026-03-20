@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-20T20:30:00Z",
+  "last_updated": "2026-03-20T20:42:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -41,7 +41,7 @@
       "id": "565442bafe54",
       "datetime": "2026-03-20T04:56:19Z",
       "type": "security_alert",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "country",
       "title": "UAE airports suspend flights amid missile and drone attack",
       "location": "UAE",
@@ -55,9 +55,7 @@
         }
       ],
       "confidence": "low",
-      "_via": "rss",
-      "_search_count": 1,
-      "_next_search_at": 1773986179.0
+      "_via": "rss"
     },
     {
       "id": "780a01b87f72",
