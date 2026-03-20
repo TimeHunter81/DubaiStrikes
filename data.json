@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-03-20T22:43:17Z",
+  "last_updated": "2026-03-20T22:52:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
       "id": "cdacb355e249",
       "datetime": "2026-03-20T20:26:11Z",
       "type": "interception",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "country",
       "title": "UAE air defences engage Iranian missile and drone threat",
       "location": "UAE",
@@ -25,9 +25,7 @@
         }
       ],
       "_via": "rss",
-      "confidence": "high",
-      "_search_count": 1,
-      "_next_search_at": 1774041971.0
+      "confidence": "high"
     },
     {
       "id": "ac5448515b08",
