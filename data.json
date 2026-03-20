@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-20T12:48:00Z",
+  "last_updated": "2026-03-20T12:57:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -8,15 +8,15 @@
       "type": "interception",
       "confirmed": true,
       "precision": "country",
-      "title": "UAE intercepts 4 ballistic missiles and 26 drones in Eid morning wave",
+      "title": "UAE intercepts 4 ballistic missiles and 26 drones — Eid morning wave",
       "location": "UAE",
       "lat": null,
       "lon": null,
       "sources": [
         {
-          "url": "https://www.thenationalnews.com/news/gulf/2026/03/20/gulf-countries-respond-to-iranian-attacks-as-eid-holiday-begins/",
-          "domain": "thenationalnews.com",
-          "tier": "local"
+          "url": "https://www.bbc.com/news/live/c24d410m3g4t",
+          "domain": "bbc.com",
+          "tier": "wire"
         },
         {
           "url": "https://www.hindustantimes.com/world-news/abu-dhabi-dubai-uae-war-news-live-updates-uae-war-news-march-20-drone-missile-attack-qatar-strait-of-hormuz-iran-israel-us-101773969074036.html",
@@ -24,9 +24,9 @@
           "tier": "wire"
         },
         {
-          "url": "https://www.bbc.com/news/live/c24d410m3g4t",
-          "domain": "bbc.com",
-          "tier": "wire"
+          "url": "https://www.thenationalnews.com/news/gulf/2026/03/20/gulf-countries-respond-to-iranian-attacks-as-eid-holiday-begins/",
+          "domain": "thenationalnews.com",
+          "tier": "local"
         },
         {
           "url": "https://gulfnews.com/uae/government/uae-air-defences-intercept-4-ballistic-missiles-and-26-drones-1.500481009",
