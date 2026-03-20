@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-03-20T03:09:00Z",
+  "last_updated": "2026-03-20T03:22:42Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
       "id": "2108c7d6dd85",
       "datetime": "2026-03-20T02:09:01Z",
       "type": "interception",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "city",
       "title": "Dubai confirms air defence interceptions after loud sounds reported",
       "location": "Dubai",
@@ -30,7 +30,7 @@
       "id": "be88388faa8c",
       "datetime": "2026-03-19T04:49:41Z",
       "type": "interception",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "country",
       "title": "UAE intercepts seven Iranian ballistic missiles and 15 drones",
       "location": "UAE",
