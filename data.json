@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-20T21:17:00Z",
+  "last_updated": "2026-03-20T21:34:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -24,8 +24,6 @@
           "tier": "wire"
         }
       ],
-      "snippet": null,
-      "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-10%2Foxjrgpgh%2Fgulfnews2026-03-057odx7i2wnewsmlafpcom20260305T175920Zdoca24n37y.avif?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
       "_via": "rss",
       "confidence": "high",
       "_search_count": 1,
