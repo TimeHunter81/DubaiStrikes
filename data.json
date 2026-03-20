@@ -6,7 +6,7 @@
       "id": "ac5448515b08",
       "datetime": "2026-03-20T08:24:51Z",
       "type": "interception",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "UAE intercepts Iranian Eid-morning wave of drones and missiles",
       "location": "UAE",
@@ -27,7 +27,9 @@
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/NDPARRTGKU3YSLPSV2BUDBCCQM.jpg?smart=true&auth=bb23efc6a482ac97c525847af45a69f68a21fb7a7ea8c73b954db28836307445&width=1200&height=630",
       "_via": "rss",
-      "confidence": "high"
+      "confidence": "high",
+      "_search_count": 1,
+      "_next_search_at": 1773998691.0
     },
     {
       "id": "2108c7d6dd85",
@@ -67,7 +69,7 @@
       "id": "be88388faa8c",
       "datetime": "2026-03-19T04:49:41Z",
       "type": "interception",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "UAE intercepts 7 ballistic missiles and 15 drones in new wave",
       "location": "Uae",
@@ -83,7 +85,9 @@
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/TTKG6KR5AVE63IU5TBYJTLMX7E.jpg?smart=true&amp;auth=3b73d3f7fdb351ae21b616723530403678f0500444761bcf5de2b75da42fa079&amp;width=1200&amp;height=630",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1773899381.0
     },
     {
       "id": "780a01b87f72",
