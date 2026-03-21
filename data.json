@@ -22,7 +22,9 @@
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/OGS2LUGGDZBFDHGPZ2BRVBJ5FE.jpeg?smart=true&amp;auth=53ea3008666a062a81f8601879b7a9f2d69a3a49bd2f6f65a8e0d7072aed8ee0&amp;width=1200&amp;height=630",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774124052.0
     },
     {
       "id": "1b9e55306f7a",
@@ -72,23 +74,30 @@
       "id": "7b0738a7d82f",
       "datetime": "2026-03-21T17:44:33Z",
       "type": "security_alert",
-      "confirmed": false,
-      "precision": "country",
+      "confirmed": true,
+      "precision": "exact",
       "title": "Failed Diego Garcia missile strike raises 4,000km question: How far can Iran really reach?",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
+      "location": "Diego Garcia, British Indian Ocean Territory",
+      "lat": -7.312,
+      "lon": 72.4243,
       "sources": [
         {
           "url": "https://gulfnews.com/world/mena/failed-diego-garcia-strike-raises-4-000-km-question-how-far-can-iran-really-reach-1.500482192",
           "domain": "gulfnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://www.cnbc.com/2026/03/21/iran-targeted-but-did-not-hit-diego-garcia-base-with-missiles-wsj.html",
+          "domain": "cnbc.com",
+          "tier": "wire"
         }
       ],
       "snippet": "4,000km strike raises Iran missile range questions",
       "preview_image": "https://media.assettype.com/gulfnews%2F2024-11-27%2Fe7cwqqq8%2Firan_missile_1703423563490_18c9bf4d6e7_original_ratio.jpg?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774118673.0
     },
     {
       "id": "f8cbffe9ed3b",
@@ -139,7 +148,9 @@
       "snippet": null,
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-21%2F02joiovy%2FLucky-Day-Draw-No.-260321.png?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774115311.0
     },
     {
       "id": "034743dce5a9",
@@ -183,7 +194,9 @@
       "snippet": "UAE expresses solidarity with Republic of Korea, offers condolences over victims of car parts factory fire",
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-21%2Fm0ns8oen%2FBlaze.jpg?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774113421.0
     },
     {
       "id": "6c7d2d26ee08",
