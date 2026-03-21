@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-03-21T19:58:00Z",
+  "last_updated": "2026-03-21T20:09:13Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
       "id": "f8cbffe9ed3b",
       "datetime": "2026-03-21T16:49:02Z",
       "type": "interception",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "country",
       "title": "UAE issues all-clear after missile and drone interception",
       "location": "UAE",
@@ -34,7 +34,7 @@
       "id": "1a12f988b209",
       "datetime": "2026-03-21T10:49:39Z",
       "type": "interception",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "country",
       "title": "UAE intercepts 3 ballistic missiles, 8 drones — Mar 21",
       "location": "UAE",
@@ -57,7 +57,7 @@
       "id": "cdacb355e249",
       "datetime": "2026-03-20T20:26:11Z",
       "type": "interception",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "country",
       "title": "UAE air defences intercept missiles and drones — Mar 20 evening",
       "location": "UAE",
