@@ -22,29 +22,38 @@
       "snippet": "Abu Dhabi parks celebrate cultural diversity during Eid Al-Fitr",
       "preview_image": "https://media.assettype.com/gulfnews%2F2024-11-16%2Fm878id4x%2FAbu_Dhabi_park_16ef99d9c30_original_ratio.jpg?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774062496.0
     },
     {
       "id": "30550ef2736c",
       "datetime": "2026-03-21T02:00:01Z",
       "type": "security_alert",
-      "confirmed": false,
-      "precision": "country",
+      "confirmed": true,
+      "precision": "city",
       "title": "Dh3,300 for a flight to India: UAE passengers count cost of travel disruption",
-      "location": "Uae",
-      "lat": null,
-      "lon": null,
+      "location": "Dubai",
+      "lat": 25.2532,
+      "lon": 55.3657,
       "sources": [
         {
           "url": "https://www.thenationalnews.com/news/uae/2026/03/21/dh3300-for-a-flight-to-india-uae-passengers-count-cost-of-travel-disruption/",
           "domain": "thenationalnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://www.reuters.com/world/middle-east/uae-temporarily-closes-its-airspace-an-exceptional-precautionary-measure-2026-03-17/",
+          "domain": "reuters.com",
+          "tier": "wire"
         }
       ],
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/T5ITJAPK2XPHN2IBQVK2EBDBOI.jpg?smart=true&amp;auth=91f2e222e40285d737aa47cb549168670415bfddf1120f356359480eb53dd2ea&amp;width=1200&amp;height=630",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774062001.0
     },
     {
       "id": "0a925f56e19d",
@@ -66,29 +75,38 @@
       "snippet": null,
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-20%2F338qsa8w%2FUntitled-design-40.jpg?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774062000.0
     },
     {
       "id": "8292125813fc",
       "datetime": "2026-03-21T01:42:49Z",
       "type": "security_alert",
-      "confirmed": false,
-      "precision": "country",
+      "confirmed": true,
+      "precision": "city",
       "title": "Egypt affirms full support for UAE, Kuwait, Gulf states security measures",
-      "location": "Uae",
-      "lat": null,
-      "lon": null,
+      "location": "Abu Dhabi",
+      "lat": 24.4539,
+      "lon": 54.3773,
       "sources": [
         {
           "url": "https://gulfnews.com/world/mena/egypt-affirms-full-support-for-uae-kuwait-gulf-states-security-measures-1.500481580",
           "domain": "gulfnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://www.dailynewsegypt.com/2026/03/19/egypts-sisi-visits-uae-qatar-says-gulf-security-is-extension-of-national-security/",
+          "domain": "dailynewsegypt.com",
+          "tier": "wire"
         }
       ],
       "snippet": "Egypt affirms full support for UAE, Kuwait, Gulf states security measures",
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-21%2F9xiuetiu%2Fquz028nj1ka0cc3po.jpg?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774060969.0
     },
     {
       "id": "ae80e6d4dec8",
