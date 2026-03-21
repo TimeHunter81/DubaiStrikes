@@ -6,7 +6,7 @@
       "id": "f8cbffe9ed3b",
       "datetime": "2026-03-21T16:49:02Z",
       "type": "interception",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "UAE intercepts missiles and drones — Mar 21 evening",
       "location": "UAE",
@@ -31,13 +31,15 @@
       ],
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-21%2Fksfuohwj%2Fsms-alert-pexels-1.jpg?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
       "_via": "rss",
-      "confidence": "high"
+      "confidence": "high",
+      "_search_count": 1,
+      "_next_search_at": 1774115342.0
     },
     {
       "id": "1a12f988b209",
       "datetime": "2026-03-21T10:41:03Z",
       "type": "interception",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "UAE intercepts 3 ballistic missiles, 8 drones — Mar 21 morning",
       "location": "UAE",
@@ -57,14 +59,16 @@
       ],
       "preview_image": null,
       "_via": "rss",
-      "confidence": "high"
+      "confidence": "high",
+      "_search_count": 1,
+      "_next_search_at": 1774093263.0
     },
     {
       "id": "cdacb355e249",
       "datetime": "2026-03-20T20:26:11Z",
       "type": "interception",
-      "confirmed": false,
-      "precision": "emirate",
+      "confirmed": true,
+      "precision": "city",
       "title": "UAE air defences intercept missiles and drones — Mar 20 evening",
       "location": "Abu Dhabi, UAE",
       "lat": 24.4539,
@@ -87,7 +91,9 @@
         }
       ],
       "preview_image": null,
-      "confidence": "high"
+      "confidence": "high",
+      "_search_count": 1,
+      "_next_search_at": 1774041971.0
     },
     {
       "id": "ac5448515b08",
