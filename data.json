@@ -6,7 +6,7 @@
       "id": "f8cbffe9ed3b",
       "datetime": "2026-03-21T16:49:02Z",
       "type": "interception",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "UAE issues all-clear after missile and drone interception",
       "location": "UAE",
@@ -17,14 +17,19 @@
           "url": "https://gulfnews.com/uae/government/uae-responds-to-new-missile-and-drone-threats-from-iran-issues-safety-alert-1.500482170",
           "domain": "gulfnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://www.arnnewscentre.ae/news/uae/uae-responds-to-missile-drone-threat-early-saturday/",
+          "domain": "arnnewscentre.ae",
+          "tier": "wire"
         }
       ],
       "snippet": null,
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-21%2Fksfuohwj%2Fsms-alert-pexels-1.jpg?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
       "_via": "rss",
       "confidence": "low",
-      "_search_count": 1,
-      "_next_search_at": 1774115342.0
+      "_search_count": 2,
+      "_next_search_at": 1774133342.0
     },
     {
       "id": "1a12f988b209",
