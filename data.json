@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-21T12:29:00Z",
+  "last_updated": "2026-03-21T12:40:26Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -62,7 +62,7 @@
       "type": "interception",
       "confirmed": true,
       "precision": "country",
-      "title": "UAE intercepts 4 ballistic missiles and 26 drones",
+      "title": "UAE intercepts 4 ballistic missiles and 26 drones — Mar 20 morning",
       "location": "UAE",
       "lat": null,
       "lon": null,
