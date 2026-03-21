@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-03-21T18:46:00Z",
+  "last_updated": "2026-03-21T18:54:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
       "id": "f8cbffe9ed3b",
       "datetime": "2026-03-21T16:49:02Z",
       "type": "interception",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "country",
       "title": "UAE issues all-clear after missile and drone interception",
       "location": "UAE",
