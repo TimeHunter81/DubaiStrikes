@@ -22,13 +22,15 @@
       "snippet": null,
       "preview_image": "https://media.assettype.com/gulfnews%2F2024-11-19%2F6qc7s0vy%2FSTOCK_INDIGO_AIRLINE_18bae25486e_original_ratio.jpeg?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774102069.0
     },
     {
       "id": "696d8d63a9bc",
       "datetime": "2026-03-21T12:46:08Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "'No Eid or Newroz for us': Kurdish family mourn son killed in drone attack",
       "location": "UAE",
@@ -39,12 +41,19 @@
           "url": "https://www.thenationalnews.com/news/mena/2026/03/21/no-eid-or-newroz-for-us-kurdish-family-mourn-son-killed-in-drone-attack/",
           "domain": "thenationalnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://www.reuters.com/business/media-telecom/drone-attacks-iranian-kurdish-opposition-groups-hq-iraqs-kurdistan-security-2026-03-04/",
+          "domain": "reuters.com",
+          "tier": "wire"
         }
       ],
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/ABGQC3CPDFCKRNC3HASDP52WEY.jpg?smart=true&amp;auth=5fb66adc90b8162770810d9906a762248aac4eb258b84495654232c118932cd2&amp;width=1200&amp;height=630",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774100768.0
     },
     {
       "id": "a214a872aa3c",
@@ -88,7 +97,9 @@
       "snippet": null,
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-21%2F9jk4pa1k%2Fnewsml_afp_com_20260321T122226Z_doc_a47f7ke.jpeg?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774099860.0
     },
     {
       "id": "e46cb73d7674",
@@ -116,7 +127,7 @@
       "id": "37dedee58b56",
       "datetime": "2026-03-21T12:18:39Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "Global leaders condemn Iran actions in Strait of Hormuz, urge ceasefire",
       "location": "UAE",
@@ -127,12 +138,19 @@
           "url": "https://gulfnews.com/uae/global-leaders-condemn-iran-actions-in-strait-of-hormuz-urge-ceasefire-2-1.500481961",
           "domain": "gulfnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://www.reuters.com/world/middle-east/iran-vows-attack-any-ship-trying-pass-through-strait-hormuz-2026-03-02/",
+          "domain": "reuters.com",
+          "tier": "wire"
         }
       ],
       "snippet": "Joint statement on Strait of Hormuz",
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-10%2Fihkjsyq9%2FStrait-of-Hormuz44-Read-Only.jpg?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774099119.0
     },
     {
       "id": "e22e7e35cf7a",
