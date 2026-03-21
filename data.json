@@ -28,7 +28,7 @@
       "id": "1ca3774f2260",
       "datetime": "2026-03-21T11:02:41Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "Iranian missiles target Diego Garcia after UK grants US use of base",
       "location": "UAE",
@@ -39,12 +39,19 @@
           "url": "https://www.thenationalnews.com/news/uk/2026/03/21/iranian-missiles-target-diego-garcia-after-uk-grants-us-use-of-base/",
           "domain": "thenationalnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://www.reuters.com/world/middle-east/iran-targeted-did-not-hit-diego-garcia-base-with-missiles-wsj-reports-2026-03-21/",
+          "domain": "reuters.com",
+          "tier": "wire"
         }
       ],
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/CR66ZHICCQM334WRNU57MP6QY4.jpg?smart=true&amp;auth=c18d1468c75e966aa7b09181a8b0039217b31b5f3b0ca44307daf23a618b5fe5&amp;width=1200&amp;height=630",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774094561.0
     },
     {
       "id": "0921fbce8003",
@@ -160,7 +167,7 @@
       "id": "d904ade3aa90",
       "datetime": "2026-03-21T10:33:44Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "Unstable weather in UAE: NCM issues flash flood warnings due to heavy rainfall",
       "location": "Uae",
@@ -176,13 +183,15 @@
       "snippet": null,
       "preview_image": "https://media.assettype.com/gulfnews%2F2025-10-13%2F57qm5c9u%2FCapture.JPG?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774092824.0
     },
     {
       "id": "479e1347cf41",
       "datetime": "2026-03-21T10:06:05Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "Air Arabia issues travel advisory as UAE faces adverse weather",
       "location": "Uae",
@@ -198,7 +207,9 @@
       "snippet": null,
       "preview_image": "https://media.assettype.com/gulfnews%2F2024-11-29%2Fr21dbge1%2FAir_Arabia_16e59eda03b_original_ratio.jpg?rect=0%2C80%2C800%2C420&amp;w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774091165.0
     },
     {
       "id": "515de0d5dd18",
@@ -248,7 +259,7 @@
       "id": "1d5de343dd20",
       "datetime": "2026-03-21T09:30:16Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "How Iran is deciding who can and who can't pass through the Strait of Hormuz",
       "location": "UAE",
@@ -264,7 +275,9 @@
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/REV254PQOWNNSJ7BELKL4PM5BU.jpg?smart=true&amp;auth=566efa5ca5d6a8f4cd75fb6337216a045cf1defb15058e6756eb52673aff6fb0&amp;width=1200&amp;height=630",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774089016.0
     },
     {
       "id": "eff211b230a0",
