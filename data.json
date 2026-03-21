@@ -6,7 +6,7 @@
       "id": "1a12f988b209",
       "datetime": "2026-03-21T10:49:39Z",
       "type": "interception",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "UAE intercepts 3 ballistic missiles, 8 drones — Mar 21",
       "location": "UAE",
@@ -21,8 +21,8 @@
       ],
       "confidence": "low",
       "_via": "rss",
-      "_search_count": 1,
-      "_next_search_at": 1774093779.0
+      "_search_count": 2,
+      "_next_search_at": 1774111779.0
     },
     {
       "id": "cdacb355e249",
