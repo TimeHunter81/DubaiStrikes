@@ -1,7 +1,41 @@
 {
-  "last_updated": "2026-03-21T06:36:00Z",
+  "last_updated": "2026-03-21T06:45:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
+    {
+      "id": "cdacb355e249",
+      "datetime": "2026-03-20T20:26:11Z",
+      "type": "interception",
+      "confirmed": false,
+      "precision": "country",
+      "title": "UAE air defences intercept missiles and drones — evening wave",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://gulfnews.com/uae/uae-air-defences-responding-to-iranian-missile-and-drone-threats-1.500481490",
+          "domain": "gulfnews.com",
+          "tier": "local"
+        },
+        {
+          "url": "https://www.hindustantimes.com/world-news/abu-dhabi-dubai-news-live-updates-uae-war-news-march-20-drone-missile-attack-qatar-strait-of-hormuz-iran-israel-us-101773969074036.html",
+          "domain": "hindustantimes.com",
+          "tier": "wire"
+        },
+        {
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/uae-says-air-defences-intercepted-iranian-missiles-and-drones",
+          "domain": "middleeasteye.net",
+          "tier": "local"
+        }
+      ],
+      "snippet": null,
+      "preview_image": null,
+      "_via": "rss",
+      "confidence": "high",
+      "_search_count": 3,
+      "_next_search_at": 1774124771.0
+    },
     {
       "id": "ac5448515b08",
       "datetime": "2026-03-20T08:24:51Z",
@@ -38,40 +72,6 @@
       "preview_image": null,
       "_via": "rss",
       "confidence": "high"
-    },
-    {
-      "id": "cdacb355e249",
-      "datetime": "2026-03-20T20:26:11Z",
-      "type": "interception",
-      "confirmed": false,
-      "precision": "country",
-      "title": "UAE air defences intercept missiles and drones — evening wave",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://gulfnews.com/uae/uae-air-defences-responding-to-iranian-missile-and-drone-threats-1.500481490",
-          "domain": "gulfnews.com",
-          "tier": "local"
-        },
-        {
-          "url": "https://www.hindustantimes.com/world-news/abu-dhabi-dubai-news-live-updates-uae-war-news-march-20-drone-missile-attack-qatar-strait-of-hormuz-iran-israel-us-101773969074036.html",
-          "domain": "hindustantimes.com",
-          "tier": "wire"
-        },
-        {
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/uae-says-air-defences-intercepted-iranian-missiles-and-drones",
-          "domain": "middleeasteye.net",
-          "tier": "local"
-        }
-      ],
-      "snippet": null,
-      "preview_image": null,
-      "_via": "rss",
-      "confidence": "high",
-      "_search_count": 3,
-      "_next_search_at": 1774124771.0
     },
     {
       "id": "780a01b87f72",
