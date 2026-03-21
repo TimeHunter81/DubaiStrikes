@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-03-21T17:06:00Z",
+  "last_updated": "2026-03-21T17:14:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
       "id": "51e1528e0678",
       "datetime": "2026-03-21T16:49:02Z",
       "type": "security_alert",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "country",
       "title": "UAE issues safety alert in response to new Iranian missile and drone threats",
       "location": "UAE",
