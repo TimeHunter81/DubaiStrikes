@@ -6,12 +6,12 @@
       "id": "1a12f988b209",
       "datetime": "2026-03-21T10:49:39Z",
       "type": "interception",
-      "confirmed": false,
-      "precision": "country",
+      "confirmed": true,
+      "precision": "city",
       "title": "UAE air defences intercept 3 ballistic missiles, 8 drones — Mar 21",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
+      "location": "Abu Dhabi, UAE",
+      "lat": 24.4539,
+      "lon": 54.3773,
       "sources": [
         {
           "url": "https://gulfnews.com/uae/uae-air-defences-intercept-3-ballistic-missiles-8-drones-from-iran-today-1.500481899",
@@ -23,8 +23,8 @@
       "preview_image": null,
       "_via": "rss",
       "confidence": "low",
-      "_search_count": 2,
-      "_next_search_at": 1774111779.0
+      "_search_count": 3,
+      "_next_search_at": 1774176579.0
     },
     {
       "id": "cdacb355e249",
