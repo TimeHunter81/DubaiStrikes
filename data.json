@@ -6,7 +6,7 @@
       "id": "8292125813fc",
       "datetime": "2026-03-21T01:42:49Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "Egypt affirms full support for UAE, Kuwait, Gulf states security measures",
       "location": "Uae",
@@ -17,18 +17,25 @@
           "url": "https://gulfnews.com/world/mena/egypt-affirms-full-support-for-uae-kuwait-gulf-states-security-measures-1.500481580",
           "domain": "gulfnews.com",
           "tier": "local"
+        },
+        {
+          "url": "http://www.middleeaststar.com/news/278934692/egypt-affirms-full-support-for-uae-kuwait-gulf-states-security-measures",
+          "domain": "middleeaststar.com",
+          "tier": "wire"
         }
       ],
       "snippet": "Egypt affirms full support for UAE, Kuwait, Gulf states security measures",
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-21%2F9xiuetiu%2Fquz028nj1ka0cc3po.jpg?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774060969.0
     },
     {
       "id": "ae80e6d4dec8",
       "datetime": "2026-03-21T01:39:37Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "Jordan strongly condemns terrorist plot targeting United Arab Emirates",
       "location": "United Arab Emirates",
@@ -39,12 +46,19 @@
           "url": "https://gulfnews.com/world/mena/jordan-strongly-condemns-terrorist-plot-targeting-united-arab-emirates-1.500481562",
           "domain": "gulfnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://jordantimes.com/news/local/jordan-condemns-terrorist-plot-targeting-uae-reaffirms-full-solidarity",
+          "domain": "jordantimes.com",
+          "tier": "wire"
         }
       ],
       "snippet": "Jordan strongly condemns terrorist plot targeting United Arab Emirates",
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-20%2Fdstyaffh%2F6ge028cs1ka09f1po.jpg?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774060777.0
     },
     {
       "id": "18c65cdbf9dd",
@@ -66,7 +80,9 @@
       "snippet": "Israel strikes &apos;decimated&apos; Iran as war roils markets",
       "preview_image": "https://media.assettype.com/gulfnews%2F2024-11-17%2Fbw93pjg3%2F20200901_Top_News_donald_trump_174490d977e_original_ratio.jpg?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774060235.0
     },
     {
       "id": "89f30e52d8be",
@@ -88,7 +104,9 @@
       "snippet": "Death toll from Israeli strikes on Lebanon rises to 1,021",
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-20%2Fo061j431%2Fnso028cr1ka06h4po.jpg?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774059911.0
     },
     {
       "id": "d81a219267c4",
