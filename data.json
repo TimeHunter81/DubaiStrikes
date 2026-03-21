@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-03-21T21:47:00Z",
+  "last_updated": "2026-03-21T21:57:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
       "id": "f8cbffe9ed3b",
       "datetime": "2026-03-21T16:49:02Z",
       "type": "interception",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "country",
       "title": "UAE intercepts missiles and drones, all-clear issued — Mar 21 eve",
       "location": "UAE",
@@ -21,7 +21,7 @@
         {
           "url": "https://www.arnnewscentre.ae/news/uae/uae-responds-to-missile-drone-threat-early-saturday/",
           "domain": "arnnewscentre.ae",
-          "tier": "wire"
+          "tier": "local"
         }
       ],
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-21%2Fksfuohwj%2Fsms-alert-pexels-1.jpg?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
@@ -34,7 +34,7 @@
       "id": "1a12f988b209",
       "datetime": "2026-03-21T10:49:39Z",
       "type": "interception",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "country",
       "title": "UAE intercepts 3 ballistic missiles, 8 drones — Mar 21 morning",
       "location": "UAE",
@@ -49,7 +49,7 @@
         {
           "url": "https://www.hindustantimes.com/world-news/dubai-abu-dhabi-news-live-updates-uae-iran-us-israel-war-middle-east-crisis-qatar-saudi-airports-flights-missile-attacks-101774053741364.html",
           "domain": "hindustantimes.com",
-          "tier": "wire"
+          "tier": "local"
         }
       ],
       "preview_image": null,
@@ -62,7 +62,7 @@
       "id": "cdacb355e249",
       "datetime": "2026-03-20T20:26:11Z",
       "type": "interception",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "country",
       "title": "UAE air defences intercept missiles and drones — Mar 20 evening",
       "location": "UAE",
@@ -77,7 +77,7 @@
         {
           "url": "https://www.hindustantimes.com/world-news/abu-dhabi-dubai-news-live-updates-uae-war-news-march-20-drone-missile-attack-qatar-strait-of-hormuz-iran-israel-us-101773969074036.html",
           "domain": "hindustantimes.com",
-          "tier": "wire"
+          "tier": "local"
         },
         {
           "url": "https://www.middleeasteye.net/live-blog/live-blog-update/uae-says-air-defences-intercepted-iranian-missiles-and-drones",
@@ -109,7 +109,7 @@
         {
           "url": "https://www.hindustantimes.com/world-news/abu-dhabi-dubai-uae-war-news-live-updates-uae-war-news-march-20-drone-missile-attack-qatar-strait-of-hormuz-iran-israel-us-101773969074036.html",
           "domain": "hindustantimes.com",
-          "tier": "wire"
+          "tier": "local"
         },
         {
           "url": "https://www.thenationalnews.com/news/gulf/2026/03/20/gulf-countries-respond-to-iranian-attacks-as-eid-holiday-begins/",
@@ -161,7 +161,7 @@
         {
           "url": "https://www.hindustantimes.com/world-news/dubai-abu-dhabi-uae-war-news-live-updates-us-iran-israel-attack-flight-status-missile-alert-explosion-strikes-qatar-101772845653054.html",
           "domain": "hindustantimes.com",
-          "tier": "wire"
+          "tier": "local"
         },
         {
           "url": "https://www.aljazeera.com/news/2026/3/7/iranian-missiles-intercepted-over-saudi-jordan-drones-launched-at-qatar",
