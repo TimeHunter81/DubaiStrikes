@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-21T20:09:13Z",
+  "last_updated": "2026-03-21T20:21:21Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -8,7 +8,7 @@
       "type": "interception",
       "confirmed": true,
       "precision": "country",
-      "title": "UAE issues all-clear after missile and drone interception",
+      "title": "UAE all-clear after missile and drone interception — Mar 21 eve",
       "location": "UAE",
       "lat": null,
       "lon": null,
@@ -26,9 +26,7 @@
       ],
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-21%2Fksfuohwj%2Fsms-alert-pexels-1.jpg?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
       "_via": "rss",
-      "confidence": "high",
-      "_search_count": 2,
-      "_next_search_at": 1774133342.0
+      "confidence": "high"
     },
     {
       "id": "1a12f988b209",
@@ -36,7 +34,7 @@
       "type": "interception",
       "confirmed": true,
       "precision": "country",
-      "title": "UAE intercepts 3 ballistic missiles, 8 drones — Mar 21",
+      "title": "UAE intercepts 3 ballistic missiles, 8 drones — Mar 21 morning",
       "location": "UAE",
       "lat": null,
       "lon": null,
@@ -49,9 +47,7 @@
       ],
       "preview_image": null,
       "_via": "rss",
-      "confidence": "high",
-      "_search_count": 2,
-      "_next_search_at": 1774111779.0
+      "confidence": "high"
     },
     {
       "id": "cdacb355e249",
@@ -81,9 +77,7 @@
         }
       ],
       "preview_image": null,
-      "confidence": "high",
-      "_search_count": 2,
-      "_next_search_at": 1774059971.0
+      "confidence": "high"
     },
     {
       "id": "ac5448515b08",
