@@ -62,12 +62,12 @@
       "id": "cdacb355e249",
       "datetime": "2026-03-20T20:26:11Z",
       "type": "interception",
-      "confirmed": false,
-      "precision": "country",
+      "confirmed": true,
+      "precision": "emirate",
       "title": "UAE air defences intercept missiles and drones — Mar 20 evening",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
+      "location": "Abu Dhabi, UAE",
+      "lat": 24.4539,
+      "lon": 54.3773,
       "sources": [
         {
           "url": "https://gulfnews.com/uae/uae-air-defences-responding-to-iranian-missile-and-drone-threats-1.500481490",
@@ -87,8 +87,8 @@
       ],
       "preview_image": null,
       "confidence": "high",
-      "_search_count": 3,
-      "_next_search_at": 1774124771.0
+      "_search_count": 4,
+      "_next_search_at": 1774297571.0
     },
     {
       "id": "ac5448515b08",
