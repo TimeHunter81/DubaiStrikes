@@ -34,7 +34,7 @@
       "id": "1a12f988b209",
       "datetime": "2026-03-21T10:49:39Z",
       "type": "interception",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "UAE intercepts 3 ballistic missiles, 8 drones — Mar 21 morning",
       "location": "UAE",
@@ -45,19 +45,24 @@
           "url": "https://gulfnews.com/uae/uae-air-defences-intercept-3-ballistic-missiles-8-drones-from-iran-today-1.500481899",
           "domain": "gulfnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://www.hindustantimes.com/world-news/dubai-abu-dhabi-news-live-updates-uae-iran-us-israel-war-middle-east-crisis-qatar-saudi-airports-flights-missile-attacks-101774053741364.html",
+          "domain": "hindustantimes.com",
+          "tier": "wire"
         }
       ],
       "preview_image": null,
       "_via": "rss",
       "confidence": "high",
-      "_search_count": 2,
-      "_next_search_at": 1774111779.0
+      "_search_count": 3,
+      "_next_search_at": 1774176579.0
     },
     {
       "id": "cdacb355e249",
       "datetime": "2026-03-20T20:26:11Z",
       "type": "interception",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "UAE air defences intercept missiles and drones — Mar 20 evening",
       "location": "UAE",
@@ -82,8 +87,8 @@
       ],
       "preview_image": null,
       "confidence": "high",
-      "_search_count": 2,
-      "_next_search_at": 1774059971.0
+      "_search_count": 3,
+      "_next_search_at": 1774124771.0
     },
     {
       "id": "ac5448515b08",
