@@ -6,7 +6,7 @@
       "id": "cdacb355e249",
       "datetime": "2026-03-20T20:26:11Z",
       "type": "interception",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "UAE air defences intercept missiles and drones — evening wave",
       "location": "UAE",
@@ -30,7 +30,9 @@
         }
       ],
       "confidence": "high",
-      "_via": "rss"
+      "_via": "rss",
+      "_search_count": 1,
+      "_next_search_at": 1774041971.0
     },
     {
       "id": "ac5448515b08",
