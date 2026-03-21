@@ -67,7 +67,7 @@
       "id": "cdacb355e249",
       "datetime": "2026-03-20T20:26:11Z",
       "type": "interception",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "UAE air defences intercept missiles and drones — Mar 20 evening",
       "location": "Abu Dhabi, UAE",
@@ -92,8 +92,8 @@
       ],
       "preview_image": null,
       "confidence": "high",
-      "_search_count": 3,
-      "_next_search_at": 1774124771.0
+      "_search_count": 4,
+      "_next_search_at": 1774297571.0
     },
     {
       "id": "ac5448515b08",
