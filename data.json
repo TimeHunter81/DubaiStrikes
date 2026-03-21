@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-21T02:44:26Z",
+  "last_updated": "2026-03-21T02:55:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -8,7 +8,7 @@
       "type": "interception",
       "confirmed": false,
       "precision": "country",
-      "title": "UAE air defences intercept missiles and drones — evening wave",
+      "title": "UAE intercepts Iranian missiles and drones — evening wave",
       "location": "UAE",
       "lat": null,
       "lon": null,
@@ -29,6 +29,8 @@
           "tier": "local"
         }
       ],
+      "snippet": null,
+      "preview_image": null,
       "_via": "rss",
       "confidence": "high",
       "_search_count": 3,
@@ -66,8 +68,10 @@
           "tier": "local"
         }
       ],
-      "confidence": "high",
-      "_via": "rss"
+      "snippet": null,
+      "preview_image": null,
+      "_via": "rss",
+      "confidence": "high"
     },
     {
       "id": "780a01b87f72",
