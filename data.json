@@ -6,7 +6,7 @@
       "id": "d81a219267c4",
       "datetime": "2026-03-21T01:14:20Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "Dubai on first day of Eid Al-Fitr: vibrant scenes reflect city’s dynamism",
       "location": "Dubai",
@@ -17,12 +17,19 @@
           "url": "https://gulfnews.com/uae/dubai-on-first-day-of-eid-al-fitr-vibrant-scenes-reflect-citys-dynamism-1.500481391",
           "domain": "gulfnews.com",
           "tier": "local"
+        },
+        {
+          "url": "http://www.bignewsnetwork.com/news/278934289/dubai-on-first-day-of-eid-al-fitr-vibrant-scenes-reflect-city-dynamism",
+          "domain": "bignewsnetwork.com",
+          "tier": "wire"
         }
       ],
       "snippet": "Dubai on first day of Eid Al-Fitr: vibrant scenes reflect city’s dynamism",
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-20%2F8mx38ndb%2F0nl027ck1ka1g7bpo.jpg?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774059260.0
     },
     {
       "id": "11d5073fbf24",
@@ -138,7 +145,7 @@
       "id": "5a81d3a28cc4",
       "datetime": "2026-03-20T21:44:25Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "'I think we've won': Trump says US is considering 'winding down’ Iran war",
       "location": "UAE",
@@ -149,12 +156,19 @@
           "url": "https://www.thenationalnews.com/news/us/2026/03/20/trump-says-us-is-considering-winding-down-iran-war/",
           "domain": "thenationalnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://www.bloomberg.com/news/articles/2026-03-20/trump-says-he-doesnt-want-ceasefire-in-iran-conflict",
+          "domain": "bloomberg.com",
+          "tier": "wire"
         }
       ],
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/FZAW7SXTHVEXYCAESATYPLGDUY.jpg?smart=true&amp;auth=2966aee4588f0777084bf4f4cf6af825a41885755221edf9ea7f2fa4153439c3&amp;width=1200&amp;height=630",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774046665.0
     },
     {
       "id": "03324b137664",
@@ -346,7 +360,7 @@
       "id": "03b5563198e6",
       "datetime": "2026-03-20T19:50:31Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "US and Israeli goals diverge as Iran war enters fourth week",
       "location": "UAE",
@@ -362,7 +376,9 @@
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/6GOY2VHXNCQPDTJWC67YEY7GEU.jpg?smart=true&amp;auth=06d31236d859c5937f920fc1dd2003ab6a0d625bfcb840bfef0853d8fdf408a4&amp;width=1200&amp;height=630",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774039831.0
     },
     {
       "id": "d6837df1f241",
@@ -544,7 +560,7 @@
       "id": "3d3e096a2dd1",
       "datetime": "2026-03-20T18:25:20Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "UK clears path for US to strike Iranian missile sites blocking Strait of Hormuz",
       "location": "UAE",
@@ -555,12 +571,19 @@
           "url": "https://www.thenationalnews.com/news/uk/2026/03/20/uk-grants-us-right-to-strike-iranian-missile-sites-blocking-strait-of-hormuz/",
           "domain": "thenationalnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://www.reuters.com/business/aerospace-defense/uk-approves-us-use-british-bases-strike-iran-missile-sites-targeting-ships-2026-03-20/",
+          "domain": "reuters.com",
+          "tier": "wire"
         }
       ],
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/CR66ZHICCQM334WRNU57MP6QY4.jpg?smart=true&amp;auth=c18d1468c75e966aa7b09181a8b0039217b31b5f3b0ca44307daf23a618b5fe5&amp;width=1200&amp;height=630",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774034720.0
     },
     {
       "id": "81506ea6d5fa",
