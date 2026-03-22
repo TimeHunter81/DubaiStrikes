@@ -6,7 +6,7 @@
       "id": "c7fb2b44737c",
       "datetime": "2026-03-22T05:41:15Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "Hezbollah says launched 14 attacks targeting Israeli forces",
       "location": "UAE",
@@ -22,13 +22,15 @@
       "snippet": "&lt;article data-history-node-id=\"436406\" about=\"https://www.middleeasteye.net/live-blog/live-blog-update/hezbollah-says-launched-14-attacks-targeting-israeli-forces\" class=\"live-blog-update default clearfix\"&gt;\n\n  \n      &lt;h2&gt;\n      &lt;a href",
       "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/Untitled%281%29.jpg",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774161675.0
     },
     {
       "id": "f1a198329639",
       "datetime": "2026-03-22T05:20:05Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "Trump threatens Iran: 48-hour ultimatum on Strait of Hormuz",
       "location": "UAE",
@@ -39,12 +41,19 @@
           "url": "https://gulfnews.com/world/americas/trump-threatens-iran-48-hour-ultimatum-on-strait-of-hormuz-1.500482447",
           "domain": "gulfnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://www.reuters.com/world/middle-east/trump-threatens-iran-with-power-plant-strikes-over-hormuz-blockade-2026-03-22/",
+          "domain": "reuters.com",
+          "tier": "wire"
         }
       ],
       "snippet": null,
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-22%2Fuychf23z%2FTrump70856-cbda3-Read-Only.jpg?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774160405.0
     },
     {
       "id": "4273fd4e6587",
@@ -72,7 +81,7 @@
       "id": "2cd00b065253",
       "datetime": "2026-03-22T05:07:08Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "US-Israel war on Iran wipes $53 billion from global airline values",
       "location": "UAE",
@@ -88,29 +97,38 @@
       "snippet": "&lt;article data-history-node-id=\"436405\" about=\"https://www.middleeasteye.net/live-blog/live-blog-update/us-israel-war-iran-wipes-53-billion-global-airline-values\" class=\"live-blog-update default clearfix\"&gt;\n\n  \n      &lt;h2&gt;\n      &lt;a href=\"",
       "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/Untitled%281%29.jpg",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774159628.0
     },
     {
       "id": "37fc90e1c5ca",
       "datetime": "2026-03-22T05:00:57Z",
       "type": "security_alert",
-      "confirmed": false,
-      "precision": "country",
+      "confirmed": true,
+      "precision": "city",
       "title": "Saudi Arabia orders Iranian military attache and embassy staff to leave",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
+      "location": "Riyadh, Saudi Arabia",
+      "lat": 24.7136,
+      "lon": 46.6753,
       "sources": [
         {
           "url": "https://www.thenationalnews.com/news/mena/2026/03/22/saudi-arabia-orders-iranian-military-attache-and-four-embassy-staff-to-leave/",
           "domain": "thenationalnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://www.reuters.com/world/middle-east/saudi-arabia-orders-iranian-military-attache-four-embassy-staff-leave-2026-03-21/",
+          "domain": "reuters.com",
+          "tier": "wire"
         }
       ],
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/HXGEAHE4MQBHUJXLE27EIT2WOY.jpg?smart=true&amp;auth=a061767fffe893aa67963b0636d80f1d6123d4e8087397ae18c6f6c943fa1188&amp;width=1200&amp;height=630",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774159257.0
     },
     {
       "id": "5ef80aede18e",
