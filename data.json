@@ -6,7 +6,7 @@
       "id": "9d4321875532",
       "datetime": "2026-03-22T00:58:11Z",
       "type": "impact_minor",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "Explosion reported near tanker off Sharjah coast",
       "location": "Sharjah",
@@ -28,8 +28,8 @@
       "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/Untitled%281%29.jpg",
       "_via": "rss",
       "confidence": "high",
-      "_search_count": 1,
-      "_next_search_at": 1774144691.0
+      "_search_count": 2,
+      "_next_search_at": 1774162691.0
     },
     {
       "id": "f8cbffe9ed3b",
