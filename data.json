@@ -1,7 +1,28 @@
 {
-  "last_updated": "2026-03-22T23:15:00Z",
+  "last_updated": "2026-03-22T23:26:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
+    {
+      "id": "1ea4ccc5efc4",
+      "datetime": "2026-03-22T23:01:16Z",
+      "type": "interception",
+      "confirmed": false,
+      "precision": "country",
+      "title": "UAE air defences responding to incoming missiles, drones — 22 Mar late",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://gulfnews.com/uae/uae-air-defences-responding-to-incoming-missile-drone-threats-from-iran-1.500483041",
+          "domain": "gulfnews.com",
+          "tier": "local"
+        }
+      ],
+      "snippet": null,
+      "_via": "rss",
+      "confidence": "low"
+    },
     {
       "id": "3b13f3fc89d7",
       "datetime": "2026-03-22T11:35:28Z",
