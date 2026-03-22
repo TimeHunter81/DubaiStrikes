@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-22T11:35:00Z",
+  "last_updated": "2026-03-22T11:44:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -24,7 +24,6 @@
           "tier": "wire"
         }
       ],
-      "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-13%2Fy0gbf0s2%2FUAEFlag?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
       "_via": "rss",
       "_search_count": 1,
       "_next_search_at": 1774151776.0,
@@ -124,14 +123,13 @@
           "tier": "local"
         }
       ],
-      "preview_image": null,
       "_via": "rss",
       "_search_count": 4,
       "_next_search_at": 1774348863.0,
       "confidence": "medium"
     },
     {
-      "id": "780a01b87f72",
+      "id": "780a01bcf148",
       "title": "Strike in Abu Dhabi — Abu Dhabi Media Office report",
       "datetime": "2026-03-10T00:00:00Z",
       "type": "impact_minor",
