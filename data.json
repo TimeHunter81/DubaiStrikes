@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-03-22T17:37:00Z",
+  "last_updated": "2026-03-22T17:45:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
       "id": "3b13f3fc89d7",
       "datetime": "2026-03-22T11:35:28Z",
       "type": "interception",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "city",
       "title": "UAE air defences engage 4 ballistic missiles, 25 UAVs — 22 Mar",
       "location": "Dubai, UAE",
