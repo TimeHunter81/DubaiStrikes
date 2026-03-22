@@ -1,36 +1,7 @@
 {
-  "last_updated": "2026-03-22T22:47:58Z",
+  "last_updated": "2026-03-22T22:54:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
-    {
-      "id": "7077c83f16b3",
-      "datetime": "2026-03-22T15:40:46Z",
-      "type": "interception",
-      "confirmed": true,
-      "precision": "country",
-      "title": "Iran claims drone/missile strikes on UAE military bases — 22 Mar",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/3/22/iran-claims-missile-attacks-on-key-israeli-military-bases?traffic_source=rss",
-          "domain": "aljazeera.com",
-          "tier": "wire"
-        },
-        {
-          "url": "https://en.wikipedia.org/wiki/2026_Iranian_strikes_on_the_United_Arab_Emirates",
-          "domain": "en.wikipedia.org",
-          "tier": "wire"
-        }
-      ],
-      "snippet": "Iran says it launched multiple ballistic missile and drone strikes, targeting bases across Israel, UAE, and Kuwait.",
-      "preview_image": "https://www.aljazeera.com/wp-content/uploads/2026/03/image-1774194032.jpg?resize=1620%2C1080&quality=80",
-      "_via": "rss",
-      "confidence": "high",
-      "_search_count": 1,
-      "_next_search_at": 1774197646.0
-    },
     {
       "id": "3b13f3fc89d7",
       "datetime": "2026-03-22T11:35:28Z",
