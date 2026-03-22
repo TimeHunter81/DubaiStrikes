@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-03-22T23:26:00Z",
+  "last_updated": "2026-03-22T23:35:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
       "id": "1ea4ccc5efc4",
       "datetime": "2026-03-22T23:01:16Z",
       "type": "interception",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "country",
       "title": "UAE air defences responding to incoming missiles, drones — 22 Mar late",
       "location": "UAE",
@@ -21,7 +21,7 @@
         {
           "url": "https://www.hindustantimes.com/world-news/dubai-news-live-updates-abu-dhabi-uae-airports-flight-status-missiles-drones-attack-middle-east-iran-us-war-saudi-qatar-101774143551873.html",
           "domain": "hindustantimes.com",
-          "tier": "wire"
+          "tier": "local"
         }
       ],
       "snippet": null,
