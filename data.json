@@ -44,7 +44,9 @@
       "snippet": null,
       "preview_image": null,
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774137600.0
     },
     {
       "id": "eb951d8f2b90",
@@ -286,7 +288,9 @@
       "snippet": null,
       "preview_image": null,
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774124052.0
     },
     {
       "id": "c4935765da40",
@@ -523,7 +527,7 @@
       "id": "d08aba70cd07",
       "datetime": "2026-03-21T13:26:29Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "Joint statement on Strait of Hormuz: Iran attacks must stop, freedom of navigation enshrined in law",
       "location": "UAE",
@@ -534,23 +538,30 @@
           "url": "https://www.thenationalnews.com/news/uae/2026/03/21/joint-statement-on-strait-of-hormuz-says-freedom-of-navigation-is-enshrined-in-international-law/",
           "domain": "thenationalnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://www.mofa.gov.ae/en/mediahub/news/2026/3/21/uae-strait-of-hormuz",
+          "domain": "mofa.gov.ae",
+          "tier": "wire"
         }
       ],
       "snippet": null,
       "preview_image": null,
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774103189.0
     },
     {
       "id": "696d8d63a9bc",
       "datetime": "2026-03-21T12:46:08Z",
       "type": "security_alert",
-      "confirmed": false,
-      "precision": "country",
+      "confirmed": true,
+      "precision": "city",
       "title": "'No Eid or Newroz for us': Kurdish family mourn son killed in drone attack",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
+      "location": "Erbil, Iraq",
+      "lat": 36.191,
+      "lon": 44.009,
       "sources": [
         {
           "url": "https://www.thenationalnews.com/news/mena/2026/03/21/no-eid-or-newroz-for-us-kurdish-family-mourn-son-killed-in-drone-attack/",
@@ -561,7 +572,9 @@
       "snippet": null,
       "preview_image": null,
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774100768.0
     },
     {
       "id": "e22e7e35cf7a",
