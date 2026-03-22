@@ -22,18 +22,20 @@
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/RFXHLGUWVFBGPDFHNSDT3LZ6UI.jpg?smart=true&amp;auth=714ece0b580df209b2fdca55d8fe52efb51ecb78c33d1a05b8b7be526c15e2dd&amp;width=1200&amp;height=630",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774155600.0
     },
     {
       "id": "9269fde158ba",
       "datetime": "2026-03-22T03:49:25Z",
       "type": "security_alert",
       "confirmed": false,
-      "precision": "country",
+      "precision": "city",
       "title": "Saudi Arabia intercepts three ballistic missiles over Riyadh region",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
+      "location": "Riyadh, Saudi Arabia",
+      "lat": 24.7136,
+      "lon": 46.6753,
       "sources": [
         {
           "url": "https://gulfnews.com/world/gulf/saudi/saudi-arabia-intercepts-three-ballistic-missiles-over-riyadh-region-1.500482386",
@@ -44,7 +46,9 @@
       "snippet": "Saudi Arabia intercepts three ballistic missiles over Riyadh region",
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-03%2Fe2y7vimy%2Fnewsml_afp_com_20260303T151022Z_doc_99r38cq.jpeg?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774154965.0
     },
     {
       "id": "ddb79010c140",
@@ -66,7 +70,9 @@
       "snippet": null,
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-20%2Fxyrayslm%2Fnewsml_afp_com_20260320T000000Z_PH_GTY_2267586844.jpeg?rect=0%2C39%2C1200%2C630&amp;w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774154766.0
     },
     {
       "id": "5d3238db27f7",
@@ -88,7 +94,9 @@
       "snippet": null,
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-22%2Fr8iptk5f%2FIranian-missile-strike-in-Dimon?rect=0%2C192%2C3200%2C1680&amp;w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774154605.0
     },
     {
       "id": "e14849068a53",
