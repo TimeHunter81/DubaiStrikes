@@ -62,7 +62,7 @@
       "id": "9d4321875532",
       "datetime": "2026-03-22T00:58:11Z",
       "type": "impact_minor",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "Projectile strikes vessel off Sharjah coast",
       "location": "Sharjah",
@@ -88,13 +88,18 @@
           "url": "https://www.thenationalnews.com/news/uae/2026/03/22/projectile-causes-explosion-near-vessel-off-sharjah-coast/",
           "domain": "thenationalnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://www.reuters.com/world/middle-east/projectile-hits-vessel-off-uaes-sharjah-ukmto-says-2026-03-22/",
+          "domain": "reuters.com",
+          "tier": "wire"
         }
       ],
       "snippet": "Explosion reported near tanker off UAE's Sharjah coast",
       "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/Untitled%281%29.jpg",
       "_via": "rss",
-      "_search_count": 2,
-      "_next_search_at": 1774162691.0,
+      "_search_count": 3,
+      "_next_search_at": 1774227491.0,
       "confidence": "high"
     },
     {
