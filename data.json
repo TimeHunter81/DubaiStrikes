@@ -6,23 +6,30 @@
       "id": "0e55761fe5d3",
       "datetime": "2026-03-22T19:43:18Z",
       "type": "security_alert",
-      "confirmed": false,
-      "precision": "country",
+      "confirmed": true,
+      "precision": "city",
       "title": "UAE and Serbian Presidents discuss bilateral relations and regional developments",
-      "location": "Uae",
-      "lat": null,
-      "lon": null,
+      "location": "Abu Dhabi, UAE",
+      "lat": 24.4539,
+      "lon": 54.3773,
       "sources": [
         {
           "url": "https://gulfnews.com/uae/uae-and-serbian-presidents-discuss-bilateral-relations-and-regional-developments-1.500482967",
           "domain": "gulfnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://qna.org.qa/en/News-Area/News/2026-3/11/presidents-of-uae-serbia-discuss-regional-developments-implications-for-security-and-stability",
+          "domain": "qna.org.qa",
+          "tier": "wire"
         }
       ],
       "snippet": "UAE and Serbian Presidents discuss bilateral relations and regional developments",
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-22%2Ffcruq7je%2Fuae-serbian-president?rect=0%2C111%2C1707%2C896&amp;w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774212198.0
     },
     {
       "id": "edbbd1ee5d23",
@@ -116,29 +123,36 @@
       "id": "5dbfff2c3c38",
       "datetime": "2026-03-22T18:47:47Z",
       "type": "security_alert",
-      "confirmed": false,
-      "precision": "country",
+      "confirmed": true,
+      "precision": "city",
       "title": "Palestinian patients celebrate Eid aboard UAE floating hospital",
-      "location": "Uae",
-      "lat": null,
-      "lon": null,
+      "location": "Al Arish, Egypt",
+      "lat": 31.1294,
+      "lon": 33.7986,
       "sources": [
         {
           "url": "https://gulfnews.com/world/mena/palestinian-patients-celebrate-eid-aboard-uae-floating-hospital-1.500482953",
           "domain": "gulfnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://www.dubaieye1038.com/news/local/uae-floating-hospital-in-al-arish-celebrates-eid-with-gaza-patients/",
+          "domain": "dubaieye1038.com",
+          "tier": "wire"
         }
       ],
       "snippet": null,
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-22%2Fg0159iq8%2F1.jpg?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774208867.0
     },
     {
       "id": "047e8b17f2bb",
       "datetime": "2026-03-22T18:09:46Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "Business council leaders highlight Dubai’s resilience and investor confidence amid global developments",
       "location": "Dubai",
@@ -154,13 +168,15 @@
       "snippet": null,
       "preview_image": "https://media.assettype.com/gulfnews%2F2024-11-17%2F7azzme0m%2Freader_picture_175275b53b4_original_ratio.jpg?rect=0%2C109%2C800%2C420&amp;w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774206586.0
     },
     {
       "id": "a6460d74243b",
       "datetime": "2026-03-22T18:08:41Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "UAE students start new term with two-week online learning",
       "location": "Uae",
@@ -176,7 +192,9 @@
       "snippet": null,
       "preview_image": "https://media.assettype.com/gulfnews%2Fimport%2F2020%2F06%2F06%2FUAE-schools-reviewing-a-range-of-options-to-reintegrate-students-in-September_172898d2323_large.jpg?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774206521.0
     },
     {
       "id": "7fdba16e1ca4",
