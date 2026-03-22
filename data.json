@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-03-22T01:24:35Z",
+  "last_updated": "2026-03-22T01:35:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
       "id": "9d4321875532",
       "datetime": "2026-03-22T00:58:11Z",
       "type": "impact_minor",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "city",
       "title": "Explosion reported near tanker off Sharjah coast",
       "location": "Sharjah",
@@ -27,7 +27,7 @@
       "snippet": "&lt;article data-history-node-id=\"436386\" about=\"https://www.middleeasteye.net/live-blog/live-blog-update/explosion-reported-near-tanker-uaes-sharjah-coast\" class=\"live-blog-update default clearfix\"&gt;\n\n  \n      &lt;h2&gt;\n      &lt;a href=\"https://",
       "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/Untitled%281%29.jpg",
       "_via": "rss",
-      "confidence": "low",
+      "confidence": "high",
       "_search_count": 1,
       "_next_search_at": 1774144691.0
     },
