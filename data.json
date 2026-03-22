@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-22T17:20:00Z",
+  "last_updated": "2026-03-22T17:25:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -53,11 +53,11 @@
           "tier": "wire"
         }
       ],
+      "snippet": null,
       "_via": "rss",
       "_search_count": 1,
       "_next_search_at": 1774151776.0,
-      "confidence": "high",
-      "snippet": null
+      "confidence": "high"
     },
     {
       "id": "9d4321875532",
@@ -125,6 +125,7 @@
           "tier": "local"
         }
       ],
+      "snippet": null,
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-21%2Fksfuohwj%2Fsms-alert-pexels-1.jpg?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
       "_via": "rss",
       "_search_count": 4,
@@ -153,6 +154,7 @@
           "tier": "local"
         }
       ],
+      "snippet": null,
       "_via": "rss",
       "_search_count": 4,
       "_next_search_at": 1774348863.0,
