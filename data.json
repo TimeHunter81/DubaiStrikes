@@ -1,14 +1,14 @@
 {
-  "last_updated": "2026-03-22T01:52:00Z",
+  "last_updated": "2026-03-22T02:05:47Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
       "id": "9d4321875532",
       "datetime": "2026-03-22T00:58:11Z",
       "type": "impact_minor",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "city",
-      "title": "Explosion reported near tanker off Sharjah coast",
+      "title": "Explosion near tanker off Sharjah coast",
       "location": "Sharjah",
       "lat": 25.3463,
       "lon": 55.4209,
