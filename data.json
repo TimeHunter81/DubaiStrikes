@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-22T11:13:21Z",
+  "last_updated": "2026-03-22T11:19:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -27,7 +27,8 @@
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-13%2Fy0gbf0s2%2FUAEFlag?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
       "_via": "rss",
       "_search_count": 1,
-      "_next_search_at": 1774151776.0
+      "_next_search_at": 1774151776.0,
+      "confidence": "high"
     },
     {
       "id": "9d4321875532",
@@ -65,7 +66,8 @@
       "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/Untitled%281%29.jpg",
       "_via": "rss",
       "_search_count": 2,
-      "_next_search_at": 1774162691.0
+      "_next_search_at": 1774162691.0,
+      "confidence": "high"
     },
     {
       "id": "f8cbffe9ed3b",
@@ -97,7 +99,8 @@
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-21%2Fksfuohwj%2Fsms-alert-pexels-1.jpg?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
       "_via": "rss",
       "_search_count": 3,
-      "_next_search_at": 1774198142.0
+      "_next_search_at": 1774198142.0,
+      "confidence": "medium"
     },
     {
       "id": "1a12f988b209",
@@ -124,7 +127,8 @@
       "preview_image": null,
       "_via": "rss",
       "_search_count": 4,
-      "_next_search_at": 1774348863.0
+      "_next_search_at": 1774348863.0,
+      "confidence": "medium"
     },
     {
       "id": "780a01b87f72",
