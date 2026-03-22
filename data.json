@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-22T13:02:00Z",
+  "last_updated": "2026-03-22T13:14:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -73,11 +73,6 @@
           "url": "https://www.middleeasteye.net/live-blog/live-blog-update/explosion-reported-near-tanker-uaes-sharjah-coast",
           "domain": "middleeasteye.net",
           "tier": "local"
-        },
-        {
-          "url": "https://caliber.az/en/post/explosion-hits-vessel-in-uae-port-following-recent-gulf-attacks",
-          "domain": "caliber.az",
-          "tier": "wire"
         },
         {
           "url": "https://www.theguardian.com/world/live/2026/mar/21/middle-east-crisis-live-iran-war-trump-eases-oil-sanctions-israel-strikes",
