@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-22T08:30:00Z",
+  "last_updated": "2026-03-22T08:40:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -106,7 +106,7 @@
       "confirmed": false,
       "precision": "country",
       "title": "UAE intercepts 3 ballistic missiles, 8 drones — Mar 21 morning",
-      "location": "Abu Dhabi, UAE",
+      "location": "UAE",
       "lat": null,
       "lon": null,
       "sources": [
@@ -133,7 +133,7 @@
       "confirmed": false,
       "precision": "country",
       "title": "UAE air defences intercept missiles and drones — Mar 20 evening",
-      "location": "Abu Dhabi, UAE",
+      "location": "UAE",
       "lat": null,
       "lon": null,
       "sources": [
@@ -154,6 +154,7 @@
         }
       ],
       "preview_image": null,
+      "_via": "rss",
       "_search_count": 4,
       "_next_search_at": 1774297571.0
     },
