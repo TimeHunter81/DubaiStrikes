@@ -6,12 +6,12 @@
       "id": "3b13f3fc89d7",
       "datetime": "2026-03-22T11:35:28Z",
       "type": "interception",
-      "confirmed": false,
-      "precision": "country",
+      "confirmed": true,
+      "precision": "city",
       "title": "UAE air defences engage 4 ballistic missiles, 25 UAVs — 22 Mar",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
+      "location": "Dubai, UAE",
+      "lat": 25.2048,
+      "lon": 55.2708,
       "sources": [
         {
           "url": "https://gulfnews.com/uae/uae-air-defences-engage-4-ballistic-missiles-25-uavs-on-march-22-1.500482679",
@@ -28,8 +28,8 @@
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-10%2Fy7tejhmv%2FMissileThreat-2.jpg?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
       "_via": "rss",
       "confidence": "medium",
-      "_search_count": 2,
-      "_next_search_at": 1774200928.0
+      "_search_count": 3,
+      "_next_search_at": 1774265728.0
     },
     {
       "id": "9a5193b95324",
