@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-22T07:10:00Z",
+  "last_updated": "2026-03-22T07:20:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -8,7 +8,7 @@
       "type": "interception",
       "confirmed": true,
       "precision": "country",
-      "title": "UAE intercepts Iranian missiles and drones — Mar 22 early morning",
+      "title": "UAE intercepts Iranian missiles and drones — Mar 22",
       "location": "UAE",
       "lat": null,
       "lon": null,
@@ -55,6 +55,11 @@
           "url": "https://www.theguardian.com/world/live/2026/mar/21/middle-east-crisis-live-iran-war-trump-eases-oil-sanctions-israel-strikes",
           "domain": "theguardian.com",
           "tier": "wire"
+        },
+        {
+          "url": "https://www.thenationalnews.com/news/uae/2026/03/22/projectile-causes-explosion-near-vessel-off-sharjah-coast/",
+          "domain": "thenationalnews.com",
+          "tier": "local"
         }
       ],
       "snippet": "Explosion reported near tanker off UAE's Sharjah coast",
