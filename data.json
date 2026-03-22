@@ -1,14 +1,14 @@
 {
-  "last_updated": "2026-03-22T04:27:00Z",
+  "last_updated": "2026-03-22T04:37:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
       "id": "9d4321875532",
       "datetime": "2026-03-22T00:58:11Z",
       "type": "impact_minor",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
-      "title": "Explosion near tanker off Sharjah coast",
+      "title": "Projectile strikes vessel off Sharjah coast",
       "location": "Sharjah",
       "lat": 25.3463,
       "lon": 55.4209,
@@ -21,6 +21,11 @@
         {
           "url": "https://caliber.az/en/post/explosion-hits-vessel-in-uae-port-following-recent-gulf-attacks",
           "domain": "caliber.az",
+          "tier": "wire"
+        },
+        {
+          "url": "https://www.theguardian.com/world/live/2026/mar/21/middle-east-crisis-live-iran-war-trump-eases-oil-sanctions-israel-strikes",
+          "domain": "theguardian.com",
           "tier": "wire"
         }
       ],
