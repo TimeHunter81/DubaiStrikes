@@ -40,7 +40,7 @@
       "id": "9a5193b95324",
       "datetime": "2026-03-22T02:56:16Z",
       "type": "interception",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "UAE intercepts Iranian missiles and drones — Mar 22 early morning",
       "location": "UAE",
@@ -51,11 +51,18 @@
           "url": "https://gulfnews.com/uae/uae-responds-to-missile-and-drone-threats-from-iran-1.500482379",
           "domain": "gulfnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://www.bbc.com/news/live/ce84073mr06t",
+          "domain": "bbc.com",
+          "tier": "wire"
         }
       ],
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-13%2Fy0gbf0s2%2FUAEFlag?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
       "_via": "rss",
-      "confidence": "medium"
+      "confidence": "medium",
+      "_search_count": 1,
+      "_next_search_at": 1774151776.0
     },
     {
       "id": "f8cbffe9ed3b",
