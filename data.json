@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-23T21:24:25Z",
+  "last_updated": "2026-03-23T21:30:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -61,9 +61,7 @@
           "domain": "reuters.com",
           "tier": "wire"
         }
-      ],
-      "_search_count": 1,
-      "_next_search_at": 1774167055.0
+      ]
     },
     {
       "id": "780a01bcf148",
