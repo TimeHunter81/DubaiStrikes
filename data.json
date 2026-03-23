@@ -6,7 +6,7 @@
       "id": "6b267ea6c721",
       "datetime": "2026-03-23T10:33:27Z",
       "type": "interception",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "UAE air defences engaged 7 ballistic missiles, 16 UAVs",
       "location": "UAE",
@@ -20,7 +20,9 @@
         }
       ],
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-23%2Fazsw25hn%2F0breakingnews.jpg?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
-      "_via": "rss"
+      "_via": "rss",
+      "_search_count": 1,
+      "_next_search_at": 1774265607.0
     },
     {
       "id": "1ea4ccc5efc4",
