@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-23T05:37:00Z",
+  "last_updated": "2026-03-23T05:50:34Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -33,15 +33,13 @@
           "domain": "apnews.com",
           "tier": "wire"
         }
-      ],
-      "_via": "rss",
-      "confidence": "high"
+      ]
     },
     {
       "id": "3b13f3fc89d7",
       "datetime": "2026-03-22T11:35:28Z",
       "type": "interception",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "country",
       "title": "UAE air defences engage 4 ballistic missiles, 25 UAVs — 22 Mar",
       "location": "UAE",
@@ -63,11 +61,7 @@
           "domain": "gulftoday.ae",
           "tier": "wire"
         }
-      ],
-      "_via": "rss",
-      "confidence": "medium",
-      "_search_count": 1,
-      "_next_search_at": 1774182928.0
+      ]
     },
     {
       "id": "9d4321875532",
