@@ -6,7 +6,7 @@
       "id": "3b03a342193e",
       "datetime": "2026-03-23T16:08:57Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "Iranian parliament speaker says 'no negotiations' between US and Iran",
       "location": "UAE",
@@ -17,12 +17,19 @@
           "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iranian-parliament-speaker-says-no-negotiations-between-us-and-iran",
           "domain": "middleeasteye.net",
           "tier": "local"
+        },
+        {
+          "url": "https://www.newsweek.com/iran-war-live-update-power-plant-strikes-warning-trump-deadline-11718848",
+          "domain": "newsweek.com",
+          "tier": "wire"
         }
       ],
       "snippet": "&lt;article data-history-node-id=\"436513\" about=\"https://www.middleeasteye.net/live-blog/live-blog-update/iranian-parliament-speaker-says-no-negotiations-between-us-and-iran\" class=\"live-blog-update default clearfix\"&gt;\n\n  \n      &lt;h2&gt;\n      &l",
       "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/A%20displaced%20man%20walks%20past%20an%20unofficial%20camp%2C%20erected%20along%20Beirut%E2%80%99s%20seafront%20area%20on%20March%2020%2C%202026..jpg",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774285737.0
     },
     {
       "id": "0c9309e5bbf0",
@@ -50,7 +57,7 @@
       "id": "24003711f3cb",
       "datetime": "2026-03-23T15:43:32Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "We are ‘one team’ say UAE residents about unity amid Iran strikes",
       "location": "Uae",
@@ -66,13 +73,15 @@
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/7RWY4O6DXRHUJK5WWCLGAXHMUI.JPG?smart=true&amp;auth=43e67f4a2bcc9e103e24fbdc6d28857b062ff976730ef9ff537ec7a77adf6f5a&amp;width=1200&amp;height=630",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774284212.0
     },
     {
       "id": "1a88dc8e75f7",
       "datetime": "2026-03-23T15:41:55Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "UAE schools begin Term 3 with distance learning from across the world",
       "location": "Uae",
@@ -88,13 +97,15 @@
       "snippet": null,
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-23%2Fouprqyac%2FWhatsApp-Image-2026-03-23-at-2.33.14-PM.jpeg?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774284115.0
     },
     {
       "id": "83a4cef4cbc4",
       "datetime": "2026-03-23T15:28:32Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "Israeli strike kills one person in Beirut's Hamzieh: Lebanon health ministry",
       "location": "UAE",
@@ -110,7 +121,9 @@
       "snippet": "&lt;article data-history-node-id=\"436512\" about=\"https://www.middleeasteye.net/live-blog/live-blog-update/israeli-strike-kills-one-person-beiruts-hamzieh-lebanon-health-ministry\" class=\"live-blog-update default clearfix\"&gt;\n\n  \n      &lt;h2&gt;\n    ",
       "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/A%20displaced%20man%20walks%20past%20an%20unofficial%20camp%2C%20erected%20along%20Beirut%E2%80%99s%20seafront%20area%20on%20March%2020%2C%202026..jpg",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774283312.0
     },
     {
       "id": "8a3440147d54",
