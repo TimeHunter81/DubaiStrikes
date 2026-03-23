@@ -72,7 +72,7 @@
       "id": "3b13f3fc89d7",
       "datetime": "2026-03-22T11:35:28Z",
       "type": "interception",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "UAE air defences engage 4 ballistic missiles, 25 UAVs — 22 Mar",
       "location": "UAE",
@@ -90,8 +90,8 @@
           "tier": "local"
         }
       ],
-      "_search_count": 2,
-      "_next_search_at": 1774200928.0
+      "_search_count": 3,
+      "_next_search_at": 1774265728.0
     },
     {
       "id": "9a5193b95324",
@@ -153,12 +153,12 @@
       "id": "f8cbffe9ed3b",
       "datetime": "2026-03-21T16:49:02Z",
       "type": "interception",
-      "confirmed": false,
-      "precision": "country",
+      "confirmed": true,
+      "precision": "city",
       "title": "UAE intercepts missiles and drones — 21 Mar evening",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
+      "location": "Abu Dhabi / Dubai, UAE",
+      "lat": 25.1412,
+      "lon": 55.1852,
       "sources": [
         {
           "url": "https://gulfnews.com/uae/government/uae-responds-to-new-missile-and-drone-threats-from-iran-issues-safety-alert-1.500482170",
@@ -179,16 +179,21 @@
           "url": "https://sharjah24.ae/en/Articles/2026/03/21/a12",
           "domain": "sharjah24.ae",
           "tier": "local"
+        },
+        {
+          "url": "https://www.bbc.com/news/live/ce84073mr06t",
+          "domain": "bbc.com",
+          "tier": "wire"
         }
       ],
-      "_search_count": 2,
-      "_next_search_at": 1774133342.0
+      "_search_count": 3,
+      "_next_search_at": 1774198142.0
     },
     {
       "id": "1a12f988b209",
       "datetime": "2026-03-21T10:41:03Z",
       "type": "interception",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "UAE intercepts 3 ballistic missiles, 8 drones — 21 Mar",
       "location": "UAE",
@@ -204,10 +209,15 @@
           "url": "https://www.hindustantimes.com/world-news/dubai-abu-dhabi-news-live-updates-uae-iran-us-israel-war-middle-east-crisis-qatar-saudi-airports-flights-missile-attacks-101774053741364.html",
           "domain": "hindustantimes.com",
           "tier": "local"
+        },
+        {
+          "url": "https://www.gulftoday.ae/news/2026/03/21/uae-air-defences-intercept-three-ballistic-missiles-eight-drones",
+          "domain": "gulftoday.ae",
+          "tier": "wire"
         }
       ],
-      "_search_count": 1,
-      "_next_search_at": 1774093263.0
+      "_search_count": 2,
+      "_next_search_at": 1774111263.0
     },
     {
       "id": "780a01bcf148",
