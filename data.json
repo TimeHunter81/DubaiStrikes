@@ -1,14 +1,14 @@
 {
-  "last_updated": "2026-03-23T10:39:00Z",
+  "last_updated": "2026-03-23T10:51:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
       "id": "6b267ea6c721",
       "datetime": "2026-03-23T10:33:27Z",
       "type": "interception",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "country",
-      "title": "UAE air defences engaged 7 ballistic missiles, 16 UAVs",
+      "title": "UAE air defences engage 7 ballistic missiles, 16 UAVs",
       "location": "UAE",
       "lat": null,
       "lon": null,
@@ -20,9 +20,7 @@
         }
       ],
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-23%2Fazsw25hn%2F0breakingnews.jpg?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
-      "_via": "rss",
-      "_search_count": 1,
-      "_next_search_at": 1774265607.0
+      "_via": "rss"
     },
     {
       "id": "1ea4ccc5efc4",
@@ -85,9 +83,26 @@
           "tier": "local"
         }
       ],
-      "_via": "rss",
-      "_search_count": 3,
-      "_next_search_at": 1774265728.0
+      "_via": "rss"
+    },
+    {
+      "id": "9b6a53beb75b",
+      "datetime": "2026-03-22T02:17:20Z",
+      "type": "impact_minor",
+      "confirmed": true,
+      "precision": "country",
+      "title": "Projectile strikes vessel off UAE coast",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.theguardian.com/world/live/2026/mar/21/middle-east-crisis-live-iran-war-trump-eases-oil-sanctions-israel-strikes",
+          "domain": "theguardian.com",
+          "tier": "wire"
+        }
+      ],
+      "_via": "rss"
     },
     {
       "id": "780a01bcf148",
