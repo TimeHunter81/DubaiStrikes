@@ -6,7 +6,7 @@
       "id": "154e1eb06a21",
       "datetime": "2026-03-23T01:49:05Z",
       "type": "impact_minor",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "Indian national injured by falling debris after missile incident in Abu Dhabi",
       "location": "Abu Dhabi",
@@ -17,18 +17,25 @@
           "url": "https://gulfnews.com/uae/indian-national-injured-by-falling-debris-after-missile-incident-in-abu-dhabi-1.500483089",
           "domain": "gulfnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://apnews.com/live/iran-war-israel-trump-03-22-2026",
+          "domain": "apnews.com",
+          "tier": "wire"
         }
       ],
       "snippet": null,
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-16%2F4r3s285l%2FUAEflag?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774234145.0
     },
     {
       "id": "1ea4ccc5efc4",
       "datetime": "2026-03-23T01:00:00Z",
       "type": "interception",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "UAE intercepts Iranian missiles and drones — 22 Mar night",
       "location": "UAE",
@@ -49,10 +56,15 @@
           "url": "https://www.thearabianstories.com/2026/03/22/live-updates-uae-air-defense-systems-respond-to-missile-threat/",
           "domain": "thearabianstories.com",
           "tier": "local"
+        },
+        {
+          "url": "https://www.bbc.com/news/live/ce84073mr06t",
+          "domain": "bbc.com",
+          "tier": "wire"
         }
       ],
-      "_search_count": 1,
-      "_next_search_at": 1774231240.0,
+      "_search_count": 2,
+      "_next_search_at": 1774249200.0,
       "confidence": "medium",
       "_via": "rss"
     },
@@ -60,7 +72,7 @@
       "id": "3b13f3fc89d7",
       "datetime": "2026-03-22T11:35:28Z",
       "type": "interception",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "UAE air defences engage 4 ballistic missiles, 25 UAVs — 22 Mar",
       "location": "UAE",
@@ -78,8 +90,8 @@
           "tier": "local"
         }
       ],
-      "_search_count": 1,
-      "_next_search_at": 1774182928.0
+      "_search_count": 2,
+      "_next_search_at": 1774200928.0
     },
     {
       "id": "9a5193b95324",
@@ -141,7 +153,7 @@
       "id": "f8cbffe9ed3b",
       "datetime": "2026-03-21T16:49:02Z",
       "type": "interception",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "UAE intercepts missiles and drones — 21 Mar evening",
       "location": "UAE",
@@ -162,10 +174,15 @@
           "url": "https://www.dubaieye1038.com/news/local/uae-responds-to-more-missile-drone-threats-on-saturday/",
           "domain": "dubaieye1038.com",
           "tier": "local"
+        },
+        {
+          "url": "https://sharjah24.ae/en/Articles/2026/03/21/a12",
+          "domain": "sharjah24.ae",
+          "tier": "wire"
         }
       ],
-      "_search_count": 1,
-      "_next_search_at": 1774115342.0
+      "_search_count": 2,
+      "_next_search_at": 1774133342.0
     },
     {
       "id": "1a12f988b209",
