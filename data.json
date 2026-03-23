@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-23T03:57:00Z",
+  "last_updated": "2026-03-23T04:08:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -7,11 +7,11 @@
       "datetime": "2026-03-23T01:49:05Z",
       "type": "interception",
       "confirmed": true,
-      "precision": "country",
+      "precision": "city",
       "title": "UAE intercepts Iranian missiles/drones; debris injures 1 in Abu Dhabi",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
+      "location": "Abu Dhabi",
+      "lat": 24.4539,
+      "lon": 54.3773,
       "sources": [
         {
           "url": "https://gulfnews.com/uae/uae-air-defences-responding-to-incoming-missile-drone-threats-from-iran-1.500483041",
@@ -19,8 +19,8 @@
           "tier": "local"
         },
         {
-          "url": "https://www.hindustantimes.com/world-news/dubai-news-live-updates-abu-dhabi-uae-airports-flight-status-missiles-drones-attack-middle-east-iran-us-war-saudi-qatar-101774143551873.html",
-          "domain": "hindustantimes.com",
+          "url": "https://gulfnews.com/uae/indian-national-injured-by-falling-debris-after-missile-incident-in-abu-dhabi-1.500483089",
+          "domain": "gulfnews.com",
           "tier": "local"
         },
         {
