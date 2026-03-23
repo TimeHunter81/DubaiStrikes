@@ -99,7 +99,7 @@
       "id": "7484cfdc9faf",
       "datetime": "2026-03-22T07:10:55Z",
       "type": "impact_minor",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "Projectile causes explosion near vessel off Sharjah coast",
       "location": "Sharjah",
@@ -110,12 +110,19 @@
           "url": "https://www.thenationalnews.com/news/uae/2026/03/22/projectile-causes-explosion-near-vessel-off-sharjah-coast/",
           "domain": "thenationalnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://www.reuters.com/world/middle-east/projectile-hits-vessel-off-uaes-sharjah-ukmto-says-2026-03-22/",
+          "domain": "reuters.com",
+          "tier": "wire"
         }
       ],
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/FRENJTHQOFEO3EHJ6Y7CCUR5YY.jpg?smart=true&amp;auth=c7eb0412a2b123f858282508290d0dca0259062f2b353f88add06972e0550f81&amp;width=1200&amp;height=630",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774167055.0
     },
     {
       "id": "780a01bcf148",
