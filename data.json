@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-03-23T11:37:00Z",
+  "last_updated": "2026-03-23T11:45:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
       "id": "6b267ea6c721",
       "datetime": "2026-03-23T10:33:27Z",
       "type": "interception",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "country",
       "title": "UAE air defences engage 7 ballistic missiles, 16 UAVs",
       "location": "UAE",
@@ -21,7 +21,7 @@
         {
           "url": "https://www.hindustantimes.com/world-news/dubai-abu-dhabi-uae-news-live-updates-airports-flight-status-missiles-drones-attack-middle-east-iran-us-war-saudi-qatar-101774229481992.html",
           "domain": "hindustantimes.com",
-          "tier": "wire"
+          "tier": "local"
         }
       ],
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-23%2Fazsw25hn%2F0breakingnews.jpg?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
@@ -68,7 +68,7 @@
       "id": "3b13f3fc89d7",
       "datetime": "2026-03-22T11:35:28Z",
       "type": "interception",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "country",
       "title": "UAE air defences engage 4 ballistic missiles, 25 UAVs — 22 Mar",
       "location": "UAE",
