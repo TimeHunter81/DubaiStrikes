@@ -1,7 +1,27 @@
 {
-  "last_updated": "2026-03-23T06:51:34Z",
+  "last_updated": "2026-03-23T06:57:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
+    {
+      "id": "992500316da4",
+      "datetime": "2026-03-23T03:22:20Z",
+      "type": "interception",
+      "confirmed": false,
+      "precision": "country",
+      "title": "UAE intercepts drones — 23 Mar overnight",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/saudi-arabia-intercepts-missile-launched-towards-riyadh-uae-downs-drones",
+          "domain": "middleeasteye.net",
+          "tier": "local"
+        }
+      ],
+      "_via": "rss",
+      "confidence": "low"
+    },
     {
       "id": "1ea4ccc5efc4",
       "datetime": "2026-03-23T01:49:05Z",
@@ -19,11 +39,6 @@
           "tier": "local"
         },
         {
-          "url": "https://gulfnews.com/uae/indian-national-injured-by-falling-debris-after-missile-incident-in-abu-dhabi-1.500483089",
-          "domain": "gulfnews.com",
-          "tier": "local"
-        },
-        {
           "url": "https://www.bbc.com/news/live/ce84073mr06t",
           "domain": "bbc.com",
           "tier": "wire"
@@ -32,6 +47,11 @@
           "url": "https://apnews.com/live/iran-war-israel-trump-03-22-2026",
           "domain": "apnews.com",
           "tier": "wire"
+        },
+        {
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/uae-saudi-kuwait-respond-missile-drone-threats",
+          "domain": "middleeasteye.net",
+          "tier": "local"
         }
       ]
     },
@@ -66,37 +86,29 @@
       "_next_search_at": 1774200928.0
     },
     {
-      "id": "9d4321875532",
-      "datetime": "2026-03-22T00:58:11Z",
+      "id": "7484cfdc9faf",
+      "datetime": "2026-03-22T07:10:55Z",
       "type": "impact_minor",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "city",
-      "title": "Projectile strikes vessel off Sharjah coast — 22 Mar",
+      "title": "Projectile explodes near vessel off Sharjah coast",
       "location": "Sharjah",
       "lat": 25.3463,
       "lon": 55.4209,
       "sources": [
-        {
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/explosion-reported-near-tanker-uaes-sharjah-coast",
-          "domain": "middleeasteye.net",
-          "tier": "local"
-        },
-        {
-          "url": "https://www.theguardian.com/world/live/2026/mar/21/middle-east-crisis-live-iran-war-trump-eases-oil-sanctions-israel-strikes",
-          "domain": "theguardian.com",
-          "tier": "wire"
-        },
         {
           "url": "https://www.thenationalnews.com/news/uae/2026/03/22/projectile-causes-explosion-near-vessel-off-sharjah-coast/",
           "domain": "thenationalnews.com",
           "tier": "local"
         },
         {
-          "url": "https://www.reuters.com/world/middle-east/projectile-hits-vessel-off-uaes-sharjah-ukmto-says-2026-03-22/",
-          "domain": "reuters.com",
+          "url": "https://www.theguardian.com/world/live/2026/mar/21/middle-east-crisis-live-iran-war-trump-eases-oil-sanctions-israel-strikes",
+          "domain": "theguardian.com",
           "tier": "wire"
         }
-      ]
+      ],
+      "_via": "rss",
+      "confidence": "low"
     },
     {
       "id": "780a01bcf148",
