@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-23T05:07:00Z",
+  "last_updated": "2026-03-23T05:16:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -24,11 +24,6 @@
           "tier": "local"
         },
         {
-          "url": "https://www.thearabianstories.com/2026/03/22/live-updates-uae-air-defense-systems-respond-to-missile-threat/",
-          "domain": "thearabianstories.com",
-          "tier": "local"
-        },
-        {
           "url": "https://www.bbc.com/news/live/ce84073mr06t",
           "domain": "bbc.com",
           "tier": "wire"
@@ -46,7 +41,7 @@
       "id": "3b13f3fc89d7",
       "datetime": "2026-03-22T11:35:28Z",
       "type": "interception",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "country",
       "title": "UAE air defences engage 4 ballistic missiles, 25 UAVs — 22 Mar",
       "location": "UAE",
