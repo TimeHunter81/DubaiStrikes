@@ -1,34 +1,7 @@
 {
-  "last_updated": "2026-03-23T06:57:00Z",
+  "last_updated": "2026-03-23T07:09:48Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
-    {
-      "id": "992500316da4",
-      "datetime": "2026-03-23T03:22:20Z",
-      "type": "interception",
-      "confirmed": true,
-      "precision": "country",
-      "title": "UAE intercepts drones — 23 Mar overnight",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/saudi-arabia-intercepts-missile-launched-towards-riyadh-uae-downs-drones",
-          "domain": "middleeasteye.net",
-          "tier": "local"
-        },
-        {
-          "url": "https://gulfnews.com/uae/uae-air-defences-responding-to-incoming-missile-drone-threats-from-iran-1.500483041",
-          "domain": "gulfnews.com",
-          "tier": "wire"
-        }
-      ],
-      "_via": "rss",
-      "confidence": "low",
-      "_search_count": 1,
-      "_next_search_at": 1774239740.0
-    },
     {
       "id": "1ea4ccc5efc4",
       "datetime": "2026-03-23T01:49:05Z",
