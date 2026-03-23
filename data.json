@@ -67,7 +67,7 @@
       "id": "3b13f3fc89d7",
       "datetime": "2026-03-22T11:35:28Z",
       "type": "interception",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "UAE air defences engage 4 ballistic missiles, 25 UAVs — 22 Mar",
       "location": "UAE",
@@ -91,27 +91,34 @@
         }
       ],
       "_via": "rss",
-      "_search_count": 1,
-      "_next_search_at": 1774182928.0
+      "_search_count": 2,
+      "_next_search_at": 1774200928.0
     },
     {
       "id": "9b6a53beb75b",
       "datetime": "2026-03-22T02:17:20Z",
       "type": "impact_minor",
-      "confirmed": false,
-      "precision": "country",
+      "confirmed": true,
+      "precision": "emirate",
       "title": "Projectile strikes vessel off UAE coast",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
+      "location": "Sharjah coast, UAE",
+      "lat": 25.35,
+      "lon": 55.5,
       "sources": [
         {
           "url": "https://www.theguardian.com/world/live/2026/mar/21/middle-east-crisis-live-iran-war-trump-eases-oil-sanctions-israel-strikes",
           "domain": "theguardian.com",
           "tier": "wire"
+        },
+        {
+          "url": "https://www.thenationalnews.com/news/uae/2026/03/22/projectile-causes-explosion-near-vessel-off-sharjah-coast/",
+          "domain": "thenationalnews.com",
+          "tier": "wire"
         }
       ],
-      "_via": "rss"
+      "_via": "rss",
+      "_search_count": 1,
+      "_next_search_at": 1774149440.0
     },
     {
       "id": "780a01bcf148",
