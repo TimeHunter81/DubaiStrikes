@@ -41,7 +41,7 @@
       "id": "3b13f3fc89d7",
       "datetime": "2026-03-22T11:35:28Z",
       "type": "interception",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "UAE air defences engage 4 ballistic missiles, 25 UAVs — 22 Mar",
       "location": "UAE",
@@ -57,10 +57,17 @@
           "url": "https://www.hindustantimes.com/world-news/dubai-news-live-updates-abu-dhabi-uae-airports-flight-status-missiles-drones-attack-middle-east-iran-us-war-saudi-qatar-101774143551873.html",
           "domain": "hindustantimes.com",
           "tier": "local"
+        },
+        {
+          "url": "https://www.gulftoday.ae/news/2026/03/22/uae-air-defences-intercept-4-ballistic-missiles-25-uavs-from-iran",
+          "domain": "gulftoday.ae",
+          "tier": "wire"
         }
       ],
       "_via": "rss",
-      "confidence": "medium"
+      "confidence": "medium",
+      "_search_count": 1,
+      "_next_search_at": 1774182928.0
     },
     {
       "id": "9d4321875532",
