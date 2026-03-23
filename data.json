@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-23T20:39:00Z",
+  "last_updated": "2026-03-23T20:52:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -41,6 +41,26 @@
       ],
       "_via": "rss",
       "confidence": "high"
+    },
+    {
+      "id": "7484cfdc9faf",
+      "datetime": "2026-03-22T07:10:55Z",
+      "type": "impact_minor",
+      "confirmed": false,
+      "precision": "city",
+      "title": "Projectile causes explosion near vessel off Sharjah coast",
+      "location": "Sharjah",
+      "lat": 25.3463,
+      "lon": 55.4209,
+      "sources": [
+        {
+          "url": "https://www.thenationalnews.com/news/uae/2026/03/22/projectile-causes-explosion-near-vessel-off-sharjah-coast/",
+          "domain": "thenationalnews.com",
+          "tier": "local"
+        }
+      ],
+      "_via": "rss",
+      "confidence": "low"
     },
     {
       "id": "780a01bcf148",
