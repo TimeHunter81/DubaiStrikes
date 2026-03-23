@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-23T00:16:00Z",
+  "last_updated": "2026-03-23T00:30:26Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -8,7 +8,7 @@
       "type": "interception",
       "confirmed": false,
       "precision": "country",
-      "title": "UAE air defences intercept missiles, drones — 22 Mar night",
+      "title": "UAE intercepts missiles, drones — 22 Mar night",
       "location": "UAE",
       "lat": null,
       "lon": null,
@@ -30,7 +30,7 @@
         }
       ],
       "_via": "rss",
-      "confidence": "high",
+      "confidence": "medium",
       "_search_count": 2,
       "_next_search_at": 1774242076.0
     },
@@ -120,7 +120,6 @@
           "tier": "wire"
         }
       ],
-      "snippet": "Explosion reported near tanker off UAE's Sharjah coast",
       "_via": "rss",
       "_search_count": 3,
       "_next_search_at": 1774227491.0,
