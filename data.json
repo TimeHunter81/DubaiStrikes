@@ -1,38 +1,14 @@
 {
-  "last_updated": "2026-03-23T03:44:00Z",
+  "last_updated": "2026-03-23T03:57:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
-    {
-      "id": "154e1eb06a21",
-      "datetime": "2026-03-23T01:49:05Z",
-      "type": "impact_minor",
-      "confirmed": true,
-      "precision": "city",
-      "title": "Debris injury after missile incident, Abu Dhabi — 1 Indian national",
-      "location": "Abu Dhabi",
-      "lat": 24.4539,
-      "lon": 54.3773,
-      "sources": [
-        {
-          "url": "https://gulfnews.com/uae/indian-national-injured-by-falling-debris-after-missile-incident-in-abu-dhabi-1.500483089",
-          "domain": "gulfnews.com",
-          "tier": "local"
-        },
-        {
-          "url": "https://apnews.com/live/iran-war-israel-trump-03-22-2026",
-          "domain": "apnews.com",
-          "tier": "wire"
-        }
-      ],
-      "confidence": "high"
-    },
     {
       "id": "1ea4ccc5efc4",
       "datetime": "2026-03-23T01:49:05Z",
       "type": "interception",
       "confirmed": true,
       "precision": "country",
-      "title": "UAE intercepts Iranian missiles and drones — 22 Mar night",
+      "title": "UAE intercepts Iranian missiles/drones; debris injures 1 in Abu Dhabi",
       "location": "UAE",
       "lat": null,
       "lon": null,
@@ -56,15 +32,21 @@
           "url": "https://www.bbc.com/news/live/ce84073mr06t",
           "domain": "bbc.com",
           "tier": "wire"
+        },
+        {
+          "url": "https://apnews.com/live/iran-war-israel-trump-03-22-2026",
+          "domain": "apnews.com",
+          "tier": "wire"
         }
       ],
+      "_via": "rss",
       "confidence": "high"
     },
     {
       "id": "3b13f3fc89d7",
       "datetime": "2026-03-22T11:35:28Z",
       "type": "interception",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "country",
       "title": "UAE air defences engage 4 ballistic missiles, 25 UAVs — 22 Mar",
       "location": "UAE",
@@ -81,9 +63,7 @@
           "domain": "hindustantimes.com",
           "tier": "local"
         }
-      ],
-      "_search_count": 1,
-      "_next_search_at": 1774182928.0
+      ]
     },
     {
       "id": "9d4321875532",
