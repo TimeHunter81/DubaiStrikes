@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-23T21:14:45Z",
+  "last_updated": "2026-03-23T21:24:25Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -7,11 +7,11 @@
       "datetime": "2026-03-23T01:49:05Z",
       "type": "interception",
       "confirmed": true,
-      "precision": "city",
+      "precision": "country",
       "title": "UAE intercepts 7 ballistic missiles, 16 UAVs; debris injures 1",
       "location": "Abu Dhabi",
-      "lat": 24.4539,
-      "lon": 54.3773,
+      "lat": null,
+      "lon": null,
       "sources": [
         {
           "url": "https://gulfnews.com/uae/uae-air-defences-responding-to-incoming-missile-drone-threats-from-iran-1.500483041",
