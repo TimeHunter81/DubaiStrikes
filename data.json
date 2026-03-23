@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-23T11:25:00Z",
+  "last_updated": "2026-03-23T11:37:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -27,7 +27,8 @@
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-23%2Fazsw25hn%2F0breakingnews.jpg?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
       "_via": "rss",
       "_search_count": 1,
-      "_next_search_at": 1774265607.0
+      "_next_search_at": 1774265607.0,
+      "confidence": "high"
     },
     {
       "id": "1ea4ccc5efc4",
@@ -67,7 +68,7 @@
       "id": "3b13f3fc89d7",
       "datetime": "2026-03-22T11:35:28Z",
       "type": "interception",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "country",
       "title": "UAE air defences engage 4 ballistic missiles, 25 UAVs — 22 Mar",
       "location": "UAE",
@@ -93,32 +94,6 @@
       "_via": "rss",
       "_search_count": 3,
       "_next_search_at": 1774265728.0
-    },
-    {
-      "id": "9b6a53beb75b",
-      "datetime": "2026-03-22T02:17:20Z",
-      "type": "impact_minor",
-      "confirmed": true,
-      "precision": "emirate",
-      "title": "Projectile strikes vessel off UAE coast",
-      "location": "Sharjah coast, UAE",
-      "lat": 25.35,
-      "lon": 55.5,
-      "sources": [
-        {
-          "url": "https://www.theguardian.com/world/live/2026/mar/21/middle-east-crisis-live-iran-war-trump-eases-oil-sanctions-israel-strikes",
-          "domain": "theguardian.com",
-          "tier": "wire"
-        },
-        {
-          "url": "https://www.thenationalnews.com/news/uae/2026/03/22/projectile-causes-explosion-near-vessel-off-sharjah-coast/",
-          "domain": "thenationalnews.com",
-          "tier": "wire"
-        }
-      ],
-      "_via": "rss",
-      "_search_count": 1,
-      "_next_search_at": 1774149440.0
     },
     {
       "id": "780a01bcf148",
