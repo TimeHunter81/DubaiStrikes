@@ -1,11 +1,11 @@
 {
-  "last_updated": "2026-03-23T18:58:00Z",
+  "last_updated": "2026-03-23T19:10:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
       "id": "1ea4ccc5efc4",
       "datetime": "2026-03-23T01:49:05Z",
-      "type": "impact_minor",
+      "type": "interception",
       "confirmed": true,
       "precision": "city",
       "title": "UAE intercepts 7 missiles, 16 UAVs; debris injures 1 in Abu Dhabi",
@@ -65,7 +65,7 @@
         }
       ],
       "_via": "rss",
-      "confidence": "low",
+      "confidence": "high",
       "_search_count": 1,
       "_next_search_at": 1774167055.0
     },
