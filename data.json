@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-03-23T11:05:00Z",
+  "last_updated": "2026-03-23T11:15:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
       "id": "6b267ea6c721",
       "datetime": "2026-03-23T10:33:27Z",
       "type": "interception",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "country",
       "title": "UAE air defences engage 7 ballistic missiles, 16 UAVs",
       "location": "UAE",
@@ -67,7 +67,7 @@
       "id": "3b13f3fc89d7",
       "datetime": "2026-03-22T11:35:28Z",
       "type": "interception",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "country",
       "title": "UAE air defences engage 4 ballistic missiles, 25 UAVs — 22 Mar",
       "location": "UAE",
@@ -98,7 +98,7 @@
       "id": "9b6a53beb75b",
       "datetime": "2026-03-22T02:17:20Z",
       "type": "impact_minor",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "country",
       "title": "Projectile strikes vessel off UAE coast",
       "location": "UAE",
