@@ -62,7 +62,7 @@
       "id": "3b13f3fc89d7",
       "datetime": "2026-03-22T11:35:28Z",
       "type": "interception",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "UAE air defences engage 4 ballistic missiles, 25 UAVs — 22 Mar",
       "location": "UAE",
@@ -79,7 +79,9 @@
           "domain": "hindustantimes.com",
           "tier": "local"
         }
-      ]
+      ],
+      "_search_count": 1,
+      "_next_search_at": 1774182928.0
     },
     {
       "id": "9a5193b95324",
@@ -179,7 +181,7 @@
       "id": "1a12f988b209",
       "datetime": "2026-03-21T10:41:03Z",
       "type": "interception",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "UAE intercepts 3 ballistic missiles, 8 drones — 21 Mar",
       "location": "UAE",
@@ -201,7 +203,9 @@
           "domain": "gulftoday.ae",
           "tier": "wire"
         }
-      ]
+      ],
+      "_search_count": 1,
+      "_next_search_at": 1774093263.0
     },
     {
       "id": "780a01bcf148",
