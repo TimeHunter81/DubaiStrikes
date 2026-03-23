@@ -1,11 +1,11 @@
 {
-  "last_updated": "2026-03-23T04:55:00Z",
+  "last_updated": "2026-03-23T05:07:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
       "id": "1ea4ccc5efc4",
       "datetime": "2026-03-23T01:49:05Z",
-      "type": "interception",
+      "type": "impact_minor",
       "confirmed": true,
       "precision": "city",
       "title": "UAE intercepts Iranian missiles/drones; debris injures 1 in Abu Dhabi",
@@ -65,9 +65,7 @@
         }
       ],
       "_via": "rss",
-      "confidence": "medium",
-      "_search_count": 1,
-      "_next_search_at": 1774182928.0
+      "confidence": "medium"
     },
     {
       "id": "9d4321875532",
