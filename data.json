@@ -6,12 +6,12 @@
       "id": "1ea4ccc5efc4",
       "datetime": "2026-03-22T23:01:16Z",
       "type": "interception",
-      "confirmed": false,
-      "precision": "country",
+      "confirmed": true,
+      "precision": "city",
       "title": "UAE air defences intercept missiles, drones — 22 Mar night",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
+      "location": "Abu Dhabi, UAE",
+      "lat": 24.4539,
+      "lon": 54.3773,
       "sources": [
         {
           "url": "https://gulfnews.com/uae/uae-air-defences-responding-to-incoming-missile-drone-threats-from-iran-1.500483041",
@@ -22,13 +22,18 @@
           "url": "https://www.hindustantimes.com/world-news/dubai-news-live-updates-abu-dhabi-uae-airports-flight-status-missiles-drones-attack-middle-east-iran-us-war-saudi-qatar-101774143551873.html",
           "domain": "hindustantimes.com",
           "tier": "local"
+        },
+        {
+          "url": "https://www.thearabianstories.com/2026/03/22/live-updates-uae-air-defense-systems-respond-to-missile-threat/",
+          "domain": "thearabianstories.com",
+          "tier": "wire"
         }
       ],
       "snippet": null,
       "_via": "rss",
       "confidence": "low",
-      "_search_count": 1,
-      "_next_search_at": 1774224076.0
+      "_search_count": 2,
+      "_next_search_at": 1774242076.0
     },
     {
       "id": "3b13f3fc89d7",
