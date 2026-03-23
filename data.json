@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-23T01:38:00Z",
+  "last_updated": "2026-03-23T01:55:06Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -28,11 +28,7 @@
           "domain": "thearabianstories.com",
           "tier": "local"
         }
-      ],
-      "_via": "rss",
-      "confidence": "medium",
-      "_search_count": 2,
-      "_next_search_at": 1774242076.0
+      ]
     },
     {
       "id": "3b13f3fc89d7",
@@ -55,11 +51,7 @@
           "domain": "hindustantimes.com",
           "tier": "local"
         }
-      ],
-      "_via": "rss",
-      "confidence": "medium",
-      "_search_count": 3,
-      "_next_search_at": 1774265728.0
+      ]
     },
     {
       "id": "9a5193b95324",
@@ -82,11 +74,7 @@
           "domain": "bbc.com",
           "tier": "wire"
         }
-      ],
-      "_via": "rss",
-      "_search_count": 1,
-      "_next_search_at": 1774151776.0,
-      "confidence": "high"
+      ]
     },
     {
       "id": "9d4321875532",
@@ -119,11 +107,7 @@
           "domain": "reuters.com",
           "tier": "wire"
         }
-      ],
-      "_via": "rss",
-      "_search_count": 3,
-      "_next_search_at": 1774227491.0,
-      "confidence": "high"
+      ]
     },
     {
       "id": "f8cbffe9ed3b",
@@ -151,11 +135,7 @@
           "domain": "dubaieye1038.com",
           "tier": "local"
         }
-      ],
-      "_via": "rss",
-      "_search_count": 4,
-      "_next_search_at": 1774370942.0,
-      "confidence": "medium"
+      ]
     },
     {
       "id": "1a12f988b209",
@@ -178,11 +158,7 @@
           "domain": "hindustantimes.com",
           "tier": "local"
         }
-      ],
-      "_via": "rss",
-      "_search_count": 4,
-      "_next_search_at": 1774348863.0,
-      "confidence": "medium"
+      ]
     },
     {
       "id": "780a01bcf148",
@@ -201,9 +177,7 @@
           "tier": "osint"
         }
       ],
-      "confidence": "low",
       "_isw_id": 11350,
-      "_via": "isw",
       "_manual": true
     },
     {
@@ -228,7 +202,6 @@
           "tier": "wire"
         }
       ],
-      "confidence": "high",
       "_manual": true
     },
     {
@@ -248,7 +221,6 @@
           "tier": "wire"
         }
       ],
-      "confidence": "high",
       "_manual": true
     },
     {
@@ -291,7 +263,6 @@
           "tier": "official"
         }
       ],
-      "confidence": "high",
       "_manual": true
     },
     {
@@ -316,7 +287,6 @@
           "tier": "wire"
         }
       ],
-      "confidence": "high",
       "_manual": true
     },
     {
@@ -336,7 +306,6 @@
           "tier": "wire"
         }
       ],
-      "confidence": "high",
       "_manual": true
     },
     {
@@ -361,7 +330,6 @@
           "tier": "wire"
         }
       ],
-      "confidence": "high",
       "_manual": true
     },
     {
@@ -386,7 +354,6 @@
           "tier": "wire"
         }
       ],
-      "confidence": "high",
       "_manual": true
     },
     {
@@ -416,7 +383,6 @@
           "tier": "wire"
         }
       ],
-      "confidence": "high",
       "_manual": true
     },
     {
@@ -441,7 +407,6 @@
           "tier": "wire"
         }
       ],
-      "confidence": "high",
       "_manual": true
     },
     {
@@ -461,7 +426,6 @@
           "tier": "wire"
         }
       ],
-      "confidence": "high",
       "_manual": true
     },
     {
@@ -486,7 +450,6 @@
           "tier": "wire"
         }
       ],
-      "confidence": "high",
       "_manual": true
     }
   ]
