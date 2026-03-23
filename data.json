@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-23T02:45:00Z",
+  "last_updated": "2026-03-23T02:55:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -64,7 +64,7 @@
       "id": "3b13f3fc89d7",
       "datetime": "2026-03-22T11:35:28Z",
       "type": "interception",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "country",
       "title": "UAE air defences engage 4 ballistic missiles, 25 UAVs — 22 Mar",
       "location": "UAE",
@@ -84,29 +84,6 @@
       ],
       "_search_count": 1,
       "_next_search_at": 1774182928.0
-    },
-    {
-      "id": "9a5193b95324",
-      "datetime": "2026-03-22T02:56:16Z",
-      "type": "interception",
-      "confirmed": true,
-      "precision": "country",
-      "title": "UAE intercepts Iranian missiles and drones — 22 Mar early AM",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://gulfnews.com/uae/uae-responds-to-missile-and-drone-threats-from-iran-1.500482379",
-          "domain": "gulfnews.com",
-          "tier": "local"
-        },
-        {
-          "url": "https://www.bbc.com/news/live/ce84073mr06t",
-          "domain": "bbc.com",
-          "tier": "wire"
-        }
-      ]
     },
     {
       "id": "9d4321875532",
