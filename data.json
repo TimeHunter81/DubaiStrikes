@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-23T21:30:00Z",
+  "last_updated": "2026-03-23T21:45:22Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -9,7 +9,7 @@
       "confirmed": true,
       "precision": "country",
       "title": "UAE intercepts 7 ballistic missiles, 16 UAVs; debris injures 1",
-      "location": "Abu Dhabi",
+      "location": "UAE",
       "lat": null,
       "lon": null,
       "sources": [
@@ -38,7 +38,8 @@
           "domain": "thenationalnews.com",
           "tier": "local"
         }
-      ]
+      ],
+      "confidence": "high"
     },
     {
       "id": "7484cfdc9faf",
@@ -61,7 +62,8 @@
           "domain": "reuters.com",
           "tier": "wire"
         }
-      ]
+      ],
+      "confidence": "high"
     },
     {
       "id": "780a01bcf148",
