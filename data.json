@@ -1,17 +1,17 @@
 {
-  "last_updated": "2026-03-22T23:56:00Z",
+  "last_updated": "2026-03-23T00:08:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
       "id": "1ea4ccc5efc4",
       "datetime": "2026-03-22T23:01:16Z",
       "type": "interception",
-      "confirmed": true,
-      "precision": "city",
+      "confirmed": false,
+      "precision": "country",
       "title": "UAE air defences intercept missiles, drones — 22 Mar night",
-      "location": "Abu Dhabi, UAE",
-      "lat": 24.4539,
-      "lon": 54.3773,
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
       "sources": [
         {
           "url": "https://gulfnews.com/uae/uae-air-defences-responding-to-incoming-missile-drone-threats-from-iran-1.500483041",
@@ -26,12 +26,11 @@
         {
           "url": "https://www.thearabianstories.com/2026/03/22/live-updates-uae-air-defense-systems-respond-to-missile-threat/",
           "domain": "thearabianstories.com",
-          "tier": "wire"
+          "tier": "local"
         }
       ],
-      "snippet": null,
       "_via": "rss",
-      "confidence": "low",
+      "confidence": "high",
       "_search_count": 2,
       "_next_search_at": 1774242076.0
     },
@@ -57,7 +56,6 @@
           "tier": "local"
         }
       ],
-      "snippet": null,
       "_via": "rss",
       "confidence": "medium",
       "_search_count": 3,
@@ -85,7 +83,6 @@
           "tier": "wire"
         }
       ],
-      "snippet": null,
       "_via": "rss",
       "_search_count": 1,
       "_next_search_at": 1774151776.0,
@@ -156,7 +153,6 @@
           "tier": "local"
         }
       ],
-      "snippet": null,
       "_via": "rss",
       "_search_count": 4,
       "_next_search_at": 1774370942.0,
@@ -184,7 +180,6 @@
           "tier": "local"
         }
       ],
-      "snippet": null,
       "_via": "rss",
       "_search_count": 4,
       "_next_search_at": 1774348863.0,
