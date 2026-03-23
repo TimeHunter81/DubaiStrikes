@@ -6,7 +6,7 @@
       "id": "1ea4ccc5efc4",
       "datetime": "2026-03-23T01:00:40Z",
       "type": "interception",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "UAE intercepts Iranian missiles and drones — 22 Mar night",
       "location": "UAE",
@@ -28,13 +28,15 @@
           "domain": "thearabianstories.com",
           "tier": "local"
         }
-      ]
+      ],
+      "_search_count": 1,
+      "_next_search_at": 1774231240.0
     },
     {
       "id": "3b13f3fc89d7",
       "datetime": "2026-03-22T11:35:28Z",
       "type": "interception",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "UAE air defences engage 4 ballistic missiles, 25 UAVs — 22 Mar",
       "location": "UAE",
@@ -51,7 +53,9 @@
           "domain": "hindustantimes.com",
           "tier": "local"
         }
-      ]
+      ],
+      "_search_count": 1,
+      "_next_search_at": 1774182928.0
     },
     {
       "id": "9a5193b95324",
@@ -113,7 +117,7 @@
       "id": "f8cbffe9ed3b",
       "datetime": "2026-03-21T16:49:02Z",
       "type": "interception",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "UAE intercepts missiles and drones — 21 Mar evening",
       "location": "UAE",
@@ -135,13 +139,15 @@
           "domain": "dubaieye1038.com",
           "tier": "local"
         }
-      ]
+      ],
+      "_search_count": 1,
+      "_next_search_at": 1774115342.0
     },
     {
       "id": "1a12f988b209",
       "datetime": "2026-03-21T10:41:03Z",
       "type": "interception",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "UAE intercepts 3 ballistic missiles, 8 drones — 21 Mar",
       "location": "UAE",
@@ -158,7 +164,9 @@
           "domain": "hindustantimes.com",
           "tier": "local"
         }
-      ]
+      ],
+      "_search_count": 1,
+      "_next_search_at": 1774093263.0
     },
     {
       "id": "780a01bcf148",
