@@ -43,7 +43,7 @@
       "id": "aa2731316485",
       "datetime": "2026-03-23T12:56:59Z",
       "type": "interception",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "UAE intercepts 7 ballistic missiles, 16 UAVs — 23 Mar",
       "location": "UAE",
@@ -63,8 +63,8 @@
       ],
       "_via": "rss",
       "confidence": "high",
-      "_search_count": 2,
-      "_next_search_at": 1774292219.0
+      "_search_count": 3,
+      "_next_search_at": 1774357019.0
     },
     {
       "id": "780a01bcf148",
