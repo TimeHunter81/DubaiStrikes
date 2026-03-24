@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-24T11:51:00Z",
+  "last_updated": "2026-03-24T12:03:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -24,46 +24,8 @@
           "tier": "wire"
         }
       ],
-      "snippet": null,
-      "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-23%2Fstuvdvy2%2FUAEflag?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
       "_via": "rss",
-      "confidence": "low",
-      "_search_count": 1,
-      "_next_search_at": 1774352791.0
-    },
-    {
-      "id": "aa2731316485",
-      "datetime": "2026-03-23T12:56:59Z",
-      "type": "interception",
-      "confirmed": true,
-      "precision": "country",
-      "title": "UAE intercepts 7 ballistic missiles, 16 drones — 23 Mar",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.thenationalnews.com/news/uae/2026/03/23/uae-intercepts-seven-ballistic-missiles-and-16-drones-on-monday/",
-          "domain": "thenationalnews.com",
-          "tier": "local"
-        },
-        {
-          "url": "https://www.timesofisrael.com/liveblog_entry/uae-intercepts-7-iranian-missiles-16-drones/",
-          "domain": "timesofisrael.com",
-          "tier": "wire"
-        },
-        {
-          "url": "https://timesofindia.indiatimes.com/world/middle-east/uae-intercepts-7-ballistic-missiles-16-drones-on-march-23-as-air-defence-systems-stay-on-high-alert/articleshow/129750352.cms",
-          "domain": "timesofindia.indiatimes.com",
-          "tier": "wire"
-        }
-      ],
-      "snippet": null,
-      "preview_image": "https://www.thenationalnews.com/resizer/v2/TTKG6KR5AVE63IU5TBYJTLMX7E.jpg?smart=true&amp;auth=3b73d3f7fdb351ae21b616723530403678f0500444761bcf5de2b75da42fa079&amp;width=1200&amp;height=630",
-      "_via": "rss",
-      "confidence": "low",
-      "_search_count": 2,
-      "_next_search_at": 1774292219.0
+      "confidence": "high"
     },
     {
       "id": "780a01bcf148",
@@ -350,7 +312,7 @@
           "tier": "wire"
         },
         {
-          "url": "https://www.aljazeera.com/world/live/2026/mar/21/middle-east-crisis-live-iran-war-trump-eases-oil-sanctions-israel-strikes",
+          "url": "https://www.aljazeera.com/world/live/2026/03/21/middle-east-crisis-live-iran-war-trump-eases-oil-sanctions-israel-strikes",
           "domain": "aljazeera.com",
           "tier": "wire"
         }
