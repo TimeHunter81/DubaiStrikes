@@ -6,7 +6,7 @@
       "id": "2fa9b82bf4f8",
       "datetime": "2026-03-24T10:46:31Z",
       "type": "interception",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "UAE intercepts 5 ballistic missiles, 17 UAVs — 24 Mar",
       "location": "UAE",
@@ -27,16 +27,23 @@
           "url": "https://indianexpress.com/article/world/dubai-uae-news-live-updates-iran-israel-war-kuwait-saudi-arabia-missile-drone-attacks-10597697/",
           "domain": "indianexpress.com",
           "tier": "wire"
+        },
+        {
+          "url": "https://www.hindustantimes.com/world-news/dubai-abu-dhabi-uae-news-live-updates-iran-us-israel-war-latest-missile-drone-attack-oil-prices-flight-status-qatar-saud-101774315244126.html",
+          "domain": "hindustantimes.com",
+          "tier": "wire"
         }
       ],
       "_via": "rss",
-      "confidence": "high"
+      "confidence": "high",
+      "_search_count": 1,
+      "_next_search_at": 1774352791.0
     },
     {
       "id": "aa2731316485",
       "datetime": "2026-03-23T12:56:59Z",
       "type": "interception",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "UAE intercepts 7 ballistic missiles, 16 drones — 23 Mar",
       "location": "UAE",
@@ -47,10 +54,17 @@
           "url": "https://www.thenationalnews.com/news/uae/2026/03/23/uae-intercepts-seven-ballistic-missiles-and-16-drones-on-monday/",
           "domain": "thenationalnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://gulfnews.com/uae/uae-air-defences-responding-to-incoming-missile-drone-threats-from-iran-1.500483041",
+          "domain": "gulfnews.com",
+          "tier": "wire"
         }
       ],
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774274219.0
     },
     {
       "id": "780a01bcf148",
