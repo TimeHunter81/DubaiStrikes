@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-24T20:00:00Z",
+  "last_updated": "2026-03-24T20:08:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -45,43 +45,6 @@
       "confidence": "high",
       "_search_count": 3,
       "_next_search_at": 1774435591.0
-    },
-    {
-      "id": "aa2731316485",
-      "datetime": "2026-03-23T12:56:59Z",
-      "type": "interception",
-      "confirmed": true,
-      "precision": "country",
-      "title": "UAE intercepts 7 ballistic missiles, 16 drones — 23 Mar",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.thenationalnews.com/news/uae/2026/03/23/uae-intercepts-seven-ballistic-missiles-and-16-drones-on-monday/",
-          "domain": "thenationalnews.com",
-          "tier": "local"
-        },
-        {
-          "url": "https://www.timesofisrael.com/liveblog_entry/uae-intercepts-7-iranian-missiles-16-drones/",
-          "domain": "timesofisrael.com",
-          "tier": "wire"
-        },
-        {
-          "url": "https://timesofindia.indiatimes.com/world/middle-east/uae-intercepts-7-ballistic-missiles-16-drones-on-march-23-as-air-defence-systems-stay-on-high-alert/articleshow/129750352.cms",
-          "domain": "timesofindia.indiatimes.com",
-          "tier": "wire"
-        },
-        {
-          "url": "https://gulfnews.com/uae/uae-air-defences-responding-to-incoming-missile-drone-threats-from-iran-1.500483041",
-          "domain": "gulfnews.com",
-          "tier": "wire"
-        }
-      ],
-      "_via": "rss",
-      "confidence": "high",
-      "_search_count": 4,
-      "_next_search_at": 1774529819.0
     },
     {
       "id": "780a01bcf148",
