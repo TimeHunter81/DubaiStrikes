@@ -50,7 +50,7 @@
       "id": "22b1f0adcad7",
       "datetime": "2026-03-24T18:11:00Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "UAE helps secure release of American held by the Taliban",
       "location": "Uae",
@@ -61,12 +61,19 @@
           "url": "https://www.thenationalnews.com/news/us/2026/03/24/uae-helps-secure-release-of-american-held-by-the-taliban/",
           "domain": "thenationalnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://apnews.com/article/afghanistan-taliban-dennis-coyle-41b3670f26e02ca7520e3923c24cf388",
+          "domain": "apnews.com",
+          "tier": "wire"
         }
       ],
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/A4ZO4M6BXPGORBZ6AUEHOYAOV4.jpg?smart=true&amp;auth=6d4e3cfe2c42897e20e119b3aa7654dde1dbe2e1af8d775701418daedd0d9f41&amp;width=1200&amp;height=630",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774379460.0
     },
     {
       "id": "71ecdea41bf1",
@@ -116,7 +123,7 @@
       "id": "017319c17718",
       "datetime": "2026-03-24T17:49:14Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "Sharjah launches campaign to disinfect rainwater pools after recent showers",
       "location": "Sharjah",
@@ -132,13 +139,15 @@
       "snippet": null,
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-24%2Fop1jq96z%2FSHarjah?rect=0%2C0%2C1099%2C577&amp;w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774378154.0
     },
     {
       "id": "86b2c7090c5d",
       "datetime": "2026-03-24T17:31:59Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "Sharjah Civil Defence ramps up emergency readiness amid unstable weather in UAE",
       "location": "Sharjah",
@@ -154,13 +163,15 @@
       "snippet": null,
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-24%2Fb62sn1mo%2FSharjah-Civil-Defence?rect=0%2C37%2C1264%2C664&amp;w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774377119.0
     },
     {
       "id": "629641860d61",
       "datetime": "2026-03-24T17:18:11Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "Ain Dubai is temporarily closed",
       "location": "Dubai",
@@ -176,7 +187,9 @@
       "snippet": null,
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-24%2Fox419b7q%2FBEACH-8714333.jpg?rect=0%2C0%2C1187%2C623&amp;w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774376291.0
     },
     {
       "id": "65df82db2877",
