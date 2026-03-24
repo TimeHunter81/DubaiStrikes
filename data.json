@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-24T04:45:00Z",
+  "last_updated": "2026-03-24T04:56:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -7,11 +7,11 @@
       "datetime": "2026-03-23T12:56:59Z",
       "type": "interception",
       "confirmed": true,
-      "precision": "city",
+      "precision": "country",
       "title": "UAE intercepts 7 ballistic missiles and 16 drones",
-      "location": "Abu Dhabi, UAE",
-      "lat": 24.4539,
-      "lon": 54.3773,
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
       "sources": [
         {
           "url": "https://www.thenationalnews.com/news/uae/2026/03/23/uae-intercepts-seven-ballistic-missiles-and-16-drones-on-monday/",
