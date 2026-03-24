@@ -1,7 +1,29 @@
 {
-  "last_updated": "2026-03-24T10:51:00Z",
+  "last_updated": "2026-03-24T11:03:22Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
+    {
+      "id": "2fa9b82bf4f8",
+      "datetime": "2026-03-24T10:46:31Z",
+      "type": "interception",
+      "confirmed": true,
+      "precision": "country",
+      "title": "UAE air defences engage 5 ballistic missiles, 17 UAVs — March 24",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://gulfnews.com/uae/government/uae-air-defences-engage-5-ballistic-missiles-17-uavs-on-march-24-1.500484720",
+          "domain": "gulfnews.com",
+          "tier": "local"
+        }
+      ],
+      "snippet": null,
+      "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-23%2Fstuvdvy2%2FUAEflag?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
+      "_via": "rss",
+      "confidence": "low"
+    },
     {
       "id": "aa2731316485",
       "datetime": "2026-03-23T12:56:59Z",
