@@ -6,12 +6,12 @@
       "id": "aa2731316485",
       "datetime": "2026-03-23T12:56:59Z",
       "type": "interception",
-      "confirmed": false,
-      "precision": "country",
+      "confirmed": true,
+      "precision": "city",
       "title": "UAE intercepts 7 ballistic missiles and 16 drones",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
+      "location": "Abu Dhabi, UAE",
+      "lat": 24.4539,
+      "lon": 54.3773,
       "sources": [
         {
           "url": "https://www.thenationalnews.com/news/uae/2026/03/23/uae-intercepts-seven-ballistic-missiles-and-16-drones-on-monday/",
@@ -22,14 +22,19 @@
           "url": "https://www.timesofisrael.com/liveblog_entry/uae-intercepts-7-iranian-missiles-16-drones/",
           "domain": "timesofisrael.com",
           "tier": "wire"
+        },
+        {
+          "url": "https://timesofindia.indiatimes.com/world/middle-east/uae-intercepts-7-ballistic-missiles-16-drones-on-march-23-as-air-defence-systems-stay-on-high-alert/articleshow/129750352.cms",
+          "domain": "timesofindia.indiatimes.com",
+          "tier": "wire"
         }
       ],
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/TTKG6KR5AVE63IU5TBYJTLMX7E.jpg?smart=true&auth=3b73d3f7fdb351ae21b616723530403678f0500444761bcf5de2b75da42fa079&width=1200&height=630",
       "_via": "rss",
       "confidence": "high",
-      "_search_count": 1,
-      "_next_search_at": 1774274219.0
+      "_search_count": 2,
+      "_next_search_at": 1774292219.0
     },
     {
       "id": "780a01bcf148",
