@@ -1,14 +1,14 @@
 {
-  "last_updated": "2026-03-24T17:11:00Z",
+  "last_updated": "2026-03-24T17:23:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
       "id": "2fa9b82bf4f8",
       "datetime": "2026-03-24T10:46:31Z",
       "type": "interception",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "country",
-      "title": "UAE intercepts 5 ballistic missiles, 17 UAVs — 24 Mar",
+      "title": "UAE air defences intercept 5 ballistic missiles, 17 UAVs — 24 Mar",
       "location": "UAE",
       "lat": null,
       "lon": null,
@@ -43,6 +43,28 @@
       "confidence": "high",
       "_search_count": 3,
       "_next_search_at": 1774435591.0
+    },
+    {
+      "id": "aa2731316485",
+      "datetime": "2026-03-23T12:56:59Z",
+      "type": "interception",
+      "confirmed": false,
+      "precision": "country",
+      "title": "UAE air defences intercept 7 ballistic missiles, 16 UAVs — 23 Mar",
+      "location": "Uae",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.thenationalnews.com/news/uae/2026/03/23/uae-intercepts-seven-ballistic-missiles-and-16-drones-on-monday/",
+          "domain": "thenationalnews.com",
+          "tier": "local"
+        }
+      ],
+      "snippet": null,
+      "preview_image": "https://www.thenationalnews.com/resizer/v2/TTKG6KR5AVE63IU5TBYJTLMX7E.jpg?smart=true&amp;auth=3b73d3f7fdb351ae21b616723530403678f0500444761bcf5de2b75da42fa079&amp;width=1200&amp;height=630",
+      "_via": "rss",
+      "confidence": "low"
     },
     {
       "id": "780a01bcf148",
