@@ -6,7 +6,7 @@
       "id": "2fa9b82bf4f8",
       "datetime": "2026-03-24T10:46:31Z",
       "type": "interception",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "UAE intercepts 5 ballistic missiles, 17 UAVs — 24 Mar",
       "location": "UAE",
@@ -36,14 +36,14 @@
       ],
       "_via": "rss",
       "confidence": "high",
-      "_search_count": 1,
-      "_next_search_at": 1774352791.0
+      "_search_count": 2,
+      "_next_search_at": 1774370791.0
     },
     {
       "id": "aa2731316485",
       "datetime": "2026-03-23T12:56:59Z",
       "type": "interception",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "UAE intercepts 7 ballistic missiles, 16 drones — 23 Mar",
       "location": "UAE",
@@ -59,12 +59,17 @@
           "url": "https://gulfnews.com/uae/uae-air-defences-responding-to-incoming-missile-drone-threats-from-iran-1.500483041",
           "domain": "gulfnews.com",
           "tier": "wire"
+        },
+        {
+          "url": "https://www.business-standard.com/world-news/uae-air-defences-engage-7-ballistic-missiles-16-uavs-launched-from-iran-126032400065_1.html",
+          "domain": "business-standard.com",
+          "tier": "wire"
         }
       ],
       "_via": "rss",
       "confidence": "high",
-      "_search_count": 1,
-      "_next_search_at": 1774274219.0
+      "_search_count": 2,
+      "_next_search_at": 1774292219.0
     },
     {
       "id": "780a01bcf148",
