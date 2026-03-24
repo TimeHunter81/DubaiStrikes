@@ -6,7 +6,7 @@
       "id": "2fa9b82bf4f8",
       "datetime": "2026-03-24T10:46:31Z",
       "type": "interception",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "UAE air defences intercept 5 ballistic missiles, 17 UAVs — 24 Mar",
       "location": "UAE",
@@ -17,18 +17,25 @@
           "url": "https://gulfnews.com/uae/government/uae-air-defences-engage-5-ballistic-missiles-17-uavs-on-march-24-1.500484720",
           "domain": "gulfnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://www.business-standard.com/world-news/uae-air-defences-engage-7-ballistic-missiles-16-uavs-launched-from-iran-126032400065_1.html",
+          "domain": "business-standard.com",
+          "tier": "wire"
         }
       ],
       "snippet": null,
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-23%2Fstuvdvy2%2FUAEflag?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774352791.0
     },
     {
       "id": "aa2731316485",
       "datetime": "2026-03-23T12:56:59Z",
       "type": "interception",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "UAE intercepts 7 ballistic missiles, 16 drones — 23 Mar",
       "location": "UAE",
@@ -44,14 +51,19 @@
           "url": "https://www.timesofisrael.com/liveblog_entry/uae-intercepts-7-iranian-missiles-16-drones/",
           "domain": "timesofisrael.com",
           "tier": "wire"
+        },
+        {
+          "url": "https://timesofindia.indiatimes.com/world/middle-east/uae-intercepts-7-ballistic-missiles-16-drones-on-march-23-as-air-defence-systems-stay-on-high-alert/articleshow/129750352.cms",
+          "domain": "timesofindia.indiatimes.com",
+          "tier": "wire"
         }
       ],
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/TTKG6KR5AVE63IU5TBYJTLMX7E.jpg?smart=true&amp;auth=3b73d3f7fdb351ae21b616723530403678f0500444761bcf5de2b75da42fa079&amp;width=1200&amp;height=630",
       "_via": "rss",
       "confidence": "low",
-      "_search_count": 1,
-      "_next_search_at": 1774274219.0
+      "_search_count": 2,
+      "_next_search_at": 1774292219.0
     },
     {
       "id": "780a01bcf148",
