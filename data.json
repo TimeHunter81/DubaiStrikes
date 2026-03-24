@@ -43,7 +43,7 @@
       "id": "aa2731316485",
       "datetime": "2026-03-23T12:56:59Z",
       "type": "interception",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "UAE intercepts 7 ballistic missiles, 16 UAVs — 23 Mar",
       "location": "UAE",
@@ -54,10 +54,17 @@
           "url": "https://www.thenationalnews.com/news/uae/2026/03/23/uae-intercepts-seven-ballistic-missiles-and-16-drones-on-monday/",
           "domain": "thenationalnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://gulfnews.com/uae/uae-air-defences-engaged-7-ballistic-missiles-16-uavs-1.500483531",
+          "domain": "gulfnews.com",
+          "tier": "wire"
         }
       ],
       "_via": "rss",
-      "confidence": "medium"
+      "confidence": "medium",
+      "_search_count": 1,
+      "_next_search_at": 1774274219.0
     },
     {
       "id": "780a01bcf148",
