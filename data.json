@@ -6,7 +6,7 @@
       "id": "629641860d61",
       "datetime": "2026-03-24T17:18:11Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "Ain Dubai is temporarily closed",
       "location": "Dubai",
@@ -17,18 +17,25 @@
           "url": "https://gulfnews.com/uae/ain-dubai-is-temporarily-closed-1.500485205",
           "domain": "gulfnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://www.travelandtourworld.com/news/article/urgent-travel-alert-dubais-global-village-ain-dubai-and-dubai-parks-shut-for-public-safety-plan-your-visit-now/",
+          "domain": "travelandtourworld.com",
+          "tier": "wire"
         }
       ],
       "snippet": null,
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-24%2Fox419b7q%2FBEACH-8714333.jpg?rect=0%2C0%2C1187%2C623&amp;w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774376291.0
     },
     {
       "id": "9162db8dff9e",
       "datetime": "2026-03-24T17:07:51Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "UK says defence diplomacy is key in Gulf response to Iran's indiscriminate attacks",
       "location": "UAE",
@@ -39,18 +46,25 @@
           "url": "https://www.thenationalnews.com/news/uk/2026/03/24/uk-says-defence-diplomacy-is-key-in-gulf-response-to-irans-indiscriminate-attacks/",
           "domain": "thenationalnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://www.bbc.com/news/articles/crrxkjxg1zpo",
+          "domain": "bbc.com",
+          "tier": "wire"
         }
       ],
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/RHGBVE7FU5EITGVB36B6YJFIR4.jpg?smart=true&amp;auth=fe5e7f42f7b8c2d8f22c42c08805e2d1a457a15a5643e9318e098da686fe7c82&amp;width=1200&amp;height=630",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774375671.0
     },
     {
       "id": "a15fe265a14a",
       "datetime": "2026-03-24T17:02:47Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "Iran holding world economy hostage, says Kuwait Petroleum Corporation CEO",
       "location": "UAE",
@@ -61,18 +75,25 @@
           "url": "https://www.thenationalnews.com/business/energy/2026/03/24/iran-holding-world-economy-hostage-says-kuwait-petroleum-corporation-ceo/",
           "domain": "thenationalnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://fortune.com/2026/03/24/oil-ceos-prices-iran-war-greatest-energy-shock-ever/",
+          "domain": "fortune.com",
+          "tier": "wire"
         }
       ],
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/QCXPBSNXRRDXXNBTYTIZ6S52WQ.JPG?smart=true&amp;auth=f720a610c1e8c56a4f07d72a4995c286b3eb8d428cc4a1aa3a2bb0c1fe47ee20&amp;width=1200&amp;height=630",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774375367.0
     },
     {
       "id": "8df62cd932ee",
       "datetime": "2026-03-24T17:01:58Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "Working from home, learning from home: How UAE families are coping",
       "location": "Uae",
@@ -83,12 +104,19 @@
           "url": "https://gulfnews.com/living-in-uae/education/working-from-home-learning-from-home-how-uae-families-are-coping-1.500485160",
           "domain": "gulfnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://www.thenationalnews.com/lifestyle/2026/03/24/remote-learning-guide-home-schooling-tips-for-uae-parents/",
+          "domain": "thenationalnews.com",
+          "tier": "wire"
         }
       ],
       "snippet": null,
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-24%2Fv2os7q00%2FSunshine-with-children.jpg?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774375318.0
     },
     {
       "id": "4d0988be4e6a",
