@@ -48,7 +48,7 @@
       "id": "aa2731316485",
       "datetime": "2026-03-23T12:56:59Z",
       "type": "interception",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "UAE intercepts 7 ballistic missiles, 16 drones — 23 Mar",
       "location": "UAE",
@@ -64,12 +64,17 @@
           "url": "https://timesofindia.indiatimes.com/world/middle-east/uae-intercepts-7-ballistic-missiles-16-drones-on-march-23-as-air-defence-systems-stay-on-high-alert/articleshow/129750352.cms",
           "domain": "timesofindia.indiatimes.com",
           "tier": "wire"
+        },
+        {
+          "url": "https://www.timesofisrael.com/liveblog_entry/uae-intercepts-7-iranian-missiles-16-drones/",
+          "domain": "timesofisrael.com",
+          "tier": "wire"
         }
       ],
       "_via": "rss",
       "confidence": "low",
-      "_search_count": 1,
-      "_next_search_at": 1774274219.0
+      "_search_count": 2,
+      "_next_search_at": 1774292219.0
     },
     {
       "id": "780a01bcf148",
