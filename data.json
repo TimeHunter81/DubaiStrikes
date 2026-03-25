@@ -6,7 +6,7 @@
       "id": "68684fd3b57f",
       "datetime": "2026-03-25T23:09:21Z",
       "type": "interception",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "UAE air defences engage incoming Iranian missiles and drones",
       "location": "UAE",
@@ -17,12 +17,19 @@
           "url": "https://gulfnews.com/uae/uae-air-defences-responding-to-incoming-missile-and-drone-threats-from-iran-2-1.500486549",
           "domain": "gulfnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://www.reuters.com/world/middle-east/iranian-missiles-drones-fired-gulf-countries-2026-03-10/",
+          "domain": "reuters.com",
+          "tier": "wire"
         }
       ],
       "snippet": null,
       "preview_image": "https://media.assettype.com/gulfnews%2Fimport%2F2024%2F09%2F25%2FMinistry-of-Defence-announces-martyrdom-of-four-members-of-UAE-Armed-Forces-in-accident_19227a2f3d5_large.jpg?rect=0%2C15%2C750%2C394&amp;w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774483761.0
     },
     {
       "id": "b9fe84c277aa",
