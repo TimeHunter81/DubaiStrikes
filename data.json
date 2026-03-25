@@ -6,7 +6,7 @@
       "id": "98cb1d37b9e0",
       "datetime": "2026-03-25T18:57:05Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "UN Human Rights Council condemns Iran&apos;s attacks on Gulf states",
       "location": "UAE",
@@ -17,12 +17,19 @@
           "url": "https://gulfnews.com/world/gulf/un-human-rights-council-condemns-irans-attacks-on-gulf-states-1.500486396",
           "domain": "gulfnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://www.reuters.com/world/middle-east/iranian-strikes-pose-existential-threat-gulf-states-tell-un-2026-03-25/",
+          "domain": "reuters.com",
+          "tier": "wire"
         }
       ],
       "snippet": "UN Human Rights Council condemns Iran&apos;s attacks on Gulf states",
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-25%2Fn54inhd2%2FUAE?rect=0%2C66%2C1280%2C672&amp;w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774468625.0
     },
     {
       "id": "f0686a5c5c06",
@@ -110,13 +117,15 @@
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/E5SCUAGRRZC4VKNXUTX3NZBQVQ?smart=true&amp;auth=c60bfd0c8507a66be3f7af15476681c9ccb123264be515501cbdf3d85382ca6e&amp;width=1200&amp;height=630",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774466816.0
     },
     {
       "id": "804511dced70",
       "datetime": "2026-03-25T18:23:58Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "Sheikh Theyab pays respects to UAE Armed Forces contractor killed in Iranian attack on Bahrain",
       "location": "Uae",
@@ -132,7 +141,9 @@
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/MVL3KATNKVBGLN7AW2WSMBAKLU.jpg?smart=true&amp;auth=62628b8452ec1c72ae779f840ed43b510369767a495e4e52ccfc44bb2a630453&amp;width=1200&amp;height=630",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774466638.0
     },
     {
       "id": "b03f93866889",
@@ -182,7 +193,7 @@
       "id": "aac3737ad767",
       "datetime": "2026-03-25T17:21:58Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "John Bolton warns Iran threat to Strait of Hormuz is growing",
       "location": "UAE",
@@ -193,12 +204,19 @@
           "url": "https://www.thenationalnews.com/news/us/2026/03/25/john-bolton-iran-war/",
           "domain": "thenationalnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://thehill.com/homenews/administration/5799953-bolton-questions-trump-iran-claims/",
+          "domain": "thehill.com",
+          "tier": "wire"
         }
       ],
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/2GSPL56IRVFP4AY6IYQPYENR7A.jpg?smart=true&amp;auth=73444d30e344c400512c6a4933be657475b14baef54f1307e9d905327e5a8efe&amp;width=1200&amp;height=630",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774462918.0
     },
     {
       "id": "bf21e0a02c24",
