@@ -6,7 +6,7 @@
       "id": "2ac0a81be456",
       "datetime": "2026-03-25T15:43:47Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "Egyptian and Iranian foreign ministers in talks over solution to end war",
       "location": "UAE",
@@ -17,18 +17,25 @@
           "url": "https://www.thenationalnews.com/news/mena/2026/03/25/egyptian-and-iranian-foreign-ministers-in-talks-over-solution-to-end-war/",
           "domain": "thenationalnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://www.marketscreener.com/news/iranian-and-egyptian-foreign-ministers-emphasized-in-phone-call-need-to-continue-consultations-ira-ce7e5edddd8ff626",
+          "domain": "marketscreener.com",
+          "tier": "wire"
         }
       ],
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/YKXTWEFMFV5PPDWZQWIZRFTNXE.jpg?smart=true&amp;auth=67ae223aea112014700dbec5dab45ec24baa7c8cbf22fe7bd9dc431eab77d296&amp;width=1200&amp;height=630",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774457027.0
     },
     {
       "id": "b4c8ff2ed6c2",
       "datetime": "2026-03-25T15:42:55Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "Dubai warns of rising fraud attempts using fake QR codes",
       "location": "Dubai",
@@ -39,18 +46,25 @@
           "url": "https://gulfnews.com/uae/dubai-warns-of-rising-fraud-attempts-using-fake-qr-codes-1.500485711",
           "domain": "gulfnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://www.khaleejtimes.com/uae/dubai-warns-rising-fraud-attempts-using-fake-qr-codes",
+          "domain": "khaleejtimes.com",
+          "tier": "wire"
         }
       ],
       "snippet": "Dubai warns of rising fraud attempts using fake QR codes",
       "preview_image": "https://media.assettype.com/gulfnews%2F2025-10-05%2F1setu9tz%2FQR-code.jpg?rect=0%2C38%2C1200%2C630&amp;w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774456975.0
     },
     {
       "id": "8bbe878b9885",
       "datetime": "2026-03-25T15:34:51Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "Iran gives five conditions for ending war, official tells state TV",
       "location": "UAE",
@@ -61,18 +75,25 @@
           "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-gives-five-conditions-ending-war-official-tells-state-tv",
           "domain": "middleeasteye.net",
           "tier": "local"
+        },
+        {
+          "url": "https://www.bbc.com/news/live/cn8dldl0jx9t",
+          "domain": "bbc.com",
+          "tier": "wire"
         }
       ],
       "snippet": "&lt;article data-history-node-id=\"436677\" about=\"https://www.middleeasteye.net/live-blog/live-blog-update/iran-gives-five-conditions-ending-war-official-tells-state-tv\" class=\"live-blog-update default clearfix\"&gt;\n\n  \n      &lt;h2&gt;\n      &lt;a hr",
       "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/lebanon-attack-afp.jpg",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774456491.0
     },
     {
       "id": "e85d1ad1fb29",
       "datetime": "2026-03-25T15:17:47Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "'Final wave' of bad weather set to bring more heavy rain to UAE",
       "location": "Uae",
@@ -88,7 +109,9 @@
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/AJOMSWH4Z5EHPFTWWL3AUSI3SE.jpg?smart=true&amp;auth=93dfa938639a2de1d4308c5a0de8a7cb0ecf5b2ccb41ebecd93b931489cbe877&amp;width=1200&amp;height=630",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774455467.0
     },
     {
       "id": "4f02e0b1ea1b",
