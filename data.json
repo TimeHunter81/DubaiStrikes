@@ -50,7 +50,7 @@
       "id": "0a8001a332e1",
       "datetime": "2026-03-25T20:03:34Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "Kuwait foils 'Hezbollah plot to assassinate leaders of the state'",
       "location": "UAE",
@@ -61,18 +61,25 @@
           "url": "https://www.thenationalnews.com/news/mena/2026/03/25/kuwait-foils-hezbollah-plot-to-assassinate-leaders-of-the-state/",
           "domain": "thenationalnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://www.reuters.com/world/middle-east/uae-says-it-dismantled-terrorist-network-funded-by-iran-hezbollah-2026-03-19/",
+          "domain": "reuters.com",
+          "tier": "wire"
         }
       ],
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/5POHC6GTARBRDKPJZZ7T4PE7GM.jfif?smart=true&amp;auth=1afd48e2e53ce77047811a08090022544a0359b85d306b9b564a5e94f7f48a62&amp;width=1200&amp;height=630",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774472614.0
     },
     {
       "id": "7e9400a4acf9",
       "datetime": "2026-03-25T19:50:17Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "Dr Sultan Al Jaber discusses Iran war and energy security with US Vice President JD Vance",
       "location": "UAE",
@@ -83,18 +90,25 @@
           "url": "https://www.thenationalnews.com/news/us/2026/03/25/dr-sultan-al-jaber-discusses-iran-war-and-energy-security-with-us-vice-president-jd-vance/",
           "domain": "thenationalnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://www.nbcnews.com/world/middle-east/live-blog/live-updates-iran-war-talks-trump-peace-plan-troops-hormuz-rcna265051",
+          "domain": "nbcnews.com",
+          "tier": "wire"
         }
       ],
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/6FWTESYPJRERFNGECZBVPF2VVY.jpg?smart=true&amp;auth=ca1e98a1c0e6c5132ac0e6fdb764bbc4113d300d5f6e353ee705cae6b780fb17&amp;width=1200&amp;height=630",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774471817.0
     },
     {
       "id": "f265ec490a84",
       "datetime": "2026-03-25T19:48:08Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "Kuwait thwarts terror plot involving 19 suspects linked to Lebanon&apos;s Hezbollah",
       "location": "UAE",
@@ -105,12 +119,19 @@
           "url": "https://gulfnews.com/world/gulf/kuwait/kuwait-thwarts-terror-plot-involving-19-suspects-linked-to-lebanons-hezbollah-1.500486474",
           "domain": "gulfnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://www.reuters.com/world/middle-east/uae-says-it-dismantled-terrorist-network-funded-by-iran-hezbollah-2026-03-19/",
+          "domain": "reuters.com",
+          "tier": "wire"
         }
       ],
       "snippet": null,
       "preview_image": "https://images.assettype.com/gulfnews-uat%2F2024-10-15%2Fr2sl2lqd%2FGulf-News-Fallback-Image.jpg?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774471688.0
     },
     {
       "id": "def050ffd35f",
@@ -138,7 +159,7 @@
       "id": "48351b62752c",
       "datetime": "2026-03-25T19:34:59Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "UN Human Rights Council adopts resolution condemning Iranian attacks on Gulf countries and Jordan",
       "location": "UAE",
@@ -149,12 +170,19 @@
           "url": "https://www.thenationalnews.com/news/mena/2026/03/25/un-human-rights-council-adopts-resolution-condemning-iranian-attacks-on-gcc-countries-and-jordan/",
           "domain": "thenationalnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://www.aljazeera.com/news/2026/3/25/iranian-attacks-amount-to-violation-of-sovereignty-gulf-states-tell-un",
+          "domain": "aljazeera.com",
+          "tier": "wire"
         }
       ],
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/ZLQD6KUFJBDA7OWBKCFUZG7QQY.jpg?smart=true&amp;auth=6ef03e42ff34bfd1b96d6c4812ad8ab1b0832bd4b30807186a618ae40d4f6196&amp;width=1200&amp;height=630",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774470899.0
     },
     {
       "id": "cc62e9834d86",
