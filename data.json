@@ -6,7 +6,7 @@
       "id": "630b16fd04b8",
       "datetime": "2026-03-25T11:59:05Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "UAE authorities issue safety advice to protect public during storms",
       "location": "Uae",
@@ -22,7 +22,9 @@
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/GSGF26JCJVFPPF3LIYROLBZF7I.jpg?smart=true&amp;auth=e3b9cd6f6ee9c85a4c1a80fb3a9c38d397dc55f133bc446ec411b779ba378050&amp;width=1200&amp;height=630",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774443545.0
     },
     {
       "id": "cd3c40bc92b6",
@@ -50,7 +52,7 @@
       "id": "37b5162cceb5",
       "datetime": "2026-03-25T11:36:58Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "UAE urges rain-affected residents to pray at home amid adverse weather conditions",
       "location": "Uae",
@@ -66,7 +68,9 @@
       "snippet": null,
       "preview_image": "https://media.assettype.com/gulfnews%2Fimport%2F2020%2F04%2F17%2FOPN-200417-PRAYING-1587108481067_1718709882c_large.jpg?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774442218.0
     },
     {
       "id": "68c4760217ca",
@@ -88,7 +92,9 @@
       "snippet": null,
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-25%2F5mjdpfso%2Ffreepikphoto-a-25yearold-asian-woman-with-dark-hair-pulle67346.png?rect=0%2C46%2C2752%2C1445&amp;w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774442168.0
     },
     {
       "id": "92da689897dc",
@@ -161,7 +167,7 @@
       "id": "820713a9d78d",
       "datetime": "2026-03-25T11:09:17Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "‘Now I can build my own house’: Bangladeshi expat wins $1m in Dubai Duty Free draw",
       "location": "Dubai",
@@ -172,12 +178,19 @@
           "url": "https://gulfnews.com/uae/people/now-i-can-build-my-own-house-bangladeshi-expat-wins-1m-in-dubai-duty-free-draw-1.500485892",
           "domain": "gulfnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://www.khaleejtimes.com/uae/bangladeshi-office-clerk-wins-1-million-dubai-duty-free-draw",
+          "domain": "khaleejtimes.com",
+          "tier": "wire"
         }
       ],
       "snippet": null,
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-25%2Flgtykmy3%2FB78A9352.JPG?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774440557.0
     },
     {
       "id": "da155e85870f",
