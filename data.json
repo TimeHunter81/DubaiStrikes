@@ -6,7 +6,7 @@
       "id": "b9fe84c277aa",
       "datetime": "2026-03-25T11:25:31Z",
       "type": "interception",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "UAE air defences intercept 9 Iranian UAVs",
       "location": "UAE",
@@ -33,8 +33,8 @@
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-09%2F3launi7z%2FUAEFlag?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
       "_via": "rss",
       "confidence": "medium",
-      "_search_count": 2,
-      "_next_search_at": 1774459531.0
+      "_search_count": 3,
+      "_next_search_at": 1774524331.0
     },
     {
       "id": "780a01bcf148",
