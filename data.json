@@ -1,50 +1,7 @@
 {
-  "last_updated": "2026-03-25T08:17:00Z",
+  "last_updated": "2026-03-25T08:28:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
-    {
-      "id": "2fa9b82bf4f8",
-      "datetime": "2026-03-24T10:46:31Z",
-      "type": "interception",
-      "confirmed": false,
-      "precision": "country",
-      "title": "UAE air defences intercept 5 ballistic missiles, 17 UAVs — 24 Mar",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://gulfnews.com/uae/government/uae-air-defences-engage-5-ballistic-missiles-17-uavs-on-march-24-1.500484720",
-          "domain": "gulfnews.com",
-          "tier": "local"
-        },
-        {
-          "url": "https://www.business-standard.com/world-news/uae-air-defences-engage-7-ballistic-missiles-16-uavs-launched-from-iran-126032400065_1.html",
-          "domain": "business-standard.com",
-          "tier": "regional"
-        },
-        {
-          "url": "https://indianexpress.com/article/world/dubai-uae-news-live-updates-iran-israel-war-kuwait-saudi-arabia-missile-drone-attacks-10597697/",
-          "domain": "indianexpress.com",
-          "tier": "regional"
-        },
-        {
-          "url": "https://www.hindustantimes.com/world-news/dubai-abu-dhabi-uae-news-live-updates-iran-us-israel-war-latest-missile-drone-attack-oil-prices-flight-status-qatar-saud-101774315244126.html",
-          "domain": "hindustantimes.com",
-          "tier": "regional"
-        },
-        {
-          "url": "https://article.wn.com/view/2026/03/24/UAE_air_defence_engages_5_missiles_17_drones_in_new_wave_of_/",
-          "domain": "worldnews.com",
-          "tier": "aggregator"
-        }
-      ],
-      "snippet": null,
-      "preview_image": null,
-      "_via": "gdelt",
-      "_search_count": 3,
-      "_next_search_at": 1774435591.0
-    },
     {
       "id": "780a01bcf148",
       "datetime": "2026-03-10T00:00:00Z",
