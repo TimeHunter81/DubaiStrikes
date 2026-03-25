@@ -6,7 +6,7 @@
       "id": "b74164982b29",
       "datetime": "2026-03-25T04:21:21Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "Dubai Parks and Resorts announces temporary closure",
       "location": "Dubai",
@@ -22,7 +22,9 @@
       "snippet": null,
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-25%2Fynlxrhjv%2Fgulfnewsimport20190808Visitors-at-Logoland-at-Dubai-Parks-and-Resorts16c71acd525large.avif?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774416081.0
     },
     {
       "id": "0a83f5aec731",
@@ -66,7 +68,9 @@
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/TS25ANR3TZGQVJHOR4LE4GLJJI.jpg?smart=true&amp;auth=235b7e8fa8770b6c5d4f8cfaff04f742f2ad3d9a2e3f012b8c31983e14486f07&amp;width=1200&amp;height=630",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774414151.0
     },
     {
       "id": "299c37ff8bcd",
@@ -88,7 +92,9 @@
       "snippet": null,
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-24%2Fhymhg33k%2FJohn-Hadden.jpg?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774413200.0
     },
     {
       "id": "e58461521e83",
@@ -160,7 +166,7 @@
       "id": "74592dbb6cf6",
       "datetime": "2026-03-25T03:18:19Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "UAE hits retailers with more than 200 fines for price hikes amid Iran crisis",
       "location": "Uae",
@@ -176,7 +182,9 @@
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/CT3XW4COGJBEDL6SXFE2GQ5LIQ.jpeg?smart=true&amp;auth=17ec2cfb5efd29a65fcfc76cffc98191690ecdab42ceca3a9e1c49165e9f68ce&amp;width=1200&amp;height=630",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774412299.0
     },
     {
       "id": "830cf12df732",
