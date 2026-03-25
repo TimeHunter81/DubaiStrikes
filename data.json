@@ -28,7 +28,7 @@
       "id": "3abe3dcb6fa6",
       "datetime": "2026-03-25T12:11:57Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "UAE: Egregious, terrorist Iranian attacks targeted critical civilian infrastructure",
       "location": "Uae",
@@ -39,12 +39,19 @@
           "url": "https://gulfnews.com/uae/uae-egregious-terrorist-iranian-attacks-targeted-critical-civilian-infrastructure-1.500485922",
           "domain": "gulfnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://www.reuters.com/world/middle-east/qatarenergy-reports-extensive-damage-after-missile-attacks-ras-laffan-industrial-2026-03-18/",
+          "domain": "reuters.com",
+          "tier": "wire"
         }
       ],
       "snippet": "UAE: Egregious, terrorist Iranian attacks targeted critical civilian infrastructure",
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-25%2Fp17cbsmp%2Fhrd02ch51ka156kpo.jpeg?rect=0%2C20%2C1024%2C538&amp;w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774444317.0
     },
     {
       "id": "0aac98446c40",
@@ -66,7 +73,9 @@
       "snippet": null,
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-25%2F688lvfxp%2FNotion-Group.jpg?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774443746.0
     },
     {
       "id": "24e8d511162e",
@@ -88,13 +97,15 @@
       "snippet": null,
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-25%2Fl7hzkku6%2FIntracept-procedure?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774443739.0
     },
     {
       "id": "630b16fd04b8",
       "datetime": "2026-03-25T11:59:05Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "UAE authorities issue safety advice to protect public during storms",
       "location": "Uae",
@@ -110,7 +121,9 @@
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/GSGF26JCJVFPPF3LIYROLBZF7I.jpg?smart=true&amp;auth=e3b9cd6f6ee9c85a4c1a80fb3a9c38d397dc55f133bc446ec411b779ba378050&amp;width=1200&amp;height=630",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774443545.0
     },
     {
       "id": "89c74e98c78a",
