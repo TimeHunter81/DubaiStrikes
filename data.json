@@ -6,7 +6,7 @@
       "id": "c0b6f4b07877",
       "datetime": "2026-03-25T03:25:36Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "IRGC says new strikes mark 'beginning of targeting' Israeli forces in Gaza",
       "location": "UAE",
@@ -17,18 +17,25 @@
           "url": "https://www.middleeasteye.net/live-blog/live-blog-update/irgc-says-new-strikes-mark-beginning-targeting-israeli-forces-gaza",
           "domain": "middleeasteye.net",
           "tier": "local"
+        },
+        {
+          "url": "https://www.globalsecurity.org/wmd/library/news/iran/2026/03/iran-260323-presstv01.htm",
+          "domain": "globalsecurity.org",
+          "tier": "wire"
         }
       ],
       "snippet": "&lt;article data-history-node-id=\"436629\" about=\"https://www.middleeasteye.net/live-blog/live-blog-update/irgc-says-new-strikes-mark-beginning-targeting-israeli-forces-gaza\" class=\"live-blog-update default clearfix\"&gt;\n\n  \n      &lt;h2&gt;\n      &lt",
       "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/2026-03-24T193504Z_1545933874_RC2RJDANZ783_RTRMADP_3_IRAN-CRISIS-LEBANON-ISRAEL-SOUTH.jpg",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774412736.0
     },
     {
       "id": "000fbb91d2ff",
       "datetime": "2026-03-25T03:18:19Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "UAE imposes 216 fines on traders and retail outlets for raising prices amid Iran attacks",
       "location": "Uae",
@@ -44,13 +51,15 @@
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/CT3XW4COGJBEDL6SXFE2GQ5LIQ.jpeg?smart=true&amp;auth=17ec2cfb5efd29a65fcfc76cffc98191690ecdab42ceca3a9e1c49165e9f68ce&amp;width=1200&amp;height=630",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774412299.0
     },
     {
       "id": "d1b060de33c1",
       "datetime": "2026-03-25T03:15:09Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "UAE supermarkets plan new routes as Iran war fuels rise in shipping costs",
       "location": "Uae",
@@ -61,18 +70,25 @@
           "url": "https://www.thenationalnews.com/news/uae/2026/03/25/uae-supermarkets-plan-new-routes-as-iran-war-fuels-rise-in-shipping-costs/",
           "domain": "thenationalnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://www.reuters.com/world/middle-east/gulf-food-strategy-tested-iran-war-snarls-shipping-routes-2026-03-05/",
+          "domain": "reuters.com",
+          "tier": "wire"
         }
       ],
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/OEGXNGGQ7BGYHINZOCGGSIRHBQ.JPG?smart=true&amp;auth=29113b6b426a202a550bfe3865441bb4b3d861cd019e0d3e65cd8839e96cf038&amp;width=1200&amp;height=630",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774412109.0
     },
     {
       "id": "84c1a1edc65f",
       "datetime": "2026-03-25T03:11:26Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "US‑Israel war with Iran, Day 26: What you need to know",
       "location": "UAE",
@@ -83,12 +99,19 @@
           "url": "https://gulfnews.com/uae/usisrael-war-with-iran-day-26-what-you-need-to-know-1.500485458",
           "domain": "gulfnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://www.theguardian.com/world/live/2026/mar/24/iran-war-live-updates-trump-ursula-von-der-leyen-oil-prices-energy-crisis-israel-strikes",
+          "domain": "theguardian.com",
+          "tier": "wire"
         }
       ],
       "snippet": null,
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-23%2F5qy7d664%2FWhatsApp_Image_2026_03_23_at_3_01_00_PM.jpeg?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774411886.0
     },
     {
       "id": "4e85bccdb71d",
