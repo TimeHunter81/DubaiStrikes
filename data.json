@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-25T20:33:08Z",
+  "last_updated": "2026-03-25T20:37:48Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -25,6 +25,28 @@
       "confidence": "low",
       "_search_count": 1,
       "_next_search_at": 1774473799.0
+    },
+    {
+      "id": "a64418486226",
+      "datetime": "2026-03-25T20:20:16Z",
+      "type": "security_alert",
+      "confirmed": true,
+      "precision": "country",
+      "title": "Trump to visit Xi Jinping in China on May 14 and 15 after Iran war delay",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.aljazeera.com/news/2026/3/25/trump-to-visit-xi-jinping-in-china-on-may-14-and-15-after-iran-war-delay?traffic_source=rss",
+          "domain": "aljazeera.com",
+          "tier": "wire"
+        }
+      ],
+      "snippet": "Press secretary Karoline Leavitt says Chinese President Xi Jinping will also visit US at a later date.",
+      "preview_image": "https://www.aljazeera.com/wp-content/uploads/2026/03/afp_69c43f56d1cd-1774468950.jpg?resize=1920%2C1440",
+      "_via": "rss",
+      "confidence": "medium"
     },
     {
       "id": "1ee5492e738b",
@@ -54,6 +76,28 @@
       "confidence": "low",
       "_search_count": 1,
       "_next_search_at": 1774473225.0
+    },
+    {
+      "id": "d9fa3e3100ad",
+      "datetime": "2026-03-25T20:12:04Z",
+      "type": "security_alert",
+      "confirmed": true,
+      "precision": "country",
+      "title": "US tells Iran to accept defeat or Trump will ‘unleash hell’",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/3/25/us-tells-iran-to-accept-defeat-or-trump-will-unleash?traffic_source=rss",
+          "domain": "aljazeera.com",
+          "tier": "wire"
+        }
+      ],
+      "snippet": "The White House has warned Iran to accept what it called a military defeat, or the US will “hit harder” than before.",
+      "preview_image": "https://www.aljazeera.com/wp-content/uploads/2026/03/leavitt-wide-1774469508.jpg?resize=1920%2C1080&amp;quality=80",
+      "_via": "rss",
+      "confidence": "medium"
     },
     {
       "id": "0a8001a332e1",
@@ -2180,50 +2224,6 @@
       ],
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/RHGBVE7FU5EITGVB36B6YJFIR4.jpg?smart=true&amp;auth=fe5e7f42f7b8c2d8f22c42c08805e2d1a457a15a5643e9318e098da686fe7c82&amp;width=1200&amp;height=630",
-      "_via": "rss",
-      "confidence": "low"
-    },
-    {
-      "id": "4c27257966f1",
-      "datetime": "2026-03-24T17:04:04Z",
-      "type": "security_alert",
-      "confirmed": true,
-      "precision": "country",
-      "title": "Small window open for US-Iran talks, but swift end to war still unlikely",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.bbc.com/news/articles/c895xljyzewo?at_medium=RSS&amp;at_campaign=rss",
-          "domain": "bbc.com",
-          "tier": "wire"
-        }
-      ],
-      "snippet": "President Trump says the US is already dealing with a \"top person\" in Iran, but Tehran denies that any talks have begun.",
-      "preview_image": "https://ichef.bbci.co.uk/news/1024/branded_news/5e3a/live/a33b24e0-27a7-11f1-a8d3-5d54fcb90a80.jpg",
-      "_via": "rss",
-      "confidence": "medium"
-    },
-    {
-      "id": "a15fe265a14a",
-      "datetime": "2026-03-24T17:02:47Z",
-      "type": "security_alert",
-      "confirmed": false,
-      "precision": "country",
-      "title": "Iran holding world economy hostage, says Kuwait Petroleum Corporation CEO",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.thenationalnews.com/business/energy/2026/03/24/iran-holding-world-economy-hostage-says-kuwait-petroleum-corporation-ceo/",
-          "domain": "thenationalnews.com",
-          "tier": "local"
-        }
-      ],
-      "snippet": null,
-      "preview_image": "https://www.thenationalnews.com/resizer/v2/QCXPBSNXRRDXXNBTYTIZ6S52WQ.JPG?smart=true&amp;auth=f720a610c1e8c56a4f07d72a4995c286b3eb8d428cc4a1aa3a2bb0c1fe47ee20&amp;width=1200&amp;height=630",
       "_via": "rss",
       "confidence": "low"
     },
