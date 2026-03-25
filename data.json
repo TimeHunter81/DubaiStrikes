@@ -6,7 +6,7 @@
       "id": "2e9273953ddd",
       "datetime": "2026-03-25T02:27:17Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "US-Iran latest: US has designed 15-point plan aimed at ending war, reports say",
       "location": "UAE",
@@ -17,18 +17,25 @@
           "url": "https://www.thenationalnews.com/news/mena/2026/03/25/live-us-israel-iran-war-trump-pakistan-talks/",
           "domain": "thenationalnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://www.reuters.com/world/asia-pacific/iran-sends-waves-missiles-into-israel-dismisses-trumps-talk-negotiations-fake-2026-03-24/",
+          "domain": "reuters.com",
+          "tier": "wire"
         }
       ],
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/6RC3XJXMXNAGPBYSQ7OFVLQF6U?smart=true&amp;auth=d9dcaaf835ff89cb6bde315d6efcb43337d359e2de548ed24177869df6a53774&amp;width=1200&amp;height=630",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774409237.0
     },
     {
       "id": "6fa6cd99b0fa",
       "datetime": "2026-03-25T02:18:31Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "Washington's proposal to Iran outlines nuclear rollback, US media says",
       "location": "UAE",
@@ -39,40 +46,54 @@
           "url": "https://www.middleeasteye.net/live-blog/live-blog-update/washintons-proposal-iran-outlines-nuclear-rollback-us-media-says",
           "domain": "middleeasteye.net",
           "tier": "local"
+        },
+        {
+          "url": "https://www.reuters.com/world/asia-pacific/iran-sends-waves-missiles-into-israel-dismisses-trumps-talk-negotiations-fake-2026-03-24/",
+          "domain": "reuters.com",
+          "tier": "wire"
         }
       ],
       "snippet": "&lt;article data-history-node-id=\"436625\" about=\"https://www.middleeasteye.net/live-blog/live-blog-update/washintons-proposal-iran-outlines-nuclear-rollback-us-media-says\" class=\"live-blog-update default clearfix\"&gt;\n\n  \n      &lt;h2&gt;\n      &lt;a",
       "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/2026-03-24T193504Z_1545933874_RC2RJDANZ783_RTRMADP_3_IRAN-CRISIS-LEBANON-ISRAEL-SOUTH.jpg",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774408711.0
     },
     {
       "id": "9a1057750fe8",
       "datetime": "2026-03-25T02:13:25Z",
       "type": "security_alert",
-      "confirmed": false,
-      "precision": "country",
+      "confirmed": true,
+      "precision": "city",
       "title": "Air strike hits Tehran as missile intercepted in central Israel",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
+      "location": "Tehran, Iran",
+      "lat": 35.6892,
+      "lon": 51.389,
       "sources": [
         {
           "url": "https://www.middleeasteye.net/live-blog/live-blog-update/air-strike-hits-tehran-missile-intercepted-central-israel",
           "domain": "middleeasteye.net",
           "tier": "local"
+        },
+        {
+          "url": "https://www.reuters.com/pictures/sirens-strikes-irans-missiles-breach-israeli-defenses-2026-03-10/",
+          "domain": "reuters.com",
+          "tier": "wire"
         }
       ],
       "snippet": "&lt;article data-history-node-id=\"436624\" about=\"https://www.middleeasteye.net/live-blog/live-blog-update/air-strike-hits-tehran-missile-intercepted-central-israel\" class=\"live-blog-update default clearfix\"&gt;\n\n  \n      &lt;h2&gt;\n      &lt;a href=\"",
       "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/2026-03-24T193504Z_1545933874_RC2RJDANZ783_RTRMADP_3_IRAN-CRISIS-LEBANON-ISRAEL-SOUTH.jpg",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774408405.0
     },
     {
       "id": "6d35c709c406",
       "datetime": "2026-03-25T02:10:36Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "Report: Trump does not rule out troop deployment in Iran, seizing Kharg Island",
       "location": "UAE",
@@ -83,12 +104,19 @@
           "url": "https://www.middleeasteye.net/live-blog/live-blog-update/report-trump-does-not-rule-out-troops-deployment-iran-seizing-kharg",
           "domain": "middleeasteye.net",
           "tier": "local"
+        },
+        {
+          "url": "https://apnews.com/article/iran-israel-us-march-13-2026-oil-prices-2a86a1f5c5997b70c6586d957074fb0c",
+          "domain": "apnews.com",
+          "tier": "wire"
         }
       ],
       "snippet": "&lt;article data-history-node-id=\"436623\" about=\"https://www.middleeasteye.net/live-blog/live-blog-update/report-trump-does-not-rule-out-troops-deployment-iran-seizing-kharg\" class=\"live-blog-update default clearfix\"&gt;\n\n  \n      &lt;h2&gt;\n      &l",
       "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/2026-03-24T193504Z_1545933874_RC2RJDANZ783_RTRMADP_3_IRAN-CRISIS-LEBANON-ISRAEL-SOUTH.jpg",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774408236.0
     },
     {
       "id": "cf1647071681",
