@@ -66,13 +66,15 @@
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/E5SCUAGRRZC4VKNXUTX3NZBQVQ?smart=true&amp;auth=c60bfd0c8507a66be3f7af15476681c9ccb123264be515501cbdf3d85382ca6e&amp;width=1200&amp;height=630",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774466816.0
     },
     {
       "id": "804511dced70",
       "datetime": "2026-03-25T18:23:58Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "Sheikh Theyab pays respects to UAE Armed Forces contractor killed in Iranian attack on Bahrain",
       "location": "Uae",
@@ -83,12 +85,19 @@
           "url": "https://www.thenationalnews.com/news/uae/2026/03/25/sheikh-theyab-offers-condolences-on-uae-armed-forces-contractor-martyred-in-iranian-attack-on-bahrain/",
           "domain": "thenationalnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://gulfnews.com/uae/government/one-dead-as-iranian-missiles-strike-bahrain-uae-confirms-1.500485015",
+          "domain": "gulfnews.com",
+          "tier": "wire"
         }
       ],
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/MVL3KATNKVBGLN7AW2WSMBAKLU.jpg?smart=true&amp;auth=62628b8452ec1c72ae779f840ed43b510369767a495e4e52ccfc44bb2a630453&amp;width=1200&amp;height=630",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774466638.0
     },
     {
       "id": "74ea4cb0e604",
@@ -110,7 +119,9 @@
       "snippet": "&lt;article data-history-node-id=\"436689\" about=\"https://www.middleeasteye.net/live-blog/live-blog-update/irgc-commander-warns-trump-threats-amount-act-war\" class=\"live-blog-update default clearfix\"&gt;\n\n  \n      &lt;h2&gt;\n      &lt;a href=\"https://",
       "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/lebanon-attack-afp.jpg",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774466305.0
     },
     {
       "id": "184c535ea6ee",
@@ -132,7 +143,9 @@
       "snippet": "&lt;article data-history-node-id=\"436686\" about=\"https://www.middleeasteye.net/news/iran-counters-trumps-15-point-plan-own-5-conditions-end-war\" class=\"story default clearfix\"&gt;\n\n  \n      &lt;h2&gt;\n      &lt;a href=\"https://www.middleeasteye.net/n",
       "preview_image": "https://www.middleeasteye.net/sites/default/files/images-story/Iran-flag-demonstrator-war-2026-AFP.jpg",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774466074.0
     },
     {
       "id": "e60271a35024",
