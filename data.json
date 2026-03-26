@@ -1,7 +1,1442 @@
 {
-  "last_updated": "2026-03-26T12:21:00Z",
+  "last_updated": "2026-03-26T12:38:26Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
+    {
+      "id": "3e07782be00c",
+      "datetime": "2026-03-26T12:22:08Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "Weather latest: UAE braces for powerful storm with heavy rain, strong wind and thunder expected",
+      "location": "Uae",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.thenationalnews.com/news/uae/2026/03/26/live-uae-weather-rain-thunder-tornado/",
+          "domain": "thenationalnews.com",
+          "tier": "local"
+        }
+      ],
+      "snippet": null,
+      "preview_image": "https://www.thenationalnews.com/resizer/v2/5D3CS5DPCFE2TBLL6YUJ4PSOSQ.jpg?smart=true&amp;auth=3cbbc48aab33029eaba4d31570dc8d860c76369aa9d3d4e4d8b3b217349e5c3a&amp;width=1200&amp;height=630",
+      "_via": "rss",
+      "confidence": "low"
+    },
+    {
+      "id": "a7fe24a7f7f8",
+      "datetime": "2026-03-26T12:09:51Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "Pakistan relays US-Iran peace talks, says Ishaq Dar",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://gulfnews.com/world/asia/pakistan/pakistan-relays-us-iran-peace-talks-says-ishaq-dar-1.500487176",
+          "domain": "gulfnews.com",
+          "tier": "local"
+        }
+      ],
+      "snippet": null,
+      "preview_image": "https://media.assettype.com/gulfnews%2Fimport%2F2023%2F02%2F22%2Fdar-1677059404700_1867887b3b9_large.jpg?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
+      "_via": "rss",
+      "confidence": "low"
+    },
+    {
+      "id": "8e66f035614e",
+      "datetime": "2026-03-26T12:08:49Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "city",
+      "title": "Oman extends flight cancellations to Dubai, Kuwait, Doha, and Bahrain until April 15",
+      "location": "Dubai",
+      "lat": 25.2048,
+      "lon": 55.2708,
+      "sources": [
+        {
+          "url": "https://gulfnews.com/business/aviation/oman-extends-flight-cancellations-to-dubai-kuwait-doha-and-bahrain-until-april-15-1.500487167",
+          "domain": "gulfnews.com",
+          "tier": "local"
+        }
+      ],
+      "snippet": null,
+      "preview_image": "https://media.assettype.com/gulfnews%2Fimport%2F2013%2F6%2F19%2F1_16a080f0d94.1199238_180886860_16a080f0d94_large.jpg?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
+      "_via": "rss",
+      "confidence": "low"
+    },
+    {
+      "id": "0c23a6146e92",
+      "datetime": "2026-03-26T12:06:03Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "Oil prices jump 5 percent on Iran-US talks uncertainty",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/oil-prices-jump-5-percent-iran-us-talks-uncertainty",
+          "domain": "middleeasteye.net",
+          "tier": "local"
+        }
+      ],
+      "snippet": "&lt;article data-history-node-id=\"436745\" about=\"https://www.middleeasteye.net/live-blog/live-blog-update/oil-prices-jump-5-percent-iran-us-talks-uncertainty\" class=\"live-blog-update default clearfix\"&gt;\n\n  \n      &lt;h2&gt;\n      &lt;a href=\"https:",
+      "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/iran-support-supreme-leader-25-march-2026-afp.jpg",
+      "_via": "rss",
+      "confidence": "low"
+    },
+    {
+      "id": "e36ea9c1d9c8",
+      "datetime": "2026-03-26T11:56:47Z",
+      "type": "security_alert",
+      "confirmed": true,
+      "precision": "country",
+      "title": "Venezuela’s Maduro set to again appear in US court: How strong is the case?",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.aljazeera.com/news/2026/3/26/venezuelas-maduro-set-to-again-appear-in-us-court-how-strong-is-the-case?traffic_source=rss",
+          "domain": "aljazeera.com",
+          "tier": "wire"
+        }
+      ],
+      "snippet": "March 26 hearing will be second court appearance since Maduro&#039;s January 3 abduction by US military.",
+      "preview_image": "https://www.aljazeera.com/wp-content/uploads/2026/01/2026-01-05T132513Z_1997653511_RC20VIAIZF2M_RTRMADP_3_USA-VENEZUELA-MADURO-NEW-YORK-1767646464.jpg?resize=1920%2C1440",
+      "_via": "rss",
+      "confidence": "medium"
+    },
+    {
+      "id": "dc2fedb4f0a8",
+      "datetime": "2026-03-26T11:55:10Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "Child returned, father missing: Gaza woman's ordeal after family abducted by Israeli military",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.thenationalnews.com/news/mena/2026/03/26/child-returned-father-missing-gaza-womans-ordeal-after-family-abducted-by-israeli-military/",
+          "domain": "thenationalnews.com",
+          "tier": "local"
+        }
+      ],
+      "snippet": null,
+      "preview_image": "https://www.thenationalnews.com/resizer/v2/BROU2VHHQFDCVGP7T7DZ2BXOEM.jpg?smart=true&amp;auth=52ee539f8fb858ba2077c9f67055c33c5a4d3e606e938b078dfbe852afd25208&amp;width=1200&amp;height=630",
+      "_via": "rss",
+      "confidence": "low"
+    },
+    {
+      "id": "7025e0fb21a9",
+      "datetime": "2026-03-26T11:53:09Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "Before the iPhone Fold and Galaxy Z Fold 8 Wide: 5 foldables to buy in the UAE, 2026",
+      "location": "Uae",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://gulfnews.com/best-buys/electronics/before-the-iphone-fold-and-galaxy-z-fold-8-wide-5-foldables-to-buy-in-the-uae-2026-1.500487083",
+          "domain": "gulfnews.com",
+          "tier": "local"
+        }
+      ],
+      "snippet": null,
+      "preview_image": "https://media.assettype.com/gulfnews%2F2024-11-17%2Faausuod4%2Ffolding_phone_generic_17564e32ab9_original_ratio.jpg?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
+      "_via": "rss",
+      "confidence": "low"
+    },
+    {
+      "id": "7c8d23fcef52",
+      "datetime": "2026-03-26T11:42:56Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "city",
+      "title": "How Dubai’s RTA is tackling unstable weather: Smarter planning, faster response, safer roads",
+      "location": "Dubai",
+      "lat": 25.2048,
+      "lon": 55.2708,
+      "sources": [
+        {
+          "url": "https://gulfnews.com/uae/transport/how-dubais-rta-is-tackling-unstable-weather-smarter-planning-faster-response-safer-roads-1.500486894",
+          "domain": "gulfnews.com",
+          "tier": "local"
+        }
+      ],
+      "snippet": null,
+      "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-26%2Ftqc3og2p%2Frta-1?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
+      "_via": "rss",
+      "confidence": "low"
+    },
+    {
+      "id": "e18c244a728c",
+      "datetime": "2026-03-26T11:40:17Z",
+      "type": "security_alert",
+      "confirmed": true,
+      "precision": "country",
+      "title": "Iran to Lebanon: Four million people displaced by US-Israeli war",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.aljazeera.com/news/2026/3/26/iran-to-lebanon-four-million-people-displaced-by-us-israeli-war?traffic_source=rss",
+          "domain": "aljazeera.com",
+          "tier": "wire"
+        }
+      ],
+      "snippet": "Three million Iranians and at least a million Lebanese have been forced from their homes because of US-Israeli attacks.",
+      "preview_image": "https://www.aljazeera.com/wp-content/uploads/2026/03/INTERACTIVE-displaced-lebanon-iran-March-24-2026_final-05-1774519784.png?resize=1200%2C630",
+      "_via": "rss",
+      "confidence": "medium"
+    },
+    {
+      "id": "e88866458b1d",
+      "datetime": "2026-03-26T11:36:53Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "Bab Al Mandeb: How Iran could bend a second strait to its will",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.thenationalnews.com/news/mena/2026/03/26/bab-al-mandeb-how-iran-could-bend-a-second-strait-to-its-will/",
+          "domain": "thenationalnews.com",
+          "tier": "local"
+        }
+      ],
+      "snippet": null,
+      "preview_image": "https://www.thenationalnews.com/resizer/v2/CL3IEYVLW3QNHTVDTBGZKKG22E.jpg?smart=true&amp;auth=c56176dd7447dda6efbde0d45ec1833d589526d34c65fbf4c125ed65b60d8c1f&amp;width=1200&amp;height=630",
+      "_via": "rss",
+      "confidence": "low"
+    },
+    {
+      "id": "57f007e3816c",
+      "datetime": "2026-03-26T11:36:09Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "Who was Tangsiri? Iran’s naval chief behind Hormuz blockade",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://gulfnews.com/world/mena/who-was-tangsiri-iran-s-naval-chief-behind-hormuz-blockade-1.500487126",
+          "domain": "gulfnews.com",
+          "tier": "local"
+        }
+      ],
+      "snippet": "Who was Tangsiri? Naval chief behind Hormuz blockade",
+      "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-26%2F1r2ozdc9%2Fcomande_1774524240084.jpg?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
+      "_via": "rss",
+      "confidence": "low"
+    },
+    {
+      "id": "4e71e749d610",
+      "datetime": "2026-03-26T11:36:06Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "city",
+      "title": "Abu Dhabi debris incident: Pakistani and Indian nationals confirmed dead",
+      "location": "Abu Dhabi",
+      "lat": 24.4539,
+      "lon": 54.3773,
+      "sources": [
+        {
+          "url": "https://gulfnews.com/uae/abu-dhabi-debris-incident-pakistani-and-indian-nationals-confirmed-dead-1.500487135",
+          "domain": "gulfnews.com",
+          "tier": "local"
+        }
+      ],
+      "snippet": null,
+      "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-23%2Ff7f2j4x7%2FUAEflag?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
+      "_via": "rss",
+      "confidence": "low"
+    },
+    {
+      "id": "638b4858dedf",
+      "datetime": "2026-03-26T11:33:05Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "UAE sends 270 tonnes of children's clothing to Gaza as aid drive continues",
+      "location": "Uae",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.thenationalnews.com/news/uae/2026/03/26/uae-sends-270-tonnes-of-childrens-clothing-to-gaza-as-aid-drive-continues/",
+          "domain": "thenationalnews.com",
+          "tier": "local"
+        }
+      ],
+      "snippet": null,
+      "preview_image": "https://www.thenationalnews.com/resizer/v2/VLQO5TCYHBDXNMQ7NUIIGFWCU4.jpg?smart=true&amp;auth=ea4d00ae5109dcb9db137f5fa4cdd6bf47dbb87df2d3e2c2fb1f8dee589232c6&amp;width=1200&amp;height=630",
+      "_via": "rss",
+      "confidence": "low"
+    },
+    {
+      "id": "899b61096e34",
+      "datetime": "2026-03-26T11:22:24Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "city",
+      "title": "Sharjah deploys 20 recovery vehicles to manage low-pressure weather impact",
+      "location": "Sharjah",
+      "lat": 25.3463,
+      "lon": 55.4209,
+      "sources": [
+        {
+          "url": "https://gulfnews.com/uae/weather/sharjah-deploys-20-recovery-vehicles-to-manage-low-pressure-weather-impact-1.500487116",
+          "domain": "gulfnews.com",
+          "tier": "local"
+        }
+      ],
+      "snippet": null,
+      "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-26%2Fiph33kwj%2FSharjah-recovery-vehicles?rect=0%2C7%2C724%2C380&amp;w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
+      "_via": "rss",
+      "confidence": "low"
+    },
+    {
+      "id": "65da421a929d",
+      "datetime": "2026-03-26T11:16:58Z",
+      "type": "security_alert",
+      "confirmed": true,
+      "precision": "country",
+      "title": "Germany warns of world economic ‘catastrophe’; OECD cuts UK growth forecast",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.aljazeera.com/news/2026/3/26/germany-warns-of-world-economic-catastrophe-oecd-cuts-uk-growth-forecast?traffic_source=rss",
+          "domain": "aljazeera.com",
+          "tier": "wire"
+        }
+      ],
+      "snippet": "European powers and bodies warn of economic collapse as the war on Iran nears one-month mark.",
+      "preview_image": "https://www.aljazeera.com/wp-content/uploads/2026/03/epa_69c4fe4fdf71-1774517839.jpg?resize=1920%2C1440",
+      "_via": "rss",
+      "confidence": "medium"
+    },
+    {
+      "id": "247acf369135",
+      "datetime": "2026-03-26T11:16:27Z",
+      "type": "security_alert",
+      "confirmed": true,
+      "precision": "country",
+      "title": "Middle East crisis live: Israel says it has killed Iranian naval chief as Trump repeats claim Tehran ‘begging’ for deal",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.theguardian.com/world/live/2026/mar/26/iran-war-live-updates-trump-deal-us-military-strikes-israel-lebanon-hezbollah",
+          "domain": "theguardian.com",
+          "tier": "wire"
+        }
+      ],
+      "snippet": "&lt;p&gt;Israeli defence minister says Alireza Tangsiri was responsible for blocking the strait of Hormuz&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;a href=\"https://www.theguardian.com/us-news/2026/mar/25/trump-iran-war-analysis\"&gt;Analysis: Trump pi",
+      "preview_image": "https://i.guim.co.uk/img/media/c3881f0db87912a5c3ed453b5d8ea22611baa8db/218_0_1478_1182/master/1478.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctbGl2ZS5wbmc&enable=upscale&s=a0da75adbbad11a377ce0dac65b06140",
+      "_via": "rss",
+      "confidence": "medium"
+    },
+    {
+      "id": "cffa2e5fe62e",
+      "datetime": "2026-03-26T11:10:39Z",
+      "type": "security_alert",
+      "confirmed": true,
+      "precision": "country",
+      "title": "Iranian naval commander Alireza Tangsiri killed in attack, Israel says",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.aljazeera.com/news/2026/3/26/iranian-naval-commander-alireza-tangsiri-killed-in-attack-says-israel?traffic_source=rss",
+          "domain": "aljazeera.com",
+          "tier": "wire"
+        }
+      ],
+      "snippet": "Defence minister claims Israel kills Alireza Tangsiri, citing his role in blocking the Strait of Hormuz.",
+      "preview_image": "https://www.aljazeera.com/wp-content/uploads/2026/03/Screenshot-2026-03-26-at-1.46.15-PM-1774522036.png?resize=1920%2C1440",
+      "_via": "rss",
+      "confidence": "medium"
+    },
+    {
+      "id": "e757ad20291f",
+      "datetime": "2026-03-26T11:00:37Z",
+      "type": "security_alert",
+      "confirmed": true,
+      "precision": "country",
+      "title": "Netanyahu claims that victory over Iran would bring peace to Israel. He should look closer to home | Dahlia Scheindlin",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.theguardian.com/commentisfree/2026/mar/26/benjamin-netanyahu-iran-peace-israel-war-palestinian",
+          "domain": "theguardian.com",
+          "tier": "wire"
+        }
+      ],
+      "snippet": "&lt;p&gt;As Israelis grow weary of sheltering from missile attacks, their prime minister is using the war to distract from the Palestinian issue&lt;/p&gt;&lt;p&gt;An opinion poll conducted in Israeli two weeks into its&lt;strong&gt; &lt;/strong&gt;wa",
+      "preview_image": "https://i.guim.co.uk/img/media/111c1e1c845e77abc4d0e821a940e3d1769b120b/934_0_6590_5272/master/6590.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctb3BpbmlvbnMucG5n&enable=upscale&s=056be0ade66bfa051e2d5d0d3b6b8bc0",
+      "_via": "rss",
+      "confidence": "medium"
+    },
+    {
+      "id": "dadf276971db",
+      "datetime": "2026-03-26T11:00:36Z",
+      "type": "security_alert",
+      "confirmed": true,
+      "precision": "country",
+      "title": "Pro-Israel Democrats decry settler violence in West Bank amid attacks on Palestinians",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.theguardian.com/world/2026/mar/26/israel-democrats-aipac-settler-violence-west-bank",
+          "domain": "theguardian.com",
+          "tier": "wire"
+        }
+      ],
+      "snippet": "&lt;p&gt;Aipac-backed lawmakers denounce ‘extremist’ violence in West Bank as support for Israel becomes a political liability&lt;/p&gt;&lt;p&gt;As Israeli settlers ramp up violent attacks on Palestinian civilians in the &lt;a href=\"https://www.thegu",
+      "preview_image": "https://i.guim.co.uk/img/media/eedabd3bcbf6c63680077fd6b2dcd5737b790ebf/0_0_1200_960/master/1200.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=ec2d018cff60ae203834d6254a87a73f",
+      "_via": "rss",
+      "confidence": "medium"
+    },
+    {
+      "id": "11ad101499d4",
+      "datetime": "2026-03-26T10:55:19Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "Hormuz chokehold hardens US-Iran standoff as Iran rejects US plan",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://gulfnews.com/world/mena/hormuz-chokehold-hardens-us-iran-standoff-as-iran-rejects-us-plan-1.500487051",
+          "domain": "gulfnews.com",
+          "tier": "local"
+        }
+      ],
+      "snippet": "Hormuz chokehold hardens US-Iran standoff",
+      "preview_image": "https://media.assettype.com/gulfnews%2F2024-11-27%2Fq92jrqci%2Fusa_1691413716693_189d01d1f13_original_ratio.jpg?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
+      "_via": "rss",
+      "confidence": "low"
+    },
+    {
+      "id": "7578837ae2cd",
+      "datetime": "2026-03-26T10:51:53Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "Alaan launches ‘Alaan Sawa’, pledging Dh3M for utility, telecom bills for UAE SMEs",
+      "location": "Uae",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://gulfnews.com/business/corporate-news/alaan-launches-alaan-sawa-pledging-dh3m-for-utility-telecom-bills-for-uae-smes-1.500487058",
+          "domain": "gulfnews.com",
+          "tier": "local"
+        }
+      ],
+      "snippet": null,
+      "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-26%2Fkuoz6az6%2FAlaan1.jpg?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
+      "_via": "rss",
+      "confidence": "low"
+    },
+    {
+      "id": "be743d89af22",
+      "datetime": "2026-03-26T10:48:39Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "BTS Arirang achievement list: Every record broken in its first week of release",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://gulfnews.com/entertainment/bts-arirang-achievement-list-every-record-broken-in-its-first-week-of-release-1.500487038",
+          "domain": "gulfnews.com",
+          "tier": "local"
+        }
+      ],
+      "snippet": null,
+      "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-21%2Fwg0fs66n%2Fnewsml_afp_com_20260321T122226Z_doc_a47f7ke.jpeg?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
+      "_via": "rss",
+      "confidence": "low"
+    },
+    {
+      "id": "75ac1ae00830",
+      "datetime": "2026-03-26T10:44:07Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "Pakistan says it is relaying messages between US and Iran",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/pakistan-says-it-relaying-messages-between-us-and-iran",
+          "domain": "middleeasteye.net",
+          "tier": "local"
+        }
+      ],
+      "snippet": "&lt;article data-history-node-id=\"436740\" about=\"https://www.middleeasteye.net/live-blog/live-blog-update/pakistan-says-it-relaying-messages-between-us-and-iran\" class=\"live-blog-update default clearfix\"&gt;\n\n  \n      &lt;h2&gt;\n      &lt;a href=\"htt",
+      "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/iran-support-supreme-leader-25-march-2026-afp.jpg",
+      "_via": "rss",
+      "confidence": "low"
+    },
+    {
+      "id": "9b83d0c3bc63",
+      "datetime": "2026-03-26T10:43:58Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "Working from home? Here’s how to stay safe as UAE warns of rising cyber risks",
+      "location": "Uae",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://gulfnews.com/technology/working-from-home-heres-how-to-stay-safe-as-uae-warns-of-rising-cyber-risks-1.500487050",
+          "domain": "gulfnews.com",
+          "tier": "local"
+        }
+      ],
+      "snippet": null,
+      "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-26%2F65pilank%2Fgulfnewsimport20221003Remote-work-visa-UAE-20221839e6ec689large.avif?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
+      "_via": "rss",
+      "confidence": "low"
+    },
+    {
+      "id": "02445ca88388",
+      "datetime": "2026-03-26T10:39:23Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "UAE public holidays: When Eid Al Adha begins in UAE, here are the expected dates",
+      "location": "Uae",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://gulfnews.com/uae/government/uae-set-for-6-day-eid-al-adha-break-as-holiday-dates-near-1.500487001",
+          "domain": "gulfnews.com",
+          "tier": "local"
+        }
+      ],
+      "snippet": null,
+      "preview_image": "https://media.assettype.com/gulfnews%2F2024-11-18%2Fwz4weh2d%2F190514_eid_al_fitr_16ab5040354_original_ratio.jpg?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
+      "_via": "rss",
+      "confidence": "low"
+    },
+    {
+      "id": "7a2068028a66",
+      "datetime": "2026-03-26T10:32:05Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "Trump lashes out at Nato, says it has done ‘nothing’ on Iran",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/trump-lashes-out-nato-says-it-has-done-nothing-iran",
+          "domain": "middleeasteye.net",
+          "tier": "local"
+        }
+      ],
+      "snippet": "&lt;article data-history-node-id=\"436739\" about=\"https://www.middleeasteye.net/live-blog/live-blog-update/trump-lashes-out-nato-says-it-has-done-nothing-iran\" class=\"live-blog-update default clearfix\"&gt;\n\n  \n      &lt;h2&gt;\n      &lt;a href=\"https:",
+      "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/iran-support-supreme-leader-25-march-2026-afp.jpg",
+      "_via": "rss",
+      "confidence": "low"
+    },
+    {
+      "id": "f78c0cee2853",
+      "datetime": "2026-03-26T10:25:54Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "Four injured in Tel Aviv by missile debris",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/four-injured-tel-aviv-missile-debris",
+          "domain": "middleeasteye.net",
+          "tier": "local"
+        }
+      ],
+      "snippet": "&lt;article data-history-node-id=\"436737\" about=\"https://www.middleeasteye.net/live-blog/live-blog-update/four-injured-tel-aviv-missile-debris\" class=\"live-blog-update default clearfix\"&gt;\n\n  \n      &lt;h2&gt;\n      &lt;a href=\"https://www.middleeas",
+      "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/iran-support-supreme-leader-25-march-2026-afp.jpg",
+      "_via": "rss",
+      "confidence": "low"
+    },
+    {
+      "id": "aadfe6f5d1f9",
+      "datetime": "2026-03-26T10:19:08Z",
+      "type": "security_alert",
+      "confirmed": true,
+      "precision": "country",
+      "title": "‘Missile hit’ flips car in Israel",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/3/26/missile-hit-flips-car-in-israel?traffic_source=rss",
+          "domain": "aljazeera.com",
+          "tier": "wire"
+        }
+      ],
+      "snippet": "Surveillance footage shows a car overturning due to &#039;falling rocket debris in central Israel&#039;.",
+      "preview_image": "https://www.aljazeera.com/wp-content/uploads/2026/03/image-1774520222.jpg?resize=1200%2C675",
+      "_via": "rss",
+      "confidence": "medium"
+    },
+    {
+      "id": "2058b5c241eb",
+      "datetime": "2026-03-26T10:06:58Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "Iran launches new wave of attacks on Gulf states after UN condemnation",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.thenationalnews.com/news/mena/2026/03/26/iran-launches-new-wave-of-attacks-on-gulf-states-after-un-condemnation/",
+          "domain": "thenationalnews.com",
+          "tier": "local"
+        }
+      ],
+      "snippet": null,
+      "preview_image": "https://www.thenationalnews.com/resizer/v2/JEJHFZIAKHCCA5QZ3PA7OF773A.jpg?smart=true&amp;auth=eccc2ccfdc7576bd757db0c68d541530ccde308652e3d4a234fe7e83a2fbd24e&amp;width=1200&amp;height=630",
+      "_via": "rss",
+      "confidence": "low"
+    },
+    {
+      "id": "53eac6460f0a",
+      "datetime": "2026-03-26T10:04:08Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "UAE updates university evaluation framework to focus on outcomes, AI readiness",
+      "location": "Uae",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://gulfnews.com/uae/education/uae-updates-university-evaluation-framework-to-focus-on-outcomes-ai-readiness-1.500487000",
+          "domain": "gulfnews.com",
+          "tier": "local"
+        }
+      ],
+      "snippet": null,
+      "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-26%2F0pqczf9p%2Fgulfnews2024-11-17r2bgv3dsStockUniversitystudentscampus173fd1860d0originalratio.avif?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
+      "_via": "rss",
+      "confidence": "low"
+    },
+    {
+      "id": "c7195a26c068",
+      "datetime": "2026-03-26T10:00:33Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "Africa’s solar explosion: 10 countries smashing records",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://gulfnews.com/business/energy/africas-solar-explosion-10-countries-smashing-records-1.500486785",
+          "domain": "gulfnews.com",
+          "tier": "local"
+        }
+      ],
+      "snippet": null,
+      "preview_image": "https://media.assettype.com/gulfnews%2F2025-06-05%2Fnke7pjtn%2Fnewsml_afp_com_20250605T142000Z_doc_49ca22d.jpeg?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
+      "_via": "rss",
+      "confidence": "low"
+    },
+    {
+      "id": "010f75db220a",
+      "datetime": "2026-03-26T10:00:29Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "city",
+      "title": "Lost or found a vehicle plate in Dubai amid rain? Here’s how to report it",
+      "location": "Dubai",
+      "lat": 25.2048,
+      "lon": 55.2708,
+      "sources": [
+        {
+          "url": "https://gulfnews.com/uae/lost-or-found-a-vehicle-plate-in-dubai-amid-rain-heres-how-to-report-it-1.500486991",
+          "domain": "gulfnews.com",
+          "tier": "local"
+        }
+      ],
+      "snippet": null,
+      "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-26%2F3d1a7weq%2Fnumberplane.JPG?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
+      "_via": "rss",
+      "confidence": "low"
+    },
+    {
+      "id": "4e0c8233d73c",
+      "datetime": "2026-03-26T09:52:04Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "Not a cyclone: UAE weather system explained as heavy rain continues",
+      "location": "Uae",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://gulfnews.com/uae/weather/not-a-cyclone-uae-weather-system-explained-as-heavy-rain-continues-1.500486992",
+          "domain": "gulfnews.com",
+          "tier": "local"
+        }
+      ],
+      "snippet": null,
+      "preview_image": "https://media.assettype.com/gulfnews%2F2026-01-17%2Fm4i7fdj6%2FCloudy-5.jpeg?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
+      "_via": "rss",
+      "confidence": "low"
+    },
+    {
+      "id": "e32090ba9098",
+      "datetime": "2026-03-26T09:50:36Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "Defence minister inspects Kuwait International Airport after drone strike on fuel tanks",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://gulfnews.com/world/gulf/kuwait/defence-minister-inspects-kuwait-international-airport-after-drone-strike-on-fuel-tanks-1.500486987",
+          "domain": "gulfnews.com",
+          "tier": "local"
+        }
+      ],
+      "snippet": null,
+      "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-26%2Fwz7rnqye%2FHEU87b-WsAArdzm.jpg?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
+      "_via": "rss",
+      "confidence": "low"
+    },
+    {
+      "id": "ed5cb6d1815b",
+      "datetime": "2026-03-26T09:48:22Z",
+      "type": "security_alert",
+      "confirmed": true,
+      "precision": "country",
+      "title": "Amid US-Israel war, Iran football team trains in Turkiye before World Cup",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.aljazeera.com/sports/2026/3/26/amid-us-israel-war-iran-football-team-trains-in-turkiye-before-world-cup?traffic_source=rss",
+          "domain": "aljazeera.com",
+          "tier": "wire"
+        }
+      ],
+      "snippet": "Iran will play two friendly matches in Turkiye as they prepare for the FIFA World Cup in the US, Canada and Mexico.",
+      "preview_image": "https://www.aljazeera.com/wp-content/uploads/2026/03/2026-03-25T162653Z_1342864894_UP1EM3P19OSKA_RTRMADP_3_IRAN-CRISIS-SOCCER-TURKEY-1774517170.jpg?resize=1200%2C630",
+      "_via": "rss",
+      "confidence": "medium"
+    },
+    {
+      "id": "348702d33797",
+      "datetime": "2026-03-26T09:45:33Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "city",
+      "title": "Dubai climbs to 7th globally, strengthening its financial hub status",
+      "location": "Dubai",
+      "lat": 25.2048,
+      "lon": 55.2708,
+      "sources": [
+        {
+          "url": "https://gulfnews.com/business/dubai-climbs-to-7th-globally-strengthening-its-financial-hub-status-1.500486982",
+          "domain": "gulfnews.com",
+          "tier": "local"
+        }
+      ],
+      "snippet": null,
+      "preview_image": "https://media.assettype.com/gulfnews%2Fimport%2F2020%2F09%2F09%2FDIFC-Gate_17471bcb500_large.jpg?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
+      "_via": "rss",
+      "confidence": "low"
+    },
+    {
+      "id": "22921181be62",
+      "datetime": "2026-03-26T09:30:21Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "city",
+      "title": "Sharjah Police escort cancer patient through torrential rain and traffic jams for crucial treatment",
+      "location": "Sharjah",
+      "lat": 25.3463,
+      "lon": 55.4209,
+      "sources": [
+        {
+          "url": "https://www.thenationalnews.com/news/uae/2026/03/26/sharjah-police-escort-cancer-patient-through-torrential-rain-and-traffic-jams-for-crucial-treatment/",
+          "domain": "thenationalnews.com",
+          "tier": "local"
+        }
+      ],
+      "snippet": null,
+      "preview_image": "https://www.thenationalnews.com/resizer/v2/S46AQN57GRFJVAAJRUHKLIJOBY.jpg?smart=true&amp;auth=75a868fdcdc29ad1665c0f1ea5b6476ac3057631f1d833b7f6e7330d02073ab4&amp;width=1200&amp;height=630",
+      "_via": "rss",
+      "confidence": "low"
+    },
+    {
+      "id": "1b4f4d743ac8",
+      "datetime": "2026-03-26T09:24:21Z",
+      "type": "security_alert",
+      "confirmed": true,
+      "precision": "country",
+      "title": "Two drone strikes on civilian targets kill 28 people in Sudan",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.theguardian.com/world/2026/mar/26/sudan-drone-strikes-civilian-targets-north-darfur-market-north-kordofan-truck",
+          "domain": "theguardian.com",
+          "tier": "wire"
+        }
+      ],
+      "snippet": "&lt;p&gt;Market in North Darfur and truck carrying civilians in North Kordofan hit as civil war approaches fourth year&lt;/p&gt;&lt;p&gt;At least 28 civilians have been killed in two separate drone strikes in Sudan, according to health workers, as th",
+      "preview_image": "https://i.guim.co.uk/img/media/fcfebbaffd603b0b2ae4adca6191fed185b8761a/447_0_2102_1682/master/2102.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=cfe2548d1ce77535461afdb14ec23524",
+      "_via": "rss",
+      "confidence": "medium"
+    },
+    {
+      "id": "e371446e2cdb",
+      "datetime": "2026-03-26T09:20:06Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "Iran says 87,000 civilian sites damaged in war",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-says-87000-civilian-sites-damaged-war",
+          "domain": "middleeasteye.net",
+          "tier": "local"
+        }
+      ],
+      "snippet": "&lt;article data-history-node-id=\"436734\" about=\"https://www.middleeasteye.net/live-blog/live-blog-update/iran-says-87000-civilian-sites-damaged-war\" class=\"live-blog-update default clearfix\"&gt;\n\n  \n      &lt;h2&gt;\n      &lt;a href=\"https://www.mid",
+      "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/iran-support-supreme-leader-25-march-2026-afp.jpg",
+      "_via": "rss",
+      "confidence": "low"
+    },
+    {
+      "id": "8aad52d6a5f0",
+      "datetime": "2026-03-26T09:05:01Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "city",
+      "title": "Abu Dhabi hotel guests get free Louvre and museum access",
+      "location": "Abu Dhabi",
+      "lat": 24.4539,
+      "lon": 54.3773,
+      "sources": [
+        {
+          "url": "https://gulfnews.com/business/tourism/abu-dhabi-hotel-guests-get-free-louvre-and-museum-access-1.500486941",
+          "domain": "gulfnews.com",
+          "tier": "local"
+        }
+      ],
+      "snippet": null,
+      "preview_image": "https://media.assettype.com/gulfnews%2Fimport%2F2022%2F08%2F13%2Flouvre-abu-dhabi-WAM-1660404132319_18297cc69ff_large.jpg?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
+      "_via": "rss",
+      "confidence": "low"
+    },
+    {
+      "id": "ee3ccc1a9c4f",
+      "datetime": "2026-03-26T09:00:33Z",
+      "type": "security_alert",
+      "confirmed": true,
+      "precision": "country",
+      "title": "I am not paying American war taxes this year. Will you join me? | Clara Vondrich",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.theguardian.com/commentisfree/2026/mar/26/american-war-taxes",
+          "domain": "theguardian.com",
+          "tier": "wire"
+        }
+      ],
+      "snippet": "&lt;p&gt;War tax resistance has a venerable tradition dating back to days before the US was even born. It’s time to revive this tradition&lt;/p&gt;&lt;p&gt;More than $20bn. That’s &lt;a href=\"https://www.csis.org/analysis/iran-war-cost-estimate-updat",
+      "preview_image": "https://i.guim.co.uk/img/media/57aa15ae9436d582d01532f876886083debd361b/0_50_4499_3598/master/4499.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctb3BpbmlvbnMucG5n&enable=upscale&s=2284d35d90fe4366e82ae35bb6050148",
+      "_via": "rss",
+      "confidence": "medium"
+    },
+    {
+      "id": "4ed7bba89d28",
+      "datetime": "2026-03-26T09:00:00Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "city",
+      "title": "Dubai lands its highest ranking among global financial hubs",
+      "location": "Dubai",
+      "lat": 25.2048,
+      "lon": 55.2708,
+      "sources": [
+        {
+          "url": "https://www.thenationalnews.com/business/economy/2026/03/26/dubai-lands-its-highest-ranking-among-global-financial-hubs/",
+          "domain": "thenationalnews.com",
+          "tier": "local"
+        }
+      ],
+      "snippet": null,
+      "preview_image": "https://www.thenationalnews.com/resizer/v2/TJJ6K6CNF3GD4KFO65V3GHHHPU.jpg?smart=true&amp;auth=65a650515e5bd684bd8ede0168d31caecef16d612d5e38132fd94d173a1010b9&amp;width=1200&amp;height=630",
+      "_via": "rss",
+      "confidence": "low"
+    },
+    {
+      "id": "8e87db17edde",
+      "datetime": "2026-03-26T08:53:33Z",
+      "type": "security_alert",
+      "confirmed": true,
+      "precision": "country",
+      "title": "‘He will call me Mama’: The Gaza ‘grandmother’ raising an orphaned baby",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.aljazeera.com/features/longform/2026/3/26/he-will-call-me-mama-the-gaza-grandmother-raising-an-orphaned-baby?traffic_source=rss",
+          "domain": "aljazeera.com",
+          "tier": "wire"
+        }
+      ],
+      "snippet": "Maha was &#039;Grandmother&#039; in her family until she adopted Hamza, born the day an Israeli air strike killed his parents.",
+      "preview_image": "https://www.aljazeera.com/wp-content/uploads/2026/02/873A0620-copy-1771946023.jpg?resize=1920%2C1440",
+      "_via": "rss",
+      "confidence": "medium"
+    },
+    {
+      "id": "84b8603b9846",
+      "datetime": "2026-03-26T08:51:30Z",
+      "type": "security_alert",
+      "confirmed": true,
+      "precision": "country",
+      "title": "Helium hitch: Why US-Israel war on Iran could cause MRI scan delays",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.aljazeera.com/economy/2026/3/26/helium-hitch-why-us-israel-war-on-iran-could-cause-mri-scan-delays?traffic_source=rss",
+          "domain": "aljazeera.com",
+          "tier": "wire"
+        }
+      ],
+      "snippet": "Shortage of helium will have ripple effects across medical and other industries.",
+      "preview_image": "https://www.aljazeera.com/wp-content/uploads/2026/03/2019-03-26T114705Z_2143733357_RC1B3EA626F0_RTRMADP_3_GLOBAL-HEALTHCARE-1774513006.jpg?resize=1920%2C1440",
+      "_via": "rss",
+      "confidence": "medium"
+    },
+    {
+      "id": "50a87861043f",
+      "datetime": "2026-03-26T08:50:17Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "US embassy urges citizens to leave Iraq over attacks",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/us-embassy-urges-citizens-leave-iraq-over-attacks",
+          "domain": "middleeasteye.net",
+          "tier": "local"
+        }
+      ],
+      "snippet": "&lt;article data-history-node-id=\"436733\" about=\"https://www.middleeasteye.net/live-blog/live-blog-update/us-embassy-urges-citizens-leave-iraq-over-attacks\" class=\"live-blog-update default clearfix\"&gt;\n\n  \n      &lt;h2&gt;\n      &lt;a href=\"https://",
+      "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/iran-support-supreme-leader-25-march-2026-afp.jpg",
+      "_via": "rss",
+      "confidence": "low"
+    },
+    {
+      "id": "95b98a7df177",
+      "datetime": "2026-03-26T08:45:20Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "UAE supply chains operating normally, minister says",
+      "location": "Uae",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://gulfnews.com/business/retail/uae-supply-chains-operating-normally-minister-says-1.500486918",
+          "domain": "gulfnews.com",
+          "tier": "local"
+        }
+      ],
+      "snippet": null,
+      "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-25%2Fqhhb1ndx%2FUAEgrocery?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
+      "_via": "rss",
+      "confidence": "low"
+    },
+    {
+      "id": "7f73bb992b76",
+      "datetime": "2026-03-26T08:43:32Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "UAE braces for final wave of heavy rain as weather system moves east",
+      "location": "Uae",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://gulfnews.com/uae/weather/uae-braces-for-final-wave-of-heavy-rain-as-weather-system-moves-east-1.500486915",
+          "domain": "gulfnews.com",
+          "tier": "local"
+        }
+      ],
+      "snippet": null,
+      "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-26%2Fdg0ncodr%2Fdubai-skyline.jpg?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
+      "_via": "rss",
+      "confidence": "low"
+    },
+    {
+      "id": "e0fb901013ab",
+      "datetime": "2026-03-26T08:38:06Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "city",
+      "title": "Two people killed by falling debris after Iranian missile intercepted in Abu Dhabi",
+      "location": "Abu Dhabi",
+      "lat": 24.4539,
+      "lon": 54.3773,
+      "sources": [
+        {
+          "url": "https://www.thenationalnews.com/news/uae/2026/03/26/two-people-killed-by-falling-debris-after-iranian-missile-intercepted-in-abu-dhabi/",
+          "domain": "thenationalnews.com",
+          "tier": "local"
+        }
+      ],
+      "snippet": null,
+      "preview_image": "https://www.thenationalnews.com/resizer/v2/JHGCX7UZWFCLTD6Y7PQ2F6IH6I.jpg?smart=true&amp;auth=99cc8c5b54ea3cbde7427dc480a32ed7bfdeea12c710db89ab1b83e54db2a121&amp;width=1200&amp;height=630",
+      "_via": "rss",
+      "confidence": "low"
+    },
+    {
+      "id": "884fd4dff7ff",
+      "datetime": "2026-03-26T08:36:08Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "city",
+      "title": "Abu Dhabi hotels offer free entry to three Saadiyat Island museums",
+      "location": "Abu Dhabi",
+      "lat": 24.4539,
+      "lon": 54.3773,
+      "sources": [
+        {
+          "url": "https://www.thenationalnews.com/arts-culture/art-design/2026/03/26/abu-dhabi-hotels-offer-free-entry-to-three-saadiyat-island-museums/",
+          "domain": "thenationalnews.com",
+          "tier": "local"
+        }
+      ],
+      "snippet": null,
+      "preview_image": "https://www.thenationalnews.com/resizer/v2/5LMMRFZIZRFG7DF3YDUPNDYMXE.jpg?smart=true&amp;auth=2fcb78b308da6f471311280a41aa9e27032bdb45ff7be1d682b21e0b2c3986ef&amp;width=1200&amp;height=630",
+      "_via": "rss",
+      "confidence": "low"
+    },
+    {
+      "id": "d0463e623152",
+      "datetime": "2026-03-26T08:34:49Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "Israeli media claim IRGC naval commander killed",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-media-claim-irgc-naval-commander-killed",
+          "domain": "middleeasteye.net",
+          "tier": "local"
+        }
+      ],
+      "snippet": "&lt;article data-history-node-id=\"436732\" about=\"https://www.middleeasteye.net/live-blog/live-blog-update/israeli-media-claim-irgc-naval-commander-killed\" class=\"live-blog-update default clearfix\"&gt;\n\n  \n      &lt;h2&gt;\n      &lt;a href=\"https://ww",
+      "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/iran-support-supreme-leader-25-march-2026-afp.jpg",
+      "_via": "rss",
+      "confidence": "low"
+    },
+    {
+      "id": "c2ea6ade0fa5",
+      "datetime": "2026-03-26T08:34:05Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "city",
+      "title": "9 best family Easter brunches in Dubai and Abu Dhabi to book now: Egg hunts, bunnies and more",
+      "location": "Abu Dhabi",
+      "lat": 24.4539,
+      "lon": 54.3773,
+      "sources": [
+        {
+          "url": "https://gulfnews.com/lifestyle/9-best-family-easter-brunches-in-dubai-and-abu-dhabi-to-book-now-egg-hunts-bunnies-and-more-1.500486862",
+          "domain": "gulfnews.com",
+          "tier": "local"
+        }
+      ],
+      "snippet": null,
+      "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-26%2Fp7h7oui4%2FThe-CroftSundayRoast-09866.jpg?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
+      "_via": "rss",
+      "confidence": "low"
+    },
+    {
+      "id": "e667a81e1604",
+      "datetime": "2026-03-26T08:26:29Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "Iraqi Kurdish commander says there are no plans to invade Iran",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iraqi-kurdish-commander-says-there-are-no-plans-invade-iran",
+          "domain": "middleeasteye.net",
+          "tier": "local"
+        },
+        {
+          "url": "https://www.middleeasteye.net/news/iraqi-kurdish-commander-says-there-are-no-plans-invade-iran",
+          "domain": "middleeasteye.net",
+          "tier": "local"
+        }
+      ],
+      "snippet": "&lt;article data-history-node-id=\"436731\" about=\"https://www.middleeasteye.net/live-blog/live-blog-update/iraqi-kurdish-commander-says-there-are-no-plans-invade-iran\" class=\"live-blog-update default clearfix\"&gt;\n\n  \n      &lt;h2&gt;\n      &lt;a href",
+      "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/iran-support-supreme-leader-25-march-2026-afp.jpg",
+      "_via": "rss",
+      "confidence": "medium"
+    },
+    {
+      "id": "96fe68d32de9",
+      "datetime": "2026-03-26T08:22:51Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "city",
+      "title": "Dubai enables 500 detainees to call families during Eid",
+      "location": "Dubai",
+      "lat": 25.2048,
+      "lon": 55.2708,
+      "sources": [
+        {
+          "url": "https://gulfnews.com/uae/government/dubai-enables-500-detainees-to-call-families-during-eid-1.500486850",
+          "domain": "gulfnews.com",
+          "tier": "local"
+        }
+      ],
+      "snippet": null,
+      "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-26%2F0sqd0rtk%2FIMG-20260326-WA0104.jpg?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
+      "_via": "rss",
+      "confidence": "low"
+    },
+    {
+      "id": "ae2fb8f9a81b",
+      "datetime": "2026-03-26T08:21:43Z",
+      "type": "security_alert",
+      "confirmed": true,
+      "precision": "country",
+      "title": "German minister calls Iran war an ‘economic catastrophe’",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/3/26/german-minister-calls-iran-war-an-economic?traffic_source=rss",
+          "domain": "aljazeera.com",
+          "tier": "wire"
+        }
+      ],
+      "snippet": "Germany’s defence minister, Boris Pistorius, says the economic impact of the war is &quot;absolutely evident&quot;.",
+      "preview_image": "https://www.aljazeera.com/wp-content/uploads/2026/03/clean-thumb-horizontal-1774513158.png?resize=1920%2C1440",
+      "_via": "rss",
+      "confidence": "medium"
+    },
+    {
+      "id": "4b23fe287c41",
+      "datetime": "2026-03-26T08:18:25Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "Drishyam 3 led by Mohanlal locks new release date in UAE and why it&apos;s a bold strategic decision",
+      "location": "Uae",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://gulfnews.com/entertainment/drishyam-3-led-by-mohanlal-locks-new-release-date-in-uae-and-why-its-a-bold-strategic-decision-1.500486887",
+          "domain": "gulfnews.com",
+          "tier": "local"
+        }
+      ],
+      "snippet": null,
+      "preview_image": "https://media.assettype.com/gulfnews%2F2024-11-17%2Fuv7nucry%2FMohanlal_in_Drishyam_176c79d946f_original_ratio.jpeg?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
+      "_via": "rss",
+      "confidence": "low"
+    },
+    {
+      "id": "2a2397189e6e",
+      "datetime": "2026-03-26T08:10:42Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "city",
+      "title": "&apos;Sidestep rumours, focus on facts&apos;: Dubai operating normally amid fake news",
+      "location": "Dubai",
+      "lat": 25.2048,
+      "lon": 55.2708,
+      "sources": [
+        {
+          "url": "https://gulfnews.com/uae/sidestep-rumours-focus-on-facts-dubai-operating-normally-amid-fake-news-1.500486870",
+          "domain": "gulfnews.com",
+          "tier": "local"
+        }
+      ],
+      "snippet": null,
+      "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-26%2Fe5d2je3o%2FFotoJet.jpg?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
+      "_via": "rss",
+      "confidence": "low"
+    },
+    {
+      "id": "3c55a8d0d162",
+      "datetime": "2026-03-26T08:06:18Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "Hezbollah says it struck Israeli settlement",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/hezbollah-says-it-struck-israeli-settlement",
+          "domain": "middleeasteye.net",
+          "tier": "local"
+        }
+      ],
+      "snippet": "&lt;article data-history-node-id=\"436729\" about=\"https://www.middleeasteye.net/live-blog/live-blog-update/hezbollah-says-it-struck-israeli-settlement\" class=\"live-blog-update default clearfix\"&gt;\n\n  \n      &lt;h2&gt;\n      &lt;a href=\"https://www.mi",
+      "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/iran-support-supreme-leader-25-march-2026-afp.jpg",
+      "_via": "rss",
+      "confidence": "low"
+    },
+    {
+      "id": "cb53a1a1a859",
+      "datetime": "2026-03-26T08:05:02Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "city",
+      "title": "JEE 2026: NTA announces update for Indian expat students in Dubai, Kuwait, Bahrain centres",
+      "location": "Dubai",
+      "lat": 25.2048,
+      "lon": 55.2708,
+      "sources": [
+        {
+          "url": "https://gulfnews.com/uae/education/jee-2026-nta-announces-update-for-indian-expat-students-in-dubai-kuwait-bahrain-centres-1.500486858",
+          "domain": "gulfnews.com",
+          "tier": "local"
+        }
+      ],
+      "snippet": null,
+      "preview_image": "https://media.assettype.com/gulfnews%2F2024-11-17%2F1oyzqnfs%2FNAT210106_will_UAE_exams_be_cancelled_1609999377738_176db70e54b_original_ratio.jpg?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
+      "_via": "rss",
+      "confidence": "low"
+    },
+    {
+      "id": "3a95bfb9052c",
+      "datetime": "2026-03-26T07:47:23Z",
+      "type": "security_alert",
+      "confirmed": true,
+      "precision": "city",
+      "title": "Two teenagers killed in Shiraz, two dead in Abu Dhabi as Iran war expands",
+      "location": "Abu Dhabi",
+      "lat": 24.4539,
+      "lon": 54.3773,
+      "sources": [
+        {
+          "url": "https://www.aljazeera.com/news/2026/3/26/us-israel-launch-extensive-strikes-on-central-iran-two-teenagers-killed?traffic_source=rss",
+          "domain": "aljazeera.com",
+          "tier": "wire"
+        }
+      ],
+      "snippet": "Deadly attacks rise as Israel announces strikes on Isfahan and as Trump and Tehran debate ceasefire terms.",
+      "preview_image": "https://www.aljazeera.com/wp-content/uploads/2026/03/reuters_69c4d627-1774507559.jpg?resize=1200%2C675",
+      "_via": "rss",
+      "confidence": "medium"
+    },
+    {
+      "id": "9edd565541cc",
+      "datetime": "2026-03-26T07:42:07Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "Drone targets Turkish-owned crude oil tanker in Black Sea",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/drone-targets-turkish-owned-crude-oil-tanker-black-sea",
+          "domain": "middleeasteye.net",
+          "tier": "local"
+        }
+      ],
+      "snippet": "&lt;article data-history-node-id=\"436727\" about=\"https://www.middleeasteye.net/live-blog/live-blog-update/drone-targets-turkish-owned-crude-oil-tanker-black-sea\" class=\"live-blog-update default clearfix\"&gt;\n\n  \n      &lt;h2&gt;\n      &lt;a href=\"htt",
+      "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/iran-support-supreme-leader-25-march-2026-afp.jpg",
+      "_via": "rss",
+      "confidence": "low"
+    },
+    {
+      "id": "b3014dbff34f",
+      "datetime": "2026-03-26T07:41:34Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "Dr Sultan Al Jaber dedicates Middle East Institute leadership award to UAE President and frontline workers",
+      "location": "Uae",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.thenationalnews.com/business/economy/2026/03/26/dr-sultan-al-jaber-dedicates-mei-leadership-award-to-uae-president-and-frontline-workers/",
+          "domain": "thenationalnews.com",
+          "tier": "local"
+        }
+      ],
+      "snippet": null,
+      "preview_image": "https://www.thenationalnews.com/resizer/v2/4VS7NPKZURFB3C4UBCIPZ5LIHU.jpeg?smart=true&amp;auth=b52b55fe96ef1677e1d28777bbc76596767ff11e5a10b703a52aeef712dc1281&amp;width=1200&amp;height=630",
+      "_via": "rss",
+      "confidence": "low"
+    },
+    {
+      "id": "b137bdb6f445",
+      "datetime": "2026-03-26T07:27:39Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "Israel removes two Iranian officials from hit-list, Pakistani officials says",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israel-removes-two-iranian-officials-hit-list-pakistani-officials-says",
+          "domain": "middleeasteye.net",
+          "tier": "local"
+        }
+      ],
+      "snippet": "&lt;article data-history-node-id=\"436726\" about=\"https://www.middleeasteye.net/live-blog/live-blog-update/israel-removes-two-iranian-officials-hit-list-pakistani-officials-says\" class=\"live-blog-update default clearfix\"&gt;\n\n  \n      &lt;h2&gt;\n     ",
+      "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/iran-support-supreme-leader-25-march-2026-afp.jpg",
+      "_via": "rss",
+      "confidence": "low"
+    },
+    {
+      "id": "417ff8629a0d",
+      "datetime": "2026-03-26T07:21:36Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "Hezbollah claims attack on Israel's Northern Command headquarter",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/hezbollah-claims-attack-israels-northern-command-headquarter",
+          "domain": "middleeasteye.net",
+          "tier": "local"
+        }
+      ],
+      "snippet": "&lt;article data-history-node-id=\"436725\" about=\"https://www.middleeasteye.net/live-blog/live-blog-update/hezbollah-claims-attack-israels-northern-command-headquarter\" class=\"live-blog-update default clearfix\"&gt;\n\n  \n      &lt;h2&gt;\n      &lt;a hre",
+      "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/iran-support-supreme-leader-25-march-2026-afp.jpg",
+      "_via": "rss",
+      "confidence": "low"
+    },
+    {
+      "id": "31c53f6bcedd",
+      "datetime": "2026-03-26T07:13:32Z",
+      "type": "security_alert",
+      "confirmed": true,
+      "precision": "country",
+      "title": "Why does the US have Iran's Kharg Island in its sights?",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.bbc.com/news/articles/c8jxzlwvd8ro?at_medium=RSS&amp;at_campaign=rss",
+          "domain": "bbc.com",
+          "tier": "wire"
+        }
+      ],
+      "snippet": "The tiny island is home to one of the most critical pieces of Iran's energy infrastructure.",
+      "preview_image": "https://ichef.bbci.co.uk/news/1024/branded_news/ecce/live/0a54bbc0-1f86-11f1-b048-c9424b2cf5fd.jpg",
+      "_via": "rss",
+      "confidence": "medium"
+    },
+    {
+      "id": "c1c7fd295082",
+      "datetime": "2026-03-26T07:12:29Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "Sirens blare across Israel as fourth Iranian barrage in two hours detected",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/sirens-blare-across-israel-fourth-iranian-barrage-two-hours-detected",
+          "domain": "middleeasteye.net",
+          "tier": "local"
+        }
+      ],
+      "snippet": "&lt;article data-history-node-id=\"436724\" about=\"https://www.middleeasteye.net/live-blog/live-blog-update/sirens-blare-across-israel-fourth-iranian-barrage-two-hours-detected\" class=\"live-blog-update default clearfix\"&gt;\n\n  \n      &lt;h2&gt;\n      &",
+      "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/iran-support-supreme-leader-25-march-2026-afp.jpg",
+      "_via": "rss",
+      "confidence": "low"
+    },
     {
       "id": "0dd6f1e0f295",
       "datetime": "2026-03-26T07:04:25Z",
@@ -44,6 +1479,512 @@
       "confidence": "high"
     },
     {
+      "id": "6b454a1bfb19",
+      "datetime": "2026-03-26T06:53:23Z",
+      "type": "security_alert",
+      "confirmed": true,
+      "precision": "country",
+      "title": "US-Israel war on Iran: What’s happening on day 27 of attacks?",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.aljazeera.com/news/2026/3/26/us-israel-war-on-iran-whats-happening-on-day-27-of-attacks?traffic_source=rss",
+          "domain": "aljazeera.com",
+          "tier": "wire"
+        }
+      ],
+      "snippet": "The US and Israel’s war on Iran is intensifying, as Trump again claims Iranian leaders want to &#039;make a deal&#039;.",
+      "preview_image": "https://www.aljazeera.com/wp-content/uploads/2026/03/2026-03-21T204856Z_1545782740_RC219KAHYSQL_RTRMADP_3_IRAN-CRISIS-TEHRAN-STRIKE-1774501119.jpg?resize=1920%2C1440",
+      "_via": "rss",
+      "confidence": "medium"
+    },
+    {
+      "id": "76ab6474022c",
+      "datetime": "2026-03-26T06:26:10Z",
+      "type": "security_alert",
+      "confirmed": true,
+      "precision": "country",
+      "title": "Deaths and debts: Missiles in Gulf shake millions of South Asian families",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.aljazeera.com/features/2026/3/26/deaths-and-debts-missiles-in-gulf-shake-millions-of-south-asian-families?traffic_source=rss",
+          "domain": "aljazeera.com",
+          "tier": "wire"
+        }
+      ],
+      "snippet": "Most people killed in Iran&#039;s Gulf attacks have been from South Asia. And entire economies back home are on edge.",
+      "preview_image": "https://www.aljazeera.com/wp-content/uploads/2026/03/Jaya-Khuntia-and-family-1774503748.jpeg?resize=1200%2C630",
+      "_via": "rss",
+      "confidence": "medium"
+    },
+    {
+      "id": "6db28c3faff1",
+      "datetime": "2026-03-26T06:00:01Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "France ready for G7 ministerial meeting on Iran war",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.thenationalnews.com/news/europe/2026/03/26/france-ready-for-g7-ministerial-meeting-on-iran-war/",
+          "domain": "thenationalnews.com",
+          "tier": "local"
+        }
+      ],
+      "snippet": null,
+      "preview_image": "https://www.thenationalnews.com/resizer/v2/3JIXD37WR4NIKSAEKHCHUINOCA.jpg?smart=true&amp;auth=e578db1e641fa4936939df612125ccc747f2082f32e6dc64dbca8562ee41f400&amp;width=1200&amp;height=630",
+      "_via": "rss",
+      "confidence": "low"
+    },
+    {
+      "id": "a046392e1e74",
+      "datetime": "2026-03-26T05:40:04Z",
+      "type": "security_alert",
+      "confirmed": true,
+      "precision": "country",
+      "title": "Thursday briefing: Why ​most Israelis ​back the ​conflict​ with Iran, even as international support wanes",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.theguardian.com/world/2026/mar/26/thursday-briefing-why-most-israelis-back-the-conflict-with-iran-even-as-international-support-wanes",
+          "domain": "theguardian.com",
+          "tier": "wire"
+        }
+      ],
+      "snippet": "&lt;p&gt;In today’s newsletter: Th​is new war has exposed widening fractures between Israel and its allies, ​and the country finds itself increasingly out of step with global opinion&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;Good morning. Israel may be th",
+      "preview_image": "https://i.guim.co.uk/img/media/ebb25d1bdf411842e849854dd3ee9ff2f41bb1f9/506_249_5330_4264/master/5330.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=f4f2394f93c4989d2cfadb4560072dbb",
+      "_via": "rss",
+      "confidence": "medium"
+    },
+    {
+      "id": "f9f10bc68585",
+      "datetime": "2026-03-26T05:38:02Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "Iran's parliament is drafting law to charge tolls in Strait of Hormuz",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.thenationalnews.com/news/mena/2026/03/26/irans-parliament-is-drafting-law-to-charge-tolls-in-strait-of-hormuz/",
+          "domain": "thenationalnews.com",
+          "tier": "local"
+        }
+      ],
+      "snippet": null,
+      "preview_image": "https://www.thenationalnews.com/resizer/v2/QMP6UHXMHJHYVDUBNZTDKZSCTE?smart=true&amp;auth=727e6361ce8130d2ab2de9016dd3bffa92adf6317b75af05cbb4d047898e8a45&amp;width=1200&amp;height=630",
+      "_via": "rss",
+      "confidence": "low"
+    },
+    {
+      "id": "0585bc4f6f24",
+      "datetime": "2026-03-26T05:34:06Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "UAE hospitality industry fights back amid difficult tourism outlook",
+      "location": "Uae",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.thenationalnews.com/news/uae/2026/03/26/uaes-hospitality-industry-stays-strong-amid-challenging-tourism-outlook/",
+          "domain": "thenationalnews.com",
+          "tier": "local"
+        }
+      ],
+      "snippet": null,
+      "preview_image": "https://www.thenationalnews.com/resizer/v2/VW2A5CSR4D4ZMWBLXPKJA5SQBM.jpg?smart=true&amp;auth=9e36032405c7d47faed4a9e1c4a88f1074f2ff4997c9998b842c9a49eaee050d&amp;width=1200&amp;height=630",
+      "_via": "rss",
+      "confidence": "low"
+    },
+    {
+      "id": "08f80485dc6a",
+      "datetime": "2026-03-26T05:00:00Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "Iranian investor brings together opposition groups at London summit",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.thenationalnews.com/news/uk/2026/03/26/iranian-investor-bringing-together-opposition-groups-at-london-summit/",
+          "domain": "thenationalnews.com",
+          "tier": "local"
+        }
+      ],
+      "snippet": null,
+      "preview_image": "https://www.thenationalnews.com/resizer/v2/WTRMA5X45VGWJOS2CHS27WK7FM?smart=true&amp;auth=9e96a4c102a35da7ec3f94c227b3ffe1b4818e314d2f432c1940dc5698bddd34&amp;width=1200&amp;height=630",
+      "_via": "rss",
+      "confidence": "low"
+    },
+    {
+      "id": "ca22e3544f00",
+      "datetime": "2026-03-26T04:33:35Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "UAE braces for Friday morning deluge as storm path shifts",
+      "location": "Uae",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.thenationalnews.com/news/uae/2026/03/26/uae-braces-for-friday-morning-deluge-as-rainstorm-path-shifts/",
+          "domain": "thenationalnews.com",
+          "tier": "local"
+        }
+      ],
+      "snippet": null,
+      "preview_image": "https://www.thenationalnews.com/resizer/v2/RTGQ5Q2RAFBERA53RO4W5RAECQ.jpg?smart=true&amp;auth=a79e0b60e70ffb1c0e80ffa95e5d3abe8de48492f24b5b4f4c3fce1a0e6dff20&amp;width=1200&amp;height=630",
+      "_via": "rss",
+      "confidence": "low"
+    },
+    {
+      "id": "e2fd16df8c4f",
+      "datetime": "2026-03-26T04:28:44Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "city",
+      "title": "Qatar's Wathnan Racing look to cause another Dubai World Cup upset",
+      "location": "Dubai",
+      "lat": 25.2048,
+      "lon": 55.2708,
+      "sources": [
+        {
+          "url": "https://www.thenationalnews.com/sport/2026/03/26/qatars-wathnan-racing-look-to-cause-another-dubai-world-cup-upset-with-tumbarumba/",
+          "domain": "thenationalnews.com",
+          "tier": "local"
+        }
+      ],
+      "snippet": null,
+      "preview_image": "https://www.thenationalnews.com/resizer/v2/OLDBYWPHPNAELO63OKADL3LZUY.JPG?smart=true&amp;auth=d3cc1d9ce874f5f097d3ea73adead9fb86caf034be5607018165c3ca48745894&amp;width=1200&amp;height=630",
+      "_via": "rss",
+      "confidence": "low"
+    },
+    {
+      "id": "23233bc7dfb8",
+      "datetime": "2026-03-26T04:04:18Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "How UAE residents are shopping amid uncertainty: Bigger baskets, essentials, and comforts signal shifting trends",
+      "location": "Uae",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://gulfnews.com/uae/how-uae-residents-are-shopping-amid-uncertainty-bigger-baskets-essentials-and-comforts-signal-shifting-trends-1.500486645",
+          "domain": "gulfnews.com",
+          "tier": "local"
+        }
+      ],
+      "snippet": null,
+      "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-26%2Fxx0jh10s%2Fpexels-michael-burrows-7129143.jpg?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
+      "_via": "rss",
+      "confidence": "low"
+    },
+    {
+      "id": "b7f6032a1f08",
+      "datetime": "2026-03-26T04:00:28Z",
+      "type": "security_alert",
+      "confirmed": true,
+      "precision": "country",
+      "title": "AI got the blame for the Iran school bombing. The truth is far more worrying",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.theguardian.com/news/2026/mar/26/ai-got-the-blame-for-the-iran-school-bombing-the-truth-is-far-more-worrying",
+          "domain": "theguardian.com",
+          "tier": "wire"
+        }
+      ],
+      "snippet": "&lt;p&gt;LLMs-gone-rogue dominated coverage, but had nothing to do with the targeting. Instead, it was choices made by human beings, over many years, that gave us this atrocity&lt;/p&gt;&lt;p&gt;On the first morning of Operation Epic Fury, 28 Februar",
+      "preview_image": "https://i.guim.co.uk/img/media/c698c95ce425500a4e3856b0a7c149aec3ebcf29/394_0_4246_3397/master/4246.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=86f134309770e28ed011323704f6b523",
+      "_via": "rss",
+      "confidence": "medium"
+    },
+    {
+      "id": "9e043d49812e",
+      "datetime": "2026-03-26T04:00:28Z",
+      "type": "security_alert",
+      "confirmed": true,
+      "precision": "country",
+      "title": "Gulf states’ scepticism over alleged US-Iran talks signals a distrust of Trump",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.theguardian.com/world/2026/mar/26/gulf-states-scepticism-over-alleged-us-iran-talks-signals-a-distrust-of-trump",
+          "domain": "theguardian.com",
+          "tier": "wire"
+        }
+      ],
+      "snippet": "&lt;p&gt;Reluctance to cheerlead alleged US ceasefire efforts reflects suspicion talk of peace could be another foil for escalation&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;a href=\"https://www.theguardian.com/world/live/2026/mar/25/middle-east-crisi",
+      "preview_image": "https://i.guim.co.uk/img/media/9c5794dbf94f66702781672265889a4d804d2a0a/205_0_2501_2000/master/2501.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=1bf33a0ad985e26a0dca038eb9294909",
+      "_via": "rss",
+      "confidence": "medium"
+    },
+    {
+      "id": "41b9c650d791",
+      "datetime": "2026-03-26T04:00:27Z",
+      "type": "security_alert",
+      "confirmed": true,
+      "precision": "country",
+      "title": "WHO warns of health crisis ‘unfolding in real time’ across Middle East",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.theguardian.com/world/2026/mar/26/who-warns-of-health-crisis-unfolding-in-real-time-across-middle-east",
+          "domain": "theguardian.com",
+          "tier": "wire"
+        }
+      ],
+      "snippet": "&lt;p&gt;Hostilities should halt and healthcare facilities must be treated as ‘safe havens’, WHO’s regional chief has said&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;a href=\"https://www.theguardian.com/world/live/2026/mar/26/iran-war-live-updates-trum",
+      "preview_image": "https://i.guim.co.uk/img/media/721f37747765cad93f4f8b359f06ce60cf6e8b60/87_0_686_549/master/686.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=783335a1560a4c3233e4552fbd5d04f9",
+      "_via": "rss",
+      "confidence": "medium"
+    },
+    {
+      "id": "d1cd7daa7904",
+      "datetime": "2026-03-26T03:14:43Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "city",
+      "title": "US-Iran latest: Indian and Pakistani killed by debris from intercepted missile in Abu Dhabi",
+      "location": "Abu Dhabi",
+      "lat": 24.4539,
+      "lon": 54.3773,
+      "sources": [
+        {
+          "url": "https://www.thenationalnews.com/news/mena/2026/03/26/live-us-israel-iran-war-abu-dhabi-deaths/",
+          "domain": "thenationalnews.com",
+          "tier": "local"
+        }
+      ],
+      "snippet": null,
+      "preview_image": "https://www.thenationalnews.com/resizer/v2/ABQYTFIJ6RAU7CN2KPZRJTGE2M.jpg?smart=true&amp;auth=60a59256f92f95247cd8ecf723ff7b3b562392ea79422f4d4347fc05bf287069&amp;width=1200&amp;height=630",
+      "_via": "rss",
+      "confidence": "low"
+    },
+    {
+      "id": "ebc7812527d7",
+      "datetime": "2026-03-26T03:06:37Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "city",
+      "title": "'Chicken' Giavellotto will need to show bravery to take on Calandagan at Dubai World Cup",
+      "location": "Dubai",
+      "lat": 25.2048,
+      "lon": 55.2708,
+      "sources": [
+        {
+          "url": "https://www.thenationalnews.com/sport/2026/03/26/chicken-giavellotto-will-need-to-show-bravery-to-take-on-calandagan-in-dubai-sheema-classic/",
+          "domain": "thenationalnews.com",
+          "tier": "local"
+        }
+      ],
+      "snippet": null,
+      "preview_image": "https://www.thenationalnews.com/resizer/v2/47DFJM2HXJEFFITDCUU4HXFFKM.JPG?smart=true&amp;auth=aa2707aace0d38ecef50a667cbc4194f6cb18b4bba6e24c8621aa634c9f7f88f&amp;width=1200&amp;height=630",
+      "_via": "rss",
+      "confidence": "low"
+    },
+    {
+      "id": "9979e90d0f11",
+      "datetime": "2026-03-26T03:00:00Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "Iran war fallout is no longer confined to states - it now runs through companies",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.thenationalnews.com/business/economy/2026/03/26/iran-war-fallout-is-no-longer-confined-to-states-it-now-runs-through-companies/",
+          "domain": "thenationalnews.com",
+          "tier": "local"
+        }
+      ],
+      "snippet": null,
+      "preview_image": "https://www.thenationalnews.com/resizer/v2/C7Z2SNJJRNBKTM4V5BHSUG25Y4.jpg?smart=true&amp;auth=b11164a0e5967b1ed0f43053e3a3734c0b3f244f17b19b22735a2c9c58b4e2ec&amp;width=1200&amp;height=630",
+      "_via": "rss",
+      "confidence": "low"
+    },
+    {
+      "id": "b103fe763115",
+      "datetime": "2026-03-26T02:59:41Z",
+      "type": "security_alert",
+      "confirmed": true,
+      "precision": "country",
+      "title": "Israel says it is expanding ‘buffer zone’ in Lebanon – as it happened",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.theguardian.com/world/live/2026/mar/25/middle-east-crisis-live-iran-war-oil-prices-more-us-troops-reportedly-deployed-donald-trump-attacks-on-lebanon",
+          "domain": "theguardian.com",
+          "tier": "wire"
+        }
+      ],
+      "snippet": "&lt;p&gt;This blog is closed. &lt;a href=\"https://www.theguardian.com/world/live/2026/mar/26/iran-war-live-updates-trump-deal-us-military-strikes-israel-lebanon-hezbollah\"&gt;Follow our new liveblog here&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Iranian nationals ",
+      "preview_image": null,
+      "_via": "rss",
+      "confidence": "medium"
+    },
+    {
+      "id": "df105d6339fa",
+      "datetime": "2026-03-26T02:56:49Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "Heavy rain and thunderstorms in UAE: Live weather, traffic updates, and safety tips",
+      "location": "Uae",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://gulfnews.com/uae/weather/heavy-rain-and-thunderstorms-in-uae-live-weather-traffic-updates-and-safety-tips-1.500486613",
+          "domain": "gulfnews.com",
+          "tier": "local"
+        }
+      ],
+      "snippet": null,
+      "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-26%2F6foeb1ia%2FDowntown-Dubai?rect=0%2C81%2C1600%2C840&amp;w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
+      "_via": "rss",
+      "confidence": "low"
+    },
+    {
+      "id": "44b462814c01",
+      "datetime": "2026-03-26T02:34:38Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "US-Israel War on Iran Day 27: Trump ramps up pressure on Iran with ‘no turning back’ warning",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://gulfnews.com/uae/us-israel-war-on-iran-day-27-iran-rejects-negotiations-while-us-signals-progress-in-talks-1.500486602",
+          "domain": "gulfnews.com",
+          "tier": "local"
+        }
+      ],
+      "snippet": null,
+      "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-26%2Ff1rh70r4%2FTel.jpg?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
+      "_via": "rss",
+      "confidence": "low"
+    },
+    {
+      "id": "05d6b7dd8e06",
+      "datetime": "2026-03-26T02:20:26Z",
+      "type": "security_alert",
+      "confirmed": true,
+      "precision": "country",
+      "title": "Iran rejects US ceasefire plan and submits its own amid push for talks",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.theguardian.com/world/2026/mar/25/iran-gives-negative-response-to-us-ceasefire-plan-amid-push-for-talks",
+          "domain": "theguardian.com",
+          "tier": "wire"
+        }
+      ],
+      "snippet": "&lt;p&gt;Donald Trump claims Iran still wants a deal, after Tehran puts forward five-point counter-proposal and says war will end when it decides and on its terms&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;a href=\"https://www.theguardian.com/world/liv",
+      "preview_image": "https://i.guim.co.uk/img/media/561596e80905bd00a670e5471ebe1e418c06f817/360_0_3853_3084/master/3853.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=8e69f7c8a6d61c5fae919e625dcaf273",
+      "_via": "rss",
+      "confidence": "medium"
+    },
+    {
+      "id": "4ba88573198f",
+      "datetime": "2026-03-26T02:00:01Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "How to protect property and have insurance in place as UAE braces for storms",
+      "location": "Uae",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.thenationalnews.com/news/uae/2026/03/26/uae-authorities-and-businesses-offer-tips-to-stay-safe-during-stormy-weather/",
+          "domain": "thenationalnews.com",
+          "tier": "local"
+        }
+      ],
+      "snippet": null,
+      "preview_image": "https://www.thenationalnews.com/resizer/v2/JFVJTRYX4ZDZNLIRNQ6YGWDWVU.jpg?smart=true&amp;auth=f999e75e5be205f2bcab146ab8f8b86fb9d6229a0f6de1d15181a451fb4e5bdf&amp;width=1200&amp;height=630",
+      "_via": "rss",
+      "confidence": "low"
+    },
+    {
+      "id": "dbbeaa398d70",
+      "datetime": "2026-03-26T02:00:00Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "When does PSL 2026 start and how to watch matches in UAE?",
+      "location": "Uae",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.thenationalnews.com/sport/cricket/2026/03/26/when-does-psl-2026-start-and-how-to-watch-matches-in-uae/",
+          "domain": "thenationalnews.com",
+          "tier": "local"
+        }
+      ],
+      "snippet": null,
+      "preview_image": "https://www.thenationalnews.com/resizer/v2/QSD2S7ZFMU45SJHNAE4IPTSNPI.jpg?smart=true&amp;auth=955ae861a02bdde274695f77dff9f25b06c8386f62557a39177f0f8774be886b&amp;width=1200&amp;height=630",
+      "_via": "rss",
+      "confidence": "low"
+    },
+    {
+      "id": "ed1b04dc2471",
+      "datetime": "2026-03-26T01:00:53Z",
+      "type": "security_alert",
+      "confirmed": true,
+      "precision": "country",
+      "title": "Trump's Iran strategy is to pursue two off-ramps at once",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.bbc.com/news/articles/c15d980nyw1o?at_medium=RSS&amp;at_campaign=rss",
+          "domain": "bbc.com",
+          "tier": "wire"
+        }
+      ],
+      "snippet": "The White House insists the president is dictating events, but even some Republicans are frustrated by mixed messaging about his war aims.",
+      "preview_image": "https://ichef.bbci.co.uk/news/1024/branded_news/2dcb/live/f0045c10-28e7-11f1-934f-036468834728.jpg",
+      "_via": "rss",
+      "confidence": "medium"
+    },
+    {
       "id": "68684fd3b57f",
       "datetime": "2026-03-25T23:09:23Z",
       "type": "interception",
@@ -70,6 +2011,226 @@
           "tier": "wire"
         }
       ]
+    },
+    {
+      "id": "46b72506fb3d",
+      "datetime": "2026-03-25T21:39:20Z",
+      "type": "security_alert",
+      "confirmed": true,
+      "precision": "country",
+      "title": "Iran's rejection of US talks reflects deep mistrust",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.bbc.com/news/articles/cgrlwk29ppzo?at_medium=RSS&amp;at_campaign=rss",
+          "domain": "bbc.com",
+          "tier": "wire"
+        }
+      ],
+      "snippet": "This does not mean the door is shut, as Iran's tough stance may be more about setting conditions than rejecting diplomacy.",
+      "preview_image": "https://ichef.bbci.co.uk/news/1024/branded_news/5f20/live/0e5085a0-28f6-11f1-b297-95b0a0a8331e.jpg",
+      "_via": "rss",
+      "confidence": "medium"
+    },
+    {
+      "id": "bd1ac9b2e529",
+      "datetime": "2026-03-25T20:06:26Z",
+      "type": "security_alert",
+      "confirmed": true,
+      "precision": "country",
+      "title": "Iran's foreign minister says there are no negotiations with US",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.bbc.com/news/articles/cly9nz5vyz4o?at_medium=RSS&amp;at_campaign=rss",
+          "domain": "bbc.com",
+          "tier": "wire"
+        }
+      ],
+      "snippet": "Trump says he is talking to \"the right people\" in Iran, but Tehran says no such negotiations are being held.",
+      "preview_image": "https://ichef.bbci.co.uk/news/1024/branded_news/338b/live/6d193f40-284d-11f1-b297-95b0a0a8331e.jpg",
+      "_via": "rss",
+      "confidence": "medium"
+    },
+    {
+      "id": "0a8001a332e1",
+      "datetime": "2026-03-25T20:03:34Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "Kuwait foils 'Hezbollah plot to assassinate leaders of the state'",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.thenationalnews.com/news/gulf/2026/03/26/kuwait-foils-hezbollah-plot-to-assassinate-leaders-of-the-state/",
+          "domain": "thenationalnews.com",
+          "tier": "local"
+        }
+      ],
+      "snippet": null,
+      "preview_image": "https://www.thenationalnews.com/resizer/v2/5POHC6GTARBRDKPJZZ7T4PE7GM.jfif?smart=true&amp;auth=1afd48e2e53ce77047811a08090022544a0359b85d306b9b564a5e94f7f48a62&amp;width=1200&amp;height=630",
+      "_via": "rss",
+      "confidence": "low"
+    },
+    {
+      "id": "2c3a8b380089",
+      "datetime": "2026-03-25T19:50:17Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "Every nation paying price of Iran's aggression, Dr Sultan Al Jaber tells Trump administration",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.thenationalnews.com/news/us/2026/03/25/dr-sultan-al-jaber-discusses-iran-war-and-energy-security-with-us-vice-president-jd-vance/",
+          "domain": "thenationalnews.com",
+          "tier": "local"
+        }
+      ],
+      "snippet": null,
+      "preview_image": "https://www.thenationalnews.com/resizer/v2/6FWTESYPJRERFNGECZBVPF2VVY.jpg?smart=true&amp;auth=ca1e98a1c0e6c5132ac0e6fdb764bbc4113d300d5f6e353ee705cae6b780fb17&amp;width=1200&amp;height=630",
+      "_via": "rss",
+      "confidence": "low"
+    },
+    {
+      "id": "48351b62752c",
+      "datetime": "2026-03-25T19:34:59Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "UN Human Rights Council adopts resolution condemning Iranian attacks on Gulf countries and Jordan",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.thenationalnews.com/news/mena/2026/03/25/un-human-rights-council-adopts-resolution-condemning-iranian-attacks-on-gcc-countries-and-jordan/",
+          "domain": "thenationalnews.com",
+          "tier": "local"
+        }
+      ],
+      "snippet": null,
+      "preview_image": "https://www.thenationalnews.com/resizer/v2/ZLQD6KUFJBDA7OWBKCFUZG7QQY.jpg?smart=true&amp;auth=6ef03e42ff34bfd1b96d6c4812ad8ab1b0832bd4b30807186a618ae40d4f6196&amp;width=1200&amp;height=630",
+      "_via": "rss",
+      "confidence": "low"
+    },
+    {
+      "id": "d7d96f316b93",
+      "datetime": "2026-03-25T19:03:33Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "'Coincidences don't repeat': Lebanon mourns young rescuers killed in 'pattern' of Israeli attacks",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.thenationalnews.com/news/mena/2026/03/25/coincidences-dont-repeat-lebanons-young-victims-of-israeli-pattern-of-killing-rescuers/",
+          "domain": "thenationalnews.com",
+          "tier": "local"
+        }
+      ],
+      "snippet": null,
+      "preview_image": "https://www.thenationalnews.com/resizer/v2/FRTTGCVPHBH7JM3XKZ7OSZGYSQ.JPG?smart=true&amp;auth=827b80606173009a2c2c9b21f5fec0e13ee02c8943a1f4d0676b2c045f7dd7f9&amp;width=1200&amp;height=630",
+      "_via": "rss",
+      "confidence": "low"
+    },
+    {
+      "id": "bef664adbc88",
+      "datetime": "2026-03-25T18:26:56Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "UAE space programme proof of resilience in face of adversity, Dr Al Falasi says",
+      "location": "Uae",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.thenationalnews.com/future/2026/03/25/uae-space-programme-resilience-iran/",
+          "domain": "thenationalnews.com",
+          "tier": "local"
+        }
+      ],
+      "snippet": null,
+      "preview_image": "https://www.thenationalnews.com/resizer/v2/E5SCUAGRRZC4VKNXUTX3NZBQVQ?smart=true&amp;auth=c60bfd0c8507a66be3f7af15476681c9ccb123264be515501cbdf3d85382ca6e&amp;width=1200&amp;height=630",
+      "_via": "rss",
+      "confidence": "low"
+    },
+    {
+      "id": "804511dced70",
+      "datetime": "2026-03-25T18:23:58Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "Sheikh Theyab pays respects to UAE Armed Forces contractor killed in Iranian attack on Bahrain",
+      "location": "Uae",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.thenationalnews.com/news/uae/2026/03/25/sheikh-theyab-offers-condolences-on-uae-armed-forces-contractor-martyred-in-iranian-attack-on-bahrain/",
+          "domain": "thenationalnews.com",
+          "tier": "local"
+        }
+      ],
+      "snippet": null,
+      "preview_image": "https://www.thenationalnews.com/resizer/v2/MVL3KATNKVBGLN7AW2WSMBAKLU.jpg?smart=true&amp;auth=62628b8452ec1c72ae779f840ed43b510369767a495e4e52ccfc44bb2a630453&amp;width=1200&amp;height=630",
+      "_via": "rss",
+      "confidence": "low"
+    },
+    {
+      "id": "aac3737ad767",
+      "datetime": "2026-03-25T17:21:58Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "John Bolton warns Iran threat to Strait of Hormuz is growing",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.thenationalnews.com/news/us/2026/03/25/john-bolton-iran-war/",
+          "domain": "thenationalnews.com",
+          "tier": "local"
+        }
+      ],
+      "snippet": null,
+      "preview_image": "https://www.thenationalnews.com/resizer/v2/2GSPL56IRVFP4AY6IYQPYENR7A.jpg?smart=true&amp;auth=73444d30e344c400512c6a4933be657475b14baef54f1307e9d905327e5a8efe&amp;width=1200&amp;height=630",
+      "_via": "rss",
+      "confidence": "low"
+    },
+    {
+      "id": "b8e9866fadce",
+      "datetime": "2026-03-25T17:00:14Z",
+      "type": "security_alert",
+      "confirmed": true,
+      "precision": "country",
+      "title": "Breakdown of brinkmanship: inside the 27 March Guardian Weekly",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.theguardian.com/news/2026/mar/25/breakdown-of-brinkmanship-inside-the-27-march-guardian-weekly",
+          "domain": "theguardian.com",
+          "tier": "wire"
+        }
+      ],
+      "snippet": "&lt;p&gt;The war on Iran continues to widen in the Gulf. &lt;strong&gt;Plus: &lt;/strong&gt;What was Doge?&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;a href=\"https://support.theguardian.com/uk/subscribe/weekly?promoCode=WWM53X\"&gt;&lt;strong&gt;Get th",
+      "preview_image": "https://i.guim.co.uk/img/media/9652e77a7d4186ef346d75d0fde5427731f5550a/0_0_5000_4000/master/5000.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=a0c370fd5f4c4b2f87b3067a541396fb",
+      "_via": "rss",
+      "confidence": "medium"
     },
     {
       "id": "780a01bcf148",
