@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-26T00:10:00Z",
+  "last_updated": "2026-03-26T00:21:27Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -24,11 +24,7 @@
           "tier": "wire"
         }
       ],
-      "snippet": null,
-      "preview_image": "https://media.assettype.com/gulfnews%2Fimport%2F2024%2F09%2F25%2FMinistry-of-Defence-announces-martyrdom-of-four-members-of-UAE-Armed-Forces-in-accident_19227a2f3d5_large.jpg?rect=0%2C15%2C750%2C394&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
-      "_via": "rss",
-      "_search_count": 1,
-      "_next_search_at": 1774483761.0
+      "_via": "rss"
     },
     {
       "id": "b9fe84c277aa",
@@ -63,8 +59,7 @@
         }
       ],
       "_via": "rss",
-      "_search_count": 3,
-      "_next_search_at": 1774524331.0
+      "_search_count": 3
     },
     {
       "id": "780a01bcf148",
