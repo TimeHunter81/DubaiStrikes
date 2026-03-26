@@ -6,7 +6,7 @@
       "id": "7f8780addaf5",
       "datetime": "2026-03-26T01:45:00Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "UAE schools reveal safety plans for proposed reopening: lockdown drills, safe zones",
       "location": "Uae",
@@ -17,12 +17,19 @@
           "url": "https://gulfnews.com/uae/education/uae-schools-reveal-safety-plans-for-proposed-reopening-lockdown-drills-safe-zones-1.500486378",
           "domain": "gulfnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://www.thenationalnews.com/news/uae/2026/03/24/uae-school-group-plans-to-resume-classroom-teaching-next-week/",
+          "domain": "thenationalnews.com",
+          "tier": "wire"
         }
       ],
       "snippet": null,
       "preview_image": "https://media.assettype.com/gulfnews%2F2024-11-18%2Fyvuytxb0%2F20220411_back_to_school_abu_dhabi_18019bc0ec8_original_ratio.jpg?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774493100.0
     },
     {
       "id": "88d7dfb69e82",
@@ -44,7 +51,9 @@
       "snippet": null,
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-25%2Fh3ywm4x0%2FWhatsApp-Image-2026-03-25-at-8.00.10-PM-1.jpeg?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774492200.0
     },
     {
       "id": "a0c09bd39791",
@@ -116,29 +125,36 @@
       "id": "fe991bc90949",
       "datetime": "2026-03-26T00:55:16Z",
       "type": "security_alert",
-      "confirmed": false,
-      "precision": "country",
+      "confirmed": true,
+      "precision": "city",
       "title": "Human Rights Council adopts consensus UN resolution condemning Iranian attacks, highlighting their serious implications",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
+      "location": "Geneva",
+      "lat": 46.2044,
+      "lon": 6.1432,
       "sources": [
         {
           "url": "https://gulfnews.com/world/mena/human-rights-council-adopts-consensus-un-resolution-condemning-iranian-attacks-highlighting-their-serious-implications-1.500486458",
           "domain": "gulfnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://www.reuters.com/world/middle-east/iranian-strikes-pose-existential-threat-gulf-states-tell-un-2026-03-25/",
+          "domain": "reuters.com",
+          "tier": "wire"
         }
       ],
       "snippet": "Human Rights Council adopts consensus UN resolution condemning Iranian attacks, highlighting their serious implications",
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-25%2F802gxa6p%2F7mq02chi1ka1r7cpo.jpeg?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774490116.0
     },
     {
       "id": "c81193feaa1b",
       "datetime": "2026-03-26T00:33:07Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "Trump says Iranian negotiators &apos;afraid&apos; to admit they want a deal",
       "location": "UAE",
@@ -149,12 +165,19 @@
           "url": "https://gulfnews.com/world/mena/trump-says-iran-afraid-to-admit-it-wants-a-deal-1.500486417",
           "domain": "gulfnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://www.cnbc.com/2026/03/24/trump-iran-war-negotiations.html",
+          "domain": "cnbc.com",
+          "tier": "wire"
         }
       ],
       "snippet": "Trump to &apos;unleash hell&apos; if Iran doesn&apos;t makes deal: White House",
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-26%2Fuq8mdeqd%2F202602073664195.jpg?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774488787.0
     },
     {
       "id": "10fb8bb8d159",
