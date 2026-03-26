@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-26T01:49:00Z",
+  "last_updated": "2026-03-26T01:55:31Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -28,17 +28,13 @@
           "domain": "bbc.com",
           "tier": "wire"
         }
-      ],
-      "_via": "rss",
-      "_search_count": 1,
-      "_next_search_at": 1774483763.0,
-      "confidence": "high"
+      ]
     },
     {
       "id": "b9fe84c277aa",
       "datetime": "2026-03-25T11:25:31Z",
       "type": "interception",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "country",
       "title": "UAE air defences intercept 9 Iranian UAVs",
       "location": "UAE",
@@ -65,10 +61,7 @@
           "domain": "news18.com",
           "tier": "wire"
         }
-      ],
-      "_via": "rss",
-      "_search_count": 1,
-      "_next_search_at": 1774441531.0
+      ]
     },
     {
       "id": "780a01bcf148",
