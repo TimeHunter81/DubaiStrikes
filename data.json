@@ -6,7 +6,7 @@
       "id": "a6f8ad9c7cb7",
       "datetime": "2026-03-26T13:22:00Z",
       "type": "interception",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "UAE intercepts 15 ballistic missiles and 11 drones on Thursday",
       "location": "UAE",
@@ -22,22 +22,29 @@
           "url": "https://www.express.co.uk/news/world/2186699/dubai-explosions-live-uae-attack-launch",
           "domain": "express.co.uk",
           "tier": "wire"
+        },
+        {
+          "url": "https://gulfnews.com/uae/us-israel-war-on-iran-day-27-iran-rejects-negotiations-while-us-signals-progress-in-talks-1.500486602",
+          "domain": "gulfnews.com",
+          "tier": "wire"
         }
       ],
       "snippet": null,
       "_via": "rss",
-      "confidence": "high"
+      "confidence": "high",
+      "_search_count": 1,
+      "_next_search_at": 1774534920.0
     },
     {
       "id": "8066849ad088",
       "datetime": "2026-03-26T13:05:59Z",
       "type": "impact_major",
-      "confirmed": false,
-      "precision": "country",
+      "confirmed": true,
+      "precision": "city",
       "title": "Iran attacks in UAE: 11 dead, 169 wounded",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
+      "location": "Abu Dhabi",
+      "lat": 24.4539,
+      "lon": 54.3773,
       "sources": [
         {
           "url": "https://gulfnews.com/uae/government/iran-attacks-in-uae-leave-11-dead-and-169-wounded-so-far-1.500487256",
@@ -52,7 +59,9 @@
       ],
       "snippet": null,
       "_via": "rss",
-      "confidence": "high"
+      "confidence": "high",
+      "_search_count": 1,
+      "_next_search_at": 1774533959.0
     },
     {
       "id": "0dd6f1e0f295",
