@@ -6,23 +6,30 @@
       "id": "8066849ad088",
       "datetime": "2026-03-26T13:05:59Z",
       "type": "security_alert",
-      "confirmed": false,
-      "precision": "country",
+      "confirmed": true,
+      "precision": "city",
       "title": "Iran attacks in UAE leave 11 dead and 169 wounded so far",
-      "location": "Uae",
-      "lat": null,
-      "lon": null,
+      "location": "Abu Dhabi",
+      "lat": 24.4539,
+      "lon": 54.3773,
       "sources": [
         {
           "url": "https://gulfnews.com/uae/government/iran-attacks-in-uae-leave-11-dead-and-169-wounded-so-far-1.500487256",
           "domain": "gulfnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://www.nytimes.com/live/2026/03/26/world/iran-war-israel-trump-oil",
+          "domain": "nytimes.com",
+          "tier": "wire"
         }
       ],
       "snippet": null,
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-26%2F1us4hici%2Fnew.jpg?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774533959.0
     },
     {
       "id": "fe687c58f649",
@@ -44,7 +51,9 @@
       "snippet": null,
       "preview_image": "https://media.assettype.com/gulfnews%2F2025-07-18%2F1je7q3cm%2FGulf-Air.jpg?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774533768.0
     },
     {
       "id": "126b1c3c4300",
@@ -110,7 +119,9 @@
       "snippet": null,
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-26%2Ff1rh70r4%2FTel.jpg?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774532440.0
     },
     {
       "id": "4d84a2b8b0d0",
@@ -132,7 +143,9 @@
       "snippet": null,
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-26%2Fsdcdbxk1%2Ff60bbb27-d2ef-497b-82c2-1bf2aa243c07.jpeg?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774532023.0
     },
     {
       "id": "83b057a17b7e",
