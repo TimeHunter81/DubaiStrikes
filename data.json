@@ -6,7 +6,7 @@
       "id": "fe756ca34976",
       "datetime": "2026-03-26T19:32:34Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "Bahrain&apos;s Public Prosecution refers 14 defendants to Criminal Court for spying for Iran&apos;s IRGC",
       "location": "UAE",
@@ -17,18 +17,25 @@
           "url": "https://gulfnews.com/world/gulf/bahrains-public-prosecution-refers-14-defendants-to-criminal-court-for-spying-for-irans-irgc-1.500487596",
           "domain": "gulfnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://www.thenationalnews.com/news/gulf/2026/03/26/bahrain-charges-14-people-with-spying-for-irans-irgc/",
+          "domain": "thenationalnews.com",
+          "tier": "wire"
         }
       ],
       "snippet": "Bahrain&apos;s Public Prosecution refers 14 defendants to Criminal Court for spying for Iran&apos;s IRGC",
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-02-16%2F5e0zlifq%2Fnewsml_afp_com_20260216T181524Z_doc_97rf99b.jpeg?rect=0%2C26%2C1200%2C630&amp;w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774557154.0
     },
     {
       "id": "68f2912cbed4",
       "datetime": "2026-03-26T19:27:45Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "What&apos;s happening with Iran-US &apos;talks&apos;?",
       "location": "UAE",
@@ -39,18 +46,25 @@
           "url": "https://gulfnews.com/world/mena/whats-happening-with-iran-us-talks-1.500487598",
           "domain": "gulfnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://www.reuters.com/world/asia-pacific/iran-says-it-is-reviewing-us-ceasefire-plan-no-talks-trump-says-tehran-leaders-2026-03-26/",
+          "domain": "reuters.com",
+          "tier": "wire"
         }
       ],
       "snippet": null,
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-26%2Fek1sgw04%2Fnewsml_afp_com_20260326T000000Z_PH_GTY_2268460483.jpeg?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774556865.0
     },
     {
       "id": "2a4c23a9aebd",
       "datetime": "2026-03-26T19:26:04Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "Targeted assassinations of Iranian leaders will continue, Israeli military spokesman says",
       "location": "UAE",
@@ -66,7 +80,9 @@
       "snippet": "&lt;article data-history-node-id=\"436764\" about=\"https://www.middleeasteye.net/live-blog/live-blog-update/targeted-assassinations-iranian-leaders-will-continue-idf-spokesman-says\" class=\"live-blog-update default clearfix\"&gt;\n\n  \n      &lt;h2&gt;\n   ",
       "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/mee%20site%20main.jpg",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774556764.0
     },
     {
       "id": "4024cda4c929",
@@ -182,23 +198,30 @@
       "id": "c22012a64cef",
       "datetime": "2026-03-26T18:35:09Z",
       "type": "security_alert",
-      "confirmed": false,
-      "precision": "country",
+      "confirmed": true,
+      "precision": "city",
       "title": "UAE braces for heavy rain until Friday night",
-      "location": "Uae",
-      "lat": null,
-      "lon": null,
+      "location": "Dubai, UAE",
+      "lat": 25.2048,
+      "lon": 55.2708,
       "sources": [
         {
           "url": "https://gulfnews.com/uae/weather/uae-braces-for-heavy-rain-until-friday-night-1.500487579",
           "domain": "gulfnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://www.thenationalnews.com/news/uae/2026/03/26/live-uae-weather-rain-thunder-tornado/",
+          "domain": "thenationalnews.com",
+          "tier": "wire"
         }
       ],
       "snippet": null,
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-26%2Fm5v76bfg%2FB.jpg?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774553709.0
     },
     {
       "id": "eab3edf90b24",
