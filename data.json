@@ -30,7 +30,7 @@
       "id": "b9fe84c277aa",
       "datetime": "2026-03-25T11:25:31Z",
       "type": "interception",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "UAE air defences intercept 9 Iranian UAVs",
       "location": "UAE",
@@ -59,7 +59,8 @@
         }
       ],
       "_via": "rss",
-      "_search_count": 3
+      "_search_count": 4,
+      "_next_search_at": 1774697131.0
     },
     {
       "id": "780a01bcf148",
