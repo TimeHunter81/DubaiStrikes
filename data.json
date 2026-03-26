@@ -6,7 +6,7 @@
       "id": "67aa6fa316d6",
       "datetime": "2026-03-26T04:40:07Z",
       "type": "interception",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "UAE air defences respond to new Iranian attack wave",
       "location": "UAE",
@@ -17,9 +17,16 @@
           "url": "https://www.middleeasteye.net/live-blog/live-blog-update/uae-responding-attacks-iran",
           "domain": "middleeasteye.net",
           "tier": "local"
+        },
+        {
+          "url": "https://indianexpress.com/article/world/dubai-uae-news-live-updates-iran-israel-war-kuwait-saudi-arabia-missile-drone-attacks-10597697/",
+          "domain": "indianexpress.com",
+          "tier": "wire"
         }
       ],
-      "_via": "rss"
+      "_via": "rss",
+      "_search_count": 1,
+      "_next_search_at": 1774503607.0
     },
     {
       "id": "68684fd3b57f",
