@@ -22,7 +22,9 @@
       "snippet": "&lt;article data-history-node-id=\"436721\" about=\"https://www.middleeasteye.net/live-blog/live-blog-update/third-iranian-attack-detected-israel\" class=\"live-blog-update default clearfix\"&gt;\n\n  \n      &lt;h2&gt;\n      &lt;a href=\"https://www.middleeas",
       "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/iran-support-supreme-leader-25-march-2026-afp.jpg",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774510132.0
     },
     {
       "id": "2ea901bec5d7",
@@ -44,7 +46,9 @@
       "snippet": "&lt;article data-history-node-id=\"436720\" about=\"https://www.middleeasteye.net/live-blog/live-blog-update/irans-foreign-minister-says-no-talks-have-taken-place-us\" class=\"live-blog-update default clearfix\"&gt;\n\n  \n      &lt;h2&gt;\n      &lt;a href=\"h",
       "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/iran-support-supreme-leader-25-march-2026-afp.jpg",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774509446.0
     },
     {
       "id": "1d661019bbd0",
@@ -66,29 +70,38 @@
       "snippet": null,
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-26%2F6bko7ekq%2Flead.jpg?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774509153.0
     },
     {
       "id": "094ceaad6a09",
       "datetime": "2026-03-26T06:00:02Z",
       "type": "security_alert",
-      "confirmed": false,
-      "precision": "country",
+      "confirmed": true,
+      "precision": "city",
       "title": "US-Israeli attack targets residential area in Bandar Abbas",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
+      "location": "Bandar Abbas, Iran",
+      "lat": 27.1832,
+      "lon": 56.2666,
       "sources": [
         {
           "url": "https://www.middleeasteye.net/live-blog/live-blog-update/us-israeli-attack-targets-residential-area-bandar-abbas",
           "domain": "middleeasteye.net",
           "tier": "local"
+        },
+        {
+          "url": "https://www.nytimes.com/live/2026/03/25/world/iran-war-trump-oil-news",
+          "domain": "nytimes.com",
+          "tier": "wire"
         }
       ],
       "snippet": "&lt;article data-history-node-id=\"436719\" about=\"https://www.middleeasteye.net/live-blog/live-blog-update/us-israeli-attack-targets-residential-area-bandar-abbas\" class=\"live-blog-update default clearfix\"&gt;\n\n  \n      &lt;h2&gt;\n      &lt;a href=\"ht",
       "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/iran-support-supreme-leader-25-march-2026-afp.jpg",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774508402.0
     },
     {
       "id": "6db28c3faff1",
