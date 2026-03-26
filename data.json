@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-26T09:45:00Z",
+  "last_updated": "2026-03-26T09:56:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -32,48 +32,16 @@
           "url": "https://www.aljazeera.com/news/2026/3/26/us-israel-launch-extensive-strikes-on-central-iran-two-teenagers-killed?traffic_source=rss",
           "domain": "aljazeera.com",
           "tier": "wire"
-        }
-      ],
-      "snippet": "Two killed and three injured by debris from intercepted Iranian missile — UAE Media Office confirms.",
-      "_via": "rss",
-      "confidence": "high"
-    },
-    {
-      "id": "67aa6fa316d6",
-      "datetime": "2026-03-26T04:36:31Z",
-      "type": "interception",
-      "confirmed": false,
-      "precision": "country",
-      "title": "UAE air defences engage new Iranian attack wave",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/uae-responding-attacks-iran",
-          "domain": "middleeasteye.net",
-          "tier": "local"
-        },
-        {
-          "url": "https://indianexpress.com/article/world/dubai-uae-news-live-updates-iran-israel-war-kuwait-saudi-arabia-missile-drone-attacks-10597697/",
-          "domain": "indianexpress.com",
-          "tier": "local"
         },
         {
           "url": "https://en.wikipedia.org/wiki/2026_Iranian_strikes_on_the_United_Arab_Emirates",
           "domain": "en.wikipedia.org",
           "tier": "wire"
-        },
-        {
-          "url": "https://www.express.co.uk/news/world/2186699/dubai-explosions-live-uae-attack-launch",
-          "domain": "express.co.uk",
-          "tier": "wire"
         }
       ],
+      "snippet": "Two killed and three injured by debris from intercepted Iranian missile — UAE Media Office confirms.",
       "_via": "rss",
-      "confidence": "high",
-      "_search_count": 2,
-      "_next_search_at": 1774521391.0
+      "confidence": "high"
     },
     {
       "id": "68684fd3b57f",
