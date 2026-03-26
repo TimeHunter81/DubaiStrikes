@@ -6,7 +6,7 @@
       "id": "0ed58be8ae4b",
       "datetime": "2026-03-26T17:13:15Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "Iran at an ‘inflection point’ as Trump claims Tehran is ‘begging’ for a deal",
       "location": "UAE",
@@ -17,18 +17,25 @@
           "url": "https://www.thenationalnews.com/news/us/2026/03/26/iran-deal-trump-witkoff/",
           "domain": "thenationalnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://www.nytimes.com/live/2026/03/26/world/iran-war-israel-trump-oil",
+          "domain": "nytimes.com",
+          "tier": "wire"
         }
       ],
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/A2YFBEWXPENSWYDVI22EXHM5O4.jpg?smart=true&amp;auth=b2ae064cfe57ecf6e8286abdb7d271824a35cd39a6275ca461641346cb020e7f&amp;width=1200&amp;height=630",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774548795.0
     },
     {
       "id": "d2bd992d382c",
       "datetime": "2026-03-26T17:08:51Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "US plans 'final blow' against Iran as Trump demands Tehran make a deal",
       "location": "UAE",
@@ -44,18 +51,25 @@
           "url": "https://www.middleeasteye.net/news/us-plans-final-blow-against-iran-trump-demands-tehran-make-deal",
           "domain": "middleeasteye.net",
           "tier": "local"
+        },
+        {
+          "url": "https://www.axios.com/2026/03/26/iran-invasion-plans-kharg-island-trump",
+          "domain": "axios.com",
+          "tier": "wire"
         }
       ],
       "snippet": "&lt;article data-history-node-id=\"436760\" about=\"https://www.middleeasteye.net/live-blog/live-blog-update/us-plans-final-blow-against-iran-trump-demands-tehran-make-deal\" class=\"live-blog-update default clearfix\"&gt;\n\n  \n      &lt;h2&gt;\n      &lt;a ",
       "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/mee%20site%20main.jpg",
       "_via": "rss",
-      "confidence": "medium"
+      "confidence": "medium",
+      "_search_count": 1,
+      "_next_search_at": 1774548531.0
     },
     {
       "id": "6bfeb5a00fc6",
       "datetime": "2026-03-26T17:08:16Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "'They were trying to dehumanise me': Palestine Action hunger strikers allege mistreatment in prison",
       "location": "UAE",
@@ -66,34 +80,48 @@
           "url": "https://www.middleeasteye.net/news/palestine-action-hunger-strikers-mistreatment-allege",
           "domain": "middleeasteye.net",
           "tier": "local"
+        },
+        {
+          "url": "https://www.aljazeera.com/news/2026/3/25/palestine-action-hunger-strikers-to-sue-prisons-over-alleged-mistreatment",
+          "domain": "aljazeera.com",
+          "tier": "wire"
         }
       ],
       "snippet": "&lt;article data-history-node-id=\"436735\" about=\"https://www.middleeasteye.net/news/palestine-action-hunger-strikers-mistreatment-allege\" class=\"story default clearfix\"&gt;\n\n  \n      &lt;h2&gt;\n      &lt;a href=\"https://www.middleeasteye.net/news/pal",
       "preview_image": "https://www.middleeasteye.net/sites/default/files/images-story/Untitled_49.jpg",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774548496.0
     },
     {
       "id": "a0ea9f6e84eb",
       "datetime": "2026-03-26T17:07:22Z",
       "type": "security_alert",
-      "confirmed": false,
-      "precision": "country",
+      "confirmed": true,
+      "precision": "city",
       "title": "Hezbollah rocket attack kills one person in Israel",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
+      "location": "Nahariya, Israel",
+      "lat": 32.9983,
+      "lon": 35.0968,
       "sources": [
         {
           "url": "https://www.middleeasteye.net/live-blog/live-blog-update/hezbollah-rocket-attack-kills-one-person-israel",
           "domain": "middleeasteye.net",
           "tier": "local"
+        },
+        {
+          "url": "https://www.jpost.com/israel-news/defense-news/article-891315",
+          "domain": "jpost.com",
+          "tier": "wire"
         }
       ],
       "snippet": "&lt;article data-history-node-id=\"436759\" about=\"https://www.middleeasteye.net/live-blog/live-blog-update/hezbollah-rocket-attack-kills-one-person-israel\" class=\"live-blog-update default clearfix\"&gt;\n\n  \n      &lt;h2&gt;\n      &lt;a href=\"https://ww",
       "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/mee%20site%20main.jpg",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774548442.0
     },
     {
       "id": "82f72b07f388",
