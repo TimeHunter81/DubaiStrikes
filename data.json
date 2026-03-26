@@ -21,7 +21,9 @@
       ],
       "confidence": "low",
       "preview_image": "https://media.cnn.com/api/v1/images/stellar/prod/kharg.png?c=16x9&q=w_800,c_fill",
-      "_via": "gdelt"
+      "_via": "gdelt",
+      "_search_count": 1,
+      "_next_search_at": 1774498284.0
     },
     {
       "id": "1e1da71e58c3",
@@ -43,7 +45,9 @@
       "snippet": "&lt;article data-history-node-id=\"436711\" about=\"https://www.middleeasteye.net/live-blog/live-blog-update/kuwait-intercepts-drones-authorities-struggle-put-out-fire-airport\" class=\"live-blog-update default clearfix\"&gt;\n\n  \n      &lt;h2&gt;\n      &lt",
       "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/iran-support-supreme-leader-25-march-2026-afp.jpg",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774497759.0
     },
     {
       "id": "9979e90d0f11",
@@ -65,7 +69,9 @@
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/C7Z2SNJJRNBKTM4V5BHSUG25Y4.jpg?smart=true&amp;auth=b11164a0e5967b1ed0f43053e3a3734c0b3f244f17b19b22735a2c9c58b4e2ec&amp;width=1200&amp;height=630",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774497600.0
     },
     {
       "id": "ff0bf5471cbd",
@@ -87,7 +93,9 @@
       "snippet": "&lt;article data-history-node-id=\"436710\" about=\"https://www.middleeasteye.net/live-blog/live-blog-update/israeli-military-says-it-carried-out-wide-scale-strikes-iran\" class=\"live-blog-update default clearfix\"&gt;\n\n  \n      &lt;h2&gt;\n      &lt;a hre",
       "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/iran-support-supreme-leader-25-march-2026-afp.jpg",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774496633.0
     },
     {
       "id": "4741de6edbf3",
