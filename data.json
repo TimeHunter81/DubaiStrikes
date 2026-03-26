@@ -28,7 +28,7 @@
       "id": "c22012a64cef",
       "datetime": "2026-03-26T18:35:09Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "UAE braces for heavy rain until Friday night",
       "location": "Uae",
@@ -39,34 +39,48 @@
           "url": "https://gulfnews.com/uae/weather/uae-braces-for-heavy-rain-until-friday-night-1.500487579",
           "domain": "gulfnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://www.thenationalnews.com/news/uae/2026/03/26/uae-braces-for-friday-morning-deluge-as-rainstorm-path-shifts/",
+          "domain": "thenationalnews.com",
+          "tier": "wire"
         }
       ],
       "snippet": null,
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-26%2Fm5v76bfg%2FB.jpg?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774553709.0
     },
     {
       "id": "eab3edf90b24",
       "datetime": "2026-03-26T18:23:41Z",
       "type": "security_alert",
-      "confirmed": false,
-      "precision": "country",
+      "confirmed": true,
+      "precision": "city",
       "title": "G7 foreign ministers focus on ending the Iran war",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
+      "location": "Vaux-de-Cernay, France",
+      "lat": 48.6,
+      "lon": 1.97,
       "sources": [
         {
           "url": "https://www.thenationalnews.com/news/europe/2026/03/26/g7-foreign-ministers-focus-on-ending-the-iran-war/",
           "domain": "thenationalnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://www.reuters.com/world/europe/g7-allies-meet-against-backdrop-wars-ukraine-iran-with-unpredictable-us-2026-03-26/",
+          "domain": "reuters.com",
+          "tier": "wire"
         }
       ],
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/6PWO6L5NFQXRPRA77BOPNS7O7U.jpg?smart=true&amp;auth=d595ee8194e88f554a65551f760a2cea8e3eec9611eb5c8d8b37c8378b042e19&amp;width=1200&amp;height=630",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774553021.0
     },
     {
       "id": "1dbf5410670a",
@@ -116,7 +130,7 @@
       "id": "ed9b2baae93c",
       "datetime": "2026-03-26T17:42:13Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "Air India and Air India Express to operate 22 Gulf flights on March 27",
       "location": "UAE",
@@ -132,7 +146,9 @@
       "snippet": null,
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-26%2Fcp6mxopl%2Fplane.jpg?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774550533.0
     },
     {
       "id": "e5d81c84e696",
@@ -182,23 +198,30 @@
       "id": "0ed58be8ae4b",
       "datetime": "2026-03-26T17:13:15Z",
       "type": "security_alert",
-      "confirmed": false,
-      "precision": "country",
+      "confirmed": true,
+      "precision": "city",
       "title": "Iran at an ‘inflection point’ as Trump claims Tehran is ‘begging’ for a deal",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
+      "location": "Dubai, UAE",
+      "lat": 25.2048,
+      "lon": 55.2708,
       "sources": [
         {
           "url": "https://www.thenationalnews.com/news/us/2026/03/26/iran-deal-trump-witkoff/",
           "domain": "thenationalnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://apnews.com/article/iran-us-israel-trump-lebanon-march-24-2026-8bb5e79a98ea72fccc5c50b4931ad778",
+          "domain": "apnews.com",
+          "tier": "wire"
         }
       ],
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/A2YFBEWXPENSWYDVI22EXHM5O4.jpg?smart=true&amp;auth=b2ae064cfe57ecf6e8286abdb7d271824a35cd39a6275ca461641346cb020e7f&amp;width=1200&amp;height=630",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774548795.0
     },
     {
       "id": "9f239ec7ee55",
