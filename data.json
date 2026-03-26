@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-26T02:22:00Z",
+  "last_updated": "2026-03-26T02:32:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -41,6 +41,8 @@
       "location": "UAE",
       "lat": null,
       "lon": null,
+      "type": "interception",
+      "confirmed": true,
       "sources": [
         {
           "url": "https://gulfnews.com/uae/uae-air-defences-engaged-9-uavs-launched-from-iran-1.500485919",
