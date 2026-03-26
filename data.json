@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-26T03:15:00Z",
+  "last_updated": "2026-03-26T03:24:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -29,7 +29,8 @@
           "tier": "wire"
         }
       ],
-      "confidence": "high"
+      "confidence": "high",
+      "_via": "rss"
     },
     {
       "id": "b9fe84c277aa",
@@ -69,7 +70,8 @@
         }
       ],
       "_search_count": 2,
-      "_next_search_at": 1774459531.0
+      "_next_search_at": 1774459531.0,
+      "_via": "rss"
     },
     {
       "id": "780a01bcf148",
@@ -171,30 +173,6 @@
           "url": "https://ae.usembassy.gov/security-alert-update-on-strikes-in-the-uae-u-s-mission-to-the-uae-mar-2-2026/",
           "domain": "ae.usembassy.gov",
           "tier": "official"
-        }
-      ],
-      "_manual": true
-    },
-    {
-      "id": "c4d5e6f7a2b3",
-      "datetime": "2026-03-02T05:00:00Z",
-      "type": "security_alert",
-      "confirmed": true,
-      "precision": "exact",
-      "title": "UAE closes airspace and withdraws diplomats from Tehran",
-      "location": "UAE",
-      "lat": 25,
-      "lon": 55.1,
-      "sources": [
-        {
-          "url": "https://www.timesofisrael.com/dubais-carefully-built-image-as-a-sun-filled-safe-haven-shattered-by-iranian-strikes/",
-          "domain": "timesofisrael.com",
-          "tier": "wire"
-        },
-        {
-          "url": "https://www.aljazeera.com/news/2026/3/1/more-blasts-rock-dubai-doha-and-manama-as-iran-targets-us-assets-in-gulf",
-          "domain": "aljazeera.com",
-          "tier": "wire"
         }
       ],
       "_manual": true
