@@ -1,11 +1,11 @@
 {
-  "last_updated": "2026-03-26T12:11:00Z",
+  "last_updated": "2026-03-26T12:21:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
       "id": "0dd6f1e0f295",
       "datetime": "2026-03-26T07:04:25Z",
-      "type": "impact_minor",
+      "type": "impact_major",
       "confirmed": true,
       "precision": "city",
       "title": "Iranian missile intercepted over Abu Dhabi — debris kills 2, injures 3",
