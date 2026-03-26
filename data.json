@@ -22,7 +22,9 @@
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/W7K44W5BERGNJLAPGJEOJKI7ZI.jpeg?smart=true&amp;auth=ea46ea3fa3be8780667776218575b38b20007841713f60b51d7e6f081e7fd291&amp;width=1200&amp;height=630",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774543110.0
     },
     {
       "id": "b175289f585d",
@@ -66,13 +68,15 @@
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/KYJSBL3XTH6PVF2ZQ7TMCIIHFE.jpg?smart=true&amp;auth=96a3c66103eb9cba844e98135af2b5933d9f4938938099b456a41a9742ac4db3&amp;width=1200&amp;height=630",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774542707.0
     },
     {
       "id": "98e6444f5b44",
       "datetime": "2026-03-26T15:21:47Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "Grandfather killed in Iranian strike on Abu Dhabi prayed for attacks to end",
       "location": "Abu Dhabi",
@@ -83,23 +87,30 @@
           "url": "https://www.thenationalnews.com/news/uae/2026/03/26/grandfather-killed-in-iranian-strike-on-abu-dhabi-prayed-for-attacks-to-end/",
           "domain": "thenationalnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://www.reuters.com/world/middle-east/iran-fires-missiles-gulf-arab-states-one-killed-abu-dhabi-2026-02-28/",
+          "domain": "reuters.com",
+          "tier": "wire"
         }
       ],
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/PIDRQPSVJBG5NI23EBQHDPSXYU.jpg?smart=true&amp;auth=5953641e8df832d0cac4aa85dea1cb67e5adde380da7aa3ca51eb9631e3c7c1a&amp;width=1200&amp;height=630",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774542107.0
     },
     {
       "id": "c9bda99c4894",
       "datetime": "2026-03-26T14:39:13Z",
       "type": "security_alert",
       "confirmed": false,
-      "precision": "country",
+      "precision": "city",
       "title": "UAE rains: 15-year-old boy rescued after being swept away in Khor Fakkan valley stream",
-      "location": "Uae",
-      "lat": null,
-      "lon": null,
+      "location": "Khor Fakkan",
+      "lat": 25.3447,
+      "lon": 56.3424,
       "sources": [
         {
           "url": "https://gulfnews.com/uae/weather/uae-rains-15-year-old-boy-rescued-after-being-swept-away-in-khor-fakkan-valley-stream-1.500487362",
@@ -110,7 +121,9 @@
       "snippet": null,
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-26%2Fjplwxqok%2FKhor-Fakkan?rect=0%2C283%2C1320%2C693&amp;w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774539553.0
     },
     {
       "id": "c2dfd021f7e9",
