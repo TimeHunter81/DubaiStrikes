@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-03-26T06:59:10Z",
+  "last_updated": "2026-03-26T07:03:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
       "id": "67aa6fa316d6",
-      "datetime": "2026-03-26T04:40:07Z",
+      "datetime": "2026-03-26T04:36:31Z",
       "type": "interception",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "country",
       "title": "UAE air defences respond to new Iranian attack wave",
       "location": "UAE",
@@ -24,9 +24,7 @@
           "tier": "wire"
         }
       ],
-      "_via": "rss",
-      "_search_count": 2,
-      "_next_search_at": 1774521607.0
+      "_via": "rss"
     },
     {
       "id": "68684fd3b57f",
