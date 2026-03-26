@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-26T07:13:00Z",
+  "last_updated": "2026-03-26T07:25:54Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -8,7 +8,7 @@
       "type": "impact_major",
       "confirmed": true,
       "precision": "city",
-      "title": "Two killed in Abu Dhabi — UAE Media Office confirms",
+      "title": "Intercepted missile debris kills 2, injures 3 in Abu Dhabi",
       "location": "Abu Dhabi",
       "lat": 24.4539,
       "lon": 54.3773,
@@ -17,23 +17,27 @@
           "url": "https://www.middleeasteye.net/live-blog/live-blog-update/two-killed-abu-dhabi-uae-media-office-says",
           "domain": "middleeasteye.net",
           "tier": "local"
+        },
+        {
+          "url": "https://www.thenationalnews.com/news/mena/2026/03/26/live-us-israel-iran-war-talks/",
+          "domain": "thenationalnews.com",
+          "tier": "local"
         }
       ],
-      "snippet": "Two killed in Abu Dhabi, UAE media office says.",
+      "snippet": "Two killed and three injured by debris from intercepted Iranian missile — UAE Media Office confirms.",
       "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/iran-support-supreme-leader-25-march-2026-afp.jpg",
-      "_via": "rss",
-      "confidence": "high"
+      "_via": "rss"
     },
     {
       "id": "67aa6fa316d6",
       "datetime": "2026-03-26T04:36:31Z",
       "type": "interception",
       "confirmed": true,
-      "precision": "city",
+      "precision": "country",
       "title": "UAE air defences respond to new Iranian attack wave",
-      "location": "Dubai / Abu Dhabi",
-      "lat": 25.2048,
-      "lon": 55.2708,
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
       "sources": [
         {
           "url": "https://www.middleeasteye.net/live-blog/live-blog-update/uae-responding-attacks-iran",
@@ -53,8 +57,7 @@
       ],
       "_via": "rss",
       "_search_count": 2,
-      "_next_search_at": 1774521391.0,
-      "confidence": "medium"
+      "_next_search_at": 1774521391.0
     },
     {
       "id": "68684fd3b57f",
