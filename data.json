@@ -6,7 +6,7 @@
       "id": "68684fd3b57f",
       "datetime": "2026-03-25T23:09:23Z",
       "type": "interception",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "UAE air defences engage incoming Iranian missiles and drones",
       "location": "UAE",
@@ -22,15 +22,22 @@
           "url": "https://www.reuters.com/world/middle-east/iranian-missiles-drones-fired-gulf-countries-2026-03-10/",
           "domain": "reuters.com",
           "tier": "wire"
+        },
+        {
+          "url": "https://www.bbc.com/news/live/ce84073mr06t",
+          "domain": "bbc.com",
+          "tier": "wire"
         }
       ],
-      "_via": "rss"
+      "_via": "rss",
+      "_search_count": 1,
+      "_next_search_at": 1774483763.0
     },
     {
       "id": "b9fe84c277aa",
       "datetime": "2026-03-25T11:25:31Z",
       "type": "interception",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "UAE air defences intercept 9 Iranian UAVs",
       "location": "UAE",
@@ -58,7 +65,9 @@
           "tier": "wire"
         }
       ],
-      "_via": "rss"
+      "_via": "rss",
+      "_search_count": 1,
+      "_next_search_at": 1774441531.0
     },
     {
       "id": "780a01bcf148",
