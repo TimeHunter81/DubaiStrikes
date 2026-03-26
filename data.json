@@ -6,7 +6,7 @@
       "id": "3e07782be00c",
       "datetime": "2026-03-26T12:22:08Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "Weather latest: UAE braces for powerful storm with heavy rain, strong wind and thunder expected",
       "location": "Uae",
@@ -22,13 +22,15 @@
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/5D3CS5DPCFE2TBLL6YUJ4PSOSQ.jpg?smart=true&amp;auth=3cbbc48aab33029eaba4d31570dc8d860c76369aa9d3d4e4d8b3b217349e5c3a&amp;width=1200&amp;height=630",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774531328.0
     },
     {
       "id": "a7fe24a7f7f8",
       "datetime": "2026-03-26T12:09:51Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "Pakistan relays US-Iran peace talks, says Ishaq Dar",
       "location": "UAE",
@@ -39,18 +41,25 @@
           "url": "https://gulfnews.com/world/asia/pakistan/pakistan-relays-us-iran-peace-talks-says-ishaq-dar-1.500487176",
           "domain": "gulfnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://www.cnn.com/2026/03/26/world/live-news/iran-war-us-israel-trump",
+          "domain": "cnn.com",
+          "tier": "wire"
         }
       ],
       "snippet": null,
       "preview_image": "https://media.assettype.com/gulfnews%2Fimport%2F2023%2F02%2F22%2Fdar-1677059404700_1867887b3b9_large.jpg?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774530591.0
     },
     {
       "id": "8e66f035614e",
       "datetime": "2026-03-26T12:08:49Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "Oman extends flight cancellations to Dubai, Kuwait, Doha, and Bahrain until April 15",
       "location": "Dubai",
@@ -66,13 +75,15 @@
       "snippet": null,
       "preview_image": "https://media.assettype.com/gulfnews%2Fimport%2F2013%2F6%2F19%2F1_16a080f0d94.1199238_180886860_16a080f0d94_large.jpg?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774530529.0
     },
     {
       "id": "0c23a6146e92",
       "datetime": "2026-03-26T12:06:03Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "Oil prices jump 5 percent on Iran-US talks uncertainty",
       "location": "UAE",
@@ -83,12 +94,19 @@
           "url": "https://www.middleeasteye.net/live-blog/live-blog-update/oil-prices-jump-5-percent-iran-us-talks-uncertainty",
           "domain": "middleeasteye.net",
           "tier": "local"
+        },
+        {
+          "url": "https://www.reuters.com/business/energy/oil-rises-markets-assess-supply-risks-after-iran-denies-us-talks-2026-03-24/",
+          "domain": "reuters.com",
+          "tier": "wire"
         }
       ],
       "snippet": "&lt;article data-history-node-id=\"436745\" about=\"https://www.middleeasteye.net/live-blog/live-blog-update/oil-prices-jump-5-percent-iran-us-talks-uncertainty\" class=\"live-blog-update default clearfix\"&gt;\n\n  \n      &lt;h2&gt;\n      &lt;a href=\"https:",
       "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/iran-support-supreme-leader-25-march-2026-afp.jpg",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774530363.0
     },
     {
       "id": "e36ea9c1d9c8",
