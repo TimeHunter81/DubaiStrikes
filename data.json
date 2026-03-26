@@ -38,7 +38,7 @@
       "id": "67aa6fa316d6",
       "datetime": "2026-03-26T04:36:31Z",
       "type": "interception",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "UAE air defences engage new Iranian attack wave",
       "location": "Dubai, UAE",
@@ -59,12 +59,17 @@
           "url": "https://en.wikipedia.org/wiki/2026_Iranian_strikes_on_the_United_Arab_Emirates",
           "domain": "en.wikipedia.org",
           "tier": "wire"
+        },
+        {
+          "url": "https://www.express.co.uk/news/world/2186699/dubai-explosions-live-uae-attack-launch",
+          "domain": "express.co.uk",
+          "tier": "wire"
         }
       ],
       "_via": "rss",
       "confidence": "high",
-      "_search_count": 1,
-      "_next_search_at": 1774503391.0
+      "_search_count": 2,
+      "_next_search_at": 1774521391.0
     },
     {
       "id": "68684fd3b57f",
