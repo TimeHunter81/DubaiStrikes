@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-26T09:03:00Z",
+  "last_updated": "2026-03-26T09:13:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -27,6 +27,11 @@
           "url": "https://gulfnews.com/uae/abu-dhabi-2-dead-three-injured-after-iran-missile-interception-1.500486824",
           "domain": "gulfnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://www.aljazeera.com/news/2026/3/26/us-israel-launch-extensive-strikes-on-central-iran-two-teenagers-killed?traffic_source=rss",
+          "domain": "aljazeera.com",
+          "tier": "wire"
         }
       ],
       "snippet": "Two killed and three injured by debris from intercepted Iranian missile — UAE Media Office confirms.",
@@ -39,11 +44,11 @@
       "datetime": "2026-03-26T04:36:31Z",
       "type": "interception",
       "confirmed": false,
-      "precision": "city",
+      "precision": "country",
       "title": "UAE air defences engage new Iranian attack wave",
-      "location": "Dubai, UAE",
-      "lat": 25.2048,
-      "lon": 55.2708,
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
       "sources": [
         {
           "url": "https://www.middleeasteye.net/live-blog/live-blog-update/uae-responding-attacks-iran",
@@ -96,44 +101,6 @@
           "url": "https://www.bbc.com/news/live/ce84073mr06t",
           "domain": "bbc.com",
           "tier": "wire"
-        }
-      ]
-    },
-    {
-      "id": "b9fe84c277aa",
-      "datetime": "2026-03-25T11:25:31Z",
-      "type": "interception",
-      "confirmed": true,
-      "precision": "country",
-      "title": "UAE intercepts 9 Iranian UAVs — MoD confirms",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://gulfnews.com/uae/uae-air-defences-engaged-9-uavs-launched-from-iran-1.500485919",
-          "domain": "gulfnews.com",
-          "tier": "local"
-        },
-        {
-          "url": "https://www.dubaieye1038.com/uae-air-defences-intercept-9-drones-on-wednesday/",
-          "domain": "dubaieye1038.com",
-          "tier": "local"
-        },
-        {
-          "url": "https://en.wikipedia.org/wiki/2026_Iranian_strikes_on_the_United_Arab_Emirates",
-          "domain": "en.wikipedia.org",
-          "tier": "wire"
-        },
-        {
-          "url": "https://www.news18.com/world/dubai-abu-dhabi-uae-iran-war-news-live-updates-today-middle-east-kuwait-airports-flights-missile-attacks-liveblog-9995509.html",
-          "domain": "news18.com",
-          "tier": "local"
-        },
-        {
-          "url": "https://x.com/modgovae/status/2036758348218134543",
-          "domain": "x.com",
-          "tier": "social"
         }
       ]
     },
