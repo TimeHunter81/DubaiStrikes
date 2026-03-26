@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-26T21:03:00Z",
+  "last_updated": "2026-03-26T21:13:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -34,8 +34,7 @@
           "tier": "wire"
         }
       ],
-      "_via": "rss",
-      "confidence": "high"
+      "_via": "rss"
     },
     {
       "id": "0dd6f1e0f295",
@@ -43,7 +42,7 @@
       "type": "impact_major",
       "confirmed": true,
       "precision": "city",
-      "title": "Iranian missile intercepted over Abu Dhabi — debris kills 2, injures 3",
+      "title": "Iranian missile debris kills 2, injures 3 in Abu Dhabi",
       "location": "Abu Dhabi",
       "lat": 24.4539,
       "lon": 54.3773,
@@ -79,10 +78,7 @@
           "tier": "wire"
         }
       ],
-      "_via": "rss",
-      "confidence": "high",
-      "_search_count": 1,
-      "_next_search_at": 1774512265.0
+      "_via": "rss"
     },
     {
       "id": "780a01bcf148",
