@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-26T21:13:00Z",
+  "last_updated": "2026-03-26T21:25:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -34,7 +34,8 @@
           "tier": "wire"
         }
       ],
-      "_via": "rss"
+      "_via": "rss",
+      "confidence": "high"
     },
     {
       "id": "0dd6f1e0f295",
@@ -70,11 +71,6 @@
         {
           "url": "https://en.wikipedia.org/wiki/2026_Iranian_strikes_on_the_United_Arab_Emirates",
           "domain": "en.wikipedia.org",
-          "tier": "wire"
-        },
-        {
-          "url": "https://www.kurdistan24.net/en/story/903327/falling-debris-kills-two-in-abu-dhabi-as-uae-intercepts-iranian-missile-attack",
-          "domain": "kurdistan24.net",
           "tier": "wire"
         }
       ],
