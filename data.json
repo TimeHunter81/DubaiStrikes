@@ -22,7 +22,9 @@
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/A2YFBEWXPENSWYDVI22EXHM5O4.jpg?smart=true&amp;auth=b2ae064cfe57ecf6e8286abdb7d271824a35cd39a6275ca461641346cb020e7f&amp;width=1200&amp;height=630",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774548795.0
     },
     {
       "id": "e5d81c84e696",
@@ -50,7 +52,7 @@
       "id": "82f72b07f388",
       "datetime": "2026-03-26T16:40:15Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "UK MPs hail UAE's enduring strength against unprovoked attack",
       "location": "Uae",
@@ -61,12 +63,19 @@
           "url": "https://www.thenationalnews.com/news/uk/2026/03/26/uk-mps-hail-uaes-enduring-strength-against-unprovoked-attack/",
           "domain": "thenationalnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://www.wam.ae/en/article/bzd5om2-uae-strongly-condemns-irans-unprovoked-terrorist",
+          "domain": "wam.ae",
+          "tier": "wire"
         }
       ],
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/RIELHICONRHJTICNAWGCURF2ZU.jpg?smart=true&amp;auth=6333eb3e175ccfed9a3d63f366e90e99df14b3ab4d8bee369ec168e3dbfa0003&amp;width=1200&amp;height=630",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774546815.0
     },
     {
       "id": "1dbf5410670a",
@@ -132,18 +141,20 @@
       "snippet": null,
       "preview_image": "https://media.assettype.com/gulfnews%2F2024-11-29%2Fb5u7zb5u%2FWLD_200802_VIRUS_REMOTE_WORKING_2_1596279560830_173a9ad1a81_original_ratio.jpg?rect=0%2C1%2C800%2C420&amp;w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774546385.0
     },
     {
       "id": "402350fe2a96",
       "datetime": "2026-03-26T16:20:51Z",
       "type": "security_alert",
       "confirmed": false,
-      "precision": "country",
+      "precision": "city",
       "title": "UAE President shares warm moment with Emirati family during casual restaurant visit",
-      "location": "Uae",
-      "lat": null,
-      "lon": null,
+      "location": "Dubai",
+      "lat": 25.1972,
+      "lon": 55.2796,
       "sources": [
         {
           "url": "https://gulfnews.com/uae/government/uae-president-shares-warm-moment-with-emirati-family-during-casual-restaurant-visit-1.500487466",
@@ -154,7 +165,9 @@
       "snippet": null,
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-26%2Fn1d53u1a%2FMBZ.jpg?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774545651.0
     },
     {
       "id": "fbc915fdc4e8",
