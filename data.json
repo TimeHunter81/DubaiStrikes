@@ -6,12 +6,12 @@
       "id": "a6f8ad9c7cb7",
       "datetime": "2026-03-26T13:22:00Z",
       "type": "interception",
-      "confirmed": false,
-      "precision": "country",
+      "confirmed": true,
+      "precision": "city",
       "title": "UAE intercepts 15 ballistic missiles and 11 drones on Thursday",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
+      "location": "Abu Dhabi, UAE",
+      "lat": 24.4539,
+      "lon": 54.3773,
       "sources": [
         {
           "url": "https://www.thenationalnews.com/news/uae/2026/03/26/uae-intercepts-15-ballistic-missiles-and-11-drones-on-thursday/",
@@ -28,7 +28,9 @@
           "domain": "gulfnews.com",
           "tier": "local"
         }
-      ]
+      ],
+      "_search_count": 1,
+      "_next_search_at": 1774534920.0
     },
     {
       "id": "0dd6f1e0f295",
