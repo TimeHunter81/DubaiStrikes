@@ -38,12 +38,12 @@
       "id": "67aa6fa316d6",
       "datetime": "2026-03-26T04:36:31Z",
       "type": "interception",
-      "confirmed": false,
-      "precision": "country",
+      "confirmed": true,
+      "precision": "city",
       "title": "UAE air defences engage new Iranian attack wave",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
+      "location": "Dubai, UAE",
+      "lat": 25.2048,
+      "lon": 55.2708,
       "sources": [
         {
           "url": "https://www.middleeasteye.net/live-blog/live-blog-update/uae-responding-attacks-iran",
@@ -62,7 +62,9 @@
         }
       ],
       "_via": "rss",
-      "confidence": "high"
+      "confidence": "high",
+      "_search_count": 1,
+      "_next_search_at": 1774503391.0
     },
     {
       "id": "68684fd3b57f",
