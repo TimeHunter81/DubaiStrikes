@@ -44,7 +44,9 @@
       "snippet": null,
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-26%2Fcp6mxopl%2Fplane.jpg?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774550533.0
     },
     {
       "id": "0ed58be8ae4b",
@@ -66,7 +68,9 @@
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/A2YFBEWXPENSWYDVI22EXHM5O4.jpg?smart=true&amp;auth=b2ae064cfe57ecf6e8286abdb7d271824a35cd39a6275ca461641346cb020e7f&amp;width=1200&amp;height=630",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774548795.0
     },
     {
       "id": "d2bd992d382c",
@@ -93,7 +97,9 @@
       "snippet": "&lt;article data-history-node-id=\"436760\" about=\"https://www.middleeasteye.net/live-blog/live-blog-update/us-plans-final-blow-against-iran-trump-demands-tehran-make-deal\" class=\"live-blog-update default clearfix\"&gt;\n\n  \n      &lt;h2&gt;\n      &lt;a ",
       "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/mee%20site%20main.jpg",
       "_via": "rss",
-      "confidence": "medium"
+      "confidence": "medium",
+      "_search_count": 1,
+      "_next_search_at": 1774548531.0
     },
     {
       "id": "6bfeb5a00fc6",
@@ -115,7 +121,9 @@
       "snippet": "&lt;article data-history-node-id=\"436735\" about=\"https://www.middleeasteye.net/news/palestine-action-hunger-strikers-mistreatment-allege\" class=\"story default clearfix\"&gt;\n\n  \n      &lt;h2&gt;\n      &lt;a href=\"https://www.middleeasteye.net/news/pal",
       "preview_image": "https://www.middleeasteye.net/sites/default/files/images-story/Untitled_49.jpg",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774548496.0
     },
     {
       "id": "1dbf5410670a",
