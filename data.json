@@ -41,7 +41,7 @@
       "id": "0dd6f1e0f295",
       "datetime": "2026-03-26T07:04:25Z",
       "type": "impact_major",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "Iranian missile intercepted over Abu Dhabi — debris kills 2, injures 3",
       "location": "Abu Dhabi",
@@ -72,10 +72,17 @@
           "url": "https://en.wikipedia.org/wiki/2026_Iranian_strikes_on_the_United_Arab_Emirates",
           "domain": "en.wikipedia.org",
           "tier": "wire"
+        },
+        {
+          "url": "https://www.kurdistan24.net/en/story/903327/falling-debris-kills-two-in-abu-dhabi-as-uae-intercepts-iranian-missile-attack",
+          "domain": "kurdistan24.net",
+          "tier": "wire"
         }
       ],
       "_via": "rss",
-      "confidence": "high"
+      "confidence": "high",
+      "_search_count": 1,
+      "_next_search_at": 1774512265.0
     },
     {
       "id": "780a01bcf148",
