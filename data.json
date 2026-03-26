@@ -22,7 +22,9 @@
       "snippet": null,
       "preview_image": "https://media.assettype.com/gulfnews%2F2025-06-05%2Fnke7pjtn%2Fnewsml_afp_com_20250605T142000Z_doc_49ca22d.jpeg?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774522833.0
     },
     {
       "id": "010f75db220a",
@@ -44,7 +46,9 @@
       "snippet": null,
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-26%2F3d1a7weq%2Fnumberplane.JPG?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774522829.0
     },
     {
       "id": "4e0c8233d73c",
@@ -66,13 +70,15 @@
       "snippet": null,
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-01-17%2Fm4i7fdj6%2FCloudy-5.jpeg?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774522324.0
     },
     {
       "id": "e32090ba9098",
       "datetime": "2026-03-26T09:50:36Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "Defence minister inspects Kuwait International Airport after drone strike on fuel tanks",
       "location": "UAE",
@@ -83,12 +89,19 @@
           "url": "https://gulfnews.com/world/gulf/kuwait/defence-minister-inspects-kuwait-international-airport-after-drone-strike-on-fuel-tanks-1.500486987",
           "domain": "gulfnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://www.reuters.com/world/middle-east/drone-attack-hits-fuel-tank-kuwait-international-airport-causing-fire-2026-03-24/",
+          "domain": "reuters.com",
+          "tier": "wire"
         }
       ],
       "snippet": null,
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-26%2Fwz7rnqye%2FHEU87b-WsAArdzm.jpg?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774522236.0
     },
     {
       "id": "348702d33797",
