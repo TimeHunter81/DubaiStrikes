@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-26T08:02:00Z",
+  "last_updated": "2026-03-26T08:12:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -38,7 +38,7 @@
       "id": "67aa6fa316d6",
       "datetime": "2026-03-26T04:36:31Z",
       "type": "interception",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "country",
       "title": "UAE air defences engage new Iranian attack wave",
       "location": "UAE",
