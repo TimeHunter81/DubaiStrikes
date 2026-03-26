@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-26T07:52:00Z",
+  "last_updated": "2026-03-26T08:02:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -40,7 +40,7 @@
       "type": "interception",
       "confirmed": false,
       "precision": "country",
-      "title": "UAE air defences respond to new Iranian attack wave",
+      "title": "UAE air defences engage new Iranian attack wave",
       "location": "UAE",
       "lat": null,
       "lon": null,
@@ -53,7 +53,7 @@
         {
           "url": "https://indianexpress.com/article/world/dubai-uae-news-live-updates-iran-israel-war-kuwait-saudi-arabia-missile-drone-attacks-10597697/",
           "domain": "indianexpress.com",
-          "tier": "wire"
+          "tier": "local"
         },
         {
           "url": "https://en.wikipedia.org/wiki/2026_Iranian_strikes_on_the_United_Arab_Emirates",
@@ -62,8 +62,6 @@
         }
       ],
       "_via": "rss",
-      "_search_count": 2,
-      "_next_search_at": 1774521391.0,
       "confidence": "high"
     },
     {
