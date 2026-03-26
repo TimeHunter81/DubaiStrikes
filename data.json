@@ -35,7 +35,7 @@
       "id": "b9fe84c277aa",
       "datetime": "2026-03-25T11:25:31Z",
       "type": "interception",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "UAE air defences intercept 9 Iranian UAVs",
       "location": "UAE",
@@ -61,10 +61,15 @@
           "url": "https://www.news18.com/world/dubai-abu-dhabi-uae-iran-war-news-live-updates-today-middle-east-kuwait-airports-flights-missile-attacks-liveblog-9995509.html",
           "domain": "news18.com",
           "tier": "wire"
+        },
+        {
+          "url": "https://x.com/modgovae/status/2036758348218134543",
+          "domain": "x.com",
+          "tier": "wire"
         }
       ],
-      "_search_count": 1,
-      "_next_search_at": 1774441531.0
+      "_search_count": 2,
+      "_next_search_at": 1774459531.0
     },
     {
       "id": "780a01bcf148",
