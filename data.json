@@ -21,7 +21,9 @@
       ],
       "confidence": "low",
       "preview_image": "https://media.cnn.com/api/v1/images/stellar/prod/palestinos-20260326003740816.jpg?c=16x9&q=w_800,c_fill",
-      "_via": "gdelt"
+      "_via": "gdelt",
+      "_search_count": 1,
+      "_next_search_at": 1774540328.0
     },
     {
       "id": "28f7d63974fc",
@@ -43,7 +45,9 @@
       "snippet": null,
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-26%2Flqm6mb5x%2F29735b89-2cf2-4294-96fe-b47a8aca65ff.jpg?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774538386.0
     },
     {
       "id": "ac6a30b27bd0",
@@ -65,7 +69,9 @@
       "snippet": null,
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-26%2Fp57kwg12%2FWhatsApp-Image-2026-03-25-at-10.47.06-PM.jpeg?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774537852.0
     },
     {
       "id": "1b3bf0ab5123",
@@ -87,7 +93,9 @@
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/TIQUMYDUGXULI3HOII54QGYNLU.jpg?smart=true&amp;auth=eaa920ff4cd7b8e9cd845bdbcf91f59db57b8c50f923d2d539e0789f2b34fcce&amp;width=1200&amp;height=630",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774537737.0
     },
     {
       "id": "03761348f9de",
