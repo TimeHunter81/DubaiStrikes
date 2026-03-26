@@ -6,7 +6,7 @@
       "id": "dc91e0309bd5",
       "datetime": "2026-03-26T15:05:15Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "UAE envoy to US says ‘ceasefire not enough’ and calls for escalation in Iran war",
       "location": "Uae",
@@ -22,12 +22,19 @@
           "url": "https://www.middleeasteye.net/news/uae-envoy-says-ceasefire-not-enough-calls-escalation-israel-us-war-iran",
           "domain": "middleeasteye.net",
           "tier": "local"
+        },
+        {
+          "url": "https://www.timesofisrael.com/liveblog_entry/a-simple-ceasefire-isnt-enough-uae-envoy-to-us-urges-conclusive-outcome-to-iran-war/",
+          "domain": "timesofisrael.com",
+          "tier": "wire"
         }
       ],
       "snippet": "&lt;article data-history-node-id=\"436754\" about=\"https://www.middleeasteye.net/live-blog/live-blog-update/uae-envoy-us-says-ceasefire-not-enough-and-calls-escalation-iran-war\" class=\"live-blog-update default clearfix\"&gt;\n\n  \n      &lt;h2&gt;\n      &",
       "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/iran-support-supreme-leader-25-march-2026-afp.jpg",
       "_via": "rss",
-      "confidence": "medium"
+      "confidence": "medium",
+      "_search_count": 1,
+      "_next_search_at": 1774541115.0
     },
     {
       "id": "504ca1a65323",
@@ -49,18 +56,20 @@
       "snippet": "&lt;article data-history-node-id=\"436753\" about=\"https://www.middleeasteye.net/live-blog/live-blog-update/yemens-houthis-warn-military-response-us-israeli-attacks-if-required\" class=\"live-blog-update default clearfix\"&gt;\n\n  \n      &lt;h2&gt;\n      &",
       "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/iran-support-supreme-leader-25-march-2026-afp.jpg",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774540971.0
     },
     {
       "id": "c9bda99c4894",
       "datetime": "2026-03-26T14:39:13Z",
       "type": "security_alert",
-      "confirmed": false,
-      "precision": "country",
+      "confirmed": true,
+      "precision": "city",
       "title": "UAE rains: 15-year-old boy rescued after being swept away in Khor Fakkan valley stream",
-      "location": "Uae",
-      "lat": null,
-      "lon": null,
+      "location": "Khor Fakkan, Sharjah",
+      "lat": 25.3411,
+      "lon": 56.3606,
       "sources": [
         {
           "url": "https://gulfnews.com/uae/weather/uae-rains-15-year-old-boy-rescued-after-being-swept-away-in-khor-fakkan-valley-stream-1.500487362",
@@ -71,13 +80,15 @@
       "snippet": null,
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-26%2Fjplwxqok%2FKhor-Fakkan?rect=0%2C283%2C1320%2C693&amp;w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774539553.0
     },
     {
       "id": "598a4225004a",
       "datetime": "2026-03-26T14:38:47Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "Iran awaiting response from US after responding to plan via intermediaries",
       "location": "UAE",
@@ -88,12 +99,19 @@
           "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-awaiting-response-us-after-responding-plan-intermediaries",
           "domain": "middleeasteye.net",
           "tier": "local"
+        },
+        {
+          "url": "https://www.reuters.com/world/asia-pacific/what-does-each-side-iran-war-say-it-would-accept-deal-2026-03-26/",
+          "domain": "reuters.com",
+          "tier": "wire"
         }
       ],
       "snippet": "&lt;article data-history-node-id=\"436751\" about=\"https://www.middleeasteye.net/live-blog/live-blog-update/iran-awaiting-response-us-after-responding-plan-intermediaries\" class=\"live-blog-update default clearfix\"&gt;\n\n  \n      &lt;h2&gt;\n      &lt;a h",
       "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/iran-support-supreme-leader-25-march-2026-afp.jpg",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774539527.0
     },
     {
       "id": "13cb79eb3d98",
