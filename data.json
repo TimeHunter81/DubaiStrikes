@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-27T12:59:00Z",
+  "last_updated": "2026-03-27T13:11:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -273,7 +273,7 @@
       "id": "f91400c9cf53",
       "datetime": "2026-03-27T12:00:00Z",
       "type": "interception",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "country",
       "title": "UAE air defences intercept 6 ballistic missiles and 9 UAVs — Mar 27",
       "location": "UAE",
