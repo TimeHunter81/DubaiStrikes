@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-03-27T16:35:00Z",
+  "last_updated": "2026-03-27T16:47:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
       "id": "f91400c9cf53",
       "datetime": "2026-03-27T12:00:00Z",
       "type": "interception",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "country",
       "title": "UAE intercepts 6 ballistic missiles and 9 UAVs — Mar 27",
       "location": "UAE",
@@ -30,7 +30,7 @@
       "id": "98e6444f5b44",
       "datetime": "2026-03-26T15:21:47Z",
       "type": "impact_major",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "city",
       "title": "Iranian missile strikes kill 2, injure 3 in Abu Dhabi",
       "location": "Abu Dhabi",
