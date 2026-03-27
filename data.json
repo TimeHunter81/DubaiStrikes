@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-27T03:18:39Z",
+  "last_updated": "2026-03-27T03:30:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -33,7 +33,9 @@
           "domain": "bbc.com",
           "tier": "wire"
         }
-      ]
+      ],
+      "_via": "rss",
+      "confidence": "high"
     },
     {
       "id": "0dd6f1e0f295",
