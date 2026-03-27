@@ -28,29 +28,36 @@
       "id": "237540898da6",
       "datetime": "2026-03-27T14:27:44Z",
       "type": "security_alert",
-      "confirmed": false,
-      "precision": "country",
+      "confirmed": true,
+      "precision": "city",
       "title": "UAE concerts and events postponed amid conflict, from Christina Aguilera to Shakira",
-      "location": "Uae",
-      "lat": null,
-      "lon": null,
+      "location": "Abu Dhabi, UAE",
+      "lat": 24.4539,
+      "lon": 54.3773,
       "sources": [
         {
           "url": "https://www.thenationalnews.com/arts-culture/2026/03/27/uae-concerts-events-postponed-iran-war/",
           "domain": "thenationalnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://www.reuters.com/world/middle-east/shakira-concert-doha-abu-dhabi-festival-postponed-conflict-rages-2026-03-24/",
+          "domain": "reuters.com",
+          "tier": "wire"
         }
       ],
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/URF3UL7VD5CGTAAFQC46QMKGIA.JPG?smart=true&amp;auth=429d3c199ebf22821a7ff70dc95e30ac78b4d4f5fdb4bff225678b682070dd7c&amp;width=1200&amp;height=630",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774625264.0
     },
     {
       "id": "d501d154c3a4",
       "datetime": "2026-03-27T14:11:58Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "Mubadala CEO: UAE has been 'determined and agile' since Iran's attacks began",
       "location": "Uae",
@@ -66,7 +73,9 @@
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/XRQ6XK7KQ5GN7JVPKCE7CELCQI.jpg?smart=true&amp;auth=940505b31f859f2aee345d9bf87e490f38c7e3b73a077c8239937f3c74abbd1f&amp;width=1200&amp;height=630",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774624318.0
     },
     {
       "id": "1c1def90250f",
@@ -88,7 +97,9 @@
       "snippet": null,
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-27%2F5u2q8hif%2F1.jpg?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774623489.0
     },
     {
       "id": "9aae11046fae",
@@ -132,7 +143,9 @@
       "snippet": null,
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-27%2Fddox99bl%2FScreenshot-2026-03-27-at-5.23.31-PM.png?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774622226.0
     },
     {
       "id": "9a4b2fc67749",
