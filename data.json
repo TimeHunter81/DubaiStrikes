@@ -1,14 +1,14 @@
 {
-  "last_updated": "2026-03-27T09:01:56Z",
+  "last_updated": "2026-03-27T09:12:06Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
       "id": "a6f8ad9c7cb7",
       "datetime": "2026-03-26T13:22:00Z",
-      "type": "impact_minor",
+      "type": "interception",
       "confirmed": true,
       "precision": "country",
-      "title": "UAE intercepts 15 ballistic missiles and 11 drones",
+      "title": "UAE intercepts missiles and drones nationwide",
       "location": "UAE",
       "lat": null,
       "lon": null,
@@ -40,10 +40,10 @@
     {
       "id": "0dd6f1e0f295",
       "datetime": "2026-03-26T07:04:25Z",
-      "type": "impact_minor",
-      "confirmed": true,
+      "type": "impact_major",
+      "confirmed": false,
       "precision": "city",
-      "title": "Iranian missile debris kills 2, injures 3 in Abu Dhabi",
+      "title": "Missile debris kills 2 and injures 3 in Abu Dhabi",
       "location": "Abu Dhabi",
       "lat": 24.4539,
       "lon": 54.3773,
