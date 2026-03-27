@@ -28,7 +28,7 @@
       "id": "98e6444f5b44",
       "datetime": "2026-03-26T15:21:47Z",
       "type": "impact_major",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "Grandfather killed in Iranian strike on Abu Dhabi",
       "location": "Abu Dhabi",
@@ -42,7 +42,9 @@
         }
       ],
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774542107.0
     },
     {
       "id": "780a01bcf148",
