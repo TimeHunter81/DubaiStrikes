@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-27T10:50:00Z",
+  "last_updated": "2026-03-27T09:59:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -7,22 +7,18 @@
       "datetime": "2026-03-26T13:22:00Z",
       "type": "interception",
       "confirmed": false,
-      "precision": "country",
+      "precision": "city",
       "title": "UAE intercepts 15 ballistic missiles and 11 drones on Thursday",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
+      "location": "Abu Dhabi",
+      "lat": 24.4539,
+      "lon": 54.3773,
       "sources": [
         {
           "url": "https://www.thenationalnews.com/news/uae/2026/03/26/uae-intercepts-15-ballistic-missiles-and-11-drones-on-thursday/",
           "domain": "thenationalnews.com",
           "tier": "local"
         }
-      ],
-      "snippet": null,
-      "preview_image": "https://www.thenationalnews.com/resizer/v2/PA2XT3FDUJCYHA2ERNOL6VM6SQ.jpg?smart=true&auth=0289fd7a47be70c1b61c1a40be56c69909558fd69ddfc6c8f19db81e00e65624&width=1200&height=630",
-      "_via": "rss",
-      "confidence": "low"
+      ]
     },
     {
       "id": "780a01bcf148",
