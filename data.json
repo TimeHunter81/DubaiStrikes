@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-03-27T22:38:15Z",
+  "last_updated": "2026-03-27T22:45:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
       "id": "f91400c9cf53",
       "datetime": "2026-03-27T12:00:00Z",
       "type": "interception",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "country",
       "title": "UAE air defences intercept 6 ballistic missiles and 9 UAVs",
       "location": "UAE",
@@ -17,11 +17,6 @@
           "url": "https://gulfnews.com/uae/government/uae-air-defences-thwart-6-ballistic-missiles-and-9-uavs-on-march-27-1.500488291",
           "domain": "gulfnews.com",
           "tier": "local"
-        },
-        {
-          "url": "https://www.thenationalnews.com/news/uae/2026/03/26/grandfather-killed-in-iranian-strike-on-abu-dhabi-prayed-for-attacks-to-end/",
-          "domain": "thenationalnews.com",
-          "tier": "wire"
         }
       ],
       "snippet": null,
