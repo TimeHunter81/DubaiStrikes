@@ -6,9 +6,9 @@
       "id": "f91400c9cf53",
       "datetime": "2026-03-27T12:00:00Z",
       "type": "interception",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
-      "title": "UAE air defences intercept 6 ballistic missiles and 9 UAVs \u2014 Mar 27",
+      "title": "UAE air defences intercept 6 ballistic missiles and 9 UAVs — Mar 27",
       "location": "UAE",
       "lat": null,
       "lon": null,
@@ -20,14 +20,14 @@
         }
       ],
       "_via": "rss",
-      "_search_count": 1,
-      "_next_search_at": 1774616400.0
+      "_search_count": 2,
+      "_next_search_at": 1774634400.0
     },
     {
       "id": "98e6444f5b44",
       "datetime": "2026-03-26T15:21:47Z",
       "type": "impact_major",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "Grandfather killed in Iranian strike on Abu Dhabi",
       "location": "Abu Dhabi",
@@ -38,19 +38,24 @@
           "url": "https://www.thenationalnews.com/news/uae/2026/03/26/grandfather-killed-in-iranian-strike-on-abu-dhabi-prayed-for-attacks-to-end/",
           "domain": "thenationalnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://gulfnews.com/uae/abu-dhabi-2-dead-three-injured-after-iran-missile-interception-1.500486824",
+          "domain": "gulfnews.com",
+          "tier": "wire"
         }
       ],
       "_via": "rss",
-      "_search_count": 1,
-      "_next_search_at": 1774542107.0
+      "_search_count": 2,
+      "_next_search_at": 1774560107.0
     },
     {
       "id": "a6f8ad9c7cb7",
       "datetime": "2026-03-26T13:22:00Z",
       "type": "interception",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
-      "title": "UAE intercepts 15 ballistic missiles and 11 drones \u2014 Mar 26",
+      "title": "UAE intercepts 15 ballistic missiles and 11 drones — Mar 26",
       "location": "Uae",
       "lat": null,
       "lon": null,
@@ -59,9 +64,16 @@
           "url": "https://www.thenationalnews.com/news/uae/2026/03/26/uae-intercepts-15-ballistic-missiles-and-11-drones-on-thursday/",
           "domain": "thenationalnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://gulfnews.com/uae/government/iran-attacks-in-uae-leave-11-dead-and-169-wounded-so-far-1.500487256",
+          "domain": "gulfnews.com",
+          "tier": "wire"
         }
       ],
-      "_via": "rss"
+      "_via": "rss",
+      "_search_count": 1,
+      "_next_search_at": 1774534920.0
     },
     {
       "id": "780a01bcf148",
@@ -69,7 +81,7 @@
       "type": "impact_minor",
       "confirmed": true,
       "precision": "city",
-      "title": "Strike in Abu Dhabi \u2014 Abu Dhabi Media Office report",
+      "title": "Strike in Abu Dhabi — Abu Dhabi Media Office report",
       "location": "Abu Dhabi",
       "lat": 24.4539,
       "lon": 54.3773,
@@ -88,7 +100,7 @@
       "type": "interception",
       "confirmed": true,
       "precision": "exact",
-      "title": "UAE intercepts 15 of 16 ballistic missiles \u2014 1 falls into sea",
+      "title": "UAE intercepts 15 of 16 ballistic missiles — 1 falls into sea",
       "location": "UAE",
       "lat": 24.5,
       "lon": 54.5,
@@ -112,7 +124,7 @@
       "type": "impact_major",
       "confirmed": true,
       "precision": "exact",
-      "title": "IRGC drone attack on Al Dhafra Air Base \u2014 explosions reported",
+      "title": "IRGC drone attack on Al Dhafra Air Base — explosions reported",
       "location": "Al Dhafra Air Base",
       "lat": 24.2481,
       "lon": 54.5476,
@@ -173,7 +185,7 @@
       "type": "impact_minor",
       "confirmed": true,
       "precision": "exact",
-      "title": "Fire at Jebel Ali Port \u2014 attributed to aerial interception debris",
+      "title": "Fire at Jebel Ali Port — attributed to aerial interception debris",
       "location": "Jebel Ali Port",
       "lat": 25.0153,
       "lon": 55.0613,
@@ -192,7 +204,7 @@
       "type": "impact_minor",
       "confirmed": true,
       "precision": "exact",
-      "title": "Iranian missile fragments hit Burj Al Arab \u2014 structural damage",
+      "title": "Iranian missile fragments hit Burj Al Arab — structural damage",
       "location": "Burj Al Arab",
       "lat": 25.1412,
       "lon": 55.1853,
@@ -216,7 +228,7 @@
       "type": "impact_major",
       "confirmed": true,
       "precision": "exact",
-      "title": "Shahed drone strike near Fairmont The Palm Hotel, Palm Jumeirah \u2014 4 injured",
+      "title": "Shahed drone strike near Fairmont The Palm Hotel, Palm Jumeirah — 4 injured",
       "location": "Palm Jumeirah",
       "lat": 25.1124,
       "lon": 55.139,
@@ -240,7 +252,7 @@
       "type": "impact_major",
       "confirmed": true,
       "precision": "exact",
-      "title": "Dubai International Airport Terminal 3 struck \u2014 4 staff injured, evacuation",
+      "title": "Dubai International Airport Terminal 3 struck — 4 staff injured, evacuation",
       "location": "Dubai International Airport",
       "lat": 25.2532,
       "lon": 55.3657,
@@ -269,7 +281,7 @@
       "type": "impact_minor",
       "confirmed": true,
       "precision": "exact",
-      "title": "Interception debris falls near Zayed International Airport \u2014 1 killed, 7 injured",
+      "title": "Interception debris falls near Zayed International Airport — 1 killed, 7 injured",
       "location": "Zayed International Airport, Abu Dhabi",
       "lat": 24.433,
       "lon": 54.6511,
@@ -312,7 +324,7 @@
       "type": "impact_major",
       "confirmed": true,
       "precision": "exact",
-      "title": "Al Dhafra Air Base targeted \u2014 explosions in Corniche, Al Dhafra and Bateen districts",
+      "title": "Al Dhafra Air Base targeted — explosions in Corniche, Al Dhafra and Bateen districts",
       "location": "Al Dhafra Air Base",
       "lat": 24.2481,
       "lon": 54.5476,
