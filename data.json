@@ -22,7 +22,9 @@
       "snippet": "&lt;article data-history-node-id=\"436797\" about=\"https://www.middleeasteye.net/live-blog/live-blog-update/saudi-defense-ministry-says-it-intercepted-drones-over-its-eastern\" class=\"live-blog-update default clearfix\"&gt;\n\n  \n      &lt;h2&gt;\n      &lt",
       "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/A%20woman%20holds%20a%20child%20as%20she%20rides%20in%20a%20bus%20during%20rain%20in%20central%20Beirut%20on%20March%2026%2C%202026.%20afp.jpg",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774600796.0
     },
     {
       "id": "4eabc9d843ad",
@@ -44,7 +46,9 @@
       "snippet": "&lt;p&gt;This blog is closed. &lt;a href=\"https://www.theguardian.com/world/live/2026/mar/27/iran-war-live-updates-trump-negotiations-bombing-hormuz-energy-oil-prices-middle-east\"&gt;Follow our new liveblog here&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;strong",
       "preview_image": "https://i.guim.co.uk/img/media/3359771fdddd04bd9a197c9d4288e03ea4c9d0a0/541_0_4413_3531/master/4413.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctbGl2ZS5wbmc&enable=upscale&s=47f901de35ad772e5fe2af897fc4329e",
       "_via": "rss",
-      "confidence": "medium"
+      "confidence": "medium",
+      "_search_count": 1,
+      "_next_search_at": 1774580871.0
     },
     {
       "id": "54c923897a46",
@@ -66,13 +70,15 @@
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/WKMIYOB32VC5JMYPVUR7B4RS2A.webp?smart=true&amp;auth=5d0b4ba19afc4a32190e751a2316c8e0d7c18e3bf718080dfe8e82986e32d10b&amp;width=1200&amp;height=630",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774565636.0
     },
     {
       "id": "98e6444f5b44",
       "datetime": "2026-03-26T15:21:47Z",
       "type": "impact_major",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "Iranian strike kills grandfather in Abu Dhabi",
       "location": "Abu Dhabi",
@@ -88,7 +94,9 @@
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/PIDRQPSVJBG5NI23EBQHDPSXYU.jpg?smart=true&amp;auth=5953641e8df832d0cac4aa85dea1cb67e5adde380da7aa3ca51eb9631e3c7c1a&amp;width=1200&amp;height=630",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774542107.0
     },
     {
       "id": "a6f8ad9c7cb7",
