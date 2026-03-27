@@ -6,7 +6,7 @@
       "id": "943a63539bd5",
       "datetime": "2026-03-27T07:40:46Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "UAE records heavy rainfall, Shoukah in Ras Al Khaimah highest at 77.5 mm",
       "location": "Ras Al Khaimah",
@@ -22,13 +22,15 @@
       "snippet": null,
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-27%2Fnlhdtr6x%2F2yb02eiw1ka0vimpn.jpg?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774600846.0
     },
     {
       "id": "2447a0c59dd5",
       "datetime": "2026-03-27T07:39:55Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "Dubai World Cup set for global broadcast with record 40 networks",
       "location": "Dubai",
@@ -39,18 +41,25 @@
           "url": "https://gulfnews.com/sport/dubai-world-cup-set-for-global-broadcast-with-record-40-networks-1.500487993",
           "domain": "gulfnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://dubairacingclub.com/press-releases/the-world-is-watching-dubai-world-cup-to-be-televised-live-by-a-record-40-broadcasters/",
+          "domain": "dubairacingclub.com",
+          "tier": "wire"
         }
       ],
       "snippet": null,
       "preview_image": "https://media.assettype.com/gulfnews%2Fimport%2F2020%2F03%2F23%2FThe-Dubai-World-Cup-has-been-cancelled_17107843b57_large.jpg?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774600795.0
     },
     {
       "id": "63271e86583b",
       "datetime": "2026-03-27T07:39:47Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "Travelling from UAE today? Flight updates, advisories to keep in mind after heavy rains",
       "location": "Uae",
@@ -61,12 +70,19 @@
           "url": "https://gulfnews.com/business/aviation/travelling-from-uae-today-flight-updates-advisories-to-keep-after-heavy-rains-1.500487900",
           "domain": "gulfnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://whatson.ae/2026/03/uae-weather-traffic-in-dubai-disruptions/",
+          "domain": "whatson.ae",
+          "tier": "wire"
         }
       ],
       "snippet": null,
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-27%2Fehkcqz5l%2Fdxbairfield1.jpg?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774600787.0
     },
     {
       "id": "7ed396890daa",
@@ -88,7 +104,9 @@
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/FWQPIPZ2QJBXPDIZ6NME2NOKQY.jpg?smart=true&amp;auth=b093b6f1e892a861e81aea166f542a75aa65a11b57cf9871054d532d341af31a&amp;width=1200&amp;height=630",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774600489.0
     },
     {
       "id": "4e22d56eac80",
