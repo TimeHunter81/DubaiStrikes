@@ -1,7 +1,95 @@
 {
-  "last_updated": "2026-03-27T09:22:35Z",
+  "last_updated": "2026-03-27T09:42:28Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
+    {
+      "id": "1eaf188440c1",
+      "datetime": "2026-03-27T07:39:56Z",
+      "type": "interception",
+      "confirmed": false,
+      "precision": "country",
+      "title": "Saudi defence ministry says it intercepted drones over its eastern region",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/saudi-defense-ministry-says-it-intercepted-drones-over-its-eastern",
+          "domain": "middleeasteye.net",
+          "tier": "local"
+        }
+      ],
+      "snippet": "&lt;article data-history-node-id=\"436797\" about=\"https://www.middleeasteye.net/live-blog/live-blog-update/saudi-defense-ministry-says-it-intercepted-drones-over-its-eastern\" class=\"live-blog-update default clearfix\"&gt;\n\n  \n      &lt;h2&gt;\n      &lt",
+      "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/A%20woman%20holds%20a%20child%20as%20she%20rides%20in%20a%20bus%20during%20rain%20in%20central%20Beirut%20on%20March%2026%2C%202026.%20afp.jpg",
+      "_via": "rss",
+      "confidence": "low"
+    },
+    {
+      "id": "4eabc9d843ad",
+      "datetime": "2026-03-27T02:07:51Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "Blasts heard in southern Beirut – as it happened",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.theguardian.com/world/live/2026/mar/26/iran-war-live-updates-trump-deal-us-military-strikes-israel-lebanon-hezbollah",
+          "domain": "theguardian.com",
+          "tier": "wire"
+        }
+      ],
+      "snippet": "&lt;p&gt;This blog is closed. &lt;a href=\"https://www.theguardian.com/world/live/2026/mar/27/iran-war-live-updates-trump-negotiations-bombing-hormuz-energy-oil-prices-middle-east\"&gt;Follow our new liveblog here&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;strong",
+      "preview_image": "https://i.guim.co.uk/img/media/3359771fdddd04bd9a197c9d4288e03ea4c9d0a0/541_0_4413_3531/master/4413.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctbGl2ZS5wbmc&enable=upscale&s=47f901de35ad772e5fe2af897fc4329e",
+      "_via": "rss",
+      "confidence": "medium"
+    },
+    {
+      "id": "54c923897a46",
+      "datetime": "2026-03-26T21:53:56Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "Zelenskyy meets Saudi Crown Prince as he pitches anti-drone expertise and tec...",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.thenationalnews.com/news/us/2026/03/26/zelenskyy-visits-saudi-arabia-as-he-pitches-anti-drone-expertise-and-technology/",
+          "domain": "thenationalnews.com",
+          "tier": "local"
+        }
+      ],
+      "snippet": null,
+      "preview_image": "https://www.thenationalnews.com/resizer/v2/WKMIYOB32VC5JMYPVUR7B4RS2A.webp?smart=true&amp;auth=5d0b4ba19afc4a32190e751a2316c8e0d7c18e3bf718080dfe8e82986e32d10b&amp;width=1200&amp;height=630",
+      "_via": "rss",
+      "confidence": "low"
+    },
+    {
+      "id": "98e6444f5b44",
+      "datetime": "2026-03-26T15:21:47Z",
+      "type": "impact_major",
+      "confirmed": false,
+      "precision": "city",
+      "title": "Iranian strike kills grandfather in Abu Dhabi",
+      "location": "Abu Dhabi",
+      "lat": 24.4539,
+      "lon": 54.3773,
+      "sources": [
+        {
+          "url": "https://www.thenationalnews.com/news/uae/2026/03/26/grandfather-killed-in-iranian-strike-on-abu-dhabi-prayed-for-attacks-to-end/",
+          "domain": "thenationalnews.com",
+          "tier": "local"
+        }
+      ],
+      "snippet": null,
+      "preview_image": "https://www.thenationalnews.com/resizer/v2/PIDRQPSVJBG5NI23EBQHDPSXYU.jpg?smart=true&amp;auth=5953641e8df832d0cac4aa85dea1cb67e5adde380da7aa3ca51eb9631e3c7c1a&amp;width=1200&amp;height=630",
+      "_via": "rss",
+      "confidence": "low"
+    },
     {
       "id": "a6f8ad9c7cb7",
       "datetime": "2026-03-26T13:22:00Z",
@@ -36,46 +124,6 @@
       ],
       "confidence": "high",
       "_via": "rss"
-    },
-    {
-      "id": "0dd6f1e0f295",
-      "datetime": "2026-03-26T07:04:25Z",
-      "type": "impact_minor",
-      "confirmed": false,
-      "precision": "city",
-      "title": "Missile debris kills 2 and injures 3 in Abu Dhabi",
-      "location": "Abu Dhabi",
-      "lat": 24.4539,
-      "lon": 54.3773,
-      "sources": [
-        {
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/two-killed-abu-dhabi-uae-media-office-says",
-          "domain": "middleeasteye.net",
-          "tier": "local"
-        },
-        {
-          "url": "https://www.thenationalnews.com/news/uae/2026/03/26/two-people-killed-by-falling-debris-after-iranian-missile-intercepted-in-abu-dhabi/",
-          "domain": "thenationalnews.com",
-          "tier": "local"
-        },
-        {
-          "url": "https://gulfnews.com/uae/abu-dhabi-2-dead-three-injured-after-iran-missile-interception-1.500486824",
-          "domain": "gulfnews.com",
-          "tier": "local"
-        },
-        {
-          "url": "https://www.aljazeera.com/news/2026/3/26/us-israel-launch-extensive-strikes-on-central-iran-two-teenagers-killed?traffic_source=rss",
-          "domain": "aljazeera.com",
-          "tier": "wire"
-        },
-        {
-          "url": "https://en.wikipedia.org/wiki/2026_Iranian_strikes_on_the_United_Arab_Emirates",
-          "domain": "en.wikipedia.org",
-          "tier": "wire"
-        }
-      ],
-      "_search_count": 4,
-      "_next_search_at": 1774767865.0
     },
     {
       "id": "780a01bcf148",
