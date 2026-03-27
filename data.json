@@ -41,7 +41,7 @@
       "id": "0dd6f1e0f295",
       "datetime": "2026-03-26T07:04:25Z",
       "type": "interception",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "Iranian missile debris kills 2, injures 3 in Abu Dhabi",
       "location": "Abu Dhabi",
@@ -73,7 +73,9 @@
           "domain": "en.wikipedia.org",
           "tier": "wire"
         }
-      ]
+      ],
+      "_search_count": 1,
+      "_next_search_at": 1774512265.0
     },
     {
       "id": "780a01bcf148",
