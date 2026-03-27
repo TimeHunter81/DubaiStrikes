@@ -21,7 +21,9 @@
       ],
       "confidence": "low",
       "preview_image": "https://media.cnn.com/api/v1/images/stellar/prod/screenshot-2026-03-26-112003.png?c=16x9&q=w_800,c_fill",
-      "_via": "gdelt"
+      "_via": "gdelt",
+      "_search_count": 1,
+      "_next_search_at": 1774609271.0
     },
     {
       "id": "e761e65848c5",
@@ -43,7 +45,9 @@
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/VJKB2INLED4BKN6TUHKWM7UUMU.jpg?smart=true&amp;auth=f460762f937fc537b335657fe98318e8e177ab5218f56fc9bc37cefa8ed61301&amp;width=1200&amp;height=630",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774608848.0
     },
     {
       "id": "e01677953521",
@@ -131,7 +135,9 @@
       "snippet": null,
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-27%2Fx6a9ofao%2FMohamed-Sharaf-DUBAI.jpg?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774608049.0
     },
     {
       "id": "8ff64a50d9ad",
@@ -153,7 +159,9 @@
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/AOVAHGA6KJC6RAC3SFWE3SQFBI.jpg?smart=true&amp;auth=225adfc34e539ed51321f0cb0f574596e2777b6cbd25691c7d4aba5e9dd0f3d3&amp;width=1200&amp;height=630",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774607507.0
     },
     {
       "id": "ac5e2c71a5a8",
