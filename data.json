@@ -30,7 +30,7 @@
       "id": "98e6444f5b44",
       "datetime": "2026-03-26T15:21:47Z",
       "type": "impact_major",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "Iranian missile strikes kill 2, injure 3 in Abu Dhabi",
       "location": "Abu Dhabi",
@@ -46,12 +46,17 @@
           "url": "https://gulfnews.com/uae/abu-dhabi-2-dead-three-injured-after-iran-missile-interception-1.500486824",
           "domain": "gulfnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://www.nytimes.com/2026/03/26/world/middleeast/abu-dhabi-killed.html",
+          "domain": "nytimes.com",
+          "tier": "wire"
         }
       ],
       "_via": "rss",
       "confidence": "medium",
-      "_search_count": 1,
-      "_next_search_at": 1774542107.0
+      "_search_count": 2,
+      "_next_search_at": 1774560107.0
     },
     {
       "id": "780a01bcf148",
