@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-03-27T15:06:23Z",
+  "last_updated": "2026-03-27T15:20:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
       "id": "f91400c9cf53",
       "datetime": "2026-03-27T12:00:00Z",
       "type": "interception",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "country",
       "title": "UAE air defences intercept 6 ballistic missiles and 9 UAVs — Mar 27",
       "location": "UAE",
@@ -19,15 +19,13 @@
           "tier": "local"
         }
       ],
-      "_via": "rss",
-      "_search_count": 1,
-      "_next_search_at": 1774616400.0
+      "_via": "rss"
     },
     {
       "id": "98e6444f5b44",
       "datetime": "2026-03-26T15:21:47Z",
       "type": "impact_major",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "city",
       "title": "Grandfather killed in Iranian strike on Abu Dhabi",
       "location": "Abu Dhabi",
@@ -40,30 +38,7 @@
           "tier": "local"
         }
       ],
-      "_via": "rss",
-      "_search_count": 1,
-      "_next_search_at": 1774542107.0
-    },
-    {
-      "id": "a6f8ad9c7cb7",
-      "datetime": "2026-03-26T13:22:00Z",
-      "type": "interception",
-      "confirmed": true,
-      "precision": "country",
-      "title": "UAE intercepts 15 ballistic missiles and 11 drones on Thursday",
-      "location": "Uae",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.thenationalnews.com/news/uae/2026/03/26/uae-intercepts-15-ballistic-missiles-and-11-drones-on-thursday/",
-          "domain": "thenationalnews.com",
-          "tier": "local"
-        }
-      ],
-      "_via": "rss",
-      "_search_count": 1,
-      "_next_search_at": 1774534920.0
+      "_via": "rss"
     },
     {
       "id": "780a01bcf148",
