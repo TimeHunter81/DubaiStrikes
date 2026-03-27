@@ -6,7 +6,7 @@
       "id": "f91400c9cf53",
       "datetime": "2026-03-27T12:00:00Z",
       "type": "interception",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "UAE intercepts 6 ballistic missiles and 9 UAVs — Mar 27",
       "location": "UAE",
@@ -22,7 +22,9 @@
       "snippet": null,
       "preview_image": null,
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774616400.0
     },
     {
       "id": "98e6444f5b44",
@@ -53,21 +55,28 @@
       "id": "a6f8ad9c7cb7",
       "datetime": "2026-03-26T13:22:00Z",
       "type": "interception",
-      "confirmed": false,
-      "precision": "country",
+      "confirmed": true,
+      "precision": "city",
       "title": "UAE intercepts 15 ballistic missiles and 11 UAVs — Mar 26",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
+      "location": "Abu Dhabi",
+      "lat": 24.4539,
+      "lon": 54.3773,
       "sources": [
         {
           "url": "https://www.thenationalnews.com/news/uae/2026/03/26/uae-intercepts-15-ballistic-missiles-and-11-drones-on-thursday/",
           "domain": "thenationalnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://gulfnews.com/uae/government/iran-attacks-in-uae-leave-11-dead-and-169-wounded-so-far-1.500487256",
+          "domain": "gulfnews.com",
+          "tier": "wire"
         }
       ],
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774534920.0
     },
     {
       "id": "780a01bcf148",
