@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-27T16:07:45Z",
+  "last_updated": "2026-03-27T16:16:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -19,9 +19,9 @@
           "tier": "local"
         }
       ],
+      "snippet": null,
+      "preview_image": null,
       "_via": "rss",
-      "_search_count": 2,
-      "_next_search_at": 1774634400.0,
       "confidence": "low"
     },
     {
@@ -43,13 +43,31 @@
         {
           "url": "https://gulfnews.com/uae/abu-dhabi-2-dead-three-injured-after-iran-missile-interception-1.500486824",
           "domain": "gulfnews.com",
-          "tier": "wire"
+          "tier": "local"
         }
       ],
       "_via": "rss",
-      "_search_count": 2,
-      "_next_search_at": 1774560107.0,
       "confidence": "high"
+    },
+    {
+      "id": "a6f8ad9c7cb7",
+      "datetime": "2026-03-26T13:22:00Z",
+      "type": "interception",
+      "confirmed": false,
+      "precision": "country",
+      "title": "UAE intercepts 15 ballistic missiles and 11 UAVs — Mar 26",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.thenationalnews.com/news/uae/2026/03/26/uae-intercepts-15-ballistic-missiles-and-11-drones-on-thursday/",
+          "domain": "thenationalnews.com",
+          "tier": "local"
+        }
+      ],
+      "_via": "rss",
+      "confidence": "low"
     },
     {
       "id": "780a01bcf148",
