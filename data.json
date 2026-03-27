@@ -30,7 +30,7 @@
       "id": "98e6444f5b44",
       "datetime": "2026-03-26T15:21:47Z",
       "type": "impact_major",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "Iranian missile strikes kill 2, injure 3 in Abu Dhabi",
       "location": "Abu Dhabi",
@@ -51,18 +51,23 @@
           "url": "https://www.nytimes.com/2026/03/26/world/middleeast/abu-dhabi-killed.html",
           "domain": "nytimes.com",
           "tier": "wire"
+        },
+        {
+          "url": "https://apnews.com/live/iran-war-israel-trump-03-26-2026",
+          "domain": "apnews.com",
+          "tier": "wire"
         }
       ],
       "_via": "rss",
       "confidence": "high",
-      "_search_count": 3,
-      "_next_search_at": 1774624907.0
+      "_search_count": 4,
+      "_next_search_at": 1774797707.0
     },
     {
       "id": "a6f8ad9c7cb7",
       "datetime": "2026-03-26T13:22:00Z",
       "type": "interception",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "UAE intercepts 15 ballistic missiles and 11 drones — Mar 26",
       "location": "UAE",
@@ -73,12 +78,19 @@
           "url": "https://www.thenationalnews.com/news/uae/2026/03/26/uae-intercepts-15-ballistic-missiles-and-11-drones-on-thursday/",
           "domain": "thenationalnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://www.aljazeera.com/where/united-arab-emirates/",
+          "domain": "aljazeera.com",
+          "tier": "wire"
         }
       ],
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/PA2XT3FDUJCYHA2ERNOL6VM6SQ.jpg?smart=true&auth=0289fd7a47be70c1b61c1a40be56c69909558fd69ddfc6c8f19db81e00e65624&width=1200&height=630",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774534920.0
     },
     {
       "id": "780a01bcf148",
