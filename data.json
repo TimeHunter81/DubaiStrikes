@@ -1,7 +1,29 @@
 {
-  "last_updated": "2026-03-27T10:01:26Z",
+  "last_updated": "2026-03-27T10:10:06Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
+    {
+      "id": "84123c213605",
+      "datetime": "2026-03-27T10:04:15Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "UAE fuel prices set to rise in April as Iran war sends oil prices surging",
+      "location": "Uae",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.thenationalnews.com/business/energy/2026/03/27/fuel-prices/",
+          "domain": "thenationalnews.com",
+          "tier": "local"
+        }
+      ],
+      "snippet": null,
+      "preview_image": "https://www.thenationalnews.com/resizer/v2/3SXO5VBXG5AB3FVW3CPM2TPAGU.jpg?smart=true&amp;auth=6c6fa0a6de8a60672022dc474add6b68054f5217a9bb448095fd3144c26a0c92&amp;width=1200&amp;height=630",
+      "_via": "rss",
+      "confidence": "low"
+    },
     {
       "id": "d0a10d2a3726",
       "datetime": "2026-03-27T10:01:11Z",
@@ -26,6 +48,28 @@
       "_next_search_at": 1774609271.0
     },
     {
+      "id": "92282895435e",
+      "datetime": "2026-03-27T09:54:43Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "Rupee hits record low for 6th time this month, UAE expats gain",
+      "location": "Uae",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://gulfnews.com/business/markets/rupee-hits-record-low-for-6th-time-this-month-uae-expats-gain-1.500488136",
+          "domain": "gulfnews.com",
+          "tier": "local"
+        }
+      ],
+      "snippet": null,
+      "preview_image": "https://media.assettype.com/gulfnews%2F2024-11-18%2Ftk6g5aq3%2FIndian_rupee_17f585eb4d4_original_ratio.jpg?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
+      "_via": "rss",
+      "confidence": "low"
+    },
+    {
       "id": "e761e65848c5",
       "datetime": "2026-03-27T09:54:08Z",
       "type": "security_alert",
@@ -48,6 +92,28 @@
       "confidence": "low",
       "_search_count": 1,
       "_next_search_at": 1774608848.0
+    },
+    {
+      "id": "2c51bc8cd184",
+      "datetime": "2026-03-27T09:54:08Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "Iraq must rein in Iran-backed militias or risk regional isolation, say officials",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.thenationalnews.com/news/mena/2026/03/27/iraq-must-reign-in-iran-backed-militias-or-risk-regional-isolation-say-officials/",
+          "domain": "thenationalnews.com",
+          "tier": "local"
+        }
+      ],
+      "snippet": null,
+      "preview_image": "https://www.thenationalnews.com/resizer/v2/VJKB2INLED4BKN6TUHKWM7UUMU.jpg?smart=true&amp;auth=f460762f937fc537b335657fe98318e8e177ab5218f56fc9bc37cefa8ed61301&amp;width=1200&amp;height=630",
+      "_via": "rss",
+      "confidence": "low"
     },
     {
       "id": "e01677953521",
@@ -94,6 +160,28 @@
       "confidence": "medium"
     },
     {
+      "id": "ad65a0f400ba",
+      "datetime": "2026-03-27T09:46:31Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "city",
+      "title": "How Dubai is turning uncertainty into opportunity for international students",
+      "location": "Dubai",
+      "lat": 25.2048,
+      "lon": 55.2708,
+      "sources": [
+        {
+          "url": "https://gulfnews.com/uae/people/how-dubai-is-turning-uncertainty-into-opportunity-for-international-students-1.500488114",
+          "domain": "gulfnews.com",
+          "tier": "local"
+        }
+      ],
+      "snippet": null,
+      "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-27%2Foy7wh4d8%2Fpic.jpg?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
+      "_via": "rss",
+      "confidence": "low"
+    },
+    {
       "id": "10b589aee05e",
       "datetime": "2026-03-27T09:45:09Z",
       "type": "security_alert",
@@ -138,6 +226,28 @@
       "confidence": "low",
       "_search_count": 1,
       "_next_search_at": 1774608049.0
+    },
+    {
+      "id": "01faf3c9e3b2",
+      "datetime": "2026-03-27T09:40:49Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "Brighter days ahead: The UAE shows collective strength in week of challenges",
+      "location": "Uae",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://gulfnews.com/opinion/grief-and-grit-uae-holds-steady-amid-uncertainty-1.500488046",
+          "domain": "gulfnews.com",
+          "tier": "local"
+        }
+      ],
+      "snippet": null,
+      "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-27%2Fzqrvzhb7%2FWhatsApp-Image-2026-03-27-at-7.17.28-AM-1.jpeg?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
+      "_via": "rss",
+      "confidence": "low"
     },
     {
       "id": "8ff64a50d9ad",
@@ -228,6 +338,28 @@
       "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/A%20woman%20holds%20a%20child%20as%20she%20rides%20in%20a%20bus%20during%20rain%20in%20central%20Beirut%20on%20March%2026%2C%202026.%20afp.jpg",
       "_via": "rss",
       "confidence": "low"
+    },
+    {
+      "id": "0a464fa647b1",
+      "datetime": "2026-03-27T09:00:03Z",
+      "type": "security_alert",
+      "confirmed": true,
+      "precision": "country",
+      "title": "‘Nothing is normal’: diary of Iranian president’s son reflects hopes and fears of ordinary citizens",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.theguardian.com/world/2026/mar/27/nothing-is-normal-diary-of-iranian-presidents-son-reflects-hopes-and-fears-of-ordinary-citizens",
+          "domain": "theguardian.com",
+          "tier": "wire"
+        }
+      ],
+      "snippet": "&lt;p&gt;Yousef Pezeshkian’s daily social media posts reveal no state secrets, but expose questions dominating Iranian society&lt;/p&gt;&lt;p&gt;An Iranian keeping a diary expressing his doubts about the war’s outcome, even shedding a tear over its i",
+      "preview_image": "https://i.guim.co.uk/img/media/52264fd2e1ba29a5906ea9e9c76cf9600ab36fdb/98_0_2125_1700/master/2125.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=4294f07525dd9150ad127dd619cbb612",
+      "_via": "rss",
+      "confidence": "medium"
     },
     {
       "id": "6f77268a3bf9",
@@ -1572,6 +1704,28 @@
       "confidence": "low"
     },
     {
+      "id": "21d2e7e0f07f",
+      "datetime": "2026-03-27T02:24:55Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "US-Israel War on Iran Day 28: Trump halts targeting Iran energy facilities; Iran attacks 2 Kuwait ports",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://gulfnews.com/world/mena/us-israel-war-on-iran-day-28-trump-halts-targeting-iran-energy-facilities-iran-attacks-2-kuwait-ports-1.500487753",
+          "domain": "gulfnews.com",
+          "tier": "local"
+        }
+      ],
+      "snippet": null,
+      "preview_image": "https://media.assettype.com/gulfnews%2Fimport%2F2015%2F3%2F21%2F1_16a08316db8.1475929_1638597887_16a08316db8_large.jpg?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
+      "_via": "rss",
+      "confidence": "low"
+    },
+    {
       "id": "e4c7759ffdbf",
       "datetime": "2026-03-27T02:17:35Z",
       "type": "security_alert",
@@ -1766,6 +1920,28 @@
       ],
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/NLHDHUTVWRGUBCQ5ZH444W722M.jpg?smart=true&amp;auth=f9291d22aa9dae1f92a5b1fff522ae5fd49a8b58e11dbd88b9a287b8fbc1308c&amp;width=1200&amp;height=630",
+      "_via": "rss",
+      "confidence": "low"
+    },
+    {
+      "id": "c3c3be8c79b0",
+      "datetime": "2026-03-26T20:01:00Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "NRIs in UAE: Soon, your Aadhaar won&apos;t be enough to get a PAN card in India",
+      "location": "Uae",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://gulfnews.com/business/tax-news/nris-in-uae-soon-your-aadhaar-wont-enough-to-get-a-pan-card-in-india-1.500487456",
+          "domain": "gulfnews.com",
+          "tier": "local"
+        }
+      ],
+      "snippet": null,
+      "preview_image": "https://media.assettype.com/gulfnews%2F2024-11-18%2Frishgsoo%2FAadhaar_and_pan_card_16f5756b592_original_ratio.jpg?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
       "confidence": "low"
     },
@@ -2032,197 +2208,6 @@
       "preview_image": "https://www.thenationalnews.com/resizer/v2/KYJSBL3XTH6PVF2ZQ7TMCIIHFE.jpg?smart=true&amp;auth=96a3c66103eb9cba844e98135af2b5933d9f4938938099b456a41a9742ac4db3&amp;width=1200&amp;height=630",
       "_via": "rss",
       "confidence": "low"
-    },
-    {
-      "id": "98e6444f5b44",
-      "datetime": "2026-03-26T15:21:47Z",
-      "type": "impact_major",
-      "confirmed": false,
-      "precision": "city",
-      "title": "Iranian strike kills grandfather in Abu Dhabi",
-      "location": "Abu Dhabi",
-      "lat": 24.4539,
-      "lon": 54.3773,
-      "sources": [
-        {
-          "url": "https://www.thenationalnews.com/news/uae/2026/03/26/grandfather-killed-in-iranian-strike-on-abu-dhabi-prayed-for-attacks-to-end/",
-          "domain": "thenationalnews.com",
-          "tier": "local"
-        }
-      ],
-      "snippet": null,
-      "preview_image": "https://www.thenationalnews.com/resizer/v2/PIDRQPSVJBG5NI23EBQHDPSXYU.jpg?smart=true&auth=5953641e8df832d0cac4aa85dea1cb67e5adde380da7aa3ca51eb9631e3c7c1a&width=1200&height=630",
-      "_via": "rss",
-      "confidence": "low",
-      "_search_count": 2,
-      "_next_search_at": 1774560107.0
-    },
-    {
-      "id": "ed98b460d762",
-      "datetime": "2026-03-26T15:10:20Z",
-      "type": "security_alert",
-      "confirmed": true,
-      "precision": "country",
-      "title": "Israeli strike hits Deir al-Balah camp in Gaza, killing at least one person – video",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.theguardian.com/world/video/2026/mar/26/israeli-strike-hits-deir-al-balaha-camp-in-gaza-video",
-          "domain": "theguardian.com",
-          "tier": "wire"
-        }
-      ],
-      "snippet": "&lt;p&gt;At least one person was killed and several others were injured after an Israeli strike hit the Deir al-Balah camp. Witnesses told the Associated Press that they had received warning calls from apparent Israeli military personnel before the s",
-      "preview_image": "https://i.guim.co.uk/img/media/f09eacb4303d1441b113d17ee1f99d6247c4cb15/285_0_1350_1080/master/1350.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=24d5556a86243a10750ffbb1a91597cb",
-      "_via": "rss",
-      "confidence": "medium"
-    },
-    {
-      "id": "0a15f20f1b4e",
-      "datetime": "2026-03-26T14:46:14Z",
-      "type": "security_alert",
-      "confirmed": true,
-      "precision": "country",
-      "title": "Rebecca Hendin on Donald Trump’s 15-point peace plan – cartoon",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.theguardian.com/commentisfree/picture/2026/mar/26/rebecca-hendin-donald-trumps-claim-to-be-pursuing-peace-with-iran",
-          "domain": "theguardian.com",
-          "tier": "wire"
-        }
-      ],
-      "snippet": "&lt;a href=\"https://www.theguardian.com/commentisfree/picture/2026/mar/26/rebecca-hendin-donald-trumps-claim-to-be-pursuing-peace-with-iran\"&gt;Continue reading...&lt;/a&gt;",
-      "preview_image": "https://i.guim.co.uk/img/media/5e2eb169d683ff5afca0ba9b5ea6bead5cb9e5a3/0_0_3543_2834/master/3543.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctb3BpbmlvbnMucG5n&enable=upscale&s=e3eab8aff40d0c54d70290052004d722",
-      "_via": "rss",
-      "confidence": "medium"
-    },
-    {
-      "id": "377cd5fc43b5",
-      "datetime": "2026-03-26T14:26:36Z",
-      "type": "security_alert",
-      "confirmed": true,
-      "precision": "country",
-      "title": "Israel says it has killed Iran's navy chief overseeing Strait of Hormuz blockade",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.bbc.com/news/articles/cy81p99x07no?at_medium=RSS&amp;at_campaign=rss",
-          "domain": "bbc.com",
-          "tier": "wire"
-        }
-      ],
-      "snippet": "Israel's defence minister said a number of other \"senior Navy command officials\" have also been killed. Iran has not yet commented.",
-      "preview_image": "https://ichef.bbci.co.uk/news/1024/branded_news/8025/live/a1e61480-290d-11f1-8742-11d9a3760e0c.jpg",
-      "_via": "rss",
-      "confidence": "medium"
-    },
-    {
-      "id": "1b3bf0ab5123",
-      "datetime": "2026-03-26T14:08:57Z",
-      "type": "security_alert",
-      "confirmed": false,
-      "precision": "city",
-      "title": "Blackstone commits $250 million in Abu Dhabi payments platform in first UAE investment since Iran war",
-      "location": "Abu Dhabi",
-      "lat": 24.4539,
-      "lon": 54.3773,
-      "sources": [
-        {
-          "url": "https://www.thenationalnews.com/business/economy/2026/03/26/blackstone-commits-250-million-in-abu-dhabi-payments-platform-in-first-uae-investment-since-iran-war/",
-          "domain": "thenationalnews.com",
-          "tier": "local"
-        }
-      ],
-      "snippet": null,
-      "preview_image": "https://www.thenationalnews.com/resizer/v2/TIQUMYDUGXULI3HOII54QGYNLU.jpg?smart=true&amp;auth=eaa920ff4cd7b8e9cd845bdbcf91f59db57b8c50f923d2d539e0789f2b34fcce&amp;width=1200&amp;height=630",
-      "_via": "rss",
-      "confidence": "low"
-    },
-    {
-      "id": "1bdce3a64421",
-      "datetime": "2026-03-26T13:52:19Z",
-      "type": "security_alert",
-      "confirmed": false,
-      "precision": "city",
-      "title": "Primark opens in Dubai: What is on offer and how much does it cost?",
-      "location": "Dubai",
-      "lat": 25.2048,
-      "lon": 55.2708,
-      "sources": [
-        {
-          "url": "https://www.thenationalnews.com/lifestyle/fashion-beauty/2026/03/26/primark-opens-in-dubai-what-is-on-offer-and-how-much-does-it-cost/",
-          "domain": "thenationalnews.com",
-          "tier": "local"
-        }
-      ],
-      "snippet": null,
-      "preview_image": "https://www.thenationalnews.com/resizer/v2/4X2WHZN3XNAZ7AE5O7OJU2CRJA.jpg?smart=true&amp;auth=339fdce70f4d5209c35e71e84f7a12fac1d332f9368b9fe4e3e60f3d307cd3ed&amp;width=1200&amp;height=630",
-      "_via": "rss",
-      "confidence": "low"
-    },
-    {
-      "id": "666d0b75e156",
-      "datetime": "2026-03-26T13:36:45Z",
-      "type": "security_alert",
-      "confirmed": false,
-      "precision": "country",
-      "title": "Gulf states eye settlement that curbs Iran’s threats beyond a ceasefire",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.thenationalnews.com/news/gulf/2026/03/26/gulf-states-eye-settlement-that-curbs-irans-threats-beyond-a-ceasefire/",
-          "domain": "thenationalnews.com",
-          "tier": "local"
-        }
-      ],
-      "snippet": null,
-      "preview_image": "https://www.thenationalnews.com/resizer/v2/LUAZOLFP3FBYJKGBRGM6VWQMVE.jpg?smart=true&amp;auth=050d74748a5330c1ed9314d433791665e025d759f9b47a3e541892abda4d0d2a&amp;width=1200&amp;height=630",
-      "_via": "rss",
-      "confidence": "low"
-    },
-    {
-      "id": "a6f8ad9c7cb7",
-      "datetime": "2026-03-26T13:22:00Z",
-      "type": "interception",
-      "confirmed": true,
-      "precision": "country",
-      "title": "UAE intercepts missiles and drones nationwide",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.thenationalnews.com/news/uae/2026/03/26/uae-intercepts-15-ballistic-missiles-and-11-drones-on-thursday/",
-          "domain": "thenationalnews.com",
-          "tier": "local"
-        },
-        {
-          "url": "https://gulfnews.com/uae/us-israel-war-on-iran-day-27-iran-rejects-negotiations-while-us-signals-progress-in-talks-1.500486602",
-          "domain": "gulfnews.com",
-          "tier": "local"
-        },
-        {
-          "url": "https://www.reuters.com/world/middle-east/iranian-missiles-drones-fired-gulf-countries-2026-03-10/",
-          "domain": "reuters.com",
-          "tier": "wire"
-        },
-        {
-          "url": "https://www.bbc.com/news/live/ce84073mr06t",
-          "domain": "bbc.com",
-          "tier": "wire"
-        }
-      ],
-      "confidence": "high",
-      "_via": "rss"
     },
     {
       "id": "780a01bcf148",
