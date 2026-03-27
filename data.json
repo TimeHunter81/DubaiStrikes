@@ -6,7 +6,7 @@
       "id": "643e8f4795bb",
       "datetime": "2026-03-27T07:10:49Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "Rains in the UAE? 5 indoor workouts to stay fit and focused while working from home",
       "location": "Uae",
@@ -22,13 +22,15 @@
       "snippet": null,
       "preview_image": "https://media.assettype.com/gulfnews%2F2024-12-20%2Fi60dx2jg%2Fworkout_19353c955b6_original_ratio.jpg?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774599049.0
     },
     {
       "id": "7697e7d33017",
       "datetime": "2026-03-27T07:00:55Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "Dubai World Cup to go ahead despite heavy rainfall",
       "location": "Dubai",
@@ -39,18 +41,25 @@
           "url": "https://gulfnews.com/sport/dubai-world-cup-to-go-ahead-despite-heavy-rainfall-1.500487954",
           "domain": "gulfnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://www.thenationalnews.com/sport/2026/03/27/organisers-confident-dubai-world-cup-will-go-ahead-despite-severe-weather-affecting-uae/",
+          "domain": "thenationalnews.com",
+          "tier": "wire"
         }
       ],
       "snippet": null,
       "preview_image": "https://media.assettype.com/gulfnews%2Fimport%2F2023%2F03%2F25%2FJapan-s-Ushba-Tesoro-wins-Dubai-World-Cup-race-at-Meydan-_18719f84b10_large.jpg?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774598455.0
     },
     {
       "id": "e187ced51d6d",
       "datetime": "2026-03-27T06:57:28Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "exact",
       "title": "Lightning strikes Burj Khalifa: Here’s how it stays safe",
       "location": "Burj Khalifa",
@@ -61,12 +70,19 @@
           "url": "https://gulfnews.com/uae/lightning-strikes-burj-khalifa-heres-how-it-stays-safe-1.500487937",
           "domain": "gulfnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://www.timesnownews.com/world/middle-east/dubai-weather-lightning-strikes-burj-khalifa-amid-worsening-storm-conditions-across-uae-article-153930729",
+          "domain": "timesnownews.com",
+          "tier": "wire"
         }
       ],
       "snippet": null,
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-27%2Fjoe9el63%2FHEXmhgGbsAEVqrs.jpg?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774598248.0
     },
     {
       "id": "59ed38ad2b5b",
@@ -88,7 +104,9 @@
       "snippet": null,
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-25%2Fdhv0jfhr%2FLow-res-Uptown-Dubai-Skyline-Twighlight-Fine-Art-By-SARAB-Ahmad-Alnaji.jpg?rect=0%2C905%2C8056%2C4229&amp;w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774597419.0
     },
     {
       "id": "1a269118def0",
