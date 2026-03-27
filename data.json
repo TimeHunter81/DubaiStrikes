@@ -28,12 +28,12 @@
       "id": "700babc88e1a",
       "datetime": "2026-03-27T22:39:01Z",
       "type": "security_alert",
-      "confirmed": false,
-      "precision": "country",
+      "confirmed": true,
+      "precision": "city",
       "title": "Missile targeting Riyadh region intercepted, Saudi Arabia says",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
+      "location": "Riyadh, Saudi Arabia",
+      "lat": 24.6877,
+      "lon": 46.7219,
       "sources": [
         {
           "url": "https://www.middleeasteye.net/live-blog/live-blog-update/saudi-arabia-says-intercepts-missile-targeting-riyadh-region",
@@ -44,7 +44,9 @@
       "snippet": "&lt;article data-history-node-id=\"436846\" about=\"https://www.middleeasteye.net/live-blog/live-blog-update/saudi-arabia-says-intercepts-missile-targeting-riyadh-region\" class=\"live-blog-update default clearfix\"&gt;\n\n  \n      &lt;h2&gt;\n      &lt;a hre",
       "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/People%20react%20at%20the%20site%20of%20a%20residential%20building%20damaged%20by%20a%20strike%2C%20amid%20the%20U.S.-Israeli%20conflict%20with%20Iran%2C%20in%20Tehran%2C%20Iran%2C%20March%2027%2C%202026.%20Majid%20Asgaripour%3AWANA%20%28West%20Asia%20News%20Agency%29%20via%20REUTERS.jpg",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774654741.0
     },
     {
       "id": "9cf63aee0fa5",
@@ -116,29 +118,36 @@
       "id": "ded60b51e395",
       "datetime": "2026-03-27T22:00:31Z",
       "type": "security_alert",
-      "confirmed": false,
-      "precision": "country",
+      "confirmed": true,
+      "precision": "city",
       "title": "Iran says projectile hit near Bushehr nuclear power plant",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
+      "location": "Bushehr, Iran",
+      "lat": 28.9215,
+      "lon": 50.8232,
       "sources": [
         {
           "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-says-projectile-hit-near-bushehr-nuclear-power-plant",
           "domain": "middleeasteye.net",
           "tier": "local"
+        },
+        {
+          "url": "https://www.bbc.com/news/live/cre0vl84qy9t",
+          "domain": "bbc.com",
+          "tier": "wire"
         }
       ],
       "snippet": "&lt;article data-history-node-id=\"436845\" about=\"https://www.middleeasteye.net/live-blog/live-blog-update/iran-says-projectile-hit-near-bushehr-nuclear-power-plant\" class=\"live-blog-update default clearfix\"&gt;\n\n  \n      &lt;h2&gt;\n      &lt;a href=\"",
       "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/People%20react%20at%20the%20site%20of%20a%20residential%20building%20damaged%20by%20a%20strike%2C%20amid%20the%20U.S.-Israeli%20conflict%20with%20Iran%2C%20in%20Tehran%2C%20Iran%2C%20March%2027%2C%202026.%20Majid%20Asgaripour%3AWANA%20%28West%20Asia%20News%20Agency%29%20via%20REUTERS.jpg",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774652431.0
     },
     {
       "id": "4b439ca2c740",
       "datetime": "2026-03-27T21:44:55Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "Water production plant, industrial facility hit in Iran, IAEA says",
       "location": "UAE",
@@ -154,7 +163,9 @@
       "snippet": "&lt;article data-history-node-id=\"436844\" about=\"https://www.middleeasteye.net/live-blog/live-blog-update/water-production-plant-industrial-facility-hit-iran-international-atomic\" class=\"live-blog-update default clearfix\"&gt;\n\n  \n      &lt;h2&gt;\n   ",
       "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/People%20react%20at%20the%20site%20of%20a%20residential%20building%20damaged%20by%20a%20strike%2C%20amid%20the%20U.S.-Israeli%20conflict%20with%20Iran%2C%20in%20Tehran%2C%20Iran%2C%20March%2027%2C%202026.%20Majid%20Asgaripour%3AWANA%20%28West%20Asia%20News%20Agency%29%20via%20REUTERS.jpg",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774651495.0
     },
     {
       "id": "5ed6189f6c9b",
@@ -176,7 +187,9 @@
       "snippet": "&lt;article data-history-node-id=\"436843\" about=\"https://www.middleeasteye.net/news/shooting-gallery-how-us-invasion-iranian-islands-would-unfold\" class=\"story default clearfix\"&gt;\n\n  \n      &lt;h2&gt;\n      &lt;a href=\"https://www.middleeasteye.net",
       "preview_image": "https://www.middleeasteye.net/sites/default/files/images-story/US-troops-airborne-AFP.jpg",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774650497.0
     },
     {
       "id": "d159ca4b1087",
