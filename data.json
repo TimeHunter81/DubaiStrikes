@@ -6,7 +6,7 @@
       "id": "5858aaae9fca",
       "datetime": "2026-03-27T03:55:19Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "When will the storms end? Full week ahead forecast after rains hit UAE",
       "location": "Uae",
@@ -22,13 +22,15 @@
       "snippet": null,
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-27%2Fdx4vuh5e%2Frainforecast.png?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774587319.0
     },
     {
       "id": "3ffb349d5cdd",
       "datetime": "2026-03-27T03:53:26Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "Final wave of heavy rain sweeps UAE; weather set to ease from Saturday",
       "location": "Uae",
@@ -44,7 +46,9 @@
       "snippet": null,
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-27%2Fvnubfnef%2FHEXrobza0AAsxwa.jpg?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774587206.0
     },
     {
       "id": "8a911785fe33",
@@ -72,7 +76,7 @@
       "id": "5835be781cd6",
       "datetime": "2026-03-27T03:42:47Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "Organisers 'confident' Dubai World Cup will go ahead despite severe weather affecting UAE",
       "location": "Dubai",
@@ -88,13 +92,15 @@
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/UZK4PC4XN5DFZCEXB3ZO5ZR5NQ?smart=true&amp;auth=6932b424e6e0cfc6830f4f067bb0ae2cc1709b9ad3cdb72116db49be45a8f0d1&amp;width=1200&amp;height=630",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774586567.0
     },
     {
       "id": "47feeeab00b5",
       "datetime": "2026-03-27T03:36:10Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "Heavy rain hits UAE: Watch overflowing wadis as water levels rise",
       "location": "Uae",
@@ -110,7 +116,9 @@
       "snippet": null,
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-27%2Fn9phpoad%2FFotoJet-2.jpg?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774586170.0
     },
     {
       "id": "babdf76fcee0",
