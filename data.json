@@ -41,7 +41,7 @@
       "id": "0dd6f1e0f295",
       "datetime": "2026-03-26T07:04:25Z",
       "type": "impact_major",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "Missile debris kills 2 and injures 3 in Abu Dhabi",
       "location": "Abu Dhabi",
@@ -74,8 +74,8 @@
           "tier": "wire"
         }
       ],
-      "_search_count": 3,
-      "_next_search_at": 1774595065.0
+      "_search_count": 4,
+      "_next_search_at": 1774767865.0
     },
     {
       "id": "780a01bcf148",
