@@ -6,7 +6,7 @@
       "id": "f91400c9cf53",
       "datetime": "2026-03-27T12:00:00Z",
       "type": "interception",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "UAE air defences intercept 6 ballistic missiles and 9 UAVs — Mar 27",
       "location": "UAE",
@@ -19,13 +19,15 @@
           "tier": "local"
         }
       ],
-      "_via": "rss"
+      "_via": "rss",
+      "_search_count": 1,
+      "_next_search_at": 1774616400.0
     },
     {
       "id": "98e6444f5b44",
       "datetime": "2026-03-26T15:21:47Z",
       "type": "impact_major",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "Grandfather killed in Iranian strike on Abu Dhabi",
       "location": "Abu Dhabi",
@@ -38,7 +40,9 @@
           "tier": "local"
         }
       ],
-      "_via": "rss"
+      "_via": "rss",
+      "_search_count": 1,
+      "_next_search_at": 1774542107.0
     },
     {
       "id": "780a01bcf148",
