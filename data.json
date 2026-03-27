@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-27T09:12:06Z",
+  "last_updated": "2026-03-27T09:22:35Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -40,8 +40,8 @@
     {
       "id": "0dd6f1e0f295",
       "datetime": "2026-03-26T07:04:25Z",
-      "type": "impact_major",
-      "confirmed": true,
+      "type": "impact_minor",
+      "confirmed": false,
       "precision": "city",
       "title": "Missile debris kills 2 and injures 3 in Abu Dhabi",
       "location": "Abu Dhabi",
