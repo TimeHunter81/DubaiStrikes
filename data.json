@@ -22,13 +22,15 @@
       "snippet": null,
       "preview_image": "https://media.assettype.com/gulfnews%2F2024-11-18%2Ftk6g5aq3%2FIndian_rupee_17f585eb4d4_original_ratio.jpg?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774608883.0
     },
     {
       "id": "4881d0441458",
       "datetime": "2026-03-27T08:58:20Z",
       "type": "impact_minor",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "UN demands ‘justice’ after Iran school strike",
       "location": "UAE",
@@ -39,23 +41,30 @@
           "url": "https://gulfnews.com/world/mena/un-demands-justice-after-iran-school-strike-2-1.500488080",
           "domain": "gulfnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://www.ohchr.org/en/press-releases/2026/03/un-experts-strongly-condemn-deadly-missile-strike-girls-school-iran-call",
+          "domain": "ohchr.org",
+          "tier": "wire"
         }
       ],
       "snippet": null,
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-09%2F0e8qzwf3%2Fpreview.jpg?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774605500.0
     },
     {
       "id": "18e229e219eb",
       "datetime": "2026-03-27T08:45:24Z",
       "type": "impact_major",
-      "confirmed": false,
-      "precision": "country",
+      "confirmed": true,
+      "precision": "city",
       "title": "Iran emergency workers search for survivors after deadly US-Israel attacks",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
+      "location": "Tehran, Iran",
+      "lat": 35.6892,
+      "lon": 51.389,
       "sources": [
         {
           "url": "https://www.aljazeera.com/news/2026/3/27/rescuers-search-for-survivors-of-us-israeli-strikes-on-irans-tehran-qom?traffic_source=rss",
@@ -66,18 +75,25 @@
           "url": "https://www.theguardian.com/world/live/2026/mar/27/iran-war-live-updates-trump-negotiations-bombing-hormuz-energy-oil-prices-middle-east",
           "domain": "theguardian.com",
           "tier": "wire"
+        },
+        {
+          "url": "https://www.reuters.com/world/iran/",
+          "domain": "reuters.com",
+          "tier": "wire"
         }
       ],
       "snippet": "Latest victims include six people killed in Qom as Iran announces grim milestone of nearly 2,000 war dead.",
       "preview_image": "https://www.aljazeera.com/wp-content/uploads/2026/03/reuters_69c626e5-1774593765.jpg?resize=1920%2C1440",
       "_via": "rss",
-      "confidence": "medium"
+      "confidence": "medium",
+      "_search_count": 1,
+      "_next_search_at": 1774604724.0
     },
     {
       "id": "8fc46587e4b9",
       "datetime": "2026-03-27T07:33:42Z",
       "type": "impact_major",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "Iranian drone attacks hit two Kuwait ports amid rising Gulf tensions",
       "location": "UAE",
@@ -93,7 +109,9 @@
       "snippet": null,
       "preview_image": "https://media.assettype.com/gulfnews%2Fimport%2F2023%2F11%2F06%2FStock-Ports_18ba3ee19d5_large.jpg?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774600422.0
     },
     {
       "id": "eb24a106bd3d",
