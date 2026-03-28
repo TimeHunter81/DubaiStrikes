@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-28T12:44:00Z",
+  "last_updated": "2026-03-28T12:58:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -8,7 +8,7 @@
       "type": "interception",
       "confirmed": true,
       "precision": "country",
-      "title": "UAE intercepts 20 ballistic missiles and 37 drones from Iran — overnight",
+      "title": "UAE intercepts 20 ballistic missiles and 37 drones from Iran overnight",
       "location": "UAE",
       "lat": null,
       "lon": null,
@@ -38,7 +38,7 @@
       "type": "impact_minor",
       "confirmed": false,
       "precision": "district",
-      "title": "Iranian missile debris causes fires near KEZAD, Abu Dhabi — 6 injured",
+      "title": "Missile debris ignites fires near KEZAD, Abu Dhabi — 6 injured",
       "location": "Abu Dhabi",
       "lat": 24.5,
       "lon": 54.62,
@@ -54,7 +54,7 @@
           "tier": "local"
         },
         {
-          "url": "https://www.thenationalnews.com/news/uae/2026/03/28/five-injured-from-iranian-missile-debris-in-abu-dhabi/",
+          "url": "https://www.thenationalnews.com/news/uae/2026/03/28/six-injured-by-debris-from-intercepted-iranian-missile-in-abu-dhabi/",
           "domain": "thenationalnews.com",
           "tier": "local"
         }
@@ -70,7 +70,7 @@
       "type": "impact_minor",
       "confirmed": false,
       "precision": "city",
-      "title": "Iran claims strike on military depot in Dubai — unconfirmed",
+      "title": "Iran claims destruction of military depot in Dubai — unconfirmed",
       "location": "Dubai",
       "lat": 25.2048,
       "lon": 55.2708,
