@@ -6,7 +6,7 @@
       "id": "f91400c9cf53",
       "datetime": "2026-03-27T12:00:00Z",
       "type": "interception",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "UAE air defences intercept 6 ballistic missiles and 9 UAVs",
       "location": "UAE",
@@ -25,8 +25,8 @@
         }
       ],
       "_via": "rss",
-      "_search_count": 1,
-      "_next_search_at": 1774616400.0
+      "_search_count": 2,
+      "_next_search_at": 1774634400.0
     },
     {
       "id": "780a01bcf148",
