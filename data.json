@@ -22,7 +22,9 @@
       "snippet": "&lt;article data-history-node-id=\"436896\" about=\"https://www.middleeasteye.net/live-blog/live-blog-update/israeli-strike-south-lebanon-kills-seven-wounds-eight\" class=\"live-blog-update default clearfix\"&gt;\n\n  \n      &lt;h2&gt;\n      &lt;a href=\"http",
       "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/000_A62F3G6.jpg",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774736272.0
     },
     {
       "id": "f7eb64bd07f6",
@@ -44,7 +46,9 @@
       "snippet": "&lt;article data-history-node-id=\"436895\" about=\"https://www.middleeasteye.net/live-blog/live-blog-update/son-exiled-shah-rejects-iran-peace-talks\" class=\"live-blog-update default clearfix\"&gt;\n\n  \n      &lt;h2&gt;\n      &lt;a href=\"https://www.middl",
       "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/000_A62F3G6.jpg",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774735990.0
     },
     {
       "id": "55b2774153d3",
@@ -72,12 +76,12 @@
       "id": "3e2c3935920e",
       "datetime": "2026-03-28T20:56:55Z",
       "type": "security_alert",
-      "confirmed": false,
-      "precision": "country",
+      "confirmed": true,
+      "precision": "city",
       "title": "Qatari Ministry of Defence announces successful interception of drone attack from Iran",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
+      "location": "Doha, Qatar",
+      "lat": 25.2854,
+      "lon": 51.531,
       "sources": [
         {
           "url": "https://gulfnews.com/world/mena/qatari-ministry-of-defence-announces-successful-interception-of-drone-attack-from-iran-1.500489444",
@@ -88,7 +92,9 @@
       "snippet": "Qatari Ministry of Defence announces successful interception of drone attack from Iran",
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-28%2Frg25wmcj%2Fvwx02fbb1ka1inkpo.jpg?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774735015.0
     },
     {
       "id": "17dbdb195cfb",
@@ -116,7 +122,7 @@
       "id": "4bc4d8a648e4",
       "datetime": "2026-03-28T20:48:09Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "Mohammed bin Rashid attends 30th edition of Dubai World Cup",
       "location": "Dubai",
@@ -132,7 +138,9 @@
       "snippet": "Mohammed bin Rashid attends 30th edition of Dubai World Cup",
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-28%2Fnofbumv4%2F8st02f3l1ka1uhupo.jpg?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774734489.0
     },
     {
       "id": "92f433ac9610",
