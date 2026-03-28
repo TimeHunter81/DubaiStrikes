@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-28T03:32:00Z",
+  "last_updated": "2026-03-28T03:42:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -34,7 +34,7 @@
       "id": "f91400c9cf53",
       "datetime": "2026-03-27T12:00:00Z",
       "type": "interception",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "country",
       "title": "UAE intercepts 6 ballistic missiles and 9 UAVs",
       "location": "UAE",
