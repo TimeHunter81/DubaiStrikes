@@ -97,7 +97,9 @@
           "tier": "local"
         }
       ],
-      "_via": "rss"
+      "_via": "rss",
+      "_search_count": 1,
+      "_next_search_at": 1774699029.0
     },
     {
       "id": "f91400c9cf53",
