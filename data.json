@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-03-28T22:30:00Z",
+  "last_updated": "2026-03-28T22:40:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
       "id": "2a80b1a87a5d",
       "datetime": "2026-03-28T10:57:09Z",
       "type": "impact_minor",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "city",
       "title": "Iran claims strike on Ukrainian drone depot in Dubai — Kyiv denies",
       "location": "Dubai",
@@ -38,7 +38,7 @@
       "id": "415e0cf833ba",
       "datetime": "2026-03-28T03:33:44Z",
       "type": "impact_minor",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "district",
       "title": "Missile debris fires near KEZAD/EGA Al Taweelah, Abu Dhabi — 6 injured",
       "location": "Abu Dhabi (KEZAD area)",
@@ -79,7 +79,7 @@
       "id": "189ef62d76e3",
       "datetime": "2026-03-28T00:00:48Z",
       "type": "interception",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "country",
       "title": "UAE intercepts 20 ballistic missiles + 37 drones — Mar 28 salvo",
       "location": "UAE",
