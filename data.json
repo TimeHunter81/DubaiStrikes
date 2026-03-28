@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-28T04:24:00Z",
+  "last_updated": "2026-03-28T04:38:17Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -7,11 +7,11 @@
       "datetime": "2026-03-28T03:33:44Z",
       "type": "impact_minor",
       "confirmed": false,
-      "precision": "city",
-      "title": "Interception debris causes fires near KEZAD, Abu Dhabi — 5 injured",
+      "precision": "district",
+      "title": "Debris fires near KEZAD, Abu Dhabi — 5 Indian nationals injured",
       "location": "Abu Dhabi",
-      "lat": 24.4539,
-      "lon": 54.3773,
+      "lat": 24.83,
+      "lon": 54.62,
       "sources": [
         {
           "url": "https://gulfnews.com/uae/abu-dhabi-authorities-respond-to-two-fire-incidents-after-iran-missile-1.500488878",
@@ -25,17 +25,13 @@
         }
       ],
       "snippet": null,
-      "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-26%2Fzhuvi9fr%2FUAEflag?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
-      "_via": "rss",
-      "confidence": "medium",
-      "_search_count": 1,
-      "_next_search_at": 1774672424.0
+      "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-26%2Fzhuvi9fr%2FUAEflag?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100"
     },
     {
       "id": "189ef62d76e3",
       "datetime": "2026-03-28T00:17:04Z",
       "type": "interception",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "UAE air defences intercept Iranian missiles and drones",
       "location": "UAE",
@@ -53,11 +49,7 @@
           "tier": "wire"
         }
       ],
-      "snippet": null,
-      "_via": "rss",
-      "confidence": "low",
-      "_search_count": 2,
-      "_next_search_at": 1774678624.0
+      "snippet": null
     },
     {
       "id": "f91400c9cf53",
@@ -80,11 +72,7 @@
           "domain": "thenationalnews.com",
           "tier": "local"
         }
-      ],
-      "_via": "rss",
-      "confidence": "low",
-      "_search_count": 3,
-      "_next_search_at": 1774699200.0
+      ]
     },
     {
       "id": "780a01bcf148",
