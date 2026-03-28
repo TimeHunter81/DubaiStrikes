@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-03-28T01:11:00Z",
+  "last_updated": "2026-03-28T01:23:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
       "id": "189ef62d76e3",
       "datetime": "2026-03-28T00:17:04Z",
       "type": "interception",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "country",
       "title": "UAE air defences intercept missiles and drones from Iran",
       "location": "UAE",
@@ -22,8 +22,7 @@
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-26%2Fzhuvi9fr%2FUAEflag?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
       "_via": "rss",
       "_search_count": 2,
-      "_next_search_at": 1774678624.0,
-      "confidence": "low"
+      "_next_search_at": 1774678624.0
     },
     {
       "id": "f91400c9cf53",
