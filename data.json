@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-28T05:32:00Z",
+  "last_updated": "2026-03-28T05:42:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -28,9 +28,7 @@
           "domain": "thenationalnews.com",
           "tier": "local"
         }
-      ],
-      "_search_count": 2,
-      "_next_search_at": 1774690424.0
+      ]
     },
     {
       "id": "189ef62d76e3",
@@ -76,9 +74,7 @@
           "domain": "thenationalnews.com",
           "tier": "local"
         }
-      ],
-      "_search_count": 3,
-      "_next_search_at": 1774699200.0
+      ]
     },
     {
       "id": "780a01bcf148",
