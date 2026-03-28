@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-03-28T02:42:00Z",
+  "last_updated": "2026-03-28T02:53:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
       "id": "189ef62d76e3",
       "datetime": "2026-03-28T00:17:04Z",
       "type": "interception",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "country",
       "title": "UAE air defences intercept Iranian missiles and drones",
       "location": "UAE",
@@ -19,15 +19,15 @@
           "tier": "local"
         }
       ],
+      "snippet": null,
       "_via": "rss",
-      "_search_count": 2,
-      "_next_search_at": 1774678624.0
+      "confidence": "low"
     },
     {
       "id": "f91400c9cf53",
       "datetime": "2026-03-27T12:00:00Z",
       "type": "interception",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "country",
       "title": "UAE intercepts 6 ballistic missiles and 9 UAVs",
       "location": "UAE",
@@ -46,8 +46,7 @@
         }
       ],
       "_via": "rss",
-      "_search_count": 2,
-      "_next_search_at": 1774634400.0
+      "confidence": "low"
     },
     {
       "id": "780a01bcf148",
