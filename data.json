@@ -38,12 +38,12 @@
       "id": "189ef62d76e3",
       "datetime": "2026-03-28T00:00:48Z",
       "type": "interception",
-      "confirmed": false,
-      "precision": "country",
+      "confirmed": true,
+      "precision": "city",
       "title": "UAE intercepts 20 ballistic missiles and 37 drones from Iran",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
+      "location": "Abu Dhabi, UAE",
+      "lat": 24.4539,
+      "lon": 54.3773,
       "sources": [
         {
           "url": "https://gulfnews.com/uae/government/uae-air-defences-intercept-20-ballistic-missiles-and-37-drones-from-iran-on-march-28-1.500489258",
@@ -63,8 +63,8 @@
       ],
       "_via": "rss",
       "confidence": "medium",
-      "_search_count": 1,
-      "_next_search_at": 1774659648.0
+      "_search_count": 2,
+      "_next_search_at": 1774677648.0
     },
     {
       "id": "f91400c9cf53",
