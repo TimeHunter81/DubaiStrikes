@@ -1,37 +1,7 @@
 {
-  "last_updated": "2026-03-28T15:06:11Z",
+  "last_updated": "2026-03-28T15:13:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
-    {
-      "id": "f91400c9cf53",
-      "datetime": "2026-03-27T12:00:00Z",
-      "type": "interception",
-      "confirmed": true,
-      "precision": "country",
-      "title": "UAE intercepts 6 ballistic missiles and 9 UAVs",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://gulfnews.com/uae/government/uae-air-defences-thwart-6-ballistic-missiles-and-9-uavs-on-march-27-1.500488291",
-          "domain": "gulfnews.com",
-          "tier": "local"
-        },
-        {
-          "url": "https://www.thenationalnews.com/news/mena/2026/03/27/live-us-israel-iran-war/",
-          "domain": "thenationalnews.com",
-          "tier": "local"
-        },
-        {
-          "url": "https://www.bbc.com/news/articles/cx2dyz6p3weo",
-          "domain": "bbc.com",
-          "tier": "wire"
-        }
-      ],
-      "_via": "rss",
-      "confidence": "medium"
-    },
     {
       "id": "189ef62d76e3",
       "datetime": "2026-03-28T00:00:48Z",
@@ -117,6 +87,36 @@
       "confidence": "low",
       "_search_count": 2,
       "_next_search_at": 1774717029.0
+    },
+    {
+      "id": "f91400c9cf53",
+      "datetime": "2026-03-27T12:00:00Z",
+      "type": "interception",
+      "confirmed": true,
+      "precision": "country",
+      "title": "UAE intercepts 6 ballistic missiles and 9 UAVs",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://gulfnews.com/uae/government/uae-air-defences-thwart-6-ballistic-missiles-and-9-uavs-on-march-27-1.500488291",
+          "domain": "gulfnews.com",
+          "tier": "local"
+        },
+        {
+          "url": "https://www.thenationalnews.com/news/mena/2026/03/27/live-us-israel-iran-war/",
+          "domain": "thenationalnews.com",
+          "tier": "local"
+        },
+        {
+          "url": "https://www.bbc.com/news/articles/cx2dyz6p3weo",
+          "domain": "bbc.com",
+          "tier": "wire"
+        }
+      ],
+      "_via": "rss",
+      "confidence": "medium"
     },
     {
       "id": "780a01bcf148",
