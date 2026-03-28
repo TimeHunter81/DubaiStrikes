@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-28T07:56:00Z",
+  "last_updated": "2026-03-28T08:10:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -8,7 +8,7 @@
       "type": "impact_minor",
       "confirmed": true,
       "precision": "district",
-      "title": "Iranian missile debris causes fires near KEZAD, Abu Dhabi — 5 injured",
+      "title": "Iranian missile debris causes fires near KEZAD, Abu Dhabi — 6 injured",
       "location": "Abu Dhabi",
       "lat": 24.5,
       "lon": 54.62,
