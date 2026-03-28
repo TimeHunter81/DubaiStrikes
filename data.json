@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-28T11:05:17Z",
+  "last_updated": "2026-03-28T11:18:48Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -8,7 +8,7 @@
       "type": "impact_minor",
       "confirmed": false,
       "precision": "city",
-      "title": "Iran claims strike on Ukrainian air defence depot in Dubai",
+      "title": "Iran claims strike on Ukrainian air-defence depot in Dubai",
       "location": "Dubai",
       "lat": 25.2048,
       "lon": 55.2708,
@@ -20,7 +20,8 @@
         }
       ],
       "_search_count": 1,
-      "_next_search_at": 1774699029.0
+      "_next_search_at": 1774699029.0,
+      "confidence": "low"
     },
     {
       "id": "415e0cf833ba",
