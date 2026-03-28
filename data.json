@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-28T00:51:00Z",
+  "last_updated": "2026-03-28T01:02:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -19,10 +19,8 @@
           "tier": "local"
         }
       ],
-      "snippet": null,
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-26%2Fzhuvi9fr%2FUAEflag?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
       "_via": "rss",
-      "confidence": "low",
       "_search_count": 1,
       "_next_search_at": 1774660624.0
     },
@@ -50,8 +48,7 @@
       ],
       "_via": "rss",
       "_search_count": 3,
-      "_next_search_at": 1774699200.0,
-      "confidence": "low"
+      "_next_search_at": 1774699200.0
     },
     {
       "id": "780a01bcf148",
