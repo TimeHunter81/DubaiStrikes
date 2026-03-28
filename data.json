@@ -79,7 +79,7 @@
       "id": "2a80b1a87a5d",
       "datetime": "2026-03-28T10:57:09Z",
       "type": "impact_minor",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "Iran claims strike on Ukrainian air defence depot in Dubai",
       "location": "Dubai",
@@ -95,10 +95,15 @@
           "url": "https://www.msn.com/en-us/war-and-conflicts/military/iran-claims-strike-on-ukrainian-drones-in-dubai-kyiv-denies/ar-AA1ZCp5p",
           "domain": "msn.com",
           "tier": "wire"
+        },
+        {
+          "url": "https://www.wionews.com/world/ukraine-inks-defence-deal-with-qatar-denies-iran-s-strike-on-anti-drone-systems-depot-in-dubai-1774708617508",
+          "domain": "wionews.com",
+          "tier": "wire"
         }
       ],
-      "_search_count": 1,
-      "_next_search_at": 1774699029.0
+      "_search_count": 2,
+      "_next_search_at": 1774717029.0
     },
     {
       "id": "f91400c9cf53",
