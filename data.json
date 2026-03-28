@@ -1,7 +1,27 @@
 {
-  "last_updated": "2026-03-28T17:25:00Z",
+  "last_updated": "2026-03-28T17:38:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
+    {
+      "id": "2a80b1a87a5d",
+      "datetime": "2026-03-28T10:57:09Z",
+      "type": "impact_minor",
+      "confirmed": false,
+      "precision": "city",
+      "title": "Iran claims strike destroyed Ukrainian air defence depot in Dubai",
+      "location": "Dubai",
+      "lat": 25.2048,
+      "lon": 55.2708,
+      "sources": [
+        {
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-says-it-destroyed-ukrainian-air-defence-depot-dubai",
+          "domain": "middleeasteye.net",
+          "tier": "local"
+        }
+      ],
+      "_via": "rss",
+      "confidence": "low"
+    },
     {
       "id": "415e0cf833ba",
       "datetime": "2026-03-28T03:33:44Z",
