@@ -1,14 +1,14 @@
 {
-  "last_updated": "2026-03-28T00:41:00Z",
+  "last_updated": "2026-03-28T00:51:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
       "id": "189ef62d76e3",
       "datetime": "2026-03-28T00:17:04Z",
       "type": "interception",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "country",
-      "title": "UAE air defences intercept incoming missiles and drones launched from Iran",
+      "title": "UAE air defences intercept missiles and drones launched from Iran",
       "location": "UAE",
       "lat": null,
       "lon": null,
