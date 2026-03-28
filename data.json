@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-03-28T04:15:00Z",
+  "last_updated": "2026-03-28T04:24:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
       "id": "415e0cf833ba",
       "datetime": "2026-03-28T03:33:44Z",
       "type": "impact_minor",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "city",
       "title": "Interception debris causes fires near KEZAD, Abu Dhabi — 5 injured",
       "location": "Abu Dhabi",
@@ -35,7 +35,7 @@
       "id": "189ef62d76e3",
       "datetime": "2026-03-28T00:17:04Z",
       "type": "interception",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "country",
       "title": "UAE air defences intercept Iranian missiles and drones",
       "location": "UAE",
