@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-28T20:17:00Z",
+  "last_updated": "2026-03-28T20:29:37Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -18,11 +18,7 @@
           "domain": "middleeasteye.net",
           "tier": "local"
         }
-      ],
-      "_via": "rss",
-      "confidence": "low",
-      "_search_count": 3,
-      "_next_search_at": 1774781829.0
+      ]
     },
     {
       "id": "415e0cf833ba",
@@ -30,7 +26,7 @@
       "type": "impact_minor",
       "confirmed": false,
       "precision": "district",
-      "title": "Missile debris ignites fires near KEZAD/EGA Al Taweelah, Abu Dhabi — 6 injured",
+      "title": "Missile debris fires near KEZAD/EGA Al Taweelah, Abu Dhabi — 6 injured",
       "location": "Abu Dhabi (KEZAD area)",
       "lat": 24.5,
       "lon": 54.62,
@@ -55,11 +51,7 @@
           "domain": "gulfnews.com",
           "tier": "local"
         }
-      ],
-      "confidence": "medium",
-      "_via": "rss",
-      "_search_count": 3,
-      "_next_search_at": 1774755224.0
+      ]
     },
     {
       "id": "189ef62d76e3",
@@ -87,9 +79,7 @@
           "domain": "thenationalnews.com",
           "tier": "local"
         }
-      ],
-      "confidence": "high",
-      "_via": "rss"
+      ]
     },
     {
       "id": "f91400c9cf53",
@@ -117,9 +107,7 @@
           "domain": "bbc.com",
           "tier": "wire"
         }
-      ],
-      "confidence": "high",
-      "_via": "rss"
+      ]
     },
     {
       "id": "780a01bcf148",
