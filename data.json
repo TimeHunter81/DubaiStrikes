@@ -6,7 +6,7 @@
       "id": "d53b349efe30",
       "datetime": "2026-03-28T15:49:02Z",
       "type": "impact_minor",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "district",
       "title": "EGA Al Taweelah aluminium plant hit in Iranian missile/drone attack",
       "location": "Al Taweelah, Abu Dhabi",
@@ -19,7 +19,9 @@
           "tier": "local"
         }
       ],
-      "_via": "rss"
+      "_via": "rss",
+      "_search_count": 1,
+      "_next_search_at": 1774716542.0
     },
     {
       "id": "415e0cf833ba",
