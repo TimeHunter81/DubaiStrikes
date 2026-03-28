@@ -1,7 +1,26 @@
 {
-  "last_updated": "2026-03-28T16:44:00Z",
+  "last_updated": "2026-03-28T16:58:41Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
+    {
+      "id": "d53b349efe30",
+      "datetime": "2026-03-28T15:49:02Z",
+      "type": "impact_minor",
+      "confirmed": false,
+      "precision": "district",
+      "title": "EGA Al Taweelah aluminium plant hit in Iranian missile/drone attack",
+      "location": "Al Taweelah, Abu Dhabi",
+      "lat": 24.5,
+      "lon": 54.62,
+      "sources": [
+        {
+          "url": "https://gulfnews.com/business/markets/emirates-global-aluminium-al-taweelah-site-damaged-in-iranian-missile-drone-attacks-1.500489432",
+          "domain": "gulfnews.com",
+          "tier": "local"
+        }
+      ],
+      "_via": "rss"
+    },
     {
       "id": "415e0cf833ba",
       "datetime": "2026-03-28T03:33:44Z",
@@ -9,7 +28,7 @@
       "confirmed": false,
       "precision": "district",
       "title": "Missile debris ignites fires near KEZAD, Abu Dhabi — 6 injured",
-      "location": "Abu Dhabi",
+      "location": "Abu Dhabi (KEZAD area)",
       "lat": 24.5,
       "lon": 54.62,
       "sources": [
@@ -30,7 +49,6 @@
         }
       ],
       "_via": "rss",
-      "confidence": "medium",
       "_search_count": 3,
       "_next_search_at": 1774755224.0
     },
@@ -40,7 +58,7 @@
       "type": "interception",
       "confirmed": true,
       "precision": "country",
-      "title": "UAE intercepts 20 ballistic missiles and 37 drones from Iran",
+      "title": "UAE intercepts 20 ballistic missiles and 37 drones — Mar 28 salvo",
       "location": "UAE",
       "lat": null,
       "lon": null,
@@ -62,7 +80,6 @@
         }
       ],
       "_via": "rss",
-      "confidence": "medium",
       "_search_count": 2,
       "_next_search_at": 1774677648.0
     },
@@ -72,7 +89,7 @@
       "type": "interception",
       "confirmed": true,
       "precision": "country",
-      "title": "UAE intercepts 6 ballistic missiles and 9 UAVs",
+      "title": "UAE intercepts 6 ballistic missiles and 9 UAVs — Mar 27",
       "location": "UAE",
       "lat": null,
       "lon": null,
@@ -93,8 +110,7 @@
           "tier": "wire"
         }
       ],
-      "_via": "rss",
-      "confidence": "medium"
+      "_via": "rss"
     },
     {
       "id": "780a01bcf148",
