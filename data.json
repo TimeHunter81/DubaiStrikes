@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-28T06:21:33Z",
+  "last_updated": "2026-03-28T06:28:19Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -10,7 +10,7 @@
       "precision": "district",
       "title": "Interception debris fires near KEZAD, Abu Dhabi — 5 injured",
       "location": "Abu Dhabi",
-      "lat": 24.83,
+      "lat": 24.5,
       "lon": 54.62,
       "sources": [
         {
