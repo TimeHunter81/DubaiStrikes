@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-28T06:44:00Z",
+  "last_updated": "2026-03-28T06:58:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -30,7 +30,8 @@
         }
       ],
       "_search_count": 2,
-      "_next_search_at": 1774690424.0
+      "_next_search_at": 1774690424.0,
+      "_via": "rss"
     },
     {
       "id": "189ef62d76e3",
@@ -60,7 +61,8 @@
         }
       ],
       "_search_count": 2,
-      "_next_search_at": 1774678624.0
+      "_next_search_at": 1774678624.0,
+      "_via": "rss"
     },
     {
       "id": "f91400c9cf53",
@@ -85,7 +87,8 @@
         }
       ],
       "_search_count": 3,
-      "_next_search_at": 1774699200.0
+      "_next_search_at": 1774699200.0,
+      "_via": "rss"
     },
     {
       "id": "780a01bcf148",
