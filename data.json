@@ -34,7 +34,7 @@
       "id": "415e0cf833ba",
       "datetime": "2026-03-28T03:33:44Z",
       "type": "impact_minor",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "district",
       "title": "Missile debris fires near KEZAD/EGA Al Taweelah, Abu Dhabi — 6 injured",
       "location": "Abu Dhabi (KEZAD area)",
@@ -65,14 +65,21 @@
           "url": "https://www.middleeasteye.net/live-blog/live-blog-update/uae-aluminium-firm-reports-damage-and-injuries-iranian-attack",
           "domain": "middleeasteye.net",
           "tier": "local"
+        },
+        {
+          "url": "https://media.ega.ae/ega-al-taweelah-site-at-kezad-sustains-significant-damage/",
+          "domain": "media.ega.ae",
+          "tier": "wire"
         }
-      ]
+      ],
+      "_search_count": 1,
+      "_next_search_at": 1774672424.0
     },
     {
       "id": "2a80b1a87a5d",
       "datetime": "2026-03-28T10:57:09Z",
       "type": "impact_minor",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "Iran claims strike on Ukrainian air defence depot in Dubai",
       "location": "Dubai",
@@ -83,8 +90,15 @@
           "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-says-it-destroyed-ukrainian-air-defence-depot-dubai",
           "domain": "middleeasteye.net",
           "tier": "local"
+        },
+        {
+          "url": "https://www.msn.com/en-us/war-and-conflicts/military/iran-claims-strike-on-ukrainian-drones-in-dubai-kyiv-denies/ar-AA1ZCp5p",
+          "domain": "msn.com",
+          "tier": "wire"
         }
-      ]
+      ],
+      "_search_count": 1,
+      "_next_search_at": 1774699029.0
     },
     {
       "id": "f91400c9cf53",
