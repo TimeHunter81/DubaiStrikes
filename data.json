@@ -36,7 +36,7 @@
       "id": "189ef62d76e3",
       "datetime": "2026-03-28T00:17:04Z",
       "type": "interception",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "UAE air defences intercept Iranian missiles and drones",
       "location": "UAE",
@@ -52,16 +52,21 @@
           "url": "https://www.theguardian.com/world/live/2026/mar/27/iran-war-live-updates-trump-negotiations-bombing-hormuz-energy-oil-prices-middle-east",
           "domain": "theguardian.com",
           "tier": "wire"
+        },
+        {
+          "url": "https://www.thenationalnews.com/news/uae/2026/03/28/five-injured-from-iranian-missile-debris-in-abu-dhabi/",
+          "domain": "thenationalnews.com",
+          "tier": "wire"
         }
       ],
-      "_search_count": 1,
-      "_next_search_at": 1774660624.0
+      "_search_count": 2,
+      "_next_search_at": 1774678624.0
     },
     {
       "id": "f91400c9cf53",
       "datetime": "2026-03-27T12:00:00Z",
       "type": "interception",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "UAE intercepts 6 ballistic missiles and 9 UAVs",
       "location": "UAE",
@@ -79,8 +84,8 @@
           "tier": "local"
         }
       ],
-      "_search_count": 2,
-      "_next_search_at": 1774634400.0
+      "_search_count": 3,
+      "_next_search_at": 1774699200.0
     },
     {
       "id": "780a01bcf148",
