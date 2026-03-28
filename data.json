@@ -6,7 +6,7 @@
       "id": "85e4fa7e8114",
       "datetime": "2026-03-28T15:29:36Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "Zayed Marathon held in Gaza as part of UAE's Operation Gallant Knight 3",
       "location": "Uae",
@@ -22,13 +22,15 @@
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/FSJMWXKTG6O3NITYQZHH6CHEC4.jpg?smart=true&amp;auth=d3a1996b2feb1f94c0fd6277c86348b150b0649434c4dc6c1f81e872af2f0df3&amp;width=1200&amp;height=630",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774715376.0
     },
     {
       "id": "93b933d48102",
       "datetime": "2026-03-28T15:13:31Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "A day of fashion, form and family at the 2026 Dubai World Cup",
       "location": "Dubai",
@@ -44,13 +46,15 @@
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/UYABA5OF35D6LGORYAIBJBZ6QM.jpg?smart=true&amp;auth=fe9a15a12863aa23598da4c3dff0549abf83956f01c05abfb331b0e1ffd8086d&amp;width=1200&amp;height=630",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774714411.0
     },
     {
       "id": "181d8148af01",
       "datetime": "2026-03-28T14:40:40Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "Dubai World Cup 2026: Most creative and outlandish fashion moments from Meydan race day",
       "location": "Dubai",
@@ -66,18 +70,20 @@
       "snippet": null,
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-28%2Fp3foheqw%2FWhatsApp-Image-2026-03-28-at-3.59.45-PM.jpeg?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774712440.0
     },
     {
       "id": "dc53cf0324a2",
       "datetime": "2026-03-28T14:18:56Z",
       "type": "security_alert",
-      "confirmed": false,
-      "precision": "country",
+      "confirmed": true,
+      "precision": "city",
       "title": "Pakistan to host Egyptian, Turkish and Saudi ministers for talks on ending Iran war as conflict widens",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
+      "location": "Islamabad, Pakistan",
+      "lat": 33.6844,
+      "lon": 73.0479,
       "sources": [
         {
           "url": "https://www.thenationalnews.com/news/mena/2026/03/28/pakistan-to-host-egyptian-turkish-and-saudi-ministers-for-talks-on-ending-iran-war-as-conflict-widens/",
@@ -88,7 +94,9 @@
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/RILUSRF2LKUBPCFN5OFWRNXKBY.jpg?smart=true&amp;auth=a16b756a1baee2289346a2dd89a5dd6b1d108101c17a5e96b6e74e8f0b56f1b4&amp;width=1200&amp;height=630",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774711136.0
     },
     {
       "id": "e8ed8fc982a2",
