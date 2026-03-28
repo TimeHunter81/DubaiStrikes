@@ -22,7 +22,9 @@
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/IQQO4NVUAWEPCAAUMZRWWPH5GY.jpg?smart=true&amp;auth=7f175a3ea7b39d488429833cf6516d27a3b8b102a119e49eddf4adee4fd672ca&amp;width=1200&amp;height=630",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774724295.0
     },
     {
       "id": "19e6361cd3f6",
@@ -44,7 +46,9 @@
       "snippet": "&lt;article data-history-node-id=\"436889\" about=\"https://www.middleeasteye.net/live-blog/live-blog-update/us-israeli-strike-kills-iraqi-government-linked-fighters-kirkuk-report\" class=\"live-blog-update default clearfix\"&gt;\n\n  \n      &lt;h2&gt;\n     ",
       "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/000_A4ZW32C%20%281%29.jpg",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774723380.0
     },
     {
       "id": "73d06790d0d3",
@@ -66,13 +70,15 @@
       "snippet": "&lt;article data-history-node-id=\"436887\" about=\"https://www.middleeasteye.net/live-blog/live-blog-update/strike-kills-iraqi-government-linked-fighter-wounds-six\" class=\"live-blog-update default clearfix\"&gt;\n\n  \n      &lt;h2&gt;\n      &lt;a href=\"ht",
       "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/000_A4ZW32C%20%281%29.jpg",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774722082.0
     },
     {
       "id": "2f44276c7697",
       "datetime": "2026-03-28T17:20:40Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "Abu Dhabi police chief reviews emergency response readiness amid regional tensions",
       "location": "Abu Dhabi",
@@ -88,7 +94,9 @@
       "snippet": null,
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-28%2Fxgdtswf1%2FStockAbuDhabiskyline17a0b0e5c20originalratio.jpg?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774722040.0
     },
     {
       "id": "f3b0667b168c",
