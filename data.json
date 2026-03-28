@@ -6,7 +6,7 @@
       "id": "2a80b1a87a5d",
       "datetime": "2026-03-28T10:57:09Z",
       "type": "impact_minor",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "Iran claims strike on Ukrainian drone depot in Dubai — Kyiv denies",
       "location": "Dubai",
@@ -30,13 +30,15 @@
         }
       ],
       "_via": "rss",
-      "confidence": "medium"
+      "confidence": "medium",
+      "_search_count": 1,
+      "_next_search_at": 1774699029.0
     },
     {
       "id": "415e0cf833ba",
       "datetime": "2026-03-28T03:33:44Z",
       "type": "impact_minor",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "district",
       "title": "Missile debris fires near KEZAD/EGA Al Taweelah, Abu Dhabi — 6 injured",
       "location": "Abu Dhabi (KEZAD area)",
@@ -69,7 +71,9 @@
           "tier": "wire"
         }
       ],
-      "_via": "rss"
+      "_via": "rss",
+      "_search_count": 1,
+      "_next_search_at": 1774672424.0
     },
     {
       "id": "189ef62d76e3",
