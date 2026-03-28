@@ -6,23 +6,30 @@
       "id": "dc53cf0324a2",
       "datetime": "2026-03-28T14:18:56Z",
       "type": "security_alert",
-      "confirmed": false,
-      "precision": "country",
+      "confirmed": true,
+      "precision": "city",
       "title": "Pakistan to host Egyptian, Turkish and Saudi ministers for talks on ending Iran war as conflict widens",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
+      "location": "Islamabad, Pakistan",
+      "lat": 33.7294,
+      "lon": 73.0931,
       "sources": [
         {
           "url": "https://www.thenationalnews.com/news/mena/2026/03/28/pakistan-to-host-egyptian-turkish-and-saudi-ministers-for-talks-on-ending-iran-war-as-conflict-widens/",
           "domain": "thenationalnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://www.reuters.com/world/asia-pacific/pakistan-host-talks-with-saudi-arabia-turkey-egypt-amid-iran-war-diplomacy-2026-03-28/",
+          "domain": "reuters.com",
+          "tier": "wire"
         }
       ],
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/RILUSRF2LKUBPCFN5OFWRNXKBY.jpg?smart=true&amp;auth=a16b756a1baee2289346a2dd89a5dd6b1d108101c17a5e96b6e74e8f0b56f1b4&amp;width=1200&amp;height=630",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774711136.0
     },
     {
       "id": "e8ed8fc982a2",
@@ -44,13 +51,15 @@
       "snippet": "&lt;article data-history-node-id=\"436883\" about=\"https://www.middleeasteye.net/live-blog/live-blog-update/iraqs-pm-condemns-attack-house-kurdistan-regions-president\" class=\"live-blog-update default clearfix\"&gt;\n\n  \n      &lt;h2&gt;\n      &lt;a href=",
       "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/000_A4ZW32C%20%281%29.jpg",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774711105.0
     },
     {
       "id": "c3c7867384f4",
       "datetime": "2026-03-28T14:01:19Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "Dubai World Cup 2026: Fairy Glen magic seals sparkling Gold Cup victory",
       "location": "Dubai",
@@ -61,18 +70,25 @@
           "url": "https://www.thenationalnews.com/sport/2026/03/28/dubai-world-cup-2026-fairy-glen-magic-seals-sparkling-gold-cup-victory/",
           "domain": "thenationalnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://www.msn.com/en-ae/sports/other/dubai-world-cup-2026-fairy-glen-magic-seals-sparkling-gold-cup-victory/ar-AA1ZBvjV",
+          "domain": "msn.com",
+          "tier": "wire"
         }
       ],
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/3I5VZ5X4URBGFCDPGNLS54HODE?smart=true&amp;auth=10f7553102ebf3dc7322537cab906d7fa6a697b1e82632cbff5ee85f84df7c3d&amp;width=1200&amp;height=630",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774710079.0
     },
     {
       "id": "de670e14918d",
       "datetime": "2026-03-28T13:35:48Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "Dubai Police answer 56,000 plus emergency calls in four days during severe weather",
       "location": "Dubai",
@@ -88,7 +104,9 @@
       "snippet": null,
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-26%2Fvx4zdbtk%2FDubaipolicerain?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774708548.0
     },
     {
       "id": "5763543abfb3",
