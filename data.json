@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-28T11:25:50Z",
+  "last_updated": "2026-03-28T11:33:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -19,14 +19,14 @@
           "tier": "local"
         }
       ],
-      "_search_count": 1,
-      "_next_search_at": 1774699029.0
+      "_via": "rss",
+      "confidence": "low"
     },
     {
       "id": "415e0cf833ba",
       "datetime": "2026-03-28T03:33:44Z",
       "type": "impact_minor",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "district",
       "title": "Iranian missile debris causes fires near KEZAD, Abu Dhabi — 6 injured",
       "location": "Abu Dhabi",
@@ -49,8 +49,8 @@
           "tier": "local"
         }
       ],
-      "_search_count": 2,
-      "_next_search_at": 1774690424.0
+      "_via": "rss",
+      "confidence": "low"
     },
     {
       "id": "189ef62d76e3",
@@ -79,8 +79,8 @@
           "tier": "local"
         }
       ],
-      "_search_count": 1,
-      "_next_search_at": 1774660624.0
+      "_via": "rss",
+      "confidence": "medium"
     },
     {
       "id": "f91400c9cf53",
@@ -108,7 +108,9 @@
           "domain": "bbc.com",
           "tier": "wire"
         }
-      ]
+      ],
+      "_via": "rss",
+      "confidence": "medium"
     },
     {
       "id": "780a01bcf148",
