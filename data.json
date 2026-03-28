@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-28T08:30:00Z",
+  "last_updated": "2026-03-28T08:42:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -28,10 +28,7 @@
           "domain": "thenationalnews.com",
           "tier": "local"
         }
-      ],
-      "_via": "rss",
-      "_search_count": 2,
-      "_next_search_at": 1774690424.0
+      ]
     },
     {
       "id": "189ef62d76e3",
@@ -59,14 +56,13 @@
           "domain": "thenationalnews.com",
           "tier": "local"
         }
-      ],
-      "_via": "rss"
+      ]
     },
     {
       "id": "f91400c9cf53",
       "datetime": "2026-03-27T12:00:00Z",
       "type": "interception",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "country",
       "title": "UAE intercepts 6 ballistic missiles and 9 UAVs",
       "location": "UAE",
@@ -83,10 +79,7 @@
           "domain": "thenationalnews.com",
           "tier": "local"
         }
-      ],
-      "_via": "rss",
-      "_search_count": 3,
-      "_next_search_at": 1774699200.0
+      ]
     },
     {
       "id": "780a01bcf148",
