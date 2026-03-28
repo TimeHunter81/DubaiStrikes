@@ -1,14 +1,14 @@
 {
-  "last_updated": "2026-03-28T06:58:00Z",
+  "last_updated": "2026-03-28T07:08:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
       "id": "415e0cf833ba",
       "datetime": "2026-03-28T03:33:44Z",
       "type": "impact_minor",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "district",
-      "title": "Interception debris fires near KEZAD, Abu Dhabi — 5 injured",
+      "title": "Iranian missile debris causes fires near KEZAD, Abu Dhabi — 5 injured",
       "location": "Abu Dhabi",
       "lat": 24.5,
       "lon": 54.62,
@@ -29,8 +29,6 @@
           "tier": "local"
         }
       ],
-      "_search_count": 2,
-      "_next_search_at": 1774690424.0,
       "_via": "rss"
     },
     {
@@ -60,8 +58,6 @@
           "tier": "local"
         }
       ],
-      "_search_count": 2,
-      "_next_search_at": 1774678624.0,
       "_via": "rss"
     },
     {
@@ -86,8 +82,6 @@
           "tier": "local"
         }
       ],
-      "_search_count": 3,
-      "_next_search_at": 1774699200.0,
       "_via": "rss"
     },
     {
