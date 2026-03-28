@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-28T12:24:00Z",
+  "last_updated": "2026-03-28T12:36:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -8,7 +8,7 @@
       "type": "impact_minor",
       "confirmed": false,
       "precision": "city",
-      "title": "Iran claims strike on Ukrainian air-defence depot in Dubai",
+      "title": "Iran claims strike on military depot in Dubai — unconfirmed",
       "location": "Dubai",
       "lat": 25.2048,
       "lon": 55.2708,
@@ -28,7 +28,7 @@
       "id": "415e0cf833ba",
       "datetime": "2026-03-28T03:33:44Z",
       "type": "impact_minor",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "district",
       "title": "Iranian missile debris causes fires near KEZAD, Abu Dhabi — 6 injured",
       "location": "Abu Dhabi",
@@ -52,7 +52,7 @@
         }
       ],
       "_via": "rss",
-      "confidence": "low",
+      "confidence": "medium",
       "_search_count": 3,
       "_next_search_at": 1774755224.0
     },
@@ -62,13 +62,13 @@
       "type": "interception",
       "confirmed": true,
       "precision": "country",
-      "title": "UAE air defences intercept Iranian missiles and drones",
+      "title": "UAE intercepts 20 ballistic missiles and 37 drones from Iran — overnight",
       "location": "UAE",
       "lat": null,
       "lon": null,
       "sources": [
         {
-          "url": "https://gulfnews.com/uae/uae-air-defences-intercept-incoming-missiles-and-drones-launched-from-iran-1.500488810",
+          "url": "https://gulfnews.com/uae/government/uae-air-defences-intercept-20-ballistic-missiles-and-37-drones-from-iran-on-march-28-1.500489258",
           "domain": "gulfnews.com",
           "tier": "local"
         },
