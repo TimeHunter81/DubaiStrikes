@@ -24,7 +24,9 @@
           "tier": "local"
         }
       ],
-      "_via": "rss"
+      "_via": "rss",
+      "_search_count": 1,
+      "_next_search_at": 1774616400.0
     },
     {
       "id": "780a01bcf148",
