@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-28T02:16:00Z",
+  "last_updated": "2026-03-28T02:25:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -19,10 +19,7 @@
           "tier": "local"
         }
       ],
-      "_via": "rss",
-      "_search_count": 2,
-      "_next_search_at": 1774678624.0,
-      "confidence": "low"
+      "_via": "rss"
     },
     {
       "id": "f91400c9cf53",
@@ -46,31 +43,7 @@
           "tier": "local"
         }
       ],
-      "_via": "rss",
-      "_search_count": 3,
-      "_next_search_at": 1774699200.0
-    },
-    {
-      "id": "98e6444f5b44",
-      "datetime": "2026-03-26T15:21:47Z",
-      "type": "impact_major",
-      "confirmed": false,
-      "precision": "city",
-      "title": "Grandfather killed in Iranian strike on Abu Dhabi",
-      "location": "Abu Dhabi",
-      "lat": 24.4539,
-      "lon": 54.3773,
-      "sources": [
-        {
-          "url": "https://www.thenationalnews.com/news/uae/2026/03/26/grandfather-killed-in-iranian-strike-on-abu-dhabi-prayed-for-attacks-to-end/",
-          "domain": "thenationalnews.com",
-          "tier": "local"
-        }
-      ],
-      "_via": "rss",
-      "_search_count": 4,
-      "_next_search_at": 1774797707.0,
-      "confidence": "low"
+      "_via": "rss"
     },
     {
       "id": "780a01bcf148",
