@@ -6,7 +6,7 @@
       "id": "415e0cf833ba",
       "datetime": "2026-03-28T03:33:44Z",
       "type": "impact_minor",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "district",
       "title": "Interception debris fires near KEZAD, Abu Dhabi — 5 injured",
       "location": "Abu Dhabi",
@@ -29,14 +29,14 @@
           "tier": "local"
         }
       ],
-      "_search_count": 1,
-      "_next_search_at": 1774672424.0
+      "_search_count": 2,
+      "_next_search_at": 1774690424.0
     },
     {
       "id": "189ef62d76e3",
       "datetime": "2026-03-28T00:17:04Z",
       "type": "interception",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "UAE air defences intercept Iranian missiles and drones",
       "location": "UAE",
@@ -53,7 +53,9 @@
           "domain": "theguardian.com",
           "tier": "wire"
         }
-      ]
+      ],
+      "_search_count": 1,
+      "_next_search_at": 1774660624.0
     },
     {
       "id": "f91400c9cf53",
@@ -77,8 +79,8 @@
           "tier": "local"
         }
       ],
-      "_search_count": 1,
-      "_next_search_at": 1774616400.0
+      "_search_count": 2,
+      "_next_search_at": 1774634400.0
     },
     {
       "id": "780a01bcf148",
