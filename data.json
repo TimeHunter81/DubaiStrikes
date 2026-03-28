@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-28T17:38:00Z",
+  "last_updated": "2026-03-28T17:48:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -8,7 +8,7 @@
       "type": "impact_minor",
       "confirmed": false,
       "precision": "city",
-      "title": "Iran claims strike destroyed Ukrainian air defence depot in Dubai",
+      "title": "Iran claims strike on Ukrainian air defence depot in Dubai",
       "location": "Dubai",
       "lat": 25.2048,
       "lon": 55.2708,
