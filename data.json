@@ -1,28 +1,36 @@
 {
-  "last_updated": "2026-03-28T12:36:00Z",
+  "last_updated": "2026-03-28T12:44:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
-      "id": "2a80b1a87a5d",
-      "datetime": "2026-03-28T10:57:09Z",
-      "type": "impact_minor",
-      "confirmed": false,
-      "precision": "city",
-      "title": "Iran claims strike on military depot in Dubai — unconfirmed",
-      "location": "Dubai",
-      "lat": 25.2048,
-      "lon": 55.2708,
+      "id": "189ef62d76e3",
+      "datetime": "2026-03-28T00:00:48Z",
+      "type": "interception",
+      "confirmed": true,
+      "precision": "country",
+      "title": "UAE intercepts 20 ballistic missiles and 37 drones from Iran — overnight",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
       "sources": [
         {
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-says-it-destroyed-ukrainian-air-defence-depot-dubai",
-          "domain": "middleeasteye.net",
+          "url": "https://gulfnews.com/uae/government/uae-air-defences-intercept-20-ballistic-missiles-and-37-drones-from-iran-on-march-28-1.500489258",
+          "domain": "gulfnews.com",
+          "tier": "local"
+        },
+        {
+          "url": "https://www.theguardian.com/world/live/2026/mar/27/iran-war-live-updates-trump-negotiations-bombing-hormuz-energy-oil-prices-middle-east",
+          "domain": "theguardian.com",
+          "tier": "wire"
+        },
+        {
+          "url": "https://www.thenationalnews.com/news/uae/2026/03/28/five-injured-from-iranian-missile-debris-in-abu-dhabi/",
+          "domain": "thenationalnews.com",
           "tier": "local"
         }
       ],
       "_via": "rss",
-      "confidence": "low",
-      "_search_count": 2,
-      "_next_search_at": 1774717029.0
+      "confidence": "medium"
     },
     {
       "id": "415e0cf833ba",
@@ -57,36 +65,26 @@
       "_next_search_at": 1774755224.0
     },
     {
-      "id": "189ef62d76e3",
-      "datetime": "2026-03-28T00:00:48Z",
-      "type": "interception",
-      "confirmed": true,
-      "precision": "country",
-      "title": "UAE intercepts 20 ballistic missiles and 37 drones from Iran — overnight",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
+      "id": "2a80b1a87a5d",
+      "datetime": "2026-03-28T10:57:09Z",
+      "type": "impact_minor",
+      "confirmed": false,
+      "precision": "city",
+      "title": "Iran claims strike on military depot in Dubai — unconfirmed",
+      "location": "Dubai",
+      "lat": 25.2048,
+      "lon": 55.2708,
       "sources": [
         {
-          "url": "https://gulfnews.com/uae/government/uae-air-defences-intercept-20-ballistic-missiles-and-37-drones-from-iran-on-march-28-1.500489258",
-          "domain": "gulfnews.com",
-          "tier": "local"
-        },
-        {
-          "url": "https://www.theguardian.com/world/live/2026/mar/27/iran-war-live-updates-trump-negotiations-bombing-hormuz-energy-oil-prices-middle-east",
-          "domain": "theguardian.com",
-          "tier": "wire"
-        },
-        {
-          "url": "https://www.thenationalnews.com/news/uae/2026/03/28/five-injured-from-iranian-missile-debris-in-abu-dhabi/",
-          "domain": "thenationalnews.com",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-says-it-destroyed-ukrainian-air-defence-depot-dubai",
+          "domain": "middleeasteye.net",
           "tier": "local"
         }
       ],
       "_via": "rss",
-      "confidence": "medium",
+      "confidence": "low",
       "_search_count": 2,
-      "_next_search_at": 1774677648.0
+      "_next_search_at": 1774717029.0
     },
     {
       "id": "f91400c9cf53",
