@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-29T05:35:00Z",
+  "last_updated": "2026-03-29T05:43:21Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -8,7 +8,7 @@
       "type": "interception",
       "confirmed": false,
       "precision": "country",
-      "title": "UAE air defences intercept missile/drone threat overnight Mar 29",
+      "title": "UAE air defences intercept drones/missiles overnight Mar 29",
       "location": "UAE",
       "lat": null,
       "lon": null,
@@ -18,9 +18,7 @@
           "domain": "gulfnews.com",
           "tier": "local"
         }
-      ],
-      "_via": "rss",
-      "confidence": "low"
+      ]
     },
     {
       "id": "415e0cf833ba",
