@@ -6,7 +6,7 @@
       "id": "485f57ca8988",
       "datetime": "2026-03-29T11:07:58Z",
       "type": "interception",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "UAE intercepts 16 missiles + 42 drones (Mar 29)",
       "location": "Dubai, UAE",
@@ -19,7 +19,9 @@
           "tier": "local"
         }
       ],
-      "_via": "rss"
+      "_via": "rss",
+      "_search_count": 1,
+      "_next_search_at": 1774786078.0
     },
     {
       "id": "db304acef494",
