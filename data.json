@@ -22,13 +22,15 @@
       "snippet": null,
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-29%2Fsybo8gkz%2FWhatsApp-Image-2026-03-29-at-8.20.32-AM.jpeg?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774762675.0
     },
     {
       "id": "c724689586ed",
       "datetime": "2026-03-29T04:37:40Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "UAE travel advisory: Which flights are suspended or delayed at Dubai and Abu Dhabi airports?",
       "location": "Abu Dhabi",
@@ -44,13 +46,15 @@
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/L5TQBMRL6FBWJC6NQUEEXRL77A.jpg?smart=true&amp;auth=87d768e6115685a20108f1153878349964c5649711a0df9035e63a5d5d4a3914&amp;width=1200&amp;height=630",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774762660.0
     },
     {
       "id": "71aece300c61",
       "datetime": "2026-03-29T04:25:54Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "UAE–India flights: Air India, Air India Express and IndiGo update for March 29",
       "location": "Uae",
@@ -66,13 +70,15 @@
       "snippet": null,
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-01%2F8yegcqqk%2Fnewsml_afp_com_20260301T110123Z_doc_99f44em.jpeg?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774761954.0
     },
     {
       "id": "d54395fd7c30",
       "datetime": "2026-03-29T04:24:01Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "UAE and Bahrain's main aluminium producers say plants damaged by Iranian attacks",
       "location": "Uae",
@@ -88,7 +94,9 @@
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/ELYU3TKKKRDERAHDD7LAVSVZMI.jpg?smart=true&amp;auth=1d771db63e2a3ac06769856dae2e926aa80bc8d170ee5db57a47bd989283b89b&amp;width=1200&amp;height=630",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774761841.0
     },
     {
       "id": "cdabb883f1ca",
