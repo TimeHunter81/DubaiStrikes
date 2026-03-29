@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-03-29T04:00:53Z",
+  "last_updated": "2026-03-29T04:12:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
       "id": "ddf0b149c7c7",
       "datetime": "2026-03-29T03:04:53Z",
       "type": "interception",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "country",
       "title": "UAE air defence responds to missile/drone salvo, Mar 29",
       "location": "UAE",
@@ -19,8 +19,8 @@
           "tier": "local"
         }
       ],
-      "_search_count": 1,
-      "_next_search_at": 1774757093.0
+      "confidence": "low",
+      "_via": "rss"
     },
     {
       "id": "415e0cf833ba",
