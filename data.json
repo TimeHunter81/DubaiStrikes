@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-29T11:45:24Z",
+  "last_updated": "2026-03-29T11:54:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -8,7 +8,7 @@
       "type": "interception",
       "confirmed": false,
       "precision": "country",
-      "title": "UAE intercepts 16 ballistic missiles and 42 drones from Iran (Mar 29)",
+      "title": "UAE air defences intercept 16 ballistic missiles + 42 drones (Mar 29)",
       "location": "UAE",
       "lat": null,
       "lon": null,
@@ -20,15 +20,40 @@
         }
       ],
       "_via": "rss",
+      "confidence": "low"
+    },
+    {
+      "id": "db304acef494",
+      "datetime": "2026-03-29T07:30:22Z",
+      "type": "impact_minor",
+      "confirmed": true,
+      "precision": "country",
+      "title": "IRGC strikes Emirates Global Aluminium — UAE industrial facility hit",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.aljazeera.com/news/2026/3/29/irans-irgc-claim-attacks-on-uae-bahrain-facilities-linked-to-us-war?traffic_source=rss",
+          "domain": "aljazeera.com",
+          "tier": "wire"
+        },
+        {
+          "url": "https://www.thenationalnews.com/business/2026/03/29/uae-and-bahrains-main-aluminium-producers-damaged-by-iranian-attacks/",
+          "domain": "thenationalnews.com",
+          "tier": "local"
+        }
+      ],
+      "_via": "rss",
       "confidence": "medium"
     },
     {
       "id": "189ef62d76e3",
-      "datetime": "2026-03-28T00:00:48Z",
+      "datetime": "2026-03-28T00:00:40Z",
       "type": "interception",
       "confirmed": true,
       "precision": "country",
-      "title": "UAE air defence intercepts 20 ballistic missiles and 37 drones (Mar 28)",
+      "title": "UAE intercepts 20 ballistic missiles and 37 drones; 6 injured by debris (Mar 28)",
       "location": "UAE",
       "lat": null,
       "lon": null,
@@ -44,7 +69,7 @@
           "tier": "wire"
         },
         {
-          "url": "https://www.thenationalnews.com/news/uae/2026/03/28/five-injured-from-iranian-missile-debris-in-abu-dhabi/",
+          "url": "https://www.thenationalnews.com/news/uae/2026/03/28/six-injured-by-debris-from-intercepted-iranian-missile-in-abu-dhabi/",
           "domain": "thenationalnews.com",
           "tier": "local"
         }
