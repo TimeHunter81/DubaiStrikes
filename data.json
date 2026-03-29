@@ -1,14 +1,14 @@
 {
-  "last_updated": "2026-03-29T08:12:00Z",
+  "last_updated": "2026-03-29T07:26:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
       "id": "ddf0b149c7c7",
       "datetime": "2026-03-29T03:04:53Z",
       "type": "interception",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "country",
-      "title": "UAE air defences intercept missiles and drones overnight (Mar 29)",
+      "title": "UAE air defences intercept missiles and drones, residents alerted safe",
       "location": "UAE",
       "lat": null,
       "lon": null,
@@ -22,44 +22,6 @@
       "_via": "rss",
       "_search_count": 2,
       "_next_search_at": 1774775093.0
-    },
-    {
-      "id": "415e0cf833ba",
-      "datetime": "2026-03-28T03:33:44Z",
-      "type": "impact_minor",
-      "confirmed": true,
-      "precision": "district",
-      "title": "Iranian missile debris hits EGA Al Taweelah/KEZAD — fires, 6 injured",
-      "location": "Abu Dhabi (KEZAD area)",
-      "lat": 24.5,
-      "lon": 54.62,
-      "sources": [
-        {
-          "url": "https://gulfnews.com/uae/abu-dhabi-authorities-respond-to-two-fire-incidents-after-iran-missile-1.500488878",
-          "domain": "gulfnews.com",
-          "tier": "local"
-        },
-        {
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/uae-says-interception-debris-caused-fires-abu-dhabi",
-          "domain": "middleeasteye.net",
-          "tier": "local"
-        },
-        {
-          "url": "https://www.thenationalnews.com/news/uae/2026/03/28/six-injured-by-debris-from-intercepted-iranian-missile-in-abu-dhabi/",
-          "domain": "thenationalnews.com",
-          "tier": "local"
-        },
-        {
-          "url": "https://gulfnews.com/business/markets/emirates-global-aluminium-al-taweelah-site-damaged-in-iranian-missile-drone-attacks-1.500489432",
-          "domain": "gulfnews.com",
-          "tier": "local"
-        },
-        {
-          "url": "https://media.ega.ae/ega-al-taweelah-site-at-kezad-sustains-significant-damage/",
-          "domain": "media.ega.ae",
-          "tier": "wire"
-        }
-      ]
     },
     {
       "id": "189ef62d76e3",
@@ -85,6 +47,44 @@
         {
           "url": "https://www.thenationalnews.com/news/uae/2026/03/28/five-injured-from-iranian-missile-debris-in-abu-dhabi/",
           "domain": "thenationalnews.com",
+          "tier": "local"
+        }
+      ]
+    },
+    {
+      "id": "415e0cf833ba",
+      "datetime": "2026-03-28T03:33:44Z",
+      "type": "impact_minor",
+      "confirmed": true,
+      "precision": "district",
+      "title": "Iranian missile debris hits EGA Al Taweelah/KEZAD — fires, 6 injured",
+      "location": "Abu Dhabi (KEZAD area)",
+      "lat": 24.5,
+      "lon": 54.62,
+      "sources": [
+        {
+          "url": "https://media.ega.ae/ega-al-taweelah-site-at-kezad-sustains-significant-damage/",
+          "domain": "media.ega.ae",
+          "tier": "wire"
+        },
+        {
+          "url": "https://gulfnews.com/uae/abu-dhabi-authorities-respond-to-two-fire-incidents-after-iran-missile-1.500488878",
+          "domain": "gulfnews.com",
+          "tier": "local"
+        },
+        {
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/uae-says-interception-debris-caused-fires-abu-dhabi",
+          "domain": "middleeasteye.net",
+          "tier": "local"
+        },
+        {
+          "url": "https://www.thenationalnews.com/news/uae/2026/03/28/six-injured-by-debris-from-intercepted-iranian-missile-in-abu-dhabi/",
+          "domain": "thenationalnews.com",
+          "tier": "local"
+        },
+        {
+          "url": "https://gulfnews.com/business/markets/emirates-global-aluminium-al-taweelah-site-damaged-in-iranian-missile-drone-attacks-1.500489432",
+          "domain": "gulfnews.com",
           "tier": "local"
         }
       ]
