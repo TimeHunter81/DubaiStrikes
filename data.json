@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-03-29T00:57:19Z",
+  "last_updated": "2026-03-29T02:04:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
       "id": "2a80b1a87a5d",
       "datetime": "2026-03-28T10:57:09Z",
       "type": "impact_minor",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "city",
       "title": "Iran claims strike on Ukrainian drone depot in Dubai — Kyiv denies",
       "location": "Dubai",
