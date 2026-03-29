@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-29T04:18:00Z",
+  "last_updated": "2026-03-29T04:32:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -8,7 +8,7 @@
       "type": "interception",
       "confirmed": false,
       "precision": "country",
-      "title": "UAE air defence responds to missile/drone salvo, Mar 29",
+      "title": "UAE air defences respond to missile/drone threat, residents alerted",
       "location": "UAE",
       "lat": null,
       "lon": null,
@@ -18,10 +18,7 @@
           "domain": "gulfnews.com",
           "tier": "local"
         }
-      ],
-      "_via": "rss",
-      "_search_count": 1,
-      "_next_search_at": 1774757093.0
+      ]
     },
     {
       "id": "415e0cf833ba",
