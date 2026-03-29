@@ -1,34 +1,25 @@
 {
-  "last_updated": "2026-03-29T03:40:00Z",
+  "last_updated": "2026-03-29T03:49:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
-      "id": "189ef62d76e3",
-      "datetime": "2026-03-28T00:00:48Z",
+      "id": "ddf0b149c7c7",
+      "datetime": "2026-03-29T03:04:53Z",
       "type": "interception",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "country",
-      "title": "UAE air defence intercepts 20 ballistic missiles + 37 drones (Mar 28)",
+      "title": "UAE responds to missile/drone salvo, Mar 29 — residents safe",
       "location": "UAE",
       "lat": null,
       "lon": null,
       "sources": [
         {
-          "url": "https://gulfnews.com/uae/government/uae-air-defences-intercept-20-ballistic-missiles-and-37-drones-from-iran-on-march-28-1.500489258",
+          "url": "https://gulfnews.com/uae/uae-responds-to-missile-and-drone-threat-residents-alerted-safe-1.500489674",
           "domain": "gulfnews.com",
           "tier": "local"
-        },
-        {
-          "url": "https://www.theguardian.com/world/live/2026/mar/27/iran-war-live-updates-trump-negotiations-bombing-hormuz-energy-oil-prices-middle-east",
-          "domain": "theguardian.com",
-          "tier": "wire"
-        },
-        {
-          "url": "https://www.thenationalnews.com/news/uae/2026/03/28/five-injured-from-iranian-missile-debris-in-abu-dhabi/",
-          "domain": "thenationalnews.com",
-          "tier": "local"
         }
-      ]
+      ],
+      "_via": "rss"
     },
     {
       "id": "415e0cf833ba",
@@ -65,6 +56,34 @@
           "url": "https://media.ega.ae/ega-al-taweelah-site-at-kezad-sustains-significant-damage/",
           "domain": "media.ega.ae",
           "tier": "wire"
+        }
+      ]
+    },
+    {
+      "id": "189ef62d76e3",
+      "datetime": "2026-03-28T00:00:48Z",
+      "type": "interception",
+      "confirmed": true,
+      "precision": "country",
+      "title": "UAE air defence intercepts 20 ballistic missiles + 37 drones (Mar 28)",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://gulfnews.com/uae/government/uae-air-defences-intercept-20-ballistic-missiles-and-37-drones-from-iran-on-march-28-1.500489258",
+          "domain": "gulfnews.com",
+          "tier": "local"
+        },
+        {
+          "url": "https://www.theguardian.com/world/live/2026/mar/27/iran-war-live-updates-trump-negotiations-bombing-hormuz-energy-oil-prices-middle-east",
+          "domain": "theguardian.com",
+          "tier": "wire"
+        },
+        {
+          "url": "https://www.thenationalnews.com/news/uae/2026/03/28/five-injured-from-iranian-missile-debris-in-abu-dhabi/",
+          "domain": "thenationalnews.com",
+          "tier": "local"
         }
       ]
     },
