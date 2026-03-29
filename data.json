@@ -72,7 +72,7 @@
       "id": "2a80b1a87a5d",
       "datetime": "2026-03-28T10:57:09Z",
       "type": "impact_minor",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "Iran claims strike on Ukrainian drone depot in Dubai — Kyiv denies",
       "location": "Dubai",
@@ -93,8 +93,15 @@
           "url": "https://www.wionews.com/world/ukraine-inks-defence-deal-with-qatar-denies-iran-s-strike-on-anti-drone-systems-depot-in-dubai-1774708617508",
           "domain": "wionews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://kyivindependent.com/disinformation-kyiv-denies-report-that-iran-destroyed-ukrainian-drone-depot-in-dubai/",
+          "domain": "kyivindependent.com",
+          "tier": "wire"
         }
-      ]
+      ],
+      "_search_count": 1,
+      "_next_search_at": 1774699029.0
     },
     {
       "id": "f91400c9cf53",
