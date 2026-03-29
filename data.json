@@ -1,14 +1,14 @@
 {
-  "last_updated": "2026-03-29T11:54:00Z",
+  "last_updated": "2026-03-29T12:09:14Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
       "id": "485f57ca8988",
       "datetime": "2026-03-29T11:07:58Z",
       "type": "interception",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "country",
-      "title": "UAE air defences intercept 16 ballistic missiles + 42 drones (Mar 29)",
+      "title": "UAE air defences intercept 16 missiles + 42 drones (Mar 29)",
       "location": "UAE",
       "lat": null,
       "lon": null,
@@ -20,20 +20,18 @@
         }
       ],
       "_via": "rss",
-      "confidence": "low",
-      "_search_count": 1,
-      "_next_search_at": 1774786078.0
+      "confidence": "low"
     },
     {
       "id": "db304acef494",
       "datetime": "2026-03-29T07:30:22Z",
       "type": "impact_minor",
       "confirmed": true,
-      "precision": "country",
-      "title": "IRGC strikes Emirates Global Aluminium — UAE industrial facility hit",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
+      "precision": "city",
+      "title": "IRGC strikes Emirates Global Aluminium (EGA) — plant damaged",
+      "location": "Al Taweelah, Abu Dhabi",
+      "lat": 24.484,
+      "lon": 54.626,
       "sources": [
         {
           "url": "https://www.aljazeera.com/news/2026/3/29/irans-irgc-claim-attacks-on-uae-bahrain-facilities-linked-to-us-war?traffic_source=rss",
@@ -47,7 +45,7 @@
         }
       ],
       "_via": "rss",
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "189ef62d76e3",
@@ -55,7 +53,7 @@
       "type": "interception",
       "confirmed": true,
       "precision": "country",
-      "title": "UAE intercepts 20 ballistic missiles and 37 drones; 6 injured by debris (Mar 28)",
+      "title": "UAE intercepts 20 missiles + 37 drones; 6 injured by debris (Mar 28)",
       "location": "UAE",
       "lat": null,
       "lon": null,
