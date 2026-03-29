@@ -6,7 +6,7 @@
       "id": "485f57ca8988",
       "datetime": "2026-03-29T11:07:58Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "UAE air defences intercept 16 ballistic missiles and 42 drones from Iran on March 29",
       "location": "Uae",
@@ -22,7 +22,9 @@
       "snippet": null,
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-29%2Fx63err08%2F0breakingnews.jpg?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774786078.0
     },
     {
       "id": "06342dd24fe1",
@@ -44,7 +46,9 @@
       "snippet": null,
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-29%2Fh23d4ojh%2FUntitled-design-44.jpg?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774785748.0
     },
     {
       "id": "efdf9eb4e2a8",
@@ -66,7 +70,9 @@
       "snippet": null,
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-29%2Fm8g1q9hb%2FUntitled-design-43.jpg?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774785417.0
     },
     {
       "id": "165ab20853b6",
@@ -88,7 +94,9 @@
       "snippet": null,
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-29%2F73kfltaa%2FHEZmV4LXoAAOCWI.jpg?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774784903.0
     },
     {
       "id": "6d35ffcfc577",
