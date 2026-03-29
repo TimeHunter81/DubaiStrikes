@@ -6,7 +6,7 @@
       "id": "485f57ca8988",
       "datetime": "2026-03-29T11:07:58Z",
       "type": "interception",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "UAE intercepts 16 missiles + 42 drones (Mar 29)",
       "location": "Dubai, UAE",
@@ -20,14 +20,14 @@
         }
       ],
       "_via": "rss",
-      "_search_count": 1,
-      "_next_search_at": 1774786078.0
+      "_search_count": 2,
+      "_next_search_at": 1774804078.0
     },
     {
       "id": "db304acef494",
       "datetime": "2026-03-29T07:30:22Z",
       "type": "impact_minor",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "district",
       "title": "IRGC strikes Emirates Global Aluminium (EGA) — plant damaged",
       "location": "Al Taweelah, Abu Dhabi",
@@ -45,13 +45,15 @@
           "tier": "local"
         }
       ],
-      "_via": "rss"
+      "_via": "rss",
+      "_search_count": 1,
+      "_next_search_at": 1774773022.0
     },
     {
       "id": "189ef62d76e3",
       "datetime": "2026-03-28T00:00:40Z",
       "type": "interception",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "UAE intercepts 20 missiles + 37 drones; 6 injured by debris (Mar 28)",
       "location": "UAE",
@@ -74,7 +76,9 @@
           "tier": "local"
         }
       ],
-      "_via": "rss"
+      "_via": "rss",
+      "_search_count": 1,
+      "_next_search_at": 1774659640.0
     },
     {
       "id": "780a01bcf148",
