@@ -1,34 +1,7 @@
 {
-  "last_updated": "2026-03-29T08:13:00Z",
+  "last_updated": "2026-03-29T08:25:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
-    {
-      "id": "d54395fd7c30",
-      "datetime": "2026-03-29T04:24:01Z",
-      "type": "impact_minor",
-      "confirmed": true,
-      "precision": "district",
-      "title": "Iranian strikes damage EGA Al Taweelah aluminium plant, workers injured",
-      "location": "Abu Dhabi (Al Taweelah / KEZAD)",
-      "lat": 24.5,
-      "lon": 54.62,
-      "sources": [
-        {
-          "url": "https://www.thenationalnews.com/business/2026/03/29/uae-and-bahrains-main-aluminium-producers-damaged-by-iranian-attacks/",
-          "domain": "thenationalnews.com",
-          "tier": "local"
-        },
-        {
-          "url": "https://www.aljazeera.com/news/2026/3/29/irans-irgc-claim-attacks-on-uae-bahrain-facilities-linked-to-us-war?traffic_source=rss",
-          "domain": "aljazeera.com",
-          "tier": "wire"
-        }
-      ],
-      "_via": "rss",
-      "confidence": "medium",
-      "_search_count": 1,
-      "_next_search_at": 1774761841.0
-    },
     {
       "id": "ddf0b149c7c7",
       "datetime": "2026-03-29T03:04:53Z",
@@ -47,8 +20,6 @@
         }
       ],
       "_via": "rss",
-      "_search_count": 2,
-      "_next_search_at": 1774775093.0,
       "confidence": "low"
     },
     {
@@ -87,7 +58,9 @@
           "domain": "gulfnews.com",
           "tier": "local"
         }
-      ]
+      ],
+      "_via": "rss",
+      "confidence": "high"
     },
     {
       "id": "189ef62d76e3",
@@ -115,7 +88,9 @@
           "domain": "thenationalnews.com",
           "tier": "local"
         }
-      ]
+      ],
+      "_via": "rss",
+      "confidence": "high"
     },
     {
       "id": "780a01bcf148",
