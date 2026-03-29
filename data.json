@@ -6,7 +6,7 @@
       "id": "ddf0b149c7c7",
       "datetime": "2026-03-29T03:04:53Z",
       "type": "interception",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "UAE air defences intercept missiles and drones — Mar 29",
       "location": "UAE",
@@ -21,8 +21,8 @@
       ],
       "_via": "rss",
       "confidence": "low",
-      "_search_count": 1,
-      "_next_search_at": 1774757093.0
+      "_search_count": 2,
+      "_next_search_at": 1774775093.0
     },
     {
       "id": "189ef62d76e3",
