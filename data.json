@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-03-29T06:30:00Z",
+  "last_updated": "2026-03-29T06:45:13Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
       "id": "ddf0b149c7c7",
       "datetime": "2026-03-29T03:04:53Z",
       "type": "interception",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "country",
       "title": "UAE air defences intercept missiles and drones overnight (Mar 29)",
       "location": "UAE",
@@ -19,8 +19,8 @@
           "tier": "local"
         }
       ],
-      "_search_count": 2,
-      "_next_search_at": 1774775093.0
+      "_via": "rss",
+      "confidence": "low"
     },
     {
       "id": "415e0cf833ba",
