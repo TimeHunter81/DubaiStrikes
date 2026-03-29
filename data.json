@@ -6,7 +6,7 @@
       "id": "ddf0b149c7c7",
       "datetime": "2026-03-29T03:04:53Z",
       "type": "interception",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "UAE air defence responds to missile/drone salvo, Mar 29",
       "location": "UAE",
@@ -20,7 +20,9 @@
         }
       ],
       "confidence": "low",
-      "_via": "rss"
+      "_via": "rss",
+      "_search_count": 1,
+      "_next_search_at": 1774757093.0
     },
     {
       "id": "415e0cf833ba",
