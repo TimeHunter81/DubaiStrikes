@@ -188,7 +188,7 @@
       "id": "c8b05ed76c1e",
       "datetime": "2026-03-30T16:53:34Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "President Sheikh Mohamed discusses Iran war with European Council chief",
       "location": "UAE",
@@ -205,8 +205,8 @@
       "preview_image": "https://www.thenationalnews.com/resizer/v2/RZCOKF356FDFFOJBBLRYP2ICU4.jpg?smart=true&amp;auth=550979d9a867807c589ecb030d35ed900800bdfcef7cc3547b54a920f88735d5&amp;width=1200&amp;height=630",
       "_via": "rss",
       "confidence": "low",
-      "_search_count": 2,
-      "_next_search_at": 1774911214.0
+      "_search_count": 3,
+      "_next_search_at": 1774976014.0
     },
     {
       "id": "a7a008e0adac",
@@ -1117,7 +1117,7 @@
       "id": "4013ef67b338",
       "datetime": "2026-03-30T11:14:41Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "Abu Dhabi's ADGM records 36% rise in assets under management as it marks decade of operations",
       "location": "Abu Dhabi",
@@ -1134,14 +1134,14 @@
       "preview_image": "https://www.thenationalnews.com/resizer/v2/NDPRA5QWP2MRDXHZPVCGBTV75E.jpg?smart=true&amp;auth=8fa9107089a0f65400fe55d8c2eda0b2f3e5f340efee26ff42b57182beb14b83&amp;width=1200&amp;height=630",
       "_via": "rss",
       "confidence": "low",
-      "_search_count": 2,
-      "_next_search_at": 1774890881.0
+      "_search_count": 3,
+      "_next_search_at": 1774955681.0
     },
     {
       "id": "e792276c902e",
       "datetime": "2026-03-30T11:11:28Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "Donald Trump threatens to 'take the oil' in Iran",
       "location": "UAE",
@@ -1158,14 +1158,14 @@
       "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/IRAN_STRIKE_TEHRAN_AFP.jpg",
       "_via": "rss",
       "confidence": "low",
-      "_search_count": 2,
-      "_next_search_at": 1774890688.0
+      "_search_count": 3,
+      "_next_search_at": 1774955488.0
     },
     {
       "id": "8653e4616ec7",
       "datetime": "2026-03-30T11:08:46Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "Iran claims Israel attacked Kuwaiti desalination plant",
       "location": "UAE",
@@ -1182,8 +1182,8 @@
       "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/IRAN_STRIKE_TEHRAN_AFP.jpg",
       "_via": "rss",
       "confidence": "low",
-      "_search_count": 1,
-      "_next_search_at": 1774872526.0
+      "_search_count": 2,
+      "_next_search_at": 1774890526.0
     },
     {
       "id": "1dff18614b0e",
