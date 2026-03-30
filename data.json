@@ -6,7 +6,7 @@
       "id": "164777630840",
       "datetime": "2026-03-30T05:43:40Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "Israeli air strike kills at least three people in Gaza",
       "location": "UAE",
@@ -23,8 +23,8 @@
       "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/A%20man%20retrieves%20computer%20servers%20and%20equipment%20from%20an%20office%20building%20that%20housed%20the%20offices%20of%20the%20Doha-headquartered%20news%20network%20Al%20Araby.%2029%20March%202026%20afp.jpg",
       "_via": "rss",
       "confidence": "low",
-      "_search_count": 1,
-      "_next_search_at": 1774853020.0
+      "_search_count": 2,
+      "_next_search_at": 1774871020.0
     },
     {
       "id": "1ac02c09ef7f",
@@ -220,7 +220,7 @@
       "id": "428c1e39c0ee",
       "datetime": "2026-03-30T04:27:26Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "Rockets strike US military base near Baghdad, aircraft destroyed",
       "location": "UAE",
@@ -237,14 +237,14 @@
       "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/A%20man%20retrieves%20computer%20servers%20and%20equipment%20from%20an%20office%20building%20that%20housed%20the%20offices%20of%20the%20Doha-headquartered%20news%20network%20Al%20Araby.%2029%20March%202026%20afp.jpg",
       "_via": "rss",
       "confidence": "low",
-      "_search_count": 1,
-      "_next_search_at": 1774848446.0
+      "_search_count": 2,
+      "_next_search_at": 1774866446.0
     },
     {
       "id": "a28fe5d145a2",
       "datetime": "2026-03-30T04:24:00Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "US-Israel war on Iran, Day 31: What UAE residents need to know on March 30",
       "location": "Uae",
@@ -260,13 +260,15 @@
       "snippet": null,
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-30%2Ftr6qxnm5%2Fgulfnews2025-05-06187chmlkSTOCK-Tourists-in-Dubai.avif?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774848240.0
     },
     {
       "id": "71943de27be3",
       "datetime": "2026-03-30T04:16:03Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "UAE travel advisory: Which flights are suspended or delayed at Dubai and Abu Dhabi airports?",
       "location": "Abu Dhabi",
@@ -282,7 +284,9 @@
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/GAVPU5VEUBFMXPAGMXHPFKB6GQ.JPG?smart=true&amp;auth=e1b6c776cf14a6e2c599330aeddd09b371d798bfcfda91e69c781c895c9938fc&amp;width=1200&amp;height=630",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774847763.0
     },
     {
       "id": "7c692d0add85",
