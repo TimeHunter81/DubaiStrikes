@@ -309,8 +309,8 @@
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-30%2F4e0icc3w%2Fnewsml_afp_com_20260329T000000Z_PH_GTY_2268502681.jpeg?rect=0%2C0%2C1200%2C630&amp;w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
       "confidence": "low",
-      "_search_count": 1,
-      "_next_search_at": 1774847664.0
+      "_search_count": 2,
+      "_next_search_at": 1774865664.0
     },
     {
       "id": "23a46e09abd0",
@@ -333,8 +333,8 @@
       "preview_image": "https://www.thenationalnews.com/resizer/v2/OXQM7EMMB5EKVM2W6C2PKVC2MI.jpg?smart=true&amp;auth=5b4c38a06667d4d3f1a64eab8299312c01b856d8b1e360b60541c3d5f39facd2&amp;width=1200&amp;height=630",
       "_via": "rss",
       "confidence": "low",
-      "_search_count": 1,
-      "_next_search_at": 1774846800.0
+      "_search_count": 2,
+      "_next_search_at": 1774864800.0
     },
     {
       "id": "1dad187a58fd",
@@ -362,7 +362,7 @@
       "id": "99512176af8d",
       "datetime": "2026-03-30T03:37:31Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "Kuwaiti power and desalination plant hit in Iranian strike",
       "location": "UAE",
@@ -379,19 +379,19 @@
       "preview_image": "https://www.thenationalnews.com/resizer/v2/ES6YOPFPZDZKTPBANMA2TFKITY.jpg?smart=true&amp;auth=267bf093edc180a1ff4bde5a803257a39c2dba5aaabe34f3d6d2f88f778f9e7c&amp;width=1200&amp;height=630",
       "_via": "rss",
       "confidence": "low",
-      "_search_count": 1,
-      "_next_search_at": 1774845451.0
+      "_search_count": 2,
+      "_next_search_at": 1774863451.0
     },
     {
       "id": "c6bbcb4b0c33",
       "datetime": "2026-03-30T03:33:30Z",
       "type": "security_alert",
-      "confirmed": false,
-      "precision": "country",
+      "confirmed": true,
+      "precision": "city",
       "title": "Israeli military launches attacks on infrastructure in Tehran",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
+      "location": "Tehran, Iran",
+      "lat": 35.6892,
+      "lon": 51.389,
       "sources": [
         {
           "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-military-launches-attacks-infrastructure-tehran",
@@ -403,8 +403,8 @@
       "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/A%20man%20retrieves%20computer%20servers%20and%20equipment%20from%20an%20office%20building%20that%20housed%20the%20offices%20of%20the%20Doha-headquartered%20news%20network%20Al%20Araby.%2029%20March%202026%20afp.jpg",
       "_via": "rss",
       "confidence": "low",
-      "_search_count": 1,
-      "_next_search_at": 1774845210.0
+      "_search_count": 2,
+      "_next_search_at": 1774863210.0
     },
     {
       "id": "4c4c07a919e7",
