@@ -523,8 +523,8 @@
       "preview_image": "https://media.assettype.com/gulfnews%2F2025-08-16%2F9dndgs9c%2Fcourt-hammer.jpg?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
       "confidence": "low",
-      "_search_count": 1,
-      "_next_search_at": 1774844440.0
+      "_search_count": 2,
+      "_next_search_at": 1774862440.0
     },
     {
       "id": "2206435d1d3d",
@@ -547,8 +547,8 @@
       "preview_image": "https://media.assettype.com/gulfnews%2F2025-12-18%2F9lk36zsc%2FSTAFFNAT_251218_Rain_Sharjah_VSAKLANI_41766056856645.jpg?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
       "confidence": "low",
-      "_search_count": 1,
-      "_next_search_at": 1774844154.0
+      "_search_count": 2,
+      "_next_search_at": 1774862154.0
     },
     {
       "id": "3061a1510dae",
@@ -593,8 +593,8 @@
       "preview_image": "https://www.thenationalnews.com/resizer/v2/QQJ5XJN42FDYMWXDQRDEQ575I4.jpg?smart=true&amp;auth=bcc9b82d774421325f277afb84d4babdc7690b9d5415d40fc8723e496c6ca08f&amp;width=1200&amp;height=630",
       "_via": "rss",
       "confidence": "low",
-      "_search_count": 1,
-      "_next_search_at": 1774843200.0
+      "_search_count": 2,
+      "_next_search_at": 1774861200.0
     },
     {
       "id": "b65dbfc5f870",
@@ -640,7 +640,9 @@
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/4AZLVIP5CEPEHG3AO5XCLK4DHQ.jpg?smart=true&amp;auth=0aafda28e414ff849ebe7da3dd73ca2861ffa527d8eda83129a5013bc121d7ae&amp;width=1200&amp;height=630",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774841931.0
     },
     {
       "id": "7bb2653aa82a",
