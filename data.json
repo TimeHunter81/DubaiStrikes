@@ -1936,8 +1936,8 @@
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-29%2Fhfz6gxal%2FIran.jpg?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
       "confidence": "low",
-      "_search_count": 2,
-      "_next_search_at": 1774773791.0
+      "_search_count": 3,
+      "_next_search_at": 1774838591.0
     },
     {
       "id": "42951bda4a19",
@@ -2047,7 +2047,9 @@
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/IQQO4NVUAWEPCAAUMZRWWPH5GY.jpg?smart=true&amp;auth=7f175a3ea7b39d488429833cf6516d27a3b8b102a119e49eddf4adee4fd672ca&amp;width=1200&amp;height=630",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774724295.0
     },
     {
       "id": "0b405825d154",
@@ -2091,7 +2093,9 @@
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/XM3XX2EBLZ6N25AGOY5SZZTOOE.jpg?smart=true&amp;auth=d082238c7234c90df045fffb9c8794824dba179290826dd82646c7ff20b3882c&amp;width=1200&amp;height=630",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774721691.0
     },
     {
       "id": "604c59d51992",
@@ -2120,11 +2124,11 @@
       "datetime": "2026-03-28T15:29:36Z",
       "type": "security_alert",
       "confirmed": false,
-      "precision": "country",
+      "precision": "city",
       "title": "Zayed Marathon held in Gaza as part of UAE's Operation Gallant Knight 3",
-      "location": "Uae",
-      "lat": null,
-      "lon": null,
+      "location": "Gaza",
+      "lat": 31.5,
+      "lon": 34.47,
       "sources": [
         {
           "url": "https://www.thenationalnews.com/news/uae/2026/03/28/zayed-marathon-held-in-gaza-as-part-of-uaes-operation-gallant-knight-3/",
@@ -2135,7 +2139,9 @@
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/FSJMWXKTG6O3NITYQZHH6CHEC4.jpg?smart=true&amp;auth=d3a1996b2feb1f94c0fd6277c86348b150b0649434c4dc6c1f81e872af2f0df3&amp;width=1200&amp;height=630",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774715376.0
     },
     {
       "id": "93b933d48102",
