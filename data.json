@@ -593,8 +593,8 @@
       "preview_image": "https://www.thenationalnews.com/resizer/v2/QQJ5XJN42FDYMWXDQRDEQ575I4.jpg?smart=true&amp;auth=bcc9b82d774421325f277afb84d4babdc7690b9d5415d40fc8723e496c6ca08f&amp;width=1200&amp;height=630",
       "_via": "rss",
       "confidence": "low",
-      "_search_count": 2,
-      "_next_search_at": 1774861200.0
+      "_search_count": 3,
+      "_next_search_at": 1774926000.0
     },
     {
       "id": "b65dbfc5f870",
@@ -1375,18 +1375,20 @@
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/XWPMHZAUZBGPJGDFAF3DVUMSGU.jpg?smart=true&amp;auth=6f80f1481da7631157be21bf110b45e86d88c94f0f0ab3a39ed455ffaeac2bf5&amp;width=1200&amp;height=630",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774800110.0
     },
     {
       "id": "b4dd177b2de1",
       "datetime": "2026-03-29T14:28:18Z",
       "type": "security_alert",
-      "confirmed": false,
-      "precision": "country",
+      "confirmed": true,
+      "precision": "city",
       "title": "Sheikh Mohammed says UAE operating with ‘complete efficiency’",
-      "location": "Uae",
-      "lat": null,
-      "lon": null,
+      "location": "Dubai",
+      "lat": 25.2048,
+      "lon": 55.2708,
       "sources": [
         {
           "url": "https://www.thenationalnews.com/news/uae/2026/03/29/sheikh-mohammed-says-uae-operating-with-complete-efficiency/",
@@ -1397,7 +1399,9 @@
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/WQX6YFPX45DAVABDEOAM66RM5Y.jfif?smart=true&amp;auth=3b0d823b2a28a86971fbe8d904015c954487759534817a52862c1dd1cdd83799&amp;width=1200&amp;height=630",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774798098.0
     },
     {
       "id": "12889a869665",
@@ -1447,7 +1451,7 @@
       "id": "e9bfe63325b2",
       "datetime": "2026-03-29T11:38:51Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "UAE reports interception of 16 missiles and 42 drones on Sunday",
       "location": "Uae",
@@ -1463,7 +1467,9 @@
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/DXN25DHBKBAJZOAAUBX7EAOBAI.jpg?smart=true&amp;auth=6da006209bcde08a132333c799cca239a836bf3e561495faf51e4b39a12e0f44&amp;width=1200&amp;height=630",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774787931.0
     },
     {
       "id": "485f57ca8988",
