@@ -904,12 +904,12 @@
       "id": "cd13afc7cb89",
       "datetime": "2026-03-30T00:58:36Z",
       "type": "security_alert",
-      "confirmed": false,
-      "precision": "country",
+      "confirmed": true,
+      "precision": "city",
       "title": "Kuwait: Indian worker killed in Iranian attack on Kuwait power station, water desalination service building",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
+      "location": "Kuwait City, Kuwait",
+      "lat": 29.3759,
+      "lon": 47.9774,
       "sources": [
         {
           "url": "https://gulfnews.com/world/mena/kuwait-service-building-of-power-station-water-desalination-plant-damaged-in-iranian-attack-1.500490314",
@@ -921,8 +921,8 @@
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-30%2Fum8b2ift%2FKuwait.jpeg?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
       "confidence": "low",
-      "_search_count": 1,
-      "_next_search_at": 1774835916.0
+      "_search_count": 2,
+      "_next_search_at": 1774853916.0
     },
     {
       "id": "a543810acc9f",
@@ -1067,7 +1067,7 @@
       "id": "f66da76fa7a7",
       "datetime": "2026-03-29T23:35:03Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "UK forces destroy 7 Iranian attack drones in one night amid Middle East tensions",
       "location": "UAE",
@@ -1084,14 +1084,14 @@
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-03%2Fa0veopey%2Fnewsml_afp_com_20260303T195440Z_doc_99ta2zf.jpeg?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
       "confidence": "low",
-      "_search_count": 1,
-      "_next_search_at": 1774830903.0
+      "_search_count": 2,
+      "_next_search_at": 1774848903.0
     },
     {
       "id": "6e9fa4d52b6b",
       "datetime": "2026-03-29T22:52:41Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "Billionaire Naguib Sawiris spotlights the UAE’s strength amid challenges",
       "location": "Uae",
@@ -1108,8 +1108,8 @@
       "preview_image": "https://media.assettype.com/gulfnews%2F2024-11-18%2Fnncnouzm%2F__18b42678e09_original_ratio.jpg?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
       "confidence": "low",
-      "_search_count": 1,
-      "_next_search_at": 1774828361.0
+      "_search_count": 2,
+      "_next_search_at": 1774846361.0
     },
     {
       "id": "cec94f649c52",
@@ -1335,12 +1335,12 @@
       "id": "693f792276dd",
       "datetime": "2026-03-29T16:21:23Z",
       "type": "security_alert",
-      "confirmed": false,
-      "precision": "country",
+      "confirmed": true,
+      "precision": "city",
       "title": "Iran must pay compensation for attacks on Gulf states, says top UAE official",
-      "location": "Uae",
-      "lat": null,
-      "lon": null,
+      "location": "Abu Dhabi, UAE",
+      "lat": 24.4539,
+      "lon": 54.3773,
       "sources": [
         {
           "url": "https://www.thenationalnews.com/news/gulf/2026/03/29/iran-must-pay-reparations-for-attacks-on-gulf-states-says-top-uae-official/",
@@ -1351,7 +1351,9 @@
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/L537C6JPKZFH5PMC4KUHCVTOYU.jpg?smart=true&amp;auth=7063ef5edad57d59f447062bbd5e6c120bb542a611b7f82d8e97c7d6a96f8d5a&amp;width=1200&amp;height=630",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774804883.0
     },
     {
       "id": "5332825b22f0",
