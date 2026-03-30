@@ -317,8 +317,8 @@
       "preview_image": "https://www.middleeasteye.net/sites/default/files/images-story/Qesser%20Zuhrah.jpg",
       "_via": "rss",
       "confidence": "low",
-      "_search_count": 1,
-      "_next_search_at": 1774890644.0
+      "_search_count": 2,
+      "_next_search_at": 1774908644.0
     },
     {
       "id": "de838e5b3783",
@@ -341,8 +341,8 @@
       "preview_image": "https://www.middleeasteye.net/sites/default/files/images-story/cafe-tehran-destroyed-us-israel-strike-iran-war-29-march-2026-afp.jpg",
       "_via": "rss",
       "confidence": "low",
-      "_search_count": 1,
-      "_next_search_at": 1774890446.0
+      "_search_count": 2,
+      "_next_search_at": 1774908446.0
     },
     {
       "id": "7a41994b17f1",
@@ -409,8 +409,8 @@
       "preview_image": "https://www.middleeasteye.net/sites/default/files/images-story/Sanchez%20reuters.jpg",
       "_via": "rss",
       "confidence": "low",
-      "_search_count": 1,
-      "_next_search_at": 1774889527.0
+      "_search_count": 2,
+      "_next_search_at": 1774907527.0
     },
     {
       "id": "f9304717c160",
@@ -528,7 +528,7 @@
       "id": "f243dbf40458",
       "datetime": "2026-03-30T15:29:56Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "Sheikh Hamdan announces Dh1 billion support package for Dubai’s business sector",
       "location": "Dubai",
@@ -544,7 +544,9 @@
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/X32CQYFJD5HYFN6GWYUZUSFBXM.jpeg?smart=true&amp;auth=967e4eea5396594f29d39ca896223943f6a360cd96ac1fc49df706da5e4e9469&amp;width=1200&amp;height=630",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774888196.0
     },
     {
       "id": "cc02b4e30b2c",
