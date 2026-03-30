@@ -624,7 +624,7 @@
       "id": "d1269dd3b444",
       "datetime": "2026-03-30T02:38:51Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "US-Iran latest: Trump says 'preference is to take the oil’ from Iran",
       "location": "UAE",
@@ -641,19 +641,19 @@
       "preview_image": "https://www.thenationalnews.com/resizer/v2/4AZLVIP5CEPEHG3AO5XCLK4DHQ.jpg?smart=true&amp;auth=0aafda28e414ff849ebe7da3dd73ca2861ffa527d8eda83129a5013bc121d7ae&amp;width=1200&amp;height=630",
       "_via": "rss",
       "confidence": "low",
-      "_search_count": 1,
-      "_next_search_at": 1774841931.0
+      "_search_count": 2,
+      "_next_search_at": 1774859931.0
     },
     {
       "id": "7bb2653aa82a",
       "datetime": "2026-03-30T02:23:10Z",
       "type": "security_alert",
-      "confirmed": false,
-      "precision": "country",
+      "confirmed": true,
+      "precision": "city",
       "title": "Israel says it intercepted two drones launched from Yemen",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
+      "location": "Eilat, Israel",
+      "lat": 29.56,
+      "lon": 34.95,
       "sources": [
         {
           "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israel-says-it-intercepted-two-drones-fired-yemen",
@@ -664,13 +664,15 @@
       "snippet": "&lt;article data-history-node-id=\"436971\" about=\"https://www.middleeasteye.net/live-blog/live-blog-update/israel-says-it-intercepted-two-drones-fired-yemen\" class=\"live-blog-update default clearfix\"&gt;\n\n  \n      &lt;h2&gt;\n      &lt;a href=\"https://",
       "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/A%20man%20retrieves%20computer%20servers%20and%20equipment%20from%20an%20office%20building%20that%20housed%20the%20offices%20of%20the%20Doha-headquartered%20news%20network%20Al%20Araby.%2029%20March%202026%20afp.jpg",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774840990.0
     },
     {
       "id": "fb106a8ea5ac",
       "datetime": "2026-03-30T02:20:07Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "Iranian strike damages US surveillance plane in Saudi Arabia",
       "location": "UAE",
@@ -686,7 +688,9 @@
       "snippet": "&lt;article data-history-node-id=\"436970\" about=\"https://www.middleeasteye.net/live-blog/live-blog-update/iranian-strike-damages-us-surveillance-plane-saudi-arabia\" class=\"live-blog-update default clearfix\"&gt;\n\n  \n      &lt;h2&gt;\n      &lt;a href=\"",
       "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/A%20man%20retrieves%20computer%20servers%20and%20equipment%20from%20an%20office%20building%20that%20housed%20the%20offices%20of%20the%20Doha-headquartered%20news%20network%20Al%20Araby.%2029%20March%202026%20afp.jpg",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774840807.0
     },
     {
       "id": "64ba6d60f6a0",
@@ -736,7 +740,7 @@
       "id": "2820afe70279",
       "datetime": "2026-03-30T02:00:00Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "Gulf consulting market steady as conflict shifts demand to cyber security",
       "location": "UAE",
@@ -752,7 +756,9 @@
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/ZPW25NCTZD6OQWVZK2CQLV43VU.jpg?smart=true&amp;auth=cf00c415d5813bd09840aa93ea2d145c57cd8f593349637309a4ffa1af74e073&amp;width=1200&amp;height=630",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774839600.0
     },
     {
       "id": "7e9f5de01808",
