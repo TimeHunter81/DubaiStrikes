@@ -1818,8 +1818,8 @@
       "preview_image": "https://www.thenationalnews.com/resizer/v2/4N3P7ZIWSRB6FMAPNEZPLQ5JSA?smart=true&amp;auth=937b799f259b04089e920c79ed6cd5a4a67eecf436bb69c04efd1df012a80a20&amp;width=1200&amp;height=630",
       "_via": "rss",
       "confidence": "low",
-      "_search_count": 2,
-      "_next_search_at": 1774784991.0
+      "_search_count": 3,
+      "_next_search_at": 1774849791.0
     },
     {
       "id": "db6754d7be4c",
@@ -1841,13 +1841,15 @@
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/26N2YL7GJRCF5CCDY2VXUYASPY?smart=true&amp;auth=ab1a67c05860ff361a68915f828dfc1c5008f129c9ec208f18619c63251cd7e5&amp;width=1200&amp;height=630",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774763289.0
     },
     {
       "id": "d54395fd7c30",
       "datetime": "2026-03-29T04:24:01Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "UAE and Bahrain's main aluminium producers say plants damaged by Iranian attacks",
       "location": "Uae",
@@ -1863,7 +1865,9 @@
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/ELYU3TKKKRDERAHDD7LAVSVZMI.jpg?smart=true&amp;auth=1d771db63e2a3ac06769856dae2e926aa80bc8d170ee5db57a47bd989283b89b&amp;width=1200&amp;height=630",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774761841.0
     },
     {
       "id": "cf6ca06aee38",
@@ -1885,7 +1889,9 @@
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/UHYLQIFJZRCKRI2EHIGYSETKZE.jpg?smart=true&amp;auth=31006a52552a9f1f55afdd500d5a6875df98a391566d617de153872cb15a8546&amp;width=1200&amp;height=630",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774761785.0
     },
     {
       "id": "62ede664c57f",
