@@ -731,8 +731,8 @@
       "preview_image": "https://meduza.io/imgly/share/1774886354/en/feature/2026/03/30/last-week-ukrainian-drones-reportedly-landed-in-latvia-estonia-and-lithuania-russian-propaganda-was-quick-to-react",
       "_via": "rss",
       "confidence": "low",
-      "_search_count": 1,
-      "_next_search_at": 1774883639.0
+      "_search_count": 2,
+      "_next_search_at": 1774901639.0
     },
     {
       "id": "258395c76a3f",
@@ -799,8 +799,8 @@
       "preview_image": "https://www.middleeasteye.net/sites/default/files/images-story/Undated-Baykar-TB3-TCG-ANADOLU-handout.jpeg",
       "_via": "rss",
       "confidence": "low",
-      "_search_count": 1,
-      "_next_search_at": 1774881992.0
+      "_search_count": 2,
+      "_next_search_at": 1774899992.0
     },
     {
       "id": "8aa53320aabc",
@@ -869,8 +869,8 @@
       "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/IRAN_STRIKE_TEHRAN_AFP.jpg",
       "_via": "rss",
       "confidence": "low",
-      "_search_count": 1,
-      "_next_search_at": 1774879607.0
+      "_search_count": 2,
+      "_next_search_at": 1774897607.0
     },
     {
       "id": "9a052035864c",
@@ -898,7 +898,7 @@
       "id": "3b50c7a410dd",
       "datetime": "2026-03-30T12:52:00Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "UAE arrests dozens of British citizens over online posts during Iran war",
       "location": "Uae",
@@ -914,7 +914,9 @@
       "snippet": "&lt;article data-history-node-id=\"437014\" about=\"https://www.middleeasteye.net/news/uae-arrests-dozens-british-citizens-over-online-posts-amid-iran-war\" class=\"story default clearfix\"&gt;\n\n  \n      &lt;h2&gt;\n      &lt;a href=\"https://www.middleeaste",
       "preview_image": "https://www.middleeasteye.net/sites/default/files/images-story/000_A62Q8ZZ%20%281%29.jpg",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774878720.0
     },
     {
       "id": "4e31ebe68366",
