@@ -1011,8 +1011,8 @@
       "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/IRAN_STRIKE_TEHRAN_AFP.jpg",
       "_via": "rss",
       "confidence": "low",
-      "_search_count": 1,
-      "_next_search_at": 1774873967.0
+      "_search_count": 2,
+      "_next_search_at": 1774891967.0
     },
     {
       "id": "494b9755a21a",
@@ -1034,7 +1034,9 @@
       "snippet": "&lt;article data-history-node-id=\"436993\" about=\"https://www.middleeasteye.net/opinion/israel-making-sure-trump-cannot-find-ramp-iran\" class=\"opinion default clearfix\"&gt;\n\n  \n      &lt;h2&gt;\n      &lt;a href=\"https://www.middleeasteye.net/opinion/i",
       "preview_image": "https://www.middleeasteye.net/sites/default/files/images-story/US%20President%20Donald%20Trump%20points%20his%20finger%20towards%20Israeli%20Prime%20Minister%20Benjamin%20Netanyahu%20during%20a%20meeting%20in%20Florida%2C%20US%2C%20on%2029%20December%2C%202025%20%28Reuters%29.jpg",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774873888.0
     },
     {
       "id": "ed9a632e8ed8",
@@ -1062,7 +1064,7 @@
       "id": "b463fb61b055",
       "datetime": "2026-03-30T11:24:39Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "UAE intercepts 11 missiles and 27 drones on Monday",
       "location": "Uae",
@@ -1073,23 +1075,30 @@
           "url": "https://www.thenationalnews.com/news/uae/2026/03/30/uae-iran-missile-interceptions/",
           "domain": "thenationalnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://gulfnews.com/uae/uae-air-defences-intercept-11-ballistic-missiles-and-27-drones-from-iran-on-march-30",
+          "domain": "gulfnews.com",
+          "tier": "wire"
         }
       ],
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/PA2XT3FDUJCYHA2ERNOL6VM6SQ.jpg?smart=true&amp;auth=0289fd7a47be70c1b61c1a40be56c69909558fd69ddfc6c8f19db81e00e65624&amp;width=1200&amp;height=630",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774873479.0
     },
     {
       "id": "87a02c6baa06",
       "datetime": "2026-03-30T11:18:06Z",
       "type": "security_alert",
-      "confirmed": false,
-      "precision": "country",
+      "confirmed": true,
+      "precision": "city",
       "title": "Rocket attack targets Baghdad army base",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
+      "location": "Baghdad, Iraq",
+      "lat": 33.3128,
+      "lon": 44.3615,
       "sources": [
         {
           "url": "https://www.middleeasteye.net/live-blog/live-blog-update/rocket-attack-targets-baghdad-army-base",
@@ -1100,7 +1109,9 @@
       "snippet": "&lt;article data-history-node-id=\"437010\" about=\"https://www.middleeasteye.net/live-blog/live-blog-update/rocket-attack-targets-baghdad-army-base\" class=\"live-blog-update default clearfix\"&gt;\n\n  \n      &lt;h2&gt;\n      &lt;a href=\"https://www.middle",
       "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/IRAN_STRIKE_TEHRAN_AFP.jpg",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774873086.0
     },
     {
       "id": "4013ef67b338",
