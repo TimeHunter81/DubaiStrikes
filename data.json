@@ -1525,7 +1525,7 @@
       "id": "d2318281977e",
       "datetime": "2026-03-29T10:31:49Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "Pakistan hosts Saudi, Turkish and Egyptian diplomats for talks on Iran war",
       "location": "UAE",
@@ -1536,20 +1536,25 @@
           "url": "https://www.thenationalnews.com/news/mena/2026/03/29/pakistan-hosts-saudi-turkish-and-egyptian-diplomats-for-talks-on-iran-war/",
           "domain": "thenationalnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://www.pbs.org/newshour/world/iran-warns-us-ground-troops-diplomats-meet-pakistan/",
+          "domain": "pbs.org",
+          "tier": "wire"
         }
       ],
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/LCT655BNCRFFJPIO4G4O2AQDA4.jpg?smart=true&amp;auth=62d50fa881f51c96144f78ea84e01d15cef9dbeb320918b3962a97b67b6518cf&amp;width=1200&amp;height=630",
       "_via": "rss",
       "confidence": "low",
-      "_search_count": 2,
-      "_next_search_at": 1774801909.0
+      "_search_count": 3,
+      "_next_search_at": 1774866709.0
     },
     {
       "id": "9dbbd371fbd4",
       "datetime": "2026-03-29T10:16:02Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "UAE financial sector can weather impact of Iran war, executives say",
       "location": "Uae",
@@ -1566,14 +1571,14 @@
       "preview_image": "https://www.thenationalnews.com/resizer/v2/SCE5L6ZUUNGJHEV5UCIPPWJZAQ.jpg?smart=true&amp;auth=6d58feb2540019e1edea4108aa763d86018fc68914c081efdd9547f68f89cdee&amp;width=1200&amp;height=630",
       "_via": "rss",
       "confidence": "low",
-      "_search_count": 2,
-      "_next_search_at": 1774800962.0
+      "_search_count": 3,
+      "_next_search_at": 1774865762.0
     },
     {
       "id": "c3bf45dcb215",
       "datetime": "2026-03-29T10:13:12Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "New cycle tracks open to expand Dubai as a bike-safe city",
       "location": "Dubai",
@@ -1584,18 +1589,25 @@
           "url": "https://www.thenationalnews.com/news/uae/2026/03/29/new-cycle-tracks-open-to-expand-dubai-as-a-bike-safe-city/",
           "domain": "thenationalnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://gulfbusiness.com/13-new-cycling-tracks-dubai-difc-beach/",
+          "domain": "gulfbusiness.com",
+          "tier": "wire"
         }
       ],
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/MDO2FRKPIRC3TOPB3TTUQKPDJ4.jpg?smart=true&amp;auth=3c010eefdde85164e9483d6fec0982b7e5a68911071b89d23ab6c1ccb3a9a88a&amp;width=1200&amp;height=630",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774782792.0
     },
     {
       "id": "eae538501652",
       "datetime": "2026-03-29T09:53:31Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "Dubai World Cup Style Stakes winners: Who took home the fashion crowns at the horse racing event?",
       "location": "Dubai",
@@ -1606,12 +1618,19 @@
           "url": "https://www.thenationalnews.com/lifestyle/fashion-beauty/2026/03/29/dubai-world-cup-fashion-style-stakes-winners/",
           "domain": "thenationalnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://www.msn.com/en-us/sports/horseracing/dubai-world-cup-style-stakes-winners/",
+          "domain": "msn.com",
+          "tier": "wire"
         }
       ],
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/AX6U7ZZX4ZHIVIWFAF4ZOZZFPA.jpg?smart=true&amp;auth=b77ce5c850d8bdf6d004fb77c889dd95a82901d2e62d16de28ef58172cec4622&amp;width=1200&amp;height=630",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774781611.0
     },
     {
       "id": "dc49955aaff8",
