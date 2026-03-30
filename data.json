@@ -316,7 +316,9 @@
       "snippet": "&lt;article data-history-node-id=\"437021\" about=\"https://www.middleeasteye.net/news/palestine-action-hunger-striker-arrested-dawn-raid-masked-police\" class=\"story default clearfix\"&gt;\n\n  \n      &lt;h2&gt;\n      &lt;a href=\"https://www.middleeasteye.",
       "preview_image": "https://www.middleeasteye.net/sites/default/files/images-story/Qesser%20Zuhrah.jpg",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774890644.0
     },
     {
       "id": "de838e5b3783",
@@ -338,7 +340,9 @@
       "snippet": "&lt;article data-history-node-id=\"437019\" about=\"https://www.middleeasteye.net/news/iranian-livelihoods-being-blown-apart-us-israeli-bombs\" class=\"story default clearfix\"&gt;\n\n  \n      &lt;h2&gt;\n      &lt;a href=\"https://www.middleeasteye.net/news/i",
       "preview_image": "https://www.middleeasteye.net/sites/default/files/images-story/cafe-tehran-destroyed-us-israel-strike-iran-war-29-march-2026-afp.jpg",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774890446.0
     },
     {
       "id": "7a41994b17f1",
@@ -404,7 +408,9 @@
       "snippet": "&lt;article data-history-node-id=\"437024\" about=\"https://www.middleeasteye.net/news/how-spains-memory-iraq-shaped-sanchez-response-war-iran\" class=\"story default clearfix\"&gt;\n\n  \n      &lt;h2&gt;\n      &lt;a href=\"https://www.middleeasteye.net/news/",
       "preview_image": "https://www.middleeasteye.net/sites/default/files/images-story/Sanchez%20reuters.jpg",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774889527.0
     },
     {
       "id": "f9304717c160",
@@ -476,7 +482,7 @@
       "id": "e66a6fcce6ae",
       "datetime": "2026-03-30T15:39:38Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "Dubai approves Dh1b economic support package to boost resilience",
       "location": "Dubai",
@@ -492,7 +498,9 @@
       "snippet": null,
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-12%2Fhen94nq5%2FSTAFFNAT_260312_Dubai_Skyline_VSAKLANI_21773321046231.jpg?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774888778.0
     },
     {
       "id": "e0beccfcffc7",
