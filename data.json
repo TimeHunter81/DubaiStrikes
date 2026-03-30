@@ -920,7 +920,9 @@
       "snippet": null,
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-30%2Fum8b2ift%2FKuwait.jpeg?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774835916.0
     },
     {
       "id": "a543810acc9f",
@@ -992,23 +994,30 @@
       "id": "6588ad840745",
       "datetime": "2026-03-30T00:07:22Z",
       "type": "security_alert",
-      "confirmed": false,
-      "precision": "country",
+      "confirmed": true,
+      "precision": "city",
       "title": "UAE air defences respond to missile threats",
-      "location": "Uae",
-      "lat": null,
-      "lon": null,
+      "location": "Abu Dhabi, UAE",
+      "lat": 24.498,
+      "lon": 54.69,
       "sources": [
         {
           "url": "https://gulfnews.com/uae/uae-air-defences-respond-to-missile-threats-1.500490296",
           "domain": "gulfnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://www.bbc.co.uk/news/articles/cp86yrq5jy7o",
+          "domain": "bbc.co.uk",
+          "tier": "wire"
         }
       ],
       "snippet": null,
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-30%2Feuqaapca%2Fgulfnews2026-03-26iffru2zjUAEflag.avif?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774832842.0
     },
     {
       "id": "2710db86a203",
@@ -1074,7 +1083,9 @@
       "snippet": null,
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-03%2Fa0veopey%2Fnewsml_afp_com_20260303T195440Z_doc_99ta2zf.jpeg?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774830903.0
     },
     {
       "id": "6e9fa4d52b6b",
@@ -1096,7 +1107,9 @@
       "snippet": null,
       "preview_image": "https://media.assettype.com/gulfnews%2F2024-11-18%2Fnncnouzm%2F__18b42678e09_original_ratio.jpg?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774828361.0
     },
     {
       "id": "cec94f649c52",
