@@ -137,8 +137,8 @@
       "preview_image": "https://www.middleeasteye.net/sites/default/files/images-story/Bannon-afp-2026.jpg",
       "_via": "rss",
       "confidence": "low",
-      "_search_count": 2,
-      "_next_search_at": 1774914785.0
+      "_search_count": 3,
+      "_next_search_at": 1774979585.0
     },
     {
       "id": "88f322c4db69",
@@ -1526,8 +1526,8 @@
       "preview_image": "https://www.thenationalnews.com/resizer/v2/GAVPU5VEUBFMXPAGMXHPFKB6GQ.JPG?smart=true&amp;auth=e1b6c776cf14a6e2c599330aeddd09b371d798bfcfda91e69c781c895c9938fc&amp;width=1200&amp;height=630",
       "_via": "rss",
       "confidence": "low",
-      "_search_count": 2,
-      "_next_search_at": 1774865763.0
+      "_search_count": 3,
+      "_next_search_at": 1774930563.0
     },
     {
       "id": "ff9d3f8b3ec6",
@@ -1550,8 +1550,8 @@
       "preview_image": "https://www.thenationalnews.com/resizer/v2/OXQM7EMMB5EKVM2W6C2PKVC2MI.jpg?smart=true&amp;auth=5b4c38a06667d4d3f1a64eab8299312c01b856d8b1e360b60541c3d5f39facd2&amp;width=1200&amp;height=630",
       "_via": "rss",
       "confidence": "low",
-      "_search_count": 2,
-      "_next_search_at": 1774864800.0
+      "_search_count": 3,
+      "_next_search_at": 1774929600.0
     },
     {
       "id": "99512176af8d",
@@ -1573,7 +1573,9 @@
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/ES6YOPFPZDZKTPBANMA2TFKITY.jpg?smart=true&amp;auth=267bf093edc180a1ff4bde5a803257a39c2dba5aaabe34f3d6d2f88f778f9e7c&amp;width=1200&amp;height=630",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774845451.0
     },
     {
       "id": "3f0409f23bfe",
