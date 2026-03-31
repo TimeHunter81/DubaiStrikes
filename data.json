@@ -723,7 +723,7 @@
       "id": "ee633f725e74",
       "datetime": "2026-03-31T02:08:38Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "Report: US carried out major airstrike on Isfahan depot",
       "location": "UAE",
@@ -734,14 +734,19 @@
           "url": "https://www.middleeasteye.net/live-blog/live-blog-update/report-us-carried-out-major-airstrike-isfahan-depot",
           "domain": "middleeasteye.net",
           "tier": "local"
+        },
+        {
+          "url": "https://apnews.com/article/iran-us-israel-trump-lebanon-march-31-2026-07fcd5216ceae44965de79a60a4623da",
+          "domain": "apnews.com",
+          "tier": "wire"
         }
       ],
       "snippet": "&lt;article data-history-node-id=\"437046\" about=\"https://www.middleeasteye.net/live-blog/live-blog-update/report-us-carried-out-major-airstrike-isfahan-depot\" class=\"live-blog-update default clearfix\"&gt;\n\n  \n      &lt;h2&gt;\n      &lt;a href=\"https:",
       "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/beirut-displaced-afp.jpg",
       "_via": "rss",
       "confidence": "low",
-      "_search_count": 2,
-      "_next_search_at": 1774944518.0
+      "_search_count": 3,
+      "_next_search_at": 1775009318.0
     },
     {
       "id": "eeff392dcf68",
@@ -776,25 +781,30 @@
       "id": "d41ac89c34a5",
       "datetime": "2026-03-31T01:57:27Z",
       "type": "security_alert",
-      "confirmed": false,
-      "precision": "country",
+      "confirmed": true,
+      "precision": "city",
       "title": "Trump posts video of explosions amid reported Tehran strikes",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
+      "location": "Tehran, Iran",
+      "lat": 35.69,
+      "lon": 51.39,
       "sources": [
         {
           "url": "https://www.middleeasteye.net/live-blog/live-blog-update/trump-posts-video-explosions-amid-reported-tehran-strikes",
           "domain": "middleeasteye.net",
           "tier": "local"
+        },
+        {
+          "url": "https://apnews.com/live/iran-war-israel-trump-03-31-2026",
+          "domain": "apnews.com",
+          "tier": "wire"
         }
       ],
       "snippet": "&lt;article data-history-node-id=\"437043\" about=\"https://www.middleeasteye.net/live-blog/live-blog-update/trump-posts-video-explosions-amid-reported-tehran-strikes\" class=\"live-blog-update default clearfix\"&gt;\n\n  \n      &lt;h2&gt;\n      &lt;a href=\"",
       "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/beirut-displaced-afp.jpg",
       "_via": "rss",
       "confidence": "low",
-      "_search_count": 2,
-      "_next_search_at": 1774943847.0
+      "_search_count": 3,
+      "_next_search_at": 1775008647.0
     },
     {
       "id": "7913e571b353",
@@ -839,8 +849,8 @@
       "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/beirut-displaced-afp.jpg",
       "_via": "rss",
       "confidence": "low",
-      "_search_count": 2,
-      "_next_search_at": 1774943701.0
+      "_search_count": 3,
+      "_next_search_at": 1775008501.0
     },
     {
       "id": "63871f1ee327",
@@ -897,25 +907,30 @@
       "id": "75aef95794f6",
       "datetime": "2026-03-31T01:01:09Z",
       "type": "security_alert",
-      "confirmed": false,
-      "precision": "country",
+      "confirmed": true,
+      "precision": "city",
       "title": "Hezbollah, Israel give conflicting accounts of Haifa oil refinery fire",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
+      "location": "Haifa, Israel",
+      "lat": 32.817,
+      "lon": 35.003,
       "sources": [
         {
           "url": "https://www.middleeasteye.net/live-blog/live-blog-update/hezbollah-israel-give-conflicting-accounts-haifa-oil-refinery-fire",
           "domain": "middleeasteye.net",
           "tier": "local"
+        },
+        {
+          "url": "https://apnews.com/article/iran-us-israel-trump-lebanon-march-30-2026-8abb0ee50be4cd8dd9ddde3a9d846ef8",
+          "domain": "apnews.com",
+          "tier": "wire"
         }
       ],
       "snippet": "&lt;article data-history-node-id=\"437041\" about=\"https://www.middleeasteye.net/live-blog/live-blog-update/hezbollah-israel-give-conflicting-accounts-haifa-oil-refinery-fire\" class=\"live-blog-update default clearfix\"&gt;\n\n  \n      &lt;h2&gt;\n      &lt",
       "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/beirut-displaced-afp.jpg",
       "_via": "rss",
       "confidence": "low",
-      "_search_count": 1,
-      "_next_search_at": 1774922469.0
+      "_search_count": 2,
+      "_next_search_at": 1774940469.0
     },
     {
       "id": "89d1cf4b3acd",
