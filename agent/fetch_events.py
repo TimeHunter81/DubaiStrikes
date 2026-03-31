@@ -53,11 +53,13 @@ NOISE_PATTERNS = [
     r"\b(history|historical|context|background|profile|portrait|timeline)\b",
 ]
 
-# UAE/Gulf keywords to filter RSS items
-RSS_KEYWORDS = [
+# UAE/Gulf keywords — both groups must match to accept an RSS article
+RSS_UAE_KEYWORDS = [
     "dubai", "abu dhabi", "uae", "emirates", "sharjah", "gulf",
-    "iran", "irgc", "houthi", "hezbollah", "missile", "drone",
-    "strike", "attack", "explosion", "airspace", "military", "interception",
+]
+RSS_SECURITY_KEYWORDS = [
+    "missile", "drone", "strike", "attack", "explosion",
+    "interception", "airspace", "military", "irgc", "houthi", "hezbollah",
 ]
 
 # ── GDELT ───────────────────────────────────────────────────────────────────
@@ -117,10 +119,32 @@ SOURCE_TIERS = {
 }
 
 # Known locations → (lat, lon)
+# Sorted longest-first at runtime; add specific landmarks before generic city names
 LOCATION_COORDS = {
+    # Airports
     "dubai international airport": (25.2528, 55.3644),
-    "al dhafra air base":          (24.2481, 54.5478),
+    "dubai airport":               (25.2528, 55.3644),
     "abu dhabi international":     (24.4330, 54.6511),
+    "al maktoum international":    (24.8960, 55.1614),
+    # Military
+    "al dhafra air base":          (24.2481, 54.5478),
+    "al minhad air base":          (25.0268, 55.3661),
+    # Dubai landmarks / districts
+    "address creek":               (25.1985, 55.2766),
+    "address downtown":            (25.1972, 55.2744),
+    "burj khalifa":                (25.1972, 55.2744),
+    "burj al arab":                (25.1412, 55.1853),
+    "palm jumeirah":               (25.1124, 55.1390),
+    "dubai marina":                (25.0819, 55.1367),
+    "downtown dubai":              (25.1972, 55.2744),
+    "deira":                       (25.2697, 55.3094),
+    "bur dubai":                   (25.2532, 55.2979),
+    "jebel ali":                   (25.0153, 55.0613),
+    "difc":                        (25.2131, 55.2796),
+    "business bay":                (25.1854, 55.2691),
+    "dubai creek":                 (25.2285, 55.3273),
+    "creek harbour":               (25.1985, 55.2766),
+    # Cities / Emirates
     "dubai":                       (25.2048, 55.2708),
     "abu dhabi":                   (24.4539, 54.3773),
     "sharjah":                     (25.3463, 55.4209),
@@ -239,9 +263,15 @@ def fetch_rss(feed: dict) -> list:
         if not title or not url:
             continue
 
-        # Filter: must contain at least one UAE/Gulf keyword
+        # Filter: must mention UAE/Gulf AND a security keyword
         combined = (title + " " + desc).lower()
-        if not any(kw in combined for kw in RSS_KEYWORDS):
+        has_uae = any(kw in combined for kw in RSS_UAE_KEYWORDS)
+        has_security = any(kw in combined for kw in RSS_SECURITY_KEYWORDS)
+        if not (has_uae and has_security):
+            continue
+
+        # Filter: skip analysis/opinion/noise articles
+        if any(re.search(p, title, re.IGNORECASE) for p in NOISE_PATTERNS):
             continue
 
 
@@ -309,6 +339,8 @@ def rss_articles_to_events(articles: list) -> list:
 
 
 # ── LOCATION EXTRACTION ─────────────────────────────────────────────────────
+CITY_LEVEL = {"dubai", "abu dhabi", "sharjah", "ajman", "fujairah", "ras al khaimah", "umm al quwain", "uae", "united arab emirates"}
+
 def extract_location_basic(text: str) -> tuple:
     """Keyword-based location extraction. Returns (name, lat, lon, precision)."""
     text_lower = text.lower()
@@ -316,7 +348,10 @@ def extract_location_basic(text: str) -> tuple:
     for loc in sorted(LOCATION_COORDS, key=len, reverse=True):
         if loc in text_lower:
             lat, lon = LOCATION_COORDS[loc]
-            precision = "exact" if len(loc) > 8 and "airport" in loc or "base" in loc else "city"
+            if loc in CITY_LEVEL:
+                precision = "city" if loc != "uae" and loc != "united arab emirates" else "country"
+            else:
+                precision = "exact"
             return loc.title(), lat, lon, precision
     return "UAE", 24.5, 54.5, "country"
 
@@ -329,10 +364,12 @@ def extract_location_llm(title: str, description: str = "") -> tuple | None:
     if not ANTHROPIC_API_KEY:
         return None
 
+    desc_block = f"\nSnippet: {description[:300]}" if description and description.strip() else ""
     prompt = (
-        "Extract the most precise location from this UAE security news headline. "
+        "Extract the most precise location from this UAE security news. "
+        "Prefer specific building/landmark names over city names. "
         "Return ONLY JSON, no explanation:\n"
-        f"Headline: {title[:200]}\n\n"
+        f"Headline: {title[:200]}{desc_block}\n\n"
         '{"location":"<most specific place name>","lat":<float or null>,"lon":<float or null>,"precision":"exact|city|emirate|country"}'
     )
     try:
