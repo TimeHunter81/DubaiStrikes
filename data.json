@@ -665,8 +665,8 @@
       "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/beirut-displaced-afp.jpg",
       "_via": "rss",
       "confidence": "low",
-      "_search_count": 2,
-      "_next_search_at": 1774945167.0
+      "_search_count": 3,
+      "_next_search_at": 1775009967.0
     },
     {
       "id": "b7d2a6abb482",
@@ -953,8 +953,8 @@
       "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/beirut-displaced-afp.jpg",
       "_via": "rss",
       "confidence": "low",
-      "_search_count": 1,
-      "_next_search_at": 1774920954.0
+      "_search_count": 2,
+      "_next_search_at": 1774938954.0
     },
     {
       "id": "d2b735afa330",
@@ -976,7 +976,9 @@
       "snippet": "&lt;article data-history-node-id=\"437038\" about=\"https://www.middleeasteye.net/live-blog/live-blog-update/report-hegseths-broker-sought-buy-defence-fund-investment-iran-attack\" class=\"live-blog-update default clearfix\"&gt;\n\n  \n      &lt;h2&gt;\n      ",
       "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/beirut-displaced-afp.jpg",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774920620.0
     },
     {
       "id": "9882e94d04c4",
@@ -1048,7 +1050,7 @@
       "id": "988e8d2196c8",
       "datetime": "2026-03-30T23:31:25Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "Kuwaiti tanker &apos;Al Salmi&apos; attacked by Iran drone off Dubai coast",
       "location": "Dubai",
@@ -1059,12 +1061,19 @@
           "url": "https://gulfnews.com/business/energy/kuwaiti-tanker-al-salmi-attacked-by-iran-drone-off-dubai-coast-1.500491417",
           "domain": "gulfnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://www.aljazeera.com/news/2026/3/31/drone-attack-sparks-fire-on-kuwaiti-tanker-in-uae-amid-irans-gulf-attacks",
+          "domain": "aljazeera.com",
+          "tier": "wire"
         }
       ],
       "snippet": null,
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-30%2Fx5h4odwp%2FAl-Salmi-VLCC-9534793.jpeg?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774917085.0
     },
     {
       "id": "a74573d68673",
