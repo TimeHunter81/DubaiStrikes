@@ -22,13 +22,15 @@
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/4QR5G7RPEFCBDCU3UGXJ2N6QPM.jpg?smart=true&amp;auth=9fa65c715757a79dd6f670919cfb758372a4ea89fd6cb58a09d21b23594cbbdf&amp;width=1200&amp;height=630",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774939987.0
     },
     {
       "id": "5eee423b1033",
       "datetime": "2026-03-31T05:36:02Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "No oil leakage after Iranian attack on Kuwaiti oil tanker, Dubai media office says",
       "location": "Dubai",
@@ -44,7 +46,9 @@
       "snippet": "&lt;article data-history-node-id=\"437057\" about=\"https://www.middleeasteye.net/live-blog/live-blog-update/no-oil-leakage-no-injuries-after-iranian-attack-kuwaiti-oil-tanker\" class=\"live-blog-update default clearfix\"&gt;\n\n  \n      &lt;h2&gt;\n      &lt",
       "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/beirut-displaced-afp.jpg",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774938962.0
     },
     {
       "id": "35ecf43a068d",
@@ -66,7 +70,9 @@
       "snippet": null,
       "preview_image": "https://media.assettype.com/gulfnews%2F2025-10-17%2Feq479ykv%2Fgold-alo1255.jpg?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774937136.0
     },
     {
       "id": "371dd77d7517",
@@ -88,7 +94,9 @@
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/XBBRKOQY35ER3DXJLL4Z4AYQEU.jpg?smart=true&amp;auth=5112840dff71dd8122e2d0ae052b7993a70aeca68d56b71a1f379c46404c248f&amp;width=1200&amp;height=630",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774936800.0
     },
     {
       "id": "eedb86b965eb",
