@@ -1865,7 +1865,7 @@
       "id": "693f792276dd",
       "datetime": "2026-03-29T16:21:23Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "Iran must pay compensation for attacks on Gulf states, says top UAE official",
       "location": "Uae",
@@ -1876,18 +1876,25 @@
           "url": "https://www.thenationalnews.com/news/gulf/2026/03/29/iran-must-pay-reparations-for-attacks-on-gulf-states-says-top-uae-official/",
           "domain": "thenationalnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://www.khaleejtimes.com/uae/dubai-minor-drone-incident-al-badaa",
+          "domain": "khaleejtimes.com",
+          "tier": "wire"
         }
       ],
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/L537C6JPKZFH5PMC4KUHCVTOYU.jpg?smart=true&amp;auth=7063ef5edad57d59f447062bbd5e6c120bb542a611b7f82d8e97c7d6a96f8d5a&amp;width=1200&amp;height=630",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774804883.0
     },
     {
       "id": "5332825b22f0",
       "datetime": "2026-03-29T15:01:50Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "Civilians paying price from 'double devastation' of Iran war",
       "location": "UAE",
@@ -1898,18 +1905,25 @@
           "url": "https://www.thenationalnews.com/news/mena/2026/03/29/military-preparedness-needs-humanitarian-readiness-says-red-cross-chief/",
           "domain": "thenationalnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://www.khaleejtimes.com/uae/dubai-minor-drone-incident-al-badaa",
+          "domain": "khaleejtimes.com",
+          "tier": "wire"
         }
       ],
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/XWPMHZAUZBGPJGDFAF3DVUMSGU.jpg?smart=true&amp;auth=6f80f1481da7631157be21bf110b45e86d88c94f0f0ab3a39ed455ffaeac2bf5&amp;width=1200&amp;height=630",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774800110.0
     },
     {
       "id": "b4dd177b2de1",
       "datetime": "2026-03-29T14:28:18Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "Sheikh Mohammed says UAE operating with ‘complete efficiency’",
       "location": "Uae",
@@ -1920,12 +1934,19 @@
           "url": "https://www.thenationalnews.com/news/uae/2026/03/29/sheikh-mohammed-says-uae-operating-with-complete-efficiency/",
           "domain": "thenationalnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://www.khaleejtimes.com/uae/dubai-minor-drone-incident-al-badaa",
+          "domain": "khaleejtimes.com",
+          "tier": "wire"
         }
       ],
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/7DHYPTER5FCVZJFO2L3ZQFCW2Q.jpg?smart=true&amp;auth=a9e0f225f79d34a3a1229d0fd9fc87e1a6af0ecc94e6eb369627f44cb6115b60&amp;width=1200&amp;height=630",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774798098.0
     },
     {
       "id": "12889a869665",
@@ -1953,7 +1974,7 @@
       "id": "e9bfe63325b2",
       "datetime": "2026-03-29T11:38:51Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "UAE reports interception of 16 missiles and 42 drones on Sunday",
       "location": "Uae",
@@ -1964,12 +1985,19 @@
           "url": "https://www.thenationalnews.com/news/uae/2026/03/29/uae-iran-missile-strikes/",
           "domain": "thenationalnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://www.khaleejtimes.com/uae/dubai-minor-drone-incident-al-badaa",
+          "domain": "khaleejtimes.com",
+          "tier": "wire"
         }
       ],
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/DXN25DHBKBAJZOAAUBX7EAOBAI.jpg?smart=true&amp;auth=6da006209bcde08a132333c799cca239a836bf3e561495faf51e4b39a12e0f44&amp;width=1200&amp;height=630",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774787931.0
     },
     {
       "id": "485f57ca8988",
