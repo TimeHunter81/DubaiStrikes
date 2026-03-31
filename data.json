@@ -571,8 +571,8 @@
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-30%2F4wg50zb6%2FSU260330BusinessLeadersCover-Story-Piece-Of-YouGulf-NewsDSC08632-Edit.jpg?rect=0%2C405%2C2300%2C1208&amp;w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
       "confidence": "low",
-      "_search_count": 1,
-      "_next_search_at": 1774929600.0
+      "_search_count": 2,
+      "_next_search_at": 1774947600.0
     },
     {
       "id": "09248fa07a9e",
@@ -600,7 +600,7 @@
       "id": "06eb1b003fa6",
       "datetime": "2026-03-31T02:32:24Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "US–Israel war on Iran, day 32: Trump escalates Iran threats, Kuwaiti oil tanker hit in Dubai port",
       "location": "Dubai",
@@ -616,13 +616,15 @@
       "snippet": null,
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-16%2F5zi4m2sa%2FUAEflag?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774927944.0
     },
     {
       "id": "f92feeaf45e4",
       "datetime": "2026-03-31T02:20:30Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "US-Iran latest: 'Fully laden' Kuwaiti oil tanker struck near Dubai port",
       "location": "Dubai",
@@ -638,7 +640,9 @@
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/HRU2YM6USJBCJBQFA7JBVQVKDI.jpg?smart=true&amp;auth=eb04cb4e1f866756f55bc1cf04f573afeab33a7071d896d265867daa49765489&amp;width=1200&amp;height=630",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774927230.0
     },
     {
       "id": "7d54854c271a",
@@ -660,7 +664,9 @@
       "snippet": "&lt;article data-history-node-id=\"437049\" about=\"https://www.middleeasteye.net/live-blog/live-blog-update/us-doubts-iranian-negotiators-power-approve-agreement-cnn-reports\" class=\"live-blog-update default clearfix\"&gt;\n\n  \n      &lt;h2&gt;\n      &lt;",
       "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/beirut-displaced-afp.jpg",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774927167.0
     },
     {
       "id": "b7d2a6abb482",
