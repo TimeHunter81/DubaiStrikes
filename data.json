@@ -665,8 +665,8 @@
       "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/beirut-displaced-afp.jpg",
       "_via": "rss",
       "confidence": "low",
-      "_search_count": 1,
-      "_next_search_at": 1774927167.0
+      "_search_count": 2,
+      "_next_search_at": 1774945167.0
     },
     {
       "id": "b7d2a6abb482",
@@ -694,7 +694,7 @@
       "id": "49955e0e74bf",
       "datetime": "2026-03-31T02:10:41Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "WSJ: Trump open to ending Iran war despite Hormuz closure",
       "location": "UAE",
@@ -705,12 +705,19 @@
           "url": "https://www.middleeasteye.net/live-blog/live-blog-update/wsj-trump-open-ending-iran-war-despite-hormuz-closure",
           "domain": "middleeasteye.net",
           "tier": "local"
+        },
+        {
+          "url": "https://www.bbc.com/news/live/c8jke9v9xv9t",
+          "domain": "bbc.com",
+          "tier": "wire"
         }
       ],
       "snippet": "&lt;article data-history-node-id=\"437047\" about=\"https://www.middleeasteye.net/live-blog/live-blog-update/wsj-trump-open-ending-iran-war-despite-hormuz-closure\" class=\"live-blog-update default clearfix\"&gt;\n\n  \n      &lt;h2&gt;\n      &lt;a href=\"http",
       "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/beirut-displaced-afp.jpg",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774926641.0
     },
     {
       "id": "ee633f725e74",
@@ -732,13 +739,15 @@
       "snippet": "&lt;article data-history-node-id=\"437046\" about=\"https://www.middleeasteye.net/live-blog/live-blog-update/report-us-carried-out-major-airstrike-isfahan-depot\" class=\"live-blog-update default clearfix\"&gt;\n\n  \n      &lt;h2&gt;\n      &lt;a href=\"https:",
       "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/beirut-displaced-afp.jpg",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774926518.0
     },
     {
       "id": "eeff392dcf68",
       "datetime": "2026-03-31T02:05:34Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "Fire on Kuwaiti oil tanker put out, Dubai authorities say",
       "location": "Dubai",
@@ -749,12 +758,19 @@
           "url": "https://www.middleeasteye.net/live-blog/live-blog-update/fire-kuwaiti-oil-tanker-put-out-dubai-authorities-say",
           "domain": "middleeasteye.net",
           "tier": "local"
+        },
+        {
+          "url": "https://www.bbc.com/news/live/c8jke9v9xv9t",
+          "domain": "bbc.com",
+          "tier": "wire"
         }
       ],
       "snippet": "&lt;article data-history-node-id=\"437045\" about=\"https://www.middleeasteye.net/live-blog/live-blog-update/fire-kuwaiti-oil-tanker-put-out-dubai-authorities-say\" class=\"live-blog-update default clearfix\"&gt;\n\n  \n      &lt;h2&gt;\n      &lt;a href=\"http",
       "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/beirut-displaced-afp.jpg",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774926334.0
     },
     {
       "id": "d41ac89c34a5",
