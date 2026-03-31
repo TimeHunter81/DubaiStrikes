@@ -172,7 +172,7 @@
       "id": "4a5a467167bc",
       "datetime": "2026-03-31T04:02:59Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "Oil-thirsty Asian nations seek Russian crude as Iran war strains supplies",
       "location": "UAE",
@@ -188,13 +188,15 @@
       "snippet": "Oil-thirsty Asian nations seek Russian crude as Iran war strains supplies",
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-31%2Fow92izqx%2Fpreview.jpg?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774933379.0
     },
     {
       "id": "e30eb006d27c",
       "datetime": "2026-03-31T04:01:17Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "US-Israel war on Iran, Day 32: What UAE residents need to know on March 31",
       "location": "Uae",
@@ -210,7 +212,9 @@
       "snippet": null,
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-31%2Fdz1dj1uv%2Fgulfnews2026-03-04vedixotfSTOCK-UAE-FLAG.avif?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774933277.0
     },
     {
       "id": "3471659d6418",
@@ -238,12 +242,12 @@
       "id": "df5a5c874e70",
       "datetime": "2026-03-31T03:52:11Z",
       "type": "security_alert",
-      "confirmed": false,
-      "precision": "country",
+      "confirmed": true,
+      "precision": "city",
       "title": "Saudi defences intercept 4 ballistic missiles launched toward Riyadh Region",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
+      "location": "Riyadh, Saudi Arabia",
+      "lat": 24.6877,
+      "lon": 46.7219,
       "sources": [
         {
           "url": "https://gulfnews.com/world/gulf/saudi/175byvk-saudi-defences-intercept-four-ballistic-missiles-1.500491457",
@@ -254,13 +258,15 @@
       "snippet": "Saudi Defences intercept four ballistic missiles launched toward Riyadh Region",
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-01-14%2F72zpgwl3%2F1-Eqal-Tower-Riyadh-Saudi-Arabia.jpeg?rect=0%2C182%2C5504%2C2890&amp;w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774932731.0
     },
     {
       "id": "e9f75ad27175",
       "datetime": "2026-03-31T03:47:34Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "Jordan feels pinch to economy from Iran war",
       "location": "UAE",
@@ -276,7 +282,9 @@
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/R5H2VX3JPJFBPIPQVBADI6OFKM.jpg?smart=true&amp;auth=316eb5eec889063701f31b0d0469470ab6b40e5fce5f0ab6e27f2a4aac2123c2&amp;width=1200&amp;height=630",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774932454.0
     },
     {
       "id": "14dda802f75c",
