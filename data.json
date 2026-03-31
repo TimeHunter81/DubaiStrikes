@@ -2266,13 +2266,15 @@
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/26N2YL7GJRCF5CCDY2VXUYASPY?smart=true&amp;auth=ab1a67c05860ff361a68915f828dfc1c5008f129c9ec208f18619c63251cd7e5&amp;width=1200&amp;height=630",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774763289.0
     },
     {
       "id": "d54395fd7c30",
       "datetime": "2026-03-29T04:24:01Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "UAE and Bahrain's main aluminium producers say plants damaged by Iranian attacks",
       "location": "Uae",
@@ -2288,7 +2290,9 @@
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/ELYU3TKKKRDERAHDD7LAVSVZMI.jpg?smart=true&amp;auth=1d771db63e2a3ac06769856dae2e926aa80bc8d170ee5db57a47bd989283b89b&amp;width=1200&amp;height=630",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774761841.0
     },
     {
       "id": "cf6ca06aee38",
@@ -2310,7 +2314,9 @@
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/UHYLQIFJZRCKRI2EHIGYSETKZE.jpg?smart=true&amp;auth=31006a52552a9f1f55afdd500d5a6875df98a391566d617de153872cb15a8546&amp;width=1200&amp;height=630",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774761785.0
     },
     {
       "id": "598d6af05a60",
