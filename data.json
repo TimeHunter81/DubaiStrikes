@@ -290,7 +290,7 @@
       "id": "14dda802f75c",
       "datetime": "2026-03-31T03:44:34Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "Fire breaks out in abandoned Dubai house after air defence debris falls, 4 suffer minor injuries",
       "location": "Dubai",
@@ -306,13 +306,15 @@
       "snippet": null,
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-10%2Fb7ythppm%2FUAEflag?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774932274.0
     },
     {
       "id": "a91a6b4ea8d1",
       "datetime": "2026-03-31T03:43:41Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "Israel military reports Iranian missile attack",
       "location": "UAE",
@@ -328,13 +330,15 @@
       "snippet": "Israel military says air defences responding to Iranian missiles",
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-02-12%2Fjvhrzwx3%2Fpreview.jpg?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774932221.0
     },
     {
       "id": "8a9a268e02e3",
       "datetime": "2026-03-31T03:36:28Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "Explained: The global fallout from the Iran war’s oil shock",
       "location": "UAE",
@@ -350,13 +354,15 @@
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/FJOZ2TN57WIRTJR62GVLZIHDSM.jpg?smart=true&amp;auth=4d26c13c27f60cc7adc4bedcd47ac8c41d418fa635d3bd33fab67c785921593b&amp;width=1200&amp;height=630",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774931788.0
     },
     {
       "id": "a30a9a193219",
       "datetime": "2026-03-31T03:34:19Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "Remote learning extended until April 17 as Iranian attacks on UAE continue",
       "location": "Uae",
@@ -372,7 +378,9 @@
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/2UECECZSGBEF3D6VZK7DF43LRY.jpg?smart=true&amp;auth=5c4abb652c97821505147ec5a940eabe523692232f8c012fef9fa37dd2c9fc70&amp;width=1200&amp;height=630",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774931659.0
     },
     {
       "id": "071dc17f1207",
