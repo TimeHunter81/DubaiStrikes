@@ -740,8 +740,8 @@
       "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/beirut-displaced-afp.jpg",
       "_via": "rss",
       "confidence": "low",
-      "_search_count": 1,
-      "_next_search_at": 1774926518.0
+      "_search_count": 2,
+      "_next_search_at": 1774944518.0
     },
     {
       "id": "eeff392dcf68",
@@ -792,7 +792,9 @@
       "snippet": "&lt;article data-history-node-id=\"437043\" about=\"https://www.middleeasteye.net/live-blog/live-blog-update/trump-posts-video-explosions-amid-reported-tehran-strikes\" class=\"live-blog-update default clearfix\"&gt;\n\n  \n      &lt;h2&gt;\n      &lt;a href=\"",
       "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/beirut-displaced-afp.jpg",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774925847.0
     },
     {
       "id": "7913e571b353",
@@ -836,13 +838,15 @@
       "snippet": "&lt;article data-history-node-id=\"437042\" about=\"https://www.middleeasteye.net/live-blog/live-blog-update/iraqi-paramilitary-says-bases-hit-us-israeli-strikes\" class=\"live-blog-update default clearfix\"&gt;\n\n  \n      &lt;h2&gt;\n      &lt;a href=\"https",
       "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/beirut-displaced-afp.jpg",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774925701.0
     },
     {
       "id": "63871f1ee327",
       "datetime": "2026-03-31T01:46:55Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "Crew safe after Kuwaiti oil tanker hit in apparent Iranian drone strike near Dubai port",
       "location": "Dubai",
@@ -853,12 +857,19 @@
           "url": "https://www.thenationalnews.com/news/2026/03/31/dubai-tanker-fire-iran-drone/",
           "domain": "thenationalnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://www.bbc.com/news/live/c8jke9v9xv9t",
+          "domain": "bbc.com",
+          "tier": "wire"
         }
       ],
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/GYSHBN4SKVFY5HBDCSQA4KDD64.jpg?smart=true&amp;auth=f92a0417b0df7999f41f39a6ee4c730c998c9bfa3190c9095ef79d1769a5242c&amp;width=1200&amp;height=630",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774925215.0
     },
     {
       "id": "db10679e2559",
