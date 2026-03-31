@@ -105,7 +105,7 @@
       "id": "f58d73dec54f",
       "datetime": "2026-03-31T07:25:53Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "UAE issues safety alerts after missile and drone threats from Iran",
       "location": "Uae",
@@ -121,7 +121,9 @@
       "snippet": null,
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-08%2Fohkjqw8j%2Fuaeflag.JPG?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774945553.0
     },
     {
       "id": "2627d6cc8d45",
@@ -166,8 +168,8 @@
       "preview_image": "https://www.thenationalnews.com/resizer/v2/4QR5G7RPEFCBDCU3UGXJ2N6QPM.jpg?smart=true&amp;auth=9fa65c715757a79dd6f670919cfb758372a4ea89fd6cb58a09d21b23594cbbdf&amp;width=1200&amp;height=630",
       "_via": "rss",
       "confidence": "low",
-      "_search_count": 2,
-      "_next_search_at": 1774957987.0
+      "_search_count": 3,
+      "_next_search_at": 1775022787.0
     },
     {
       "id": "5eee423b1033",
@@ -791,7 +793,7 @@
       "id": "c1df2b2f2610",
       "datetime": "2026-03-31T02:20:30Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "US-Iran latest: Four injured in Dubai as debris from projectile interception hits homes",
       "location": "Dubai",
@@ -802,12 +804,19 @@
           "url": "https://www.thenationalnews.com/news/mena/2026/03/31/live-us-israel-iran-war-dubai/",
           "domain": "thenationalnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://gulfnews.com/uae/debris-hits-several-homes-in-dubai-four-asian-nationals-injured-1.500491815",
+          "domain": "gulfnews.com",
+          "tier": "wire"
         }
       ],
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/IIJPEIHGKFFLLADDXWIUU7GE2U.jpg?smart=true&amp;auth=320b6a58d913ba42bafd2757dac5033b1b0087b38f1e65c04cb3d444b4b86381&amp;width=1200&amp;height=630",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774927230.0
     },
     {
       "id": "7d54854c271a",
@@ -1050,7 +1059,7 @@
       "id": "1ac41fa82bc4",
       "datetime": "2026-03-31T01:46:55Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "Kuwait oil tanker boss condemns Iran's attack on ship off Dubai coast",
       "location": "Dubai",
@@ -1061,12 +1070,19 @@
           "url": "https://www.thenationalnews.com/news/2026/03/31/dubai-tanker-fire-iran-drone/",
           "domain": "thenationalnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://gulfnews.com/uae/kuwaiti-tanker-hit-al-badaa-fire-thuraya-building-targeted-key-incidents-in-uae-1.500491785",
+          "domain": "gulfnews.com",
+          "tier": "wire"
         }
       ],
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/XC2VS2TKVVD4VALVZOWJIXMIEI.JPG?smart=true&amp;auth=bc7efb78ef2f3694a55f28a8660e82a9e607e1608250cce53fff4bb7184d2eb2&amp;width=1200&amp;height=630",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774925215.0
     },
     {
       "id": "db10679e2559",
