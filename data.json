@@ -1,7 +1,137 @@
 {
-  "last_updated": "2026-03-31T06:07:23Z",
+  "last_updated": "2026-03-31T12:08:30Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
+    {
+      "id": "30668d1c1a5d",
+      "datetime": "2026-03-31T12:08:13Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "Airports , plants and ports : The civilian targets increasingly under threat in the Middle East",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://edition.cnn.com/2026/03/30/world/middle-east-civilian-targets-iran-war-intl",
+          "domain": "edition.cnn.com",
+          "tier": "unverified"
+        }
+      ],
+      "confidence": "low",
+      "preview_image": "https://media.cnn.com/api/v1/images/stellar/prod/01-gettyimages-2264898954.jpg?c=16x9&q=w_800,c_fill",
+      "_via": "gdelt"
+    },
+    {
+      "id": "3842f22edc11",
+      "datetime": "2026-03-31T12:08:13Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "War with Iran : Seven islands that hold the keys to the Strait of Hormuz",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://edition.cnn.com/2026/03/28/middleeast/iran-war-strait-hormuz-arch-defense-intl-hnk-dst-ml",
+          "domain": "edition.cnn.com",
+          "tier": "unverified"
+        }
+      ],
+      "confidence": "low",
+      "preview_image": "https://media.cnn.com/api/v1/images/stellar/prod/ap26071398679727.jpg?c=16x9&q=w_800,c_fill",
+      "_via": "gdelt"
+    },
+    {
+      "id": "e4e3e45d9113",
+      "datetime": "2026-03-31T11:24:57Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "UAE intercepts eight ballistic missiles, four cruise missiles and 36 drones on Tuesday",
+      "location": "Uae",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.thenationalnews.com/news/uae/2026/03/31/uae-missile-drone-strikes-iran/",
+          "domain": "thenationalnews.com",
+          "tier": "local"
+        }
+      ],
+      "snippet": null,
+      "preview_image": "https://www.thenationalnews.com/resizer/v2/Y7PQ47TUJ5GMFFOCUKOY2E27VA.jpg?smart=true&amp;auth=ea35c3a046a761f1b0696ef53ecf5fec4a3682cd9598628dffe8caabb152fd10&amp;width=1200&amp;height=630",
+      "_via": "rss",
+      "confidence": "low"
+    },
+    {
+      "id": "7654fb594c68",
+      "datetime": "2026-03-31T08:13:09Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "city",
+      "title": "Dubai confirms loud sounds caused by air defence interceptions",
+      "location": "Dubai",
+      "lat": 25.2048,
+      "lon": 55.2708,
+      "sources": [
+        {
+          "url": "https://gulfnews.com/uae/dubai-confirms-loud-sounds-caused-by-air-defence-interceptions-1.500491755",
+          "domain": "gulfnews.com",
+          "tier": "local"
+        }
+      ],
+      "snippet": null,
+      "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-26%2Fiffru2zj%2FUAEflag?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
+      "_via": "rss",
+      "confidence": "low"
+    },
+    {
+      "id": "f58d73dec54f",
+      "datetime": "2026-03-31T07:25:53Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "UAE issues safety alerts after missile and drone threats from Iran",
+      "location": "Uae",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://gulfnews.com/uae/uae-responds-to-missile-and-drone-threat-from-iran-1.500491700",
+          "domain": "gulfnews.com",
+          "tier": "local"
+        }
+      ],
+      "snippet": null,
+      "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-08%2Fohkjqw8j%2Fuaeflag.JPG?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
+      "_via": "rss",
+      "confidence": "low"
+    },
+    {
+      "id": "2627d6cc8d45",
+      "datetime": "2026-03-31T06:45:55Z",
+      "type": "security_alert",
+      "confirmed": true,
+      "precision": "country",
+      "title": "Drone attack sparks fire on Kuwaiti tanker in UAE amid Iran’s Gulf attacks",
+      "location": "Uae",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.aljazeera.com/news/2026/3/31/drone-attack-sparks-fire-on-kuwaiti-tanker-in-uae-amid-irans-gulf-attacks?traffic_source=rss",
+          "domain": "aljazeera.com",
+          "tier": "wire"
+        }
+      ],
+      "snippet": "Dubai authorities say blaze contained with no oil leakage or injuries reported, as attacks are reported across the Gulf.",
+      "preview_image": "https://www.aljazeera.com/wp-content/uploads/2026/03/2026-03-31T090309Z_94780028_RC2JFKACBVRQ_RTRMADP_3_IRAN-CRISIS-1774948578.jpg?resize=1600%2C1080",
+      "_via": "rss",
+      "confidence": "medium"
+    },
     {
       "id": "17501b1e5672",
       "datetime": "2026-03-31T05:53:07Z",
@@ -645,6 +775,28 @@
       "_next_search_at": 1774927230.0
     },
     {
+      "id": "c1df2b2f2610",
+      "datetime": "2026-03-31T02:20:30Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "city",
+      "title": "US-Iran latest: Four injured in Dubai as debris from projectile interception hits homes",
+      "location": "Dubai",
+      "lat": 25.2048,
+      "lon": 55.2708,
+      "sources": [
+        {
+          "url": "https://www.thenationalnews.com/news/mena/2026/03/31/live-us-israel-iran-war-dubai/",
+          "domain": "thenationalnews.com",
+          "tier": "local"
+        }
+      ],
+      "snippet": null,
+      "preview_image": "https://www.thenationalnews.com/resizer/v2/IIJPEIHGKFFLLADDXWIUU7GE2U.jpg?smart=true&amp;auth=320b6a58d913ba42bafd2757dac5033b1b0087b38f1e65c04cb3d444b4b86381&amp;width=1200&amp;height=630",
+      "_via": "rss",
+      "confidence": "low"
+    },
+    {
       "id": "7d54854c271a",
       "datetime": "2026-03-31T02:19:27Z",
       "type": "security_alert",
@@ -880,6 +1032,28 @@
       "confidence": "low",
       "_search_count": 1,
       "_next_search_at": 1774925215.0
+    },
+    {
+      "id": "1ac41fa82bc4",
+      "datetime": "2026-03-31T01:46:55Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "city",
+      "title": "Kuwait oil tanker boss condemns Iran's attack on ship off Dubai coast",
+      "location": "Dubai",
+      "lat": 25.2048,
+      "lon": 55.2708,
+      "sources": [
+        {
+          "url": "https://www.thenationalnews.com/news/2026/03/31/dubai-tanker-fire-iran-drone/",
+          "domain": "thenationalnews.com",
+          "tier": "local"
+        }
+      ],
+      "snippet": null,
+      "preview_image": "https://www.thenationalnews.com/resizer/v2/XC2VS2TKVVD4VALVZOWJIXMIEI.JPG?smart=true&amp;auth=bc7efb78ef2f3694a55f28a8660e82a9e607e1608250cce53fff4bb7184d2eb2&amp;width=1200&amp;height=630",
+      "_via": "rss",
+      "confidence": "low"
     },
     {
       "id": "db10679e2559",
@@ -2166,201 +2340,6 @@
       "confidence": "low",
       "_search_count": 1,
       "_next_search_at": 1774878720.0
-    },
-    {
-      "id": "4e31ebe68366",
-      "datetime": "2026-03-30T12:26:49Z",
-      "type": "security_alert",
-      "confirmed": false,
-      "precision": "country",
-      "title": "Trump threatens to 'obliterate' Iran's Kharg Island, energy sites",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/trump-threatens-obliterate-irans-kharg-island-energy-sites",
-          "domain": "middleeasteye.net",
-          "tier": "local"
-        }
-      ],
-      "snippet": "&lt;article data-history-node-id=\"437015\" about=\"https://www.middleeasteye.net/live-blog/live-blog-update/trump-threatens-obliterate-irans-kharg-island-energy-sites\" class=\"live-blog-update default clearfix\"&gt;\n\n  \n      &lt;h2&gt;\n      &lt;a href=",
-      "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/IRAN_STRIKE_TEHRAN_AFP.jpg",
-      "_via": "rss",
-      "confidence": "low",
-      "_search_count": 3,
-      "_next_search_at": 1774960009.0
-    },
-    {
-      "id": "888fd7d997f8",
-      "datetime": "2026-03-30T12:14:58Z",
-      "type": "security_alert",
-      "confirmed": false,
-      "precision": "city",
-      "title": "Best photos of March 30: Camel racing in Dubai to kitesurfing in Marseille",
-      "location": "Dubai",
-      "lat": 25.2048,
-      "lon": 55.2708,
-      "sources": [
-        {
-          "url": "https://www.thenationalnews.com/news/2026/03/30/best-photos-of-march-30-camel-racing-in-dubai-to-kitesurfing-in-marseille-2/",
-          "domain": "thenationalnews.com",
-          "tier": "local"
-        }
-      ],
-      "snippet": null,
-      "preview_image": "https://www.thenationalnews.com/resizer/v2/HVOYQYSJCCBSBLH75UEASEYDFA.jpg?smart=true&amp;auth=ed8adc3ef73bb50cba7f8f60302dc085ca8bd139c3b6211a8fdc1216f9a2c920&amp;width=1200&amp;height=630",
-      "_via": "rss",
-      "confidence": "low",
-      "_search_count": 3,
-      "_next_search_at": 1774959298.0
-    },
-    {
-      "id": "af6e26e74027",
-      "datetime": "2026-03-30T11:56:17Z",
-      "type": "security_alert",
-      "confirmed": false,
-      "precision": "country",
-      "title": "Jordan intercepts five missiles, one drone in a day",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/jordan-intercepts-five-missiles-one-drone-day",
-          "domain": "middleeasteye.net",
-          "tier": "local"
-        }
-      ],
-      "snippet": "&lt;article data-history-node-id=\"437013\" about=\"https://www.middleeasteye.net/live-blog/live-blog-update/jordan-intercepts-five-missiles-one-drone-day\" class=\"live-blog-update default clearfix\"&gt;\n\n  \n      &lt;h2&gt;\n      &lt;a href=\"https://www.",
-      "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/IRAN_STRIKE_TEHRAN_AFP.jpg",
-      "_via": "rss",
-      "confidence": "low",
-      "_search_count": 3,
-      "_next_search_at": 1774958177.0
-    },
-    {
-      "id": "7486b09745c2",
-      "datetime": "2026-03-30T11:32:47Z",
-      "type": "security_alert",
-      "confirmed": false,
-      "precision": "country",
-      "title": "Iranian lawmakers review possibility of leaving Nuclear Non-Proliferation Treaty",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iranian-lawmakers-review-possibility-leaving-npt-foreign-ministry",
-          "domain": "middleeasteye.net",
-          "tier": "local"
-        }
-      ],
-      "snippet": "&lt;article data-history-node-id=\"437011\" about=\"https://www.middleeasteye.net/live-blog/live-blog-update/iranian-lawmakers-review-possibility-leaving-npt-foreign-ministry\" class=\"live-blog-update default clearfix\"&gt;\n\n  \n      &lt;h2&gt;\n      &lt;",
-      "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/IRAN_STRIKE_TEHRAN_AFP.jpg",
-      "_via": "rss",
-      "confidence": "low",
-      "_search_count": 4,
-      "_next_search_at": 1775129567.0
-    },
-    {
-      "id": "494b9755a21a",
-      "datetime": "2026-03-30T11:31:28Z",
-      "type": "security_alert",
-      "confirmed": false,
-      "precision": "country",
-      "title": "Israel is making sure Trump can't find an off-ramp in Iran",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.middleeasteye.net/opinion/israel-making-sure-trump-cannot-find-ramp-iran",
-          "domain": "middleeasteye.net",
-          "tier": "local"
-        }
-      ],
-      "snippet": "&lt;article data-history-node-id=\"436993\" about=\"https://www.middleeasteye.net/opinion/israel-making-sure-trump-cannot-find-ramp-iran\" class=\"opinion default clearfix\"&gt;\n\n  \n      &lt;h2&gt;\n      &lt;a href=\"https://www.middleeasteye.net/opinion/i",
-      "preview_image": "https://www.middleeasteye.net/sites/default/files/images-story/US%20President%20Donald%20Trump%20points%20his%20finger%20towards%20Israeli%20Prime%20Minister%20Benjamin%20Netanyahu%20during%20a%20meeting%20in%20Florida%2C%20US%2C%20on%2029%20December%2C%202025%20%28Reuters%29.jpg",
-      "_via": "rss",
-      "confidence": "low",
-      "_search_count": 4,
-      "_next_search_at": 1775129488.0
-    },
-    {
-      "id": "ed9a632e8ed8",
-      "datetime": "2026-03-30T11:30:32Z",
-      "type": "security_alert",
-      "confirmed": true,
-      "precision": "country",
-      "title": "Latin Patriarch will have access to Jerusalem holy site after police stopped entry",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.bbc.com/news/articles/cvg0128z41eo?at_medium=RSS&amp;at_campaign=rss",
-          "domain": "bbc.com",
-          "tier": "wire"
-        }
-      ],
-      "snippet": "The Israeli PM says Cardinal Pierbattista Pizzaballa had been asked not to enter the church over concerns about Iranian strikes.",
-      "preview_image": "https://ichef.bbci.co.uk/news/1024/branded_news/db3d/live/10b10f40-2b85-11f1-9b12-e7dc1d4ddef6.jpg",
-      "_via": "rss",
-      "confidence": "medium"
-    },
-    {
-      "id": "b463fb61b055",
-      "datetime": "2026-03-30T11:24:39Z",
-      "type": "security_alert",
-      "confirmed": true,
-      "precision": "country",
-      "title": "UAE intercepts 11 missiles and 27 drones on Monday",
-      "location": "Uae",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.thenationalnews.com/news/uae/2026/03/30/uae-iran-missile-interceptions/",
-          "domain": "thenationalnews.com",
-          "tier": "local"
-        },
-        {
-          "url": "https://gulfnews.com/uae/uae-air-defences-intercept-11-ballistic-missiles-and-27-drones-from-iran-on-march-30",
-          "domain": "gulfnews.com",
-          "tier": "wire"
-        }
-      ],
-      "snippet": null,
-      "preview_image": "https://www.thenationalnews.com/resizer/v2/PA2XT3FDUJCYHA2ERNOL6VM6SQ.jpg?smart=true&amp;auth=0289fd7a47be70c1b61c1a40be56c69909558fd69ddfc6c8f19db81e00e65624&amp;width=1200&amp;height=630",
-      "_via": "rss",
-      "confidence": "high",
-      "_search_count": 1,
-      "_next_search_at": 1774873479.0
-    },
-    {
-      "id": "87a02c6baa06",
-      "datetime": "2026-03-30T11:18:06Z",
-      "type": "security_alert",
-      "confirmed": true,
-      "precision": "city",
-      "title": "Rocket attack targets Baghdad army base",
-      "location": "Baghdad, Iraq",
-      "lat": 33.3128,
-      "lon": 44.3615,
-      "sources": [
-        {
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/rocket-attack-targets-baghdad-army-base",
-          "domain": "middleeasteye.net",
-          "tier": "local"
-        }
-      ],
-      "snippet": "&lt;article data-history-node-id=\"437010\" about=\"https://www.middleeasteye.net/live-blog/live-blog-update/rocket-attack-targets-baghdad-army-base\" class=\"live-blog-update default clearfix\"&gt;\n\n  \n      &lt;h2&gt;\n      &lt;a href=\"https://www.middle",
-      "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-03/IRAN_STRIKE_TEHRAN_AFP.jpg",
-      "_via": "rss",
-      "confidence": "low",
-      "_search_count": 1,
-      "_next_search_at": 1774873086.0
     },
     {
       "id": "780a01bcf148",
