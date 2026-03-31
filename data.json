@@ -21,7 +21,9 @@
       ],
       "confidence": "low",
       "preview_image": "https://media.cnn.com/api/v1/images/stellar/prod/01-gettyimages-2264898954.jpg?c=16x9&q=w_800,c_fill",
-      "_via": "gdelt"
+      "_via": "gdelt",
+      "_search_count": 1,
+      "_next_search_at": 1774962493.0
     },
     {
       "id": "3842f22edc11",
@@ -42,13 +44,15 @@
       ],
       "confidence": "low",
       "preview_image": "https://media.cnn.com/api/v1/images/stellar/prod/ap26071398679727.jpg?c=16x9&q=w_800,c_fill",
-      "_via": "gdelt"
+      "_via": "gdelt",
+      "_search_count": 1,
+      "_next_search_at": 1774962493.0
     },
     {
       "id": "e4e3e45d9113",
       "datetime": "2026-03-31T11:24:57Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "UAE intercepts eight ballistic missiles, four cruise missiles and 36 drones on Tuesday",
       "location": "Uae",
@@ -59,18 +63,25 @@
           "url": "https://www.thenationalnews.com/news/uae/2026/03/31/uae-missile-drone-strikes-iran/",
           "domain": "thenationalnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://gulfnews.com/uae/11-killed-188-injured-since-the-start-of-iranian-attacks-on-the-uae-1.500492023",
+          "domain": "gulfnews.com",
+          "tier": "wire"
         }
       ],
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/Y7PQ47TUJ5GMFFOCUKOY2E27VA.jpg?smart=true&amp;auth=ea35c3a046a761f1b0696ef53ecf5fec4a3682cd9598628dffe8caabb152fd10&amp;width=1200&amp;height=630",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774959897.0
     },
     {
       "id": "7654fb594c68",
       "datetime": "2026-03-31T08:13:09Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "Dubai confirms loud sounds caused by air defence interceptions",
       "location": "Dubai",
@@ -86,7 +97,9 @@
       "snippet": null,
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-26%2Fiffru2zj%2FUAEflag?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774948389.0
     },
     {
       "id": "f58d73dec54f",
