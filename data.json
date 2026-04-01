@@ -250,7 +250,7 @@
       "id": "a30a9a193219",
       "datetime": "2026-03-31T03:34:19Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "Remote learning extended until April 17 as Iranian attacks on UAE continue",
       "location": "Uae",
@@ -266,7 +266,9 @@
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/2UECECZSGBEF3D6VZK7DF43LRY.jpg?smart=true&amp;auth=5c4abb652c97821505147ec5a940eabe523692232f8c012fef9fa37dd2c9fc70&amp;width=1200&amp;height=630",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774931659.0
     },
     {
       "id": "c1df2b2f2610",
@@ -325,7 +327,7 @@
       "id": "1ac41fa82bc4",
       "datetime": "2026-03-31T01:46:55Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "Kuwait oil tanker boss condemns Iran's attack on ship off Dubai coast",
       "location": "Dubai",
@@ -336,12 +338,19 @@
           "url": "https://www.thenationalnews.com/news/2026/03/31/dubai-tanker-fire-iran-drone/",
           "domain": "thenationalnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://www.theguardian.com/world/2026/mar/31/kuwaiti-tanker-hit-by-iranian-attack-in-dubai-port-raising-oil-spill-fears",
+          "domain": "theguardian.com",
+          "tier": "wire"
         }
       ],
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/XC2VS2TKVVD4VALVZOWJIXMIEI.JPG?smart=true&amp;auth=bc7efb78ef2f3694a55f28a8660e82a9e607e1608250cce53fff4bb7184d2eb2&amp;width=1200&amp;height=630",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774925215.0
     },
     {
       "id": "988e8d2196c8",
