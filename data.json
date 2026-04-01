@@ -1,39 +1,15 @@
 {
-  "last_updated": "2026-04-01T12:12:29Z",
+  "last_updated": "2026-04-01T20:06:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
-      "id": "446dc5052ce9",
-      "datetime": "2026-04-01T11:34:33Z",
-      "type": "security_alert",
-      "confirmed": false,
-      "precision": "city",
-      "title": "Zulekha Hospital Sharjah successfully treats six-month-old infant with severe hydronephrosis involving multidisciplinary expertise",
-      "location": "Sharjah",
-      "lat": 25.3463,
-      "lon": 55.4209,
-      "sources": [
-        {
-          "url": "https://gulfnews.com/gn-focus/company-news/zulekha-hospital-sharjah-successfully-treats-six-month-old-infant-with-severe-hydronephrosis-involving-multidisciplinary-expertise-1.500493224",
-          "domain": "gulfnews.com",
-          "tier": "local"
-        }
-      ],
-      "snippet": null,
-      "preview_image": "https://media.assettype.com/gulfnews%2F2026-04-01%2Fdcagz70s%2FZulekha-PR.jpg?rect=0%2C0%2C5873%2C3083&amp;w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
-      "_via": "rss",
-      "confidence": "low",
-      "_search_count": 3,
-      "_next_search_at": 1775129673.0
-    },
-    {
       "id": "6b2cbb18a184",
       "datetime": "2026-04-01T11:31:58Z",
-      "type": "security_alert",
+      "type": "interception",
       "confirmed": true,
       "precision": "country",
-      "title": "UAE air defense intercepted 5 ballistic missiles and 35 drones from Iran on April 1, 2026",
-      "location": "Uae",
+      "title": "UAE intercepts 5 ballistic missiles, 35 drones — 1 Apr",
+      "location": "UAE",
       "lat": null,
       "lon": null,
       "sources": [
@@ -49,62 +25,10 @@
         }
       ],
       "snippet": null,
-      "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-26%2F93ocapfr%2FUAEflag?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
+      "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-26%2F93ocapfr%2FUAEflag?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
       "_via": "rss",
-      "confidence": "low",
-      "_search_count": 1,
-      "_next_search_at": 1775046718.0
-    },
-    {
-      "id": "96dd45e36656",
-      "datetime": "2026-04-01T09:05:34Z",
-      "type": "security_alert",
-      "confirmed": true,
-      "precision": "city",
-      "title": "Love is in the air: Weddings on the rise in Abu Dhabi despite Iran's aerial attacks",
-      "location": "Abu Dhabi",
-      "lat": 24.4539,
-      "lon": 54.3773,
-      "sources": [
-        {
-          "url": "https://www.thenationalnews.com/news/uae/2026/04/01/love-is-in-the-air-weddings-on-the-rise-in-abu-dhabi-despite-irans-aerial-attacks/",
-          "domain": "thenationalnews.com",
-          "tier": "local"
-        },
-        {
-          "url": "https://www.reuters.com/world/middle-east/iran-fires-missiles-gulf-arab-states-one-killed-abu-dhabi-2026-02-28/",
-          "domain": "reuters.com",
-          "tier": "wire"
-        }
-      ],
-      "snippet": null,
-      "preview_image": "https://www.thenationalnews.com/resizer/v2/R2TNRVFRMNAOFPM6BET65656WE.jpg?smart=true&amp;auth=8172b407195e325a22fa6db405a1283904ee51845fd67429cb8fd71251071319&amp;width=1200&amp;height=630",
-      "_via": "rss",
-      "confidence": "low",
-      "_search_count": 1,
-      "_next_search_at": 1775037934.0
-    },
-    {
-      "id": "9ac2a8cd5b3a",
-      "datetime": "2026-04-01T07:54:12Z",
-      "type": "security_alert",
-      "confirmed": true,
-      "precision": "country",
-      "title": "Iran attacks cause fire in Kuwait, Bahrain; kill man in UAE",
-      "location": "Uae",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.aljazeera.com/news/2026/4/1/iran-attacks-cause-fire-in-kuwait-bahrain-kill-man-in-uae?traffic_source=rss",
-          "domain": "aljazeera.com",
-          "tier": "wire"
-        }
-      ],
-      "snippet": "Shrapnel from an Iranian drone interception kills a Bangladeshi national in the UAE&#039;s Fujairah city.",
-      "preview_image": "https://www.aljazeera.com/wp-content/uploads/2026/04/image-1775028804.jpg?resize=1920%2C1080&amp;quality=80",
-      "_via": "rss",
-      "confidence": "medium"
+      "confidence": "high",
+      "_enriched_at": "2026-04-01T20:06:00Z"
     },
     {
       "id": "ad73eded39eb",
@@ -112,7 +36,7 @@
       "type": "impact_minor",
       "confirmed": true,
       "precision": "city",
-      "title": "Drone debris kills 1 Asian national on Fujairah farm",
+      "title": "Drone interception debris kills 1 in Fujairah",
       "location": "Fujairah",
       "lat": 25.1288,
       "lon": 56.3265,
@@ -121,83 +45,18 @@
           "url": "https://gulfnews.com/uae/uae-one-killed-after-drone-debris-falls-on-farm-in-fujairah-1.500492785",
           "domain": "gulfnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://www.aljazeera.com/news/2026/4/1/iran-attacks-cause-fire-in-kuwait-bahrain-kill-man-in-uae",
+          "domain": "aljazeera.com",
+          "tier": "wire"
         }
       ],
-      "snippet": null,
+      "snippet": "Shrapnel from an Iranian drone interception kills a Bangladeshi national on a farm in Fujairah.",
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-26%2Fzhuvi9fr%2FUAEflag?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
       "_via": "rss",
-      "confidence": "low",
-      "_enriched_at": "2026-04-01T06:09:00Z",
-      "_search_count": 1,
-      "_next_search_at": 1775022347.0
-    },
-    {
-      "id": "5ab71fc35acf",
-      "datetime": "2026-03-31T14:29:12Z",
-      "type": "security_alert",
-      "confirmed": true,
-      "precision": "country",
-      "title": "Zelensky deepens defense ties in Middle East as Arab states seek Ukraine’s drone expertise but look to preserve ties with Russia",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://meduza.io/en/feature/2026/03/31/zelensky-deepens-defense-ties-in-middle-east-as-arab-states-seek-ukraine-s-drone-expertise-but-look-to-preserve-ties-with-russia",
-          "domain": "meduza.io",
-          "tier": "local"
-        }
-      ],
-      "snippet": "From March 26 to 29, Ukrainian President Volodymyr Zelensky toured several Middle Eastern countries. The trip resulted in military cooperation agreements with Saudi Arabia and Qatar, as well as plans for a similar agreement with the United Arab Emira",
-      "preview_image": "https://meduza.io/imgly/share/1774967352/en/feature/2026/03/31/zelensky-deepens-defense-ties-in-middle-east-as-arab-states-seek-ukraine-s-drone-expertise-but-look-to-preserve-ties-with-russia",
-      "_via": "rss",
-      "confidence": "low",
-      "_search_count": 1,
-      "_next_search_at": 1774970952.0
-    },
-    {
-      "id": "77f8e7aaebf3",
-      "datetime": "2026-03-31T14:24:38Z",
-      "type": "security_alert",
-      "confirmed": true,
-      "precision": "country",
-      "title": "UK sends more troops to Gulf amid Trump jibes over British military role",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.theguardian.com/world/2026/mar/31/uk-troops-gulf-donald-trump-jibes-british-military-involvement",
-          "domain": "theguardian.com",
-          "tier": "wire"
-        }
-      ],
-      "snippet": "&lt;p&gt;John Healey says extra deployment is defensive response to ‘expanding threat’ from Iran&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;a href=\"https://www.theguardian.com/world/live/2026/mar/31/iran-latest-updates-trump-threats-oil-spill-dubai-te",
-      "preview_image": "https://i.guim.co.uk/img/media/707fa6dca61db0f510cec097efd050fdf297398f/343_0_3409_2727/master/3409.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=83a4905cc185a332cb52c4bba8a733b9",
-      "_via": "rss",
-      "confidence": "medium"
-    },
-    {
-      "id": "0e2dec46c6e9",
-      "datetime": "2026-03-31T12:56:48Z",
-      "type": "security_alert",
-      "confirmed": true,
-      "precision": "city",
-      "title": "‘There’s no safe place here’: Kuwaiti tanker hit by Iranian drone attack in Dubai port",
-      "location": "Dubai",
-      "lat": 25.2048,
-      "lon": 55.2708,
-      "sources": [
-        {
-          "url": "https://www.theguardian.com/world/2026/mar/31/kuwaiti-tanker-hit-by-iranian-attack-in-dubai-port-raising-oil-spill-fears",
-          "domain": "theguardian.com",
-          "tier": "wire"
-        }
-      ],
-      "snippet": "&lt;p&gt;Dozens of other vessels leave area after drone strike causes fire onboard tanker owned by Kuwait’s state oil company&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;a href=\"https://www.theguardian.com/world/live/2026/mar/31/iran-latest-updates-tru",
-      "preview_image": "https://i.guim.co.uk/img/media/e51b060a3e79abd3a767707c5ddab7eb3b1f3d2a/97_0_1500_1200/master/1500.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=c57b8014142f9a26cdd6f959fb126ca3",
-      "_via": "rss",
-      "confidence": "medium"
+      "confidence": "high",
+      "_enriched_at": "2026-04-01T20:06:00Z"
     },
     {
       "id": "e4e3e45d9113",
@@ -205,7 +64,7 @@
       "type": "interception",
       "confirmed": true,
       "precision": "country",
-      "title": "UAE intercepts 8 ballistic missiles, 4 cruise missiles and 36 drones",
+      "title": "UAE intercepts 8 ballistic, 4 cruise missiles and 36 drones",
       "location": "UAE",
       "lat": null,
       "lon": null,
@@ -218,12 +77,12 @@
         {
           "url": "https://gulfnews.com/uae/11-killed-188-injured-since-the-start-of-iranian-attacks-on-the-uae-1.500492023",
           "domain": "gulfnews.com",
-          "tier": "wire"
+          "tier": "local"
         }
       ],
       "_via": "rss",
       "confidence": "high",
-      "_enriched_at": "2026-04-01T06:09:00Z"
+      "_enriched_at": "2026-04-01T20:06:00Z"
     },
     {
       "id": "7654fb594c68",
@@ -231,7 +90,7 @@
       "type": "interception",
       "confirmed": true,
       "precision": "city",
-      "title": "Dubai: loud sounds confirmed as air defence interceptions",
+      "title": "Dubai loud sounds: air defense intercepts confirmed",
       "location": "Dubai",
       "lat": 25.2048,
       "lon": 55.2708,
@@ -244,31 +103,7 @@
       ],
       "_via": "rss",
       "confidence": "medium",
-      "_enriched_at": "2026-04-01T06:09:00Z"
-    },
-    {
-      "id": "a30a9a193219",
-      "datetime": "2026-03-31T03:34:19Z",
-      "type": "security_alert",
-      "confirmed": true,
-      "precision": "country",
-      "title": "Remote learning extended until April 17 as Iranian attacks on UAE continue",
-      "location": "Uae",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.thenationalnews.com/news/uae/2026/03/31/remote-learning-extended-until-april-17-as-iran-attacks-on-uae-continue/",
-          "domain": "thenationalnews.com",
-          "tier": "local"
-        }
-      ],
-      "snippet": null,
-      "preview_image": "https://www.thenationalnews.com/resizer/v2/2UECECZSGBEF3D6VZK7DF43LRY.jpg?smart=true&amp;auth=5c4abb652c97821505147ec5a940eabe523692232f8c012fef9fa37dd2c9fc70&amp;width=1200&amp;height=630",
-      "_via": "rss",
-      "confidence": "low",
-      "_search_count": 1,
-      "_next_search_at": 1774931659.0
+      "_enriched_at": "2026-04-01T20:06:00Z"
     },
     {
       "id": "c1df2b2f2610",
@@ -276,7 +111,7 @@
       "type": "impact_minor",
       "confirmed": true,
       "precision": "city",
-      "title": "Debris from interception hits Dubai homes; 4 Asian nationals injured",
+      "title": "Debris from interception hits Dubai homes; 4 injured",
       "location": "Dubai",
       "lat": 25.2048,
       "lon": 55.2708,
@@ -289,68 +124,17 @@
         {
           "url": "https://gulfnews.com/uae/debris-hits-several-homes-in-dubai-four-asian-nationals-injured-1.500491815",
           "domain": "gulfnews.com",
-          "tier": "wire"
+          "tier": "local"
         },
         {
           "url": "https://gulfnews.com/uae/fire-breaks-out-in-abandoned-dubai-house-after-air-defence-debris-falls-4-suffer-minor-injuries-1.500491505",
           "domain": "gulfnews.com",
-          "tier": "wire"
+          "tier": "local"
         }
       ],
       "_via": "rss",
       "confidence": "medium",
-      "_enriched_at": "2026-04-01T06:09:00Z"
-    },
-    {
-      "id": "7913e571b353",
-      "datetime": "2026-03-31T01:56:39Z",
-      "type": "security_alert",
-      "confirmed": true,
-      "precision": "country",
-      "title": "Oil set for record monthly gain – as it happened",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.theguardian.com/world/live/2026/mar/30/iran-war-live-updates-trump-oil-kharg-island-houthis-israel-lebanon-middle-east",
-          "domain": "theguardian.com",
-          "tier": "wire"
-        }
-      ],
-      "snippet": "&lt;p&gt;This blog is closed – our live coverage continues on a &lt;a href=\"https://www.theguardian.com/world/live/2026/mar/31/iran-latest-updates-trump-threats-oil-spill-dubai-tehran-jerusalem-strikes\"&gt;new blog here&lt;/a&gt; &lt;/p&gt;&lt;p&gt;&",
-      "preview_image": "https://i.guim.co.uk/img/media/0ef6d02637cb01b378115fb47944ae10b780eadd/153_0_5000_4000/master/5000.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctbGl2ZS5wbmc&enable=upscale&s=94fcc62bcfb1430b6e3552170dc7f1c6",
-      "_via": "rss",
-      "confidence": "medium"
-    },
-    {
-      "id": "1ac41fa82bc4",
-      "datetime": "2026-03-31T01:46:55Z",
-      "type": "security_alert",
-      "confirmed": true,
-      "precision": "city",
-      "title": "Kuwait oil tanker boss condemns Iran's attack on ship off Dubai coast",
-      "location": "Dubai",
-      "lat": 25.2048,
-      "lon": 55.2708,
-      "sources": [
-        {
-          "url": "https://www.thenationalnews.com/news/2026/03/31/dubai-tanker-fire-iran-drone/",
-          "domain": "thenationalnews.com",
-          "tier": "local"
-        },
-        {
-          "url": "https://www.theguardian.com/world/2026/mar/31/kuwaiti-tanker-hit-by-iranian-attack-in-dubai-port-raising-oil-spill-fears",
-          "domain": "theguardian.com",
-          "tier": "wire"
-        }
-      ],
-      "snippet": null,
-      "preview_image": "https://www.thenationalnews.com/resizer/v2/XC2VS2TKVVD4VALVZOWJIXMIEI.JPG?smart=true&amp;auth=bc7efb78ef2f3694a55f28a8660e82a9e607e1608250cce53fff4bb7184d2eb2&amp;width=1200&amp;height=630",
-      "_via": "rss",
-      "confidence": "low",
-      "_search_count": 1,
-      "_next_search_at": 1774925215.0
+      "_enriched_at": "2026-04-01T20:06:00Z"
     },
     {
       "id": "988e8d2196c8",
@@ -358,7 +142,7 @@
       "type": "impact_minor",
       "confirmed": true,
       "precision": "city",
-      "title": "Iranian drone strikes Kuwaiti tanker Al Salmi near Dubai port",
+      "title": "Iranian drone hits Kuwaiti tanker Al Salmi near Dubai port",
       "location": "Dubai",
       "lat": 25.2048,
       "lon": 55.2708,
@@ -391,7 +175,7 @@
       ],
       "_via": "rss",
       "confidence": "high",
-      "_enriched_at": "2026-04-01T06:09:00Z"
+      "_enriched_at": "2026-04-01T20:06:00Z"
     },
     {
       "id": "780a01bcf148",
