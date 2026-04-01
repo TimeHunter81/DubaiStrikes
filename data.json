@@ -22,13 +22,15 @@
       "snippet": null,
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-04-01%2Fdcagz70s%2FZulekha-PR.jpg?rect=0%2C0%2C5873%2C3083&amp;w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1775046873.0
     },
     {
       "id": "6b2cbb18a184",
       "datetime": "2026-04-01T11:31:58Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "UAE air defense intercepted 5 ballistic missiles and 35 drones from Iran on April 1, 2026",
       "location": "Uae",
@@ -39,18 +41,25 @@
           "url": "https://gulfnews.com/uae/uae-air-defense-intercepted-5-ballistic-missiles-and-35-drones-from-iran-on-april-1-2026-1.500493231",
           "domain": "gulfnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://www.arnnewscentre.ae/en/news/uae/uae-intercepts-5-ballistic-missiles-and-35-drones-on-wednesday/",
+          "domain": "arnnewscentre.ae",
+          "tier": "wire"
         }
       ],
       "snippet": null,
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-26%2F93ocapfr%2FUAEflag?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1775046718.0
     },
     {
       "id": "96dd45e36656",
       "datetime": "2026-04-01T09:05:34Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "Love is in the air: Weddings on the rise in Abu Dhabi despite Iran's aerial attacks",
       "location": "Abu Dhabi",
@@ -61,12 +70,19 @@
           "url": "https://www.thenationalnews.com/news/uae/2026/04/01/love-is-in-the-air-weddings-on-the-rise-in-abu-dhabi-despite-irans-aerial-attacks/",
           "domain": "thenationalnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://www.reuters.com/world/middle-east/iran-fires-missiles-gulf-arab-states-one-killed-abu-dhabi-2026-02-28/",
+          "domain": "reuters.com",
+          "tier": "wire"
         }
       ],
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/R2TNRVFRMNAOFPM6BET65656WE.jpg?smart=true&amp;auth=8172b407195e325a22fa6db405a1283904ee51845fd67429cb8fd71251071319&amp;width=1200&amp;height=630",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1775037934.0
     },
     {
       "id": "9ac2a8cd5b3a",
@@ -119,7 +135,7 @@
       "id": "5ab71fc35acf",
       "datetime": "2026-03-31T14:29:12Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "Zelensky deepens defense ties in Middle East as Arab states seek Ukraine’s drone expertise but look to preserve ties with Russia",
       "location": "UAE",
@@ -135,7 +151,9 @@
       "snippet": "From March 26 to 29, Ukrainian President Volodymyr Zelensky toured several Middle Eastern countries. The trip resulted in military cooperation agreements with Saudi Arabia and Qatar, as well as plans for a similar agreement with the United Arab Emira",
       "preview_image": "https://meduza.io/imgly/share/1774967352/en/feature/2026/03/31/zelensky-deepens-defense-ties-in-middle-east-as-arab-states-seek-ukraine-s-drone-expertise-but-look-to-preserve-ties-with-russia",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1774970952.0
     },
     {
       "id": "77f8e7aaebf3",
