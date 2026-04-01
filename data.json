@@ -6,7 +6,7 @@
       "id": "ad73eded39eb",
       "datetime": "2026-04-01T04:45:47Z",
       "type": "impact_minor",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "Drone debris kills 1 Asian national on Fujairah farm",
       "location": "Fujairah",
@@ -23,7 +23,9 @@
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-26%2Fzhuvi9fr%2FUAEflag?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
       "_via": "rss",
       "confidence": "low",
-      "_enriched_at": "2026-04-01T06:09:00Z"
+      "_enriched_at": "2026-04-01T06:09:00Z",
+      "_search_count": 1,
+      "_next_search_at": 1775022347.0
     },
     {
       "id": "e4e3e45d9113",
