@@ -6,7 +6,7 @@
       "id": "6b2cbb18a184",
       "datetime": "2026-04-01T11:31:58Z",
       "type": "interception",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "UAE intercepts 5 ballistic missiles, 35 drones — 1 Apr",
       "location": "UAE",
@@ -28,13 +28,15 @@
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-26%2F93ocapfr%2FUAEflag?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
       "_via": "rss",
       "confidence": "high",
-      "_enriched_at": "2026-04-02T20:05:00Z"
+      "_enriched_at": "2026-04-02T20:05:00Z",
+      "_search_count": 1,
+      "_next_search_at": 1775046718.0
     },
     {
       "id": "ad73eded39eb",
       "datetime": "2026-04-01T04:45:47Z",
       "type": "impact_minor",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "Drone interception debris kills 1 in Fujairah",
       "location": "Fujairah",
@@ -50,24 +52,31 @@
           "url": "https://www.aljazeera.com/news/2026/4/1/iran-attacks-cause-fire-in-kuwait-bahrain-kill-man-in-uae",
           "domain": "aljazeera.com",
           "tier": "wire"
+        },
+        {
+          "url": "https://www.thenationalnews.com/news/uae/2026/04/01/one-killed-in-fujairah-after-debris-falls-from-intercepted-drone/",
+          "domain": "thenationalnews.com",
+          "tier": "wire"
         }
       ],
       "snippet": "Shrapnel from an Iranian drone interception kills a Bangladeshi national on a farm in Fujairah.",
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-26%2Fzhuvi9fr%2FUAEflag?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
       "_via": "rss",
       "confidence": "high",
-      "_enriched_at": "2026-04-02T20:05:00Z"
+      "_enriched_at": "2026-04-02T20:05:00Z",
+      "_search_count": 1,
+      "_next_search_at": 1775022347.0
     },
     {
       "id": "e4e3e45d9113",
       "datetime": "2026-03-31T11:24:57Z",
       "type": "interception",
-      "confirmed": false,
-      "precision": "country",
+      "confirmed": true,
+      "precision": "city",
       "title": "UAE intercepts 8 ballistic, 4 cruise missiles and 36 drones",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
+      "location": "Dubai",
+      "lat": 25.2048,
+      "lon": 55.2708,
       "sources": [
         {
           "url": "https://www.thenationalnews.com/news/uae/2026/03/31/uae-missile-drone-strikes-iran/",
@@ -83,14 +92,14 @@
       "_via": "rss",
       "confidence": "high",
       "_enriched_at": "2026-04-02T20:05:00Z",
-      "_search_count": 1,
-      "_next_search_at": 1774959897.0
+      "_search_count": 2,
+      "_next_search_at": 1774977897.0
     },
     {
       "id": "7654fb594c68",
       "datetime": "2026-03-31T08:13:09Z",
       "type": "interception",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "Dubai loud sounds: air defense intercepts confirmed",
       "location": "Dubai",
@@ -111,8 +120,8 @@
       "_via": "rss",
       "confidence": "medium",
       "_enriched_at": "2026-04-02T20:05:00Z",
-      "_search_count": 1,
-      "_next_search_at": 1774948389.0
+      "_search_count": 2,
+      "_next_search_at": 1774966389.0
     },
     {
       "id": "c1df2b2f2610",
