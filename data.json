@@ -127,7 +127,7 @@
       "id": "c1df2b2f2610",
       "datetime": "2026-03-31T02:20:30Z",
       "type": "impact_minor",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "Debris from interception hits Dubai homes; 4 injured",
       "location": "Dubai",
@@ -158,8 +158,8 @@
       "_via": "rss",
       "confidence": "medium",
       "_enriched_at": "2026-04-02T20:05:00Z",
-      "_search_count": 1,
-      "_next_search_at": 1774927230.0
+      "_search_count": 2,
+      "_next_search_at": 1774945230.0
     },
     {
       "id": "988e8d2196c8",
