@@ -62,7 +62,7 @@
       "id": "e4e3e45d9113",
       "datetime": "2026-03-31T11:24:57Z",
       "type": "interception",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "UAE intercepts 8 ballistic, 4 cruise missiles and 36 drones",
       "location": "UAE",
@@ -82,13 +82,15 @@
       ],
       "_via": "rss",
       "confidence": "high",
-      "_enriched_at": "2026-04-02T06:05:00Z"
+      "_enriched_at": "2026-04-02T06:05:00Z",
+      "_search_count": 1,
+      "_next_search_at": 1774959897.0
     },
     {
       "id": "7654fb594c68",
       "datetime": "2026-03-31T08:13:09Z",
       "type": "interception",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "Dubai loud sounds: air defense intercepts confirmed",
       "location": "Dubai",
@@ -99,17 +101,24 @@
           "url": "https://gulfnews.com/uae/dubai-confirms-loud-sounds-caused-by-air-defence-interceptions-1.500491755",
           "domain": "gulfnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://www.thenationalnews.com/news/uae/2026/03/31/uae-missile-drone-strikes-iran/",
+          "domain": "thenationalnews.com",
+          "tier": "wire"
         }
       ],
       "_via": "rss",
       "confidence": "medium",
-      "_enriched_at": "2026-04-02T06:05:00Z"
+      "_enriched_at": "2026-04-02T06:05:00Z",
+      "_search_count": 1,
+      "_next_search_at": 1774948389.0
     },
     {
       "id": "c1df2b2f2610",
       "datetime": "2026-03-31T02:20:30Z",
       "type": "impact_minor",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "Debris from interception hits Dubai homes; 4 injured",
       "location": "Dubai",
@@ -130,11 +139,18 @@
           "url": "https://gulfnews.com/uae/fire-breaks-out-in-abandoned-dubai-house-after-air-defence-debris-falls-4-suffer-minor-injuries-1.500491505",
           "domain": "gulfnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://english.alarabiya.net/News/gulf/2026/03/31/four-injured-homes-damaged-in-debris-incident-following-interception-media-office",
+          "domain": "english.alarabiya.net",
+          "tier": "wire"
         }
       ],
       "_via": "rss",
       "confidence": "medium",
-      "_enriched_at": "2026-04-02T06:05:00Z"
+      "_enriched_at": "2026-04-02T06:05:00Z",
+      "_search_count": 1,
+      "_next_search_at": 1774927230.0
     },
     {
       "id": "988e8d2196c8",
