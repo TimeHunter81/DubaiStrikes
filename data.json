@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-03T06:02:00Z",
+  "last_updated": "2026-04-03T12:05:43Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -28,7 +28,7 @@
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-26%2F93ocapfr%2FUAEflag?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
       "_via": "rss",
       "confidence": "high",
-      "_enriched_at": "2026-04-02T20:05:00Z",
+      "_enriched_at": "2026-04-03T12:05:43Z",
       "_search_count": 1,
       "_next_search_at": 1775046718.0
     },
@@ -36,7 +36,7 @@
       "id": "ad73eded39eb",
       "datetime": "2026-04-01T04:45:47Z",
       "type": "impact_minor",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "city",
       "title": "Drone interception debris kills 1 in Fujairah",
       "location": "Fujairah",
@@ -63,7 +63,7 @@
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-26%2Fzhuvi9fr%2FUAEflag?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
       "_via": "rss",
       "confidence": "high",
-      "_enriched_at": "2026-04-02T20:05:00Z",
+      "_enriched_at": "2026-04-03T12:05:43Z",
       "_search_count": 1,
       "_next_search_at": 1775022347.0
     },
@@ -71,12 +71,12 @@
       "id": "e4e3e45d9113",
       "datetime": "2026-03-31T11:24:57Z",
       "type": "interception",
-      "confirmed": true,
-      "precision": "city",
-      "title": "UAE intercepts 8 ballistic, 4 cruise missiles and 36 drones",
-      "location": "Dubai",
-      "lat": 25.2048,
-      "lon": 55.2708,
+      "confirmed": false,
+      "precision": "country",
+      "title": "UAE intercepts 8 ballistic, 4 cruise missiles and 36 drones — 31 Mar",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
       "sources": [
         {
           "url": "https://www.thenationalnews.com/news/uae/2026/03/31/uae-missile-drone-strikes-iran/",
@@ -91,7 +91,7 @@
       ],
       "_via": "rss",
       "confidence": "high",
-      "_enriched_at": "2026-04-02T20:05:00Z",
+      "_enriched_at": "2026-04-03T12:05:43Z",
       "_search_count": 2,
       "_next_search_at": 1774977897.0
     },
@@ -99,7 +99,7 @@
       "id": "7654fb594c68",
       "datetime": "2026-03-31T08:13:09Z",
       "type": "interception",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "city",
       "title": "Dubai loud sounds: air defense intercepts confirmed",
       "location": "Dubai",
@@ -119,7 +119,7 @@
       ],
       "_via": "rss",
       "confidence": "medium",
-      "_enriched_at": "2026-04-02T20:05:00Z",
+      "_enriched_at": "2026-04-03T12:05:43Z",
       "_search_count": 2,
       "_next_search_at": 1774966389.0
     },
@@ -127,7 +127,7 @@
       "id": "c1df2b2f2610",
       "datetime": "2026-03-31T02:20:30Z",
       "type": "impact_minor",
-      "confirmed": true,
+      "confirmed": false,
       "precision": "city",
       "title": "Debris from interception hits Dubai homes; 4 injured",
       "location": "Dubai",
@@ -157,7 +157,7 @@
       ],
       "_via": "rss",
       "confidence": "medium",
-      "_enriched_at": "2026-04-02T20:05:00Z",
+      "_enriched_at": "2026-04-03T12:05:43Z",
       "_search_count": 2,
       "_next_search_at": 1774945230.0
     },
@@ -200,7 +200,7 @@
       ],
       "_via": "rss",
       "confidence": "high",
-      "_enriched_at": "2026-04-02T20:05:00Z"
+      "_enriched_at": "2026-04-03T12:05:43Z"
     },
     {
       "id": "780a01bcf148",
