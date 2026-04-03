@@ -28,7 +28,7 @@
       "id": "393bb17173b6",
       "datetime": "2026-04-03T16:24:22Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "Emirates Global Aluminium says damage from Iran strike will take up to a year to fix",
       "location": "UAE",
@@ -39,18 +39,25 @@
           "url": "https://www.thenationalnews.com/business/2026/04/03/emirates-global-aluminium-says-damage-from-iran-strike-will-take-up-to-a-year-to-fix/",
           "domain": "thenationalnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://www.reuters.com/world/middle-east/emirates-global-aluminium-reports-significant-damage-iranian-strikes-2026-03-28/",
+          "domain": "reuters.com",
+          "tier": "wire"
         }
       ],
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/BYSCV53EAJAL7AFRJNQKODYLNQ.jpg?smart=true&amp;auth=c8749a7e19aa02493cd12f14850388fe62fac4418f285f5b91035dbe1fbd6310&amp;width=1200&amp;height=630",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1775237062.0
     },
     {
       "id": "e0569d5267f1",
       "datetime": "2026-04-02T11:30:09Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "UAE intercepts 19 missiles and 26 drones on Thursday",
       "location": "Uae",
@@ -61,12 +68,19 @@
           "url": "https://www.thenationalnews.com/news/uae/2026/04/02/uae-intercepts-19-missiles-and-26-drones-on-thursday/",
           "domain": "thenationalnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://gulfnews.com/uae/government/uae-air-defense-intercepted-19-ballistic-missiles-and-26-drones-from-iran-on-april-2-2026-1.500494318",
+          "domain": "gulfnews.com",
+          "tier": "wire"
         }
       ],
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/GYSHBN4SKVFY5HBDCSQA4KDD64.jpg?smart=true&amp;auth=f92a0417b0df7999f41f39a6ee4c730c998c9bfa3190c9095ef79d1769a5242c&amp;width=1200&amp;height=630",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1775133009.0
     },
     {
       "id": "6b2cbb18a184",
