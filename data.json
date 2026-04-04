@@ -6,7 +6,7 @@
       "id": "3b42aaa841fe",
       "datetime": "2026-04-04T03:24:40Z",
       "type": "impact_minor",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "exact",
       "title": "Interception debris hits Dubai Internet City building",
       "location": "Dubai Internet City",
@@ -17,19 +17,26 @@
           "url": "https://gulfnews.com/uae/government/iran-conflict-debris-from-aerial-interception-hits-dubai-internet-city-building-1.500495914",
           "domain": "gulfnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/dubai-media-office-confirms-debris-strike-internet-city-building",
+          "domain": "middleeasteye.net",
+          "tier": "wire"
         }
       ],
       "snippet": null,
       "preview_image": "https://media.assettype.com/gulfnews%2Fimport%2F2022%2F01%2F04%2FSTOCK-Dubai-Internet-city_17e26a0f8ba_large.jpg?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
       "_via": "rss",
       "confidence": "low",
-      "_enriched_at": "2026-04-04T06:04:00Z"
+      "_enriched_at": "2026-04-04T06:04:00Z",
+      "_search_count": 1,
+      "_next_search_at": 1775276680.0
     },
     {
       "id": "7e6333dcea4e",
       "datetime": "2026-04-04T02:35:00Z",
       "type": "impact_minor",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "exact",
       "title": "Interception debris hits Dubai Marina building",
       "location": "Dubai Marina",
@@ -40,13 +47,20 @@
           "url": "https://gulfnews.com/uae/government/iran-conflict-debris-from-aerial-interception-hits-dubai-marina-building-1.500495902",
           "domain": "gulfnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/debris-interception-hits-dubai-marina-building-no-injuries-reported",
+          "domain": "middleeasteye.net",
+          "tier": "wire"
         }
       ],
       "snippet": null,
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-06%2F2cx9y26d%2FDubai-Marina.jpg?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
       "_via": "rss",
       "confidence": "low",
-      "_enriched_at": "2026-04-04T06:04:00Z"
+      "_enriched_at": "2026-04-04T06:04:00Z",
+      "_search_count": 1,
+      "_next_search_at": 1775273700.0
     },
     {
       "id": "d30d028fe1a5",
