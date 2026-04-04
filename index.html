@@ -1068,33 +1068,42 @@
     conflictStart = new Date(conflictStartISO).getTime();
     const now = Date.now();
     sliderMax = Math.ceil((now - conflictStart) / 3600000);
-    windowHours = 0; // default: show all
+    windowHours = 24; // default: last 24h (overridden by loadPrefs if stored)
 
     const slider = document.getElementById('timeline-slider');
     slider.min = 1;
     slider.max = sliderMax;
-    slider.value = 1; // leftmost (min) = ALL
-
-    windowHours = sliderMax; // show all by default
 
     // Left end label = ALL, right end label = 1h
     document.querySelector('#timeline-ends span:first-child').textContent = 'All';
     document.querySelector('#timeline-ends span:last-child').textContent = '1h';
-    document.getElementById('timeline-value').textContent = 'All';
 
-    // Animate slider track fill
+    // Animate slider track fill (called on user interaction)
     const updateTrack = () => {
       const pct = ((parseInt(slider.value) - 1) / (sliderMax - 1) * 100).toFixed(1);
       slider.style.setProperty('--pct', pct + '%');
     };
-    slider.addEventListener('input', () => { updateTrack();
+    slider.addEventListener('input', () => {
+      updateTrack();
       const raw = parseInt(slider.value);
       // raw=1 (left) → ALL, raw=sliderMax (right) → 1h
       windowHours = sliderMax - raw + 1;
       document.getElementById('timeline-value').textContent = windowLabel(windowHours);
       renderEvents(); renderLocations(); savePrefs();
     });
-    updateTrack();
+    // Slider position is applied by applySliderFromWindowHours() after loadPrefs()
+  }
+
+  // Sync slider UI to current windowHours value (called after initSlider + loadPrefs)
+  function applySliderFromWindowHours() {
+    const slider = document.getElementById('timeline-slider');
+    if (!slider || !sliderMax) return;
+    const isAll = windowHours >= sliderMax;
+    const raw = isAll ? 1 : Math.max(1, sliderMax - windowHours + 1);
+    slider.value = raw;
+    const pct = ((raw - 1) / (sliderMax - 1) * 100).toFixed(1);
+    slider.style.setProperty('--pct', pct + '%');
+    document.getElementById('timeline-value').textContent = windowLabel(isAll ? 0 : windowHours);
   }
 
   // ─── FILTERS ───────────────────────────────────────────────────────────
@@ -1480,11 +1489,12 @@
   }
 
   // ─── PREFS (filter/tz/slider) persisted in localStorage, not URL ─────
-  const PREFS_V = '3'; // bump when schema changes to auto-clear stale prefs
+  const PREFS_V = '4'; // bump when schema changes to auto-clear stale prefs
 
   function savePrefs() {
     localStorage.setItem('dsm_prefs', JSON.stringify({
-      v: PREFS_V, filterType, filterShowConfirmed, filterShowSuspected, tzMode, windowHours
+      v: PREFS_V, filterType, filterShowConfirmed, filterShowSuspected, tzMode,
+      windowHours: (sliderMax && windowHours >= sliderMax) ? 'all' : windowHours
     }));
   }
 
@@ -1511,7 +1521,7 @@
       document.querySelector('[data-conf="suspected"]')?.classList.toggle('active', filterShowSuspected);
 
       if (p.tzMode) tzMode = p.tzMode;
-      if (p.windowHours != null) windowHours = p.windowHours;
+      if (p.windowHours != null) windowHours = p.windowHours === 'all' ? sliderMax : p.windowHours;
     } catch(e) { localStorage.removeItem('dsm_prefs'); }
   }
 
@@ -1592,9 +1602,10 @@
       updateStatus(allEvents);
       updateConfFilters();
       if (!isRefresh) {
-        try { loadPrefs(); } catch(_) {}
-        try { updateTZBtn(); } catch(_) {}
         try { initSlider(data.conflict_start || '2026-02-27T20:00:00Z'); } catch(_) {}
+        try { loadPrefs(); } catch(_) {}
+        try { applySliderFromWindowHours(); } catch(_) {}
+        try { updateTZBtn(); } catch(_) {}
         try { const fromURL = loadFromURL(); if (!fromURL) loadFromStorage(); } catch(_) {}
       }
       try {
@@ -1691,3 +1702,4 @@
   </script>
 </body>
 </html>
+
