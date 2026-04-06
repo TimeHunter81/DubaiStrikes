@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-06T13:18:00Z",
+  "last_updated": "2026-04-06T20:03:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -133,7 +133,7 @@
       "preview_image": "https://www.thenationalnews.com/resizer/v2/LAUIJCHKORBUHESGN4BITQGYSQ.jpg?smart=true&auth=e2b29ffdcbe5c24d27606712f57bf79bad70c0c82cf8d6df1c2cf28d9b85ce81&width=1200&height=630",
       "_via": "rss",
       "confidence": "medium",
-      "_enriched_at": "2026-04-04T12:05:00Z"
+      "_enriched_at": "2026-04-06T20:03:00Z"
     },
     {
       "id": "3b42aaa841fe",
@@ -161,7 +161,7 @@
       "preview_image": "https://media.assettype.com/gulfnews%2Fimport%2F2022%2F01%2F04%2FSTOCK-Dubai-Internet-city_17e26a0f8ba_large.jpg?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
       "_via": "rss",
       "confidence": "high",
-      "_enriched_at": "2026-04-04T12:05:00Z",
+      "_enriched_at": "2026-04-06T20:03:00Z",
       "_search_count": 1,
       "_next_search_at": 1775276680.0
     },
@@ -191,7 +191,7 @@
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-06%2F2cx9y26d%2FDubai-Marina.jpg?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
       "_via": "rss",
       "confidence": "high",
-      "_enriched_at": "2026-04-04T12:05:00Z",
+      "_enriched_at": "2026-04-06T20:03:00Z",
       "_search_count": 1,
       "_next_search_at": 1775273700.0
     },
@@ -216,7 +216,7 @@
       "preview_image": "https://www.aljazeera.com/wp-content/uploads/2026/04/2007-01-16T000000Z_1794600640_GM1DUJZTOJAA_RTRMADP_3_UNITED-ARAB-EMIRATES-1775240863.jpg?resize=1920%2C1440",
       "_via": "rss",
       "confidence": "high",
-      "_enriched_at": "2026-04-04T12:05:00Z"
+      "_enriched_at": "2026-04-06T20:03:00Z"
     },
     {
       "id": "e0569d5267f1",
@@ -246,7 +246,7 @@
       "confidence": "high",
       "_search_count": 1,
       "_next_search_at": 1775133009.0,
-      "_enriched_at": "2026-04-04T12:05:00Z"
+      "_enriched_at": "2026-04-06T20:03:00Z"
     },
     {
       "id": "6b2cbb18a184",
@@ -274,7 +274,7 @@
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-26%2F93ocapfr%2FUAEflag?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
       "_via": "rss",
       "confidence": "high",
-      "_enriched_at": "2026-04-04T12:05:00Z",
+      "_enriched_at": "2026-04-06T20:03:00Z",
       "_search_count": 1,
       "_next_search_at": 1775046718.0
     },
@@ -309,7 +309,7 @@
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-26%2Fzhuvi9fr%2FUAEflag?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
       "_via": "rss",
       "confidence": "high",
-      "_enriched_at": "2026-04-04T12:05:00Z",
+      "_enriched_at": "2026-04-06T20:03:00Z",
       "_search_count": 2,
       "_next_search_at": 1775040347.0
     },
@@ -337,7 +337,7 @@
       ],
       "_via": "rss",
       "confidence": "high",
-      "_enriched_at": "2026-04-04T12:05:00Z",
+      "_enriched_at": "2026-04-06T20:03:00Z",
       "_search_count": 3,
       "_next_search_at": 1775042697.0
     },
@@ -365,7 +365,7 @@
       ],
       "_via": "rss",
       "confidence": "medium",
-      "_enriched_at": "2026-04-04T12:05:00Z",
+      "_enriched_at": "2026-04-06T20:03:00Z",
       "_search_count": 3,
       "_next_search_at": 1775031189.0
     },
@@ -403,7 +403,7 @@
       ],
       "_via": "rss",
       "confidence": "medium",
-      "_enriched_at": "2026-04-04T12:05:00Z",
+      "_enriched_at": "2026-04-06T20:03:00Z",
       "_search_count": 3,
       "_next_search_at": 1775010030.0
     },
@@ -446,7 +446,7 @@
       ],
       "_via": "rss",
       "confidence": "high",
-      "_enriched_at": "2026-04-04T12:05:00Z"
+      "_enriched_at": "2026-04-06T20:03:00Z"
     },
     {
       "id": "780a01bcf148",
