@@ -1,37 +1,42 @@
 {
-  "last_updated": "2026-04-05T12:09:06Z",
+  "last_updated": "2026-04-06T13:18:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
-      "id": "85db8c40b2a5",
-      "datetime": "2026-04-05T12:08:49Z",
-      "type": "security_alert",
-      "confirmed": true,
+      "id": "5541e50293d9",
+      "datetime": "2026-04-06T11:05:43Z",
+      "type": "interception",
+      "confirmed": false,
       "precision": "country",
-      "title": "Airports , plants and ports : The civilian targets increasingly under threat in the Middle East",
+      "title": "UAE intercepts 12 ballistic missiles, 2 cruise missiles and 19 drones — 6 Apr",
       "location": "UAE",
       "lat": null,
       "lon": null,
       "sources": [
         {
-          "url": "https://edition.cnn.com/2026/03/30/world/middle-east-civilian-targets-iran-war-intl",
-          "domain": "edition.cnn.com",
-          "tier": "unverified"
+          "url": "https://www.thenationalnews.com/news/uae/2026/04/06/uae-intercepts-12-ballistic-missiles-two-cruise-missiles-and-19-drones-on-monday/",
+          "domain": "thenationalnews.com",
+          "tier": "local"
+        },
+        {
+          "url": "https://gulfnews.com/uae/uae-air-defences-intercept-twelve-ballistic-missiles-two-cruise-missiles-and-19-uavs-1.500497753",
+          "domain": "gulfnews.com",
+          "tier": "local"
         }
       ],
+      "snippet": null,
+      "preview_image": "https://www.thenationalnews.com/resizer/v2/6EICJPZ6WJAOBKKUCCH4FJXG6U.jpg?smart=true&auth=754e66992e024dc2c936bebfc925629da84a448217495060ebc71ed3a1e5b890&width=1200&height=630",
+      "_via": "rss",
       "confidence": "low",
-      "preview_image": "https://media.cnn.com/api/v1/images/stellar/prod/01-gettyimages-2264898954.jpg?c=16x9&q=w_800,c_fill",
-      "_via": "gdelt",
-      "_search_count": 1,
-      "_next_search_at": 1775394529.0
+      "_enriched_at": "2026-04-06T13:18:00Z"
     },
     {
       "id": "7c40afeaaffb",
       "datetime": "2026-04-05T12:02:36Z",
-      "type": "security_alert",
-      "confirmed": true,
+      "type": "impact_major",
+      "confirmed": false,
       "precision": "city",
-      "title": "IRGC claims hits on Gulf petrochemical plants",
+      "title": "IRGC drone strikes Abu Dhabi steel plant — Gulf petrochemical facilities hit",
       "location": "Abu Dhabi, UAE",
       "lat": 24.4539,
       "lon": 54.3773,
@@ -52,16 +57,17 @@
       "_via": "rss",
       "confidence": "low",
       "_search_count": 1,
-      "_next_search_at": 1775394156.0
+      "_next_search_at": 1775394156.0,
+      "_enriched_at": "2026-04-06T13:18:00Z"
     },
     {
       "id": "37995e199ea5",
       "datetime": "2026-04-05T11:06:56Z",
-      "type": "security_alert",
+      "type": "interception",
       "confirmed": true,
       "precision": "country",
-      "title": "UAE intercepts nine ballistic missiles, one cruise missile and 50 drones on Sunday",
-      "location": "Uae",
+      "title": "UAE intercepts 9 ballistic missiles, 1 cruise missile and 50 drones — 5 Apr",
+      "location": "UAE",
       "lat": null,
       "lon": null,
       "sources": [
@@ -74,65 +80,20 @@
           "url": "https://apnews.com/live/iran-war-israel-trump-04-05-2026",
           "domain": "apnews.com",
           "tier": "wire"
-        }
-      ],
-      "snippet": null,
-      "preview_image": "https://www.thenationalnews.com/resizer/v2/GYSHBN4SKVFY5HBDCSQA4KDD64.jpg?smart=true&amp;auth=f92a0417b0df7999f41f39a6ee4c730c998c9bfa3190c9095ef79d1769a5242c&amp;width=1200&amp;height=630",
-      "_via": "rss",
-      "confidence": "low",
-      "_search_count": 1,
-      "_next_search_at": 1775390816.0
-    },
-    {
-      "id": "250d23a52735",
-      "datetime": "2026-04-05T11:03:04Z",
-      "type": "security_alert",
-      "confirmed": true,
-      "precision": "country",
-      "title": "UAE intercepts 9 ballistic missiles, 1 cruise missile and 50 drones from Iran on April 5",
-      "location": "Uae",
-      "lat": null,
-      "lon": null,
-      "sources": [
+        },
         {
           "url": "https://gulfnews.com/uae/uae-air-defence-intercepted-9-ballistic-missiles-1-cruise-missiles-and-50-drones-from-iran-on-april-5-2026-1.500496970",
           "domain": "gulfnews.com",
           "tier": "local"
-        },
-        {
-          "url": "https://apnews.com/live/iran-war-israel-trump-04-05-2026",
-          "domain": "apnews.com",
-          "tier": "wire"
         }
       ],
       "snippet": null,
-      "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-26%2Fzhuvi9fr%2FUAEflag?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
+      "preview_image": "https://www.thenationalnews.com/resizer/v2/GYSHBN4SKVFY5HBDCSQA4KDD64.jpg?smart=true&auth=f92a0417b0df7999f41f39a6ee4c730c998c9bfa3190c9095ef79d1769a5242c&width=1200&height=630",
       "_via": "rss",
-      "confidence": "low",
+      "confidence": "high",
       "_search_count": 1,
-      "_next_search_at": 1775390584.0
-    },
-    {
-      "id": "4c8fe2c975a9",
-      "datetime": "2026-04-05T08:52:22Z",
-      "type": "security_alert",
-      "confirmed": true,
-      "precision": "country",
-      "title": "Kuwait’s power, water plants damaged as Iran keeps attacking Gulf states",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.aljazeera.com/news/2026/4/5/kuwait-says-power-water-facilities-hit-by-iran-as-gulf-attacks-continue?traffic_source=rss",
-          "domain": "aljazeera.com",
-          "tier": "wire"
-        }
-      ],
-      "snippet": "Bahrain and the UAE also reported attacks resulting in fires, which were put out quickly.",
-      "preview_image": "https://www.aljazeera.com/wp-content/uploads/2026/04/afp_69d20a0bf1bf-1775372812.jpg?resize=1200%2C675",
-      "_via": "rss",
-      "confidence": "medium"
+      "_next_search_at": 1775390816.0,
+      "_enriched_at": "2026-04-06T13:18:00Z"
     },
     {
       "id": "0e0fdaa94c0a",
@@ -157,34 +118,10 @@
         }
       ],
       "snippet": null,
-      "preview_image": "https://www.thenationalnews.com/resizer/v2/LAUIJCHKORBUHESGN4BITQGYSQ.jpg?smart=true&amp;auth=e2b29ffdcbe5c24d27606712f57bf79bad70c0c82cf8d6df1c2cf28d9b85ce81&amp;width=1200&amp;height=630",
+      "preview_image": "https://www.thenationalnews.com/resizer/v2/LAUIJCHKORBUHESGN4BITQGYSQ.jpg?smart=true&auth=e2b29ffdcbe5c24d27606712f57bf79bad70c0c82cf8d6df1c2cf28d9b85ce81&width=1200&height=630",
       "_via": "rss",
       "confidence": "medium",
       "_enriched_at": "2026-04-04T12:05:00Z"
-    },
-    {
-      "id": "f3550a72f319",
-      "datetime": "2026-04-04T06:07:58Z",
-      "type": "security_alert",
-      "confirmed": true,
-      "precision": "country",
-      "title": "Dr Gargash says Iranian proposal for US deal overlooking attacks on Gulf is fundamentally flawed",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.thenationalnews.com/news/mena/2026/04/04/dr-gargash-says-iranian-proposal-for-us-deal-overlooking-attacks-on-gulf-is-fundamentally-flawed/",
-          "domain": "thenationalnews.com",
-          "tier": "local"
-        }
-      ],
-      "snippet": null,
-      "preview_image": "https://www.thenationalnews.com/resizer/v2/AGFCXELIRZGYNHFWIKMQT3IFVU.jpg?smart=true&amp;auth=3d7503aa489e20d5957e7c616a27aaf965e5d425e421d7e3af919f516234419f&amp;width=1200&amp;height=630",
-      "_via": "rss",
-      "confidence": "low",
-      "_search_count": 1,
-      "_next_search_at": 1775286478.0
     },
     {
       "id": "3b42aaa841fe",
@@ -268,30 +205,6 @@
       "_via": "rss",
       "confidence": "high",
       "_enriched_at": "2026-04-04T12:05:00Z"
-    },
-    {
-      "id": "393bb17173b6",
-      "datetime": "2026-04-03T16:24:22Z",
-      "type": "security_alert",
-      "confirmed": true,
-      "precision": "country",
-      "title": "Emirates Global Aluminium says damage from Iran strike will take up to a year to fix",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.thenationalnews.com/business/2026/04/03/emirates-global-aluminium-says-damage-from-iran-strike-will-take-up-to-a-year-to-fix/",
-          "domain": "thenationalnews.com",
-          "tier": "local"
-        }
-      ],
-      "snippet": null,
-      "preview_image": "https://www.thenationalnews.com/resizer/v2/BYSCV53EAJAL7AFRJNQKODYLNQ.jpg?smart=true&amp;auth=c8749a7e19aa02493cd12f14850388fe62fac4418f285f5b91035dbe1fbd6310&amp;width=1200&amp;height=630",
-      "_via": "rss",
-      "confidence": "low",
-      "_search_count": 1,
-      "_next_search_at": 1775237062.0
     },
     {
       "id": "e0569d5267f1",
