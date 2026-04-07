@@ -7,11 +7,11 @@
       "datetime": "2026-04-07T05:12:35Z",
       "type": "security_alert",
       "confirmed": false,
-      "precision": "country",
+      "precision": "city",
       "title": "Gulf Air adds more South Asia routes via Dammam amid airspace shutdown",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
+      "location": "Dammam, Saudi Arabia",
+      "lat": 26.4207,
+      "lon": 50.0888,
       "sources": [
         {
           "url": "https://gulfnews.com/business/aviation/gulf-air-adds-more-south-asia-routes-via-dammam-amid-airspace-shutdown-1.500498537",
@@ -23,14 +23,14 @@
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-04-07%2F31p5jrtr%2FGF-Image.jpg?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
       "confidence": "low",
-      "_search_count": 1,
-      "_next_search_at": 1775542355.0
+      "_search_count": 2,
+      "_next_search_at": 1775560355.0
     },
     {
       "id": "af6c02535482",
       "datetime": "2026-04-07T03:00:00Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "Strikes on Gulf energy sites stoke global and regional stagflation fears",
       "location": "UAE",
@@ -47,8 +47,8 @@
       "preview_image": "https://www.thenationalnews.com/resizer/v2/L5QCVSR7GZGARAUD6NF7NIANYU.JPG?smart=true&amp;auth=beaf7f2631f07f1bcb3d3515c3a85e47ec12d6a892e0d6256f11fffb2b38de4f&amp;width=1200&amp;height=630",
       "_via": "rss",
       "confidence": "low",
-      "_search_count": 1,
-      "_next_search_at": 1775534400.0
+      "_search_count": 2,
+      "_next_search_at": 1775552400.0
     },
     {
       "id": "8f7e183f8560",
