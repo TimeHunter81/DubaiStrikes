@@ -6,7 +6,7 @@
       "id": "8f7e183f8560",
       "datetime": "2026-04-07T02:06:04Z",
       "type": "interception",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "UAE air defences intercept Iranian missiles and drones — 7 Apr",
       "location": "Abu Dhabi",
@@ -29,8 +29,8 @@
       "_via": "rss",
       "confidence": "low",
       "_enriched_at": "2026-04-07T12:03:00Z",
-      "_search_count": 1,
-      "_next_search_at": 1775531164.0
+      "_search_count": 2,
+      "_next_search_at": 1775549164.0
     },
     {
       "id": "5541e50293d9",
