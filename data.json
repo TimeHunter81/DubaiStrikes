@@ -1,62 +1,14 @@
 {
-  "last_updated": "2026-04-07T06:09:04Z",
+  "last_updated": "2026-04-07T12:03:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
-      "id": "303c4f97adf0",
-      "datetime": "2026-04-07T05:12:35Z",
-      "type": "security_alert",
-      "confirmed": true,
-      "precision": "city",
-      "title": "Gulf Air adds more South Asia routes via Dammam amid airspace shutdown",
-      "location": "Dammam, Saudi Arabia",
-      "lat": 26.4207,
-      "lon": 50.0888,
-      "sources": [
-        {
-          "url": "https://gulfnews.com/business/aviation/gulf-air-adds-more-south-asia-routes-via-dammam-amid-airspace-shutdown-1.500498537",
-          "domain": "gulfnews.com",
-          "tier": "local"
-        }
-      ],
-      "snippet": null,
-      "preview_image": "https://media.assettype.com/gulfnews%2F2026-04-07%2F31p5jrtr%2FGF-Image.jpg?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
-      "_via": "rss",
-      "confidence": "low",
-      "_search_count": 3,
-      "_next_search_at": 1775625155.0
-    },
-    {
-      "id": "af6c02535482",
-      "datetime": "2026-04-07T03:00:00Z",
-      "type": "security_alert",
-      "confirmed": true,
-      "precision": "country",
-      "title": "Strikes on Gulf energy sites stoke global and regional stagflation fears",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.thenationalnews.com/business/economy/2026/04/07/strikes-on-gulf-energy-sites-risk-triggering-stagflation/",
-          "domain": "thenationalnews.com",
-          "tier": "local"
-        }
-      ],
-      "snippet": null,
-      "preview_image": "https://www.thenationalnews.com/resizer/v2/L5QCVSR7GZGARAUD6NF7NIANYU.JPG?smart=true&amp;auth=beaf7f2631f07f1bcb3d3515c3a85e47ec12d6a892e0d6256f11fffb2b38de4f&amp;width=1200&amp;height=630",
-      "_via": "rss",
-      "confidence": "low",
-      "_search_count": 2,
-      "_next_search_at": 1775552400.0
-    },
-    {
       "id": "8f7e183f8560",
       "datetime": "2026-04-07T02:06:04Z",
-      "type": "security_alert",
-      "confirmed": true,
+      "type": "interception",
+      "confirmed": false,
       "precision": "city",
-      "title": "UAE air defences intercept Iranian missiles and drones",
+      "title": "UAE air defences intercept Iranian missiles and drones — 7 Apr",
       "location": "Abu Dhabi",
       "lat": 24.4539,
       "lon": 54.3773,
@@ -73,9 +25,10 @@
         }
       ],
       "snippet": null,
-      "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-26%2F93ocapfr%2FUAEflag?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
+      "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-26%2F93ocapfr%2FUAEflag?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
       "_via": "rss",
       "confidence": "low",
+      "_enriched_at": "2026-04-07T12:03:00Z",
       "_search_count": 1,
       "_next_search_at": 1775531164.0
     },
@@ -110,7 +63,7 @@
       "preview_image": "https://www.thenationalnews.com/resizer/v2/6EICJPZ6WJAOBKKUCCH4FJXG6U.jpg?smart=true&auth=754e66992e024dc2c936bebfc925629da84a448217495060ebc71ed3a1e5b890&width=1200&height=630",
       "_via": "rss",
       "confidence": "high",
-      "_enriched_at": "2026-04-06T13:18:00Z",
+      "_enriched_at": "2026-04-07T12:03:00Z",
       "_search_count": 1,
       "_next_search_at": 1775477143.0
     },
@@ -182,7 +135,7 @@
       "confidence": "high",
       "_search_count": 1,
       "_next_search_at": 1775390816.0,
-      "_enriched_at": "2026-04-06T13:18:00Z"
+      "_enriched_at": "2026-04-07T12:03:00Z"
     },
     {
       "id": "0e0fdaa94c0a",
@@ -210,7 +163,7 @@
       "preview_image": "https://www.thenationalnews.com/resizer/v2/LAUIJCHKORBUHESGN4BITQGYSQ.jpg?smart=true&auth=e2b29ffdcbe5c24d27606712f57bf79bad70c0c82cf8d6df1c2cf28d9b85ce81&width=1200&height=630",
       "_via": "rss",
       "confidence": "medium",
-      "_enriched_at": "2026-04-06T20:03:00Z"
+      "_enriched_at": "2026-04-07T12:03:00Z"
     },
     {
       "id": "3b42aaa841fe",
@@ -238,7 +191,7 @@
       "preview_image": "https://media.assettype.com/gulfnews%2Fimport%2F2022%2F01%2F04%2FSTOCK-Dubai-Internet-city_17e26a0f8ba_large.jpg?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
       "_via": "rss",
       "confidence": "high",
-      "_enriched_at": "2026-04-06T20:03:00Z",
+      "_enriched_at": "2026-04-07T12:03:00Z",
       "_search_count": 1,
       "_next_search_at": 1775276680.0
     },
@@ -268,7 +221,7 @@
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-06%2F2cx9y26d%2FDubai-Marina.jpg?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
       "_via": "rss",
       "confidence": "high",
-      "_enriched_at": "2026-04-06T20:03:00Z",
+      "_enriched_at": "2026-04-07T12:03:00Z",
       "_search_count": 1,
       "_next_search_at": 1775273700.0
     },
@@ -293,7 +246,7 @@
       "preview_image": "https://www.aljazeera.com/wp-content/uploads/2026/04/2007-01-16T000000Z_1794600640_GM1DUJZTOJAA_RTRMADP_3_UNITED-ARAB-EMIRATES-1775240863.jpg?resize=1920%2C1440",
       "_via": "rss",
       "confidence": "high",
-      "_enriched_at": "2026-04-06T20:03:00Z"
+      "_enriched_at": "2026-04-07T12:03:00Z"
     },
     {
       "id": "e0569d5267f1",
@@ -323,7 +276,7 @@
       "confidence": "high",
       "_search_count": 1,
       "_next_search_at": 1775133009.0,
-      "_enriched_at": "2026-04-06T20:03:00Z"
+      "_enriched_at": "2026-04-07T12:03:00Z"
     },
     {
       "id": "6b2cbb18a184",
@@ -351,7 +304,7 @@
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-26%2F93ocapfr%2FUAEflag?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
       "_via": "rss",
       "confidence": "high",
-      "_enriched_at": "2026-04-06T20:03:00Z",
+      "_enriched_at": "2026-04-07T12:03:00Z",
       "_search_count": 1,
       "_next_search_at": 1775046718.0
     },
@@ -386,7 +339,7 @@
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-26%2Fzhuvi9fr%2FUAEflag?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
       "_via": "rss",
       "confidence": "high",
-      "_enriched_at": "2026-04-06T20:03:00Z",
+      "_enriched_at": "2026-04-07T12:03:00Z",
       "_search_count": 2,
       "_next_search_at": 1775040347.0
     },
@@ -414,7 +367,7 @@
       ],
       "_via": "rss",
       "confidence": "high",
-      "_enriched_at": "2026-04-06T20:03:00Z",
+      "_enriched_at": "2026-04-07T12:03:00Z",
       "_search_count": 3,
       "_next_search_at": 1775042697.0
     },
@@ -442,7 +395,7 @@
       ],
       "_via": "rss",
       "confidence": "medium",
-      "_enriched_at": "2026-04-06T20:03:00Z",
+      "_enriched_at": "2026-04-07T12:03:00Z",
       "_search_count": 3,
       "_next_search_at": 1775031189.0
     },
@@ -480,7 +433,7 @@
       ],
       "_via": "rss",
       "confidence": "medium",
-      "_enriched_at": "2026-04-06T20:03:00Z",
+      "_enriched_at": "2026-04-07T12:03:00Z",
       "_search_count": 3,
       "_next_search_at": 1775010030.0
     },
@@ -523,7 +476,7 @@
       ],
       "_via": "rss",
       "confidence": "high",
-      "_enriched_at": "2026-04-06T20:03:00Z"
+      "_enriched_at": "2026-04-07T12:03:00Z"
     },
     {
       "id": "780a01bcf148",
@@ -785,7 +738,7 @@
           "tier": "wire"
         },
         {
-          "url": "https://www.aljazeera.com/world/live/2026/03/21/middle-east-crisis-live-iran-war-trump-negotiations-bombing-hormuz-energy-oil-sanctions-report",
+          "url": "https://www.aljazeera.com/world/live/2026/03/21/middle-east-crisis-live-iran-war-trump-negotiations-bombing-hormuz-energy-oil-scenarios-sanctions-report",
           "domain": "aljazeera.com",
           "tier": "wire"
         }
