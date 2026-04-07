@@ -6,7 +6,7 @@
       "id": "303c4f97adf0",
       "datetime": "2026-04-07T05:12:35Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "Gulf Air adds more South Asia routes via Dammam amid airspace shutdown",
       "location": "Dammam, Saudi Arabia",
@@ -23,8 +23,8 @@
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-04-07%2F31p5jrtr%2FGF-Image.jpg?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
       "confidence": "low",
-      "_search_count": 2,
-      "_next_search_at": 1775560355.0
+      "_search_count": 3,
+      "_next_search_at": 1775625155.0
     },
     {
       "id": "af6c02535482",
