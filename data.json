@@ -22,7 +22,9 @@
       "snippet": null,
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-04-07%2F31p5jrtr%2FGF-Image.jpg?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1775542355.0
     },
     {
       "id": "af6c02535482",
@@ -44,29 +46,38 @@
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/L5QCVSR7GZGARAUD6NF7NIANYU.JPG?smart=true&amp;auth=beaf7f2631f07f1bcb3d3515c3a85e47ec12d6a892e0d6256f11fffb2b38de4f&amp;width=1200&amp;height=630",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1775534400.0
     },
     {
       "id": "8f7e183f8560",
       "datetime": "2026-04-07T02:06:04Z",
       "type": "security_alert",
-      "confirmed": false,
-      "precision": "country",
+      "confirmed": true,
+      "precision": "city",
       "title": "UAE air defences intercept Iranian missiles and drones",
-      "location": "Uae",
-      "lat": null,
-      "lon": null,
+      "location": "Abu Dhabi",
+      "lat": 24.4539,
+      "lon": 54.3773,
       "sources": [
         {
           "url": "https://gulfnews.com/uae/uae-air-defences-intercept-iranian-missiles-and-drones-1.500498399",
           "domain": "gulfnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://www.newsonair.gov.in/uae-air-defences-intercept-iranian-missiles-and-drones-targeting-abu-dhabi/",
+          "domain": "newsonair.gov.in",
+          "tier": "wire"
         }
       ],
       "snippet": null,
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-26%2F93ocapfr%2FUAEflag?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1775531164.0
     },
     {
       "id": "5541e50293d9",
