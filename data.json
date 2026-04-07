@@ -236,7 +236,7 @@
       "id": "d30d028fe1a5",
       "datetime": "2026-04-03T19:08:52Z",
       "type": "impact_major",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "exact",
       "title": "1 killed at Habshan gas facility after intercepted Iran attack",
       "location": "Habshan",
@@ -253,13 +253,15 @@
       "preview_image": "https://www.aljazeera.com/wp-content/uploads/2026/04/2007-01-16T000000Z_1794600640_GM1DUJZTOJAA_RTRMADP_3_UNITED-ARAB-EMIRATES-1775240863.jpg?resize=1920%2C1440",
       "_via": "rss",
       "confidence": "high",
-      "_enriched_at": "2026-04-07T20:03:00Z"
+      "_enriched_at": "2026-04-07T20:03:00Z",
+      "_search_count": 1,
+      "_next_search_at": 1775246932.0
     },
     {
       "id": "e0569d5267f1",
       "datetime": "2026-04-02T11:30:09Z",
       "type": "interception",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "UAE intercepts 19 ballistic missiles, 26 drones — 2 Apr",
       "location": "UAE",
@@ -281,15 +283,15 @@
       "preview_image": "https://www.thenationalnews.com/resizer/v2/GYSHBN4SKVFY5HBDCSQA4KDD64.jpg?smart=true&auth=f92a0417b0df7999f41f39a6ee4c730c998c9bfa3190c9095ef79d1769a5242c&width=1200&height=630",
       "_via": "rss",
       "confidence": "high",
-      "_search_count": 1,
-      "_next_search_at": 1775133009.0,
+      "_search_count": 2,
+      "_next_search_at": 1775151009.0,
       "_enriched_at": "2026-04-07T20:03:00Z"
     },
     {
       "id": "6b2cbb18a184",
       "datetime": "2026-04-01T11:31:58Z",
       "type": "interception",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "UAE intercepts 5 ballistic missiles, 35 drones — 1 Apr",
       "location": "UAE",
@@ -312,14 +314,14 @@
       "_via": "rss",
       "confidence": "high",
       "_enriched_at": "2026-04-07T20:03:00Z",
-      "_search_count": 1,
-      "_next_search_at": 1775046718.0
+      "_search_count": 2,
+      "_next_search_at": 1775064718.0
     },
     {
       "id": "ad73eded39eb",
       "datetime": "2026-04-01T04:45:47Z",
       "type": "impact_major",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "Drone interception debris kills 1 in Fujairah",
       "location": "Fujairah",
@@ -347,8 +349,8 @@
       "_via": "rss",
       "confidence": "high",
       "_enriched_at": "2026-04-07T20:03:00Z",
-      "_search_count": 2,
-      "_next_search_at": 1775040347.0
+      "_search_count": 3,
+      "_next_search_at": 1775105147.0
     },
     {
       "id": "e4e3e45d9113",
