@@ -255,7 +255,7 @@
       "id": "322081931f40",
       "datetime": "2026-04-08T07:17:16Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "Abu Dhabi Police arrest 375 suspected of sharing misleading information amid Iran strikes",
       "location": "Abu Dhabi",
@@ -271,13 +271,15 @@
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/VHTH7RYPDFCAXMZNREIFPZ2HNI.jpg?smart=true&amp;auth=19bba1c5e2b4a9a5c95bcee2bb33aa35590784b12ad021364bb0df4e6347819c&amp;width=1200&amp;height=630",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1775636236.0
     },
     {
       "id": "dfac8a74feb7",
       "datetime": "2026-04-07T11:14:18Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "UAE intercepts one ballistic missile and 11 drones on Tuesday",
       "location": "Uae",
@@ -288,18 +290,25 @@
           "url": "https://www.thenationalnews.com/news/uae/2026/04/07/uae-intercepts-one-ballistic-missile-and-11-drones-on-tuesday/",
           "domain": "thenationalnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://gulfnews.com/uae/uae-air-defences-intercept-1-ballistic-missile-and-11-drones-1.500498792",
+          "domain": "gulfnews.com",
+          "tier": "wire"
         }
       ],
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/BNEVKG6VZ5FQLN3T4COQV3VMVU.jpg?smart=true&amp;auth=df8f330b4d471335b10e55f2fd1ab226013fa82c9c7dc10928a75a30d4112125&amp;width=1200&amp;height=630",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1775564058.0
     },
     {
       "id": "af6c02535482",
       "datetime": "2026-04-07T03:00:00Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "Strikes on Gulf energy sites stoke global and regional stagflation fears",
       "location": "UAE",
@@ -310,12 +319,19 @@
           "url": "https://www.thenationalnews.com/business/economy/2026/04/07/strikes-on-gulf-energy-sites-risk-triggering-stagflation/",
           "domain": "thenationalnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://www.reuters.com/business/energy/its-time-end-worlds-delusions-over-iran-energy-crisis-2026-04-07/",
+          "domain": "reuters.com",
+          "tier": "wire"
         }
       ],
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/L5QCVSR7GZGARAUD6NF7NIANYU.JPG?smart=true&amp;auth=beaf7f2631f07f1bcb3d3515c3a85e47ec12d6a892e0d6256f11fffb2b38de4f&amp;width=1200&amp;height=630",
       "_via": "rss",
-      "confidence": "low"
+      "confidence": "low",
+      "_search_count": 1,
+      "_next_search_at": 1775534400.0
     },
     {
       "id": "8f7e183f8560",
