@@ -44,7 +44,7 @@
       "id": "ef19eca1fd1c",
       "datetime": "2026-04-08T09:44:35Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "UAE residents receive emergency alerts during Iranian missile/drone attack — 8 Apr",
       "location": "UAE",
@@ -62,8 +62,8 @@
       "_via": "rss",
       "confidence": "medium",
       "_enriched_at": "2026-04-09T06:02:00Z",
-      "_search_count": 1,
-      "_next_search_at": 1775645075.0
+      "_search_count": 2,
+      "_next_search_at": 1775663075.0
     },
     {
       "id": "f9fb6983e931",
@@ -97,7 +97,7 @@
       "id": "dfac8a74feb7",
       "datetime": "2026-04-07T11:14:18Z",
       "type": "interception",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "UAE intercepts 1 ballistic missile and 11 drones — 7 Apr",
       "location": "UAE",
@@ -120,8 +120,8 @@
       "_via": "rss",
       "confidence": "high",
       "_enriched_at": "2026-04-09T06:02:00Z",
-      "_search_count": 1,
-      "_next_search_at": 1775564058.0
+      "_search_count": 2,
+      "_next_search_at": 1775582058.0
     },
     {
       "id": "8f7e183f8560",
