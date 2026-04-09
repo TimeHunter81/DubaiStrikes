@@ -61,7 +61,9 @@
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-26%2Fzhuvi9fr%2FUAEflag?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
       "_via": "rss",
       "confidence": "medium",
-      "_enriched_at": "2026-04-09T06:02:00Z"
+      "_enriched_at": "2026-04-09T06:02:00Z",
+      "_search_count": 1,
+      "_next_search_at": 1775645075.0
     },
     {
       "id": "f9fb6983e931",
@@ -117,7 +119,9 @@
       "preview_image": "https://www.thenationalnews.com/resizer/v2/BNEVKG6VZ5FQLN3T4COQV3VMVU.jpg?smart=true&auth=df8f330b4d471335b10e55f2fd1ab226013fa82c9c7dc10928a75a30d4112125&width=1200&height=630",
       "_via": "rss",
       "confidence": "high",
-      "_enriched_at": "2026-04-09T06:02:00Z"
+      "_enriched_at": "2026-04-09T06:02:00Z",
+      "_search_count": 1,
+      "_next_search_at": 1775564058.0
     },
     {
       "id": "8f7e183f8560",
