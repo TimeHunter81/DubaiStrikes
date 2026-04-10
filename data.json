@@ -6,7 +6,7 @@
       "id": "2614c0a34074",
       "datetime": "2026-04-08T11:06:23Z",
       "type": "interception",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "UAE intercepts 17 missiles and 35 drones",
       "location": "UAE",
@@ -39,8 +39,8 @@
       "_via": "rss",
       "confidence": "high",
       "_enriched_at": "2026-04-10T12:02:00Z",
-      "_search_count": 2,
-      "_next_search_at": 1775667983.0
+      "_search_count": 3,
+      "_next_search_at": 1775732783.0
     },
     {
       "id": "ef19eca1fd1c",
@@ -71,7 +71,7 @@
       "id": "f9fb6983e931",
       "datetime": "2026-04-08T07:51:15Z",
       "type": "impact_minor",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "exact",
       "title": "Interception debris hits Habshan gas facility; 3 injured",
       "location": "Habshan, Abu Dhabi",
@@ -99,14 +99,14 @@
       "_via": "rss",
       "confidence": "high",
       "_enriched_at": "2026-04-10T12:02:00Z",
-      "_search_count": 2,
-      "_next_search_at": 1775656275.0
+      "_search_count": 3,
+      "_next_search_at": 1775721075.0
     },
     {
       "id": "dfac8a74feb7",
       "datetime": "2026-04-07T11:14:18Z",
       "type": "interception",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "UAE intercepts 1 missile and 11 drones",
       "location": "UAE",
@@ -129,8 +129,9 @@
       "_via": "rss",
       "confidence": "high",
       "_enriched_at": "2026-04-10T12:02:00Z",
-      "_search_count": 4,
-      "_next_search_at": 1775819658.0
+      "_search_count": 5,
+      "_next_search_at": null,
+      "_search_exhausted": true
     },
     {
       "id": "8f7e183f8560",
