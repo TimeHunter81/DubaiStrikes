@@ -46,7 +46,7 @@
       "id": "ef19eca1fd1c",
       "datetime": "2026-04-08T09:44:35Z",
       "type": "security_alert",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "UAE issues emergency alerts during incoming attack",
       "location": "UAE",
@@ -57,6 +57,11 @@
           "url": "https://gulfnews.com/uae/emergencies/uae-responds-to-iranian-missiles-and-drones-residents-receive-emergency-alerts-7-1.500500083",
           "domain": "gulfnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://www.bbc.com/news/live/c5yw4g3z7qgt",
+          "domain": "bbc.com",
+          "tier": "wire"
         }
       ],
       "snippet": null,
@@ -64,8 +69,9 @@
       "_via": "rss",
       "confidence": "medium",
       "_enriched_at": "2026-04-11T06:01:00Z",
-      "_search_count": 4,
-      "_next_search_at": 1775900675.0
+      "_search_count": 5,
+      "_next_search_at": null,
+      "_search_exhausted": true
     },
     {
       "id": "f9fb6983e931",
