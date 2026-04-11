@@ -143,7 +143,7 @@
       "id": "8f7e183f8560",
       "datetime": "2026-04-07T02:06:04Z",
       "type": "interception",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "UAE air defences intercept Iranian missiles and drones — 7 Apr",
       "location": "Abu Dhabi",
@@ -166,8 +166,8 @@
       "_via": "rss",
       "confidence": "low",
       "_enriched_at": "2026-04-11T12:03:00Z",
-      "_search_count": 3,
-      "_next_search_at": 1775613964.0
+      "_search_count": 4,
+      "_next_search_at": 1775786764.0
     },
     {
       "id": "5541e50293d9",
@@ -208,7 +208,7 @@
       "id": "7c40afeaaffb",
       "datetime": "2026-04-05T12:02:36Z",
       "type": "impact_major",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "city",
       "title": "IRGC drone strikes Abu Dhabi steel plant — Gulf petrochemical facilities hit",
       "location": "Abu Dhabi, UAE",
@@ -229,14 +229,19 @@
           "url": "https://www.bssnews.net/international/374653",
           "domain": "bssnews.net",
           "tier": "wire"
+        },
+        {
+          "url": "https://www.bbc.com/news/articles/cp86yrq5jy7o",
+          "domain": "bbc.com",
+          "tier": "wire"
         }
       ],
       "snippet": null,
       "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-04/UAE%20-%20IRAN%20-%20US%20-%20ISRAEL%20-%20WAR.jpg",
       "_via": "rss",
       "confidence": "low",
-      "_search_count": 2,
-      "_next_search_at": 1775412156.0,
+      "_search_count": 3,
+      "_next_search_at": 1775476956.0,
       "_enriched_at": "2026-04-11T12:03:00Z"
     },
     {
