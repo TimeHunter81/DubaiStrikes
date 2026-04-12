@@ -1,7 +1,29 @@
 {
-  "last_updated": "2026-04-12T06:06:36Z",
+  "last_updated": "2026-04-12T12:09:55Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
+    {
+      "id": "07030d8f6d0e",
+      "datetime": "2026-04-10T13:18:47Z",
+      "type": "security_alert",
+      "confirmed": false,
+      "precision": "country",
+      "title": "UK to deliver Skyhammer drone interceptor missiles to Gulf allies",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.thenationalnews.com/news/uk/2026/04/10/uk-to-deliver-drone-interceptor-missiles-to-gulf-allies/",
+          "domain": "thenationalnews.com",
+          "tier": "local"
+        }
+      ],
+      "snippet": null,
+      "preview_image": "https://www.thenationalnews.com/resizer/v2/6DDRXNVWFWI2DP3HSBUBYAZROM.jpg?smart=true&amp;auth=4540f1603c91f77c046da062b846bb3927fb3c7c1072a0f533e86622c5318663&amp;width=1200&amp;height=630",
+      "_via": "rss",
+      "confidence": "low"
+    },
     {
       "id": "2614c0a34074",
       "datetime": "2026-04-08T11:06:23Z",
