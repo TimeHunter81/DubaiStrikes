@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-14T06:01:00Z",
+  "last_updated": "2026-04-14T12:04:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -456,10 +456,9 @@
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-26%2F93ocapfr%2FUAEflag?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
       "_via": "rss",
       "confidence": "high",
-      "_enriched_at": "2026-04-13T12:07:00Z",
+      "_enriched_at": "2026-04-14T06:01:00Z",
       "_search_count": 2,
-      "_next_search_at": 1775064718.0,
-      "_enriched_at": "2026-04-14T06:01:00Z"
+      "_next_search_at": 1775064718.0
     },
     {
       "id": "ad73eded39eb",
