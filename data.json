@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-15T12:02:00Z",
+  "last_updated": "2026-04-15T20:02:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -38,7 +38,7 @@
       "preview_image": "https://www.thenationalnews.com/resizer/v2/C4336O4AHVFS3KJYMZ4STAS3LA.jpg?smart=true&auth=a06722c4f49517b520a8d6f6236f576354a1f0103920b0231baafacabccf0960&width=1200&height=630",
       "_via": "rss",
       "confidence": "high",
-      "_enriched_at": "2026-04-15T12:02:00Z",
+      "_enriched_at": "2026-04-15T20:02:00Z",
       "_search_count": 4,
       "_next_search_at": 1775905583.0
     },
@@ -68,7 +68,7 @@
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-26%2Fzhuvi9fr%2FUAEflag?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
       "_via": "rss",
       "confidence": "medium",
-      "_enriched_at": "2026-04-15T12:02:00Z",
+      "_enriched_at": "2026-04-15T20:02:00Z",
       "_search_count": 5,
       "_next_search_at": null,
       "_search_exhausted": true
@@ -104,7 +104,7 @@
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-04-06%2Fwvfjh1p7%2FUAEflag?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
       "_via": "rss",
       "confidence": "high",
-      "_enriched_at": "2026-04-15T12:02:00Z",
+      "_enriched_at": "2026-04-15T20:02:00Z",
       "_search_count": 4,
       "_next_search_at": 1775893875.0
     },
@@ -134,7 +134,7 @@
       "preview_image": "https://www.thenationalnews.com/resizer/v2/BNEVKG6VZ5FQLN3T4COQV3VMVU.jpg?smart=true&auth=df8f330b4d471335b10e55f2fd1ab226013fa82c9c7dc10928a75a30d4112125&width=1200&height=630",
       "_via": "rss",
       "confidence": "high",
-      "_enriched_at": "2026-04-15T12:02:00Z",
+      "_enriched_at": "2026-04-15T20:02:00Z",
       "_search_count": 5,
       "_next_search_at": null,
       "_search_exhausted": true
@@ -165,7 +165,7 @@
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-26%2F93ocapfr%2FUAEflag?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
       "_via": "rss",
       "confidence": "low",
-      "_enriched_at": "2026-04-15T12:02:00Z",
+      "_enriched_at": "2026-04-15T20:02:00Z",
       "_search_count": 5,
       "_next_search_at": null,
       "_search_exhausted": true
@@ -201,7 +201,7 @@
       "preview_image": "https://www.thenationalnews.com/resizer/v2/6EICJPZ6WJAOBKKUCCH4FJXG6U.jpg?smart=true&auth=754e66992e024dc2c936bebfc925629da84a448217495060ebc71ed3a1e5b890&width=1200&height=630",
       "_via": "rss",
       "confidence": "high",
-      "_enriched_at": "2026-04-15T12:02:00Z",
+      "_enriched_at": "2026-04-15T20:02:00Z",
       "_search_count": 1,
       "_next_search_at": 1775477143.0
     },
@@ -243,7 +243,7 @@
       "confidence": "low",
       "_search_count": 3,
       "_next_search_at": 1775476956.0,
-      "_enriched_at": "2026-04-15T12:02:00Z"
+      "_enriched_at": "2026-04-15T20:02:00Z"
     },
     {
       "id": "37995e199ea5",
@@ -278,7 +278,7 @@
       "confidence": "high",
       "_search_count": 1,
       "_next_search_at": 1775390816.0,
-      "_enriched_at": "2026-04-15T12:02:00Z"
+      "_enriched_at": "2026-04-15T20:02:00Z"
     },
     {
       "id": "0e0fdaa94c0a",
@@ -306,7 +306,7 @@
       "preview_image": "https://www.thenationalnews.com/resizer/v2/LAUIJCHKORBUHESGN4BITQGYSQ.jpg?smart=true&auth=e2b29ffdcbe5c24d27606712f57bf79bad70c0c82cf8d6df1c2cf28d9b85ce81&width=1200&height=630",
       "_via": "rss",
       "confidence": "medium",
-      "_enriched_at": "2026-04-15T12:02:00Z",
+      "_enriched_at": "2026-04-15T20:02:00Z",
       "_search_count": 1,
       "_next_search_at": 1775299656.0
     },
@@ -341,7 +341,7 @@
       "preview_image": "https://media.assettype.com/gulfnews%2Fimport%2F2022%2F01%2F04%2FSTOCK-Dubai-Internet-city_17e26a0f8ba_large.jpg?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
       "_via": "rss",
       "confidence": "high",
-      "_enriched_at": "2026-04-15T12:02:00Z",
+      "_enriched_at": "2026-04-15T20:02:00Z",
       "_search_count": 2,
       "_next_search_at": 1775294680.0
     },
@@ -371,7 +371,7 @@
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-06%2F2cx9y26d%2FDubai-Marina.jpg?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
       "_via": "rss",
       "confidence": "high",
-      "_enriched_at": "2026-04-15T12:02:00Z",
+      "_enriched_at": "2026-04-15T20:02:00Z",
       "_search_count": 2,
       "_next_search_at": 1775291700.0
     },
@@ -396,7 +396,7 @@
       "preview_image": "https://www.aljazeera.com/wp-content/uploads/2026/04/2007-01-16T000000Z_1794600640_GM1DUJZTOJAA_RTRMADP_3_UNITED-ARAB-EMIRATES-1775240863.jpg?resize=1920%2C1440",
       "_via": "rss",
       "confidence": "high",
-      "_enriched_at": "2026-04-15T12:02:00Z",
+      "_enriched_at": "2026-04-15T20:02:00Z",
       "_search_count": 1,
       "_next_search_at": 1775246932.0
     },
@@ -428,7 +428,7 @@
       "confidence": "high",
       "_search_count": 2,
       "_next_search_at": 1775151009.0,
-      "_enriched_at": "2026-04-15T12:02:00Z"
+      "_enriched_at": "2026-04-15T20:02:00Z"
     },
     {
       "id": "6b2cbb18a184",
@@ -456,7 +456,7 @@
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-26%2F93ocapfr%2FUAEflag?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
       "_via": "rss",
       "confidence": "high",
-      "_enriched_at": "2026-04-15T12:02:00Z",
+      "_enriched_at": "2026-04-15T20:02:00Z",
       "_search_count": 2,
       "_next_search_at": 1775064718.0
     },
@@ -491,7 +491,7 @@
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-26%2Fzhuvi9fr%2FUAEflag?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
       "_via": "rss",
       "confidence": "high",
-      "_enriched_at": "2026-04-15T12:02:00Z",
+      "_enriched_at": "2026-04-15T20:02:00Z",
       "_search_count": 3,
       "_next_search_at": 1775105147.0
     },
@@ -519,7 +519,7 @@
       ],
       "_via": "rss",
       "confidence": "high",
-      "_enriched_at": "2026-04-15T12:02:00Z",
+      "_enriched_at": "2026-04-15T20:02:00Z",
       "_search_count": 3,
       "_next_search_at": 1775042697.0
     },
@@ -547,7 +547,7 @@
       ],
       "_via": "rss",
       "confidence": "medium",
-      "_enriched_at": "2026-04-15T12:02:00Z",
+      "_enriched_at": "2026-04-15T20:02:00Z",
       "_search_count": 3,
       "_next_search_at": 1775031189.0
     },
@@ -585,7 +585,7 @@
       ],
       "_via": "rss",
       "confidence": "medium",
-      "_enriched_at": "2026-04-15T12:02:00Z",
+      "_enriched_at": "2026-04-15T20:02:00Z",
       "_search_count": 3,
       "_next_search_at": 1775010030.0
     },
@@ -628,7 +628,7 @@
       ],
       "_via": "rss",
       "confidence": "high",
-      "_enriched_at": "2026-04-15T12:02:00Z"
+      "_enriched_at": "2026-04-15T20:02:00Z"
     },
     {
       "id": "780a01bcf148",
