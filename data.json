@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-26T20:10:00Z",
+  "last_updated": "2026-04-26T20:12:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -38,40 +38,9 @@
       "preview_image": "https://www.thenationalnews.com/resizer/v2/C4336O4AHVFS3KJYMZ4STAS3LA.jpg?smart=true&auth=a06722c4f49517b520a8d6f6236f576354a1f0103920b0231baafacabccf0960&width=1200&height=630",
       "_via": "rss",
       "confidence": "high",
-      "_enriched_at": "2026-04-26T12:01:00Z",
+      "_enriched_at": "2026-04-26T06:01:00Z",
       "_search_count": 4,
       "_next_search_at": 1775905583.0
-    },
-    {
-      "id": "ef19eca1fd1c",
-      "datetime": "2026-04-08T09:44:35Z",
-      "type": "security_alert",
-      "confirmed": true,
-      "precision": "country",
-      "title": "UAE issues emergency alerts during incoming attack",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://gulfnews.com/uae/emergencies/uae-responds-to-iranian-missiles-and-drones-residents-receive-emergency-alerts-7-1.500500083",
-          "domain": "gulfnews.com",
-          "tier": "local"
-        },
-        {
-          "url": "https://www.bbc.com/news/live/c5yw4g3z7qgt",
-          "domain": "bbc.com",
-          "tier": "wire"
-        }
-      ],
-      "snippet": null,
-      "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-26%2Fzhuvi9fr%2FUAEflag?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
-      "_via": "rss",
-      "confidence": "medium",
-      "_enriched_at": "2026-04-26T12:01:00Z",
-      "_search_count": 5,
-      "_next_search_at": null,
-      "_search_exhausted": true
     },
     {
       "id": "f9fb6983e931",
@@ -104,7 +73,7 @@
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-04-06%2Fwvfjh1p7%2FUAEflag?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
       "_via": "rss",
       "confidence": "high",
-      "_enriched_at": "2026-04-26T12:01:00Z",
+      "_enriched_at": "2026-04-26T06:01:00Z",
       "_search_count": 4,
       "_next_search_at": 1775893875.0
     },
@@ -134,7 +103,7 @@
       "preview_image": "https://www.thenationalnews.com/resizer/v2/BNEVKG6VZ5FQLN3T4COQV3VMVU.jpg?smart=true&auth=df8f330b4d471335b10e55f2fd1ab226013fa82c9c7dc10928a75a30d4112125&width=1200&height=630",
       "_via": "rss",
       "confidence": "high",
-      "_enriched_at": "2026-04-26T12:01:00Z",
+      "_enriched_at": "2026-04-26T06:01:00Z",
       "_search_count": 5,
       "_next_search_at": null,
       "_search_exhausted": true
@@ -145,7 +114,7 @@
       "type": "interception",
       "confirmed": false,
       "precision": "city",
-      "title": "UAE air defences intercept Iranian missiles and drones — 7 Apr",
+      "title": "UAE air defences intercept Iranian missiles and drones \u2014 7 Apr",
       "location": "Abu Dhabi",
       "lat": 24.4539,
       "lon": 54.3773,
@@ -165,7 +134,7 @@
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-26%2F93ocapfr%2FUAEflag?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
       "_via": "rss",
       "confidence": "low",
-      "_enriched_at": "2026-04-26T12:01:00Z",
+      "_enriched_at": "2026-04-26T06:01:00Z",
       "_search_count": 5,
       "_next_search_at": null,
       "_search_exhausted": true
@@ -176,7 +145,7 @@
       "type": "interception",
       "confirmed": true,
       "precision": "country",
-      "title": "UAE intercepts 12 ballistic missiles, 2 cruise missiles and 19 drones — 6 Apr",
+      "title": "UAE intercepts 12 ballistic missiles, 2 cruise missiles and 19 drones \u2014 6 Apr",
       "location": "UAE",
       "lat": null,
       "lon": null,
@@ -201,7 +170,7 @@
       "preview_image": "https://www.thenationalnews.com/resizer/v2/6EICJPZ6WJAOBKKUCCH4FJXG6U.jpg?smart=true&auth=754e66992e024dc2c936bebfc925629da84a448217495060ebc71ed3a1e5b890&width=1200&height=630",
       "_via": "rss",
       "confidence": "high",
-      "_enriched_at": "2026-04-26T12:01:00Z",
+      "_enriched_at": "2026-04-26T06:01:00Z",
       "_search_count": 1,
       "_next_search_at": 1775477143.0
     },
@@ -211,7 +180,7 @@
       "type": "impact_major",
       "confirmed": true,
       "precision": "city",
-      "title": "IRGC drone strikes Abu Dhabi steel plant — Gulf petrochemical facilities hit",
+      "title": "IRGC drone strikes Abu Dhabi steel plant \u2014 Gulf petrochemical facilities hit",
       "location": "Abu Dhabi, UAE",
       "lat": 24.4539,
       "lon": 54.3773,
@@ -243,7 +212,7 @@
       "confidence": "low",
       "_search_count": 3,
       "_next_search_at": 1775476956.0,
-      "_enriched_at": "2026-04-26T12:01:00Z"
+      "_enriched_at": "2026-04-26T06:01:00Z"
     },
     {
       "id": "37995e199ea5",
@@ -251,7 +220,7 @@
       "type": "interception",
       "confirmed": true,
       "precision": "country",
-      "title": "UAE intercepts 9 ballistic missiles, 1 cruise missile and 50 drones — 5 Apr",
+      "title": "UAE intercepts 9 ballistic missiles, 1 cruise missile and 50 drones \u2014 5 Apr",
       "location": "UAE",
       "lat": null,
       "lon": null,
@@ -278,7 +247,7 @@
       "confidence": "high",
       "_search_count": 1,
       "_next_search_at": 1775390816.0,
-      "_enriched_at": "2026-04-26T12:01:00Z"
+      "_enriched_at": "2026-04-26T06:01:00Z"
     },
     {
       "id": "0e0fdaa94c0a",
@@ -286,7 +255,7 @@
       "type": "interception",
       "confirmed": false,
       "precision": "country",
-      "title": "UAE intercepts 23 ballistic missiles and 56 drones — 4 Apr",
+      "title": "UAE intercepts 23 ballistic missiles and 56 drones \u2014 4 Apr",
       "location": "UAE",
       "lat": null,
       "lon": null,
@@ -306,197 +275,472 @@
       "preview_image": "https://www.thenationalnews.com/resizer/v2/LAUIJCHKORBUHESGN4BITQGYSQ.jpg?smart=true&auth=e2b29ffdcbe5c24d27606712f57bf79bad70c0c82cf8d6df1c2cf28d9b85ce81&width=1200&height=630",
       "_via": "rss",
       "confidence": "medium",
-      "_enriched_at": "2026-04-26T12:01:00Z",
+      "_enriched_at": "2026-04-26T06:01:00Z",
       "_search_count": 1,
       "_next_search_at": 1775299656.0
     },
     {
       "id": "3b42aaa841fe",
-      "datetime": "2026-04-04T09:43:00Z",
+      "datetime": "2026-04-04T03:24:40Z",
       "type": "impact_minor",
       "confirmed": true,
-      "precision": "city",
-      "title": "Two Dubai buildings hit by falling debris from interceptions — no casualties",
-      "location": "Dubai",
-      "lat": 25.2048,
-      "lon": 55.2708,
+      "precision": "exact",
+      "title": "Interception debris hits Dubai Internet City building",
+      "location": "Dubai Internet City",
+      "lat": 25.0983,
+      "lon": 55.1562,
       "sources": [
         {
-          "url": "https://www.thenationalnews.com/news/uae/2026/04/04/two-dubai-buildings-hit-by-falling-debris-after-iran-strikes-intercepted/",
+          "url": "https://gulfnews.com/uae/government/iran-conflict-debris-from-aerial-interception-hits-dubai-internet-city-building-1.500495914",
+          "domain": "gulfnews.com",
+          "tier": "local"
+        },
+        {
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/dubai-media-office-confirms-debris-strike-internet-city-building",
+          "domain": "middleeasteye.net",
+          "tier": "wire"
+        },
+        {
+          "url": "https://www.cnbc.com/2026/04/04/debris-from-interception-strikes-oracle-building-in-dubai-uae-says.html",
+          "domain": "cnbc.com",
+          "tier": "wire"
+        }
+      ],
+      "snippet": null,
+      "preview_image": "https://media.assettype.com/gulfnews%2Fimport%2F2022%2F01%2F04%2FSTOCK-Dubai-Internet-city_17e26a0f8ba_large.jpg?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
+      "_via": "rss",
+      "confidence": "high",
+      "_enriched_at": "2026-04-26T06:01:00Z",
+      "_search_count": 2,
+      "_next_search_at": 1775294680.0
+    },
+    {
+      "id": "7e6333dcea4e",
+      "datetime": "2026-04-04T02:35:00Z",
+      "type": "impact_minor",
+      "confirmed": true,
+      "precision": "exact",
+      "title": "Interception debris hits Dubai Marina building",
+      "location": "Dubai Marina",
+      "lat": 25.0819,
+      "lon": 55.1367,
+      "sources": [
+        {
+          "url": "https://gulfnews.com/uae/government/iran-conflict-debris-from-aerial-interception-hits-dubai-marina-building-1.500495902",
+          "domain": "gulfnews.com",
+          "tier": "local"
+        },
+        {
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/debris-interception-hits-dubai-marina-building-no-injuries-reported",
+          "domain": "middleeasteye.net",
+          "tier": "wire"
+        }
+      ],
+      "snippet": null,
+      "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-06%2F2cx9y26d%2FDubai-Marina.jpg?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
+      "_via": "rss",
+      "confidence": "high",
+      "_enriched_at": "2026-04-26T06:01:00Z",
+      "_search_count": 2,
+      "_next_search_at": 1775291700.0
+    },
+    {
+      "id": "d30d028fe1a5",
+      "datetime": "2026-04-03T19:08:52Z",
+      "type": "impact_major",
+      "confirmed": true,
+      "precision": "exact",
+      "title": "1 killed at Habshan gas facility after intercepted Iran attack",
+      "location": "Habshan",
+      "lat": 23.9081,
+      "lon": 53.7827,
+      "sources": [
+        {
+          "url": "https://www.aljazeera.com/news/2026/4/3/at-least-one-killed-at-uaes-habshan-gas-facility-after-intercepted-attack?traffic_source=rss",
+          "domain": "aljazeera.com",
+          "tier": "wire"
+        }
+      ],
+      "snippet": "UAE says largest gas facility, Habshan, suffered significant damage after air defence interception sparked fires.",
+      "preview_image": "https://www.aljazeera.com/wp-content/uploads/2026/04/2007-01-16T000000Z_1794600640_GM1DUJZTOJAA_RTRMADP_3_UNITED-ARAB-EMIRATES-1775240863.jpg?resize=1920%2C1440",
+      "_via": "rss",
+      "confidence": "high",
+      "_enriched_at": "2026-04-26T06:01:00Z",
+      "_search_count": 1,
+      "_next_search_at": 1775246932.0
+    },
+    {
+      "id": "e0569d5267f1",
+      "datetime": "2026-04-02T11:30:09Z",
+      "type": "interception",
+      "confirmed": false,
+      "precision": "country",
+      "title": "UAE intercepts 19 ballistic missiles, 26 drones \u2014 2 Apr",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.thenationalnews.com/news/uae/2026/04/02/uae-intercepts-19-missiles-and-26-drones-on-thursday/",
           "domain": "thenationalnews.com",
           "tier": "local"
         },
         {
-          "url": "https://gulfnews.com/uae/dubai-tower-damaged-by-debris-from-intercepted-missile-in-wake-of-iranian-attack-1.500496068",
+          "url": "https://gulfnews.com/uae/government/uae-air-defense-intercepted-19-ballistic-missiles-and-26-drones-from-iran-on-april-2-2026-1.500494318",
           "domain": "gulfnews.com",
           "tier": "local"
         }
       ],
       "snippet": null,
-      "preview_image": "https://www.thenationalnews.com/resizer/v2/LAUIJCHKORBUHESGN4BITQGYSQ.jpg?smart=true&auth=e2b29ffdcbe5c24d27606712f57bf79bad70c0c82cf8d6df1c2cf28d9b85ce81&width=1200&height=630",
+      "preview_image": "https://www.thenationalnews.com/resizer/v2/GYSHBN4SKVFY5HBDCSQA4KDD64.jpg?smart=true&auth=f92a0417b0df7999f41f39a6ee4c730c998c9bfa3190c9095ef79d1769a5242c&width=1200&height=630",
       "_via": "rss",
       "confidence": "high",
-      "_enriched_at": "2026-04-26T12:01:00Z",
       "_search_count": 2,
-      "_next_search_at": 1775299380.0
+      "_next_search_at": 1775151009.0,
+      "_enriched_at": "2026-04-26T06:01:00Z"
     },
     {
-      "id": "fd68b37d2c9a",
-      "datetime": "2026-04-03T23:28:00Z",
+      "id": "6b2cbb18a184",
+      "datetime": "2026-04-01T11:31:58Z",
       "type": "interception",
       "confirmed": true,
       "precision": "country",
-      "title": "UAE air defences intercept Iranian missiles and drones — 3 Apr",
+      "title": "UAE intercepts 5 ballistic missiles, 35 drones \u2014 1 Apr",
       "location": "UAE",
       "lat": null,
       "lon": null,
       "sources": [
         {
-          "url": "https://gulfnews.com/uae/uae-air-defences-intercept-iranian-missiles-and-drones-1.500495354",
+          "url": "https://gulfnews.com/uae/uae-air-defense-intercepted-5-ballistic-missiles-and-35-drones-from-iran-on-april-1-2026-1.500493231",
           "domain": "gulfnews.com",
           "tier": "local"
         },
         {
-          "url": "https://www.thenationalnews.com/news/uae/2026/04/03/iran-carries-out-direct-missile-and-drone-attack-on-israel-us-and-allies-in-region/",
-          "domain": "thenationalnews.com",
-          "tier": "local"
-        }
-      ],
-      "snippet": null,
-      "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-26%2F93ocapfr%2FUAEflag?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
-      "_via": "rss",
-      "confidence": "high",
-      "_enriched_at": "2026-04-26T12:01:00Z",
-      "_search_count": 4,
-      "_next_search_at": 1775218080.0
-    },
-    {
-      "id": "a1b2c3d4e5f6",
-      "datetime": "2026-03-31T10:00:00Z",
-      "type": "security_alert",
-      "confirmed": true,
-      "precision": "country",
-      "title": "Airspace closure warned; Iranian attack expected — escalation alert",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://gulfnews.com/uae/uae-airspace-closes-as-tensions-with-iran-escalate-1.500493742",
-          "domain": "gulfnews.com",
-          "tier": "local"
-        },
-        {
-          "url": "https://www.thenationalnews.com/news/uae/2026/03/31/uae-closes-airspace-amid-rising-tensions-with-iran/",
-          "domain": "thenationalnews.com",
-          "tier": "local"
-        }
-      ],
-      "snippet": null,
-      "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-26%2F93ocapfr%2FUAEflag?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
-      "_via": "rss",
-      "confidence": "high",
-      "_enriched_at": "2026-04-26T12:01:00Z",
-      "_search_count": 1,
-      "_next_search_at": 1775080800.0
-    },
-    {
-      "id": "b2c3d4e5f6a1",
-      "datetime": "2026-03-27T16:30:00Z",
-      "type": "security_alert",
-      "confirmed": true,
-      "precision": "country",
-      "title": "Iran supreme leader threatens imminent strike on Israel and allies",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://gulfnews.com/world/meast/iran-ayatollah-issues-threat-of-imminent-strike-1.500486954",
-          "domain": "gulfnews.com",
-          "tier": "local"
-        },
-        {
-          "url": "https://www.aljazeera.com/news/longform/2026/3/27/live-blog-iran-threats-israel-strikes/",
-          "domain": "aljazeera.com",
+          "url": "https://www.arnnewscentre.ae/en/news/uae/uae-intercepts-5-ballistic-missiles-and-35-drones-on-wednesday/",
+          "domain": "arnnewscentre.ae",
           "tier": "wire"
         }
       ],
       "snippet": null,
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-26%2F93ocapfr%2FUAEflag?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
       "_via": "rss",
-      "confidence": "medium",
-      "_enriched_at": "2026-04-26T12:01:00Z",
+      "confidence": "high",
+      "_enriched_at": "2026-04-26T06:01:00Z",
       "_search_count": 2,
-      "_next_search_at": 1775076600.0
+      "_next_search_at": 1775064718.0
     },
     {
-      "id": "c3d4e5f6a1b2",
-      "datetime": "2026-03-26T21:00:00Z",
+      "id": "ad73eded39eb",
+      "datetime": "2026-04-01T04:45:47Z",
       "type": "impact_major",
       "confirmed": true,
-      "precision": "exact",
-      "title": "Iranian cruise missile destroys Dubai hotel — 30+ killed, 60+ injured",
+      "precision": "city",
+      "title": "Drone interception debris kills 1 in Fujairah",
+      "location": "Fujairah",
+      "lat": 25.1288,
+      "lon": 56.3265,
+      "sources": [
+        {
+          "url": "https://gulfnews.com/uae/uae-one-killed-after-drone-debris-falls-on-farm-in-fujairah-1.500492785",
+          "domain": "gulfnews.com",
+          "tier": "local"
+        },
+        {
+          "url": "https://www.aljazeera.com/news/2026/4/1/iran-attacks-cause-fire-in-kuwait-bahrain-kill-man-in-uae",
+          "domain": "aljazeera.com",
+          "tier": "wire"
+        },
+        {
+          "url": "https://www.thenationalnews.com/news/uae/2026/04/01/one-killed-in-fujairah-after-debris-falls-from-intercepted-drone/",
+          "domain": "thenationalnews.com",
+          "tier": "wire"
+        }
+      ],
+      "snippet": "Shrapnel from an Iranian drone interception kills a Bangladeshi national on a farm in Fujairah.",
+      "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-26%2Fzhuvi9fr%2FUAEflag?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
+      "_via": "rss",
+      "confidence": "high",
+      "_enriched_at": "2026-04-26T06:01:00Z",
+      "_search_count": 3,
+      "_next_search_at": 1775105147.0
+    },
+    {
+      "id": "e4e3e45d9113",
+      "datetime": "2026-03-31T11:24:57Z",
+      "type": "interception",
+      "confirmed": false,
+      "precision": "country",
+      "title": "UAE intercepts 8 ballistic, 4 cruise missiles and 36 drones \u2014 31 Mar",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.thenationalnews.com/news/uae/2026/03/31/uae-missile-drone-strikes-iran/",
+          "domain": "thenationalnews.com",
+          "tier": "local"
+        },
+        {
+          "url": "https://gulfnews.com/uae/11-killed-188-injured-since-the-start-of-iranian-attacks-on-the-uae-1.500492023",
+          "domain": "gulfnews.com",
+          "tier": "local"
+        }
+      ],
+      "_via": "rss",
+      "confidence": "high",
+      "_enriched_at": "2026-04-26T06:01:00Z",
+      "_search_count": 3,
+      "_next_search_at": 1775042697.0
+    },
+    {
+      "id": "7654fb594c68",
+      "datetime": "2026-03-31T08:13:09Z",
+      "type": "interception",
+      "confirmed": false,
+      "precision": "city",
+      "title": "Dubai loud sounds: air defense intercepts confirmed",
       "location": "Dubai",
       "lat": 25.2048,
       "lon": 55.2708,
       "sources": [
         {
-          "url": "https://en.wikipedia.org/wiki/2026_Iranian_strikes_on_the_United_Arab_Emirates",
-          "domain": "en.wikipedia.org",
-          "tier": "wire"
+          "url": "https://gulfnews.com/uae/dubai-confirms-loud-sounds-caused-by-air-defence-interceptions-1.500491755",
+          "domain": "gulfnews.com",
+          "tier": "local"
         },
         {
-          "url": "https://www.bbc.com/news/articles/c0e9j2pq5q5o",
-          "domain": "bbc.com",
+          "url": "https://www.thenationalnews.com/news/uae/2026/03/31/uae-missile-drone-strikes-iran/",
+          "domain": "thenationalnews.com",
           "tier": "wire"
         }
       ],
-      "_manual": true
+      "_via": "rss",
+      "confidence": "medium",
+      "_enriched_at": "2026-04-26T06:01:00Z",
+      "_search_count": 3,
+      "_next_search_at": 1775031189.0
     },
     {
-      "id": "d4e5f6a1b2c3",
-      "datetime": "2026-03-26T20:50:00Z",
-      "type": "impact_major",
+      "id": "c1df2b2f2610",
+      "datetime": "2026-03-31T02:20:30Z",
+      "type": "impact_minor",
       "confirmed": true,
-      "precision": "exact",
-      "title": "Iranian ballistic missile strikes near Burj Khalifa, Downtown Dubai",
-      "location": "Dubai Downtown / Burj Khalifa",
-      "lat": 25.1972,
-      "lon": 55.2744,
+      "precision": "city",
+      "title": "Debris from interception hits Dubai homes; 4 injured",
+      "location": "Dubai",
+      "lat": 25.2048,
+      "lon": 55.2708,
       "sources": [
         {
-          "url": "https://en.wikipedia.org/wiki/2026_Iranian_strikes_on_the_United_Arab_Emirates",
-          "domain": "en.wikipedia.org",
-          "tier": "wire"
+          "url": "https://www.thenationalnews.com/news/mena/2026/03/31/live-us-israel-iran-war-dubai/",
+          "domain": "thenationalnews.com",
+          "tier": "local"
         },
         {
-          "url": "https://www.bbc.com/news/articles/cx5e6d7j8k0l",
-          "domain": "bbc.com",
+          "url": "https://gulfnews.com/uae/debris-hits-several-homes-in-dubai-four-asian-nationals-injured-1.500491815",
+          "domain": "gulfnews.com",
+          "tier": "local"
+        },
+        {
+          "url": "https://gulfnews.com/uae/fire-breaks-out-in-abandoned-dubai-house-after-air-defence-debris-falls-4-suffer-minor-injuries-1.500491505",
+          "domain": "gulfnews.com",
+          "tier": "local"
+        },
+        {
+          "url": "https://english.alarabiya.net/News/gulf/2026/03/31/four-injured-homes-damaged-in-debris-incident-following-interception-media-office",
+          "domain": "english.alarabiya.net",
           "tier": "wire"
         }
       ],
-      "_manual": true
+      "_via": "rss",
+      "confidence": "medium",
+      "_enriched_at": "2026-04-26T06:01:00Z",
+      "_search_count": 3,
+      "_next_search_at": 1775010030.0
     },
     {
-      "id": "e5f6a1b2c3d4",
-      "datetime": "2026-03-26T20:30:00Z",
-      "type": "impact_major",
+      "id": "988e8d2196c8",
+      "datetime": "2026-03-30T23:31:25Z",
+      "type": "impact_minor",
       "confirmed": true,
-      "precision": "exact",
-      "title": "Iranian drone strikes DIFC (Dubai International Financial Centre) — 12+ killed, 40+ injured",
-      "location": "DIFC, Dubai",
-      "lat": 25.2131,
-      "lon": 55.2796,
+      "precision": "city",
+      "title": "Iranian drone hits Kuwaiti tanker Al Salmi near Dubai port",
+      "location": "Dubai",
+      "lat": 25.0153,
+      "lon": 55.0613,
       "sources": [
         {
-          "url": "https://en.wikipedia.org/wiki/2026_Iranian_strikes_on_the_United_Arab_Emirates",
-          "domain": "en.wikipedia.org",
-          "tier": "wire"
+          "url": "https://gulfnews.com/business/energy/kuwaiti-tanker-al-salmi-attacked-by-iran-drone-off-dubai-coast-1.500491417",
+          "domain": "gulfnews.com",
+          "tier": "local"
         },
         {
-          "url": "https://www.aljazeera.com/news/longform/2026/3/1/iran-strikes-uae-israel-update/",
+          "url": "https://www.aljazeera.com/news/2026/3/31/drone-attack-sparks-fire-on-kuwaiti-tanker-in-uae-amid-irans-gulf-attacks",
           "domain": "aljazeera.com",
+          "tier": "wire"
+        },
+        {
+          "url": "https://www.theguardian.com/world/2026/mar/31/kuwaiti-tanker-hit-by-iranian-attack-in-dubai-port-raising-oil-spill-fears",
+          "domain": "theguardian.com",
+          "tier": "wire"
+        },
+        {
+          "url": "https://www.bbc.com/news/live/c8jke9v9xv9t",
+          "domain": "bbc.com",
+          "tier": "wire"
+        },
+        {
+          "url": "https://www.thenationalnews.com/news/2026/03/31/dubai-tanker-fire-iran-drone/",
+          "domain": "thenationalnews.com",
+          "tier": "local"
+        }
+      ],
+      "_via": "rss",
+      "confidence": "high",
+      "_enriched_at": "2026-04-26T06:01:00Z"
+    },
+    {
+      "id": "780a01bcf148",
+      "datetime": "2026-03-10T00:00:00Z",
+      "type": "impact_minor",
+      "confirmed": true,
+      "precision": "city",
+      "title": "Strike in Abu Dhabi \u2014 Abu Dhabi Media Office report",
+      "location": "Abu Dhabi",
+      "lat": 24.4539,
+      "lon": 54.3773,
+      "sources": [
+        {
+          "url": "https://x.com/ADMediaOffice/status/2031332643586163042",
+          "domain": "x.com",
+          "tier": "osint"
+        }
+      ],
+      "_manual": true
+    },
+    {
+      "id": "a1b2c3d4e5f6",
+      "datetime": "2026-03-07T12:30:00Z",
+      "type": "interception",
+      "confirmed": true,
+      "precision": "exact",
+      "title": "UAE intercepts 15 of 16 ballistic missiles \u2014 1 falls into sea",
+      "location": "UAE",
+      "lat": 24.5,
+      "lon": 54.5,
+      "sources": [
+        {
+          "url": "https://www.hindustantimes.com/world-news/dubai-abu-dhabi-uae-war-news-live-updates-us-iran-israel-attack-flight-status-missile-alert-explosion-strikes-qatar-101772845653054.html",
+          "domain": "hindustantimes.com",
+          "tier": "local"
+        },
+        {
+          "url": "https://www.aljazeera.com/news/2026/3/7/iranian-missiles-intercepted-over-saudi-jordan-drones-launched-at-qatar",
+          "domain": "aljazeera.com",
+          "tier": "wire"
+        }
+      ],
+      "_manual": true
+    },
+    {
+      "id": "b2c3d4e5f6a1",
+      "datetime": "2026-03-07T11:00:00Z",
+      "type": "impact_major",
+      "confirmed": true,
+      "precision": "exact",
+      "title": "IRGC drone attack on Al Dhafra Air Base \u2014 explosions reported",
+      "location": "Al Dhafra Air Base",
+      "lat": 24.2481,
+      "lon": 54.5476,
+      "sources": [
+        {
+          "url": "https://www.aljazeera.com/news/2026/3/7/iranian-missiles-intercepted-over-saudi-drones-launched-at-qatar",
+          "domain": "aljazeera.com",
+          "tier": "wire"
+        }
+      ],
+      "_manual": true
+    },
+    {
+      "id": "g1h2i3j4k5l6",
+      "datetime": "2026-03-07T06:00:00Z",
+      "type": "security_alert",
+      "confirmed": true,
+      "precision": "country",
+      "title": "UAE raises threat level across all emirates after overnight Iranian naval activity",
+      "location": "UAE-wide",
+      "lat": 24,
+      "lon": 54,
+      "sources": [
+        {
+          "domain": "WAM",
+          "url": "https://wam.ae"
+        }
+      ],
+      "_manual": true
+    },
+    {
+      "id": "c3d4e5f6a1b2",
+      "datetime": "2026-03-03T14:00:00Z",
+      "type": "security_alert",
+      "confirmed": true,
+      "precision": "exact",
+      "title": "US Embassy orders non-emergency staff to leave UAE",
+      "location": "Abu Dhabi",
+      "lat": 24.4539,
+      "lon": 54.3773,
+      "sources": [
+        {
+          "url": "https://ae.usembassy.gov/security-alert-u-s-mission-to-the-uae-march-3-2026/",
+          "domain": "ae.usembassy.gov",
+          "tier": "official"
+        },
+        {
+          "url": "https://ae.usembassy.gov/security-alert-update-on-strikes-in-the-uae-u-s-mission-to-the-uae-mar-2-2026/",
+          "domain": "ae.usembassy.gov",
+          "tier": "official"
+        }
+      ],
+      "_manual": true
+    },
+    {
+      "id": "b3c4d5e6f7a2",
+      "datetime": "2026-02-28T21:30:00Z",
+      "type": "impact_minor",
+      "confirmed": true,
+      "precision": "exact",
+      "title": "Fire at Jebel Ali Port \u2014 attributed to aerial interception debris",
+      "location": "Jebel Ali Port",
+      "lat": 25.0153,
+      "lon": 55.0613,
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/2026_Iranian_strikes_on_the_United_Arab_Emirates",
+          "domain": "en.wikipedia.org",
+          "tier": "wire"
+        }
+      ],
+      "_manual": true
+    },
+    {
+      "id": "a2b3c4d5e6f7",
+      "datetime": "2026-02-28T21:00:00Z",
+      "type": "impact_minor",
+      "confirmed": true,
+      "precision": "exact",
+      "title": "Iranian missile fragments hit Burj Al Arab \u2014 structural damage",
+      "location": "Burj Al Arab",
+      "lat": 25.1412,
+      "lon": 55.1853,
+      "sources": [
+        {
+          "url": "https://www.euronews.com/2026/03/01/iranian-strikes-hit-dubai-and-abu-dhabi-damaging-airport-terminals-and-the-burj-al-arab",
+          "domain": "euronews.com",
+          "tier": "wire"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/2026_Iranian_strikes_on_the_United_Arab_Emirates",
+          "domain": "en.wikipedia.org",
           "tier": "wire"
         }
       ],
@@ -508,7 +752,7 @@
       "type": "impact_major",
       "confirmed": true,
       "precision": "exact",
-      "title": "Shahed drone strike near Fairmont The Palm Hotel, Palm Jumeirah — 4 injured",
+      "title": "Shahed drone strike near Fairmont The Palm Hotel, Palm Jumeirah \u2014 4 injured",
       "location": "Palm Jumeirah",
       "lat": 25.1124,
       "lon": 55.139,
@@ -532,7 +776,7 @@
       "type": "impact_major",
       "confirmed": true,
       "precision": "exact",
-      "title": "Dubai International Airport Terminal 3 struck — 4 staff injured, evacuation",
+      "title": "Dubai International Airport Terminal 3 struck \u2014 4 staff injured, evacuation",
       "location": "Dubai International Airport",
       "lat": 25.2532,
       "lon": 55.3657,
@@ -561,7 +805,7 @@
       "type": "impact_minor",
       "confirmed": true,
       "precision": "exact",
-      "title": "Interception debris falls near Zayed International Airport — 1 killed, 7 injured",
+      "title": "Interception debris falls near Zayed International Airport \u2014 1 killed, 7 injured",
       "location": "Zayed International Airport, Abu Dhabi",
       "lat": 24.433,
       "lon": 54.6511,
@@ -604,7 +848,7 @@
       "type": "impact_major",
       "confirmed": true,
       "precision": "exact",
-      "title": "Al Dhafra Air Base targeted — explosions in Corniche, Al Dhafra and Bateen districts",
+      "title": "Al Dhafra Air Base targeted \u2014 explosions in Corniche, Al Dhafra and Bateen districts",
       "location": "Al Dhafra Air Base",
       "lat": 24.2481,
       "lon": 54.5476,
