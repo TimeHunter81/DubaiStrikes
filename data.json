@@ -1,87 +1,7 @@
 {
-  "last_updated": "2026-04-29T06:07:21Z",
+  "last_updated": "2026-04-29T12:06:24Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
-    {
-      "id": "20ac464f1b63",
-      "datetime": "2026-04-28T10:40:23Z",
-      "type": "security_alert",
-      "confirmed": true,
-      "precision": "city",
-      "title": "Gulf leaders seek progress on joint missile radar at Jeddah summit",
-      "location": "Jeddah, Makkah, Saudi Arabia",
-      "lat": 21.49012,
-      "lon": 39.18624,
-      "sources": [
-        {
-          "url": "https://www.thenationalnews.com/news/gulf/2026/04/28/gulf-co-operation-council-holds-summit-in-saudi-arabias-jeddah/",
-          "domain": "thenationalnews.com",
-          "tier": "local"
-        },
-        {
-          "url": "https://saudigazette.com.sa/article/660932/saudi-arabia/gulf-leaders-back-missile-early-warning-system-reject-hormuz-closure",
-          "domain": "saudigazette.com.sa",
-          "tier": "wire"
-        }
-      ],
-      "snippet": null,
-      "preview_image": "https://www.thenationalnews.com/resizer/v2/UEVZX2S7HZB2JI3NYZMVQC64OU.jpg?smart=true&amp;auth=402c76540bb7ee987f65215a2b29c31ae37992638c4da59f342ee3ad37dc2e9f&amp;width=1200&amp;height=630",
-      "_via": "rss",
-      "confidence": "high",
-      "_search_count": 1,
-      "_next_search_at": 1777376423.0
-    },
-    {
-      "id": "d1b23ef23cd8",
-      "datetime": "2026-04-28T02:00:39Z",
-      "type": "security_alert",
-      "confirmed": true,
-      "precision": "city",
-      "title": "Sudan paramilitary leaders acquired £17.7m property portfolio in Dubai, investigation reveals",
-      "location": "Dubai",
-      "lat": 25.2048,
-      "lon": 55.2708,
-      "sources": [
-        {
-          "url": "https://www.theguardian.com/global-development/2026/apr/28/sudan-paramilitary-rsf-leaders-property-portfolio-dubai-uae-investigation",
-          "domain": "theguardian.com",
-          "tier": "wire"
-        }
-      ],
-      "snippet": "&lt;p&gt;The RSF leadership, accused of committing genocide, used UAE as a ‘safe haven’ for family members and their wealth, records show&lt;/p&gt;&lt;p&gt;A network linked to the leadership of a militia accused of genocide has amassed a vast propert",
-      "preview_image": "https://i.guim.co.uk/img/media/734540cdd2ceb7b784f26f386546f7556fdfcb1e/252_0_3780_3024/master/3780.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=5b27cfc453331c5a0d2ddde969755709",
-      "_via": "rss",
-      "confidence": "medium"
-    },
-    {
-      "id": "70bdc767a59e",
-      "datetime": "2026-04-27T09:32:10Z",
-      "type": "security_alert",
-      "confirmed": true,
-      "precision": "country",
-      "title": "Dr Anwar Gargash says Iran's 'ferocious' attacks on Gulf were premeditated",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.thenationalnews.com/news/uae/2026/04/27/dr-anwar-gargash-says-irans-ferocious-attacks-on-gulf-were-premeditated/",
-          "domain": "thenationalnews.com",
-          "tier": "local"
-        },
-        {
-          "url": "https://www.emirates247.com/uae/iranian-aggression-was-planned-and-not-reactive-anwar-gargash/1135",
-          "domain": "emirates247.com",
-          "tier": "wire"
-        }
-      ],
-      "snippet": null,
-      "preview_image": "https://www.thenationalnews.com/resizer/v2/K2THCZGLSJFEXGXKVZEGZY6R3E.jpg?smart=true&amp;auth=85bfd3beeb87c834d7c7cc4347a7da7a681624805f67ce0c36650184d984d3f1&amp;width=1200&amp;height=630",
-      "_via": "rss",
-      "confidence": "low",
-      "_search_count": 1,
-      "_next_search_at": 1777285930.0
-    },
     {
       "id": "2614c0a34074",
       "datetime": "2026-04-08T11:06:23Z",
@@ -118,7 +38,7 @@
       "preview_image": "https://www.thenationalnews.com/resizer/v2/C4336O4AHVFS3KJYMZ4STAS3LA.jpg?smart=true&auth=a06722c4f49517b520a8d6f6236f576354a1f0103920b0231baafacabccf0960&width=1200&height=630",
       "_via": "rss",
       "confidence": "high",
-      "_enriched_at": "2026-04-28T12:09:11Z",
+      "_enriched_at": "2026-04-29T12:06:00Z",
       "_search_count": 4,
       "_next_search_at": 1775905583.0
     },
@@ -153,7 +73,7 @@
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-04-06%2Fwvfjh1p7%2FUAEflag?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
       "_via": "rss",
       "confidence": "high",
-      "_enriched_at": "2026-04-28T12:09:11Z",
+      "_enriched_at": "2026-04-29T12:06:00Z",
       "_search_count": 4,
       "_next_search_at": 1775893875.0
     },
@@ -183,7 +103,7 @@
       "preview_image": "https://www.thenationalnews.com/resizer/v2/BNEVKG6VZ5FQLN3T4COQV3VMVU.jpg?smart=true&auth=df8f330b4d471335b10e55f2fd1ab226013fa82c9c7dc10928a75a30d4112125&width=1200&height=630",
       "_via": "rss",
       "confidence": "high",
-      "_enriched_at": "2026-04-28T12:09:11Z",
+      "_enriched_at": "2026-04-29T12:06:00Z",
       "_search_count": 5,
       "_next_search_at": null,
       "_search_exhausted": true
@@ -214,7 +134,7 @@
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-26%2F93ocapfr%2FUAEflag?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
       "_via": "rss",
       "confidence": "low",
-      "_enriched_at": "2026-04-28T12:09:11Z",
+      "_enriched_at": "2026-04-29T12:06:00Z",
       "_search_count": 5,
       "_next_search_at": null,
       "_search_exhausted": true
@@ -223,7 +143,7 @@
       "id": "5541e50293d9",
       "datetime": "2026-04-06T11:05:43Z",
       "type": "interception",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "UAE intercepts 12 ballistic missiles, 2 cruise missiles, 19 drones",
       "location": "UAE",
@@ -250,7 +170,7 @@
       "preview_image": "https://www.thenationalnews.com/resizer/v2/6EICJPZ6WJAOBKKUCCH4FJXG6U.jpg?smart=true&auth=754e66992e024dc2c936bebfc925629da84a448217495060ebc71ed3a1e5b890&width=1200&height=630",
       "_via": "rss",
       "confidence": "high",
-      "_enriched_at": "2026-04-28T12:09:11Z",
+      "_enriched_at": "2026-04-29T12:06:00Z",
       "_search_count": 1,
       "_next_search_at": 1775477143.0
     },
@@ -292,7 +212,7 @@
       "confidence": "low",
       "_search_count": 3,
       "_next_search_at": 1775476956.0,
-      "_enriched_at": "2026-04-28T12:09:11Z"
+      "_enriched_at": "2026-04-29T12:06:00Z"
     },
     {
       "id": "37995e199ea5",
@@ -327,7 +247,7 @@
       "confidence": "high",
       "_search_count": 1,
       "_next_search_at": 1775390816.0,
-      "_enriched_at": "2026-04-28T12:09:11Z"
+      "_enriched_at": "2026-04-29T12:06:00Z"
     },
     {
       "id": "0e0fdaa94c0a",
@@ -355,7 +275,7 @@
       "preview_image": "https://www.thenationalnews.com/resizer/v2/LAUIJCHKORBUHESGN4BITQGYSQ.jpg?smart=true&auth=e2b29ffdcbe5c24d27606712f57bf79bad70c0c82cf8d6df1c2cf28d9b85ce81&width=1200&height=630",
       "_via": "rss",
       "confidence": "medium",
-      "_enriched_at": "2026-04-28T12:09:11Z",
+      "_enriched_at": "2026-04-29T12:06:00Z",
       "_search_count": 1,
       "_next_search_at": 1775299656.0
     },
@@ -390,7 +310,7 @@
       "preview_image": "https://media.assettype.com/gulfnews%2Fimport%2F2022%2F01%2F04%2FSTOCK-Dubai-Internet-city_17e26a0f8ba_large.jpg?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
       "_via": "rss",
       "confidence": "high",
-      "_enriched_at": "2026-04-28T12:09:11Z",
+      "_enriched_at": "2026-04-29T12:06:00Z",
       "_search_count": 2,
       "_next_search_at": 1775294680.0
     },
@@ -420,7 +340,7 @@
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-06%2F2cx9y26d%2FDubai-Marina.jpg?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
       "_via": "rss",
       "confidence": "high",
-      "_enriched_at": "2026-04-28T12:09:11Z",
+      "_enriched_at": "2026-04-29T12:06:00Z",
       "_search_count": 2,
       "_next_search_at": 1775291700.0
     },
@@ -445,7 +365,7 @@
       "preview_image": "https://www.aljazeera.com/wp-content/uploads/2026/04/2007-01-16T000000Z_1794600640_GM1DUJZTOJAA_RTRMADP_3_UNITED-ARAB-EMIRATES-1775240863.jpg?resize=1920%2C1440",
       "_via": "rss",
       "confidence": "high",
-      "_enriched_at": "2026-04-28T12:09:11Z",
+      "_enriched_at": "2026-04-29T12:06:00Z",
       "_search_count": 1,
       "_next_search_at": 1775246932.0
     },
@@ -477,7 +397,7 @@
       "confidence": "high",
       "_search_count": 2,
       "_next_search_at": 1775151009.0,
-      "_enriched_at": "2026-04-28T12:09:11Z"
+      "_enriched_at": "2026-04-29T12:06:00Z"
     },
     {
       "id": "6b2cbb18a184",
@@ -505,7 +425,7 @@
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-26%2F93ocapfr%2FUAEflag?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
       "_via": "rss",
       "confidence": "high",
-      "_enriched_at": "2026-04-28T12:09:11Z",
+      "_enriched_at": "2026-04-29T12:06:00Z",
       "_search_count": 2,
       "_next_search_at": 1775064718.0
     },
@@ -540,7 +460,7 @@
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-26%2Fzhuvi9fr%2FUAEflag?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
       "_via": "rss",
       "confidence": "high",
-      "_enriched_at": "2026-04-28T12:09:11Z",
+      "_enriched_at": "2026-04-29T12:06:00Z",
       "_search_count": 3,
       "_next_search_at": 1775105147.0
     },
@@ -568,7 +488,7 @@
       ],
       "_via": "rss",
       "confidence": "high",
-      "_enriched_at": "2026-04-28T12:09:11Z",
+      "_enriched_at": "2026-04-29T12:06:00Z",
       "_search_count": 3,
       "_next_search_at": 1775042697.0
     },
@@ -596,7 +516,7 @@
       ],
       "_via": "rss",
       "confidence": "medium",
-      "_enriched_at": "2026-04-28T12:09:11Z",
+      "_enriched_at": "2026-04-29T12:06:00Z",
       "_search_count": 3,
       "_next_search_at": 1775031189.0
     },
@@ -634,7 +554,7 @@
       ],
       "_via": "rss",
       "confidence": "medium",
-      "_enriched_at": "2026-04-28T12:09:11Z",
+      "_enriched_at": "2026-04-29T12:06:00Z",
       "_search_count": 3,
       "_next_search_at": 1775010030.0
     },
@@ -677,7 +597,7 @@
       ],
       "_via": "rss",
       "confidence": "high",
-      "_enriched_at": "2026-04-28T12:09:11Z"
+      "_enriched_at": "2026-04-29T12:06:00Z"
     },
     {
       "id": "780a01bcf148",
