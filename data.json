@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-02T20:07:41Z",
+  "last_updated": "2026-05-03T12:06:17Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -368,36 +368,6 @@
       "_enriched_at": "2026-05-02T20:07:27Z",
       "_search_count": 1,
       "_next_search_at": 1775246932.0
-    },
-    {
-      "id": "e0569d5267f1",
-      "datetime": "2026-04-02T11:30:09Z",
-      "type": "interception",
-      "confirmed": false,
-      "precision": "country",
-      "title": "UAE intercepts 19 missiles and 26 drones",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.thenationalnews.com/news/uae/2026/04/02/uae-intercepts-19-missiles-and-26-drones-on-thursday/",
-          "domain": "thenationalnews.com",
-          "tier": "local"
-        },
-        {
-          "url": "https://gulfnews.com/uae/government/uae-air-defense-intercepted-19-ballistic-missiles-and-26-drones-from-iran-on-april-2-2026-1.500494318",
-          "domain": "gulfnews.com",
-          "tier": "local"
-        }
-      ],
-      "snippet": null,
-      "preview_image": "https://www.thenationalnews.com/resizer/v2/GYSHBN4SKVFY5HBDCSQA4KDD64.jpg?smart=true&auth=f92a0417b0df7999f41f39a6ee4c730c998c9bfa3190c9095ef79d1769a5242c&width=1200&height=630",
-      "_via": "rss",
-      "confidence": "high",
-      "_search_count": 2,
-      "_next_search_at": 1775151009.0,
-      "_enriched_at": "2026-05-02T20:07:27Z"
     },
     {
       "id": "780a01bcf148",
