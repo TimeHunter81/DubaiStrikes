@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-03T12:08:14Z",
+  "last_updated": "2026-05-04T12:08:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -38,7 +38,7 @@
       "preview_image": "https://www.thenationalnews.com/resizer/v2/C4336O4AHVFS3KJYMZ4STAS3LA.jpg?smart=true&auth=a06722c4f49517b520a8d6f6236f576354a1f0103920b0231baafacabccf0960&width=1200&height=630",
       "_via": "rss",
       "confidence": "high",
-      "_enriched_at": "2026-05-03T12:08:14Z",
+      "_enriched_at": "2026-05-04T12:08:00Z",
       "_search_count": 4,
       "_next_search_at": 1775905583.0
     },
@@ -73,7 +73,7 @@
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-04-06%2Fwvfjh1p7%2FUAEflag?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
       "_via": "rss",
       "confidence": "high",
-      "_enriched_at": "2026-05-03T12:08:14Z",
+      "_enriched_at": "2026-05-04T12:08:00Z",
       "_search_count": 4,
       "_next_search_at": 1775893875.0
     },
@@ -103,7 +103,7 @@
       "preview_image": "https://www.thenationalnews.com/resizer/v2/BNEVKG6VZ5FQLN3T4COQV3VMVU.jpg?smart=true&auth=df8f330b4d471335b10e55f2fd1ab226013fa82c9c7dc10928a75a30d4112125&width=1200&height=630",
       "_via": "rss",
       "confidence": "high",
-      "_enriched_at": "2026-05-03T12:08:14Z",
+      "_enriched_at": "2026-05-04T12:08:00Z",
       "_search_count": 5,
       "_next_search_at": null,
       "_search_exhausted": true
@@ -134,7 +134,7 @@
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-26%2F93ocapfr%2FUAEflag?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
       "_via": "rss",
       "confidence": "low",
-      "_enriched_at": "2026-05-03T12:08:14Z",
+      "_enriched_at": "2026-05-04T12:08:00Z",
       "_search_count": 5,
       "_next_search_at": null,
       "_search_exhausted": true
@@ -170,7 +170,7 @@
       "preview_image": "https://www.thenationalnews.com/resizer/v2/6EICJPZ6WJAOBKKUCCH4FJXG6U.jpg?smart=true&auth=754e66992e024dc2c936bebfc925629da84a448217495060ebc71ed3a1e5b890&width=1200&height=630",
       "_via": "rss",
       "confidence": "high",
-      "_enriched_at": "2026-05-03T12:08:14Z",
+      "_enriched_at": "2026-05-04T12:08:00Z",
       "_search_count": 1,
       "_next_search_at": 1775477143.0
     },
@@ -212,7 +212,7 @@
       "confidence": "low",
       "_search_count": 3,
       "_next_search_at": 1775476956.0,
-      "_enriched_at": "2026-05-03T12:08:14Z"
+      "_enriched_at": "2026-05-04T12:08:00Z"
     },
     {
       "id": "37995e199ea5",
@@ -247,7 +247,7 @@
       "confidence": "high",
       "_search_count": 1,
       "_next_search_at": 1775390816.0,
-      "_enriched_at": "2026-05-03T12:08:14Z"
+      "_enriched_at": "2026-05-04T12:08:00Z"
     },
     {
       "id": "0e0fdaa94c0a",
@@ -275,7 +275,7 @@
       "preview_image": "https://www.thenationalnews.com/resizer/v2/LAUIJCHKORBUHESGN4BITQGYSQ.jpg?smart=true&auth=e2b29ffdcbe5c24d27606712f57bf79bad70c0c82cf8d6df1c2cf28d9b85ce81&width=1200&height=630",
       "_via": "rss",
       "confidence": "medium",
-      "_enriched_at": "2026-05-03T12:08:14Z",
+      "_enriched_at": "2026-05-04T12:08:00Z",
       "_search_count": 1,
       "_next_search_at": 1775299656.0
     },
@@ -310,7 +310,7 @@
       "preview_image": "https://media.assettype.com/gulfnews%2Fimport%2F2022%2F01%2F04%2FSTOCK-Dubai-Internet-city_17e26a0f8ba_large.jpg?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
       "_via": "rss",
       "confidence": "high",
-      "_enriched_at": "2026-05-03T12:08:14Z",
+      "_enriched_at": "2026-05-04T12:08:00Z",
       "_search_count": 2,
       "_next_search_at": 1775294680.0
     },
@@ -340,34 +340,9 @@
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-06%2F2cx9y26d%2FDubai-Marina.jpg?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
       "_via": "rss",
       "confidence": "high",
-      "_enriched_at": "2026-05-03T12:08:14Z",
+      "_enriched_at": "2026-05-04T12:08:00Z",
       "_search_count": 2,
       "_next_search_at": 1775291700.0
-    },
-    {
-      "id": "d30d028fe1a5",
-      "datetime": "2026-04-03T19:08:52Z",
-      "type": "impact_major",
-      "confirmed": false,
-      "precision": "exact",
-      "title": "Debris fire hits Habshan gas facility; 1 killed",
-      "location": "Habshan, Abu Dhabi",
-      "lat": 23.9081,
-      "lon": 53.7827,
-      "sources": [
-        {
-          "url": "https://www.aljazeera.com/news/2026/4/3/at-least-one-killed-at-uaes-habshan-gas-facility-after-intercepted-attack?traffic_source=rss",
-          "domain": "aljazeera.com",
-          "tier": "wire"
-        }
-      ],
-      "snippet": "UAE says largest gas facility, Habshan, suffered significant damage after air defence interception sparked fires.",
-      "preview_image": "https://www.aljazeera.com/wp-content/uploads/2026/04/2007-01-16T000000Z_1794600640_GM1DUJZTOJAA_RTRMADP_3_UNITED-ARAB-EMIRATES-1775240863.jpg?resize=1920%2C1440",
-      "_via": "rss",
-      "confidence": "high",
-      "_enriched_at": "2026-05-03T12:08:14Z",
-      "_search_count": 1,
-      "_next_search_at": 1775246932.0
     },
     {
       "id": "780a01bcf148",
@@ -375,7 +350,7 @@
       "type": "impact_minor",
       "confirmed": true,
       "precision": "city",
-      "title": "Strike in Abu Dhabi \u2014 Abu Dhabi Media Office report",
+      "title": "Strike in Abu Dhabi — Abu Dhabi Media Office report",
       "location": "Abu Dhabi",
       "lat": 24.4539,
       "lon": 54.3773,
@@ -394,7 +369,7 @@
       "type": "interception",
       "confirmed": true,
       "precision": "exact",
-      "title": "UAE intercepts 15 of 16 ballistic missiles \u2014 1 falls into sea",
+      "title": "UAE intercepts 15 of 16 ballistic missiles — 1 falls into sea",
       "location": "UAE",
       "lat": 24.5,
       "lon": 54.5,
@@ -418,7 +393,7 @@
       "type": "impact_major",
       "confirmed": true,
       "precision": "exact",
-      "title": "IRGC drone attack on Al Dhafra Air Base \u2014 explosions reported",
+      "title": "IRGC drone attack on Al Dhafra Air Base — explosions reported",
       "location": "Al Dhafra Air Base",
       "lat": 24.2481,
       "lon": 54.5476,
@@ -479,7 +454,7 @@
       "type": "impact_minor",
       "confirmed": true,
       "precision": "exact",
-      "title": "Fire at Jebel Ali Port \u2014 attributed to aerial interception debris",
+      "title": "Fire at Jebel Ali Port — attributed to aerial interception debris",
       "location": "Jebel Ali Port",
       "lat": 25.0153,
       "lon": 55.0613,
@@ -498,7 +473,7 @@
       "type": "impact_minor",
       "confirmed": true,
       "precision": "exact",
-      "title": "Iranian missile fragments hit Burj Al Arab \u2014 structural damage",
+      "title": "Iranian missile fragments hit Burj Al Arab — structural damage",
       "location": "Burj Al Arab",
       "lat": 25.1412,
       "lon": 55.1853,
@@ -522,7 +497,7 @@
       "type": "impact_major",
       "confirmed": true,
       "precision": "exact",
-      "title": "Shahed drone strike near Fairmont The Palm Hotel, Palm Jumeirah \u2014 4 injured",
+      "title": "Shahed drone strike near Fairmont The Palm Hotel, Palm Jumeirah — 4 injured",
       "location": "Palm Jumeirah",
       "lat": 25.1124,
       "lon": 55.139,
@@ -546,7 +521,7 @@
       "type": "impact_major",
       "confirmed": true,
       "precision": "exact",
-      "title": "Dubai International Airport Terminal 3 struck \u2014 4 staff injured, evacuation",
+      "title": "Dubai International Airport Terminal 3 struck — 4 staff injured, evacuation",
       "location": "Dubai International Airport",
       "lat": 25.2532,
       "lon": 55.3657,
@@ -575,7 +550,7 @@
       "type": "impact_minor",
       "confirmed": true,
       "precision": "exact",
-      "title": "Interception debris falls near Zayed International Airport \u2014 1 killed, 7 injured",
+      "title": "Interception debris falls near Zayed International Airport — 1 killed, 7 injured",
       "location": "Zayed International Airport, Abu Dhabi",
       "lat": 24.433,
       "lon": 54.6511,
@@ -618,7 +593,7 @@
       "type": "impact_major",
       "confirmed": true,
       "precision": "exact",
-      "title": "Al Dhafra Air Base targeted \u2014 explosions in Corniche, Al Dhafra and Bateen districts",
+      "title": "Al Dhafra Air Base targeted — explosions in Corniche, Al Dhafra and Bateen districts",
       "location": "Al Dhafra Air Base",
       "lat": 24.2481,
       "lon": 54.5476,
@@ -629,7 +604,7 @@
           "tier": "wire"
         },
         {
-          "url": "https://www.aljazeera.com/world/live/2026/03/21/middle-east-crisis-live-iran-war-trump-negotiations-bombing-hormuz-energy-oil-scenarios-sanctions-report",
+          "url": "https://www.aljazeera.com/world/live/2026/03/21/middle-east-crisis-live-iran-war-trump-negotiations-bombing-hormuz-energy-oil-scenarios-scenarios-report",
           "domain": "aljazeera.com",
           "tier": "wire"
         }
