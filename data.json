@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-04T12:08:00Z",
+  "last_updated": "2026-05-04T20:00:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
@@ -38,20 +38,21 @@
       "preview_image": "https://www.thenationalnews.com/resizer/v2/C4336O4AHVFS3KJYMZ4STAS3LA.jpg?smart=true&auth=a06722c4f49517b520a8d6f6236f576354a1f0103920b0231baafacabccf0960&width=1200&height=630",
       "_via": "rss",
       "confidence": "high",
-      "_enriched_at": "2026-05-04T12:08:00Z",
+      "_enriched_at": "2026-05-04T20:00:00Z",
       "_search_count": 4,
-      "_next_search_at": 1775905583.0
+      "_next_search_at": 1775905583.0,
+      "_discard": false
     },
     {
       "id": "f9fb6983e931",
       "datetime": "2026-04-08T07:51:15Z",
-      "type": "impact_minor",
+      "type": "interception",
       "confirmed": false,
-      "precision": "exact",
+      "precision": "city",
       "title": "Debris hits Habshan gas facility; 3 injured",
       "location": "Habshan, Abu Dhabi",
-      "lat": 23.9081,
-      "lon": 53.7827,
+      "lat": 24.4539,
+      "lon": 54.3773,
       "sources": [
         {
           "url": "https://gulfnews.com/uae/three-injured-in-abu-dhabi-as-debris-from-interception-hits-habshan-gas-facility-1.500499955",
@@ -73,9 +74,10 @@
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-04-06%2Fwvfjh1p7%2FUAEflag?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
       "_via": "rss",
       "confidence": "high",
-      "_enriched_at": "2026-05-04T12:08:00Z",
+      "_enriched_at": "2026-05-04T20:00:00Z",
       "_search_count": 4,
-      "_next_search_at": 1775893875.0
+      "_next_search_at": 1775893875.0,
+      "_discard": false
     },
     {
       "id": "dfac8a74feb7",
@@ -103,10 +105,11 @@
       "preview_image": "https://www.thenationalnews.com/resizer/v2/BNEVKG6VZ5FQLN3T4COQV3VMVU.jpg?smart=true&auth=df8f330b4d471335b10e55f2fd1ab226013fa82c9c7dc10928a75a30d4112125&width=1200&height=630",
       "_via": "rss",
       "confidence": "high",
-      "_enriched_at": "2026-05-04T12:08:00Z",
+      "_enriched_at": "2026-05-04T20:00:00Z",
       "_search_count": 5,
       "_next_search_at": null,
-      "_search_exhausted": true
+      "_search_exhausted": true,
+      "_discard": false
     },
     {
       "id": "8f7e183f8560",
@@ -134,10 +137,11 @@
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-26%2F93ocapfr%2FUAEflag?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
       "_via": "rss",
       "confidence": "low",
-      "_enriched_at": "2026-05-04T12:08:00Z",
+      "_enriched_at": "2026-05-04T20:00:00Z",
       "_search_count": 5,
       "_next_search_at": null,
-      "_search_exhausted": true
+      "_search_exhausted": true,
+      "_discard": false
     },
     {
       "id": "5541e50293d9",
@@ -170,49 +174,10 @@
       "preview_image": "https://www.thenationalnews.com/resizer/v2/6EICJPZ6WJAOBKKUCCH4FJXG6U.jpg?smart=true&auth=754e66992e024dc2c936bebfc925629da84a448217495060ebc71ed3a1e5b890&width=1200&height=630",
       "_via": "rss",
       "confidence": "high",
-      "_enriched_at": "2026-05-04T12:08:00Z",
+      "_enriched_at": "2026-05-04T20:00:00Z",
       "_search_count": 1,
-      "_next_search_at": 1775477143.0
-    },
-    {
-      "id": "7c40afeaaffb",
-      "datetime": "2026-04-05T12:02:36Z",
-      "type": "impact_major",
-      "confirmed": true,
-      "precision": "city",
-      "title": "Drone strike hits Abu Dhabi steel plant",
-      "location": "Abu Dhabi",
-      "lat": 24.4539,
-      "lon": 54.3773,
-      "sources": [
-        {
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/irgc-claims-hits-gulf-petrochemical-plants",
-          "domain": "middleeasteye.net",
-          "tier": "local"
-        },
-        {
-          "url": "https://english.mathrubhumi.com/news/world/irgc-drone-strikes-abu-dhabi-steel-bahrain-aluminium-plants-iran-war-update-p1izshi3",
-          "domain": "english.mathrubhumi.com",
-          "tier": "wire"
-        },
-        {
-          "url": "https://www.bssnews.net/international/374653",
-          "domain": "bssnews.net",
-          "tier": "wire"
-        },
-        {
-          "url": "https://www.bbc.com/news/articles/cp86yrq5jy7o",
-          "domain": "bbc.com",
-          "tier": "wire"
-        }
-      ],
-      "snippet": null,
-      "preview_image": "https://www.middleeasteye.net/sites/default/files/2026-04/UAE%20-%20IRAN%20-%20US%20-%20ISRAEL%20-%20WAR.jpg",
-      "_via": "rss",
-      "confidence": "low",
-      "_search_count": 3,
-      "_next_search_at": 1775476956.0,
-      "_enriched_at": "2026-05-04T12:08:00Z"
+      "_next_search_at": 1775477143.0,
+      "_discard": false
     },
     {
       "id": "37995e199ea5",
@@ -247,12 +212,13 @@
       "confidence": "high",
       "_search_count": 1,
       "_next_search_at": 1775390816.0,
-      "_enriched_at": "2026-05-04T12:08:00Z"
+      "_enriched_at": "2026-05-04T20:00:00Z",
+      "_discard": false
     },
     {
       "id": "0e0fdaa94c0a",
       "datetime": "2026-04-04T09:47:36Z",
-      "type": "impact_minor",
+      "type": "interception",
       "confirmed": false,
       "precision": "country",
       "title": "UAE intercepts 23 missiles and 56 drones",
@@ -275,20 +241,21 @@
       "preview_image": "https://www.thenationalnews.com/resizer/v2/LAUIJCHKORBUHESGN4BITQGYSQ.jpg?smart=true&auth=e2b29ffdcbe5c24d27606712f57bf79bad70c0c82cf8d6df1c2cf28d9b85ce81&width=1200&height=630",
       "_via": "rss",
       "confidence": "medium",
-      "_enriched_at": "2026-05-04T12:08:00Z",
+      "_enriched_at": "2026-05-04T20:00:00Z",
       "_search_count": 1,
-      "_next_search_at": 1775299656.0
+      "_next_search_at": 1775299656.0,
+      "_discard": false
     },
     {
       "id": "3b42aaa841fe",
       "datetime": "2026-04-04T03:24:40Z",
-      "type": "impact_minor",
+      "type": "interception",
       "confirmed": false,
-      "precision": "area",
+      "precision": "country",
       "title": "Interception debris hits Dubai Internet City tower",
       "location": "Dubai Internet City",
-      "lat": 25.0969,
-      "lon": 55.171,
+      "lat": null,
+      "lon": null,
       "sources": [
         {
           "url": "https://gulfnews.com/uae/government/iran-conflict-debris-from-aerial-interception-hits-dubai-internet-city-building-1.500495914",
@@ -310,14 +277,15 @@
       "preview_image": "https://media.assettype.com/gulfnews%2Fimport%2F2022%2F01%2F04%2FSTOCK-Dubai-Internet-city_17e26a0f8ba_large.jpg?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
       "_via": "rss",
       "confidence": "high",
-      "_enriched_at": "2026-05-04T12:08:00Z",
+      "_enriched_at": "2026-05-04T20:00:00Z",
       "_search_count": 2,
-      "_next_search_at": 1775294680.0
+      "_next_search_at": 1775294680.0,
+      "_discard": false
     },
     {
       "id": "7e6333dcea4e",
       "datetime": "2026-04-04T02:35:00Z",
-      "type": "impact_minor",
+      "type": "interception",
       "confirmed": false,
       "precision": "area",
       "title": "Interception debris hits Dubai Marina tower",
@@ -340,9 +308,10 @@
       "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-06%2F2cx9y26d%2FDubai-Marina.jpg?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
       "_via": "rss",
       "confidence": "high",
-      "_enriched_at": "2026-05-04T12:08:00Z",
+      "_enriched_at": "2026-05-04T20:00:00Z",
       "_search_count": 2,
-      "_next_search_at": 1775291700.0
+      "_next_search_at": 1775291700.0,
+      "_discard": false
     },
     {
       "id": "780a01bcf148",
