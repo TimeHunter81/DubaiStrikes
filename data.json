@@ -1,95 +1,7 @@
 {
-  "last_updated": "2026-05-05T06:00:00Z",
+  "last_updated": "2026-05-05T12:01:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
-    {
-      "id": "1a4d3797a7cf",
-      "datetime": "2026-05-05T02:34:15Z",
-      "type": "impact_major",
-      "confirmed": true,
-      "precision": "country",
-      "title": "Iran attack hits UAE oil facility as US strikes boats",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.bbc.com/news/articles/cjwp432d0v5o?at_medium=RSS&amp;at_campaign=rss",
-          "domain": "bbc.com",
-          "tier": "wire"
-        }
-      ],
-      "snippet": "Shipping company Maersk says one of its US-flagged commercial vessels has successfully exited the Strait of Hormuz under US military protection.",
-      "preview_image": "https://ichef.bbci.co.uk/news/1024/branded_news/4dcd/live/020fd5a0-47de-11f1-90ad-2ff82eec9d15.jpg",
-      "_via": "rss",
-      "confidence": "medium",
-      "_enriched_at": "2026-05-05T06:00:00Z"
-    },
-    {
-      "id": "2fa808854e82",
-      "datetime": "2026-05-04T15:25:04Z",
-      "type": "impact_minor",
-      "confirmed": true,
-      "precision": "exact",
-      "title": "Drone attack in Fujairah injures three",
-      "location": "Fujairah Oil Industry Zone",
-      "lat": 25.268692,
-      "lon": 56.609667,
-      "sources": [
-        {
-          "url": "https://www.thenationalnews.com/news/uae/2026/05/04/uae-intercepts-four-missiles-as-new-safety-alerts-issued/",
-          "domain": "thenationalnews.com",
-          "tier": "local"
-        },
-        {
-          "url": "https://apnews.com/article/iran-usa-israel-gaza-war-shipping-17b6332b6303b462bd130d75e41ffbc9",
-          "domain": "apnews.com",
-          "tier": "wire"
-        }
-      ],
-      "snippet": null,
-      "preview_image": "https://www.thenationalnews.com/resizer/v2/Z3IMP25XBNAAFMXRNLDQS73MJM.jpg?smart=true&amp;auth=20ada64b47d60ddfe359bd797a50cd427b972d5e8112d5c72759dc9f0899b648&amp;width=1200&amp;height=630",
-      "_via": "rss",
-      "confidence": "low",
-      "_enriched_at": "2026-05-05T06:00:00Z",
-      "_search_count": 1,
-      "_next_search_at": 1777911904.0
-    },
-    {
-      "id": "3453095a5e5d",
-      "datetime": "2026-05-04T02:55:27Z",
-      "type": "interception",
-      "confirmed": true,
-      "precision": "country",
-      "title": "UAE intercepts 12 missiles, 3 cruise missiles and 4 drones",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://gulfnews.com/world/mena/uae-intercepts-12-ballistic-missiles-three-cruise-missiles-and-four-drones-from-iran-schools-universities-go-online-1.500527915",
-          "domain": "gulfnews.com",
-          "tier": "local"
-        },
-        {
-          "url": "https://www.thenationalnews.com/business/economy/2026/05/05/more-than-85-of-irans-drone-strikes-on-uae-thwarted-by-edge-defence-systems/",
-          "domain": "thenationalnews.com",
-          "tier": "local"
-        },
-        {
-          "url": "https://english.news.cn/20260505/3684bd49303640cb81124539bfdb5cde/c.html",
-          "domain": "english.news.cn",
-          "tier": "wire"
-        }
-      ],
-      "snippet": null,
-      "preview_image": "https://gumlet-images.assettype.com/gulfnews%2F2026-05-05%2F21yy0oq3%2FHormuz-Grimaldi-lines.jpeg?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
-      "_via": "rss",
-      "confidence": "low",
-      "_enriched_at": "2026-05-05T06:00:00Z",
-      "_search_count": 1,
-      "_next_search_at": 1777866927.0
-    },
     {
       "id": "780a01bcf148",
       "datetime": "2026-03-10T00:00:00Z",
@@ -356,6 +268,94 @@
         }
       ],
       "_manual": true
+    },
+    {
+      "id": "1a4d3797a7cf",
+      "datetime": "2026-05-05T02:34:15Z",
+      "type": "impact_major",
+      "confirmed": true,
+      "precision": "country",
+      "title": "Iran strike hits UAE oil facility",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://www.bbc.com/news/articles/cjwp432d0v5o?at_medium=RSS&amp;at_campaign=rss",
+          "domain": "bbc.com",
+          "tier": "wire"
+        }
+      ],
+      "snippet": "Shipping company Maersk says one of its US-flagged commercial vessels has successfully exited the Strait of Hormuz under US military protection.",
+      "preview_image": "https://ichef.bbci.co.uk/news/1024/branded_news/4dcd/live/020fd5a0-47de-11f1-90ad-2ff82eec9d15.jpg",
+      "_via": "rss",
+      "confidence": "medium",
+      "_enriched_at": "2026-05-05T12:01:00Z"
+    },
+    {
+      "id": "2fa808854e82",
+      "datetime": "2026-05-04T15:25:04Z",
+      "type": "impact_minor",
+      "confirmed": true,
+      "precision": "exact",
+      "title": "Drone strike in Fujairah injures three",
+      "location": "Fujairah Oil Industry Zone",
+      "lat": 25.268692,
+      "lon": 56.609667,
+      "sources": [
+        {
+          "url": "https://www.thenationalnews.com/news/uae/2026/05/04/uae-intercepts-four-missiles-as-new-safety-alerts-issued/",
+          "domain": "thenationalnews.com",
+          "tier": "local"
+        },
+        {
+          "url": "https://apnews.com/article/iran-usa-israel-gaza-war-shipping-17b6332b6303b462bd130d75e41ffbc9",
+          "domain": "apnews.com",
+          "tier": "wire"
+        }
+      ],
+      "snippet": null,
+      "preview_image": "https://www.thenationalnews.com/resizer/v2/Z3IMP25XBNAAFMXRNLDQS73MJM.jpg?smart=true&amp;auth=20ada64b47d60ddfe359bd797a50cd427b972d5e8112d5c72759dc9f0899b648&amp;width=1200&amp;height=630",
+      "_via": "rss",
+      "confidence": "low",
+      "_enriched_at": "2026-05-05T12:01:00Z",
+      "_search_count": 1,
+      "_next_search_at": 1777911904.0
+    },
+    {
+      "id": "3453095a5e5d",
+      "datetime": "2026-05-04T02:55:27Z",
+      "type": "interception",
+      "confirmed": false,
+      "precision": "country",
+      "title": "UAE intercepts missiles, cruise missiles and drones",
+      "location": "UAE",
+      "lat": null,
+      "lon": null,
+      "sources": [
+        {
+          "url": "https://gulfnews.com/world/mena/uae-intercepts-12-ballistic-missiles-three-cruise-missiles-and-four-drones-from-iran-schools-universities-go-online-1.500527915",
+          "domain": "gulfnews.com",
+          "tier": "local"
+        },
+        {
+          "url": "https://www.thenationalnews.com/business/economy/2026/05/05/more-than-85-of-irans-drone-strikes-on-uae-thwarted-by-edge-defence-systems/",
+          "domain": "thenationalnews.com",
+          "tier": "local"
+        },
+        {
+          "url": "https://english.news.cn/20260505/3684bd49303640cb81124539bfdb5cde/c.html",
+          "domain": "english.news.cn",
+          "tier": "wire"
+        }
+      ],
+      "snippet": null,
+      "preview_image": "https://gumlet-images.assettype.com/gulfnews%2F2026-05-05%2F21yy0oq3%2FHormuz-Grimaldi-lines.jpeg?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
+      "_via": "rss",
+      "confidence": "low",
+      "_enriched_at": "2026-05-05T12:01:00Z",
+      "_search_count": 1,
+      "_next_search_at": 1777866927.0
     }
   ]
 }
