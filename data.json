@@ -326,7 +326,7 @@
       "id": "3453095a5e5d",
       "datetime": "2026-05-04T02:55:27Z",
       "type": "interception",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "UAE intercepts missiles, cruise missiles and drones",
       "location": "UAE",
@@ -347,6 +347,11 @@
           "url": "https://english.news.cn/20260505/3684bd49303640cb81124539bfdb5cde/c.html",
           "domain": "english.news.cn",
           "tier": "wire"
+        },
+        {
+          "url": "https://apnews.com/article/iran-usa-israel-gaza-war-shipping-17b6332b6303b462bd130d75e41ffbc9",
+          "domain": "apnews.com",
+          "tier": "wire"
         }
       ],
       "snippet": null,
@@ -354,8 +359,8 @@
       "_via": "rss",
       "confidence": "low",
       "_enriched_at": "2026-05-05T12:01:00Z",
-      "_search_count": 1,
-      "_next_search_at": 1777866927.0
+      "_search_count": 2,
+      "_next_search_at": 1777884927.0
     }
   ]
 }
