@@ -29,30 +29,37 @@
       "id": "2fa808854e82",
       "datetime": "2026-05-04T15:25:04Z",
       "type": "impact_minor",
-      "confirmed": false,
-      "precision": "city",
+      "confirmed": true,
+      "precision": "exact",
       "title": "Drone attack in Fujairah injures three",
-      "location": "Fujairah",
-      "lat": 25.1288,
-      "lon": 56.3265,
+      "location": "Fujairah Oil Industry Zone",
+      "lat": 25.268692,
+      "lon": 56.609667,
       "sources": [
         {
           "url": "https://www.thenationalnews.com/news/uae/2026/05/04/uae-intercepts-four-missiles-as-new-safety-alerts-issued/",
           "domain": "thenationalnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://apnews.com/article/iran-usa-israel-gaza-war-shipping-17b6332b6303b462bd130d75e41ffbc9",
+          "domain": "apnews.com",
+          "tier": "wire"
         }
       ],
       "snippet": null,
       "preview_image": "https://www.thenationalnews.com/resizer/v2/Z3IMP25XBNAAFMXRNLDQS73MJM.jpg?smart=true&amp;auth=20ada64b47d60ddfe359bd797a50cd427b972d5e8112d5c72759dc9f0899b648&amp;width=1200&amp;height=630",
       "_via": "rss",
       "confidence": "low",
-      "_enriched_at": "2026-05-05T06:00:00Z"
+      "_enriched_at": "2026-05-05T06:00:00Z",
+      "_search_count": 1,
+      "_next_search_at": 1777911904.0
     },
     {
       "id": "3453095a5e5d",
       "datetime": "2026-05-04T02:55:27Z",
       "type": "interception",
-      "confirmed": false,
+      "confirmed": true,
       "precision": "country",
       "title": "UAE intercepts 12 missiles, 3 cruise missiles and 4 drones",
       "location": "UAE",
@@ -68,13 +75,20 @@
           "url": "https://www.thenationalnews.com/business/economy/2026/05/05/more-than-85-of-irans-drone-strikes-on-uae-thwarted-by-edge-defence-systems/",
           "domain": "thenationalnews.com",
           "tier": "local"
+        },
+        {
+          "url": "https://english.news.cn/20260505/3684bd49303640cb81124539bfdb5cde/c.html",
+          "domain": "english.news.cn",
+          "tier": "wire"
         }
       ],
       "snippet": null,
       "preview_image": "https://gumlet-images.assettype.com/gulfnews%2F2026-05-05%2F21yy0oq3%2FHormuz-Grimaldi-lines.jpeg?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
       "confidence": "low",
-      "_enriched_at": "2026-05-05T06:00:00Z"
+      "_enriched_at": "2026-05-05T06:00:00Z",
+      "_search_count": 1,
+      "_next_search_at": 1777866927.0
     },
     {
       "id": "780a01bcf148",
