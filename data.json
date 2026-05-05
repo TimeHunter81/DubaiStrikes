@@ -1,317 +1,80 @@
 {
-  "last_updated": "2026-05-04T20:00:00Z",
+  "last_updated": "2026-05-05T06:00:00Z",
   "conflict_start": "2026-02-27T20:00:00Z",
   "events": [
     {
-      "id": "2614c0a34074",
-      "datetime": "2026-04-08T11:06:23Z",
-      "type": "interception",
-      "confirmed": false,
-      "precision": "country",
-      "title": "UAE intercepts 17 missiles and 35 drones",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.thenationalnews.com/news/uae/2026/04/08/uae-intercepts-17-ballistic-missiles-and-35-drones-in-wednesdays-figures/",
-          "domain": "thenationalnews.com",
-          "tier": "local"
-        },
-        {
-          "url": "https://english.news.cn/20260408/6ba8036419bf4512a2fe2aaca8e4a420/c.html",
-          "domain": "english.news.cn",
-          "tier": "wire"
-        },
-        {
-          "url": "https://gulfnews.com/uae/government/uae-air-defences-intercept-17-ballistic-missiles-and-35-uavs-1.500500178",
-          "domain": "gulfnews.com",
-          "tier": "local"
-        },
-        {
-          "url": "https://en.wikipedia.org/wiki/2026_Iranian_strikes_on_the_United_Arab_Emirates",
-          "domain": "en.wikipedia.org",
-          "tier": "wire"
-        }
-      ],
-      "snippet": null,
-      "preview_image": "https://www.thenationalnews.com/resizer/v2/C4336O4AHVFS3KJYMZ4STAS3LA.jpg?smart=true&auth=a06722c4f49517b520a8d6f6236f576354a1f0103920b0231baafacabccf0960&width=1200&height=630",
-      "_via": "rss",
-      "confidence": "high",
-      "_enriched_at": "2026-05-04T20:00:00Z",
-      "_search_count": 4,
-      "_next_search_at": 1775905583.0,
-      "_discard": false
-    },
-    {
-      "id": "f9fb6983e931",
-      "datetime": "2026-04-08T07:51:15Z",
-      "type": "interception",
-      "confirmed": false,
-      "precision": "city",
-      "title": "Debris hits Habshan gas facility; 3 injured",
-      "location": "Habshan, Abu Dhabi",
-      "lat": 24.4539,
-      "lon": 54.3773,
-      "sources": [
-        {
-          "url": "https://gulfnews.com/uae/three-injured-in-abu-dhabi-as-debris-from-interception-hits-habshan-gas-facility-1.500499955",
-          "domain": "gulfnews.com",
-          "tier": "local"
-        },
-        {
-          "url": "https://english.news.cn/20260408/1d16242e47274c63993a22df518991c4/c.html",
-          "domain": "english.news.cn",
-          "tier": "wire"
-        },
-        {
-          "url": "https://www.zawya.com/en/world/middle-east/abu-dhabi-authorities-two-emiratis-one-indian-sustain-minor-injuries-in-habshan-incident-pkavt9m3",
-          "domain": "zawya.com",
-          "tier": "wire"
-        }
-      ],
-      "snippet": null,
-      "preview_image": "https://media.assettype.com/gulfnews%2F2026-04-06%2Fwvfjh1p7%2FUAEflag?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
-      "_via": "rss",
-      "confidence": "high",
-      "_enriched_at": "2026-05-04T20:00:00Z",
-      "_search_count": 4,
-      "_next_search_at": 1775893875.0,
-      "_discard": false
-    },
-    {
-      "id": "dfac8a74feb7",
-      "datetime": "2026-04-07T11:14:18Z",
-      "type": "interception",
-      "confirmed": false,
-      "precision": "country",
-      "title": "UAE intercepts 1 missile and 11 drones",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.thenationalnews.com/news/uae/2026/04/07/uae-intercepts-one-ballistic-missile-and-11-drones-on-tuesday/",
-          "domain": "thenationalnews.com",
-          "tier": "local"
-        },
-        {
-          "url": "https://gulfnews.com/uae/uae-air-defences-intercept-1-ballistic-missile-and-11-drones-1.500498792",
-          "domain": "gulfnews.com",
-          "tier": "wire"
-        }
-      ],
-      "snippet": null,
-      "preview_image": "https://www.thenationalnews.com/resizer/v2/BNEVKG6VZ5FQLN3T4COQV3VMVU.jpg?smart=true&auth=df8f330b4d471335b10e55f2fd1ab226013fa82c9c7dc10928a75a30d4112125&width=1200&height=630",
-      "_via": "rss",
-      "confidence": "high",
-      "_enriched_at": "2026-05-04T20:00:00Z",
-      "_search_count": 5,
-      "_next_search_at": null,
-      "_search_exhausted": true,
-      "_discard": false
-    },
-    {
-      "id": "8f7e183f8560",
-      "datetime": "2026-04-07T02:06:04Z",
-      "type": "interception",
-      "confirmed": false,
-      "precision": "city",
-      "title": "Missiles and drones intercepted near Abu Dhabi",
-      "location": "Abu Dhabi",
-      "lat": 24.4539,
-      "lon": 54.3773,
-      "sources": [
-        {
-          "url": "https://gulfnews.com/uae/uae-air-defences-intercept-iranian-missiles-and-drones-1.500498399",
-          "domain": "gulfnews.com",
-          "tier": "local"
-        },
-        {
-          "url": "https://www.newsonair.gov.in/uae-air-defences-intercept-iranian-missiles-and-drones-targeting-abu-dhabi/",
-          "domain": "newsonair.gov.in",
-          "tier": "wire"
-        }
-      ],
-      "snippet": null,
-      "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-26%2F93ocapfr%2FUAEflag?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
-      "_via": "rss",
-      "confidence": "low",
-      "_enriched_at": "2026-05-04T20:00:00Z",
-      "_search_count": 5,
-      "_next_search_at": null,
-      "_search_exhausted": true,
-      "_discard": false
-    },
-    {
-      "id": "5541e50293d9",
-      "datetime": "2026-04-06T11:05:43Z",
-      "type": "interception",
-      "confirmed": false,
-      "precision": "country",
-      "title": "UAE intercepts 12 missiles, 2 cruise missiles and 19 drones",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.thenationalnews.com/news/uae/2026/04/06/uae-intercepts-12-ballistic-missiles-two-cruise-missiles-and-19-drones-on-monday/",
-          "domain": "thenationalnews.com",
-          "tier": "local"
-        },
-        {
-          "url": "https://gulfnews.com/uae/uae-air-defences-intercept-twelve-ballistic-missiles-two-cruise-missiles-and-19-uavs-1.500497753",
-          "domain": "gulfnews.com",
-          "tier": "local"
-        },
-        {
-          "url": "https://x.com/modgovae/status/2027774368743624909",
-          "domain": "x.com",
-          "tier": "wire"
-        }
-      ],
-      "snippet": null,
-      "preview_image": "https://www.thenationalnews.com/resizer/v2/6EICJPZ6WJAOBKKUCCH4FJXG6U.jpg?smart=true&auth=754e66992e024dc2c936bebfc925629da84a448217495060ebc71ed3a1e5b890&width=1200&height=630",
-      "_via": "rss",
-      "confidence": "high",
-      "_enriched_at": "2026-05-04T20:00:00Z",
-      "_search_count": 1,
-      "_next_search_at": 1775477143.0,
-      "_discard": false
-    },
-    {
-      "id": "37995e199ea5",
-      "datetime": "2026-04-05T11:06:56Z",
-      "type": "interception",
+      "id": "1a4d3797a7cf",
+      "datetime": "2026-05-05T02:34:15Z",
+      "type": "impact_major",
       "confirmed": true,
       "precision": "country",
-      "title": "UAE intercepts 9 missiles, 1 cruise missile and 50 drones",
+      "title": "Iran attack hits UAE oil facility as US strikes boats",
       "location": "UAE",
       "lat": null,
       "lon": null,
       "sources": [
         {
-          "url": "https://www.thenationalnews.com/news/uae/2026/04/05/uae-intercepts-nine-ballistic-missiles-one-cruise-missile-and-50-drones-on-sunday/",
-          "domain": "thenationalnews.com",
-          "tier": "local"
-        },
-        {
-          "url": "https://apnews.com/live/iran-war-israel-trump-04-05-2026",
-          "domain": "apnews.com",
+          "url": "https://www.bbc.com/news/articles/cjwp432d0v5o?at_medium=RSS&amp;at_campaign=rss",
+          "domain": "bbc.com",
           "tier": "wire"
-        },
-        {
-          "url": "https://gulfnews.com/uae/uae-air-defence-intercepted-9-ballistic-missiles-1-cruise-missiles-and-50-drones-from-iran-on-april-5-2026-1.500496970",
-          "domain": "gulfnews.com",
-          "tier": "local"
         }
       ],
-      "snippet": null,
-      "preview_image": "https://www.thenationalnews.com/resizer/v2/GYSHBN4SKVFY5HBDCSQA4KDD64.jpg?smart=true&auth=f92a0417b0df7999f41f39a6ee4c730c998c9bfa3190c9095ef79d1769a5242c&width=1200&height=630",
-      "_via": "rss",
-      "confidence": "high",
-      "_search_count": 1,
-      "_next_search_at": 1775390816.0,
-      "_enriched_at": "2026-05-04T20:00:00Z",
-      "_discard": false
-    },
-    {
-      "id": "0e0fdaa94c0a",
-      "datetime": "2026-04-04T09:47:36Z",
-      "type": "interception",
-      "confirmed": false,
-      "precision": "country",
-      "title": "UAE intercepts 23 missiles and 56 drones",
-      "location": "UAE",
-      "lat": null,
-      "lon": null,
-      "sources": [
-        {
-          "url": "https://www.thenationalnews.com/news/uae/2026/04/04/two-dubai-buildings-hit-by-falling-debris-after-iran-strikes-intercepted/",
-          "domain": "thenationalnews.com",
-          "tier": "local"
-        },
-        {
-          "url": "https://gulfnews.com/uae/uae-air-defense-forces-intercepted-23-ballistic-missiles-and-56-drones-on-april-4-1.500496190",
-          "domain": "gulfnews.com",
-          "tier": "local"
-        }
-      ],
-      "snippet": null,
-      "preview_image": "https://www.thenationalnews.com/resizer/v2/LAUIJCHKORBUHESGN4BITQGYSQ.jpg?smart=true&auth=e2b29ffdcbe5c24d27606712f57bf79bad70c0c82cf8d6df1c2cf28d9b85ce81&width=1200&height=630",
+      "snippet": "Shipping company Maersk says one of its US-flagged commercial vessels has successfully exited the Strait of Hormuz under US military protection.",
+      "preview_image": "https://ichef.bbci.co.uk/news/1024/branded_news/4dcd/live/020fd5a0-47de-11f1-90ad-2ff82eec9d15.jpg",
       "_via": "rss",
       "confidence": "medium",
-      "_enriched_at": "2026-05-04T20:00:00Z",
-      "_search_count": 1,
-      "_next_search_at": 1775299656.0,
-      "_discard": false
+      "_enriched_at": "2026-05-05T06:00:00Z"
     },
     {
-      "id": "3b42aaa841fe",
-      "datetime": "2026-04-04T03:24:40Z",
+      "id": "2fa808854e82",
+      "datetime": "2026-05-04T15:25:04Z",
+      "type": "impact_minor",
+      "confirmed": false,
+      "precision": "city",
+      "title": "Drone attack in Fujairah injures three",
+      "location": "Fujairah",
+      "lat": 25.1288,
+      "lon": 56.3265,
+      "sources": [
+        {
+          "url": "https://www.thenationalnews.com/news/uae/2026/05/04/uae-intercepts-four-missiles-as-new-safety-alerts-issued/",
+          "domain": "thenationalnews.com",
+          "tier": "local"
+        }
+      ],
+      "snippet": null,
+      "preview_image": "https://www.thenationalnews.com/resizer/v2/Z3IMP25XBNAAFMXRNLDQS73MJM.jpg?smart=true&amp;auth=20ada64b47d60ddfe359bd797a50cd427b972d5e8112d5c72759dc9f0899b648&amp;width=1200&amp;height=630",
+      "_via": "rss",
+      "confidence": "low",
+      "_enriched_at": "2026-05-05T06:00:00Z"
+    },
+    {
+      "id": "3453095a5e5d",
+      "datetime": "2026-05-04T02:55:27Z",
       "type": "interception",
       "confirmed": false,
       "precision": "country",
-      "title": "Interception debris hits Dubai Internet City tower",
-      "location": "Dubai Internet City",
+      "title": "UAE intercepts 12 missiles, 3 cruise missiles and 4 drones",
+      "location": "UAE",
       "lat": null,
       "lon": null,
       "sources": [
         {
-          "url": "https://gulfnews.com/uae/government/iran-conflict-debris-from-aerial-interception-hits-dubai-internet-city-building-1.500495914",
+          "url": "https://gulfnews.com/world/mena/uae-intercepts-12-ballistic-missiles-three-cruise-missiles-and-four-drones-from-iran-schools-universities-go-online-1.500527915",
           "domain": "gulfnews.com",
           "tier": "local"
         },
         {
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/dubai-media-office-confirms-debris-strike-internet-city-building",
-          "domain": "middleeasteye.net",
-          "tier": "wire"
-        },
-        {
-          "url": "https://www.cnbc.com/2026/04/04/debris-from-interception-strikes-oracle-building-in-dubai-uae-says.html",
-          "domain": "cnbc.com",
-          "tier": "wire"
-        }
-      ],
-      "snippet": null,
-      "preview_image": "https://media.assettype.com/gulfnews%2Fimport%2F2022%2F01%2F04%2FSTOCK-Dubai-Internet-city_17e26a0f8ba_large.jpg?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
-      "_via": "rss",
-      "confidence": "high",
-      "_enriched_at": "2026-05-04T20:00:00Z",
-      "_search_count": 2,
-      "_next_search_at": 1775294680.0,
-      "_discard": false
-    },
-    {
-      "id": "7e6333dcea4e",
-      "datetime": "2026-04-04T02:35:00Z",
-      "type": "interception",
-      "confirmed": false,
-      "precision": "area",
-      "title": "Interception debris hits Dubai Marina tower",
-      "location": "Dubai Marina",
-      "lat": 25.0819,
-      "lon": 55.1367,
-      "sources": [
-        {
-          "url": "https://gulfnews.com/uae/government/iran-conflict-debris-from-aerial-interception-hits-dubai-marina-building-1.500495902",
-          "domain": "gulfnews.com",
+          "url": "https://www.thenationalnews.com/business/economy/2026/05/05/more-than-85-of-irans-drone-strikes-on-uae-thwarted-by-edge-defence-systems/",
+          "domain": "thenationalnews.com",
           "tier": "local"
-        },
-        {
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/debris-interception-hits-dubai-marina-building-no-injuries-reported",
-          "domain": "middleeasteye.net",
-          "tier": "wire"
         }
       ],
       "snippet": null,
-      "preview_image": "https://media.assettype.com/gulfnews%2F2026-03-06%2F2cx9y26d%2FDubai-Marina.jpg?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
+      "preview_image": "https://gumlet-images.assettype.com/gulfnews%2F2026-05-05%2F21yy0oq3%2FHormuz-Grimaldi-lines.jpeg?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100",
       "_via": "rss",
-      "confidence": "high",
-      "_enriched_at": "2026-05-04T20:00:00Z",
-      "_search_count": 2,
-      "_next_search_at": 1775291700.0,
-      "_discard": false
+      "confidence": "low",
+      "_enriched_at": "2026-05-05T06:00:00Z"
     },
     {
       "id": "780a01bcf148",
